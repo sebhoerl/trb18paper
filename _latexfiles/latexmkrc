@@ -1,0 +1,3 @@
+$pdflatex  =  "$ENV{PDFLATEX} -synctex=1 --src-specials";
+$bibtex  =  'bibtex8 -8 --wolfgang --wolfgang --mcites 10000 --mentints 100000 --mentstrs 100000 --mfields 300000 --mpool 2000000 --mstrings 35000 %O %B';
+$bibtex_silent_switch  =  '';

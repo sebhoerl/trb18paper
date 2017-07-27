@@ -1,0 +1,1950 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.24)  25 JUL 2017 11:15
+entering extended mode
+ restricted \write18 enabled.
+ Source specials enabled.
+ %&-line parsing enabled.
+**/home/sebastian/idsc/paper/_latexfiles/unsortbibs/example.tex
+(/home/sebastian/idsc/paper/_latexfiles/unsortbibs/example.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 2 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+) (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2015/08/03 3.9m The Babel package
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2015/08/03 3.9m Babel common definitions
+\babel@savecnt=\count90
+\U@D=\dimen111
+)
+\l@british = a dialect from \language\l@english 
+\l@UKenglish = a dialect from \language\l@english 
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+) (/usr/share/texlive/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2014/10/10 v2.7b German support for babel (traditional orthogr
+aphy)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2014/10/10 v2.7b German support for babel (traditional orthog
+raphy)
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `German' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for english instead on input line 54.
+
+\l@german = a dialect from \language0
+\l@austrian = a dialect from \language\l@german 
+Package babel Info: Making " an active character on input line 110.
+))
+
+Package babel Warning: Last declared language option is `english,
+(babel)                but the last processed one was `german'.
+(babel)                The main language cannot be set as both a global
+(babel)                and a package option. Use `main=english' as
+(babel)                option. Reported on input line 315.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2001/04/09 non-zero parskip adjustments
+) (/usr/share/texlive/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen112
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen113
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip11
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks19
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks20
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count103
+) (./example.aux)
+\openout1 = `example.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 85.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=635.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-1.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(./example.bbl
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+[1
+
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21]
+[22] [23] [24] [25] [26] [27] [28]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 2209.
+[29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44]
+[45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60]
+[61] [62] [63] [64] [65] [66] [67] [68]
+! Misplaced alignment tab character &.
+<argument> Neural Computing &
+                              Applications
+l.5287 ...\textit{Neural Computing & Applications}
+                                                  ,
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[69] [70] [71]
+Underfull \hbox (badness 6961) in paragraph at lines 5532--5534
+[][]\T1/ptm/m/n/12 Gabler, S. (1992) Schnee-bal-lver-fahren und ver-wandte Stic
+h-proben-de-signs, \T1/ptm/m/it/12 ZUMA-
+ []
+
+[72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87]
+
+Underfull \hbox (badness 2293) in paragraph at lines 6796--6799
+[][]\T1/ptm/m/n/12 Huang, H.-J. and W. H. K. Lam (2005) A stochas-tic mod-el fo
+r com-bined ac-tiv-i-
+ []
+
+[88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [
+103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
+Underfull \hbox (badness 1226) in paragraph at lines 8804--8806
+[][]\T1/ptm/m/n/12 Nagel, K. and M. Rick-ert (2001) Par-al-lel im-ple-men-ta-ti
+on of the TRAN-SIMS micro-
+ []
+
+[114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [
+127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [1
+40] [141] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [15
+3] [154]
+Underfull \hbox (badness 1077) in paragraph at lines 12069--12072
+\T1/ptm/m/n/12 Constrained Origin-Destination Pat-terns for Mas-sive Trans-port
+a-tion Da-ta, \T1/ptm/m/it/12 COM-PUT-ER
+ []
+
+[155] [156]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 12213
+.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 12224--12227
+[][]\T1/ptm/m/n/12 MANUAL-AUTHOR (0003) \T1/ptm/m/it/12 A typ-i-cal Man-u-al\T1
+/ptm/m/n/12 , Swiss Fed-er-al Sta-tis-ti-cal Of-fice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12224--12227
+\T1/ptm/m/n/12 (BFS), Neucha-tel, $\T1/pcr/m/n/12 http : / / www . bfs . admin 
+. ch / bfs / portal / de / index /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12224--12227
+\T1/pcr/m/n/12 dienstleistungen / servicestelle _ geostat / datenbeschreibung /
+
+ []
+
+[157]
+Underfull \hbox (badness 1540) in paragraph at lines 12252--12255
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Sta-tis-ti-cal Of-fice (BFS) (2006) \T1/ptm/
+m/it/12 Ergeb-nisse des Mikrozen-sus 2005 zum
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 12264--12268
+\T1/ptm/m/it/12 (EVE 2004)\T1/ptm/m/n/12 , Swiss Fed-er-al Sta-tis-ti-cal Of-fi
+ce (BFS), Neucha-tel, $\T1/pcr/m/n/12 http : / / www . bfs .
+ []
+
+[158]
+Underfull \hbox (badness 1859) in paragraph at lines 12309--12312
+[][]\T1/ptm/m/n/12 ESRI (1998) \T1/ptm/m/it/12 ES-RI Shape-file Tech-ni-cal De-
+scrip-tion\T1/ptm/m/n/12 , En-vi-ron-men-tal Sys-tems Re-search
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 12309--12312
+\T1/ptm/m/n/12 In-sti-tute (ES-RI) Inc., $\T1/pcr/m/n/12 http : / / www . esri 
+. com / library / whitepapers / pdfs /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12360--12363
+\T1/pcr/m/n/12 view / All / job / UserGuide / ws / trunk / docs / user-[]guide 
+/ user-[]guide .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12365--12368
+\T1/pcr/m/n/12 view / All / job / UserGuide / ws / trunk / docs / user-[]guide 
+/ user-[]guide .
+ []
+
+[159]
+Underfull \hbox (badness 1540) in paragraph at lines 12396--12401
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Sta-tis-ti-cal Of-fice (BFS) (2001) \T1/ptm/
+m/it/12 Ei-d-genös-sis-che Be-trieb-szäh-lung 2001 -
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12396--12401
+\T1/ptm/m/n/12 GEO-STAT, Neucha-tel, $\T1/pcr/m/n/12 http : / / www . bfs . adm
+in . ch / bfs / portal / de / index /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12396--12401
+\T1/pcr/m/n/12 dienstleistungen / geostat / datenbeschreibung / betriebszaehlun
+g05 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12411--12416
+\T1/pcr/m/n/12 http : / / www . bfs . admin . ch / bfs / portal / de / index / 
+dienstleistungen /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12411--12416
+\T1/pcr/m/n/12 geostat / datenbeschreibung / betriebszaehlung05 . Document . 11
+1423 .
+ []
+
+[160]
+Underfull \hbox (badness 3000) in paragraph at lines 12450--12453
+[][]\T1/ptm/m/n/12 Zivilschutz der Stadt Zürich (2012) \T1/ptm/m/it/12 Wasser-a
+larm Sihlsee - Aus-lö-sung durch all-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12450--12453
+\T1/ptm/m/it/12 meinen Alarm\T1/ptm/m/n/12 , $\T1/pcr/m/n/12 http : / / www . s
+tadt-[]zuerich . ch / content / dam / stzh / pd /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12450--12453
+\T1/pcr/m/n/12 Deutsch / Schutz % 20und % 20Rettung / Zivilschutz / Publikation
+en %
+ []
+
+[161]
+Underfull \hbox (badness 2753) in paragraph at lines 12522--12526
+[][]\T1/ptm/m/n/12 Chakirov, A. (2010) Con-trol and Op-ti-miza-tion of Wave-Ind
+uced Mo-tion of Ramp-
+ []
+
+[162] [163]
+Underfull \hbox (badness 1533) in paragraph at lines 12655--12657
+[][]\T1/ptm/m/n/12 Neumann, A. (2008) Mod-el-lierung und Eval-u-a-tion von Lich
+tsig-nalan-la-gen in Queue-
+ []
+
+[164]
+Underfull \hbox (badness 10000) in paragraph at lines 12737--12739
+[][]\T1/ptm/m/n/12 ADAC (2012) ADAC Au-tokosten 2012, web-page, $\T1/pcr/m/n/12
+ https : / / www . adac . de /
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 12749--12752
+[][]\T1/ptm/m/n/12 Amt für Verkehr, Volk-swirtschafts-di-rek-tion Kan-ton Züric
+h (2011) Gesamtverkehrsmod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12749--12752
+\T1/ptm/m/n/12 ell, web-page, March 2011, $\T1/pcr/m/n/12 http : / / www . afv 
+. zh . ch / internet /
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 12755--12758
+[][]\T1/ptm/m/n/12 Amt für Verkehr, Volk-swirtschafts-di-rek-tion Kan-ton Züric
+h (2012) Gesamtverkehrsmod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12755--12758
+\T1/ptm/m/n/12 ell, web-page, May 2012, $\T1/pcr/m/n/12 http : / / www . afv . 
+zh . ch / internet /
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 12761--12764
+[][]\T1/ptm/m/n/12 Amt für Verkehr, Volk-swirtschafts-di-rek-tion Kan-ton Züric
+h (2013) Gesamtverkehrsmod-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12761--12764
+\T1/ptm/m/n/12 ell, web-page, Ju-ly 2013, $\T1/pcr/m/n/12 http : / / www . afv 
+. zh . ch / internet /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12771--12773
+[][]\T1/ptm/m/n/12 ApplauSim (2012) Sim-u-la-tion of Syn-chro-nized Ap-plause, 
+web-page, $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 4913) in paragraph at lines 12775--12777
+[][]\T1/ptm/m/n/12 ESRI (2011) Ar-cGIS Desk-top: Re-lease 9.3, soft-ware, $\T1/
+pcr/m/n/12 http : / / www . esri . com /
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 12779--12783
+[][]\T1/ptm/m/n/12 ARC (2009) Activity-based trav-el mod-el spec-i-fi-ca-tions:
+ Co-or-di-nat-ed trav-el - re-gion-al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12779--12783
+\T1/pcr/m/n/12 http : / / www . atlantaregional . com / /File % 20Library / Tra
+nsportation /
+ []
+
+[165]
+Underfull \hbox (badness 2237) in paragraph at lines 12800--12803
+[][]\T1/ptm/m/n/12 Austroads (2012) Small trav-el time sav-ings: Treat-ment in 
+project eval-u-a-tions, web-
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 12805--12807
+[][]\T1/ptm/m/n/12 Wikipedia (2014) Au-to-mat-ic par-al-leliza-tion, web-page, 
+April 2014, $\T1/pcr/m/n/12 http : / / en .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12805--12807
+\T1/pcr/m/n/12 wikipedia . org / w / index . php ? title = Parallel _ computing
+ & oldid =
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 12814--12817
+[][]\T1/ptm/m/n/12 Auto Schweiz, As-so-ci-a-tion of Swiss car im-porters (2009)
+ Statisiken: Per-so-n-en-wa-
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 12823--12825
+[][]\T1/ptm/m/n/12 Axhausen, K. W. (2015) Gefan-gen im Netz?, web-page, $\T1/pc
+r/m/n/12 https : / / www . ethz .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12823--12825
+\T1/pcr/m/n/12 ch / de / news-[]und-[]veranstaltungen / zukunftsblog / archiv /
+ 2015 / 02 /
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 12827--12830
+[][]\T1/ptm/m/n/12 Axhausen, K. W. (2015) Die Fahrzeit ist entschei-dend -- Wis
+-senschaftliche As-
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 12827--12830
+\T1/ptm/m/n/12 pek-te des Verkehrs, web-page, $\T1/pcr/m/n/12 https : / / www .
+ espazium . ch / tec21 / article /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12832--12835
+[][]\T1/ptm/m/n/12 Axhausen, K. W. (2015) El-e-ments of Ac-cess: Our Trav-el is
+ Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12832--12835
+\T1/ptm/m/n/12 strained, web-page, $\T1/pcr/m/n/12 http : / / transportationist
+ . org / 2015 / 04 / 20 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12843--12847
+[][]\T1/ptm/m/n/12 Federal Of-fice for the En-vi-ron-ment (FOEN) (2010) Gefahre
+nkarten: Bis 2011
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12843--12847
+\T1/ptm/m/n/12 noch grosse Anstren-gun-gen der Kan-tone notwendig, press re-lea
+se, April 2010,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12843--12847
+\T1/pcr/m/n/12 http : / / www . bafu . admin . ch / dokumentation / medieninfor
+mation /
+ []
+
+[166]
+Underfull \hbox (badness 4543) in paragraph at lines 12850--12854
+[][]\T1/ptm/m/n/12 Federal Of-fice for the En-vi-ron-ment (FOEN) (2010) Emis-si
+o-nen nach CO$[]$-Gesetz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12850--12854
+\T1/ptm/m/n/12 und Ky-otot Pro-tokoll, web-page, $\T1/pcr/m/n/12 Available : ht
+tp : / / www . news . admin . ch /
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 12872--12875
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Of-fice of En-er-gy (SFOE) (2009) En-ergi-et
+ikette: Fahrzeugliste, web-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12894--12897
+\T1/ptm/m/n/12 web-page, $\T1/pcr/m/n/12 http : / / www . bfs . admin . ch / bf
+s / portal / de / index / themen / 09 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12900--12903
+\T1/pcr/m/n/12 www . bfs . admin . ch / bfs / portal / de / index / dienstleist
+ungen / geostat /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12905--12907
+\T1/pcr/m/n/12 admin . ch / bfs / portal / de / index / infothek / nomenklature
+n / blank /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12910--12913
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Sta-tis-ti-cal Of-fice (BFS) (2008) Haushalt
+s-bud-geter-he-bung, $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12910--12913
+\T1/pcr/m/n/12 / / www . bfs . admin . ch / bfs / portal / de / index / infothe
+k / erhebungen _
+ []
+
+
+Underfull \hbox (badness 4391) in paragraph at lines 12920--12922
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Sta-tis-ti-cal Of-fice (BFS) (2005) Mikrozen
+-sus Verkehr 2005, $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12920--12922
+\T1/pcr/m/n/12 / / www . bfs . admin . ch / bfs / portal / de / index / infothe
+k / erhebungen _
+ []
+
+[167]
+Underfull \hbox (badness 4391) in paragraph at lines 12925--12928
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Sta-tis-ti-cal Of-fice (BFS) (2010) Mikrozen
+-sus Verkehr 2010, $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12925--12928
+\T1/pcr/m/n/12 / / www . bfs . admin . ch / bfs / portal / de / index / infothe
+k / erhebungen _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12950--12953
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Sta-tis-ti-cal Of-fice (BFS) (2017) Die neue
+ Volk-szäh-lung, $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12950--12953
+\T1/pcr/m/n/12 / / www . bfs . admin . ch / bfs / portal / de / index / dienstl
+eistungen /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12967--12970
+\T1/pcr/m/n/12 / / www . bfs . admin . ch / bfs / portal / de / index / infothe
+k / erhebungen _
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 12976--12978
+[][]\T1/ptm/m/n/12 Bivand, R. (2011) R pack-age spdep: ver-sion 0.5-35, soft-wa
+re, $\T1/pcr/m/n/12 http : / / cran .
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 12980--12982
+[][]\T1/ptm/m/n/12 Bivand, R. (2011) R pack-age spg-wr: ver-sion 0.6-10, soft-w
+are, $\T1/pcr/m/n/12 http : / / cran .
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 12988--12991
+[][]\T1/ptm/m/n/12 Breiman, L. and A. Cut-ler (2013) Ran-dom forests, web-page,
+ $\T1/pcr/m/n/12 http : / / stat-[]www .
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 12988--12991
+\T1/pcr/m/n/12 berkeley . edu / users / breiman / RandomForests / cc _ home . h
+tm$\T1/ptm/m/n/12 . Ac-cessed on
+ []
+
+[168]
+Underfull \hbox (badness 10000) in paragraph at lines 13006--13009
+[][]\T1/ptm/m/n/12 Byrd, A. (2012) Vi-su-al-iz-ing ur-ban ac-ces-si-bil-i-ty wi
+th Open-Trip-Plan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13006--13009
+\T1/ptm/m/n/12 ner An-a-lyst, web-page, $\T1/pcr/m/n/12 http : / / blog . openp
+lans . org / 2012 / 06 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13023--13026
+\T1/ptm/m/n/12 ary 2011, $\T1/pcr/m/n/12 http : / / www . comparis . ch / \~ / 
+media / files / mediencorner /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13023--13026
+\T1/pcr/m/n/12 konsumentenstimme / ausgabe \ %202011 \ _06 / preisvergleich \
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 13028--13031
+[][]\T1/ptm/m/n/12 DDS Dig-i-tal Da-ta Ser-vices GmbH (2012) TRIP TRAC-ER ^^U E
+x-ak-te Er-fas-sung von
+ []
+
+
+Underfull \hbox (badness 1946) in paragraph at lines 13028--13031
+\T1/ptm/m/n/12 Wegstreck-en im Tele-fon-in-ter-view, soft-ware, $\T1/pcr/m/n/12
+ http : / / www . ddsgeo . de / produkte /
+ []
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 13033--13036
+[][]\T1/ptm/m/n/12 Department for Trans-port (2009) NA-TA re-fresh: Ap-praisal 
+for a sus-tain-able trans-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13033--13036
+\T1/ptm/m/n/12 port sys-tem, $\T1/pcr/m/n/12 http : / / webarchive . nationalar
+chives . gov . uk / + / http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13033--13036
+\T1/pcr/m/n/12 /www . dft . gov . uk / consultations / archive / 2008 / consuln
+atarefresh /
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 13062--13065
+\T1/ptm/m/n/12 ber 2011, $\T1/pcr/m/n/12 http : / / www . dmg . utoronto . ca /
+ reports / cordoncountreports .
+ []
+
+[169]
+Underfull \hbox (badness 10000) in paragraph at lines 13067--13070
+\T1/ptm/m/n/12 2011, $\T1/pcr/m/n/12 http : / / www . dmg . utoronto . ca / tra
+nsportationtomorrowsurvey /
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 13072--13074
+[][]\T1/ptm/m/n/12 Federal Of-fice of To-pog-ra-phy swis-stopo (2012) Dhm25, we
+b-page, Febru-ary 2012,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13072--13074
+\T1/pcr/m/n/12 http : / / www . swisstopo . admin . ch / internet / swisstopo /
+ de / home /
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 13077--13080
+[][]\T1/ptm/m/n/12 Office for Spa-tial De-vel-op-ment of the Can-ton of Zurich 
+(2015) Dtm gis zh,
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 13077--13080
+\T1/ptm/m/n/12 web-page, Febru-ary 2015, $\T1/pcr/m/n/12 http : / / maps . zh .
+ ch / ?topic = LidarZH & offlayers =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13094--13096
+[][]\T1/ptm/m/n/12 DYNASMART (2013) DY-NAS-MART, web-page, $\T1/pcr/m/n/12 http
+ : / / www . its . uci . edu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13098--13101
+\T1/pcr/m/n/12 http : / / www . eea . europa . eu / themes / climate / ghg-[]co
+untry-[]profiles /
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 13112--13115
+[][]\T1/ptm/m/n/12 SRG SSR ideé su-isse (2008) Ein-stein: Verkehrssim-u-la-tion
+ für Pla-nungs-fra-gen, tele-vi-
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 13112--13115
+\T1/ptm/m/n/12 sion broad-cast, May 2008, $\T1/pcr/m/n/12 http : / / www . sf .
+ tv / sf1 / einstein / sendung . php ?
+ []
+
+
+Underfull \hbox (badness 7925) in paragraph at lines 13131--13133
+[][]\T1/ptm/m/n/12 ESRI (2011) Ar-cgis desk-top: Re-lease 9.3, soft-ware, $\T1/
+pcr/m/n/12 http : / / www . esri . com /
+ []
+
+[170]
+Underfull \hbox (badness 3407) in paragraph at lines 13143--13145
+[][]\T1/ptm/m/n/12 ETH Life (2013) Ver-traute fremde, web-page, $\T1/pcr/m/n/12
+ http : / / www . ethlife . ethz . ch /
+ []
+
+
+Underfull \hbox (badness 4967) in paragraph at lines 13147--13150
+[][]\T1/ptm/m/n/12 ETH (2013) ETH Sus-tain-abil-i-ty Sum-mer School ``Fu-ture C
+ities -- Net-works and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13147--13150
+\T1/ptm/m/n/12 Gram-mars'', web-page, $\T1/pcr/m/n/12 https : / / www . ethz . 
+ch / de / die-[]eth-[]zuerich /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13147--13150
+\T1/pcr/m/n/12 nachhaltigkeit / aus-[]und-[]weiterbildung / sommer-[]und-[]wint
+erschulen /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13165--13167
+[][]\T1/ptm/m/n/12 INRO (2008) EMME, web-page, $\T1/pcr/m/n/12 http : / / www .
+ inro . ca / en / products / emme /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13169--13171
+[][]\T1/ptm/m/n/12 INRO (2011) EMME, web-page, $\T1/pcr/m/n/12 http : / / www .
+ inro . ca / en / products / emme /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13173--13175
+[][]\T1/ptm/m/n/12 INRO (2015) EMME, web-page, $\T1/pcr/m/n/12 http : / / www .
+ inro . ca / en / products / emme /
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 13182--13185
+[][]\T1/ptm/m/n/12 Erath, A. L. (2013) How to solve the prob-lem of bus bunch-i
+ng, on-line ar-ti-cle,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13182--13185
+\T1/pcr/m/n/12 http : / / www . straitstimes . com / the-[]big-[]story / case-[
+]you-[]missed-[]it /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13187--13190
+\T1/ptm/m/n/12 2006, $\T1/pcr/m/n/12 http : / / www . estv2 . admin . ch / d / 
+dokumentation / zahlen _ fakten /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13192--13194
+[][]\T1/ptm/m/n/12 EUNOIA Project (2015) EU-NOIA project web-page, web-page, $\
+T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 13196--13199
+[][]\T1/ptm/m/n/12 Eurostat (2015) In-come of house-hold by NUTS lev-el, web-pa
+ge, $\T1/pcr/m/n/12 http : / / appsso .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13196--13199
+\T1/pcr/m/n/12 eurostat . ec . europa . eu / nui / show . do ? dataset = nama _
+ r _ ehh2inc & lang =
+ []
+
+[171]
+Underfull \hbox (badness 10000) in paragraph at lines 13201--13204
+\T1/pcr/m/n/12 eurostat / statistics-[]explained / index . php / Tourism _ stat
+istics _ -[] _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13242--13246
+[][]\T1/ptm/m/n/12 Flügel, S., N. G. Voll and F. Bock-emühl (2014) Prøves for v
+eg-nettver-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13242--13246
+\T1/ptm/m/n/12 ket i Trond-heim: Ny og bedre metode for å bereg-ne trafikkavvik
+ling,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13242--13246
+\T1/ptm/m/n/12 press re-lease, June 2014, $\T1/pcr/m/n/12 http : / / samferdsel
+ . toi . no / nr-[]06 /
+ []
+
+
+Overfull \hbox (44.73062pt too wide) in paragraph at lines 13242--13246
+\T1/pcr/m/n/12 ny-[]og-[]bedre-[]metode-[]for-[]a-[]beregne-[]trafikkavvikling-
+[]article32606-[]1462 .
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 13248--13251
+[][]\T1/ptm/m/n/12 Fussell, E. (2006) Leav-ing New Or-leans: So-cial strat-i-fi
+-ca-tion, net-works, and hur-ri-
+ []
+
+[172]
+Underfull \hbox (badness 3612) in paragraph at lines 13270--13272
+[][]\T1/ptm/m/n/12 GNU Project (2011) Gnu screen, web-page, May 2011, $\T1/pcr/
+m/n/12 http : / / www . gnu . org /
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 13307--13309
+[][]\T1/ptm/m/n/12 Gradoteka (2015) Ex-cit-ing statis-tics Sama-ra city in in-f
+o-graph-ics, web-page, $\T1/pcr/m/n/12 http : / /
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 13311--13313
+[][]\T1/ptm/m/n/12 geOps (2015) Pub-lic Trans-po-ra-tion Feed for Switzer-land,
+ web-page, $\T1/pcr/m/n/12 http : / / gtfs .
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 13315--13318
+[][]\T1/ptm/m/n/12 Haklay (2012) 'no-body wants to do coun-cil es-tates' - dig-
+i-tal di-vide, spa-tial jus-tice
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13315--13318
+\T1/ptm/m/n/12 and out-liers, web-page, $\T1/pcr/m/n/12 http : / / povesham . w
+ordpress . com / 2012 / 03 / 05 /
+ []
+
+
+Overfull \hbox (193.73056pt too wide) in paragraph at lines 13315--13318
+\T1/pcr/m/n/12 nobody-[]wants-[]to-[]do-[]council-[]estates-[]digital-[]divide-
+[]spatial-[]justice-[]and-[]outliers-[]aag-[]2012/$\T1/ptm/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13320--13322
+[][]\T1/ptm/m/n/12 Beyer (2004) Hawth's anal-y-sis tools for ar-cgis, soft-ware
+, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 13324--13327
+[][]\T1/ptm/m/n/12 University of Stuttgart (2014) De-vel-op-ing har-monised eu-
+ro-pean ap-proach-es for trans-
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 13324--13327
+\T1/ptm/m/n/12 port cost-ing and project as-sess-ment (HEAT-CO), web-page, $\T1
+/pcr/m/n/12 http : / / heatco . ier .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13334--13337
+[][]\T1/ptm/m/n/12 HDB (2011) HDB In-foWeb, $\T1/pcr/m/n/12 http : / / services
+2 . hdb . gov . sg / webapp /
+ []
+
+[173]
+Underfull \hbox (badness 10000) in paragraph at lines 13339--13342
+[][]\T1/ptm/m/n/12 HDB (2011) HDB Up-grad-ing Pro-grammes, $\T1/pcr/m/n/12 http
+ : / / www . hdb . gov . sg / fi10 /
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 13409--13412
+\T1/ptm/m/n/12 For-Parking Sim-u-la-tion pub-lished on github.com, soft-ware, $
+\T1/pcr/m/n/12 https : / / github . com /
+ []
+
+[174]
+Underfull \hbox (badness 10000) in paragraph at lines 13435--13437
+[][]\T1/ptm/m/n/12 MathWorks (2012) MAT-LAB R2012b (Ver-sion 8.0), soft-ware, $
+\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 13459--13461
+[][]\T1/ptm/m/n/12 MATSim (2012) Mul-ti Agent Trans-porta-tion Sim-u-la-tion, w
+eb-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 13463--13465
+[][]\T1/ptm/m/n/12 MATSim (2013) Multi-Agent Trans-porta-tion Sim-u-la-tion, we
+b-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 13467--13469
+[][]\T1/ptm/m/n/12 MATSim (2014) Multi-Agent Trans-porta-tion Sim-u-la-tion, we
+b-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 13471--13473
+[][]\T1/ptm/m/n/12 MATSim (2015) Multi-Agent Trans-porta-tion Sim-u-la-tion, we
+b-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 13475--13477
+[][]\T1/ptm/m/n/12 MATSim (2016) Multi-Agent Trans-porta-tion Sim-u-la-tion, we
+b-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 6708) in paragraph at lines 13479--13481
+[][]\T1/ptm/m/n/12 MATSim (2017) Multi-Agent Trans-porta-tion Sim-u-la-tion, we
+b-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+[175]
+Underfull \hbox (badness 10000) in paragraph at lines 13546--13548
+[][]\T1/ptm/m/n/12 MATSim-T (2008) Ex-am-ples MAT-Sim, web-page, $\T1/pcr/m/n/1
+2 http : / / www . matsim . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13550--13552
+[][]\T1/ptm/m/n/12 MATSim-T (2015) Ex-am-ples MAT-Sim, web-page, $\T1/pcr/m/n/1
+2 http : / / www . matsim . org /
+ []
+
+[176]
+Underfull \hbox (badness 10000) in paragraph at lines 13554--13556
+[][]\T1/ptm/m/n/12 MATSim (2013) MAT-Sim sce-nar-ios, web-page, $\T1/pcr/m/n/12
+ http : / / www . matsim . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13558--13560
+[][]\T1/ptm/m/n/12 MATSim (2014) MAT-Sim sce-nar-ios, web-page, $\T1/pcr/m/n/12
+ http : / / www . matsim . org /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13562--13564
+[][]\T1/ptm/m/n/12 MATSim (2015) MAT-Sim sce-nar-ios, web-page, $\T1/pcr/m/n/12
+ http : / / www . matsim . org /
+ []
+
+
+Underfull \hbox (badness 2717) in paragraph at lines 13586--13589
+[][]\T1/ptm/m/n/12 Medical Dai-ly (2013) So-cial Net-works Be-tween 'Fa-mil-iar
+ Strangers' Could Pre-dict
+ []
+
+
+Overfull \hbox (243.63054pt too wide) in paragraph at lines 13586--13589
+\T1/pcr/m/n/12 social-[]networks-[]between-[]familiar-[]strangers-[]could-[]pre
+dict-[]how-[]diseases-[]spread-[]urban-[]areas-[]247931$\T1/ptm/m/n/12 . 
+ []
+
+
+Overfull \hbox (25.63063pt too wide) in paragraph at lines 13595--13598
+\T1/pcr/m/n/12 the-[]science-[]of-[]familiar-[]strangers-[]societys-[]hidden-[]
+social-[]network/$\T1/ptm/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13600--13602
+[][]\T1/ptm/m/n/12 MITSIM (2006) MIT-SIM-Lab, web-page, $\T1/pcr/m/n/12 http : 
+/ / www . web . mit . edu / its /
+ []
+
+[177]
+Underfull \hbox (badness 10000) in paragraph at lines 13628--13630
+[][]\T1/ptm/m/n/12 MPI-Forum (2008) Mes-sage Pass-ing In-ter-face Fo-rum, web-p
+age, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 13632--13635
+[][]\T1/ptm/m/n/12 Tele At-las Multi-Net (2010) Multi-Net: The most pow-er-ful 
+map database ev-er built,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13637--13641
+\T1/ptm/m/n/12 page, $\T1/pcr/m/n/12 http : / / licensing . tomtom . com / OurP
+roducts / MapData / Multinet /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13672--13674
+[][]\T1/ptm/m/n/12 Novatlantis (2010) Nach-haltigkeit im ETH Bere-ich, web-page
+, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 13676--13679
+[][]\T1/ptm/m/n/12 Department for Trans-port (2016) Na-tion-al trav-el sur-vey:
+ 2014, web-page, $\T1/pcr/m/n/12 http : / /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13676--13679
+\T1/pcr/m/n/12 www . gov . uk / government / statistics / national-[]travel-[]s
+urvey-[]2014$\T1/ptm/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 13681--13684
+[][]\T1/ptm/m/n/12 IFSTTAR (2016) French na-tion-al trav-el sur-vey: 2008, web-
+page, $\T1/pcr/m/n/12 http : / / http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13681--13684
+\T1/pcr/m/n/12 / / www . statistiques . developpement-[]durable . gouv . fr / t
+ransports / s /
+ []
+
+[178]
+Underfull \hbox (badness 2221) in paragraph at lines 13687--13691
+[][]\T1/ptm/m/n/12 Bureau of Trans-porta-tion Statis-tics (2016) Na-tion-al tra
+ns-porta-tion statistcs, web-page,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13687--13691
+\T1/pcr/m/n/12 http : / / www . rita . dot . gov / bts / sites / rita . dot . g
+ov . bts / files /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13687--13691
+\T1/pcr/m/n/12 publications / national _ transportation _ statistics / index . 
+html$\T1/ptm/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13702--13705
+[][]\T1/ptm/m/n/12 OECD (2012) OECD Tourism Trends and Poli-cies 2012, web-page
+,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13702--13705
+\T1/pcr/m/n/12 http : / / www . oecd-[]ilibrary . org / industry-[]and-[]servic
+es /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13702--13705
+\T1/pcr/m/n/12 oecd-[]tourism-[]trends-[]and-[]policies-[]2012 _ tour-[]2012-[]
+en$\T1/ptm/m/n/12 . Ac-cessed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13707--13709
+[][]\T1/ptm/m/n/12 BMVI (2012) Oester-re-ich Un-ter-wegs, web-page, $\T1/pcr/m/
+n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13711--13713
+[][]\T1/ptm/m/n/12 Omnitrans In-ter-na-tion-al (2011) Om-ni-TRANS, web-page, $\
+T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13711--13713
+\T1/pcr/m/n/12 omnitrans-[]international . com / en / products / omnitrans /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13723--13725
+[][]\T1/ptm/m/n/12 OpenStreetMap (2011) The Free Wi-ki World Map, web-page, $\T
+1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13727--13729
+[][]\T1/ptm/m/n/12 OpenStreetMap (2015) The Free Wi-ki World Map, web-page, $\T
+1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13736--13739
+[][]\T1/ptm/m/n/12 ORACLE (2014) Ja-va Soft-ware, web-page, $\T1/pcr/m/n/12 htt
+p : / / www . oracle . com / us /
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 13745--13747
+[][]\T1/ptm/m/n/12 PCATS (2011) Activity-travel sim-u-la-tor PCATS, web-page, $
+\T1/pcr/m/n/12 http : / / trans . kuciv .
+ []
+
+[179]
+Underfull \hbox (badness 1496) in paragraph at lines 13749--13751
+[][]\T1/ptm/m/n/12 PCATS (2013) Activity-travel sim-u-la-tor PCATS, web-page, $
+\T1/pcr/m/n/12 http : / / trans . kuciv .
+ []
+
+
+Underfull \hbox (badness 5954) in paragraph at lines 13762--13765
+[][]\T1/ptm/m/n/12 PopGen web-site (2010) web-page, May 2010, $\T1/pcr/m/n/12 h
+ttp : / / urbanmodel . asu . edu /
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 13772--13774
+[][]\T1/ptm/m/n/12 POSDAP (2012) Po-si-tion Da-ta Pro-cess-ing, web-page, $\T1/
+pcr/m/n/12 http : / / sourceforge . net /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13785--13787
+[][]\T1/ptm/m/n/12 Wikipedia (2014) Pow-er5 mi-cro-pro-ces-sor, web-page, April
+ 2014, $\T1/pcr/m/n/12 http : / / en .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13789--13791
+[][]\T1/ptm/m/n/12 PROCEDURAL (2011) PRO-CE-DU-RAL, web-page, Ju-ly 2011, $\T1/
+pcr/m/n/12 http : / / www .
+ []
+
+[180]
+Underfull \hbox (badness 10000) in paragraph at lines 13828--13831
+\T1/ptm/m/n/12 2010, $\T1/pcr/m/n/12 http : / / www . rohrmannresearch . net / 
+pdfs / rohrmann-[]racreport .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13846--13849
+\T1/pcr/m/n/12 http : / / www . saldo . ch / themen / beitrag / 1014712 / Detai
+lhandel \ _-[] \
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 13851--13854
+\T1/ptm/m/n/12 web-page, $\T1/pcr/m/n/12 http : / / www . culturechange . org /
+ issue8 / traffic \ %20expands .
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 13865--13868
+[][]\T1/ptm/m/n/12 Science World Re-port (2013) Se-cret net-work of fa-mil-iar 
+strangers un-cov-ered, web-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13865--13868
+\T1/ptm/m/n/12 page, $\T1/pcr/m/n/12 http : / / www . scienceworldreport . com 
+/ articles / 8650 / 20130806 /
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 13870--13873
+[][]\T1/ptm/m/n/12 Scientific Amer-i-can (2013) Sin-ga-pore Bus Study Re-veals 
+Hid-den So-cial Net-works,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13870--13873
+\T1/ptm/m/n/12 web-page, $\T1/pcr/m/n/12 http : / / www . scientificamerican . 
+com / article . cfm ? id =
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 13883--13885
+[][]\T1/ptm/m/n/12 senozon AG (2012) via -- vi-su-al-iza-tion and anal-y-sis to
+ol, web-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 13887--13889
+[][]\T1/ptm/m/n/12 senozon AG (2013) via -- vi-su-al-iza-tion and anal-y-sis to
+ol, web-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+[181]
+Underfull \hbox (badness 1990) in paragraph at lines 13903--13905
+[][]\T1/ptm/m/n/12 SfSB (2006) Sen-atsver-wal-tung für stad-ten-twick-lung berl
+in, web-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13907--13910
+[][]\T1/ptm/m/n/12 Department of Statis-tics (2010) Cen-sus of pop-u-la-tion 20
+10 - ad-min-is-tra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13907--13910
+\T1/ptm/m/n/12 tive re-port, web-page, $\T1/pcr/m/n/12 http : / / www . singsta
+t . gov . sg / publications /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13912--13914
+[][]\T1/ptm/m/n/12 SLAB (2006) Statis-tis-ches lan-desamt berlin, web-page, $\T
+1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13954--13956
+[][]\T1/ptm/m/n/12 Streetdirectory (2011) Street-di-rec-to-ry Sin-ga-pore, web-
+page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+[182]
+Underfull \hbox (badness 10000) in paragraph at lines 13958--13960
+[][]\T1/ptm/m/n/12 Streetdirectory (2011) Street-di-rec-to-ry Sin-ga-pore, web-
+page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13979--13981
+[][]\T1/ptm/m/n/12 Swissinfo.ch (2013) Com-muters gen-er-ate close-knit so-cial
+ net-work, web-page,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13979--13981
+\T1/pcr/m/n/12 http : / / www . swissinfo . ch / eng / science _ technology / C
+ommuters _
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 13983--13987
+\T1/ptm/m/n/12 DHL, web-page, $\T1/pcr/m/n/12 http : / / media . cgd . swissre 
+. com / documents / Challenges _
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 13990--13992
+[][]\T1/ptm/m/n/12 Swiss Fed-er-al Archives (2013) Swiss open gov-ern-ment da-t
+a, web-page, $\T1/pcr/m/n/12 http : / /
+ []
+
+
+Underfull \hbox (badness 5985) in paragraph at lines 14002--14005
+[][]\T1/ptm/m/n/12 Tagesanzeiger, Pia Wertheimer (2013) We-shalb es zum grösste
+n Stau in Zürich
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14002--14005
+\T1/ptm/m/n/12 kam, April 2013, $\T1/pcr/m/n/12 http : / / www . tagesanzeiger 
+. ch / zuerich / stadt /
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 14014--14016
+[][]\T1/ptm/m/n/12 TfL (2006) Trans-port for Lon-don - Con-ges-tion charg-ing, 
+web-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14018--14021
+[][]\T1/ptm/m/n/12 The At-lantic Cities (2013) Now We Can Ac-tu-al-ly Count
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14018--14021
+\T1/ptm/m/n/12 and Track the 'Fa-mil-iar Strangers' in Our Lives, web-page,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14018--14021
+\T1/pcr/m/n/12 http : / / www . theatlanticcities . com / commute / 2013 / 07 /
+
+ []
+
+
+Overfull \hbox (23.63063pt too wide) in paragraph at lines 14018--14021
+\T1/pcr/m/n/12 now-[]we-[]can-[]actually-[]count-[]and-[]track-[]familiar-[]str
+angers-[]our-[]lives /
+ []
+
+[183]
+Underfull \hbox (badness 10000) in paragraph at lines 14023--14025
+[][]\T1/ptm/m/n/12 The At-lantic Wire (2013) The 'Fa-mil-iar Stranger' Is Your 
+Friend, web-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14023--14025
+\T1/ptm/m/n/12 page, $\T1/pcr/m/n/12 http : / / www . theatlanticwire . com / n
+ational / 2013 / 07 /
+ []
+
+
+Overfull \hbox (45.73062pt too wide) in paragraph at lines 14023--14025
+\T1/pcr/m/n/12 man-[]bus-[]your-[]familiar-[]stranger-[]heres-[]why-[]you-[]sho
+uld-[]be-[]thankful-[]him /
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 14031--14034
+[][]\T1/ptm/m/n/12 The Straits Times (2013) Noth-ing ran-dom about 'fa-mil-iar 
+strangers': Study, web-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14036--14039
+[][]\T1/ptm/m/n/12 PAEXCO (2011) Di-rec-to-ry of top schools in Sin-ga-pore, we
+b-page, $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 14053--14055
+[][]\T1/ptm/m/n/12 TRANSIMS (2007) TRAN-SIMS Open Source Project Site, web-page
+, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 7344) in paragraph at lines 14061--14063
+[][]\T1/ptm/m/n/12 SimTRAVEL (2013) TRAN-SIMS Ap-pli-ca-tion and De-ploy-ment, 
+web-page, $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14061--14063
+\T1/pcr/m/n/12 / / simtravel . wikispaces . asu . edu / TRANSIMS + Application 
++ and +
+ []
+
+
+Underfull \hbox (badness 2913) in paragraph at lines 14065--14067
+[][]\T1/ptm/m/n/12 FHWA (2013) TRAN-SIMS Back-ground, web-page, $\T1/pcr/m/n/12
+ http : / / www . fhwa . dot . gov /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14077--14079
+[][]\T1/ptm/m/n/12 Caliper (2013) Trans-mod-el-er, web-page, $\T1/pcr/m/n/12 ht
+tp : / / www . caliper . com /
+ []
+
+[184]
+Underfull \hbox (badness 1803) in paragraph at lines 14085--14087
+[][]\T1/ptm/m/n/12 National Acade-my of Sci-ences (2008) Trans-porta-tion re-se
+arch board of the na-tion-al
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14122--14125
+\T1/pcr/m/n/12 http : / / esa . un . org / marrakechprocess / pdf / davos _ rep
+ _ advan _ summ _
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 14145--14147
+[][]\T1/ptm/m/n/12 UrbanSim (2010) Open Plat-form for Ur-ban Sim-u-la-tion, web
+-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 14149--14151
+[][]\T1/ptm/m/n/12 UrbanSim (2011) Open Plat-form for Ur-ban Sim-u-la-tion, web
+-page, $\T1/pcr/m/n/12 http : / / www .
+ []
+
+[185]
+Underfull \hbox (badness 3128) in paragraph at lines 14153--14155
+[][]\T1/ptm/m/n/12 UrbanVision (2012) Ur-ban-vi-sion home, soft-ware, $\T1/pcr/
+m/n/12 http : / / www . cs . purdue . edu /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14178--14180
+[][]\T1/ptm/m/n/12 PTV (2011) VI-SUM, web-page, $\T1/pcr/m/n/12 http : / / www 
+. ptvag . com /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14178--14180
+\T1/pcr/m/n/12 software / transportation-[]planning-[]traffic-[]engineering /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14211--14213
+[][]\T1/ptm/m/n/12 Eclipse (2014) Win-dow-Builder, web-page, $\T1/pcr/m/n/12 ht
+tp : / / www . eclipse . org /
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 14215--14218
+[][]\T1/ptm/m/n/12 Wired.co.uk (2013) Study ex-am-ines the role of 'fa-mil-iar 
+strangers' on pub-lic trans-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14215--14218
+\T1/ptm/m/n/12 port, web-page, $\T1/pcr/m/n/12 http : / / www . wired . co . uk
+ / news / archive / 2013-[]07 / 11 /
+ []
+
+[186]
+Underfull \hbox (badness 10000) in paragraph at lines 14221--14224
+\T1/pcr/m/n/12 http : / / www . statistik . zh . ch / themenportal / themen / d
+aten _ detail .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14227--14230
+\T1/ptm/m/n/12 web-page, $\T1/pcr/m/n/12 http : / / www . statistik . zh . ch /
+ themenportal / themen / daten _
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14233--14236
+\T1/pcr/m/n/12 http : / / www . statistik . zh . ch / themenportal / themen / d
+aten _ detail .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14246--14248
+\T1/pcr/m/n/12 yandex . ru / researches / reports / 2013 / city _ jams / city _
+ jams _ 2013 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14259--14261
+\T1/pcr/m/n/12 repository / prospekte _ und _ broschueren / corporate / studien
+ / studie _
+ []
+
+[187] [188] [189] [190]
+Underfull \hbox (badness 2951) in paragraph at lines 14538--14540
+[][]\T1/ptm/m/n/12 Kopp, J. (2015) GPS-gestützte Eval-u-a-tion des Mo-bil-itäts
+ver-hal-tens von free-floating
+ []
+
+[191] [192] [193]
+Underfull \hbox (badness 2096) in paragraph at lines 14708--14711
+[][]\T1/ptm/m/n/12 Schiller, C. (2004) In-te-gra-tion des ruhen-den Verkehrs in
+ die Verkehrsangebots- und
+ []
+
+[194] [195] [196]
+Underfull \hbox (badness 1577) in paragraph at lines 14936--14940
+[][]\T1/ptm/m/n/12 Axhausen, K. W. (2015) Kom-men-tar SN 640003 Verkehrser-he-b
+un-gen: Meth-o-d-en der
+ []
+
+[197]
+Underfull \hbox (badness 2368) in paragraph at lines 15003--15006
+[][]\T1/ptm/m/n/12 Baass, K. (1985) Er-mit-tlung eines op-ti-malen Grün-ban-des
+ auf Hauptverkehrsstrassen,
+ []
+
+[198] [199] [200] [201] [202] [203] [204] [205] [206] [207]
+Underfull \hbox (badness 1024) in paragraph at lines 15771--15774
+[][]\T1/ptm/m/n/12 FGSV (2012) Empfehlun-gen für Verkehrser-he-bun-gen: Kapi-te
+l 7, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 , Forschungs-ge-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 15781--15784
+[][]\T1/ptm/m/n/12 FGSV (2001) Richtlin-ien für die An-lage von Strassen - Knot
+en-punk-te, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 , \T1/ptm/b/n/12 297\T1/ptm/m/n/
+12 ,
+ []
+
+[208] [209] [210] [211]
+Underfull \hbox (badness 2393) in paragraph at lines 16137--16142
+[][]\T1/ptm/m/n/12 Hobeika, A. G. (2005) TRAN-SIMS fun-da-men-tals: Chap-ter 3:
+ Pop-u-la-tion syn-the-siz-
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 16137--16142
+\T1/ptm/m/n/12 er, \T1/ptm/m/it/12 Tech-ni-cal Re-port\T1/ptm/m/n/12 , Vir-gini
+a Poly-tech-nic Uni-ver-si-ty, Vir-ginia, Ju-ly 2005. $\T1/pcr/m/n/12 http :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16137--16142
+\T1/pcr/m/n/12 / / tmip . fhwa . dot . gov / resources / clearinghouse / docs /
+ transims _
+ []
+
+[212]
+Underfull \hbox (badness 1590) in paragraph at lines 16207--16210
+[][]\T1/ptm/m/n/12 Horni, A. and L. Mon-ti-ni (2013) Ap-plauSim: Rhyth-mis-ch-e
+r Ap-plaus als emer-gentes
+ []
+
+[213]
+Underfull \hbox (badness 1558) in paragraph at lines 16246--16248
+[][]\T1/ptm/m/n/12 IVT (2008) Hin-weise für die Er-stel-lung von stu-den-tis-ch
+en Bericht-en, \T1/ptm/m/it/12 Ar-beits-berichte
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 16272--16275
+[][]\T1/ptm/m/n/12 Jäggi, B. and K. W. Ax-hausen (2015) Be-mes-sungsverkehrsstä
+rken: Ein neuer Ansatz,
+ []
+
+[214] [215] [216] [217] [218] [219] [220] [221] [222]
+Underfull \hbox (badness 2205) in paragraph at lines 16982--16985
+[][]\T1/ptm/m/n/12 Schneider, A. (2003) Genetis-che Al-go-rith-men zur Op-ti-mi
+erung von Tage-s-plä-nen für
+ []
+
+[223] [224] [225] [226] [227]
+Underfull \hbox (badness 7238) in paragraph at lines 17399--17402
+[][]\T1/ptm/m/n/12 VSS (2010) Gan-glin-ien-typen und durch-schnit-tlich-er werk
+-täglich-er Verkehr, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 5091) in paragraph at lines 17419--17422
+[][]\T1/ptm/m/n/12 VSS (1992) Pro-jek-tierung, Grund-la-gen - Strassen-typ: Hoc
+hleis-tungsstrassen, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 17424--17427
+[][]\T1/ptm/m/n/12 VSS (1992) Pro-jek-tierung, Grund-la-gen - Strassen-typ: Hau
+ptverkehrsstrassen, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 17429--17432
+[][]\T1/ptm/m/n/12 VSS (1992) Pro-jek-tierung, Grund-la-gen - Strassen-typ: Ver
+bindungsstrassen, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 ,
+ []
+
+[228]
+Underfull \hbox (badness 4266) in paragraph at lines 17439--17442
+[][]\T1/ptm/m/n/12 VSS (1992) Pro-jek-tierung, Grund-la-gen - Strassen-typ: Er-
+schlies-sungsstrassen, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 1092) in paragraph at lines 17470--17473
+[][]\T1/ptm/m/n/12 VSS (2009) Kosten-Nutzen-Analysen im Strassen-verkehr; Be-tr
+ieb-skosten von Strassen-
+ []
+
+
+Underfull \hbox (badness 6842) in paragraph at lines 17506--17509
+[][]\T1/ptm/m/n/12 VSS (forth-com-ing) Betriebs- und Un-ter-halt-skosten von St
+rassen-fahrzeu-gen, \T1/ptm/m/it/12 Norm\T1/ptm/m/n/12 ,
+ []
+
+[229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
+Underfull \hbox (badness 2393) in paragraph at lines 18198--18202
+[][]\T1/ptm/m/n/12 Hess, S., A. L. Erath and K. W. Ax-hausen (2008) Zeitwerte i
+m Per-so-n-en-verkehr:
+ []
+
+[239] [240] [241] [242] [243] [244] [245]
+Underfull \hbox (badness 1418) in paragraph at lines 18730--18732
+[][]\T1/ptm/m/n/12 Axhausen, K. W. (2016) How to cap-ture long-distance trav-el
+?, pre-sen-ta-tion, Ger-man
+ []
+
+[246] [247] [248] [249] [250] [251] [252]
+Underfull \hbox (badness 2376) in paragraph at lines 19233--19237
+[][]\T1/ptm/m/n/12 Bürgle, M. (2007) Syn-these von Haushalts-dat-en für den Kan
+-ton Zürich, $\T1/pcr/m/n/12 http : / /
+ []
+
+[253] [254] [255] [256] [257] [258] [259] [260] [261] [262]
+Underfull \hbox (badness 5231) in paragraph at lines 19988--19992
+[][]\T1/ptm/m/n/12 Kowald, M., J. Koot, C. Dobler and K. W. Ax-hausen (2012) Ha
+nd-lungsmuster
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 19988--19992
+\T1/ptm/m/n/12 in Evakuierungsszenar-ien: Ex-perten-in-ter-views und Bevölkerun
+gs-be-fra-gung, pre-sen-ta-tion,
+ []
+
+[263] [264] [265] [266] [267] [268]
+Underfull \hbox (badness 2343) in paragraph at lines 20390--20393
+[][]\T1/ptm/m/n/12 Schüssler, N. (2005) Fehler und Gle-ichgewichte - Ex-per-i-m
+ente mit dem na-tionalen
+ []
+
+[269]
+Underfull \hbox (badness 10000) in paragraph at lines 20451--20454
+[][]\T1/ptm/m/n/12 Stadt Zürich, Di-en-stabteilung Verkehr (2008) Grünzeit-en d
+er stadtzürcherischen
+ []
+
+
+Underfull \hbox (badness 3536) in paragraph at lines 20451--20454
+\T1/ptm/m/n/12 Verkehrsregelungsan-la-gen im Septem-ber 2007, un-pub-lished, Tr
+af-fic Di-vi-sion, Zurich
+ []
+
+[270] [271] [272]
+Underfull \hbox (badness 1838) in paragraph at lines 20712--20716
+\T1/ptm/m/n/12 er, R. Wim-mer, R. Ott, S. Hin-den, C. Ca-man-dona and A. Re-nar
+d (eds.) \T1/ptm/m/it/12 Op-ti-male
+ []
+
+[273] [274] [275] [276] [277] [278] [279] [280]
+Underfull \hbox (badness 1199) in paragraph at lines 21310--21316
+\T1/ptm/m/n/12 gung 2002 des Ar-beit-skreis-es Verkehr der Deutschen Gesellscha
+ft für Ge-ogra-phie, in
+ []
+
+[281]
+Underfull \hbox (badness 2142) in paragraph at lines 21337--21344
+[][]\T1/ptm/m/n/12 Fuhrer, R., P. Walk-er, G. Sar-las, K. W. Ax-hausen and R. N
+euen-schwan-der (2015)
+ []
+
+[282] [283] [284]
+Underfull \hbox (badness 3930) in paragraph at lines 21594--21598
+[][]\T1/ptm/m/n/12 Koll-Schretzenmayr, M. and C. Zöl-lig (2010) Innenen-twick-l
+ung ak-teurs-be-zo-gen, in
+ []
+
+[285] [286] [287] [288] [289] [290] [291] [292] [293] [294]
+Underfull \hbox (badness 4181) in paragraph at lines 22259--22264
+\T1/ptm/m/it/12 Schweiz-erische Verkehr-swirtschaft\T1/ptm/m/n/12 , 119--140, S
+chweiz-erische Verkehr-swis-senschaftliche
+ []
+
+[295] [296] [297] [298] [299] [300] [301] [302] [303] [304] [305] [306] [307] [
+308] [309] [310] [311] [312] [313] [314] [315] [316] [317] [318] [319] [320] [3
+21] [322] [323] [324] [325] [326] [327] [328] [329] [330] [331] [332] [333] [33
+4] [335] [336] [337] [338] [339] [340] [341] [342] [343] [344] [345] [346] [347
+] [348] [349] [350] [351] [352] [353] [354] [355] [356] [357] [358] [359] [360]
+[361] [362] [363] [364] [365] [366] [367] [368] [369]) [370] (./example.aux) ) 
+Here is how much of TeX's memory you used:
+ 18190 strings out of 495003
+ 506134 string characters out of 6181405
+ 348922 words of memory out of 5000000
+ 21380 multiletter control sequences out of 15000+600000
+ 31351 words of font info for 49 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 27i,6n,28p,438b,10436s stack positions out of 5000i,500n,10000p,200000b,80000s
+{
+/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/co
+urier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on example.pdf (370 pages, 984665 bytes).
+PDF statistics:
+ 1231 PDF objects out of 1440 (max. 8388607)
+ 842 compressed objects within 9 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

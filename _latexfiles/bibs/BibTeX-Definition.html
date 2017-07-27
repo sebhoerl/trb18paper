@@ -1,0 +1,401 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 2.0">
+<title>The Bibtex Bibliographic Format</title>
+<!--This file created 7:31 PM  5/24/98 by Claris Home Page version 3.0 30 Day Trial-->
+<X-CLARIS-WINDOW TOP="0" BOTTOM="401" LEFT="0" RIGHT="788">
+<X-CLARIS-TAGVIEW MODE="minimal">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h2 align="center">The Bibtex Bibliographic Format</h2>
+
+<p>&nbsp;</p>
+
+<h4>This document contains information describing:</h4>
+
+<ol>
+    <li type="A"><a href="#A">The form of a Bibtex reference</a></li>
+    <li><a href="#B">The fields used by Bibtex</a></li>
+    <li><a href="#C">Examples of Bibtex References</a></li>
+</ol>
+
+<p><b>NOTE: Please use the </b><b><i>Back</i></b><b> button on
+your browser to return to the previous screen.</b></p>
+
+<hr>
+
+<h3><a name="A"></a> A. The Form of a Bibtex Reference</h3>
+
+<p>Bibtex references appear in the following format:</p>
+
+<pre>@TYPE{KEY,
+	FIELD1 = FIELDENTRY1,
+	FIELD2 = FIELDENTRY2,
+<b>	.
+	.</b>
+     }</pre>
+
+<p>For a given type, each field is either required, optional, or
+ignored. The text of a field must either be enclosed in double
+quotes (i.e. &quot;field&quot;) or braces (i.e. {field}). These
+quotes or braces may be optionally omitted around text consisting
+entirely of numerals. If a field has multiple entries, for
+example a book that is coauthored, the field should be entered
+once and multiple names combined with &quot;and&quot;, as in
+&quot;Bob Smith and Sally Jones&quot;. Currently, the Citation
+system requires each field of a Bibtex reference to be on a
+single line. Following is a list of each possible field:<br>
+&nbsp;<br>
+&nbsp;<br>
+</p>
+
+<hr>
+
+<h3>&nbsp;<a name="B"></a> B. Fields Used by Bibtex</h3>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="1" width="100%">
+    <tr>
+        <td><strong>abstract:</strong></td>
+        <td>An abstract of the work.</td>
+    </tr>
+    <tr>
+        <td><b>address:</b></td>
+        <td>Publisher's address. For major publishing houses,
+        just the city is given. For small publishers, you can
+        help the reader by giving the complete address.</td>
+    </tr>
+    <tr>
+        <td><strong>affiliation:</strong></td>
+        <td>The author's affiliation.</td>
+    </tr>
+    <tr>
+        <td><b>annote:</b></td>
+        <td>An annotation. It is not used by he standard
+        bibliography styles, but may be used by others that
+        produce an annotated bibliography.</td>
+    </tr>
+    <tr>
+        <td><b>author:</b></td>
+        <td>The name(s) of the author(s).</td>
+    </tr>
+    <tr>
+        <td><b>booktitle:&nbsp;</b></td>
+        <td>Title of a book, part of which is being cited. For
+        book entries, use the <strong>title</strong> field
+        instead.</td>
+    </tr>
+    <tr>
+        <td><b>chapter:</b></td>
+        <td>A chapter (or section) number.</td>
+    </tr>
+    <tr>
+        <td><strong>contents:</strong></td>
+        <td>A Table of Contents.</td>
+    </tr>
+    <tr>
+        <td><strong>copyright:</strong></td>
+        <td>Copyright information.</td>
+    </tr>
+    <tr>
+        <td><strong>crossref:</strong></td>
+        <td>The database key of the entry being cross-referenced.</td>
+    </tr>
+    <tr>
+        <td><b>edition:&nbsp;</b></td>
+        <td>The edition of a book - for example
+        &quot;Second&quot;. Notice that it is in capitals.</td>
+    </tr>
+    <tr>
+        <td><b>editor:&nbsp;</b></td>
+        <td>Name(s) of editor(s). If there is also an author
+        field, then the editor field gives the editor of the book
+        or collection in which the reference appears.</td>
+    </tr>
+    <tr>
+        <td><b>howpublished:</b></td>
+        <td>How something strange has been published. The first
+        word should be capitalized.</td>
+    </tr>
+    <tr>
+        <td><b>institution:</b></td>
+        <td>The sponsoring institution of a technical report.</td>
+    </tr>
+    <tr>
+        <td><strong>ISBN:</strong></td>
+        <td>The International Standard Book Number.</td>
+    </tr>
+    <tr>
+        <td><strong>ISSN:</strong></td>
+        <td>The International Standard Serial Number. Used to
+        identify a journal.</td>
+    </tr>
+    <tr>
+        <td><b>journal:&nbsp;</b></td>
+        <td>A journal name. Abbreviations are provided for many
+        journals.</td>
+    </tr>
+    <tr>
+        <td><b>key:&nbsp;</b></td>
+        <td>Used for alphabetizing and creating a label when the
+        author and editor fields are missing. This field should
+        not be confused with the key that appears at the
+        beginning of the reference.</td>
+    </tr>
+    <tr>
+        <td><strong>keywords:</strong></td>
+        <td>Key words used for searching or possibly for
+        annotation.</td>
+    </tr>
+    <tr>
+        <td><strong>language:</strong></td>
+        <td>The language the document is written in.</td>
+    </tr>
+    <tr>
+        <td><strong>LCCN:</strong></td>
+        <td>The Library of Congress Call Number.</td>
+    </tr>
+    <tr>
+        <td><strong>location:</strong></td>
+        <td>A location associated with the entry, such as the
+        city in which a conference took place.</td>
+    </tr>
+    <tr>
+        <td><b>month:&nbsp;</b></td>
+        <td>The month in which the work was published or, for an
+        unpublished work, in which it was written.</td>
+    </tr>
+    <tr>
+        <td><strong>mrnumber:</strong></td>
+        <td>The <em>Mathematical Reviews</em> number.</td>
+    </tr>
+    <tr>
+        <td><b>note:</b></td>
+        <td>Any additional information that can help the reader.
+        First word should be capitalized.</td>
+    </tr>
+    <tr>
+        <td><b>number:&nbsp;</b></td>
+        <td>The number of a journal, magazine, technical report,
+        or of a work in a series. An issue of a journal or
+        magazine is usually identified by its volume and number;
+        the organization that issues a technical report usually
+        gives it a number; and sometimes books are given numbers
+        in a named series.</td>
+    </tr>
+    <tr>
+        <td><b>organization:&nbsp;</b></td>
+        <td>The organization that sponsors a conference or
+        publishes a manual.</td>
+    </tr>
+    <tr>
+        <td><b>pages:</b></td>
+        <td>One or more page numbers or ranges of number, such as
+        37--42, or 7,53,82--94.</td>
+    </tr>
+    <tr>
+        <td><strong>price:</strong></td>
+        <td>The price of the material.</td>
+    </tr>
+    <tr>
+        <td><b>publisher:</b></td>
+        <td>The publisher's name.</td>
+    </tr>
+    <tr>
+        <td><b>school:</b></td>
+        <td>The name of the school where a thesis was written.</td>
+    </tr>
+    <tr>
+        <td><b>series:</b></td>
+        <td>Then name given a series or set of books. When citing
+        an entire book, the title field gives its title and the
+        optional series field gives the name of a series in which
+        the book was published.</td>
+    </tr>
+    <tr>
+        <td><strong>size:</strong></td>
+        <td>The physical dimensions of the work.</td>
+    </tr>
+    <tr>
+        <td><b>title:</b></td>
+        <td>The work's title.</td>
+    </tr>
+    <tr>
+        <td><b>type:</b></td>
+        <td>The type of technical report - for example,
+        &quot;Research Note&quot;.</td>
+    </tr>
+    <tr>
+        <td><strong>url:</strong></td>
+        <td>The WWW Universal Resource Locator that points to the
+        item being referenced. Often used for technical reports
+        to point to the FTP site where it resides.</td>
+    </tr>
+    <tr>
+        <td><b>volume:</b></td>
+        <td>The volume of a journal or multivolume book.</td>
+    </tr>
+    <tr>
+        <td><b>year:</b></td>
+        <td>The year of publication or, for an unpublished work,
+        the year it was written. It should only consist of
+        numerals, such as 1976.</td>
+    </tr>
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+
+<p>A reference can be to any of a variety of types. Following is
+a list of types. Each one also explains the fields associated
+with that type. Any fields not listed as required or optional are
+considered to be ignored.<br>
+&nbsp;<br>
+&nbsp; </p>
+
+<table border="1" width="100%">
+    <tr>
+        <td><b>article:</b></td>
+        <td>An article from a journal or magazine. Required
+        fields: author, title, journal, year. Optional fields:
+        volume, number, pages, month, note, key.</td>
+    </tr>
+    <tr>
+        <td><b>book:</b></td>
+        <td>A book with an explicit publisher. Required fields:
+        author or editor, title, publisher, year. Optional
+        fields: volume, series, address, edition, month, note,
+        key.</td>
+    </tr>
+    <tr>
+        <td><b>booklet:&nbsp;</b></td>
+        <td>A work that is printed and bound, but without a named
+        publisher or sponsoring institution. Required fields:
+        title. Optional fields: author, howpublished, address,
+        month, year, note, key.</td>
+    </tr>
+    <tr>
+        <td><strong>collection:</strong></td>
+        <td>A collection of works. Same as <a href="#proceedings">Proceedings</a>.</td>
+    </tr>
+    <tr>
+        <td><b>conference:</b></td>
+        <td>The same as <a href="#inproceedings">Inproceedings</a>.</td>
+    </tr>
+    <tr>
+        <td><b>inbook:</b></td>
+        <td>A part of a book, which may be a chapter and/or a
+        range of pages. Required fields: author or editor, title,
+        chapter and/or pages, publisher, year. Optional fields:
+        volumer, series, address, edition, month, note, key.</td>
+    </tr>
+    <tr>
+        <td><b>incollection:</b></td>
+        <td>A part of a book with its own title. Required fields:
+        author, title, booktitle, publisher, year. Optional
+        fields: editor, pages, organization, publisher, address,
+        month, note, key.</td>
+    </tr>
+    <tr>
+        <td><a name="inproceedings"></a><b>inproceedings:</b></td>
+        <td>An article in a conference proceedings. Required
+        fields: author, title, booktitle, year. Optional fields:
+        editor, pages, organization, publisher, address, month,
+        note, key.</td>
+    </tr>
+    <tr>
+        <td><b>manual:&nbsp;</b></td>
+        <td>Technical documentation. Required fields: title.
+        Optional fields: author, organization, address, edition,
+        month, year, note.</td>
+    </tr>
+    <tr>
+        <td><b>mastersthesis:</b></td>
+        <td>A Master's thesis. Required fields: author, title,
+        school, year. Optional fields: address, month, note, key.</td>
+    </tr>
+    <tr>
+        <td><b>misc:</b></td>
+        <td>Use this type when nothing else fits. Required
+        fields: none. Optional fields: author, title,
+        howpublished, month, year, note, key.</td>
+    </tr>
+    <tr>
+        <td><strong>patent:</strong></td>
+        <td>A patent.</td>
+    </tr>
+    <tr>
+        <td><b>phdthesis:</b></td>
+        <td>A Ph.D. thesis. Required fields: author, title,
+        school, year. Optional fields: address, month, note, key.</td>
+    </tr>
+    <tr>
+        <td><a name="proceedings"></a><b>proceedings:</b></td>
+        <td>The proceedings of a conference. Required fields:
+        title, year. Optional fields: editor, publisher,
+        organization, address, month, note, key.</td>
+    </tr>
+    <tr>
+        <td><b>techreport:</b></td>
+        <td>A report published by a school or other institution,
+        usually numbered within a series. Required fields:
+        author, title, institution, year. Optional fields: type,
+        number, address, month, note, key.</td>
+    </tr>
+    <tr>
+        <td><b>unpublished:</b></td>
+        <td>A document with an author and title, but not formally
+        published. Required fields: author, title, note. Optional
+        fields: month, year, key.</td>
+    </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<hr>
+
+<h3><a name="C"></a> C. Examples of Bibtex References</h3>
+
+<p>&nbsp;</p>
+
+<p><b>Examples:</b></p>
+
+<p>@book{kn:gnus,</p>
+
+<blockquote>
+    <p>AUTHOR = &quot;Donald E. Knudson&quot;,<br>
+    TITLE = &quot;1966 World Gnus Almanac&quot;,<br>
+    PUBLISHER = {Permafrost Press},<br>
+    ADDRESS = {Novosibirsk} }</p>
+</blockquote>
+
+<p>@article{XAi_HSCheng_1994a,</p>
+
+<blockquote>
+    <p>author = &quot;X. Ai and H. S. Cheng&quot;,<br>
+    title = &quot;Influence of moving dent on point {EHL}
+    contacts&quot;,<br>
+    journal = &quot;Tribol. Trans.&quot;,<br>
+    volume = &quot;37&quot;,<br>
+    year = &quot;1994&quot;,<br>
+    pages = &quot;323--335&quot;,<br>
+    }</p>
+</blockquote>
+
+<h6>&nbsp;<b> </b></h6>
+
+<hr>
+
+<p>Last Modified: Summer 1998. </p>
+
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+all: bibs/all-eng.bib bibs/all-ger.bib
+
+bibs/all-eng.bib: $(filter-out bibs/all-ger.bib bibs/all-eng.bib,$(wildcard bibs/*.bib)) bibs/translations.txt
+	perl mergeAll.pl
+
+bibs/all-ger.bib unsortbibs/.: bibs/all-eng.bib
+

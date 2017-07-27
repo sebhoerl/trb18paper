@@ -1,0 +1,3102 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  UNPUBLISHED
+%   Everything which is not going to be published.
+%   Typical examples are presentations, internals (presentations,
+%   seminars, org-meetings, tech-meetings, etc...), personal
+%   discussions, etc...
+%   it is NOT a paper which is going to be published somewhere, like
+%   PhD-Thesis in progress, Tech-Reports, submitted papers of a conference
+%   or a journal, etc...
+%   Use the note-tag to specify the reference.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  KEY-DEFINITION:
+%    (Author1|Author1Author2|Author1EtAl)_unpub_(IndicationWhatItIs)_(YEAR)[_INDEX]
+%    Example:
+%      VovshaEtAl_unpub_EIRASS_2004,
+%      Balmer_unpub_DVWG_2004
+%      BalmerMeister_unpub_Hochschultagung_2005
+%      CharyparEtAl_unpub_STRC_2006
+%      VrticEtAl_unpub_IVW_2006
+%  AUTHOR
+%    If the author is known, use the crossref given in the author.txt
+%    (add it there, if one is missing)
+%    Sometimes there is no Author but an institution, organization or
+%    simly the name of i.e. the software.
+%    In this case, use that (without using a crossref).
+%    Example:
+%      AUTHOR = {{ARE}},
+%      AUTHOR = {{MATSIM-T}},
+%      AUTHOR = {{BfS}},
+%  TITLE
+%    Write the title in "Title-Style", the bib-style converts it.
+%    If there are Characters which MUST be written as defined
+%    (i.e. all-caps or no caps), then set those characters in
+%    additional curly brackets.
+%    Sometimes the title is--in fact--the organization. In this
+%    case, use the crossref defined in ivt-ger.bst or ivt-eng.bst.
+%    (add it there, if yours is missing)
+%    Example:
+%      TITLE =  org-ptv,
+%      TITLE =  {Google Earth - Explore, Search and Discover},
+%  YEAR
+%    Always define a year:
+%    Example:
+%      YEAR =   {1981},
+%  NOTE
+%    Us the NOTE tag to specifiy the unpub-reference. Typically set
+%    the type (i.e. presentation, internal, etc...) followed by
+%    organization/institution, adress or similar information.
+%    As far as possible, use the keys defined in the
+%    translation.txt, (add additional there if needed).
+%    Example:
+%      NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich,
+%      NOTE =   unpub-pres # comma # {Studentenbörse} # comma # org-dvwg # comma # berlin,
+%      NOTE =   unpub-pres # comma # {Deutsche Hochschultagung Verkehrswesen} # comma # wildbadkreuth,
+%  url
+%    Optional: Add an url.
+%    Example:
+%      url =    {http://www.vsp.tu-berlin.de/publications/act-times/archive/results-maastricht-submitted-2004-03-08.pdf},
+%  comment
+%    Optional: add any comment you want
+%    Example:
+%      comment =      {balmermi: this is a very good one.},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{UNPUBLISHED-AUTHOR_unpub_IndicationWhatItIs_YEAR_INDEX,
+  AUTHOR = {{UNPUBLISHED-AUTHOR}},
+  TITLE =  {{TITLE}},
+  YEAR =   {0000},
+  NOTE =   {{NOTE}},
+  url =    {url},
+  comment = {{comment}},
+}
+
+@UNPUBLISHED{UNPUBLISHED-AUTHOR_unpub_IVT_0001,
+  AUTHOR = {{UNPUBLISHED-AUTHOR}},
+  TITLE =  {An Unpublished Reference with All Information},
+  YEAR =   {0001},
+  NOTE =   unpub-pres # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich,
+  url =    {http://www-url.org/whatever},
+  comment = {This is just a comment for that reference.},
+}
+
+@UNPUBLISHED{UNPUBLISHED-AUTHOR_unpub_IVT_0001_2,
+  AUTHOR = {{UNPUBLISHED-AUTHOR}},
+  TITLE =  {Minimal Version of an Unpublished Reference},
+  YEAR =   {0001},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  End of Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Items:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of TODO Items
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Unpublished Entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@UNPUBLISHED{ArnetEtAl_IVTAlumniDay_2012,
+  AUTHOR = Arnet # and # Ortigosa # and #GeQ # and # Menendez,
+  TITLE =  {Study of Traffic Management in the {Zürich} Area},
+  NOTE =   unpub-poster # comma # {IVT-Alumni-Seminar} # comma # zurich # comma # mar # { 2012},
+  YEAR =   {2012},
+  month =  mar,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#31a},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ARE_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Mobilität der Zukunft und Einfluss / Durchdringung neuer Technologien}},
+  NOTE =   unpub-pres # comma # {ARE Zukunftsgespräche} # comma # ittingen # comma # mar # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ASTRA_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {{Wirkung von Parkgebühren und Lage des Parkplatzes auf das Verkehrsverhalten}},
+  NOTE =   unpub-pres # comma # {{ASTRA @ HIL}} # comma # nov # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#419},
+}
+
+@UNPUBLISHED{Axhausen_unpub_BFE_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {{Einfluss des Parkierungsangebotes auf das Verkehrsverhalten und den Energieverbrauch}},
+  NOTE =   unpub-pres # comma # {{bfe Bereichskonferenz Mobilität}} # comma # nov # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#418},
+}
+
+@UNPUBLISHED{Axhausen_unpub_BVWP_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {{Ermittlung von Bewertungsansätzen für Reisezeiten und Zuverlässigkeit auf der Basis eines Modells für modale Verlagerungen im nicht-gewerblichen und gewerblichen Personenverkehr für die Bundesverkehrswegeplanung}},
+  NOTE =   unpub-pres # comma # {{Fachtagung BVWP-Bewertungsverfahren}} # comma # berlin # comma # jun # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#491},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Chicago_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {An agent-based model of travel demand and traffic flow: Recent results with {MATS}im},
+  NOTE =   unpub-pres # comma # uni-illinois # comma # chicago # comma # jul # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Axhausen_unpub_CICTP_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {{MATSim: An agent-based framework of travel demand and traffic flow}},
+  NOTE =   unpub-pres # comma # {15th COTA International Conference of Transportation Professionals (CICTP 2015)} # comma # beijing # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#549},
+}
+
+@UNPUBLISHED{Axhausen_unpub_CICTP_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {How many cars are too many? {A} first attempt},
+  NOTE =   unpub-pres # comma # {16th COTA International Conference of Transportation Professionals (CICTP 2016)} # comma # shanghai # comma # jul # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_CICTP_POSTCOTA_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {Autonomous vehicles: {T}he next step in accessibility?},
+  NOTE =   unpub-pres # comma # {Post-COTA International Conference of Transportation Professionals (CICTP 2016)} # comma # hangzhou # comma # jul # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_CISTUP_2013,
+  AUTHOR = Axhausen,
+  TITLE =  {{Engineering growing networks: Some ideas}},
+  NOTE =   unpub-pres # comma # {{CiSTUP}} # comma # bangalore # comma # may # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#436},
+}
+
+@UNPUBLISHED{Axhausen_unpub_CREATE_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {Singapore's travel demand management issues},
+  NOTE =   unpub-pres # comma # {CREATE/NUS/SUTD Seminar on the Future of Science, Technology and Policy in Singapore} # comma # singapore # comma # jun # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_DBAUG_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Einführung ``Verkehrssysteme''}},
+  NOTE =   unpub-pres # comma # {Dokumente Studium Bauingenieurwissenschaften, D-BAUG, ETH} # comma # zurich,
+  YEAR =   {2016},
+  url =    {},
+}
+
+
+@UNPUBLISHED{Axhausen_unpub_DLR_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {How to capture long-distance travel?},
+  NOTE =   unpub-pres # comma # {German Aerospace Center (DLR)} # comma # berlin # comma # jan # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_TelAviv_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {Social networks and their travel impacts},
+  NOTE =   unpub-pres # comma # {International Symposium on Emerging and Shared Transportation Modes and Mobility Services} # comma # telaviv # comma # dec # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_TechZurich_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Wieviele PWs verträgt ein Verkehrsnetz?}},
+  NOTE =   unpub-pres # comma # {Technische Gesellschaft Zürich} # comma # zurich # comma # dec # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Wiesbaden_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Parkraumbewirtschaftung und --umfang: Wie weiter?}},
+  NOTE =   unpub-pres # comma # {Hearing der Landeshauptstadt Wiesbaden} # comma # wiesbaden # comma # nov # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_DortmunderKonferenzRaumPlanungsforschung_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {{Verkehrsverhalten und Soziale Netzwerke: Messung und Modellierung}},
+  NOTE =   unpub-pres # comma # {Dortmunder Konferenz Raum- und Planungsforschung} # comma # dortmund # comma # feb # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Axhausen_unpub_EDOEP_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {{Datenschutz -- Ethik -- Befragungen}},
+  NOTE =   unpub-intern # comma # {Besuch des EDÖP} # comma # uni-ethz # comma # zurich # comma # jun # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ETHEmiriti_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {Warteschlangen, {S}tau und was man tun könnte},
+  NOTE =   unpub-pres # comma # {ETH Emeriti} # comma # winterthur # comma # sep # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#555},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Evanston_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {{GPS, GSM, Diary}: How to capture travel behaviour?},
+  NOTE =   unpub-pres # comma # uni-nw # comma # evanston # comma # jul # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Axhausen_unpub_FCL_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {Mobility and Transportation Planning},
+  NOTE =   unpub-pres # comma # {Future Cities Symposium (FCL 2014)} # comma # zurich # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#506},
+}
+
+@UNPUBLISHED{Axhausen_unpub_GEOSummit_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Simulation des Verkehrs der Zukunft – Welche Daten braucht es?}},
+  NOTE =   unpub-pres # comma # {SIA GEOSummit} # comma # bern # comma # jun # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_GlobalUnterwegs_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Verkehrsnachfrage im Zeitalter des Smartphones}},
+  NOTE =   unpub-pres # comma # {Global Unterwegs} # comma # zurich # comma # jun # { 2016},
+  YEAR =   {2016},
+  url =    {http://www.video.ethz.ch/events/2016/global-unterwegs/0e4149ca-9d5b-4524-95f5-21d458ff0052.html},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Graz_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {{Flächennutzungs- und Verkehrsmodelle: Stand und weitere Entwicklung am Beispiel Zürich}},
+  NOTE =   unpub-pres # comma # {{Wegener Zentrum für Klima und Globalen Wandel}} # comma # uni-graz # comma # graz # comma # jun # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#399},
+}
+
+@UNPUBLISHED{Axhausen_unpub_hEART_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {Social networks and the dynamics of travel},
+  NOTE =   unpub-pres # comma # {3rd Symposium of the European Association for Research in Transportation (hEART 2014)} # comma # leeds # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#500},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Hiroshima_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {Survey challenges, modelling challenges},
+  NOTE =   unpub-pres # comma # {3rd International Workshop on Advanced Transport Studies (IWATS): International Workshop on context and social interactions in activity and travel decisions} # comma # hiroshima # comma # mar # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#540},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Hong_Kong_2013,
+  AUTHOR = Axhausen,
+  TITLE =  {{Agent-based modelling of travel behaviour and flow: The MATSim implementation in Singapore and elsewhere}},
+  NOTE =   unpub-pres # comma # {{Hong Kong Society for Transportation Studies and The Hong Kong Polytechnic University}} # comma # hongkong # comma # mar # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#431},
+}
+
+@UNPUBLISHED{Axhausen_unpub_HongKong_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {Direct Demand Models: A Relevant Alternative in the Age of Big Data},
+  NOTE =   unpub-pres # comma # {19th International Conference of Hong Kong Society for Transportation Studies} # comma # hongkong # comma # dec # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#523},
+}
+
+@UNPUBLISHED{Axhausen_unpub_HongKong_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {How many cars are too many? {A} second attempt},
+  NOTE =   unpub-pres # comma # {University of Hong Kong} # comma # hongkong # comma # oct # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_IATBR_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {Agent-based or agent based modelling: {R}eflections on choices, constraints and commitments},
+  NOTE =   unpub-pres # comma # {14th International Conference on Travel Behavior Research (IATBR)} # comma # windsor # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#548},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ICMC_2013,
+  AUTHOR = Axhausen,
+  TITLE =  {{Large choice sets in agent-based simulations: Some experiences}},
+  NOTE =   unpub-pres # comma # {{3rd International Choice Modelling Conference}} # comma # sydney # comma # jul # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#447},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ISCTSC_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {Travel Surveys -- A Researcher's View},
+  NOTE =   unpub-pres # comma # {10th International Conference on Transport Survey Methods (ISCTSC14)} # comma # leura # comma # nov # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#515},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ITRN_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {Social networks and travel: Recent international results},
+  NOTE =   unpub-pres # comma # {ITRN} # comma # belfast # comma # aug # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Axhausen_unpub_IVT_2002,
+  AUTHOR = Axhausen,
+  TITLE =  {Some Ideas for a Microsimulation System of Travel Demand},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich,
+  YEAR =   {2002},
+}
+
+@UNPUBLISHED{Axhausen_unpub_HT_2009,
+  AUTHOR = Axhausen,
+  TITLE =  {Transport Science and History},
+  NOTE =   unpub-pres # comma # {7th Conference on the History of Traffic, Transport and Mobility} # comma # lucerne,
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ITUO_2009,
+  AUTHOR = Axhausen,
+  TITLE =  {Collecting and Organising Time-Use Data},
+  NOTE =   unpub-pres # comma # {1st International Time Use Observatory} # comma # santiagodechile # comma # jan,
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Kyoto_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {Price impacts of environmental services and the attractiveness of architectural form: {R}ecent experiences},
+  NOTE =   unpub-pres # comma # {Urban Economics Workshop, Kyoto University} # comma # kyoto # comma # may # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#543},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Kyoto_2015_2,
+  AUTHOR = Axhausen,
+  TITLE =  {{Direct Demand Models: A new lease of life?}},
+  NOTE =   unpub-pres # comma # {Department of Urban Management, Kyoto University} # comma # kyoto # comma # may # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#552},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Munich_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Accessibility, mobility tools (and some LUTI models)}},
+  NOTE =   unpub-pres # comma # {Symposium for the Integration of Land-Use and Transport Models} # comma # muenchen # comma # nov # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Nagoya_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {Activity-based and agent-based modelling: {R}eflections on choice modelling, simulation and time horizons},
+  NOTE =   unpub-pres # comma # {Nagoya University Transport and Environmental Dynamics Laboratory (NUTREND)} # comma # nagoya # comma # jun # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#545},
+}
+
+@UNPUBLISHED{Axhausen_unpub_NYC_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {{MATSim platform and applications in Europe and elsewhere}},
+  NOTE =   unpub-pres # comma # {{Demonstration of an Integrated Dynamic Policy Sensitive Model of Travel Demand for the Mega-Region of New York}} # comma # newyork # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#486},
+}
+
+@UNPUBLISHED{Axhausen_unpub_PolyU_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {Thinking about autonomous vehicles: {B}usiness models and demand growth},
+  NOTE =   unpub-pres # comma # {Polytechnic University} # comma # hongkong # comma # oct # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_RZU_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Welche Wege vorwärts?}},
+  NOTE =   unpub-pres # comma # {Regionalplanung Zürich und Umgebung (RZU)} # comma # zurich # comma # nov # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_SCCEREIP_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {Energy perspectives in transportation},
+  NOTE =   unpub-pres # comma # {10th Swiss Energy Research Conference} # comma # lucerne # comma # apr # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Singapore_2013,
+  AUTHOR = Axhausen,
+  TITLE =  {{Models of daily life and travel: Usage for public health}},
+  NOTE =   unpub-pres # comma # {{School of Public Health Research Round}} # comma # singapore # comma # mar # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#432},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Sommerakademie_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Autonome Fahrzeuge: Erste Überlegungen}},
+  NOTE =   unpub-pres # comma # {Sommerakademie der Studienstiftung} # comma # magliaso # comma # sep # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Stockholm_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {Social networks and travel: a bit more than first explorations},
+  NOTE =   unpub-pres # comma # {{Seminar series ``Social mechanisms'', Institute for Future Studies, Stockholm University}} # comma # stockholm # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#483},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Stuttgart_2012,
+  AUTHOR = Axhausen,
+  TITLE =  {{Wie weiter mit Verkehrsmodellen?}},
+  NOTE =   unpub-pres # comma # uni-stuttgart # comma # stuttgart # comma # jul # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Swissnex_2013,
+  AUTHOR = Axhausen,
+  TITLE =  {{Agent-based Travel Demand and Traffic Flow Modelling for Mega Cities}},
+  NOTE =   unpub-pres # comma # {{Swissnex ``Shaping the Urban Future'' IIHS Lecture Series}} # comma # bangalore # comma # may # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#437},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Tartu_2014,
+  AUTHOR = Axhausen,
+  TITLE =  {{Familiar strangers: A network of encounters}},
+  NOTE =   unpub-pres # comma # {Mobile Tartu 2014} # comma # tartu # comma # jul # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#492},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Tokyo_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {Social networks and the dynamics of travel},
+  NOTE =   unpub-pres # comma # {Transport Studies Group, Tokyo Institute of Technology} # comma # tokyo # comma # jun # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#544},
+}
+
+@UNPUBLISHED{Axhausen_unpub_TokyoSpecial_2015,
+  AUTHOR = Axhausen,
+  TITLE =  {Data problems, modelling challenges},
+  NOTE =   unpub-pres # comma # {Special Seminar at the University of Tokyo} # comma # tokyo # comma # may # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#551},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Torino_2015_1,
+  AUTHOR = Axhausen,
+  TITLE =  {Agent-based modelling of transport demand and traffic flow},
+  NOTE =   unpub-pres # comma # {PhD Excellence Course "Data intensive approaches to urban and regional development"} # comma # torino # comma # oct # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#556},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Torino_2015_2,
+  AUTHOR = Axhausen,
+  TITLE =  {Smart cards and social networks: {S}imulation and familiar strangers},
+  NOTE =   unpub-pres # comma # {Excellence in data science} # comma # torino # comma # oct # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#557},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Torino_2015_3,
+  AUTHOR = Axhausen,
+  TITLE =  {Surveys and tracing: {D}ata gaps and data floods},
+  NOTE =   unpub-pres # comma # {PhD Excellence Course "Data intensive approaches to urban and regional development"} # comma # torino # comma # oct # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#558},
+}
+
+@UNPUBLISHED{Axhausen_unpub_TRB_2009,
+  AUTHOR = Axhausen,
+  TITLE =  {Update on {MATS}im},
+  NOTE =   unpub-pres # comma # {the 88th Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan,
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Axhausen_unpub_TRB_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {Smartphones: {S}ilver bullet for mobility data collection?},
+  NOTE =   unpub-pres # comma # {95th Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{Axhausen_unpub_VortragsveranstaltungZumkeller_2009,
+  AUTHOR = Axhausen,
+  TITLE =  {Dynamics of Activity Spaces and Social Geographies},
+  NOTE =   unpub-pres # comma # {Vortragsveranstaltung zur Verabschiedung von Prof. Dr.-Ing. Dirk Zumkeller} # comma # uni-karlsruhe # comma # apr,
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Axhausen_unpub_VAS_2007,
+  AUTHOR = Axhausen,
+  TITLE =  {Fahrtenmodelle und andere {A}ns\"{a}tze der {N}achfragesteuerung},
+  NOTE =   unpub-pres # comma # {Vorlesung ``{V}erkehrstechnische {A}spekte des {S}t\"{a}dtebaus''} # comma # uni-ethz # comma # zurich # comma # dec,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Axhausen_unpub_Verkehrswesen_2013,
+  AUTHOR = Axhausen,
+  TITLE =  {{Wert der Zeit}},
+  NOTE =   unpub-pres # comma # {{Universitätstagung Verkehrswesen 2013}} # comma # kappelamalbis # comma # sep # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#466},
+}
+
+@UNPUBLISHED{Axhausen_unpub_WFT_2009,
+  AUTHOR = Axhausen,
+  TITLE =  {Social Network Geographies and Travel},
+  NOTE =   unpub-pres # comma # {3rd Workshop Frontiers in Transportation} # comma # niagra # comma # aug,
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Axhausen_unpub_ZIF_2016,
+  AUTHOR = Axhausen,
+  TITLE =  {{Big Data und Mobilität: Welche Verkehrsprobleme können Big Data nicht lösen?}},
+  NOTE =   unpub-pres # comma # {ZiF-Konferenz: Big Data -- Herausforderung für Wissenschaft und Gesellschaft} # comma # bielefeld # comma # oct # { 2016},
+  YEAR =   {2016},
+  url =    {},
+}
+
+@UNPUBLISHED{AxhausenEtAl_unpub_CREATE_2015,
+  AUTHOR = Axhausen # and # Fourie # and # Erath # and # Ordonez,
+  TITLE =  {{From Big Data to Smart Data: Developing a Large-scale public transport simulation that runs on Smart Card Data}},
+  NOTE =   unpub-pres # comma # {CREATE Symposium on Future Mobility} # comma # singapore # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#550},
+}
+
+@UNPUBLISHED{AxhausenEtAl_unpub_graz_2012,
+  AUTHOR = Axhausen # and # RieserSchuessler # and # Montini,
+  TITLE =  {{Zwischen Tagebuch und GPS Beobachtung: Wie weiter mit der Messung des Verkehrsverhaltens?}},
+  NOTE =   unpub-pres # comma # uni-tugraz # comma # graz # comma # jun # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{AxhausenEtAl_unpub_TRB_2016,
+  AUTHOR = Axhausen # and # Chikaraishi # and # Seya,
+  TITLE =  {{Pricing in Japan -- The Example of Hiroshima}},
+  NOTE =   unpub-pres # comma # {95th Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2016},
+  YEAR =   {2016},
+  month =  jan,
+  url = {http://www.ivt.ethz.ch/vpl/publications/presentations#438},
+}
+
+@UNPUBLISHED{AxhausenMarmolejo_unpub_Maryland_2013,
+  AUTHOR = Axhausen # and # Marmolejo,
+  TITLE =  {{Flat demand for driving? An analysis of the Swiss case 1990 - 2010}},
+  NOTE =   unpub-pres # comma # {{Workshop on Dynamics in Travel Behaviour, University of Maryland}} # comma # college-park-md # comma # jan # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#450},
+}
+
+@UNPUBLISHED{AxhausenZoellig_unpub_FCL_2012,
+  AUTHOR = Axhausen # and # Zoellig,
+  TITLE =  {Modelling developers and the spatial development process in {S}witzerland},
+  NOTE =   unpub-pres # comma # {FCL Lunch Seminar} # comma # singapore # comma # may # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{AxhausenRieser_unpub_IATBR_2012,
+  AUTHOR = Axhausen # and # Rieser,
+  TITLE =  {{MATSim}: Background and current progress},
+  NOTE =   unpub-pres # comma # {13th IATBR Workshop ``Simulation Frameworks for Integrated Modelling''} # comma # toronto # comma # jul # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#388},
+}
+
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Balmer_unpub_BDKTZRH_2008,
+  AUTHOR = Balmer,
+  TITLE =  {{Zwischenbericht: Wirkungen der Westumfahrung Zürich}},
+  NOTE =   unpub-intern # comma # org-bdktzrh # comma # zurich # comma # apr,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_DefenceIVT_2007,
+  AUTHOR = Balmer,
+  TITLE =  {Travel Demand Modeling for Multi-Agent Transport Simulations: Algorithms and Systems},
+  NOTE =   unpub-pres # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # may,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Balmer_unpub_DVWG_2004,
+  AUTHOR = Balmer,
+  TITLE =  {{Multi-Agenten Simulation: Resultate anhand einer Fallstudie der Region Zürich}},
+  NOTE =   unpub-pres # comma # {Studentenbörse} # comma # org-dvwg # comma # berlin # comma # dec,
+  YEAR =   {2004},
+}
+
+@UNPUBLISHED{Balmer_unpub_ETH_2007,
+  AUTHOR = Balmer,
+  TITLE =  {{Wie funktioniert eigentlich MATSim?}},
+  NOTE =   unpub-pres # comma # {{Treffpunkt Science City}} # comma # uni-ethz # comma # zurich # comma # nov,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Balmer_unpub_FHSG_2008,
+  AUTHOR = Balmer,
+  TITLE =  {Mobilität simulieren},
+  NOTE =   unpub-pres # comma # uni-fhsg # comma # stgallen # comma # sep,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_IVT_2005,
+  AUTHOR = Balmer,
+  TITLE =  {{Nachfrage Generierung (für MATSIM): Aufbau, Generierung und erste Test-Resultate}},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # jan,
+  YEAR =   {2005},
+}
+
+@UNPUBLISHED{Balmer_unpub_IVT_2005_2,
+  AUTHOR = Balmer,
+  TITLE =  {{MATSIM} Utility Function},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # nov,
+  YEAR =   {2005},
+}
+
+@UNPUBLISHED{Balmer_unpub_IVT_2007,
+  AUTHOR = Balmer,
+  TITLE =  {Capturing Human Activity Spaces: New Geometries},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # nov,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Balmer_unpub_IVT_2007_2,
+  AUTHOR = Balmer,
+  TITLE =  {Fast Shortest Path Computation in Time-Dependent Traffic Networks},
+  NOTE =   unpub-intern # comma # {MATSim-T Workshop} # comma # uni-ethz-ivt # comma # uni-ethz # comma # castasegna # comma # oct,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Balmer_unpub_IVT_2007_3,
+  AUTHOR = Balmer,
+  TITLE =  {{MATSim-T in Aktion: Beispiel Zürich \& Schweiz}},
+  YEAR =   {2007},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # sep,
+}
+
+@UNPUBLISHED{Balmer_unpub_IVT_2008,
+  AUTHOR = Balmer,
+  TITLE =  {{Westumfahrung Zurich}: Real World Study with {MATSim}},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # may,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_IVT_2008_2,
+  AUTHOR = Balmer,
+  TITLE =  {{Westumfahrung Zurich: Fallstudien mit MATSim}},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # aug,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_LecturesIVT_2007,
+  AUTHOR = Balmer,
+  TITLE =  {{Simulation des Verkehrs}},
+  YEAR =   {2007},
+  NOTE =   {lectures in transport planning} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # mar # {--} # apr,
+  url =    {http://www.ivt.ethz.ch/education/simulation_vs/index},
+}
+
+@UNPUBLISHED{Balmer_unpub_LecturesIVT_2008,
+  AUTHOR = Balmer,
+  TITLE =  {{Simulation des Verkehrs}},
+  YEAR =   {2008},
+  NOTE =   {lectures in transport planning} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # feb # {--} # apr,
+  url =    {http://www.ivt.ethz.ch/education/simulation_vs/index},
+}
+
+@UNPUBLISHED{Balmer_unpub_LecturesIVT_2008_2,
+  AUTHOR = Balmer,
+  TITLE =  {{Projektarbeit Basisjahr}},
+  YEAR =   {2008},
+  NOTE =   {lectures in transport planning} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # feb # {--} # apr,
+}
+
+@UNPUBLISHED{Balmer_unpub_LET_2008,
+  AUTHOR = Balmer,
+  TITLE =  {{Westumfahrung Zurich}: Real World Case Studies with {MATSim}},
+  NOTE =   unpub-intern # comma # uni-lyon-let # comma # uni-lyon # comma # lyon # comma # jun,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_NYC_2014,
+  AUTHOR = Balmer,
+  TITLE =  {{Dynamic Policy Sensitive Model of Travel Demand / Coupling ABD Model of NY with MATSim}},
+  NOTE =   unpub-pres # comma # {{Demonstration of an Integrated Dynamic Policy Sensitive Model of Travel Demand for the Mega-Region of New York}} # comma # newyork # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#485},
+}
+
+@UNPUBLISHED{Balmer_unpub_StadtZH_2007,
+  AUTHOR = Balmer,
+  TITLE =  {{MATSim: Multi-Agent Transport Simulation}},
+  NOTE =   unpub-intern # comma # org-stapozh # comma # org-stapozh-dav # comma # zurich # comma # dec,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Balmer_unpub_StadtZH_2008,
+  AUTHOR = Balmer,
+  TITLE =  {{Zwischenbericht: Wirkungen der Westumfahrung Zürich}},
+  NOTE =   unpub-intern # comma # org-stapozh # comma # org-stapozh-dav # comma # zurich # comma # oct,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_TRANSPOR_2008,
+  AUTHOR = Balmer,
+  TITLE =  {Modeling Travel Behaviour in Multi-Agent Transport Simulation ({MATSim})},
+  NOTE =   unpub-pres # comma # uni-epfl-transpor # comma # uni-epfl # comma # lausanne # comma # jan,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_VSP_2004,
+  AUTHOR = Balmer,
+  TITLE =  {Agent-based Activities Planning for an Iterative Traffic Simulation of {Switzerland}: Activity Time Allocation},
+  NOTE =   unpub-pres # comma # uni-tub-vsp # comma # uni-tub # comma # berlin # comma # jul,
+  YEAR =   {2004},
+}
+
+@UNPUBLISHED{Balmer_unpub_VSP_2008,
+  AUTHOR = Balmer,
+  TITLE =  {{Wirkungsanalyse der Westumfahrung Zürich}},
+  NOTE =   unpub-pres # comma # uni-tub-vsp # comma # uni-tub # comma # berlin # comma # may,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Balmer_unpub_ZMNY_2014,
+  AUTHOR = Balmer,
+  TITLE =  {{Coupling ABD Model of NY with MATSim}},
+  NOTE =   unpub-pres # comma # {{Zürich Meets New York}} # comma # newyork # comma # may,
+  YEAR =   {2014},
+}
+
+@UNPUBLISHED{BalmerEtAl_unpub_EIRASS_2004,
+  AUTHOR = Balmer # and # Raney # and # Nagel,
+  TITLE =  {Coupling Activity-Based Demand Generation to a Truly Agent-Based Traffic Simulation: Activity Time Allocation},
+  NOTE =   unpub-pres # comma # {EIRASS Workshop on Progress in Activity-Based Analysis} # comma # maastricht # comma # may,
+  YEAR =   {2004},
+  url =    {http://www.vsp.tu-berlin.de/publications/act-times/archive/results-maastricht-submitted-2004-03-08.pdf},
+}
+
+@UNPUBLISHED{BalmerEtAl_unpub_STRC_2004,
+  AUTHOR = Balmer # and # Raney # and # Nagel,
+  TITLE =  {Agent-Based Activities Planning for an Iterative Traffic Simulation of {Switzerland}: Activity Time Allocation},
+  YEAR =   {2004},
+  NOTE =   unpub-pres # comma # {The 4th Swiss Transport Research Conference (STRC)} # comma # ascona # comma # mar,
+  url =    {http://www.strc.ch/conferences/2004},
+}
+
+@UNPUBLISHED{BalmerEtAl_unpub_STRC_2005,
+  AUTHOR = Balmer # and # Bernard # and # Axhausen,
+  TITLE =  {Matching Geo-Coded Graphs},
+  YEAR =   {2005},
+  NOTE =   unpub-pres # comma # {The 5th Swiss Transport Research Conference (STRC)} # comma # ascona # comma # mar,
+  url =    {http://www.strc.ch/conferences/2005},
+}
+
+@UNPUBLISHED{BalmerEtAl_unpub_STRC_2005_2,
+  AUTHOR = Balmer # and # Rieser # and # Vogel # and # Axhausen # and # Nagel,
+  TITLE =  {Generating Day Plans Based on Origin-Destination Matrices: A Comparison Study between {VISUM} and {MATSIM} Based on {K}anton {Z}urich Data},
+  YEAR =   {2005},
+  NOTE =   unpub-pres # comma # {The 5th Swiss Transport Research Conference (STRC)} # comma # ascona # comma # mar,
+  url =    {http://www.strc.ch/conferences/2005},
+}
+
+@UNPUBLISHED{BalmerEtAl_unpub_STRC_2005_3,
+  AUTHOR = Balmer # and # Vogel # and # Nagel,
+  TITLE =  {Shape Morphing of Intersections Using Curbside Oriented Driver Simulation},
+  YEAR =   {2005},
+  NOTE =   unpub-pres # comma # {The 5th Swiss Transport Research Conference (STRC)} # comma # ascona # comma # mar,
+  url =    {http://www.strc.ch/conferences/2005},
+}
+
+@UNPUBLISHED{BalmerEtAl_unpub_STRC_2006,
+  AUTHOR = Balmer # and # Axhausen # and # Nagel,
+  TITLE =  {A Demand Generation Framework for Large Scale Micro Simulations},
+  YEAR =   {2006},
+  NOTE =   unpub-pres # comma # {The 6th Swiss Transport Research Conference (STRC)} # comma # ascona # comma # mar,
+  url =    {http://www.strc.ch/conferences/2006},
+}
+
+@UNPUBLISHED{BalmerEtAl_unpub_TRB_2006,
+  AUTHOR = Balmer # and # Nagel # and # Raney,
+  TITLE =  {An Agent-Based Demandmodeling Framework for Large Scale Micro-Simulations},
+  YEAR =   {2006},
+  NOTE =   unpub-poster # comma # {TRB 85th Annual Meeting} # comma # washington # comma # jan,
+}
+
+@UNPUBLISHED{BalmerMeister_unpub_Hochschultagung_2005,
+  AUTHOR = Balmer # and # Meister,
+  TITLE =  {{Nachfrageerzeugung für agentenbasierte Simulation von Verkehrssystemen}},
+  NOTE =   unpub-pres # comma # {Deutsche Hochschultagung Verkehrswesen} # comma # wildbadkreuth # comma # sep,
+  YEAR =   {2005},
+}
+
+@UNPUBLISHED{BalmerNagel_unpub_DDSS_2006,
+  AUTHOR = Balmer # and # Nagel,
+  TITLE =  {Shape Morphing of Intersection Layouts Using Curb Side Oriented Driver Simulation},
+  YEAR =   {2006},
+  NOTE =   unpub-pres # comma # {The 8th International Conference on Design \& Decision Support Systems in Architecture and Urban Planning (DDSS)} # comma # heeze # comma # jul,
+  url =    {http://2006.ddss.nl/},
+}
+
+@UNPUBLISHED{BalmerRieser_unpub_IVT_2008,
+  AUTHOR = Balmer # and # Rieser,
+  TITLE =  {{MATSim}: Past, Present, Future},
+  NOTE =   unpub-intern # comma # {MATSim-T Workshop} # comma # uni-ethz-ivt # comma # uni-ethz # comma # castasegna # comma # sep,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{Bhat_unpub_1998,
+  AUTHOR = Bhat,
+  TITLE =  {Activity-Based Travel Demand Modeling},
+  NOTE =   unpub-pres # comma # {Oregon Symposium} # comma # sep,
+  YEAR =   {1998},
+}
+
+@UNPUBLISHED{BemetzHohenfellner_BSCThesis_2014,
+  AUTHOR = Bemetz # and # Hohenfellner,
+  TITLE =  {Implementation of a parking choice model to analyse the effect of parking prices on electric vehicles},
+  NOTE =   unpub-pres # comma # {Bachelor Thesis, IVT, ETH Zürich},
+  YEAR =   {2014},
+}
+
+@UNPUBLISHED{BodenmannVitins_unpub_STRC_2012,
+  AUTHOR = Bodenmann # and # Vitins,
+  TITLE =  {Implementation of a land use transport interaction model for experimental game simulations},
+  NOTE =   unpub-pres # comma # {12th Swiss Transport Research Conference (STRC)} # comma # ascona # comma # may # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Boesch_unpub_BrownBag_2014,
+  AUTHOR = Boesch,
+  TITLE =  {{Autonomous Cars -- The next Revolution in Mobility}},
+  NOTE =   unpub-pres # comma # {IVT Brownbag} # comma # zurich # comma # jul # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#524},
+}
+
+@UNPUBLISHED{Boesch_unpub_MATSim_2014,
+  AUTHOR = Boesch,
+  TITLE =  {{Calibration of Generic Base Scenarios}},
+  NOTE =   unpub-pres # comma # {MATSim Conceptual Meeting} # comma # wiepersdorf # comma # aug # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#525},
+}
+
+@UNPUBLISHED{Boesch_unpub_ErnstBasler_2015,
+  AUTHOR = Boesch,
+  TITLE =  {{Autonomes Fahren}},
+  NOTE =   unpub-pres # comma # {Ernst Basler \& Partner} # comma # zurich # comma # oct # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#572},
+}
+
+@UNPUBLISHED{Boesch_unpub_IVT_2015,
+  AUTHOR = Boesch,
+  TITLE =  {{Autonomous Vehicles -- The Next Revolution in Mobility}},
+  NOTE =   unpub-pres # comma # {IVT-Seminar} # comma # zurich # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#571},
+}
+
+@UNPUBLISHED{Boesch_unpub_SwissCleanTech_2015,
+  AUTHOR = Boesch,
+  TITLE =  {{Autonomes Fahren -- die nächste Revolution in der Mobilität?}},
+  NOTE =   unpub-pres # comma # {Swiss Cleantech -- Fokusgruppe Mobilität} # comma # bern # comma # may # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#546},
+}
+
+@UNPUBLISHED{BoeschEtAl_unpub_ECCA_2015,
+  AUTHOR = Boesch # and # Ciari # and # Heyndrickx # and # Perrels,
+  TITLE =  {Can innovative weather services mitigate extreme events’ impact on transport?},
+  NOTE =   unpub-poster # comma # {European Climate Change Adaptation Conference (ECCA 2015)} # comma # copenhagen# comma # may # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#542},
+}
+
+@UNPUBLISHED{Boesch_unpub_Verkehrswesen_2014,
+  AUTHOR = Boesch,
+  TITLE =  {{Autonomous Cars -- The next Revolution in Mobility?}},
+  NOTE =   unpub-pres # comma # {Universitätstagung Verkehrswesen 2014} # comma # badherrenalb # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#526},
+}
+
+@UNPUBLISHED{Bogenberger_unpub_IVT_2012,
+  AUTHOR =  Bogenberger,
+  TITLE =  {Quality of traffic Information},
+  NOTE =   unpub-pres # comma # {IVT-Seminar} # comma # zurich # comma # dec # { 2012},
+  YEAR =   {2012},
+  month =  dec,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#49},
+}
+
+@UNPUBLISHED{Bowman_unpub_2004,
+  AUTHOR = Bowman,
+  TITLE =  {A comparison of population synthesizers used in microsimulation models of activity and travel demand},
+  YEAR =   {2004},
+  note =   {\url{http://jbowman.net/papers/2004.Bowman.Comparison_of_PopSyns.pdf}, accessed on 29/03/2011},
+}
+
+@UNPUBLISHED{Bradley_unpub_TRB_2005,
+  AUTHOR = Bradley,
+  TITLE =  {Activity-Based Models in Practice: Portland \& {San Francisco}},
+  NOTE =   unpub-pres # comma # {TRB 2005 Workshop, Activity-Based Approaches: Theory, Methods, Data \& Applications} # comma # washington,
+  YEAR =   {2005},
+  url =    {http://www.trb-forecasting.org/TRBWorkshop-158_Bradley.pdf},
+}
+
+@UNPUBLISHED{Buergle_unpub_2007,
+  AUTHOR = Buergle,
+  TITLE =  {{Synthese} von {Haushaltsdaten} für den {Kanton} {Zürich}},
+  YEAR =   {2007},
+  note =   {\url{http://e-collection.library.ethz.ch/view/eth:29494}, accessed on 28/03/2012},
+}
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{CaoMenendez_unpub_IVT_2014,
+  AUTHOR = CaoJ # and # Menendez,
+  TITLE =  {A Parking-State-Based Transition Matrix of Traffic on Urban Networks},
+  NOTE =   unpub-pres # comma # {IVT Seminar} # comma # zurich # comma # jul # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#77},
+}
+
+@UNPUBLISHED{CaoMenendez_unpub_STRC_2014,
+  AUTHOR = CaoJ # and # Menendez,
+  TITLE =  {{Macroscopic Modelling of Parking Dynamics in Urban Networks}},
+  NOTE =   unpub-pres # comma # {14th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#75},
+}
+
+@UNPUBLISHED{Cao_unpub_TRB_2014,
+  AUTHOR = CaoJ,
+  TITLE =  {{Effect of On-street Parking on Traffic Throughput at Nearby Intersections}},
+  NOTE =   unpub-pres # comma # {93rd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2014},
+  YEAR =   {2014},
+  month =  jan,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#74},
+}
+
+@UNPUBLISHED{CaoMenendez_unpub_IVT_2012,
+  AUTHOR = CaoJ # and # Menendez,
+  TITLE =  {Methodology for evaluating cost and accuracy of parking patrol surveys},
+  NOTE =   unpub-poster # comma # uni-ethz-ivt # comma # zurich # comma # dec # { 2012},
+  YEAR =   {2012},
+  month =  dec,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#50},
+}
+
+
+@UNPUBLISHED{CaoMenendez_unpub_STRC_2012,
+  AUTHOR = CaoJ # and # Menendez,
+  TITLE =  {Accuracy Study of Parking Duration Data from Patrol Survey},
+  NOTE =   unpub-pres # comma # {12th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2012},
+  YEAR =   {2012},
+  month =  may,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#33},
+}
+
+@UNPUBLISHED{CaoMenendez_unpub_TRB_2013,
+  AUTHOR = CaoJ # and # Menendez,
+  TITLE =  {Methodology for evaluating cost and accuracy of parking patrol surveys},
+  NOTE =   unpub-poster # comma # {92nd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2013},
+  YEAR =   {2013},
+  month =  jan,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#60},
+}
+
+@UNPUBLISHED{CaoMenendez_unpub_TRB_2015,
+  AUTHOR = CaoJ # and # Menendez,
+  TITLE =  {Generalized effects of on-street parking maneuvers on the performance of nearby signalized intersections},
+  YEAR =   {2015},
+  NOTE =   unpub-poster # comma # {94th Annual Meeting of the Transportation Research Board (TRB2015)} # comma # washington # comma # jan # { 2015},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#91},
+}
+
+@UNPUBLISHED{Chakirov_unpub_IATBR_2015,
+  AUTHOR = Chakirov,
+  TITLE =  {Heterogeneous values of time in a multi-modal context: {A}n activity and agent-based simulation approach},
+  NOTE =   unpub-pres # comma # {14th International Conference on Travel Behavior Research (IATBR)} # comma # windsor # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#569},
+}
+
+@UNPUBLISHED{Ciari_unpub_Audi_2015,
+  AUTHOR = Ciari,
+  TITLE =  {Simulation models in transportation},
+  YEAR =   {2015},
+  NOTE =   unpub-pres # comma # {Audi Urban Future Initiative 2015: Workshop IV "Sprache der Individuellen Mobilität in der Smart City"} # comma # zurich # comma # jul # { 2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#563},
+}
+
+@UNPUBLISHED{Ciari_unpub_ECCA_2015,
+  AUTHOR = Ciari,
+  TITLE =  {Can innovative weather services mitigate extreme events impact on transport? {A test case study for Zurich}},
+  YEAR =   {2015},
+  NOTE =   unpub-poster # comma # {2nd European Climate Change Adaptation Conference (ECCA)} # comma # copenhagen # comma # may # { 2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#564},
+}
+
+@UNPUBLISHED{Ciari_unpub_Graz_2015,
+  AUTHOR = Ciari,
+  TITLE =  {{The multi-agent transportation simulation MATSim}},
+  YEAR =   {2015},
+  NOTE =   unpub-pres # comma # {Joanneum Research} # comma # graz # comma # mar # { 2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#566},
+}
+
+@UNPUBLISHED{Ciari_unpub_Graz_2015_2,
+  AUTHOR = Ciari,
+  TITLE =  {A glance into the future of transport modeling},
+  YEAR =   {2015},
+  NOTE =   unpub-pres # comma # {Zukunftskonferenz 2015 -- Next Generation Urban Development and Planning Tools} # comma # graz # comma # mar # { 2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#567},
+}
+
+
+@UNPUBLISHED{Ciari_unpub_IVT_2012,
+  AUTHOR = Ciari,
+  TITLE =  {Entscheidungsmodelle zum {Car Sharing} und {Car Pooling}},
+  NOTE =   unpub-pres # comma # {IVT-Seminar ``Fahrzeuge Teilen''} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # may # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#386},
+}
+
+@UNPUBLISHED{Ciari_unpub_avignon_2012,
+  AUTHOR = Ciari,
+  TITLE =  {Introduction to {MATS}im},
+  NOTE =   unpub-pres # comma # {Seminar} # comma # uni-avignon # comma # avignon # comma #  feb # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Ciari_unpub_ScienceCity_2014,
+  AUTHOR = Ciari,
+  TITLE =  {{Sie sind auch ein Agent! Wie Agenten-basierte Verkehrssimulationen funktionieren}},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {{Treffpunk Science City -- Total mobil -- ständig unterwegs in Raum, Zeit und Denken}} # comma # zurich # comma # mar # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#481},
+}
+
+@UNPUBLISHED{Ciari_unpub_TRB_2012,
+  AUTHOR = Ciari,
+  TITLE =  {Modeling Location Decisions of Retailers with an Agent-Based Approach},
+  NOTE =   unpub-pres # comma # {91st Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#364},
+}
+
+@UNPUBLISHED{Ciari_unpub_UrbaneRes_2013,
+  AUTHOR = Ciari,
+  TITLE =  {Sharing as a key to rethink urban mobility},
+  NOTE =   unpub-pres # comma # {{Urbane Ressourcen intelligenter nutzen mit Apps}} # comma # zurich # comma # apr # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#435},
+}
+
+@UNPUBLISHED{Ciari_unpub_Verkehrsingenieurtag_2014,
+  AUTHOR = Ciari,
+  TITLE =  {{Carsharing - Why to model carsharing demand and how}},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {Verkehrsingenieurtag 2014} # comma # zurich # comma # mar # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#480},
+}
+
+@UNPUBLISHED{Ciari_unpub_Wocomoco_2013,
+  AUTHOR = Ciari,
+  TITLE =  {{Carpooling potential in Switzerland}},
+  NOTE =   unpub-pres # comma # {Wocomoco -- 1st World Collaborative Mobility Congress} # comma # lucerne # comma # may # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#445},
+}
+
+@UNPUBLISHED{Ciari_unpub_MATSim_2014,
+  AUTHOR = Ciari,
+  TITLE =  {{MATSim Work in Zurich: An Overview}},
+  NOTE =   unpub-pres # comma # {MATSim PhD Students Seminar, Wiepersdorf} # comma # aug # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#498},
+}
+
+@UNPUBLISHED{Ciari_unpub_Nordicadaption_2014,
+  AUTHOR = Ciari,
+  TITLE =  {Climate change adaptation in the railway sector: an International comparison},
+  NOTE =   unpub-pres # comma # {3rd Nordic International Conference on Climate Change Adaptation} # comma # copenhagen # comma # aug # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#499},
+}
+
+@UNPUBLISHED{CiariAxhausen_unpub_TRB_2012,
+  AUTHOR = Ciari # and # Axhausen,
+  TITLE =  {Choosing carpooling or carsharing as a mode: {S}wiss stated choice experiments},
+  NOTE =   unpub-poster # comma # {91st Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#365},
+}
+
+@UNPUBLISHED{CiariAxhausen_unpub_TRB_2013,
+  AUTHOR = Ciari # and # Axhausen,
+  TITLE =  {{Large-Scale Travel Data Sets and Route Choice Modeling: European Experience}},
+  NOTE =   unpub-pres # comma # {92nd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#446},
+}
+
+@UNPUBLISHED{CiariBoesch_unpub_Singapore_2015,
+  AUTHOR = Ciari # and # Boesch,
+  TITLE =  {{A Multi-Modal Infrastructure Data Base for MATSim}},
+  NOTE =   unpub-pres # comma # {International Workshop on Behavioural detail and computational demands in agent-based models} # comma # singapore # comma # mar # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#565},
+}
+
+@UNPUBLISHED{Chakirov_unpub_2009,
+  AUTHOR =  Chakirov,
+  TITLE =   {{D}evelopment of {C}ontrol {S}trategies for a {M}obile, {I}ntercontinental {T}ele-{O}peration {U}sing {H}umanoid {R}obot},
+  NOTE =    {{B}achelor {T}hesis} # comma # uni-tum-lsr # comma # uni-tum # comma # muenchen,
+  YEAR =    {2009},
+  month =   jan,
+}
+
+@UNPUBLISHED{Charypar_unpub_IVT_2006,
+  AUTHOR = Charypar,
+  TITLE =  {An Event-Driven Parallel Queue-Based Microsimulation for Large Scale Traffic Scenarios},
+  NOTE =   unpub # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich,
+  YEAR =   {2006},
+  month =  apr,
+}
+
+@UNPUBLISHED{Charypar_unpub_ETH_2007,
+  AUTHOR = Charypar,
+  TITLE =  {{Mikroskopische Simulation des Schweizer Verkehrsaufkommens}},
+  NOTE =   unpub-pres # comma # {{Treffpunkt Science City}} # comma # uni-ethz # comma # zurich # comma # nov,
+  YEAR =   {2007},
+  month =  nov,
+}
+
+@UNPUBLISHED{Charypar_unpub_STRC_2009,
+  AUTHOR = Charypar,
+  TITLE =  {Agent-Based Continuous Replanning: Concept and Challenges},
+  NOTE =   unpub-pres # comma # {9th Swiss Transport Research Conference} # comma # ascona # comma # sep # { 2009},
+  YEAR =   {2009},
+  month =  sep,
+}
+
+@UNPUBLISHED{CharyparEtAl_unpub_STRC_2006,
+  AUTHOR = Charypar # and # Axhausen # and # Nagel,
+  TITLE =  {Implementing Activity-Based Models: Accelerating the Replanning Process of Agents Using an Evolution Strategy},
+  NOTE =   unpub-pres # comma # {6th Swiss Transport Research Conference (STRC)} # comma # ascona,
+  YEAR =   {2006},
+  month =  mar,
+}
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Daly_unpub_STRC_2013,
+  AUTHOR = Daly,
+  TITLE =  {Forecasting Travel Demand Using Large-Scale Models},
+  YEAR =   {2013},
+  NOTE =   {keynote} # comma # {13th Swiss Transport Research Conference} # comma # ascona # comma # apr # { 2013},
+}
+
+@UNPUBLISHED{DeJong_unpub_RC_2013,
+  AUTHOR = DeJong,
+  TITLE =  {Predicting Uncertainty of Traffic Forecasts},
+  NOTE =   unpub-pres # comma # {Interdisciplinary Seminar Complex Socio-Technical-Economic Systems and Integrative Risk Management organized by the ETH Risk Center} # comma # uni-ethz # comma # zurich # comma # nov # { 2013},
+  YEAR =   {2013},
+}
+
+@UNPUBLISHED{DePalma_unpub_STRC_2012,
+  author = DePalma,
+  title = {The Economics of the Family in Transportation and Urban Economics},
+  note = unpub-pres # comma # {12th Swiss Transport Research Conference (STRC)} # comma # ascona,
+  year = {2012},
+  month = may,
+}
+
+@UNPUBLISHED{Dobler_unpub_Ayalon_2014,
+  AUTHOR = Dobler,
+  TITLE =  {{Integration of Activity-Based with Agent-Based Models: An Example from Tel-Aviv Model and MATSim}},
+  NOTE =   unpub-pres # comma # {{Seminar of Ayalon Highways Ltd.}} # comma # ramatgan # comma # apr # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#488},
+}
+
+@UNPUBLISHED{Dobler_unpub_CAS_RisikoUndSicherheit_2012,
+  AUTHOR = Dobler,
+  TITLE =  {{Object-oriented / Agent-based Modellierungsansatz - Evakuation als Anwendungsbeispiel}},
+  NOTE =   unpub-pres # comma # {CAS Risiko und Sicherheit technischer Systeme} # comma # uni-ethz # comma # zurich # comma # oct # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Dobler_unpub_EGREGISMeeting_2012,
+  AUTHOR = Dobler,
+  TITLE =  {Creating Input Data for an Agent-based Micro-simulation using {GIS}},
+  NOTE =   unpub-pres # comma # {EGREGIS Meeting} # comma # uni-ethz # comma # zurich # comma # jan # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Dobler_unpub_IATBR_2012,
+  AUTHOR = Dobler,
+  TITLE =  {Transport Simulations: Knowledge Levels and System Outcomes},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {13th International Conference on Travel Behavior Research} # comma # toronto # comma # jul # { 2012},
+}
+
+@UNPUBLISHED{DoblerEtAl_unpub_TRB_2012,
+  AUTHOR = Dobler # and # Kowald # and # Schuessler # and # Axhausen,
+  TITLE =  {Within-Day Replanning of Exceptional Events},
+  NOTE =   unpub-poster # comma # {91st Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#369},
+}
+
+@UNPUBLISHED{Dobler_unpub_SummerSchoolOldenburg_2011,
+  AUTHOR = Dobler,
+  TITLE =  {Simulation of Extreme Traffic Events },
+  NOTE =   unpub-pres # comma # {3rd International Summer School Oldenburg} # comma # uni-oldenburg # comma # oldenburg # comma # aug # { 2011},
+  YEAR =   {2011},
+}
+
+@UNPUBLISHED{Dobler_unpub-pres_IVT_2010,
+  AUTHOR = Dobler,
+  TITLE =  {{Simulation von Katastrophen: Konzepte und erste Ergebnisse}},
+  YEAR =   {2010},
+  NOTE =   unpub-pres # comma # {IVT-Seminar} # comma # uni-ethz # comma # zurich # comma # jun # { 2010},
+  url =    {},
+  month =  jun,
+}
+
+@UNPUBLISHED{Dobler_unpub-pres_CCSS_2010,
+  AUTHOR = Dobler,
+  TITLE =  {Modelling disasters: First experiments with an agent-based simulation},
+  NOTE =   unpub-pres # comma # {CCSS-Seminar} # comma # uni-ethz # comma # zurich # comma # may # { 2010},
+  YEAR =   {2010},
+  month =  may,
+}
+
+@UNPUBLISHED{DoblerKowald_unpub-pres_CCSS_2011,
+  AUTHOR = Dobler # and # Kowald,
+  TITLE =  {Modelling Large-scale Evacuations - Experiments with an Agent-based Simulation and Future Developments},
+  NOTE =   unpub-pres # comma # {CCSS-Seminar} # comma # uni-ethz # comma # zurich # comma # may # { 2011},
+  YEAR =   {2011},
+  month =  may,
+}
+
+@UNPUBLISHED{Dobler_unpub-pres_MATSimUserMeeting_2010,
+  AUTHOR = Dobler,
+  TITLE =  {{W}ithin {D}ay {R}eplanning with {MATSim}},
+  YEAR =   {2010},
+  NOTE =   unpub-pres # comma # {{MATSim} User Meeting 2010} # comma # zurich # comma # may # { 2010},
+  url =    {http://matsim.org/uploads/475/cdobler_matsim_usermeeting_pdf_4bfd2bd895.pdf},
+  month =  may,
+}
+
+@UNPUBLISHED{Dubernet_unpub_IVT_2012,
+  AUTHOR = Dubernet,
+  TITLE =  {Introducing Joint Trips in a Multi-Agent Transport Simulation},
+  NOTE =   unpub-pres # comma # {IVT-Seminar ``Fahrzeuge Teilen''} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma #  may # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Dubernet_unpub_MATSimUserMeeting_2012,
+  AUTHOR = Dubernet,
+  TITLE =  {Including Joint Trips in a Multi-Agent Transport Simulation},
+  NOTE =   unpub-pres # comma # {4th {MATS}im User Meeting} #  comma # berlin # comma #  mar # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#375}
+}
+
+@UNPUBLISHED{Dubernet_unpub_MATSim_2013,
+  AUTHOR = Dubernet,
+  TITLE =  {{The New MATSim Routing Infrastructure}},
+  NOTE =   unpub-pres # comma # {{MATSim User Meeting}} #  comma # zurich # comma #  jun # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#452}
+}
+
+@UNPUBLISHED{DubernetAxhausen_unpub_Frontiers_2013,
+  AUTHOR = Dubernet # and # Axhausen,
+  TITLE =  {{First Results of an Household Joint Activity-Travel Multi-Agent Simulation Tool}},
+  NOTE =   unpub-pres # comma # {Frontiers in Transportation -- Social Interactions Workshop} # comma # herrsching # comma # aug # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#453},
+}
+
+@UNPUBLISHED{DubernetAxhausen_unpub_hEART_2014,
+  AUTHOR = Dubernet # and # Axhausen,
+  TITLE =  {Using a Multi-Agent Transport Simulation to Study the Impact of the Preference for Joint Activities on Leisure Trip Distance Distribution},
+  NOTE =   unpub-pres # comma # {3rd Symposium of the European Association for Research in Transportation (hEART 2014)} # comma # leeds # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#504},
+}
+
+@UNPUBLISHED{DubernetAxhausen_unpub_SmartCities_2013,
+  AUTHOR = Dubernet # and # Axhausen,
+  TITLE =  {{Validation of an Household Joint Activity-Travel Multi-Agent Simulation Tool}},
+  NOTE =   unpub-pres # comma # {Smart Cities, Complexity and Urban Networks Satellite meeting of the European Conference on Complex Systems} # comma # barcelona # comma # sep # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#454},
+}
+
+@UNPUBLISHED{DubernetAxhausen_unpub_STRC_2013,
+  AUTHOR = Dubernet # and # Axhausen,
+  TITLE =  {A framework to represent joint decisions in a multi-agent transport simulation},
+  NOTE =   unpub-pres # comma # {13th Swiss Transport Research Conference} # comma # ascona # comma # apr # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#451},
+}
+
+@UNPUBLISHED{DubernetAxhausen_unpub_CitiNet_2014,
+  AUTHOR = Dubernet # and # Axhausen,
+  TITLE =  {Using a Multi-Agent Transport Simulation to Study the Impact of the Preference for Joint Activities on Leisure Trip Distance Distribution},
+  NOTE =   unpub-pres # comma # {3rd International Workshop on Citizen Networks --- Satellite meeting of the European Conference on Complex Systems} # comma # lucca # comma # sep # { 2014},
+  YEAR =   {2014},
+}
+
+@UNPUBLISHED{DubernetIEtAl_unpub_hEART_2016,
+  AUTHOR = DubernetI # and # CrastesditSourd # and # Beck # and # Hess # and # Axhausen # and # HolzRau # and # Scheiner,
+  TITLE =  {{A dynamic approach to long term mobility decisions in the life course}},
+  NOTE =   unpub-pres # comma # {5th Symposium of the European Association for Research in Transportation (hEART 2015)} # comma # delft # comma # sep # { 2016},
+  YEAR =   {2016},
+}
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Ehreke_unpub_UniversitatstagungVerkehrswesen_2012,
+  AUTHOR = Ehreke,
+  TITLE =  {{Ermittlung von Bewertungsans\"{a}tzen f\"{u}r Reisezeiten f\"{u}r die Bundesverkehrswegeplanung}},
+  NOTE =   unpub-pres # comma # {Universit\"{a}tstagung Verkehrswesen} # comma # rotenburgfulda # comma # sep # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#402},
+}
+
+@UNPUBLISHED{Ehreke_unpub_Mobilitaetsbiographien_2013,
+  AUTHOR = Ehreke,
+  TITLE =  {{Modellierung von Arbeitsplatzentscheidungen in Mobilitätsbiographien}},
+  NOTE =   unpub-pres # comma # {{Workshop Mobilitätsbiographien}} # comma # zurich # comma # sep # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#472},
+}
+
+@UNPUBLISHED{Ehreke_unpub_Dortmund_2014,
+  AUTHOR = Ehreke,
+  TITLE =  {{Modellierung von Arbeitsplatzentscheidungen in Mobilitätsbiographien}},
+  NOTE =   unpub-pres # comma # {{Dortmunder Konferenz Raum- und Planungsforschung -- Workshop ``Mobilitätssozialisation und Mobilitätsbiographien''}} # comma # dortmund # comma # feb # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#510},
+}
+
+@UNPUBLISHED{Ehreke_unpub_Leeds_2015,
+  AUTHOR = Ehreke,
+  TITLE =  {{Mobility Biographies: A Life-Course Approach to Travel Behaviour and Residential Choice}},
+  NOTE =   unpub-pres # comma # {Choice Modelling Centre Summer Event} # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#561},
+}
+
+@UNPUBLISHED{Ehreke_unpub_OECD_2013,
+  AUTHOR = Ehreke,
+  TITLE =  {{Personal transport choices -- OECD Project on household behaviour and environmental policy}},
+  NOTE =   unpub-pres # comma # {{Meeting of the Advisory Committee}} # comma # may # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#473},
+}
+
+@UNPUBLISHED{EhrekeAxhausen_unpub_hEART_2014,
+  AUTHOR = Ehreke # and # Axhausen,
+  TITLE =  {{The German Value of Time and Value of Reliability Study}},
+  NOTE =   unpub-pres # comma # {3rd Symposium of the European Association for Research in Transportation (hEART 2014)} # comma # leeds # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#508},
+}
+
+@UNPUBLISHED{EhrekeAxhausen_unpub_STRC_2014,
+  AUTHOR = Ehreke # and # Axhausen,
+  TITLE =  {Modelling work place decisions in mobility biographies},
+  NOTE =   unpub-pres # comma # {14th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#509},
+}
+
+@UNPUBLISHED{EhrekeEtAl_unpub_IATBR_2015,
+  AUTHOR = Ehreke # and # Hess # and # Axhausen,
+  TITLE =  {{The German value of time and value of reliability study: Comparing alternative model formulations}},
+  NOTE =   unpub-pres # comma # {14th International Conference on Travel Behavior Research (IATBR)} # comma # windsor # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#562},
+}
+
+@UNPUBLISHED{EhrekeWeis_unpub_hEART_2013,
+  AUTHOR = Ehreke # and # Weis,
+  TITLE =  {{Determine VTTS for the German Federal Transport Infrastructure Planning}},
+  NOTE =   unpub-pres # comma # {2nd Symposium of the European Association for Research in Transportation (hEART 2013)} # comma # stockholm # comma # sep # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#474},
+}
+
+@UNPUBLISHED{Erath_unpub_IDA_2013,
+  AUTHOR = Erath,
+  TITLE =  {How to improve public transport services in {Jurong Lake District?}},
+  NOTE =   unpub-pres # comma # {IDA Tech Showcase @ JLD CFC Networking Event} # comma # singapore # comma # may # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#441},
+}
+
+@UNPUBLISHED{Erath_unpub_StarInstitute_2012,
+  AUTHOR = Erath,
+  TITLE =  {Perspectives of Future Urban Mobility and the Role of Transport Modeling as Complex System},
+  NOTE =   unpub-pres # comma # {A*Star Institute of High Performance Computing Student Seminar on Complex Systems} # comma # aug # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Erath_unpub_SGCC_2012,
+  AUTHOR = Erath,
+  TITLE =  {Development and potential applications of MATSim Singapore, a large-scale agent based transport demand model},
+  NOTE =   unpub-pres # comma # {Singapore German Chamber of Commerce} # comma # dec # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Erath_unpub_FCLSeminar_2012,
+  AUTHOR = Erath,
+  TITLE =  {The potential of agent-based modelling to improve public transport planning and operations},
+  NOTE =   unpub-pres # comma # {Future Cities Laboratory Seminar on Public Transport Planning} # comma # nov # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Erath_unpub_FCL_2013,
+  AUTHOR = Erath,
+  TITLE =  {Activity Based Modelling, Accessibility and High Rises},
+  NOTE =   unpub-pres # comma # {Digital Fabrication Seminar Input Lecture, Future Cities Laboratory} # comma # singapore # comma # mar # { 2013},
+  YEAR =   {2013},
+url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#439},
+}
+
+@UNPUBLISHED{Erath_unpub_JSTNEAWS_2012,
+  AUTHOR = Erath,
+  TITLE =  {Potentials of Agent-based Transport Modelling for Environmental Impact Evaluation},
+  NOTE =   unpub-pres # comma # {{JST and NEA Environment and Technology Workshop}} # comma # singapore # comma # jul # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Erath_unpub_FCLWCS_2012,
+  AUTHOR = Erath,
+  TITLE =  {Integrated Mobility, 5 Propositions for Sustainable Future Cities},
+  NOTE =   unpub-pres # comma # {FCL Forum at World Cities Summit 2012} # comma # singapore # comma # aug # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Erath_unpub_IVT_2012,
+  AUTHOR = Erath,
+  TITLE =  {{Challenges of implementing MATSim Singapore}},
+  NOTE =   unpub-pres # comma # {{MATSim Singapore Workshop}} # comma # singapore # comma # feb # {2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Erath_unpub_MATSimConcept_2013,
+  AUTHOR = Erath,
+  TITLE =  {{MATSim-based decision support system}},
+  NOTE =   unpub-pres # comma # {{MATSim Conceptual Meeting}} # comma # jun # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#468},
+}
+
+@UNPUBLISHED{Erath_unpub_MATSimSingapore_2012,
+  AUTHOR = Erath,
+  TITLE =  {MATSim Singapore: General Framework},
+  NOTE =   unpub-pres # comma # {{MATSim Singapore Workshop}} # comma # singapore # comma # feb # {2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{Erath_unpub_URA_2015,
+  AUTHOR = Erath,
+  TITLE =  {Walkability: {H}ow can we plan for it?},
+  NOTE =   unpub-pres # comma # {Urban Lab Exhibition @ URA Gallery} # comma # singapore # comma # jan # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#539},
+}
+
+@UNPUBLISHED{ErathChakirov_unpub_Bin_2011,
+  AUTHOR = Erath # and # Chakirov,
+  TITLE =  {Activity location modelling based on smart card fare payment data for public transport},
+  NOTE =   unpub-pres # comma # {{Behavior in Networks Workshop}} # comma # hongkong # comma # dec # {2011},
+  YEAR =   {2011},
+}
+
+@UNPUBLISHED{Erath_unpub_APCSE_2011,
+  AUTHOR = Erath,
+  TITLE =  {Accounting for Diversity in Transport Modelling and Simulation},
+  NOTE =   unpub-pres # comma # {{5th Asia-Pacific Conference on Systems Engineering}} # comma # seoul # comma # oct # {2011},
+  YEAR =   {2011},
+}
+
+@UNPUBLISHED{Erath_unpub_Barcelona_2014_1,
+  AUTHOR = Erath,
+  TITLE =  {Paradigms and models for sustainable urban mobility},
+  NOTE =   unpub-pres # comma # {Workshop 5 PDU metropolità: Innovació urbana, mobilitat i metabolisme metropolità, Area Metropolitana Barcelona} # comma # barcelona # comma # oct # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#520},
+}
+
+@UNPUBLISHED{Erath_unpub_Barcelona_2014_2,
+  AUTHOR = Erath,
+  TITLE =  {{Learning from Singapore:} towards sustainable mobility?},
+  NOTE =   unpub-pres # comma # {Urban Masterplan Workshop, Àrea Metropolitana Barcelona} # comma # barcelona # comma # oct # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#521},
+}
+
+@UNPUBLISHED{Erath_unpub_BernerVerkehrstag_2009,
+  AUTHOR = Erath,
+  TITLE =  {{W}elche {W}irkungen haben {P}reise auf die {M}obilit\"{a}t? {E}rgebnisse aus neusten {S}tudien zur {P}reiselastizit\"{a}t},
+  NOTE =   unpub-pres # comma # {{9ter Berner Verkehrstag}} # comma # bern # comma # aug # { 2009},
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Erath_unpub_FCL_2011,
+  AUTHOR = Erath,
+  TITLE =  {Urban Transport and Sustainability: Research Framework for (M)edium and (L) Long Term},
+  NOTE =   unpub-pres # comma # {{Future Cities Laboratory Conference}} # comma # singapore # comma # sep # {2011},
+  YEAR =   {2011},
+}
+
+@UNPUBLISHED{Erath_unpub_FCL_2014,
+  AUTHOR = Erath,
+  TITLE =  {Future Urban Transport Systems Urban transport systems: A brief for urban designers},
+  NOTE =   unpub-pres # comma # { Future Cities Symposium (FCL 2014)} # comma # zurich # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#517},
+}
+
+@UNPUBLISHED{Erath_unpub_Hochschultagung_2007,
+  AUTHOR = Erath,
+  TITLE =  {{Berücksichtigung des Schadenspotentials beim Management der Schweizer Verkehrsinfrastruktur}},
+  NOTE =   unpub-pres # comma # {Deutsche Hochschultagung Verkehrswesen} # comma # rust # comma # oct,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Erath_unpub_ModellingWorld_2014,
+  AUTHOR = Erath,
+  TITLE =  {Visualising and analysing agent-based model data for decision support},
+  NOTE =   unpub-pres # comma # {9th Annual Modelling World Conference and Exhibition} # comma # london # comma # jun # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#518},
+}
+
+@UNPUBLISHED{Erath_unpub_Stars_2014,
+  AUTHOR = Erath,
+  TITLE =  {Future Urban Transport Systems},
+  NOTE =   unpub-pres # comma # {stars Singapore Symposium} # comma # singapore # comma # feb # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#516},
+}
+
+@UNPUBLISHED{Erath_unpub_SVWG_2006,
+  AUTHOR = Erath,
+  TITLE =  {Route, Mode and Departure Time Choice Behaviour in the Presence of Mobility Pricing},
+  NOTE =   unpub-pres # comma # {{Rolle von Zeit im Verkehr: der Fall Personenverkehr}} # comma # {Forum des Schweizer Verkehrs} # comma # SVWG # comma # bern # comma # oct,
+  YEAR =   {2006},
+}
+
+@UNPUBLISHED{Erath_unpub_ThinkSwiss_2007,
+  AUTHOR = Erath,
+  TITLE =  {Route, Mode and Departure Time Choice Behaviour in the Presence of Mobility Pricing},
+  NOTE =   unpub-pres # comma # {Study Trip on Public Transportation and Mobility} # comma # {Think Swiss and Presence Switzerland} # comma # zurich # comma # nov # { 2007},
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Erath_unpub_UniSeoul_2011,
+  AUTHOR = Erath,
+  TITLE =  {Development of a MATSim model for Singapore},
+  NOTE =   unpub-pres # comma # {{Department of Transport Engineering Seminar}} # comma # seoul # comma # oct # {2011},
+  YEAR =   {2011},
+}
+
+@UNPUBLISHED{Erath_unpub_USRDC_2011,
+  AUTHOR = Erath,
+  TITLE =  {Daily Flows: (M)edium and (L)ong Term},
+  NOTE =   unpub-pres # comma # {{Urban Sustainability Research and Development Congress}} # comma # singapore # comma # jul # {2011},
+  YEAR =   {2011},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_EASTS_2013,
+  AUTHOR = Erath # and # VanEggermond # and # Fourie # and # Chakirov,
+  TITLE =  {Decision support tool to unlock the potential of large-scale agent-based transport demand simulation for planning practice},
+  NOTE =   unpub-pres # comma # {10th International Conference of Eastern Asia Society for Transportation Studies (EASTS 2013)} # comma # taipei # comma # sep # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#469},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_IATBR_2015,
+  AUTHOR = Erath # and # VanEggermond # and # Ordonez # and # Axhausen,
+  TITLE =  {{Modelling for Walkability: understanding pedestrians' preferences in Singapore}},
+  NOTE =   unpub-pres # comma # {14th International Conference on Travel Behavior Research (IATBR 2015)} # comma # windsor # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#570},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_ITS_2014,
+  AUTHOR = Erath # and # Fourie # and # Ordonez # and # Chakirov,
+  TITLE =  { Using smart card data for agent-based transport simulation: the case of {Singapore}},
+  NOTE =   unpub-pres # comma # {Korea Institute of ITS International Conference} # comma # busan # comma # oct # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#522},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_SITCE_2013,
+  AUTHOR = Erath # and # Ordonez # and # Chakirov # and # Fourie,
+  TITLE =  {{Using public transport smart card data for large-scale, agent-based transport demand simulation using MATSim: the case of Singapore}},
+  NOTE =   unpub-pres # comma # {{LTA-UITP Singapore International Transport Congress and Exhibition (SITCE 2013)}} # comma # singapore # comma # oct # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#470},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_IVT_2015,
+  AUTHOR = Erath # and # Fourie # and # SunL # and # Ordonez # and # Chakirov,
+  TITLE =  {{From Big Data to Smart Data: Developing a MATSim Model That Runs on Smart Card Data}},
+  NOTE =   unpub-pres # comma # {IVT-Seminar} # comma # zurich # comma # aug # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#553},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_STRC_2013,
+  AUTHOR = Erath # and # VanEggermond # and # Fourie # and # Chakirov,
+  TITLE =  {Decision support tools in transport planning: from research to practice},
+  NOTE =   unpub-pres # comma # {13th Swiss Transport Research Conference} # comma # ascona # comma # apr # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#442},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_Gifu_2014,
+  AUTHOR = Erath # and # Fourie # and # Ordonez # and # Chakirov,
+  TITLE =  {Using smart card data as an Input for large scale agent-based transport simulation: the case of {S}ingapore},
+  NOTE =   unpub-pres # comma # {1st International workshop on utilizing transit smart card data for service planning} # comma # gifu # comma # jul # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#497},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_RD_2015,
+  AUTHOR = Erath # and # Axhausen # and # VanEggermond # and # Ordonez # and # AliA,
+  TITLE =  {Walkability and pedestrian route choice in {S}ingapore},
+  NOTE =   unpub-pres # comma # {Urban Sustainability R\&D Congress 2015} # comma # singapore # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#559},
+}
+
+@UNPUBLISHED{ErathEtAl_unpub_URA_2015,
+  AUTHOR = Erath # and # VanEggermond # and # Ordonez # and # Axhausen,
+  TITLE =  {Walkability and pedestrian route choice -- key findings},
+  NOTE =   unpub-pres # comma # {URA Centre} # comma # singapore # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#560},
+}
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Fellendorf_unpub_UTSG_1989,
+  AUTHOR = Fellendorf,
+  TITLE =  {A Comparison of {B}ritish and {G}erman Signal Control Methodology},
+  NOTE =   unpub-pres # comma # {21st UTSG Annual Conference} # comma # edinburgh,
+  YEAR =   {1989},
+}
+
+@UNPUBLISHED{Floetteroed_unpub_MCM_2012,
+  AUTHOR = Floetteroed,
+  TITLE =  {{MATSim} as a {M}onte {C}arlo Engine},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {1st MATSim Conceptual Meeting} # comma # zurich # comma # sep,
+}
+
+@UNPUBLISHED{FloetteroedEtAl_unpub_MATSimUserMeeting_2011,
+  AUTHOR = Floetteroed # and # ChenYu # and # Nagel,
+  TITLE =  {Behavioral calibration and analysis of a large-scale travel microsimulation},
+  YEAR =   {2011},
+  NOTE =   unpub-pres # comma # {3rd MATSim User Meeting} # comma # berlin # comma # apr # { 2011},
+  url =    {http://matsim.org/uploads/590/carCalibration.pdf},
+}
+
+@UNPUBLISHED{FluegelKern_unpub_WTS_2014,
+  AUTHOR = Fluegel # and # KernJQ,
+  TITLE =  {Workshop on activity-based traffic simulations},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {Workshop at Hasselt University} # comma # {Hasselt},
+}
+
+@UNPUBLISHED{FourieEtAl_unpub_TRB_2013,
+  AUTHOR = Fourie # and # Illenberger # and # Nagel,
+  TITLE =  {A multi-model approach to large-scale multiagent transport simulation},
+  NOTE =   unpub-poster # comma # {92nd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2013},
+  YEAR =   {2013},
+  month =  jan,
+  url = {http://www.ivt.ethz.ch/vpl/publications/presentations#438},
+}
+
+@UNPUBLISHED{Fourie_unpub_ORSSA_2009,
+  AUTHOR = Fourie,
+  TITLE =  {Transport demand planning: Microsimulation vs traditional systems},
+  NOTE =   unpub-pres # comma # {38th Annual Operational Research Society of South Africa (ORSSA) Conference} # comma # stellenbosch # comma # sep # { 2009},
+  YEAR =   {2009},
+  month =  sep,
+  url = {http://www.orssa.org.za/wiki/pmwiki.php?n=Conf.38thAnnualConference},
+}
+
+@UNPUBLISHED{Fourie_unpub_Gifu_2014,
+  AUTHOR = Fourie,
+  TITLE =  {Reconstructing bus vehicle trajectories from transit smart-card data},
+  NOTE =   unpub-pres # comma # {1st International workshop on utilizing transit smart card data for service planning} # comma # gifu # comma # jul # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.gu-rsp.org/smartcard},
+}
+
+@UNPUBLISHED{Fuhrer_unpub_ICHG_2015,
+  AUTHOR = Fuhrer,
+  TITLE =  {Modelling historical accessibility and its effects in space},
+  YEAR =   {2015},
+  NOTE =   unpub-pres # comma # {16th International Conference of Historical Geographers (ICHG)} # comma # london # comma # jul # { 2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#568},
+}
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{GeEtAl_unpub_TRB_2014,
+  AUTHOR = GeQ # and # Ciuffo # and # Menendez,
+  TITLE =  {{From theory to practice II: a comprehensive approach for the sensitivity analysis of high dimensional and computationally expensive traffic simulation models}},
+  NOTE =   unpub-pres # comma # {93rd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2014},
+  YEAR =   {2014},
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#70},
+}
+
+@UNPUBLISHED{GeMenendez_unpub_LATSYS_2012,
+  AUTHOR = GeQ # and # Menendez,
+  TITLE =  {{A Simulation Study of the Car-to-X Communication Based Merge Traffic Control in Freeway Work Zone}},
+  NOTE =   unpub-pres # comma # {{1st European Symposium on Quantitative Methods in Transportation Systems (LATSYS)}} # comma # lausanne # comma # sep # { 2012},
+  YEAR =   {2012},
+  month =  sep,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#40},
+}
+
+@UNPUBLISHED{GeMenendez_unpub_IVTAlumniDay_2012,
+  AUTHOR = GeQ # and # Menendez,
+  TITLE =  {Sensitivity Analysis of a Microscopic Traffic Model},
+  NOTE =   unpub-poster # comma # {IVT-Alumni-Seminar} # comma # zurich # comma # mar # { 2012},
+  YEAR =   {2012},
+  month =  mar,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#29},
+}
+
+@UNPUBLISHED{GeMenendez_unpub_STRC_2012,
+  AUTHOR = GeQ # and # Menendez,
+  TITLE =  {Sensitivity analysis for calibrating {VISSIM} in Modeling the Zurich Network},
+  NOTE =   unpub-pres # comma # {12th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2012},
+  YEAR =   {2012},
+  month =  may,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#32},
+}
+
+@UNPUBLISHED{GeMenendez_unpub_STRC_2013,
+  AUTHOR = GeQ # and # Menendez,
+  TITLE =  {A Simulation Study for the Static Early Merge and Late Merge Controls at Freeway Work Zones},
+  NOTE =   unpub-pres # comma # {13th Swiss Transport Research Conference} # comma # ascona # comma # apr # { 2013},
+  YEAR =   {2013},
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#58},
+}
+
+@UNPUBLISHED{GeMenendez_unpub_TRB_2013,
+  AUTHOR = GeQ # and # Menendez,
+  TITLE =  {An improved approach for the sensitivity analysis of computationally expensive microscopic traffic models -- a case study of the Zurich network in {VISSIM}},
+  NOTE =   unpub-pres # comma # {92nd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2013},
+  YEAR =   {2013},
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#59},
+}
+
+@UNPUBLISHED{Geroliminis_unpub_IVT_2012,
+  AUTHOR = Geroliminis,
+  TITLE =  {Macroscopic modeling of traffic in congested cities},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{IVT-Seminar}} # comma # zurich # comma # nov # { 2012},
+  month =  nov,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#45},
+}
+
+@UNPUBLISHED{Goodchild_unpub_IVT_2012,
+  AUTHOR = Goodchild,
+  TITLE =  {{Developing Behavioral Models of Licensed Motor Carriers}},
+  NOTE =   unpub-pres # comma # {IVT-Seminar} # comma # zurich # comma # nov # { 2012},
+  YEAR =   {2012},
+  month =  nov,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#48},
+}
+
+@UNPUBLISHED{GulerMenendez_unpub_TRB_2014,
+  AUTHOR = Guler # and # Menendez,
+  TITLE =  {{Evaluation of Presignals at Oversaturated Signalized Intersections}},
+  NOTE =   unpub-pres # comma # {93rd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2014},
+  YEAR =   {2014},
+  month =  jan,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#73},
+}
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{HaaseLoechl_unpub_IVT_2009,
+  AUTHOR = Haase # and # Loechl,
+  TITLE =  {{Mietzinsen und Erreichbarkeit bei Büro- und Wohnimmobilien: Neue Ergebnisse für den Grossraum Zürich}},
+  NOTE =   unpub-pres # comma # {IVT-Seminar ``Wie schafft Erreichbarkeit Werte?''} # comma # uni-ethz # comma # may # { 2009},
+  YEAR =   {2009},
+  month =  may,
+}
+
+@UNPUBLISHED{HeEtAl_unpub_STRC_2014,
+  AUTHOR = HeH # and # Guler # and # Menendez,
+  TITLE =  {Effects of Pre-Signals at an Isolated Intersection: Simulation Results},
+  NOTE =   unpub-pres # comma # {14th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#76},
+}
+
+@UNPUBLISHED{HeHEtAl_unpub_TRB_2015,
+  AUTHOR = HeH # and # Guler # and # Menendez,
+  TITLE =  {{Providing Bus Priority Using Adaptive Pre-signals}},
+  YEAR =   {2015},
+  NOTE =   unpub-poster # comma # {94th Annual Meeting of the Transportation Research Board (TRB2015)} # comma # washington # comma # jan # { 2015},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#90},
+}
+
+@UNPUBLISHED{Heimgartner_unpub_IVT_2012,
+  AUTHOR =  Heimgartner,
+  TITLE =   {{Modeling the Zurich traffic network}},
+  YEAR =    {2012},
+  NOTE =    unpub-pres # comma # {invited lecture at {IVT}} # comma # uni-ethz # comma # may # { 2012},
+  url =     {http://www.ivt.ethz.ch/svt/publications/presentations#28},
+}
+
+@UNPUBLISHED{Heimgartner_unpub_IVT_2013,
+  AUTHOR =  Heimgartner,
+  TITLE =   {{Using simulation to model the Zurich traffic network}},
+  YEAR =    {2013},
+  NOTE =    unpub-pres # comma # {invited lecture at {IVT}} # comma # uni-ethz # comma # may # { 2013},
+  url =     {http://www.ivt.ethz.ch/svt/publications/presentations#54},
+}
+
+
+@UNPUBLISHED{Hettinger_unpub_2007,
+  AUTHOR =  Hettinger,
+  TITLE =   {{Anpassung von Aktivitätenketten mittels wiederholter proportionaler Anpassung}},
+  SCHOOL =  uni-ethz-ivt # comma # uni-ethz,
+  YEAR =    {2007},
+  NOTE =    {\emph{term paper}} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich,
+  address = zurich,
+  url =     {},
+}
+
+@UNPUBLISHED{HopeEtAl_unpub_TRACC_2009,
+  AUTHOR = Hope # and # ParkYS # and # Ley,
+  TITLE =  {Convergence Control and Equilibration (Part 7)},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {TRANSIMS Training Course at Transportation Research and Analysis Computing Center (TRACC)} # comma # chicago # comma # dec,
+  url =    {http://transims.googlecode.com/svn/v4/trunk/documentation/training/TRANSIMS\%20-\%207\%20-\%20Feedback\%20(final).pdf},
+}
+
+@UNPUBLISHED{Horni_unpub_MATSimUserMeeting_2012,
+  AUTHOR = Horni,
+  TITLE =  {{MATSim} Destination Choice for Shopping and Leisure Activities},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {4th MATSim User Meeting} # comma # berlin # comma # mar # { 2012},
+}
+
+@UNPUBLISHED{HorniEtAl_unpub_Brownbag_2012,
+  AUTHOR = Horni # and # Montini # and # Waraich,
+  TITLE =  {Parking},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {Brownbag} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # jun # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#394},
+}
+
+@UNPUBLISHED{HorniEtAl_unpub_TRB_2012,
+  AUTHOR = Horni # and # Nagel # and # Axhausen,
+  TITLE =  {High-Resolution Destination Choice in Agent-Based Demand Models},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {91st Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#363},
+}
+
+@UNPUBLISHED{Horni_unpub_IVV_2012,
+  AUTHOR = Horni,
+  TITLE =  {{Simulation einer Woche mit MATSim}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {IVT Institutsvollversammlung} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # jul # { 2012},
+}
+
+@UNPUBLISHED{HorniCiari_unpub_IS_2009,
+  AUTHOR = Horni # and # Ciari,
+  TITLE =  {Modeling Shopping Customer and Retailers with the Activity-Based {M}ulti-agent {T}ransport {S}imulation {MATS}im},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {Interdisciplinary Seminar ``Modeling Complex Socio-Economic Systems and Crises''} # comma # zurich # comma # apr # { 2009},
+}
+
+@UNPUBLISHED{HorniCiari_unpub_RC_2011,
+  AUTHOR = Horni # and # Ciari,
+  TITLE =  {Microsimulating Choices of Different Agent Types: Shoppers and Retailers},
+  YEAR =   {2011},
+  NOTE =   {poster presented at Rational Choice Seminar} # comma # {San Servolo (Venice)} # comma # nov # { 2011},
+}
+
+@UNPUBLISHED{HorniEtAl_unpub_STRC_2009,
+  AUTHOR = Horni # and # Scott # and # Balmer # and # Axhausen,
+  TITLE =  {Location Choice Modeling for Shopping and Leisure Activities with {MATS}im: Utility Function Extension and Validation Results},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {9th Swiss Transport Research Conference} # comma # ascona # comma # sep # { 2009},
+}
+
+@UNPUBLISHED{Horni_unpub_IVT_2007,
+  AUTHOR = Horni # and # Grether,
+  TITLE =  {Counts},
+  NOTE =   unpub-intern # comma # {MATSim-T Workshop} # comma # uni-ethz-ivt # comma # uni-ethz # comma # castasegna # comma # oct,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Horni_unpub_ETH_2007,
+  AUTHOR = Horni,
+  TITLE =  {{Vergleich: Simulation - Zählungen (Wie gut ist unsere Simulation?)}},
+  NOTE =   unpub-pres # comma # {{Treffpunkt Science City}} # comma # uni-ethz # comma # zurich # comma # nov,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{HorniMontini_unpub_Quantsoc_2013,
+  AUTHOR = Horni # and # Montini,
+  TITLE =  {{ApplauSim: A Simulation of Synchronous Applause}},
+  YEAR =   {2013},
+  NOTE =   unpub-pres # comma # {{Quantitative Sociology Colloquium}} # comma # zurich # comma # apr # { 2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#434},
+}
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{JaeggiAxhausen_unpub_IVT_2011,
+  AUTHOR = Jaeggi # and # Axhausen,
+  TITLE =  {Stated Preference and Multiple discrete-continuous choice models: An analysis of residuals},
+  YEAR =   {2011},
+  NOTE =   unpub-pres # comma # {International Choice Modelling Conference} # comma # leeds # comma # jul # { 2011},
+}
+
+@UNPUBLISHED{Janzen_unpub_IVV_2014,
+  AUTHOR = Janzen,
+  TITLE =  {Long Term Simulation of a Continuous Target-Based Model},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {Institutsvollversammlung (IVV)} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # jul # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#512},
+}
+
+% Not to be cited without the author's consent (Johnston)
+@UNPUBLISHED{Johnston_unpub_20XX,
+  AUTHOR = Johnston,
+  TITLE =  {Entropy-maximizing models},
+  YEAR =   {2007},
+  NOTE =   unpub-pres,
+  url =    {http://www.ggy.bris.ac.uk/personal/RonJohnston/CurrentPapers/Other/other23.pdf},
+}
+
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{KootEtAl_unpub_STRC_2012,
+  AUTHOR = Koot # and # Kowald # and # Axhausen,
+  TITLE =  {Human behaviour in large scale evacuation events},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {12th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#376},
+}
+
+@UNPUBLISHED{Kopp_unpub_IVT_2013,
+  AUTHOR = Kopp,
+  TITLE =  {Sharing instead of owning?},
+  NOTE =   unpub-pres # comma # {IVT Brownbag} # comma # mar # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#471},
+}
+
+@UNPUBLISHED{Kopp_unpub_NSL_2012,
+  AUTHOR = Kopp,
+  TITLE =  {Auto {+} {M}enschen$^{x}$ {=} {DriveNow}},
+  NOTE =   unpub-pres # comma # {NSL -- Netzwerk Stadt und Landschaft ``Verkehrsmittel teilen''} # comma # may # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#414},
+}
+
+@UNPUBLISHED{Kopp_unpub_PodiumsdiskussionGBW_2012,
+  AUTHOR = Kopp,
+  TITLE =  {{Automobile Konzepte der Zukunft}},
+  NOTE =   unpub-pres # comma # {Podiumsdiskussion Global Business Week} # comma # frankfurt # comma # may # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#415},
+}
+
+@UNPUBLISHED{Kopp_unpub_FGSV_2012,
+  AUTHOR = Kopp,
+  TITLE =  {{CarSharing-Fahrzeuge als Datenquelle}},
+  NOTE =   unpub-pres # comma # {FGSV Ausschuss Erhebung und Prognose des Verkehrs}# comma # muenchen # comma # oct # { 2012},
+  YEAR =   {2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#416},
+}
+
+@UNPUBLISHED{KowaldEtAl_unpub_eindhoven_2012,
+  AUTHOR = Kowald # and # Koot # and # Dobler # and # Axhausen,
+  TITLE =  {Human behaviour in large scale evacuation events},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # uni-tue # comma # eindhoven # comma # apr # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#374},
+}
+
+@UNPUBLISHED{KowaldEtAl_unpub_IATBR_2012,
+  AUTHOR = Kowald # and # Arentze # and # Axhausen,
+  TITLE =  {A population's leisure network: Descriptive statistics and a model-based analysis of leisure-contact selection},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {13th International Conference on Travel Behaviour Research} # comma # toronto # comma # jul # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#391},
+}
+
+@UNPUBLISHED{KowaldEtAl_unpub_IVT_2012,
+  AUTHOR = Kowald # and # Koot # and # Dobler # and # Axhausen,
+  TITLE =  {Human behaviour in large scale evacuation events},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{DAS} Verkehrsingenieurwesen} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # apr # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#383},
+}
+
+@UNPUBLISHED{KowaldEtAl_unpub_interrep_2012,
+  AUTHOR = Kowald # and # Koot # and # Dobler # and # Axhausen,
+  TITLE =  {{Handlungsmuster in Evakuierungsszenarien: Experteninterviews und Bev\"{o}lkerungsbefragung}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {Pr\"{a}sentation zum {Z}wischenbericht} # comma # {Aarau} # comma # feb # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#372},
+}
+
+@UNPUBLISHED{KowaldAxhausen_unpub_WFT_2009,
+  AUTHOR = Kowald # and # Axhausen,
+  TITLE =  {A Snowball Around a Random Sample},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {3rd {W}orkshop {F}rontiers in {T}ransportation} # comma # niagra # comma # aug # { 2009},
+}
+
+@UNPUBLISHED{KowaldEtAl_unpub_STRC_2009,
+  AUTHOR = Kowald # and # Frei # and # Hackney # and # Illenberger # and # Axhausen,
+  TITLE =  {Collecting Data on Leisure Travel: The Link between Leisure Acquaintances and Social Interactions},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {9th Swiss Transport Research Conference} # comma # ascona # comma # sep # { 2009},
+}
+
+@UNPUBLISHED{Killer_unpub_STRC_2009,
+  AUTHOR = Killer,
+  TITLE =  {The Dynamics of Commuting Linkage and Overlaps Within Polycentric Regions},
+  NOTE =   unpub-pres # comma # {9th Swiss Transport Research Conference} # comma # ascona # comma # sep # { 2009},
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Killer_unpub_WPE_2009,
+  AUTHOR = Killer,
+  TITLE =  {{Funktionale Pendlerr\"{a}ume}},
+  NOTE =   unpub-pres # comma # {{Workshop Pendler und Erreichbarkeit}} # comma # dortmund # comma # mar # { 2009},
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{KrsticEtAl_unpub_2010,
+  AUTHOR =  Krstic # and # Doblack # and # Basturk # and # Chakirov,
+  TITLE =   {{A}ir {C}ushion {A}ctive {C}ontrol for the {R}eduction of {W}ave {I}nduced {M}otion of {R}amp-{C}onnected {S}hips},
+  NOTE =    {{G}rand {C}hallenges in {M}odeling \& {S}imulation, {S}ummer {S}imulation {M}ulticonference 2010} # comma # ottawa,
+  YEAR =    {2010},
+  month =   jul,
+}
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{LeeAli_unpub_IWUTSCD_2014,
+  AUTHOR = LeeSJ # and # AliA,
+  TITLE =  {Analyzing Subway Origin-Destination Flows by Utilizing Transit Smart Card Data: Case of Seoul Metropolitan Area},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {1st International Workshop on Utilizing Transit Smart Card Data for Service Planning} # comma # {Gifu, Japan} # comma # jul,
+  url =    {},
+}
+
+@UNPUBLISHED{LefebvreBalmer_unpub_STRC_2007,
+  AUTHOR = Lefebvre # and # Balmer,
+  TITLE =  {Fast Shortest Path Computation in Time-Dependent Traffic Networks},
+  YEAR =   {2007},
+  NOTE =   unpub-pres # comma # {The 7th Swiss Transport Research Conference (STRC)} # comma # ascona # comma # sep,
+  url =    {http://www.strc.ch/2007.html},
+}
+
+@UNPUBLISHED{Ley_unpub_TRACC_2008,
+  AUTHOR = Ley,
+  TITLE =  {Introduction to the Methodologies and Implementation of {TRANSIMS}},
+  YEAR =   {2008},
+  NOTE =   unpub-pres # comma # {TRANSIMS Training Course at Transportation Research and Analysis Computing Center (TRACC)} # comma # chicago # comma # apr,
+  url =    {http://web.anl.gov/TRACC/Training/TMS/04_08/transims_-_1_-_introduction.pdf},
+}
+
+@UNPUBLISHED{LitwinMiller_unpub_EIRASS_2004,
+  AUTHOR = Litwin # and # Miller,
+  TITLE =  {Agenda Formation: Evolution of Activity Sequencing within an Event-Driven Time-Series Based Framework},
+  NOTE =   unpub-pres # comma # {EIRASS Workshop on Progress in Activity-Based Analysis} # comma # maastricht,
+  YEAR =   {2004},
+  month =  may,
+}
+
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Maerki_unpub_eindhoven_2012,
+  AUTHOR = Maerki,
+  TITLE =  {Continuous Activity Planning: A Target Driven Approach},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # uni-tue # comma # eindhoven # comma # apr # { 2012},
+  url =    {www.ivt.ethz.ch/vpl/publications/presentations#417},
+}
+
+@UNPUBLISHED{MaerkiEtAl_unpub_TRB_2012,
+  AUTHOR = Maerki # and # Charypar # and # Axhausen,
+  TITLE =  {Target Driven Activity Planning},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {91st Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#362},
+}
+
+@UNPUBLISHED{MaerkiEtAl_unpub_CCSS_2010,
+  AUTHOR = Maerki # and # Charypar # and # Axhausen,
+  TITLE =  {Continuous Simulation of Daily Travel},
+  YEAR =   {2010},
+  NOTE =   unpub-pres # comma # {CCSS Seminar ETH Zurich} # comma # zurich # comma # dec # { 2010},
+}
+
+@UNPUBLISHED{Mahmassani_unpub_WCTR_1989,
+  author = Mahmassani,
+  title =  {Dynamic Models of Commuter Behavior: Experimental Investigation and Application to the Analysis of Planned Traffic Disruptions},
+  note =   unpub-pres # comma # {World Conference on Travel Behaviour} # comma # kyoto # comma # japan,
+  year =   {1989},
+}
+
+@UNPUBLISHED{MahmassaniChang_unpub_TRB_1986,
+  author = Mahmassani # and # Chang,
+  title =  {Specification and estimation of a dynamic departure time acceptability mechanism},
+  note =   unpub-pres # comma # {$65^{th}$ Annual Transportation Research Board Meeting} # comma # washington,
+  year =   {1986},
+}
+
+@UNPUBLISHED{MayM_unpub_IAIS_2007,
+  AUTHOR = MayM,
+  TITLE =  {{Frequenzmodellierung der Agglomerationen in der Schweiz}},
+  NOTE =   unpub-pres # comma # org-fraun-iais # comma # staugustin # comma # jun,
+  YEAR =   {2007},
+}
+
+@UNPUBLISHED{Meister_unpub_IVT_2007,
+  AUTHOR = Meister,
+  TITLE =  {{MATSim} Facilities},
+  YEAR =   {2007},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # may,
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations/v195.pdf},
+}
+
+@UNPUBLISHED{Meister_unpub_IVT_2008,
+  AUTHOR = Meister,
+  TITLE =  {Quick Computation of ``Triple Convergence'' in {MATSim} - Method and Preliminary Results},
+  YEAR =   {2008},
+  NOTE =   unpub-intern # comma # {MATSim Seminar} # comma # uni-ethz-ivt # comma # uni-ethz # comma # castasegna # comma # sep,
+  url =    {http://matsim.org/uploads/Seminar2008_Meister_planomat.pdf},
+}
+
+@UNPUBLISHED{Meister_unpub_MATSimUserMeeting_2009,
+  AUTHOR = Meister,
+  TITLE =  {{MATSim} Tutorial: Simple Example},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {1st MATSim User Meeting} # comma # berlin,
+  url =    {http://matsim.org/uploads/320/simple_examples_49fdc6ca53.pdf},
+}
+
+@UNPUBLISHED{Meister_unpub_MITPortugal_2010,
+  AUTHOR = Meister,
+  TITLE =  {Large-scale agent-based travel demand optimization applied to {Switzerland}, including mode choice},
+  YEAR =   {2010},
+  NOTE =   unpub-pres # comma # {Integrated Modeling and Simulation Workshop} # comma # {{MIT} Portugal Program Transportation Systems} # comma # lisbon,
+  month =  jul,
+  url =    {http://www.matsim.org/node/507},
+}
+
+@UNPUBLISHED{Menendez_unpub_ASTRA_2012,
+  AUTHOR = Menendez,
+  TITLE =  {{SVT: INTERACTION and other ASTRA projects}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{ASTRA @ HIL}} # comma # zurich # comma # nov # { 2012},
+  month =  nov,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#47},
+}
+
+@UNPUBLISHED{Menendez_unpub_COTA_2012,
+  AUTHOR = Menendez,
+  TITLE =  {{I Can Start a Research Group, Now What?}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{COTA -- Professional Development Forum for Young Scholars and Students}} # comma # beijing # comma # aug # { 2012},
+  month =  aug,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#36},
+}
+
+@UNPUBLISHED{Menendez_unpub_CICTP_2012,
+  AUTHOR = Menendez,
+  TITLE =  {Controlling Traffic in {Zurich}: a Macroscopic Approach},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{12th COTA International Conference of Transportation Professionals (CICTP 2012)}} # comma # beijing # comma # aug # { 2012},
+  month =  aug,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#37},
+}
+
+@UNPUBLISHED{Menendez_unpub_FirstClimate_2013,
+  AUTHOR = Menendez,
+  TITLE =  {Overview of research in transportation},
+  YEAR =   {2013},
+  NOTE =   unpub-pres # comma # {{invited lecture at First Climate}} # comma # zurich # comma # may # { 2013},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#53},
+}
+
+@UNPUBLISHED{Menendez_unpub_HSGalumni_2012,
+  AUTHOR = Menendez,
+  TITLE =  {{Visionary Mobility}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{6th HSG Alumni Flagship Event}} # comma # zurich # comma # nov # { 2012},
+  month =  nov,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#44},
+}
+
+@UNPUBLISHED{Menendez_unpub_NSL_2012,
+  AUTHOR = Menendez,
+  TITLE =  {{Urban Structure and Traffic Performance}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{Netzwerk Stadt und Landschaft (NSL) Werkdiskussion}} # comma # zurich # comma # nov # { 2012},
+  month =  nov,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#43},
+}
+
+@UNPUBLISHED{Menendez_unpub_CityZurichTransport_2012,
+  AUTHOR = Menendez,
+  TITLE =  {{ZurichLAB}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{Modelling and Simulation group meeting within the Division of Transport for the City of Zurich}} # comma # zurich # comma # nov # { 2012},
+  month =  nov,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#46},
+}
+
+@UNPUBLISHED{MenendezEtAl_unpub_Tampa_2013,
+  AUTHOR = Menendez # and # Ortigosa # and # Tapia,
+  TITLE =  {Study on the location of measurement points for traffic perimeter control},
+  YEAR =   {2013},
+  NOTE =   unpub-pres # comma # {{invited lecture at University of South Florida}} # comma # tampa # comma # jan # { 2013},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#52},
+}
+
+@UNPUBLISHED{Menendez_unpub_wuxi_2012,
+  AUTHOR = Menendez,
+  TITLE =  {Traffic Control and Management Strategies: Today and Tomorrow},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{China's Traffic Management Research Institute of the Public Security Ministry}} # comma # wuxi # comma # aug # { 2012},
+  month =  aug,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#38},
+}
+
+@UNPUBLISHED{MenendezGe_unpub_IVTAlumniDay_2012,
+  AUTHOR = Menendez # and # GeQ,
+  TITLE =  {Using {VISSIM} to model traffic in the city of {Zurich}},
+  NOTE =   unpub-pres # comma # {IVT-Alumni-Seminar} # comma # zurich # comma # mar # { 2012},
+  YEAR =   {2012},
+  month =  mar,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#30},
+}
+
+@UNPUBLISHED{MenendezOrtigosa_unpub_EPFL_2012,
+  AUTHOR = Menendez # and # Ortigosa,
+  TITLE =  {Traffic performance and networks},
+  NOTE =   unpub-pres # comma # uni-epfl # comma #lausanne # comma # apr # { 2012},
+  YEAR =   {2012},
+  month =  apr,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#35},
+}
+
+@UNPUBLISHED{MenendezEtAl_unpub_VKBmeeting_2012,
+  AUTHOR = Menendez # and # Ortigosa # and # Tapia,
+  TITLE =  {Macroscopic traffic controls in the city of {Zürich}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{Vereinigung der Kader des Bundes (VKB)}} # comma # zurich # comma # sep # { 2012},
+  month =  sep,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#39},
+}
+
+@UNPUBLISHED{MuellerFloetteroed_unpub_hEART_2014,
+  AUTHOR = MuellerK # and # Floetteroed,
+  TITLE =  {Population synthesis with regression trees},
+  NOTE =   unpub-pres # comma # {3rd Symposium of the European Association for Research in Transportation (hEART 2014)} # comma # leeds # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#502},
+}
+
+@UNPUBLISHED{Mueller_unpub_LATSIS_2012,
+  AUTHOR =   MuellerK # and # Axhausen,
+  TITLE =    {Multi-level fitting algorithms for population synthesis},
+  YEAR =     {2012},
+  NOTE =     unpub-pres # comma # {1st {European} Symposium on Quantitative Methods in Transportation Systems} # comma # lausanne # comma # sep # { 2012},
+  url =      {www.ivt.ethz.ch/vpl/publications/reports#821},
+}
+
+@UNPUBLISHED{Mueller_unpub_STRC_2010,
+  AUTHOR = MuellerK,
+  TITLE =  {Population synthesis: State of the art},
+  YEAR =   {2010},
+  NOTE =   unpub-pres # comma # {10th Swiss Transport Research Conference} # comma # ascona # comma # sep # { 2010},
+}
+
+@UNPUBLISHED{Mueller_unpub_ETC_2011,
+  AUTHOR = MuellerK,
+  TITLE =  {{Occam's Razor} and some randomness: Generating a synthetic population for {Switzerland}},
+  YEAR =   {2011},
+  NOTE =   unpub-pres # comma # {European Transport Conference} # comma # glasgow # comma # oct # { 2011},
+}
+
+@UNPUBLISHED{Mueller_unpub_STRC_2011,
+  AUTHOR = MuellerK,
+  TITLE =  {{IPF} within multiple domains: Generating a synthetic population for {Switzerland}},
+  YEAR =   {2011},
+  NOTE =   unpub-pres # comma # {11th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2011},
+}
+
+@UNPUBLISHED{Mueller_unpub_IATBR_2012,
+  AUTHOR = MuellerK,
+  TITLE =  {Using the {Swiss} {PUS} to generate a synthetic population for {Switzerland}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {13th International Conference on Travel Behavior Research} # comma # toronto # comma # jul # { 2012},
+}
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@UNPUBLISHED{Nagel_unpub_Latsis_2012,
+  AUTHOR = Nagel,
+  TITLE =  {Transport Simulation as a Complex Adaptive System},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {LATSIS: 1st European Symposium on Quantitative Methods in Transportation Systems} # comma # lausanne # comma # sep,
+}
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Ordonez_unpub_IATBR_2015,
+  AUTHOR = Ordonez,
+  TITLE =  {Recognizing personalized flexible activity patterns},
+  NOTE =   unpub-pres # comma # {14th International Conference on Travel Behavior Research (IATBR)} # comma # windsor # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#554},
+}
+
+@UNPUBLISHED{OrdonezErath_unpub_TRB_2013,
+  AUTHOR = Ordonez # and # Erath,
+  TITLE =  {{Estimating Dynamic Workplace Capacities using Public Transport Smart Card Data and a Household Travel Survey}},
+  NOTE =   unpub-pres # comma # {92nd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#444},
+}
+
+@UNPUBLISHED{OrtigosaEtAl_IVTAlumniDay_2012,
+  AUTHOR = Ortigosa # and # Arnet # and # GeQ # and # Menendez,
+  TITLE =  {Study of Traffic Management in the {Zürich} Area},
+  NOTE =   unpub-pres # comma # {IVT-Alumni-Seminar} # comma # zurich # comma # mar # { 2012},
+  YEAR =   {2012},
+  month =  mar,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#31},
+}
+
+@UNPUBLISHED{OrtigosaEtAl_unpub_LATSYS_2012,
+  AUTHOR = Ortigosa # and # Tapia # and # Menendez,
+  TITLE =  {{Studying the feasibility of an MFD control in Zurich}},
+  NOTE =   unpub-pres # comma # {{1st European Symposium on Quantitative Methods in Transportation Systems (LATSYS)}} # comma # lausanne # comma # sep # { 2012},
+  YEAR =   {2012},
+  month =  sep,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#41},
+}
+
+@UNPUBLISHED{OrtigosaEtAl_unpub_STRC_2012,
+  AUTHOR = Ortigosa # and # Menendez # and # Bodenbender,
+  TITLE =  {Link removal on a grid street network},
+  NOTE =   unpub-pres # comma # {12th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2012},
+  YEAR =   {2012},
+  month =  may,
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#34},
+}
+
+@UNPUBLISHED{OrtigosaEtAl_unpub_STRC_2013,
+  AUTHOR = Ortigosa # and # Gayah # and # Menendez,
+  TITLE =  {Study of urban grid configurations},
+  NOTE =   unpub-pres # comma # {13th Swiss Transport Research Conference} # comma # ascona # comma # apr # { 2013},
+  YEAR =   {2013},
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#57},
+}
+
+@UNPUBLISHED{OrtigosaEtAl_unpub_TRB_2014,
+  AUTHOR = Ortigosa # and # Gayah # and # Menendez,
+  TITLE =  {{Comparison of Traffic Performance in Finite Grids with Different Configurations: Analytical Versus Simulated Approach}},
+  NOTE =   unpub-pres # comma # {93rd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2014},
+  YEAR =   {2014},
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#71},
+}
+
+@UNPUBLISHED{OrtigosaMenendez_unpub_TRB_2013,
+  AUTHOR = Ortigosa # and # Menendez,
+  TITLE =  {Traffic performance impacts of link removal on a grid urban pattern},
+  NOTE =   unpub-pres # comma # {92nd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2013},
+  YEAR =   {2013},
+  url = {http://www.ivt.ethz.ch/svt/publications/presentations#56},
+}
+
+
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Permain_PE_1989,
+  AUTHOR =  Permain,
+  TITLE =   {The {M}easurement of {P}assenger {V}aluations towards {R}ail {S}tation {F}acilities: {A}n {A}pplication of the ``{P}riority {E}valuator {M}ethod''},
+  NOTE =    unpub-pres # comma # {17. PTRC Summer Annual Meeting} # comma # brighton,
+  YEAR =    {1989},
+}
+
+@UNPUBLISHED{PoeckZumkeller_unpub_DVWG_1976,
+  AUTHOR = Poeck # and # Zumkeller,
+  TITLE =  {{D}ie {A}nwendung einer massnahmenempfindlichen {P}rognosemethode am {B}eispiel des {G}rossraums {N}ürnberg},
+  NOTE =   unpub-pres # comma # {Workshop Policy Sensitive Models} # comma # org-dvwg # comma # giessen,
+  YEAR =   {1976},
+  month =  sep,
+}
+
+@UNPUBLISHED{PortnovEtAl_unpub_ECRSAI_2009,
+  AUTHOR = Portnov # and # Axhausen # and # Tschopp,
+  TITLE =  {Location Relativity in Space and Time: Some Evidence from {S}wiss {M}unicipalities, 1950-2000},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {49th European Congress of the Regional Science Association International} # comma # lodz # comma # aug # { 2009},
+}
+
+@UNPUBLISHED{PukelsheimSimeone_unpub_2009,
+  author = Pukelsheim # and # Simeone,
+  title =  {On the Iterative Proportional Fitting Procedure: Structure of Accumulation Points and ${L}_1$-Error Analysis},
+  year =   {2009},
+  note =   {\url{http://opus.bibliothek.uni-augsburg.de/volltexte/2009/1368}, accessed on 29/07/2010},
+}
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{RaiEtAl_unpub_TRB_2007,
+  AUTHOR = Rai # and # Balmer # and # Rieser # and # Vaze # and # Schoenfelder # and # Axhausen,
+  TITLE =  {Capturing Human Activity Spaces: New Geometries},
+  YEAR =   {2007},
+  NOTE =   unpub-poster # comma # {TRB 86th Annual Meeting} # comma # washington # comma # jan,
+}
+
+@UNPUBLISHED{RebmannOhnmacht_unpub_BG_2012,
+  AUTHOR = Rebmann # and # Ohnmacht,
+  TITLE =  {Mikrozensus {M}obilit\"{a}t und {V}erkehr 2010},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {BG-Sitzung} # comma # org-bfs # and # org-are # comma # bern # comma # apr # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#378},
+}
+
+@UNPUBLISHED{Rieser_unpub_IVT_2011,
+  AUTHOR = Rieser,
+  TITLE =  {Mobility Simulations in MATSim},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # feb,
+  YEAR =   {2011},
+}
+
+@UNPUBLISHED{Rieser_unpub_IVT_2008,
+  AUTHOR = Rieser,
+  TITLE =  {Modal Split under the Influence of Road Pricing Measures},
+  NOTE =   unpub-intern # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # may,
+  YEAR =   {2008},
+}
+
+@UNPUBLISHED{RieserSchuesslerEtAl_unpub_STRC_2014,
+  AUTHOR = RieserSchuessler # and # Rieser # and # Montini # and # Axhausen,
+  TITLE =  {Exploring choice set generation approaches for public transport connection choice},
+  NOTE =   unpub-pres # comma # {14th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#513},
+}
+
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{SarlasEtAl_unpub_hEART_2014,
+  AUTHOR = Sarlas # and # Fuhrer # and # Axhausen,
+  TITLE =  {Estimating the agglomeration effects of public transport improvements: the case of Switzerland},
+  NOTE =   unpub-pres # comma # {3rd Symposium of the European Association for Research in Transportation (hEART 2014)} # comma # leeds # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#501},
+}
+
+@UNPUBLISHED{Scherer_unpub_RCT_2009,
+  AUTHOR = Scherer,
+  TITLE =  {Norm Theory Applied to Mobility Behavior},
+  NOTE =   unpub # comma # {Seminar in Rational Choice Theory} # comma # uni-ethz # comma # zurich,
+  YEAR =   {2009},
+}
+
+@UNPUBLISHED{Schirmer_unpub_CUREM_2013,
+  AUTHOR = Schirmer,
+  TITLE =  {{Verhalten im Raum -- Standortwahl von Haushalten und Unternehmen}},
+  YEAR =   {2013},
+  NOTE =   unpub-pres # comma # {Compact course ``Urban Psychology'' at Center for Urban \& Real Estate Management (CUREM)} # comma # zurich # comma # mar # { 2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#433},
+}
+
+@UNPUBLISHED{Schirmer_unpub_Brownbag_2012,
+  AUTHOR = Schirmer,
+  TITLE =  {Modelling behaviour using urban form: a planner's approach},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {Brownbag} # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich # comma # jan # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#366},
+}
+
+@UNPUBLISHED{Schirmer_unpub_STRC_2014,
+  AUTHOR = Schirmer,
+  TITLE =  {Quantifying the value of urban morphology -- a hedonic rent price model on the canton of {Zurich}},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {14th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#496},
+}
+
+@UNPUBLISHED{SchirmerKawagishi_unpub_GIS_2012,
+  AUTHOR = Schirmer # and # Kawagishi,
+  TITLE =  {{Shape grammars als regelbasierter Ansatz in Projekten der Stadtplanung und des Städtebaus}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {GIS Talk 2012} # comma # muenchen # comma # may # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#385},
+}
+
+@UNPUBLISHED{SchirmerZoellig_unpub_EGREGIS_2012,
+  AUTHOR = Schirmer # and # Zoellig,
+  TITLE =  {Using {GIS} for setting up an urban simulation environment},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {EGREGIS Meeting} # comma # zurich # comma # jan # { 2012},
+  url =    {},
+}
+
+@UNPUBLISHED{Schirmer_unpub_BrownbagChair_2011,
+  AUTHOR = Schirmer,
+  TITLE =  {Simulating urban dynamics with agent based models},
+  YEAR =   {2011},
+  NOTE =   unpub-pres # comma # {Brownbag Chair of Architecture and Urban Design} # comma # zurich # comma # dec # { 2011},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#368},
+}
+
+@UNPUBLISHED{SchirmerEtAl_unpub_ERSA_2012,
+  AUTHOR = Schirmer # and # Zoellig # and # MuellerK # and # Bodenmann # and # Axhausen,
+  TITLE =  {{Landuse simulation on the Canton of Zurich using UrbanSim: Results of the first run}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {{ERSA} 2012 Congress} # comma # bratislava # comma # aug # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#400},
+}
+
+@UNPUBLISHED{SchirmerEtAl_unpub_STRC_2012,
+  AUTHOR = Schirmer # and # Zoellig # and # MuellerK # and # Bodenmann # and # Axhausen,
+  TITLE =  {{Landuse simulation on the Canton of Zurich using UrbanSim: Current State and First Run}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {12th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#377},
+}
+
+@UNPUBLISHED{SchirmerEtAl_unpub_STRC_2013,
+  AUTHOR = Schirmer # and # ZoelligRenner # and # MuellerK,
+  TITLE =  {{Integrated Transport LandUse Simulation on the Canton of Zurich}},
+  YEAR =   {2013},
+  NOTE =   unpub-pres # comma # {13th Swiss Transport Research Conference} # comma # ascona # comma # apr # { 2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#448},
+}
+
+@UNPUBLISHED{SchmidEtAl_unpub_STRC_2014,
+  AUTHOR = Schmid # and # Balac # and # Axhausen,
+  TITLE =  {Scheduling in a Post-Car World: Experiments and Methods},
+  NOTE =   unpub-pres # comma # {PCW Preconference Workshop of the 14th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#505},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_ADC_2006,
+  AUTHOR = Schuessler,
+  TITLE =  {Initial Ideas on Accounting for Similarities Between Alternatives in Route, Mode and Destination Choice},
+  YEAR =   {2006},
+  NOTE =   unpub-pres # comma # {2nd Workshop on Discrete Choice Models} # comma # uni-epfl # comma # lausanne # comma # sep # { 2006},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_ADC_2007,
+  AUTHOR = Schuessler,
+  TITLE =  {Similarities in Air Transport Connection Choice},
+  YEAR =   {2007},
+  NOTE =   unpub-pres # comma # {3rd Workshop on Discrete Choice Models} # comma # uni-epfl # comma # lausanne # comma # aug # { 2007},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_ADC_2008,
+  AUTHOR = Schuessler,
+  TITLE =  {Using {GPS} Data for Route Choice Modelling},
+  YEAR =   {2008},
+  NOTE =   unpub-pres # comma # {4th Workshop on Discrete Choice Models} # comma # uni-epfl # comma # lausanne # comma # aug # { 2008},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_ADC_2009,
+  AUTHOR = Schuessler,
+  TITLE =  {Challenges of route choice models derived from {GPS}},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {5th Workshop on Discrete Choice Models} # comma # uni-epfl # comma # lausanne # comma # aug # { 2009},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_ADC_2011,
+  AUTHOR = Schuessler,
+  TITLE =  {Challenges of route choice models derived from {GPS}},
+  YEAR =   {2011},
+  NOTE =   unpub-pres # comma # {7th Workshop on Discrete Choice Models} # comma # uni-epfl # comma # lausanne # comma # aug # { 2009},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_IVT_2007,
+  AUTHOR = Schuessler,
+  TITLE =  {The role of similarities for air connection choice},
+  YEAR =   {2007},
+  NOTE =   unpub-pres # comma # {IVT-Seminar} # comma # uni-ethz # comma # zurich # comma # dec # { 2007},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_IVT_2006,
+  AUTHOR = Schuessler,
+  TITLE =  {{Auswirkungen von Mobility Pricing auf das Verkehrsverhalten}},
+  YEAR =   {2006},
+  NOTE =   unpub-pres # comma # {Internes IVT-Seminar} # comma # uni-ethz # comma # zurich # comma # oct # { 2006},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_IVT_2005,
+  AUTHOR = Schuessler,
+  TITLE =  {{Fehler und Gleichgewichte - Experimente mit dem nationalen Verkehrsmodell}},
+  YEAR =   {2005},
+  NOTE =   unpub-pres # comma # {Internes IVT-Seminar} # comma # uni-ethz # comma # zurich # comma # oct # { 2005},
+  url =    {},
+}
+
+@UNPUBLISHED{Schuessler_unpub-pres_STRC_2010,
+  AUTHOR = Schuessler,
+  TITLE =  {Development of Psychometric Scales to Evaluate the Attitude Towards Risk, Environmentalism and Variety Seeking of Public Transport Users},
+  YEAR =   {2010},
+  NOTE =   unpub-pres # comma # {10th Swiss Transport Research Conference} # comma # Ascona # comma # oct # { 2010},
+  url =    {},
+}
+
+@UNPUBLISHED{SfSB_unpub_SfSB_1998,
+  AUTHOR = {{SfSB}},
+  TITLE =  {{D}atengrundlagen {S}tadtentwicklungsplan {V}erkehr},
+  NOTE =   unpub # comma # org-sfsb # comma # berlin,
+  YEAR =   {1998},
+  url =    {http://www.stadtentwicklung.berlin.de/verkehr/},
+}
+
+@TECHREPORT{SindenEtAl_TechRep_UNE_2008,
+  AUTHOR =      Sinden # and # Downey # and # Hester # and # Cacho,
+  TITLE =       {Valuing the biodiversity gains from protecting native plant communities from bitou bush in New South Wales: application of the defensive expenditure mehtod},
+  INSTITUTION = uni-une,
+  YEAR =        {2008},
+  type =        unpub-pres,
+  address =     canberra,
+}
+
+@UNPUBLISHED{SorigueraEtAl_unpub_CIT_2014,
+  AUTHOR = Soriguera # and # Sala # and # MartinezI # and # Menendez,
+  TITLE =  {Freeway lab: {T}esting dynamic speed limits},
+  NOTE =   unpub-pres # comma # {XI Conference on Transport Engineering (CIT 2014)} # comma # santander # comma # jun # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#78},
+}
+
+@UNPUBLISHED{StahelA_unpub_Verkehrswesen_2013,
+  AUTHOR = StahelA,
+  TITLE =  {{Modellierung von Wettereinflüssen in Agenten-basierten Verkehrssimulationen}},
+  NOTE =   unpub-pres # comma # {{Universitätstagung Verkehrswesen 2013}} # comma # kappelamalbis # comma # oct # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#475},
+}
+
+@UNPUBLISHED{Sun_unpub_NETSCI_2014,
+  AUTHOR = SunL,
+  TITLE =  {Efficient detection of contagious outbreaks in massive metropolitan encounter networks},
+  NOTE =   unpub-pres # comma # {{International School and Conference on Network Science (NetSci 2014)}} # comma # berkeley # comma # jun # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#494},
+}
+
+@UNPUBLISHED{Sun_unpub_hEART_2014,
+  AUTHOR = SunL,
+  TITLE =  {Characterizing Travel Time Reliability and Passenger Path Choice in a Metro Network},
+  NOTE =   unpub-pres # comma # {3rd Symposium of the European Association for Research in Transportation (hEART 2014)} # comma # leeds # comma # sep # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#503},
+}
+
+@UNPUBLISHED{Sun_unpub_NETSCIsat_2014,
+  AUTHOR = SunL,
+  TITLE =  {Quantifying long-term evolution of intra-urban spatial interactions},
+  NOTE =   unpub-pres # comma # {{Urban Systems and Networks (NetSci Satellite)}} # comma # berkeley # comma # jun # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#493},
+}
+
+@UNPUBLISHED{SunAxhausen_unpub_NETSCI_2013,
+  AUTHOR = SunL # and # Axhausen,
+  TITLE =  {Familiar strangers: understanding metropolitan patterns of daily encounters},
+  NOTE =   unpub-pres # comma # {International School and Conference on Network Science} # comma # copenhagen # comma # jun # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#455},
+}
+
+@UNPUBLISHED{SunEtAl_unpub_FCL_2012,
+  AUTHOR =  Sun # and # GangJin # and # LeeDH # and # Erath,
+  TITLE =  {Designing a demand responsive timetable for {MRT} services},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {2nd Future Cities Laboratory Conference} # comma # uni-ethz # comma # zurich # comma # sep # { 2012},
+  url =    {},
+}
+
+@UNPUBLISHED{STAPOZH-DAV_unpub_gtZH_2008,
+  AUTHOR = {{Stadt Zürich, Dienstabteilung Verkehr}},
+  TITLE =  {{Grünzeiten der stadtzürcherischen Verkehrsregelungsanlagen im September 2007}},
+  YEAR =   {2008},
+  NOTE =   unpub # comma # org-stapozh-dav # comma # org-stapozh # comma # zurich,
+}
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Tan_unpub_ACCAA_2013,
+  AUTHOR = Tan,
+  TITLE =  {{Does geography matter? The effect of geography on Singaporean social networks}},
+  NOTE =   unpub-pres # comma # {Annual Conference for the Consortium of Asian and African Studies} # comma # singapore # comma # jan # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#443},
+}
+
+@UNPUBLISHED{Tan_unpub_GeographiesChildren_2012,
+  AUTHOR =  Tan,
+  TITLE =  {Social Network Geographies of {S}ingaporeans},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {3rd International Conference of Geographies of Children} # comma # {Young People and Families} # comma # singapore # comma # jul # { 2012},
+  url =    {},
+}
+
+@UNPUBLISHED{Tan_unpub_Sunbelt_2013,
+  AUTHOR = Tan,
+  TITLE =  {{The Network Geographies of Singaporeans}},
+  NOTE =   unpub-pres # comma # {XXXIII Sunbelt Social Networks Conference} # comma # hamburg # comma # may # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#440},
+}
+
+@UNPUBLISHED{TanEtAl_unpub_Frontiers_2015,
+  AUTHOR = Tan # and # Chua # and # Axhausen,
+  TITLE =  {Ego networks and social geographies in {S}ingapore},
+  NOTE =   unpub-pres # comma # {Frontiers in Transportation - Workshop} # comma # windsor # comma # jul # { 2015},
+  YEAR =   {2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#547},
+}
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{VanEggermond_unpub_MATSim_2012,
+  AUTHOR =  VanEggermond,
+  TITLE =  {{MATSim Singapore}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # uni-tue # comma # eindhoven # comma # jan # { 2012},
+  url =    {},
+}
+
+@UNPUBLISHED{VanEggermond_unpub_URA_2012,
+  AUTHOR = VanEggermond,
+  TITLE =  {{Module VIII: Mobility \& Transportation}},
+  NOTE =   unpub-pres # comma # {{Presentation for the URA Board of Directors}} # comma # singapore # comma # oct # { 2012},
+  YEAR =   {2012},
+}
+
+@UNPUBLISHED{VanEggermondErath_unpub_WSTLUR_2014,
+  AUTHOR =  VanEggermond # and # Erath,
+  TITLE =  {Pedestrian and transit accessibility on a micro-level: results \& challenges},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {World Symposium on Transport and Land Use Research (WSTLUR)} # comma # delft # comma # jun # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#519},
+}
+
+@UNPUBLISHED{VanEggermondEtAl_unpub_TRB_2015,
+  AUTHOR = VanEggermond # and # ChenH # and # Erath # and # Cebrian,
+  TITLE =  {Investigating the potential of social network data for transport demand models},
+  YEAR =   {2015},
+  NOTE =   unpub-poster # comma # {94th Annual Meeting of the Transportation Research Board (TRB 2015)} # comma # washington # comma # jan # { 2015},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#402},
+}
+
+@UNPUBLISHED{Vitins_unpub_LATSIS_2012,
+  AUTHOR =  Vitins # and # Axhausen,
+  TITLE =  {{Shape Grammars for Intersections in Urban Network Design}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {1st LATSIS Symposium} # comma # lausanne # comma # sep # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#392},
+}
+
+@UNPUBLISHED{Vitins_unpub_SociologyChair_2014,
+  AUTHOR =  Vitins,
+  TITLE =  {{Road Transport Network Design and Intersection Type Choice}},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {{Chair of Sociology, in Particular of Modeling and Simulation}} # comma # zurich # comma # jan # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#489},
+}
+
+@UNPUBLISHED{Vitins_unpub_UCL_2014,
+  AUTHOR =  Vitins,
+  TITLE =  {{Shape Grammars for Transport Network Design}},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {{Bartlett Centre for Advanced Spatial Analysis (CASA), UCL}} # comma # london # comma # jul # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#490},
+}
+
+@UNPUBLISHED{Vitins_unpub_METRON_2012,
+  AUTHOR =  Vitins,
+  TITLE =  {{Grammatiken für Netzdesign}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {METRON Seminar} # comma # brugg # comma # feb # { 2012},
+  url =    {},
+}
+
+@UNPUBLISHED{Vovsha_unpub_NYC_2014,
+  AUTHOR = Vovsha,
+  TITLE =  {Travel Mode of Future},
+  NOTE =   unpub-pres # comma # {{Demonstration of an Integrated Dynamic Policy Sensitive Model of Travel Demand for the Mega-Region of New York}} # comma # newyork # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#487},
+}
+
+@UNPUBLISHED{VovshaEtAl_unpub_EIRASS_2004,
+  AUTHOR = Vovsha # and # Gliebe # and # Petersen # and # Koppelman,
+  TITLE =  {Comparative Analysis of Sequential and Simultaneous Choice Structures for Modeling Intra-Household Interactions},
+  NOTE =   unpub-pres # comma # {EIRASS Workshop on Progress in Activity-Based Analysis} # comma # maastricht,
+  YEAR =   {2004},
+  month =  may,
+}
+
+@UNPUBLISHED{VrticEtAl_unpub_IVW_2006,
+  AUTHOR = Vrtic # and # Froehlich # and # Schuessler # and # Axhausen # and # Lohse # and # Schiller # and # Dasen # and # Erne # and # Singer,
+  TITLE =  {{E}rstellung und {P}lausibilisierung von {N}etzmodellen als verkehrsplanerische {G}rundlage},
+  NOTE =   IVW # comma # forth,
+  YEAR =   {2006},
+}
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% HACK: for some reason, unpub-pres did not work
+@UNPUBLISHED{Waddell_unpub_UrbanSimTutorial_2010,
+  AUTHOR = Waddell,
+  TITLE =  {Overview of {UrbanSim} and the {Open} {Platform} for {Urban} {Simulation}},
+  YEAR =   {2010},
+  NOTE =   {presentation} # comma # {UrbanSim Tutorial} # comma # zurich,
+}
+
+@UNPUBLISHED{Waraich_unpub_Brownbag_2014,
+  AUTHOR = Waraich,
+  TITLE =  {{Can Pseudo-Simulation be used for Modelling Parking Search?}},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {{Brown Bag}} # comma # zurich # comma # apr # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#482},
+}
+
+@UNPUBLISHED{Waraich_unpub_EURO_2012,
+  AUTHOR = Waraich,
+  TITLE =  {{A Framework for Modeling the Electricity Demand by Plug-in Electric Vehicles}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {25th European Conference on Operational Research} # comma # vilnius # comma # jul # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#395},
+}
+
+@UNPUBLISHED{Waraich_unpub_ParisTech_2014,
+  AUTHOR = Waraich,
+  TITLE =  {Agent-based Modelling of Parking Choice and Search},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {3rd Annual Symposium of the ParisTech Eco-design Chair} # comma # paris # comma # nov # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#514},
+}
+
+@UNPUBLISHED{Waraich_unpub_PSI_2014,
+  AUTHOR = Waraich,
+  TITLE =  {Agent-based Simulation of Electric Vehicles},
+  YEAR =   {2014},
+  NOTE =   unpub-pres # comma # {Paul Scherrer Institute, Laboratory for Energy Systems Analysis} # comma # villigen # comma # sep # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#507},
+}
+
+@UNPUBLISHED{WaraichAxhausen_unpub_SCCER_2014,
+  AUTHOR = Waraich # and # Axhausen,
+  TITLE =  {Infrastructure and Policy Design for Electric Vehicles},
+  YEAR =   {2014},
+  NOTE =   unpub-poster # comma # {SCCER-Mobility 1st Annual Conference} # comma # zurich # comma # sep # { 2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#511},
+}
+
+@UNPUBLISHED{WaraichAxhausen_unpub_TRB_2012,
+  AUTHOR = Waraich # and # Axhausen,
+  TITLE =  {{An Agent-Based Parking Choice Model}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {91st Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#370},
+}
+
+@UNPUBLISHED{WaraichEtAl_unpub_TRB_2013,
+  AUTHOR = Waraich # and # Dobler # and # Weis # and # Axhausen,
+  TITLE =  {{Optimizing Parking Prices Using an Agent Based Approach}},
+  YEAR =   {2013},
+  NOTE =   unpub-poster # comma # {92nd Annual Meeting of the Transportation Research Board} # comma # washington # comma # jan # { 2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#430},
+}
+
+@UNPUBLISHED{Waraich_unpub_IATBR_2012,
+  AUTHOR = Waraich # and # Dobler # and # Axhausen,
+  TITLE =  {{Modelling Parking Search Behaviour with an Agent-Based Approach}},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {13th International Conference on Travel Behaviour Research} # comma # toronto # comma # jul # { 2012},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#392},
+}
+
+@UNPUBLISHED{Waraich_unpub_MATSimUserMeeting_2012,
+  AUTHOR = Waraich,
+  TITLE =  {Impact of Vehicle Charging on the Electric Grid in {Z}urich},
+  YEAR =   {2012},
+  NOTE =   unpub-pres # comma # {4th MATSim User Meeting} # comma # berlin # comma # mar # { 2012},
+  url =    {www.ivt.ethz.ch/vpl/publications/presentations#396},
+}
+
+@UNPUBLISHED{WaraichEtAl_unpub_STRC_2014,
+  AUTHOR = Waraich # and # Ranganathan # and # Axhausen,
+  TITLE =  {{The Parking Game}},
+  NOTE =   unpub-pres # comma # {14th Swiss Transport Research Conference} # comma # ascona # comma # may # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#484},
+}
+
+@UNPUBLISHED{WeisAxhausen_unpub_SBB_2009,
+  AUTHOR = Weis # and # Axhausen,
+  TITLE =  {{Benzinpreis und Bahnnutzung}},
+  YEAR =   {2009},
+  NOTE =   unpub # comma # org-sbb # comma # uni-ethz-ivt # comma # uni-ethz # comma # zurich,
+}
+
+@UNPUBLISHED{Weis_unpub_SVI_2009,
+  AUTHOR = Weis,
+  TITLE =  {{SVI} 2005/203 - {N}euverkehr},
+  YEAR =   {2009},
+  NOTE =   unpub-pres # comma # {SVI Fachtagung Forschung} # comma # olten # comma # sep # { 2009},
+}
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{Yin_unpub_IVT_2012,
+  AUTHOR = Yin,
+  TITLE =  {{Differentiated Congestion Pricing of Urban Transportation Networks with Vehicle-Tracking Technologies}},
+  NOTE =   unpub-pres # comma # {{IVT-Seminar}} # comma # zurich # comma # sep # { 2012},
+  YEAR =   {2012},
+  month =  sep,
+  url =    {http://www.ivt.ethz.ch/svt/publications/presentations#42},
+}
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@UNPUBLISHED{ZoelligEtAl_unpub_SCSI_2013,
+  AUTHOR = ZoelligRenner # and # Schirmer # and # MuellerK,
+  TITLE =  {{Case Study Zurich}},
+  NOTE =   unpub-pres # comma # {{SustainCity Conference on Integrated Land-Use and Transport Simulation}} # comma # zurich # comma # apr # { 2013},
+  YEAR =   {2013},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#449},
+}
+
+@UNPUBLISHED{ZoelligRenner_unpub_RSA_2014,
+  AUTHOR = ZoelligRenner,
+  TITLE =  {Simulating the evolution of urban systems for sustainability assessment},
+  NOTE =   unpub-pres # comma # {{RSA Research Network Workshop}} # comma # stgallen # comma # jul # { 2014},
+  YEAR =   {2014},
+  url =    {http://www.ivt.ethz.ch/vpl/publications/presentations#495},
+}
+
+@UNPUBLISHED{ZoelligRennerSchirmer_unpub_Scientifica_2013,
+  AUTHOR = ZoelligRenner # and # Schirmer,
+  TITLE =  {{Flächennutzungs- und Transportsimulation im Kanton Zürich}},
+  NOTE =   misc-onlinevideo # comma # {{3rd Scientifica -- Zürcher Wissenschaftstage}} # comma # zurich # comma # aug # { 2013},
+  YEAR =         {2013},
+  howpublished = misc-onlinevideo,
+  url =          {http://www.ivt.ethz.ch/vpl/publications/presentations#456},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

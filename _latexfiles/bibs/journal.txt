@@ -1,0 +1,563 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% journal.txt:
+%   Defines shortcuts for journals and magazines.
+%   NOTE: NEVER use names for journals or magazines
+%         in your BibTeX item! Always use the ones in here, or
+%         add it if necessary.
+%   NOTE: If you add a new shortcut, add it at the right place meaning
+%         sorted lexicographially!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journals and Magazines
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+AAAG	Annals of the Association of American Geographers
+AAP	Accident Analysis \& Prevention
+AC	Automation in Construction
+ACMTG	ACM Transactions on Graphics
+ACMTIS	ACM Transactions on Intelligent Systems and Technology
+ACR	Advances in Consumer Research
+ACS	Advances in Complex Systems (ACS)
+AER	American Economic Review
+AESP	Advances in Experimental Social Psychology
+AFIPS	American Federation of Information Processing Societies
+AGP	Advances in Group Processes
+AI	Artificial Intelligence
+AIEDAM	Artificial Intelligence for Engineering Design, Analysis, and Manufacturing
+AIM	Artificial Intelligence in Medicine
+AIP	AIP Journal
+AIR	Artificial Intelligence Review
+AJP	American Journal of Psychiatry
+AM	The Annals of Mathematics
+AMS	Annals of Mathematical Statistics
+AOR	Annals of Operations Research
+AP	Annals of Probability
+APPLEC	Applied Economics
+APPLG	Applied Geography
+AQAH	Air Quality, Atmosphere \& Health
+AR	Architectural Record
+AROS	Annual Review of Sociology
+ARP	Annual Review of Psychology
+ARS	Annals of Regional Science
+AS	American Scientist
+ASR	American Sociological Review
+ATR	Annals of Tourism Research
+AUK	Analyse und Kritik
+ActInf	Acta Informatica
+ActNum	Acta Numerica
+ActSoc	Acta Sociologica
+Algorithmica	Algorithmica
+AmNat	The American Naturalist
+AnnAppStat	Annals of Applied Statistics
+AnnStat	Annals of Statistics
+AoG	Annals of GIS
+ApE	Applied Energy
+Area	Area
+ASTIN	ASTIN Bulletin
+Atmos	Atmospheric Environment
+BAMS	Bulletin of the American Mathematical Society
+BCMS	Bulletin of the Calcutta Mathematical Society
+BES	Behavioral Ecology and Sociobiology
+BJoC	Brazilian Journal of Cartography
+BLTJ	Bell Labs Technical Journal
+BMCID	BMC Infectious Diseases
+BRI	Building Research \& Information
+BSM	Bulletin of Sociological Methodology
+Biometrika	Biometrika
+BIOS	BIOS - Zeitschrift für Biographieforschung, Oral History und Lebensverlaufsanalysen
+CACA	Construction Ahead, Constructing Alternatives Part II
+CACM	Communications of the ACM
+CASIP	Commentarii Academiae Scientiarum Imperialis Petropolitanae
+CC	Computers \& Chemistry
+CEUS	Computers, Environment and Urban Systems
+CG	Canadian Geographer
+% this is defined also in publisher, and was ignored because ill-formated (space instead of tabs)
+% => just comment this out (td oct '15)
+%CT	Collana Trasporti
+CGF	COMPUTER GRAPHICS forum
+CIE	Computers \& Industrial Engineering
+CJCE	Canadian Journal of Civil Engineering
+CJM	Canadian Journal of Mathematics
+CJT	Canadian Journal of Transportation
+CM	Coastal Management
+CN	Computer Networks
+COMPL	Complexity
+CON	Current Opinion in Neurobiology
+COR	Computers and Operations Research
+CRS	Canadian Journal in Regional Science
+CS	Cognitive Science
+CSF	Chaos, Solitons \& Fractals
+CSP	Canadian Studies in Population
+CSUR	Computing Surveys
+Chaos	Chaos
+Cities	Cities -- The International Journal of Urban Policy and Planning
+CompJour	The Computer Journal
+ComputAidedCivInfrastructEng	Computer-Aided Civil and Infrastructure Engineering
+DN	Der Nahverkehr
+DS	Decision Sciences
+DSS	Decision Support Systems
+DTF	Danmarks TransportForskning
+DisComp	Distributed Computing
+EACSSS	Epistemological Aspects of Computer Simulation in the Social Sciences
+ECE	Ecological Economics
+EE	Experimental Economics
+EER	European Economic Review
+EG	Economic Geography
+EH	Environmental Health
+EI	Environment International
+EJ	Economic Journal
+ERDK	Erdkunde
+ET	Economics of Transportation
+EJM	European Journal of Marketing
+EJOR	European Journal of Operational Research
+EJSP	European Journal of Social Psychology
+EJTIR	European Journal of Transport and Infrastructure Research
+EJW	Econ Journal Watch
+EMER	Emergence
+ENTCS	Electronic Notes in Theoretical Computer Science
+EPJ	The European Physical Journal
+EPJB	The European Physical Journal B - Condensed Matter and Complex Systems
+EPJST	The European Physical Journal - Special Topics
+EPJDS	The European Physical Journal - Data Science
+EPL	EPL (Europhysics Letters)
+ERD	European Retail Digest
+EURO	EURO Journal on Transportation and Logistics
+EUTRANS	European Transport
+EaB	Energy and Buildings
+EcI	Economic Inquiry
+Econ	Econometrica
+EmpEco	Empirical Economics
+EnEc	Energy Economics
+EnPro	Energy Procedia
+EnvBehav	Environment and Behavior
+EnvPlannA	Environment and Planning A
+EnvPlannB	Environment and Planning B
+EnvRE	Environmental and Resource Economics
+EnvSciTech	Environmental Science \& Technology
+EuroG	Eurographics
+EvolComp	Evolutionary Computation
+FACTS	FACTS
+FCLMag	FCL Magazine
+FGCS	Future Generation Computer Systems
+FTML	Foundations and Trends in Machine Learning
+ForumRaum	Forum Raumentwicklung
+GEBG	Global Ecology and Biogeography
+GECB	Global Environmental Change Part B: Environmental Hazards
+GEM	Geographical and Environmental Modelling
+GPSSol	GPS Solutions
+GZ	Geographische Zeitschrift
+GamesEconBehav	Games and Economic Behavior
+GeoA	Geographical Analysis
+GeoAnnaler	Geografiska Annaler
+GeoAnnalerB	Geografiska Annaler. Series B, Human Geography
+GeoJ	GeoJournal
+GrowthChange	Growth and Change
+HBR	Harvard Business Review
+HER	Human Ecology Review
+HI	Habitat International
+HRBB	Highway Research Board Bulletin
+HRR	Highway Research Record
+HS	Housing Studies
+IATBRspec	IATBR Special Issue of Transportation Letters
+IC	Information and Control
+ICGA	IEEE Computer Graphics and Applications
+ICS	IEEE Computer Society
+IEEETCS	IEEE Transactions on Circuits and Systems
+IEEETPAMI	IEEE Transactions on pattern analysis and machine intelligence
+IEEPSE	IEE Proceedings Software Engineering
+IEICE	IEICE Transactions on Fundamentals of Electronics, Communications and Computer Sciences
+IGIS	International Journal of Geographical Information Science
+IIET	IIE Transactios
+IJAR	International Journal of Architectural Research
+IJB	International Journal of Behavioral Nutrition and Physical Activity
+IJBSAM	International Journal of Business Science and Applied Management
+IJCIS	International Journal of Cooperative Information Systems
+IJCSNS	International Journal of Computer Science and Network Security
+IJCV	International Journal of Computer Vision
+IJHE	International Journal of Highway Engineering
+IJHG	International Journal of Health Geographics
+IJIEM	International Journal of Internet and Enterprise Management
+IJIO	International Journal of Industrial Organization
+IJITSR	International Journal of Intelligent Transportation Systems Research
+IJMED	International Journal of Mass Emergencies and Disasters
+IJMPC	International Journal of Modern Physics C
+IJOT	International Journal of Transportation
+IJPG	International Journal of Population Geography
+IJRD	International Journal of Retail \& Distribution Management
+IJRM	International Journal of Research in Marketing
+IJRR	International Journal of Robotics Research
+IJSW	International Journal of Social Welfare
+IJST	International Journal of Sustainable Transport
+IJSTn	International Journal of Sustainable Transportation
+IJT	International Journal of Technology
+IJTE	International Journal of Transport Economics
+IJTR	International Journal of Tourism Research
+IM	Internet Mathematics
+IMR	International Marketing Review
+INFORMS	INFORMS Journal on Computing
+INTELLECTICA	Intellectica
+IPL	Information Processing Letters
+IRSR	International Regional Science Review
+ISTR	International Statistical Review
+ITB	ITB Journal
+ITBE	IEEE Transactions on Biomedical Engineering
+ITC	IEEE Transactions on Computers
+ITEC	IEEE Transactions on Evolutionary Computation
+ITEM	IEEE Transactions on Engineering Management
+ITETC	IEEE Transactions on Emerging Topics in Computing
+ITGRS	IEEE Transactions on Geoscience and Remote Sensing
+ITIT	IEEE Transactions on Information Theory
+ITITS	IEEE Transactions on Intelligent Transportation Systems
+ITMC	IEEE Transactions on Mobile Computing
+ITPDS	IEEE Transactions on Parallel and Distributed Systems
+ITPS	IEEE Transactions on Power Systems
+ITR	IEEE Transactions on Reliability
+ITS	Journal of Intelligent Transportation Systems
+ITSG	IEEE Transactions on Smart Grid
+ITSIET	Intelligent Transport Systems, IET
+ITVCG	IEEE Transactions on Visualization and Computer Graphics
+ITZ	Internationale Transportzeitschrift
+IVW	Internationales Verkehrswesen
+IVWMI	IVW Management Information -- St. Galler Trendmonitor für Risiko- und Finanzmärkte
+ItsTIME	It's T.I.M.E. Technology. Innovation. Management. Engineering. - Ein fachübergreifendes Journal für die angewandte Wissenschaft
+JACM	Journal of the ACM
+JAE	Journal of Applied Econometrics
+JAEdu	Journal of Architectural Education
+JAIP	Journal of the American Institute of Planners
+JAL	Journal of Algorithms
+JAMS	Journal of the Academy of Marketing Science
+JAPA	Journal of the American Planning Association
+JASA	Journal of the American Statistical Association
+JASAQ	Journal of the Acoustical Society of America
+JASP	Journal of Applied Social Psychology
+JASS	Journal of Artificial Societies and Social Simulation
+JAT	Journal of Advanced Transportation
+JBDM	Journal of Behavioral Decision Making
+JBE	Journal of Bridge Engineering
+JBNATSTAT	Jahrbücher für Nationalökonomie und Statistik
+JBR	Journal of Business Research
+JCAM	Journal of Computational and Applied Mathematics
+JCB	Journal of Consumer Behaviour
+JCP	Journal of Cleaner Production
+JCR	Journal of Consumer Research
+JCombTheoryA	Journal of Combinatorial Theory Ser. A
+JConPsy	Journal of Consulting Psychology
+JD	The Journal of Derivatives
+JEA	ACM Journal of Experimental Algorithmics (JEA)
+JEASTS	Journal of the Eastern Asia Society for Transportation Studies
+JEB	Journal of Experimental Botany
+JEE	Journal of Environmental Education
+JEEM	Journal of Environmental Economics and Management
+JEL	Journal of Economic Literature
+JEP	Journal of Energy Policy
+JEnvPsy	Journal of Environmental Psychology
+JF	Journal of Forecasting
+JFE	Journal of Financial Economics
+JFEI	Journal of Family and Economic Issues
+JGS	Journal of Geographical Systems
+JH	Journal of Hydrology
+JHE	Journal of Human Evolution
+JHBE	Journal of Housing and the Built Environment
+JHEC	Journal of Housing Economics
+JHR	Journal of Human Resources
+JHSEM	Journal of Homeland Security and Emergency Management
+JIE	Journal of Industrial Economics
+JITS	Journal of Intelligent Transportation Systems
+JJAP	Japanese Journal of Applied Physics
+JM	Journal of Marketing
+JMPH	Journal of Mathematical Physics
+JMP	Journal of Mathematical Psychology
+JMR	Journal of Marketing Research
+JMolB	Journal of Molecular Biology
+JMs	Journal of Microscopy
+JMu	Journal of Multimedia
+JOCM	Journal of Choice Modelling
+JOCP	Journal of Comparative Pathology
+JOM	Journal of Maps
+JOREL	Journal of Real Estate Literature
+JORSS	Journal of the Royal Statistical Society
+JORSSB	Journal of the Royal Statistical Society: Series B (Statistical Methodology)
+JOS	Journal of Simulation
+JOffStat	Journal of Official Statistics
+JOUR	Journeys
+JOperResSoc	Journal of the Operational Research Society
+JPE	Journal of Political Economy
+JPIF	Journal of Property Investment \& Finance
+JPL	Journal of Planning Literature
+JPPM	Journal of Public Policy \& Marketing
+JPS	Journal of Power Sources
+JPT	Journal of Public Transportation
+JPuE	Journal of Public Economics
+JR	Journal of Retailing
+JRAI	The Journal of the Royal Anthropological Institute of Great Britain and Ireland
+JRCS	Journal of Retailing and Consumer Services
+JRIN	Journal of Risk and Insurance
+JRP	Journal of Research in Personality
+JRR	Journal of Risk Research
+JRS	Journal of Regional Science
+JRTR	Japan Railway \& Transport Review
+JS	Journal of Supercomputing
+JSDEWES	Journal of Sustainable Development of Energy, Water and Environment Systems
+JSI	Journal of Social Issues
+JSMTaE	Journal of Statistical Mechanics: Theory and Experiment
+JSS	Journal of Statistical Software
+JSSM	Journal of Service Science and Management
+JStatPhys	Journal of Statistical Physics
+JTE	Journal of Transportation Engineering
+JTEP	Journal of Transport Economics and Policy
+JTG	Journal of Transport Geography
+JTLU	Journal of Transport and Land Use
+JTR	Journal of Travel Research
+JTS	Journal of Transportation and Statistics
+JTSS	Journal of Transportation Safety \& Security
+JTSEIT	J Transpn Sys Eng \& IT
+JTTM	Journal of Travel \& Tourism Marketing
+JU	Journal of Urbanism
+JUD	Journal of Urban Design
+JUE	Journal of Urban Economics
+JUPD	Journal of Urban Planning and Development
+JUT	Journal of Urban Technology
+JdPI	Journal de Physique I
+JoE	Journal of Econometrics
+JoEP	Journal of Economic Perspectives
+JoEcPs	Journal of Economic Psychology
+JoLR	Journal of Leisure Research
+KER	Knowledge Engineering Review
+KNP	Knickerbocker Press
+LAS	Los Alamos Science
+LE	Land Economics
+LNCS	Lecture Notes in Computer Science
+LS	Leisure Sciences
+LUP	Landscape and Urban Planning
+MCM	Mathematical and Computer Modeling
+MIP	Marketing Intelligence \& Planning
+MIT	The MIT Press
+ML	Machine Learning
+MMI	MMI Interaktiv
+MOB	Mobilities
+MP	Mathematical Programming
+MS	Marketing Science
+MSS	Mathematical Social Sciences
+MaLe	Marketing Letters
+ManSc	Management Science
+NA	Nonlinear Analysis
+NAT	Nature
+NCA	Neural Computing & Applications
+NDTE	Nondestructive Testing and Evaluation
+NETN	NETNOMICS
+NETW	Networks
+NEnglJMed	The New England Journal of Medicine
+NH	Natural Hazards
+NHR	Natural Hazards Review
+NJP	New Journal of Physics
+NLY	Nonlinearity
+NM	Numerische Mathematik
+NOT	National{\o}konomisk tidsskrift
+NRLQ	Naval Research Logistics Quarterly
+NSE	Networks and Spatial Economics
+NSLN	Netzwerk Stadt und Landschaft Newsletter
+NZZ	NZZ - Neue Zürcher Zeitung
+NatComp	Natural Computing
+NJHBE	Netherlands Journal of Housing and the Built Environment
+NatureCom	Nature Communications
+OBHDP	Organizational Behavior and Human Decision Processes
+OMS	Optimization Methods and Software
+OR	OR Spectrum
+ORL	Operations Research Letters
+ORQ	Operational Research Quarterly
+ORSA	ORSA Journal of Computing
+OpRes	Operations Research
+PARE	Practical Assessment, Research \& Evaluation
+PRL	Pattern Recognition Letters
+PC	Pervasive Computing
+PCS	Procedia Computer Science
+PE	Procedia Engineering
+PES	Procedia Environmental Sciences
+PHG	Progress in Human Geography
+PICE	Proceedings of the Institution of Civil Engineers
+PID	Personality and Individual Differences
+PIEEE	Proceedings of the IEEE
+PJ	Policy Journals
+PT	Public Transport
+PLOS	PLoS ONE
+PMC	Pervasive and Mobile Computing
+PSBS	Procedia Social and Behavioral Sciences
+PSRL	PLANERIN.SRL-Mitteilungen für Stadt-, Regional- und Landesplanung
+PhysRevFocus	Physical Review Focus
+RESQ	Review of Economics and Statistics
+RESS	Reliability Engineering and System Safety
+RSIF	Journal of the Royal Society Interface
+SCS	Sustainable Cities and Society
+SIGKDD	SIGKDD Explorations
+SJO	SIAM Journal of Optimization
+SM	Survey Methodology
+SMO	Structural and Multidisciplinary Optimization
+SSRN	SSRN Working Paper Series
+STATA	The Stata Journal
+Simulation	Simulation
+SoM	Sociological Methodology
+TBS	Travel Behaviour and Society
+TECJ	The Economic Journal
+TEPJST	The European Physical Journal Special Topics
+TESG	Tijdschrift voor economische en sociale geografie
+TJMS	The Journal of Mathematical Society
+TQLY	Traffic Quarterly
+TRP	Transportation Research Procedia
+TST	The Straits Times
+URBIA	URBIA -- Les Cahiers du développement urbain durable
+WRR	Water Resources Research
+ZUMA	ZUMA-Nachrichten
+arXiv	arXiv preprint
+disP	disP~-- The Planning Review
+PEASTS	Proceedings of the Eastern Asia Society for Transportation Studies
+% Despite being called "Proceedings ...", the entry below is a journal
+PIMechE	Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering
+PM	Property Management
+% Despite being called "Proceedings ...", the entry below is a journal (mfeil)
+%TP	Transportation Policy scnadine: there is no journal "Transportation Policy", you probably mean "Transport Policy" and for that the key is TPol
+PNAS	Proceedings of the National Academy of Sciences of the United States of America
+PP	Progress in Planning
+PRS	Papers in Regional Science
+PRSA	Papers of the Regional Science Association
+PICEUDP	Proceedings of the ICE - Urban Design and Planning
+PRSLSA	Proceedings of the Royal Society of London. Series A
+PTRSA	Philosophical Transactions of the Royal Society A: Mathematical, Physical \& Engineering Sciences
+PUC	Personal and Ubiquitous Computing
+PWMP	Rand Journal of Economics
+ParComp	Parallel Computing
+PhysRep	Physics Reports
+PhysRevE	Physical Review E
+PhysRevLet	Physical Review Letters
+PhysicaA	Physica A: Statistical Mechanics and its Applications
+PhysicaD	Physica D: Nonlinear Phenomena
+PsychBull	Psychological Bulletin
+PsychMark	Psychology \& Marketing
+PsychRev	Psychological Review
+Psychiatry	Psychiatry: Interpersonal and Biological Processes
+QAQ	Quality \& Quantity
+QJE	Quarterly Journal of Economics
+QME	Quantitative Marketing and Economics
+RA	Risk Analysis
+REE	Real Estate Economics
+REEP	Review of Environmental Economics and Policy
+RES	The Review of Economic Studies
+RIDS	Revue Internationale de Systémique
+RJE	RAND Journal of Economics
+RMP	Reviews of Modern Physics
+RR	Research Review
+RS	Regional Studies
+RSA	Regional Science Association
+RSUE	Regional Science and Urban Economics
+RTE	Research in Transport Economics
+RoG	Reviews of Geophysics
+RuR	Raumforschung und Raumordnung
+SA	Scientific American
+SATHK	Schweizer Archiv fuer Tierheilkunde
+SEI	Structure Engineering International
+SEPS	Socio-Economic Planning Sciences
+SIGART	ACM SIGART Bulletin
+SMJAP	SIAM Journal on Applied Mathematics
+SMJCAT	SIAM Journal on Computing
+SMPT	Simulation Modelling Practice and Theory
+SN	Social Networks
+SNWS	Supermarket News
+SOCM	Sociometry
+SP	Survey Practice
+SPR	Stewart Postharvest Review
+SR	Scientific Reports
+SSRL	Stadt Region Land
+STR	Statistik Regional - Electronic Papers
+SV	Strasse und Verkehr
+SVT	Straßenverkehrstechnik
+Science	Science
+ScChinaE	Science in China Series E: Technological Sciences
+SocialP	Social Problems
+TAER	The American Economic Review
+TAJS	The American Journal of Sociology
+TAS	The American Statistician
+TBJoE	The Bell Journal of Economics
+TCS	Theoretical Computer Science
+TD	Theory and Decision
+TE	Traffic Engineering
+TEC	Traffic Engineering and Control
+TEC21	TEC21
+TEJ	Traffic Engineering Journal
+TEnJ	The Energy Journal
+TGJ	The Geographical Journal
+TGR	The Geographical Review
+TIBG	Transactions of the Institute of British Geographers
+TIJUS	The International Journal of Urban Sciences
+TIRRDCR	The International Review of Retail, Distribution and Consumer Research
+TJRAP	The Journal of Regional Analysis \& Policy
+TODAY	Today
+TPDM	Transport Policy and Decision Making
+TPG	The Professional Geographer
+%TP	Transportation Policy scnadine: there is no journal "Transportation Policy", you probably mean "Transport Policy" and for that the key is TPol
+TPT	Transportation Planning and Technology
+TPol	Transport Policy
+TRA	Transportation Research A
+TRC	Transportation Research Circular
+TRR	Transportation Research Record
+TRTTJ	Transport Reviews: A Transnational Transdisciplinary Journal
+TSIJ	The Service Industries Journal
+TSSJ	The Social Science Journal
+TourismMan	Tourism Management
+TransLett	Transportation Letters
+TransMetrica	Transportmetrica
+TransMetricaA	Transportmetrica A
+TransMetricaB	Transportmetrica B
+% TransRes: until 1978, later seperated into parts A, B, C
+TransRes	Transportation Research
+TransResA	Transportation Research Part A: Policy and Practice
+TransResAGen	Transportation Research Part A: General
+TransResB	Transportation Research Part B: Methodological
+TransResC	Transportation Research Part C: Emerging Technologies
+TransResD	Transportation Research Part D: Transport and Environment
+TransResE	Transportation Research Part E: Logistics and Transportation Review
+TransResECirc	Transportation Research E-Circular
+TransResF	Transportation Research Part F: Traffic Psychology and Behaviour
+TransResPartA	Transportation Research Part A
+TransResPartB	Transportation Research Part B
+TransScience	Transportation Science
+TransScienceA	Transportation Science A
+TransportRev	Transport Reviews
+Transportation	Transportation
+TransportationNL	Transportation (Netherlands)
+UF	Unternehmensforschung
+UG	Urban Geography
+UM	Urban Morphology
+UNPB	United Nations Population Bulletin
+UPR	Urban Policy and Research
+US	Urban Studies
+VO	Verkehrsforschung Online
+VPK	Vermessung, Photogrammetrie, Kulturtechnik
+WD	World Development
+WPB	Wirtschaftspolitische Blätter
+WTPP	World Transport Policy and Practice
+WTR	World Transport Research
+WZTUAU	Wissenschaftliche Zeitschrift der Technischen Universität Dresden
+ZFV	Zeitschrift für Verkehrswissenschaft
+geoforum	Geoforum
+sigmobile	ACM SIGMOBILE Mobile Computing and Communications Review
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

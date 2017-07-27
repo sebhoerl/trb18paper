@@ -1,0 +1,845 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% %%%	%%%	%%%
+% key	eng	ger
+% %%%	%%%	%%%
+%
+%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: Please include the key-eng-ger tripplet at the right place.
+%       meaning: putting it under 'Adresses', 'Organisations',
+%       'Universites, Schools', 'Departments, Institutes, Groups',
+%       'Types of TechReports', or 'misc' AND set the line
+%       in lexicographical order.
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NOTE: Avoid empty lines! Always put a % in front of empty lines
+%       or comments.
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+% %%%%%
+% Month
+% %%%%%
+jan	January	Januar
+feb	February	Februar
+mar	March	März
+apr	April	April
+may	May	Mai
+jun	June	Juni
+jul	July	Juli
+aug	August	August
+sep	September	September
+oct	October	Oktober
+nov	November	November
+dec	December	Dezember
+%
+% %%%%%%%%
+% Adresses
+% %%%%%%%%
+aachen	Aachen	Aachen
+aalborg	Aalborg	Aalborg
+aberdeen	Aberdeen	Aberdeen
+abingdon	Abingdon	Abingdon
+adelaide	Adelaide	Adelaide
+addisababa	Addis Ababa	Addis Abeba
+aldershot	Aldershot	Aldershot
+ames	Ames	Ames
+amherst	Amherst	Amherst
+amsterdam	Amsterdam	Amsterdam
+anchorage	Anchorage	Anchorage
+ann-arbor	Ann Arbor	Ann Arbor
+annecy	Annecy	Annecy
+antwerp	Antwerp	Antwerpen
+arcueil	Arcueil	Arcueil
+arlington	Arlington	Arlington
+ascona	Ascona	Ascona
+atlanta	Atlanta	Atlanta
+austin	Austin	Austin
+avignon	Avignon	Avignon
+badherrenalb	Bad Herrenalb	Bad Herrenalb
+baldock	Baldock	Baldock
+baltimore	Baltimore	Baltimore
+bangalore	Bangalore	Bangalore
+barcelona	Barcelona	Barcelona
+basel	Basel	Basel
+basingstoke	Basingstoke	Basingstoke
+beijing	Beijing	Peking
+berkeley	Berkeley	Berkeley
+berkshire	Berkshire	Berkshire
+belfast	Belfast	Belfast
+belgrade            Belgrade            Belgrad
+berlin	Berlin	Berlin
+beverlyhills	Beverly Hills	Beverly Hills
+bielefeld	Bielefeld	Bielefeld
+bingley	Bingley	Bingley
+bern	Berne	Bern
+birmingham	Birmingham	Birmingham
+bocaraton	Boca Raton	Boca Raton
+bochum	Bochum	Bochum
+bonn	Bonn	Bonn
+borlaenge	Borlaenge	Borlänge
+boston	Boston	Boston
+bratislava	Bratislava	Bratislava
+braunschweig	Braunschweig	Braunschweig
+bremen	Bremen	Bremen
+brighton	Brighton	Brighton
+bristol	Bristol	Bristol
+brno	Brno	Brno
+bucharest	Bucharest	Bukarest
+budapest	Budapest	Budapest
+buenosaires	Buenos Aires	Buenos Aires
+buffalo	Buffalo	Buffalo
+burlington	Burlington	Burlington
+busan	Busan	Busan
+brugg	Brugg	Brugg
+california	California	California
+cambridge-uk	Cambridge	Cambridge
+cambridge-ma	Cambridge	Cambridge
+camposdojordao	Campos do Jordão	Campos do Jordão
+canada	Canada	Kanada
+canberra	Canberra	Canberra
+capri	Capri	Capri
+caracas	Caracas	Caracas
+castasegna	Castasegna	Castasegna
+cergypontoise	Cergy-Pontoise	Cergy-Pontoise
+cham	Cham	Cham
+champaign	Champaign Ill.	Champaign Ill.
+chania	Chania	Chania
+cheltenham	Cheltenham	Cheltenham
+cheshire	Cheshire	Cheshire
+chicago	Chicago	Chicago
+chichester	Chichester	Chichester
+columbus	Columbus	Columbus
+college-park-md	College Park (MD)	College Park (MD)
+compiege	Compi\`egne	Compi\`egne
+copenhagen	Copenhagen	Kopenhagen
+cork	Cork	Cork
+corpuschristi	Corpus Christi	Corpus Christi
+costarica	Costa Rica	Costa Rica
+cyprus	Cyprus	Zypern
+dallas	Dallas	Dallas
+darmstadt	Darmstadt	Darmstadt
+daytonabeach	Daytona Beach	Daytona Beach
+delaware	Delaware	Delaware
+delft	Delft	Delft
+detmold	Detmold	Detmold
+dordrecht	Dordrecht	Dordrecht
+dortmund	Dortmund	Dortmund
+dresden	Dresden	Dresden
+dublin	Dublin	Dublin
+dubrovnik	Dubrovnik	Dubrovnik
+duisburg	Duisburg	Duisburg
+dunedin-nz	Dunedin (New Zealand)	Dunedin (New Zealand)
+durham	Durham	Durham
+dusseldorf	Dusseldorf	Düsseldorf
+eindhoven	Eindhoven	Eindhoven
+edinburgh	Edinburgh	Edinburgh
+eastsussex	East Sussex	East Sussex
+englewoodcliffs	Englewood Cliffs	Englewood Cliffs
+evanston	Evanston	Evanston
+farnham	Farnham	Farnham
+frankfurt	Frankfurt	Frankfurt
+freiburg            Freiburg            Freiburg
+gelterkinden	Gelterkinden	Gelterkinden
+geneva	Geneva	Genf
+ghent	Ghent	Gent
+giessen	Giessen	Giessen
+gifu	Gifu	Gifu
+glasgow	Glasgow	Glasgow
+goldcoast	Gold Coast	Gold Coast
+gothenburg	Gothenburg	Gothenburg
+graz	Graz	Graz
+greenwich	Greenwich	Greenwich
+guildford	Guildford	Guildford
+hague	The Hague	Den Haag
+halifax	Halifax	Halifax
+halle	Halle	Halle
+hamburg	Hamburg	Hamburg
+hangzhou	Hangzhou	Hangzhou
+hannover	Hannover	Hannover
+harrisburg	Harrisburg	Harrisburg
+hasselt             Hasselt             Hasselt
+heeze	Heeze	Heeze
+heidelberg	Heidelberg	Heidelberg
+herisau	Herisau	Herisau
+herrsching	Herrsching am Ammersee	Herrsching am Ammersee
+hertfordshire	Hertfordshire	Hertfordshire
+hershey	Hershey	Hershey
+hoboken	Hoboken	Hoboken
+hongkong	Hong Kong	Hong Kong
+honolulu	Honolulu	Honolulu
+hiroshima	Hiroshima	Hiroshima
+innsbruck	Innsbruck	Innsbruck
+irvine	Irvine	Irvine
+istanbul	Istanbul	Istanbul
+ittingen	Ittingen	Ittingen
+ithaca	Ithaca	Ithaca
+jaipur	Jaipur	Jaipur
+japan	Japan	Japan
+jerusalem	Jerusalem	Jerusalem
+jonkoping	Jønkøping	Jønkøping
+jyv	Jyväskylä	Jyväskylä
+kappelamalbis	Kappel am Albis	Kappel am Albis
+kallmuenz	Kallmünz	Kallmünz
+karlsruhe	Karlsruhe	Karlsruhe
+kent	Kent	Kent
+koeln	Cologne	Köln
+kouvola	Kouvola	Kouvola
+krugerpark	Kruger Park	Kruger Park
+kualalumpur	Kuala Lumpur	Kuala Lumpur
+kunming	Kunming	Kunming
+kyoto	Kyoto	Kyoto
+laspalmasdegrancanaria	Las Palmas de Gran Canaria	Las Palmas de Gran Canaria
+lasvegas	Las Vegas	Las Vegas
+lausanne	Lausanne	Lausanne
+leeds	Leeds	Leeds
+leeuwenhorst	Leeuwenhorst	Leeuwenhorst
+leiden	Leiden	Leiden
+leipzig	Leipzig	Leipzig
+lexington	Lexington	Lexington
+leura	Leura	Leura
+liestal	Liestal	Liestal
+lisbon	Lisbon	Lissabon
+liverpool	Liverpool	Liverpool
+ljubljana	Ljubljana	Ljubljana
+lodz	\L\'{o}d\'{z}	Leiden
+london	London	London
+losangeles	Los Angeles	Los Angeles
+lucca	Lucca	Lucca
+lucerne	Lucerne	Luzern
+lugano	Lugano	Lugano
+luxembourg	Luxembourg	Luxemburg
+lyon	Lyon	Lyon
+maastricht	Maastricht	Maastricht
+madeira	Madeira	Madeira
+madison	Madison	Madison
+magliaso	Magliaso	Magliaso
+maidenhead	Maidenhead	Maidenhead
+manchester	Manchester	Manchester
+mannheim	Mannheim	Mannheim
+maryland	Maryland	Maryland
+maui	Maui	Maui
+melbourne	Melbourne	Melbourne
+mexicocity	Mexico City	Mexico City
+milano	Milan	Mailand
+minneapolis	Minneapolis	Minneapolis
+minnesota	Minnesota	Minnesota
+montreal	Montreal	Montreal
+montreux	Montreux	Montreux
+muenchen	Munich	München
+munster	Munster	Münster
+nagoya	Nagoya	Nagoya
+namur	Namur	Namur
+nanjing	Nanjing	Nanjing
+neuchatel	Neuchatel	Neuchâtel
+newdehli	New Dehli	Neu-Dehli
+newhaven	New Haven	New Haven
+newjersey	New Jersey	New Jersey
+neworleans	New Orleans	New Orleans
+newyork	New York	New York
+niagra	Niagara on the Lake	Niagara on the Lake
+niagarafalls	Niagara Falls	Niagara Falls
+norderstedt		Norderstedt		Norderstedt
+northampton	Northampton	Northampton
+norwich	Norwich	Norwich
+nuernberg	Nürnberg	Nürnberg
+oakland	Oakland	Oakland
+olten	Olten	Olten
+oldenburg	Oldenburg	Oldenburg
+opladen	Opladen	Opladen
+orangeCounty	Orange County	Orange County
+orlando	Orlando	Orlando
+osnabruck	Osnabrück	Osnabrück
+ottawa	Ottawa	Ottawa
+oslo	Oslo	Oslo
+oxford	Oxford	Oxford
+padang	Padang	Padang
+paphos	Paphos	Paphos
+paris	Paris	Paris
+philadelphia	Philadelphia	Philadelphia
+phuketisland	Phuket Island	Phuket Island
+piscataway	Piscataway	Piscataway
+pittsburgh	Pittsburgh	Pittsburgh
+plymouth	Plymouth	Plymouth
+phoenix	Phoenix	Phoenix
+portland	Portland	Portland
+prague	Prague	Prag
+pretoria	Pretoria	Pretoria
+princeton	Princeton	Princeton
+providence	Providence	Providence
+poznan	Poznan	Poznan
+quebec	Quebec	Québec	
+raleigh	Raleigh	Raleigh
+ramatgan	Ramat Gan	Ramat Gan
+reading	Reading	Reading
+redwoodcity	Redwood City	Redwood City
+rijeka	Rijeka	Rijeka
+rome	Rome	Rom
+rotenburgfulda	Rotenburg on the Fulda	 Rotenburg an der Fulda
+rotterdam	Rotterdam	Rotterdam
+rust	Rust	Rust am Neusiedler See
+saarbrucken	Saarbrucken	Saarbrücken
+sanantonio	San Antonio	San Antonio
+sandiego	San Diego	San Diego
+sanfran	San Francisco	San Francisco
+sanjuan	San Juan	San Juan
+sansebastian	San Sebastian	San Sebastian
+santamonica	Santa Monica	Santa Monica
+santander	Santander	Santander
+santiagodechile	Santiago de Chile	Santiago de Chile
+saopaolo	Sao Paolo	Sao Paolo
+seattle	Seattle	Seattle
+seoul	Seoul	Seoul
+shanghai	Shanghai	Shanghai
+shenzhen	Shenzhen	Shenzhen
+singapore	Singapore	Singapur
+skopje	Skopje	Skopje
+stanford	Stanford	Stanford
+staugustin	Sankt Augustin	Sankt Augustin
+stgallen	St. Gallen	St. Gallen
+stpetersburg	St. Petersburg	St. Petersburg
+strasbourg	Strasbourg	Straßburg
+stellenbosch	Stellenbosch	Stellenbosch
+stockholm	Stockholm	Stockholm
+stuttgart	Stuttgart	Stuttgart
+sydney	Sydney	Sydney
+taipei	Taipei	Taipeh
+tallahassee	Tallahassee	Tallahassee
+tampa	Tampa	Tampa
+tartu	Tartu	Tartu
+teaneck	Teaneck	Teaneck
+tempe	Tempe	Tempe
+telaviv	Tel Aviv	Tel Aviv
+termasPuyehue	Termas de Puyehue	Termas de Puyehue
+texas	Texas	Texas
+tokyo	Tokyo	Tokio
+torino	Torino	Turin
+toronto	Toronto	Toronto
+uppersaddleriver	Upper Saddle River	Upper Saddle River
+urbana	Urbana-Champagne	Urbana-Champagne
+utrecht	Utrecht	Utrecht
+valencia	Valencia	Valencia
+vancouver	Vancouver	Vancouver
+venice	Venice	Venice
+ventura	Ventura	Ventura
+victoria	Victoria	Victoria
+vienna	Vienna	Wien
+villigen	Villigen PSI	Villigen PSI
+vilnius	Vilnius	Vilnius
+virginia	Virginia	Virginia
+waedenswil	Wädenswil	Wädenswil
+waltham	Waltham	Waltham
+washington	Washington, D.C.	Washington, D.C.
+weinheim	Weinheim	Weinheim
+westport	Westport	Westport
+westsussex	West Sussex	West Sussex
+winterthur	Winterthur	Winterthur
+wien	Vienna	Wien
+wiepersdorf	Wiepersdorf	Wiepersdorf
+wiesbaden	Wiesbaden	Wiesbaden
+wildbadkreuth	Wildbad Kreuth	Wildbad Kreuth
+windsor	Windsor	Windsor
+wolfsburg	Wolfsburg	Wolfsburg
+wuerzburg	Würzburg	Wuerzburg
+wuxi	Wuxi	Wuxi
+yokohama	Yokohama	Yokohama
+zagreb	Zagreb	Zagreb
+zurich	Zurich	Zürich
+
+%
+% %%%%%%%%%%%%%
+% Organizations
+% %%%%%%%%%%%%%
+org-aa	The Automobile Association	The Automobile Association
+org-aamas	Autonomous Agents and Multiagent Systems	Autonomous Agents and Multiagent Systems
+org-aashto	American Association of State Highway and Transportation Officials	American Association of State Highway and Transportation Officials
+org-abay	Planungsbüro Abay \& Meier	Planungsbüro Abay \& Meier
+org-accent	Accent	Accent
+org-acm	Association for Computing Machinery	Association for Computing Machinery
+org-acmsigkdd	ACM Special Interest Group on Knowledge Discovery and Data Mining	ACM Special Interest Group on Knowledge Discovery and Data Mining
+org-adac	ADAC	ADAC
+org-adm	ADM Arbeitskreis Deustscher Markt- und Sozialforschungsinstitute e.V.	ADM Arbeitskreis Deustscher Markt- und Sozialforschungsinstitute e.V.
+org-aet	Association for European Transport (AET)	Association for European Transport (AET)
+org-afvkzh	Office for Transport of the Canton Zurich	Amt für Verkehr des Kantons Zürich
+org-apa	American Planning Association	American Planning Association
+org-are	Swiss Federal Office for Spatial Development (ARE)	Bundesamt für Raumentwicklung (ARE)
+org-arezh	Office for Spatial Development of the Canton of Zurich	Amt für Raumentwicklung des Kantons Zürich
+org-arrb	Australian Road Research Board	Australian Road Research Board
+org-astra	Swiss Federal Roads Authority	Bundesamt für Strassen
+org-atoc	Association of Train Operating Companies (ATOC)	Association of Train Operating Companies (ATOC)
+org-autoschweiz	Auto Schweiz, Association of Swiss car importers	Auto Schweiz, Vereinigung Schweizer Autoimporteure
+org-avv	Transport Research Centre of the Dutch Ministry of Transport	Transport Research Centre of the Dutch Ministry of Transport
+org-babs	Swiss Federal Office for Civil Protection (FOCP)	Bundesamt für Bevölkerungsschutz (BABS)
+org-bafu	Federal Office for the Environment (FOEN)	Bundesamt fur Umwelt (BAFU)
+org-bak	BAK Basel Economics	BAK Basel Economics
+org-bav	Swiss Federal Office of Transport	Bundesamt für Verkehr
+org-bbsr	Federal Institute for Research on Building, Urban Affairs and Spatial Development (BBSR)	Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR)
+org-bdktzrh	Baudirektion Kanton Zurich	Baudirektion Kanton Zürich
+org-bifbb	Bundesinstitut für Berufsbildung	Bundesinstitut für Berufsbildung
+org-bfh	Bern University of Applied Science	Berner Fachhochschule
+org-bfs	Swiss Federal Statistical Office (BFS)	Bundesamt für Statistik (BFS)
+org-bfv	Federal Minister for Transport	Bundesminister für Verkehr
+org-bmbf	Federal Ministry of Education and Research	Bundesministerium für Bildung, Wissenschaft, Forschung und Technologie
+org-bmvi	Federal Ministry of Transport and Digital Infrastructure (BMVI)	Bundesministerium für Verkehr und digitale Infrastruktur (BMVI)
+org-bmvit	Federal Ministry of Transport, Innovation and Technology (BMVIT)	Bundesministerium für Verkehr, Innovation und Technologie (BMVIT)
+org-bmvmw	Federal Minister for Transport, Building and Housing (BMVMW)	Bundesministerium für Verkehr, Bau- und Wohnungswesen (BMVMW)
+org-bmvbs	Federal Minister for Transport, Building and Urban Development (BMVBS)	Bundesministeriums für Verkehr, Bau und Stadtentwicklung (BMVBS)
+org-bmwi	Bundesministerium für Wirtschaft und Technologie	Bundesministerium für Wirtschaft und Technologie
+org-bfe	Swiss Federal Office of Energy (SFOE)	Bundesamt für Energie (BFE)
+org-bps	Badan Pusat Statistik	Badan Pusat Statistik
+org-bss	B,S,S. Economic Consultants	B,S,S. Volkswirtschaftliche Beratung
+org-btd	Battelle Transport Division	Battelle Transport Division
+org-bts	Bureau of Transportation Statistics	Bureau of Transportation Statistics
+org-bve	Construction Transport and Energy Department Canton Bern	Bau- Verkehrs- und Energiedirektion Kanton Bern
+org-bvu	BVU Beratergruppe Verkehr + Umwelt GmbH	BVU Beratergruppe Verkehr + Umwelt GmbH
+org-cdt	California Department of Transportation	California Department of Transportation
+org-ceer	Center for European Economic Research	Zentrum fuer Europaeische Wirtschaftsforschung
+org-chsra	California High Speed Rail Authority	California High Speed Rail Authority
+org-cts	Centre for Transport Studies, Sweden	Centre for Transport Studies, Sweden
+org-cfd	Committee for Determination of the State of Practice in Metropolitan Area Travel Forecasting	Committee for Determination of the State of Practice in Metropolitan Area Travel Forecasting
+org-cft	Committee for the Study of Long-Term Viability of Fuel Taxes for Transportation Finance		Committee for the Study of Long-Term Viability of Fuel Taxes for Transportation Finance
+org-cirrelt	Interuniversity Research Centre on Enterprise Networks, Logistics and Transportation (CIRRELT)	Centre interuniversitaire de recherche sur les résaux d'entreprise, la logistique et le transport (CIRRELT)
+org-cota	Chinese Overseas Transportation Association (COTA)	Chinese Overseas Transportation Association (COTA)
+org-cs	IEEE Computer Society	IEEE Computer Society
+org-csi	{Cambridge Systematics Inc.}	{Cambridge Systematics Inc.}
+org-cure	Center for Usability Research and Engineering	Center for Usability Research and Engineering
+org-datapuls	Datapuls AG	Datapuls AG
+org-detr	Department for Environment, Transport and the Regions	Department for Environment, Transport and the Regions
+org-dfg	Deutsche Forschungsgemeinschaft	Deutsche Forschungsgemeinschaft
+org-dft	Department for Transport	Department for Transport
+org-divu	Dresdner Instituts für Verkehr und Umwelt e.V (DIVU)	Dresdner Instituts für Verkehr und Umwelt e.V (DIVU)
+org-dtu	DTU Transport, Denmark	DTU Transport, Denmark
+org-dlr	German Aerospace Center (DLR)	Deutsches Zentrum fuer Luft- und Raumfahrt (DLR)
+org-dmg	Data Management Group	Data Management Group
+org-doe	U.S. Department of Energy	U.S. Department of Energy
+org-dot	U.S. Department of Transportation	U.S. Department of Transportation
+org-dvwg	Deutsche Verkehrswissenschaftliche Gesellschaft (DVWG)	Deutsche Verkehrswissenschaftliche Gesellschaft (DVWG)
+org-eatcs	European Association for Theoretical Computer Science (EATCS)	European Association for Theoretical Computer Science (EATCS)
+org-ebp	Ernst Basler + Partner AG	Ernst Basler + Partner AG
+org-ec	European Commission	Europäische Kommission
+org-ecoplan	Ecoplan	Ecoplan
+org-edmz	Eidgenössische Drucksachen- und Materialzentrale	Eidgenössische Drucksachen- und Materialzentrale
+org-ee-21c	Earthquake Engineering in the 21st Century (EE-21C)		Earthquake Engineering in the 21st Century (EE-21C)
+org-eea	European Environment Agency	Europäische Umweltagentur
+org-eia	Energy Information Administration (EIA)	Energy Information Administration (EIA)
+org-embe	Emch und Berger	Emch und Berger 
+org-endoxon	Endoxon AG	Endoxon AG
+org-ensi	Swiss Federal Nuclear Safety Inspectorate ENSI	Eidgenössisches Nuklearinspektorat ENSI
+org-epa	Environmental Protection Agency	Environmental Protection Agency
+org-esri	Environmental Systems Research Institute (ESRI) Inc.	Environmental Systems Research Institute (ESRI) Inc.
+org-estv	Federal Tax Administration	Eidgenössische Steuerverwaltung
+org-etcons	Ecolane Transport Consultancy	Ecolane Transport Consultancy
+org-eu	European Union	Europäische Union
+org-eufp6	Sixth Framework Programme	Sixth Framework Programme
+org-euc	European Commission	Europäische Kommission
+org-eurostat	Eurostat	Eurostat
+org-ewz	Elektrizitätswerk der Stadt Zürich (EWZ)	Elektrizitätswerk der Stadt Zürich (EWZ)
+org-fcc	Federal Communications Commission	Federal Communications Commission
+org-fdot	Florida Department of Transportation	Florida Department of Transportation
+org-fgsv	Forschungsgesellschaft für Straßen- und Verkehrswesen	Forschungsgesellschaft für Straßen- und Verkehrswesen
+org-fhwa	Federal Highway Administration	Federal Highway Administration
+org-flu	Fluidtime Data Services GmbH	Fluidtime Data Services GmbH
+org-fta	Federal Transit Administration	Federal Transit Administration
+org-geostat	GEOSTAT	GEOSTAT
+org-gseved	Dienst für Gesamtverkehrsfragen (GS EVED)	Dienst für Gesamtverkehrsfragen (GS EVED)
+org-hague	Hague Consulting Group	Hague Consulting Group
+org-hca	Homes and Communities Agency	Homes and Communities Agency
+org-hev	Swiss Homeowners Assocation 	Schweizer Hauseingetümer Verein
+org-hksts	Hong Kong Society for Transportation Studies 	Hong Kong Society for Transportation Studies
+org-hrb	Highway Research Board	Highway Research Board
+org-idrim	International Society of Integrated Disaster Risk Management (IDRim)	International Society of Integrated Disaster Risk Management (IDRim)
+org-ifac	International Federation of Automatic Control	International Federation of Automatic Control
+org-ifsttar	IFSTTAR	IFSTTAR
+org-iht	Institution of Highways and Transportation	Institution of Highways and Transportation
+org-infras	INFRAS	INFRAS
+org-inrets	Institut National de Recherche sur les Transports et leur Sécurité (INRETS)	Institut National de Recherche sur les Transports et leur Sécurité (INRETS)
+org-inro	INRO	INRO
+org-ivtev	Institut für angewandte Verkehrs- und Tourismusforschung e.V.	Institut für angewandte Verkehrs- und Tourismusforschung e.V.
+org-ivv	Ingenieurgruppe IVV	Ingenieurgruppe IVV
+org-ieee	Intelligent Transportation Systems Society	Intelligent Transportation Systems Society
+org-iabse	International Association for Bridge and Structural Engenieering	International Association for Bridge and Structural Engenieering
+org-iab	Institut für Arbeitsmarkt- und Berufsforschung	Institut für Arbeitsmarkt- und Berufsforschung
+org-imc	Infrastucture Managment Consultants	Infrastucture Managment Consultants
+org-interface	Interface Politikstudien	Interface Politikstudien
+org-ite	Institute of Transportation Engineers	Institute of Transportation Engineers
+org-itsmy	Intelligent Transportation Systems Malaysia	Intelligent Transportation Systems Malaysia
+org-kba	Kraftfahrt Bundesamt	Kraftfahrt Bundesamt
+org-jbs	John Bates Services	John Bates Services
+org-lta	Land Transport Authority
+org-mappuls	Mappuls AG	Mappuls AG
+org-metron	Metron	Metron
+org-mie	Dutch Ministry of Infrastructure and the Environment	Dutch Ministry of Infrastructure and the Environment
+org-muheimpartner	Peter Muheime \& Partner		Peter Muheime \& Partner
+org-mva	MVA Consultancy	MVA Consultancy		
+org-mwcg	Metropolitan Washington Council of Governments	Metropolitan Washington Council of Governments
+org-nasa	National Aeronautics and Space Administration	National Aeronautics and Space Administration
+org-nber	National Bureau of Economic Research	National Bureau of Economic Research
+org-natcen	NatCen	NatCen
+org-nchrp	National Cooperative Highway Research Program	National Cooperative Highway Research Program
+org-nctr	Norwegian Centre for Transport Research	Norwegian Centre for Transport Research
+org-toi	Institute for Transport Economics	Institute for Transport Economics
+org-nerc	National Environmental Research Center	National Environmental Research Center
+org-nooep	New Orleans Office of Emergency Preparedness	New Orleans Office of Emergency Preparedness
+org-oeaw	Austrian Academy of Sciences	Österreichische Akademie der Wissenschaften
+org-oecd	OECD	OECD
+org-oecditf	OECD/ITF Joint Transport Research Centre	OECD/ITF Joint Transport Research Centre
+org-omnint	Omnitrans International	Omnitrans International
+org-orange	Orange Labs	Orange Labs
+org-path	California Partners for Advanced Transit and Highways (PATH)	California Partners for Advanced Transit and Highways (PATH)
+org-psi	Paul Scherrer Institute	Paul Scherrer Institut
+org-ptv	PTV	Planung Transport Verkehr AG (PTV)
+org-ptvc	PTV Consult	 PTV Transport Consult GmbH 
+org-putv	Projektforschung Unternehmensberatung Transport und Verkehr	Projektforschung Unternehmensberatung Transport und Verkehr
+org-rac	RAC Foundation	RAC Foundation
+org-rand	RAND Europe	RAND Europe
+org-rdc	RDC Inc.	RDC Inc.
+org-regioconcept	regioConcept	regioConcept
+org-rfsc	R Foundation for Statistical Computing	R Foundation for Statistical Computing
+org-sazh	Statistical Office of the Canton Zurich	Statistisches Amt des Kantons Zürich
+org-sba	Swiss Federal Archives	Schweizerisches Bundesarchiv
+org-sbb	Swiss Railways	Schweizerische Bundesbahnen
+org-scpr	Social \& Community Planning Research	Social \& Community Planning Research
+org-sdewes	International Centre for Sustainable Development of Energy, Water and Environment Systems	Internationales Zentrum für nachhaltige Entwicklung von Energie, Wasser und Umwelt-Systemen
+org-senozon	senozon	senozon
+org-ser	Swiss State Secretariat for Education and Research	Schweizerisches Staatssekretariat für Bildung und Forschung
+org-sfsb	Senatsverwaltung für Stadtentwicklung Berlin	Senatsverwaltung für Stadtentwicklung Berlin
+org-siam	Society for Industrial and Applied Mathematics (SIAM)	Society for Industrial and Applied Mathematics (SIAM)
+org-sigma	Sigmaplan	Sigmaplan
+org-significance	Significance	Significance
+org-slab	Statistisches Landesamt Berlin	Statistisches Landesamt Berlin
+org-snf	Swiss National Science Foundation (SNSF)	Schweizer Nationalfond (SNF)
+org-ssz	Statistics Zurich City	Statistik Stadt Zürich
+org-stapozh	Zurich Police Departement	Stadtpolizei Zürich
+org-svi	Swiss Association of Transportation Engineers and Experts (SVI)	Schweizerische Vereinigung der Verkehrsingenieure und Verkehrsexperten (SVI)
+org-sw	Spiekermann \& Wegener Stadt und Regionalforschung
+org-swissoil	Erdöl Vereinigung Schweiz	Erdöl Vereinigung Schweiz
+org-swisstopo	Federal Office of Topography swisstopo	Bundesamt für Landestopografie swisstopo
+org-t2m	International Association for the History of Transport, Traffic and Mobility	International Association for the History of Transport, Traffic and Mobility
+org-tc	Transport Canada	Transport Canada
+org-tci	TCI Roehling – Transport Consulting International 	TCI Roehling – Transport Consulting International 
+org-tcs	Touring Club Switzerland	Touring Club Schweiz
+org-tdot	Texas Department of Transportation	Texas Department of Transportation
+org-ti	Tinbergen Institute Amsterdam	Tinbergen Institute Amsterdam
+org-tmip	Travel Model Improvement Program	Travel Model Improvement Program
+org-tns	TNS Infratest	TNS Infratest
+org-tlf	Transport for London	Transport for London
+org-transsol	TransSol	TransSol
+org-transoptima	TransOptima	TransOptima
+org-trb	Transportation Research Board	Transportation Research Board
+org-trl	Transport and Road Research Laboratory	Transport and Road Research Laboratory
+org-ukerc	UK Energy Research Centre Transport	UK Energy Research Centre Transport
+org-uvek	Swiss Federal Department for Environment, Transport, Energy and Communication	Departement für Umwelt, Verkehr, Energie und Kommunikation
+org-vaegv	Vaegverket	Vägverket
+org-vdv	Verband Deutscher Verkehrsunternehmen (VDV)	Verband Deutscher Verkehrsunternehmen (VDV)
+org-vldb	Conference on Very Large Data Bases (VLDB)		Conference on Very Large Data Bases (VLDB)
+org-vss	Swiss Association of Road and Transport Professionals (VSS)	Schweizerischer Verband der Strassen- und Verkehrsfachleute
+org-vw	VW AG, Wolfsburg	VW AG, Wolfsburg
+org-w3c	World Wide Web Consortium (W3C)	World Wide Web Consortium (W3C)
+org-wb	World Bank	World Bank
+org-wcica	World Congress on Intelligent Control and Automation (WCICA)	World Congress on Intelligent Control and Automation (WCICA)
+org-wctrs	World Conference on Transport Research Society (WCTRS)	World Conference on Transport Research Society (WCTRS)
+org-who	World Health Organisation	Weltgesundheitsorganisation
+org-wuestpartner	Wüest \&  Partner AG	Wüest \& Partner AG
+org-wvi	Wermuth Verkehrsforschung und Infrastrukturplanung GmbH	Wermuth Verkehrsforschung und Infrastrukturplanung GmbH
+org-un	United Nations	Vereinte Nationen
+org-undesa	United Nations Department of Economic and Social Affairs	Vereinte Nationen
+org-unfcc	United Nations Framework Convention on Climate Change	United Nations Framework Convention on Climate Change
+org-unfpa	United Nations Populations Funds	United Nations Populations Funds
+org-ura	Urban Redevelopement Authority	Urban Redevelopement Authority
+org-usdoc	U.S. Department of Commerce		U.S. Department of Commerce
+org-usdot	U.S. Department of Transportation	U.S. Department of Transportation
+org-usepa	U.S. Environmental Protection Agency	U.S. Environmental Protection Agency
+org-usnsf	National Science Foundation (USA)	National Science Foundation (USA)
+%
+% %%%%%%%%%%%%%%%%%%%%
+% Universities, Schools
+% %%%%%%%%%%%%%%%%%%%%
+school-trail	The Netherlands TRAIL Research School	The Netherlands TRAIL Research School
+sec	Singapore-ETH Centre (SEC)	Singapore-ETH Centre (SEC)
+uni-andes	University of The Andes	University of The Andes
+uni-asu	Arizona State University	Arizona State University
+uni-avignon	University of Avignon	University of Avignon
+uni-badhonnef	International University of Applied Sciences Bad Honnef-Bonn	Internationale Fachhochschule Bad Honnef-Bonn
+uni-bamberg	University of Bamberg	Otto-Friedrich University Bamberg
+uni-barcelona	University of Barcelona	University of Barcelona
+uni-basel	University of Basel	Universität Basel
+uni-bern	University of Bern	Universität Bern
+uni-boku	University of Natural Resources and Life Sciences, Vienna	Universität für Bodenkultur Wien
+uni-boston-college	Boston College	Boston College
+uni-brandeis	Brandeis University	Brandeis University
+uni-brown	Brown University	Brown University
+uni-ca	University of California	University of California
+uni-cmu	Carnegie Mellon University	Carnegie Mellon University
+uni-columbia	University of Columbia	University of Columbia
+uni-cergypontoise	University of Cergy-Pontoise	University of Cergy-Pontoise
+uni-delaware	University of Delaware	University of Delaware
+uni-delft	Delft University of Technology	Delft University of Technology
+uni-denmark	Technical University of Denmark	Technische Universität Dänemark
+uni-eiabc	Ethiopian Institute of Architecture, Building Construction and City Development	Ethiopian Institute of Architecture, Building Construction and City Development
+uni-epfl	EPF Lausanne	EPF Lausanne
+uni-ethz	ETH Zurich	ETH Zürich
+uni-fub	Free University of Berlin	Freie Universität Berlin
+uni-fl	University of Florida	University of Florida
+uni-georgiatec	Georgia Institute of Technology	Georgia Institute of Technology
+uni-ghent	Ghent University	Universiteit Gent
+uni-han	Leibnitz University Hannover	Leibnitz Universität Hannover
+uni-has	Hasselt University	Universität Hasselt
+uni-heg	Geneva School of Business Administration	Haute école de gestion de Genève
+uni-hsg	University of St.Gallen (HSG)	Universität St.Gallen (HSG)
+uni-illinois	University of Illinois	University of Illinois
+uni-imp	Imperial College London	Imperial College London
+uni-fhsg	FHS St.Gallen	FHS St.Gallen
+uni-geneve	University of Geneva	Universität Genf
+uni-graz	University of Graz	Universität Graz
+uni-hasselt	Universiteit Hasselt	Universiteit Hasselt
+uni-innsbruck	University of Innsbruck	Leopold-Franzens-Universität, Innsbruck
+uni-jonkoping	Jønkøping University	Universität Jønkøping
+uni-jyv	University of Jyväskylä	Universität Jyväskylä
+uni-karlsruhe	University of Karlsruhe	Universität Karlsruhe
+uni-koeln	University of Cologne	Universität zu Köln
+uni-kth	Royal Institute of Technology	Royal Institute of Technology
+uni-lancaster	University of Lancaster	University of Lancaster
+uni-lausanne	University of Lausanne	Université de Lausanne
+uni-leeds	University of Leeds	Universität Leeds
+uni-lse	London School of Economics	London School of Economics
+uni-liverpool	University of Liverpool	University of Liverpool
+uni-lugano	University of Lugano	Universität della Svizzera italiana
+uni-lund	The Royal University of Lund	The Royal University of Lund
+uni-lyon	University of Lyon	Universität Lyon
+uni-masaryk	Masaryk University 	Masaryk University 
+uni-michigan	University of Michigan	University of Michigan
+uni-min	University of Minnesota	University of Minnesota
+uni-mit	Massachusetts Institute of Technology	Massachusetts Institute of Technology
+uni-montreal	Université de Montréal	Université de Montréal
+uni-muenchenbw	Bundeswehr University Munich	Universität der Bundeswehr München
+uni-neworleans	University of New Orleans	University of New Orleans
+uni-nus	National University of Singapore	National University of Singapore
+uni-nw	Northwestern University	Northwestern University
+uni-oldenburg	Carl von Ossietzky University Oldenburg	Carl von Ossietzky Universität Oldenburg
+uni-oxford	University of Oxford	University of Oxford
+uni-osnabrueck	University of Osnabrück	Universität Osnabrück
+uni-pennsylvania	Pennsylvania State University	Pennsylvania State University
+uni-pret	University of Pretoria	University of Pretoria
+uni-rgu	Robert Gordon University	Robert Gordon University
+uni-rice	Rice University	Rice University
+uni-ryerson	Ryerson University	Ryerson University
+uni-roma1	University of Rome La Sapienzia	Università degli studi di Roma La Sapienza
+uni-ruhr	Ruhr University Bochum	Ruhr-Universität Bochum
+uni-rwth	RWTH Aachen	RWTH Aachen
+uni-sfl	University of South Florida	University of South Florida
+uni-sg-sbblab	SBB Lab	SBB Lab
+uni-smu	Singapore Management University	Singapore Management University
+uni-sur	University of Surrey	University of Surrey
+uni-stanford	Stanford University	Stanford University
+uni-stuttgart	University of Stuttgart	Universität Stuttgart
+uni-syd	University of Sydney	University of Sydney
+uni-tcd	Trinity College Dublin	Trinity College Dublin
+uni-texas	University of Texas	University of Texas
+uni-texasAM 	Texas AM University	Texas AM University
+uni-toronto	University of Toronto	University of Toronto
+uni-tub	Technical University Berlin	Technische Universität Berlin
+uni-tubr	Technical University Braunschweig	Technische Universität Braunschweig
+uni-tud	Technical University Dresden	Technische Universität Dresden
+uni-tudelft	Technical University Delft	Technische Universität Delft
+uni-tudo	Technical University Dortmund	Technische Universität Dortmund
+uni-tue	Technical University Eindhoven	Technische Universität Eindhoven
+uni-tugraz	Technical University Graz	Technische Universität Graz
+uni-tum	Technische Universität München	Technische Universität München
+uni-ucl	University College London	University College London
+uni-washington	University of Washington	University of Washington	
+uni-wuppertal	University of Wuppertal	Bergische Unversität Wuppertal
+uni-wue		University of Wuerzburg		Universität Würzburg
+uni-ucsd	University of California San Diego	University of California San Diego
+uni-uci	University of California Irvine	University of California Irvine
+uni-une	University of New England	University of New England
+uni-uta	University of Texas Austin	University of Texas Austin
+uni-utc	Universit\'e de Technologie de Compi\`egne	Universit\'e de Technologie de Compi\`egne
+uni-utr	University of Utrecht	University of Utrecht
+uni-ve	University of Venice	University of Venice
+uni-vpu	Virginia Polytechnic University	Virginia Polytechnic University  
+uni-vu	Vrije University Amsterdam	Vrije Universität Amsterdam
+uni-yale	Yale University	Yale University
+uni-zh	University of Zurich	Universität Zürich
+%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Departments, Institutes, Groups
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+infras	Institute for Economics amd Ecologics	Institut für Wirtschaft und Ökologie
+nber	National Bureau of Economic Research	National Bureau of Economic Research
+org-dlr-ivf	German Aerospace Centre, Institute of Transport Research	Deutsches Zentrum für Luft- und Raumfahrt, Institut für Verkehrsforschung
+org-euc-jrc	Joint Research Centre	Joint Research Centre
+org-fhwa-ohim	Office of Highway Policy Information	Office of Highway Policy Information
+org-fhwa-ota	Office of Technology Applications	Office of Technology Applications
+org-frau	Fraunhofer IAO-Institut für Arbeitswirtschaft und Organisation	Fraunhofer IAO-Institut für Arbeitswirtschaft und Organisation
+org-ftk	FTK-Forschungsinstitut für Telekommunikation e.V.	FTK-Forschungsinstitut für Telekommunikation e.V.
+org-ifmo		Institut für Mobilitätsforschung (ifmo)	Institut für Mobilitätsforschung (ifmo)
+org-infas	infas Institute for Applied Social Sciences	infas Institut für angewandte Sozialwissenschaft
+org-stapozh-dav	Traffic Division	Dienstabteilung Verkehr
+org-un-isdr	International Strategy for Disaster Reduction 	International Strategy for Disaster Reduction 
+org-usepa-orp	Office of Radiation Programs	Office of Radiation Programs
+planco	Planco	Planco
+sec-fcl	Future Cities Laboratory	Future Cities Laboratory
+uni-asu-geo	GeoDa Center of Geospatial Analysis and Computation	GeoDa Center of Geospatial Analysis and Computation	
+uni-bamberg-itp	Insitute for Theoretical Psychology	Institute für Theoretische Psychologie
+uni-berkeley	University of California, Berkeley	University of California, Berkeley
+uni-berkeley-its	Institute of Transportation Studies (ITS)	Institute of Transportation Studies (ITS)
+uni-berkeley-path	California Partners for Advanced Transportation TecHnology (PATH)	California Partners for Advanced Transportation TecHnology (PATH)
+uni-buffalo	State University of New York at Buffalo	State University of New York at Buffalo
+uni-ca-its	Institute of Transportation Studies	Institute of Transportation Studies
+uni-chalmers	Chalmers University	Chalmers University
+uni-cmu-tsb	Tepper School of Business	Tepper School of Business
+uni-denmark-tra	Department of Transport	Departement für Transport
+uni-dtu-dtri	Danish Transport Research Institute	Danish Transport Research Institute
+uni-epfl-lasur	Laboratory for Urban Sociology	Laboratoire de Sociologie Urbaine
+uni-epfl-lavoc	Traffic Facilities Laboratory (LAVOC)	Laboratoire des voies de circulation (LAVOC)
+uni-epfl-lem	Logistics, Economics, Management (LEM)	Logistique, Economie, Management (LEM)
+uni-epfl-litep	Laboratory for Intermodality, Transport and Planning (LITEP)	Laboratoire d'intermodalität des transports et de planification (LITEP)
+uni-epfl-transpor	TRANSP-OR	TRANSP-OR
+uni-ethz-fcl	Future Cities Laboratory	Future Cities Laboratory
+uni-ethz-icos	ICoS	ICoS
+uni-ethz-ifv	Institute for Behavioral Sciences	Institute für Verhaltenswissenschaften
+uni-ethz-irl	Institute for Spatial and Landscape Planning 	Institut für Raum- und Landschaftsentwicklung
+uni-ethz-ivt	IVT	IVT
+uni-ethz-ti	Institute of Theoretical Computer Science	Institut für Theoretische Informatik
+uni-ethz-nsl	NSL-Network City and Landscape	NSL-Netzwerk Stadt und Landschaft
+org-fraun-iais	Fraunhofer Institute for Intelligent Analysis and Information Systems	Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme
+uni-geneva-lea	Laboratoire d'Economie Appliquée	Laboratoire d'Economie Appliquée
+uni-hasselt-ifm	Insituut voor Mobiliteit	Insituut voor Mobiliteit
+uni-heg-crag	Centre de Recherche Appliquée en Gestion	Centre de Recherche Appliquée en Gestion
+uni-hsg-svwg	Schweizerische Verkehrswissenschaftliche Gesellschaft (SVWG)	Schweizerische Verkehrswissenschaftliche Gesellschaft (SVWG)
+uni-hsg-idt	Institut for Public Services and Tourism (IDT)	Institut für öffentliche Dienstleistungen und Tourismus (IDT)
+uni-hsg-iwoe	Institut for Economy and the Environment	Institut für Wirtschaft und Ökologie
+uni-karlsruhe-ifr	Institut für Regionalwissenschaft	Institut für Regionalwissenschaft
+uni-karlsruhe-ifs	Institut für Soziologie	Institut für Soziologie
+uni-karlsruhe-ifv	Institut für Verkehrswesen	Institut für Verkehrswesen
+uni-karlsruhe-igg	Institut für Geographie und Geoökologie	Institut für Geographie und Geoökologie
+uni-karlsruhe-iti	Institute of Theoretical Informatics	Institut für Theoretische Informatik
+uni-karlsruhe-iww	Institut für Wirtschaftspolitik und Wirtschaftsforschung	Institut für Wirtschaftspolitik und Wirtschaftsforschung
+uni-koeln-zaik	Centre for Applied Sciences	Zentrum für Angewandte Informatik
+uni-koeln-ifv	Institut für Verkehrswissenschaft	Institut für Verkehrswissenschaft
+uni-kth-cts	Centre for Transport Studies	Centre for Transport Studies
+uni-kth-tla	Transport and Location Analysis	Transport and Location Analysis
+uni-lausanne-idg	Institute of Geography	Institut de géographie
+uni-leeds-its	Institute for Transport Studies	Institute for Transport Studies
+uni-lund-geo	Department of Geography	Department of Geography
+uni-lugano-ire	Institute for Economic Research (IRE)	Istituto Ricerche Economiche (IRE)
+uni-lyon-let	Laboratoire d'Economie des Transports (LET)	Laboratoire d'Economie des Transports (LET)
+uni-michigan-ioe	Department of Industrial and Operations Engineering	Department of Industrial and Operations Engineering
+uni-mit-dcee	Department of Civil and Environmental Engineering	Department of Civil and Environmental Engineering
+uni-mit-ml	The Media Laboratory	The Media Laboratory
+uni-min-nexus	Networks, Economics, and Urban Systems (NEXUS) research group	Networks, Economics, and Urban Systems (NEXUS) research group
+uni-montreal-inf	Département d'Informatique et de Recherche Opérationnelle	Département d'Informatique et de Recherche Opérationnelle
+uni-montreal-trans	Center of Transportation Research	Center of Transportation Research
+uni-muenchenbw-bwl	Departement of Business Economics	Fakultät für Betriebswirtschaft
+uni-namur	Facultés Universitaires Notre-Dame de la Paix	Facultés Universitaires Notre-Dame de la Paix
+uni-namur-grt	Groupe de Recherche sur les Transports	Groupe de Recherche sur les Transports
+uni-namur-naxys	Centre Namurois des Systèmes Complexes (NAXYS)	Centre Namurois des Systèmes Complexes (NAXYS)
+uni-neworleans-chart	Center for Hazards Assessment, Response \& Technology	Center for Hazards Assessment, Response \& Technology
+uni-nus-ires	Institute of Real Estate Studies	Institute of Real Estate Studies
+uni-nw-diems	Department of Industrial Engineering and Management Sciences	Department of Industrial Engineering and Management Sciences
+uni-otago	University of Otago		University of Otago
+uni-oxford-tsu	Transport Studies Unit	Transport Studies Unit
+uni-pennsylvania-dcee	Department of Civil and Environmental Engineering	Department of Civil and Environmental Engineering
+uni-pret-ebtit	Faculty of Engineering, Built Technology and Information Technology	Faculty of Engineering, Built Technology and Information Technology
+uni-rgu-ctp	Centre for Transport Policy	Centre for Transport Policy
+uni-rice-jhjgsm	Jesse H. Jones Graduate School of Management	Jones Graduate School of Management
+uni-sfl-dcee	Department of Civil and Environmental Engineering	Department of Civil and Environmental Engineering
+uni-rwth-isb	Institut für Stadtbauwesen und Strassenverkehr (ISB)	Institut für Stadtbauwesen und Strassenverkehr (ISB)
+uni-smu-se	School of Economics	School of Economics
+uni-sur-eprg	Environmental Psychology Research Group	Environmental Psychology Research Group
+uni-syd-its	Institute of Transport Studies	Institute of Transport Studies
+uni-stanford-jbeec	The John A. Blume Earthquake Engineering Center	The John A. Blume Earthquake Engineering Center
+uni-stuttgart-iere	Institut für Energiewissenschaft und Rationelle Energieanwendung	Institut für Energiewissenschaft und Rationelle Energieanwendung
+uni-texas-dce	Department of Civil Engineering	Department of Civil Engineering
+uni-texas-ti	Texas Transportation Institute	Texas Transportation Institute
+uni-toronto-dce	Department of Civil Engineering	Department of Civil Engineering
+uni-tub-vsp	Transport Systems Planning and Transport Telematics (VSP)	Verkehrssystemplanung und Verkehrstelematik (VSP)
+uni-tubr-ivs	Institute of Transportation and Urban Engineering (IVS)	Institut für Verkehr und Stadtbauwesen (IVS)
+uni-tud-vkw	Institute for Transportation Planning and Traffic	Institut für Verkehrsplanung und Strassenverkehr
+uni-tudelft-itp	Institute for Transport Planning	Intistute for Transport Planning
+uni-tudo-irpud	Institute of Spatial Planning	Institut für Raumplanung
+uni-tue-eirass	European Institute of Retailing and Services Studies (EIRASS)	European Institute of Retailing and Services Studies (EIRASS)
+uni-tum-lre	Chair of Urban Development	Lehrstuhl für Raumentwicklung
+uni-tum-lsr	Institute of Automatic Control Engineering	Lehrstuhl für Steuerungs- und Regelungstechnik
+uni-tum-lvs	Institute of Transport and Urban Planning	Lehrstuhl für Verkehrs- und Stadtplanung
+uni-uta-dcaee	Department of Civil, Architectural and Environmental Engineering	Department of Civil, Architectural and Environmental Engineering
+uni-ucsd-cccsd	Cymer Center for Control Systems and Dynamics	Cymer Center for Control Systems and Dynamics
+uni-wuppertal-luis	LUIS -- Lehr- und Forschungsgebiet Umweltverträgliche Infrastrukturplanung	LUIS -- Lehr- und Forschungsgebiet Umweltverträgliche Infrastrukturplanung
+uni-washington-csss	Center for Statistics and the Social Sciences	Center for Statistics and the Social Sciences	
+uni-yale-management	Yale School of Management	Yale School of Management
+uni-zh-geo	Department of Geography	Department of Geography
+
+%
+% %%%%%%%%%%%%%%%%%%%%
+% Types of TechReports
+% %%%%%%%%%%%%%%%%%%%%
+% PLEASE READ THAT:
+% After some discussion with Nadine Schüssler, we believe that the following
+% types of tech reports are sufficiant enough for what we need.
+% If you want to add another one, please ask me before you do that.
+% Normally there is no need to add more...sbb
+%
+% Term projects, semester projects, lecture scripts
+% %%%%%%%%%%%%%%%%%%%%
+rep-termrep	Term Report	Übungsbericht
+rep-semprj	Semester Project	Semesterarbeit
+rep-lecture	Lecture Notes	Vorlesungsskript
+%
+% Working papers, etc...
+% %%%%%%%%%%%%%%%%%%%%
+rep-techrep	Technical Report	Technischer Bericht
+rep-specrep	Special Report	Special Report
+rep-wp	Working Paper	Arbeitsbericht
+rep-wp-svt	SVT Working Paper	SVT Arbeitsbericht
+rep-wp-vpl	Arbeitsberichte Verkehrs- und Raumplanung	Arbeitsberichte Verkehrs- und Raumplanung
+rep-tsms	Travel Survey Metadata Series	Travel Survey Metadata Series
+rep-prelim	Preliminary Paper	Vorläufiger Bericht
+rep-schriftenreihe	Schriftenreihe	Schriftenreihe
+rep-norm	Norm	Norm
+rep-deliv	Deliverable	Deliverable
+%
+% %%%%%%%%%%%%%%%%%%%%
+% Types of ResearchReports
+% %%%%%%%%%%%%%%%%%%%%
+rep-projpro	Project Proposal	Projektantrag
+rep-resrep	Research Report	Forschungsbericht
+rep-interrep	Interim Report	Zwischenbericht
+rep-finalrep	Final Report	Endbericht
+%
+% %%%%%%%%%%%%%%%%%%%%
+% Types of Unpublished
+% %%%%%%%%%%%%%%%%%%%%
+unpub	unpublished	unveröffentlicht
+unpub-intern	internal presentation	{Interner Vortrag}
+unpub-pres	presentation	{Vortrag}
+unpub-poster	poster presentation	{Poster Präsentation}
+%
+% %%%%%%%%%%%%%%%%%%%%
+% HowPublished of misc
+% %%%%%%%%%%%%%%%%%%%%
+misc-onlinearticle	online article	Online Artikel
+misc-onlinevideo	online video	Online Video
+misc-webpage	webpage	Webseite
+misc-software	software	Software
+misc-broadcast	television broadcast	Fernsehsendung
+misc-pressrelease	press release	Pressemitteilung
+%
+% %%%%%%%%%%%%%%%%%%%%
+% forthcoming (TO USE FOR 'YEAR' ONLY)
+% %%%%%%%%%%%%%%%%%%%%
+forth	forthcoming	im Druck
+% %%%%%%%%%%%%%%%%%%%%
+% accessed-on (use for url)
+% %%%%%%%%%%%%%%%%%%%%
+accessed-on	accessed on	zuletzt abgefragt am

@@ -1,0 +1,3016 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  MISC
+%   Use that only when nothing else fits.
+%   Typical examples are Webpages and Software.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  KEY-DEFINITION:
+%      (ShortFormOfContent|Author)_(TypeOfReference)_(YEAR)
+%    Example:
+%      ASTRA_Webpage_2006,
+%  AUTHOR
+%    If the author is known, use the crossref given in the author.txt
+%    (add it there, if one is missing)
+%    Sometimes there is no Author but an institution, organization or
+%    simply the name of i.e. the software.
+%    In this case, use that (without using a crossref).
+%    Example:
+%      AUTHOR =       {{ARE}},
+%      AUTHOR =       {{MATSIM-T}},
+%      AUTHOR =       {{BfS}},
+%  TITLE
+%    Write the title in "Title-Style", the bib-style converts it.
+%    If there are Characters which MUST be written as defined
+%    (i.e. all-caps or no caps), then set those characters in
+%    additional curly brackets.
+%    Sometimes the title is--in fact--the organization. In this
+%    case, use the crossref defined in ivt-ger.bst or ivt-eng.bst.
+%    (add it there, if yours is missing)
+%    Example:
+%      TITLE =        org-ptv,
+%      TITLE =        {Google Earth - Explore, Search and Discover},
+%  YEAR
+%    Always define a year:
+%    Example:
+%      YEAR =         {1981},
+%  howpublished
+%    Optional: define the type of that reference ONLY as a
+%    crossref as given in the ivt-eng.bst or ivt-ger.bst
+%    (add it there, if one is missing)
+%    Example:
+%      howpublished = misc-webpage,
+%      howpublished = misc-software,
+%  month
+%    Optional: Must be crossrefs to the month given in the
+%    ivt-eng.bst or ivt-ger.bst
+%    Example:
+%      month =        feb,
+%  url
+%    Optional: Add an url.
+%    Example:
+%      url =          {http://biogeme.epfl.ch/doc/tutorialv13.pdf},
+%  comment
+%    Optional: add any comment you want
+%    Example:
+%      comment =      {balmermi: this is a very good one.},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{MISC-AUTHOR_TypeOfReference_YEAR,
+  AUTHOR =       {{MISC-AUTHOR}},
+  TITLE =        {{TITLE}},
+  YEAR =         {0000},
+  howpublished = {howpublished},
+  month =        {month},
+  url =          {url},
+  comment =      {{comment}},
+}
+
+@MISC{MISC-AUTHOR_Webpage_0001,
+  AUTHOR =       {{MISC-AUTHOR}},
+  TITLE =        {A ``misc'' Reference with All Information},
+  YEAR =         {0001},
+  howpublished = misc-webpage,
+  month =        dec,
+  url =          {http://www.a-url.ch/},
+  comment =      {This is just a comment for that reference.},
+}
+
+@MISC{MISC-AUTHOR_Company_0002,
+  AUTHOR =       {{MISC-AUTHOR}},
+  TITLE =        {Minimum Version of a ``misc'' Reference},
+  YEAR =         {0002},
+}
+
+@MISC{MISC-AUTHOR_Webpage_0003,
+  AUTHOR =       {{MISC-AUTHOR}},
+  TITLE =        {A typical ``misc'' Reference},
+  YEAR =         {0003},
+  howpublished = misc-webpage,
+  url =          {http://www.a-url.ch/},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  End of Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Items:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of TODO Items
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Misc Entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{AA_Webpage_2000,
+  AUTHOR =       "org-aa",
+  YEAR =         {2000},
+  TITLE =        {Motoring Costs 2000},
+  howpublished = misc-webpage,
+  url =          {http://www.theaa.com/staticdocs/pdf/allaboutcars/fuel/petrol2000.pdf},
+}
+
+@MISC{ADAC-Webpage_2012,
+  AUTHOR =       "org-adac",
+  YEAR =         {2012},
+  title =        {{ADAC Autokosten 2012}},
+  howpublished = misc-webpage,
+  url =          {https://www.adac.de/infotestrat/autodatenbank/autokosten/default.aspx},
+}
+
+@MISC{AIMSUN_Webpage_2006,
+  AUTHOR =       {{AIMSUN}},
+  TITLE =        {{AIMSUN}},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  month =        nov,
+  url =          {http://www.aimsun.com},
+}
+
+@MISC{AIMSUN_Webpage_2013,
+  AUTHOR =       {{AIMSUN}},
+  TITLE =        {{AIMSUN}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://www.aimsun.com},
+}
+
+@MISC{AMV_Webpage_2011,
+  AUTHOR =       {{Amt für Verkehr, Volkswirtschaftsdirektion Kanton Zürich}},
+  TITLE =        {Gesamtverkehrsmodell},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  month =        mar,
+  url =          {http://www.afv.zh.ch/internet/volkswirtschaftsdirektion/afv/de/home.html},
+}
+
+@MISC{AMV_Webpage_2012,
+  AUTHOR =       {{Amt für Verkehr, Volkswirtschaftsdirektion Kanton Zürich}},
+  TITLE =        {Gesamtverkehrsmodell},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://www.afv.zh.ch/internet/volkswirtschaftsdirektion/afv/de/home.html},
+}
+
+@MISC{AMV_Webpage_2013,
+  AUTHOR =       {{Amt für Verkehr, Volkswirtschaftsdirektion Kanton Zürich}},
+  TITLE =        {Gesamtverkehrsmodell},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  month =        jul,
+  url =          {http://www.afv.zh.ch/internet/volkswirtschaftsdirektion/afv/en/home.html},
+}
+
+@MISC{ApacheCommons_Webpage_2013,
+  AUTHOR =       {{Apache Commons}},
+  TITLE =        {{Commons Math 3.2}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://commons.apache.org/proper/commons-math/},
+  note =         {accessed 2013/11/22},
+}
+
+@MISC{ApplauSim_SourceCode_2012,
+  AUTHOR =       {{ApplauSim}},
+  YEAR =         {2012},
+  title =        {{Simulation of Synchronized Applause}},
+  howpublished = misc-webpage,
+  url =          {http://sourceforge.net/projects/applausim/},
+}
+
+@MISC{ARC_GIS_2011,
+  AUTHOR =       {{ESRI}},
+  TITLE =        {{ArcGIS Desktop: Release 9.3}},
+  YEAR =         {2011},
+  howpublished = misc-software,
+  url =          {http://www.esri.com/software/arcgis/arcinfo/index.html},
+}
+
+@MISC{ARC_Webpage_2009,
+  AUTHOR =       {{ARC}},
+  TITLE =        {Activity-Based Travel Model Specifications: Coordinated Travel - Regional Activity-Based Modeling Platform ({CT-RAMP}) for the {A}tlanta Region},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  month =        mar,
+  url =          {http://www.atlantaregional.com//File%20Library/Transportation/Travel%20Demand%20Model/tp_abmodelspecifications_102309.pdf},
+}
+
+@MISC{ARCEP_Webpage_2016,
+  AUTHOR =       {{ARE}},
+  YEAR =         {2016},
+  month =        mar,
+  title =        {{Le Suivi des Indicateurs Mobiles - les chiffres au 31 décembre 2007 (publication le 4 février 2008)}},
+  howpublished = misc-webpage,
+  url =          {http://www.arcep.fr/index.php?id=9545},
+}
+
+@MISC{ARE_Webpage_2006,
+  AUTHOR =       {{ARE}},
+  YEAR =         {2006},
+  title =        org-are,
+  howpublished = misc-webpage,
+  url =          {http://www.are.admin.ch},
+}
+
+
+@MISC{AREZH_GISWebpage_2012,
+  AUTHOR =       {{Amt für Raumentwicklung, Baudirektion Kanton Zürich}},
+  TITLE =        {{Geographisches Informationssystem des Kantons Zürich (GIS-ZH)}},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        jul,
+  url =          {http://www.gis.zh.ch},
+}
+
+@MISC{Austroads_Webpage_2012,
+  AUTHOR =       {{Austroads}},
+  TITLE= {Small Travel Time Savings: Treatment in Project Evaluations},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {https://www.onlinepublications.austroads.com.au/items/AP-R392-11},
+}
+
+@MISC{Automatic_Parallelization_Wikipedia_Webpage_2014,
+  AUTHOR =       {{Wikipedia}},
+  TITLE =        {Automatic Parallelization},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  month =        apr,
+  url =          {http://en.wikipedia.org/w/index.php?title=Parallel_computing&oldid=600172964#Automatic_parallelization},
+  comment =      {Description of the idea of automatic parallelization.},
+}
+
+@MISC{AUTOOBSERVER_Webpage_2008,
+  AUTHOR =       {{Autoobserver}},
+  YEAR =         {2008},
+  TITLE =        {Seismic Shift to Smaller Segments Rocks U.S. Market},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://url.ethz.ch/4},
+}
+
+
+@MISC{AUTOSCHWEIZ_Webpage_2009,
+  AUTHOR =       "org-autoschweiz",
+  YEAR =         {2009},
+  TITLE =        {{Statisiken: Personenwagen nach Segmenten}},
+  howpublished = misc-webpage,
+  month =        jun,
+  url =          {http://www.auto-schweiz.ch/cms/Personenwagen_nach_Segmenten.html},
+}
+
+
+@MISC{ASTRA_Webpage_2006,
+  AUTHOR =       {{ASTRA}},
+  YEAR =         {2006},
+  title =        org-astra,
+  howpublished = misc-webpage,
+  url =          {http://www.astra.admin.ch/},
+}
+
+@MISC{Axhausen_ETH_Zukunftsblog_2015,
+  AUTHOR =       Axhausen,
+  YEAR =         {2015},
+  title =        {{Gefangen im Netz?}},
+  howpublished = misc-webpage,
+  url =          {https://www.ethz.ch/de/news-und-veranstaltungen/zukunftsblog/archiv/2015/02/gefangen-im-netz.html},
+}
+
+@MISC{Axhausen_Espazium_2015,
+  AUTHOR =       Axhausen,
+  YEAR =         {2015},
+  title =        {{Die Fahrzeit ist entscheidend -- Wissenschaftliche Aspekte des Verkehrs}},
+  howpublished = misc-webpage,
+  url =          {https://www.espazium.ch/tec21/article/die-fahrzeit-ist-entscheidend},
+}
+
+@MISC{Axhausen_Transportionist_2015,
+  AUTHOR =       Axhausen,
+  YEAR =         {2015},
+  title =        {{Elements of Access: Our Travel is Constrained}},
+  howpublished = misc-webpage,
+  url =          {http://transportationist.org/2015/04/20/elements-of-access-our-travel-is-constrained},
+}
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@MISC{BAFU_ShowMe_2010_1,
+  AUTHOR =       "org-bafu",
+  TITLE =        {{Gefahrenkartierung - ShowMe}},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  url =          {www.bafu.admin.ch/showme},
+}
+
+@MISC{BAFU_ShowMe_2010_2,
+  AUTHOR =       "org-bafu",
+  TITLE =        {{Gefahrenkarten: Bis 2011 noch grosse Anstrengungen der Kantone notwendig}},
+  YEAR =         {2010},
+  month =        apr,
+  howpublished = misc-pressrelease,
+  url =          {http://www.bafu.admin.ch/dokumentation/medieninformation/00962/index.html?lang=de&msg-id=32703},
+}
+
+@MISC{BAFU_CO2_2010,
+  AUTHOR =       "org-bafu",
+  TITLE =        {{E}missionen nach {CO}$_2$-{G}esetz und {K}yotot {P}rotokoll},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  url =          {Available: http://www.news.admin.ch/NSBSubscriber/message/attachments/19852.pdf},
+}
+
+@MISC{BarGera_TNTP_Webpage_2013,
+  AUTHOR =       BarGera,
+  TITLE =        {Transportation Network Test Problems},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://www.bgu.ac.il/~bargera/tntp/},
+  note =         {webpage under construction accessed on 22/08/2013},
+}
+
+@MISC{BenderSchillerF_skript_2009,
+  AUTHOR =       Bender # and # SchillerF,
+  TITLE =        {{Vorlesungsskript Modellbildung und Simulation - Teil 1: Grundlagen}},
+  YEAR =         {2009},
+  month =		 jan,
+  url =          {http://www.itm.tum.de/downloads/27_MouSi_Skript_Kapitel1_080429_komplett.pdf},
+}
+
+@MISC{BerkeleyITS_2010,
+  AUTHOR =       "uni-berkeley-its",
+  TITLE =        {{Using ITS research, Barcelona relaeses new BRT network}},
+  YEAR =         {2010},
+  howpublished = misc-pressrelease,
+  url =          {Available: http://its.berkeley.edu/btl/2010/spring/Barcelona-BRT},
+}
+
+@MISC{BFE_Energieetikette_2009,
+  AUTHOR =       "org-bfe",
+  TITLE =        {{Energietikette: Fahrzeugliste}},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  url =          {http://www.bfe.admin.ch/energieetikette/00962/00964/index.html?lang=de},
+}
+
+
+@MISC{BfS_Webpage_2006,
+  AUTHOR =       {{BfS}},
+  YEAR =         {2006},
+  title =        org-bfs,
+  howpublished = misc-webpage,
+  url =          {http://www.bfs.admin.ch},
+}
+
+@MISC{BfS_Webpage_2011,
+  AUTHOR =       {{BfS}},
+  YEAR =         {2011},
+  title =        org-bfs,
+  howpublished = misc-webpage,
+  url =          {http://www.bfs.admin.ch},
+}
+
+@MISC{BfS_Webpage_2014,
+  AUTHOR =       {{BfS}},
+  YEAR =         {2014},
+  title =        org-bfs,
+  howpublished = misc-webpage,
+  url =          {http://www.bfs.admin.ch},
+}
+
+
+@MISC{BFS_Pressrelease_2009,
+  AUTHOR =       {{BfS}},
+  TITLE =        {{Lohnindex 2008}},
+  YEAR =         {2009},
+  howpublished = misc-pressrelease,
+  month =        apr,
+  url =          {http://www.news.admin.ch/message/index.html?lang=de&msg-id=26573},
+}
+
+
+@MISC{BewohnertypHaushaltsmerk_Webpage_2010,
+  AUTHOR =       "org-bfs",
+  YEAR =         {2010},
+  title =        {Bewohnertypen nach {H}aushaltsmerkmalen},
+  howpublished = misc-webpage,
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/themen/09/03/blank/key/bewohnertypen/nach_haushaltstypen.html},
+}
+
+@MISC{BfS_BZ_2008,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Eidgenössische Betriebszählung}},
+  YEAR =         {2008},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/eidgenoessische_betriebszaehlung2.html},
+}
+
+@MISC{BfS_GT_2013,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Gemeindetypologie}},
+  YEAR =         {2013},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/infothek/nomenklaturen/blank/blank/gemtyp/01.html},
+}
+
+@MISC{BfS_HABE_2008,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Haushaltsbudgeterhebung}},
+  YEAR =         {2008},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/habe/intro.html},
+}
+
+@MISC{BfS_LIKP_2014,
+	AUTHOR =       "org-bfs",
+	TITLE =        {{Landesindex der Konsumentenpreise}},
+	YEAR =         {2014},
+	url =          {http://www.bfs.admin.ch/bfs/portal/de/index/themen/05/02.html},
+}
+
+http://www.bfs.admin.ch/bfs/portal/de/index/themen/05/02.html
+@MISC{BfS_MZ_2005,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Mikrozensus Verkehr 2005}},
+  YEAR =         {2005},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/mz/01.html},
+}
+
+@MISC{BfS_MZ_2010,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Mikrozensus Verkehr 2010}},
+  YEAR =         {2010},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/mz/01.html},
+}
+
+@MISC{BfS_PUS_en_2000,
+  AUTHOR =       "org-bfs",
+  TITLE =        {Public Use Samples ({PUS}): Excerpts for General Use from the {S}wiss Federal Population Censuses 1970-2000},
+  YEAR =         {2000},
+  url =          {http://www.portal-stat.admin.ch/pus/files/index_e.html},
+}
+
+@MISC{BfS_PUS_var_de_2000,
+  AUTHOR =       "org-bfs",
+  TITLE =        {Public Use Samples ({PUS}): Beschreibung der {Variablen}},
+  YEAR =         {2000},
+  url =          {http://www.portal-stat.admin.ch/pus/files/var_d.html},
+}
+
+@MISC{BfS_RE_2010,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Eidgenössische Registererhebung}},
+  YEAR =         {2010},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/news/02/03/01.html},
+}
+
+@MISC{BfS_NewCensus_current,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Die neue Volkszählung}},
+  YEAR =         {\the\year},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/volks-__gebaeude-0.html},
+}
+
+@MISC{BfS_SE_2010,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Eidgenössische Strukturerhebung}},
+  YEAR =         {2010},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/news/02/03/02.html},
+}
+
+@MISC{BfS_STATTAB_2011,
+  AUTHOR =       "org-bfs",
+  YEAR =         {2011},
+  TITLE =        {{STAT-TAB: Die interaktive {Statistikdatenbank}}},
+  howpublished = misc-webpage,
+  url =          {http://www.pxweb.bfs.admin.ch/dialog/statfile.asp},
+}
+
+@MISC{BfS_VZ_2000,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Eidgenössische Volkszählung 2000}},
+  YEAR =         {2000},
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/infothek/erhebungen__quellen/blank/blank/vz/uebersicht.html},
+}
+
+@MISC{Bhat_Webpage_2010,
+  AUTHOR =       Bhat,
+  TITLE =        {Chandra Bhat's Web-page},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://www.ce.utexas.edu/prof/bhat/fULL_PAPERS.htm},
+}
+
+@MISC{Bivand_Webpage_2011_1,
+  AUTHOR =       Bivand,
+  TITLE =        {R package spdep: version 0.5-35},
+  YEAR =         {2011},
+  howpublished = misc-software,
+  url =          {http://cran.r-project.org/web/packages/spdep/index.html},
+}
+
+@MISC{Bivand_Webpage_2011_2,
+  AUTHOR =       Bivand,
+  TITLE =        {R package spgwr: version 0.6-10},
+  YEAR =         {2011},
+  howpublished = misc-software,
+  url =          {http://cran.r-project.org/web/packages/spgwr/index.html.},
+}
+
+@MISC{Boost_Webpage_2011,
+  AUTHOR =       {{Boost}},
+  TITLE =        {Boost {C}++ libraries},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.boost.org},
+}
+
+@MISC{BreimanCutler_RandomForests_Webpage_2013,
+  AUTHOR =       Breiman # and # Cutler,
+  TITLE =        {Random Forests},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://stat-www.berkeley.edu/users/breiman/RandomForests/cc_home.htm},
+  note =         {accessed on 29/07/2013},
+}
+
+@MISC{Brutus_Webpage_2013,
+  AUTHOR =       {{Brutus}},
+  TITLE =        {A High-Performance Computing Cluster at {ETHZ}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://en.wikipedia.org/wiki/Brutus_cluster},
+}
+
+@MISC{BTS_Webpage_1995_American_Travel_Survey_2012,
+  AUTHOR =       {{Bureau of Transportation Statistics}},
+  TITLE =        {1995 {A}merican Travel Survey},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  url =          {http://www.bts.gov/publications/1995_american_travel_survey},
+}
+
+@MISC{BIFBB_Rep_2012,
+	AUTHOR =  org-bifbb,
+	TITLE= {Datenreport zum Berufsbildungsbericht 2012},
+	YEAR= 2012,
+}
+
+@MISC{Byrd_OpenTripPlannerAnalyst_2012,
+  AUTHOR =       byrd,
+  YEAR =         {2012},
+  title =        {{Visualizing urban accessibility with OpenTripPlanner Analyst}},
+  howpublished = misc-webpage,
+  url =          {http://blog.openplans.org/2012/06/visualizing-urban-accessibility-with-opentripplanner-analyst/},
+}
+
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{ChakirovErath_TODAY_2013,
+  AUTHOR =       Chakirov # and # Erath,
+  YEAR =         {2013},
+  title =        {Putting a price on travel},
+  journal =      TODAY,
+  howpublished = misc-onlinearticle,
+  pages =        {16--19},
+  url =          {http://www.todayonline.com/commentary/putting-price-travel},
+}
+
+@MISC{CityGML_Webpage_2012,
+  AUTHOR =       {{CityGML}},
+  YEAR =         {2012},
+  title =        {CityGML - Virtual 3D Models},
+  howpublished = misc-software,
+  url =          {http://www.citygml.org},
+}
+
+
+@MISC{ClimateKIC_Webpage_2013,
+  AUTHOR =       {{Climate-KIC}},
+  TITLE =        {{Climate Knowledge and Innovation Communities}},
+  YEAR =         {2013},
+  month =        apr,
+  url =          {http://http://www.climate-kic.org/},
+}
+
+@MISC{Comparis_Webpage_2011,
+  AUTHOR =       {Comparis},
+  TITLE =        {{Remis zwischen Coop und Migros (komplette Vergleichsliste)}},
+  YEAR =         {2011},
+  month =        feb,
+  url =          {http://www.comparis.ch/\~/media/files/mediencorner/konsumentenstimme/ausgabe\%202011\_06/preisvergleich\_detailhandel.pdf},
+}
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{DDS_TripTracer_2012,
+	AUTHOR =  {{DDS Digital Data Services GmbH}},
+	TITLE= {{TRIP TRACER – Exakte Erfassung von Wegstrecken im Telefoninterview}},
+	YEAR= 2012,
+  howpublished = misc-software,
+	url = {http://www.ddsgeo.de/produkte/trip-tracer.html},
+}
+
+@MISC{DFT_2009,
+	AUTHOR =  "org-dft",
+	TITLE= {{NATA} Refresh: Appraisal for a Sustainable Transport System},
+	YEAR= 2009,
+	url = {http://webarchive.nationalarchives.gov.uk/+/http:/www.dft.gov.uk/consultations/archive/2008/consulnatarefresh/natarefresh2009.pdf}
+
+}
+
+
+@MISC{DFT_2011,
+	AUTHOR =  "org-dft",
+	TITLE= {Transport User Benefit Calculation {TAG} Unit 3.5.3},
+	YEAR= 2011,
+	url = {http://www.dft.gov.uk/webtag/documents/expert/pdf/unit3.5.3.pdf}
+
+}
+
+@MISC{DOT_1997,
+	AUTHOR =  "org-dot",
+	TITLE= {The Value of Saving Travel Time: Departmental Guidance for Conducting Economic Evaluations},
+	YEAR= 1997,
+	url = {http://ostpxweb.dot.gov/policy/Data/VOT97guid.pdf},
+}
+
+@MISC{Org-dft_Webpage_2009,
+  AUTHOR =       "org-dft",
+  TITLE =        {Travel demand management},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  month =        mar,
+  url =          {http://ops.fhwa.dot.gov/tdm/index.htm},
+}
+
+@MISC{Org-dft_Webpage_2011,
+  AUTHOR =       "org-dft",
+  TITLE =        {Transport Analysis Guidance - {WebTAG}},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  month =        apr,
+  url =          {http://www.dft.gov.uk/webtag/index.php},
+}
+
+@MISC{DensityAtlas_Webpage_2014,
+  AUTHOR =       {{MIT}},
+  TITLE =        {{Density Atlas}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://densityatlas.org},
+}
+
+@MISC{DMG_CordonCounts_Webpage_2011,
+  AUTHOR =       "org-dmg",
+  TITLE =        {{DMG} - Cordon Count Related Reports},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  month =        nov,
+  url =          {http://www.dmg.utoronto.ca/reports/cordoncountreports.html},
+}
+
+@MISC{DMG_TTS_Webpage_2011,
+  AUTHOR =       "org-dmg",
+  TITLE =        {{DMG} - Transportation Tomorrow Survey},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  month =        nov,
+  url =          {http://www.dmg.utoronto.ca/transportationtomorrowsurvey/index.html},
+}
+
+@MISC{DHM25_Webpage_2012,
+  AUTHOR =       "org-swisstopo",
+  TITLE =        {DHM25},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/height/dhm25.html},
+}
+
+@MISC{DTM_GISZH_Webpage_2015,
+  AUTHOR =       "org-arezh",
+  TITLE =        {DTM GIS ZH},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://maps.zh.ch/?topic=LidarZH&offlayers=dom2014hillshade&over=UpBackgroundZH},
+}
+
+@MISC{DynaMIT_Webpage_2006,
+  AUTHOR =       {DynaMIT},
+  TITLE =        {Intelligent Transportation System Program},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  url =          {http://mit.edu/its/dynamit.html},
+}
+
+@MISC{DYNASMART_Webpage_2003,
+  AUTHOR =       {{DYNASMART}},
+  TITLE =        {{DYNASMART}},
+  YEAR =         {2003},
+  howpublished = misc-webpage,
+  url =          {http://www.dynasmart.com},
+}
+
+@MISC{DYNASMART_Webpage_2006,
+  AUTHOR =       {{DYNASMART}},
+  TITLE =        {{DYNASMART}},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  url =          {http://www.dynasmart.com},
+}
+
+@MISC{DYNASMART_Webpage_2013,
+  AUTHOR =       {{DYNASMART}},
+  TITLE =        {{DYNASMART}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://www.its.uci.edu/\~paramics/sim_models/dynasmart.html},
+}
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{EEA_GHGTrends_2010,
+  AUTHOR =       "org-eea",
+  TITLE =        {GHG trends and projections in Switzerland},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  url =          {http://www.eea.europa.eu/themes/climate/ghg-country-profiles/tp-report-country-profiles/switzerl},
+}
+
+@MISC{Educa_Webpage_2015,
+  AUTHOR =       {{educa.ch}},
+  YEAR =         {2015},
+  title =        {{Schulen in der Schweiz}},
+  howpublished = misc-webpage,
+  url =          {http://bildungssystem.educa.ch/de/schools_in_ch},
+}
+
+@MISC{VanEggermond_TODAY_2013,
+  AUTHOR =       VanEggermond,
+  YEAR =         {2013},
+  TITLE =        {Why accessibility matters},
+  howpublished = misc-onlinearticle,
+  url =          {http://www.todayonline.com/commentary/why-accessibility-matters},
+}
+
+@MISC{Einstein-SF_broadcast_2008,
+  AUTHOR =       {{SRG SSR ideé suisse}},
+  TITLE =        {{Einstein: Verkehrssimulation für Planungsfragen}},
+  YEAR =         {2008},
+  howpublished = misc-broadcast,
+  month =        may,
+  url =          {http://www.sf.tv/sf1/einstein/sendung.php?docid=20080529},
+}
+
+@MISC{Erath_Webpage_2012_1,
+  AUTHOR =       Erath,
+  TITLE =        {Visualisation of traffic simulation including public buses on shared roads with MATSim},
+  YEAR =         {2011},
+  url =          {http://vimeo.com/43729804},
+}
+
+@MISC{Erath_Webpage_2012_2,
+  AUTHOR =       Erath,
+  TITLE =        {Visualisation of traffic simulation including public buses on dedicated lanes with MATSim},
+  YEAR =         {2011},
+  url =          {http://vimeo.com/43729803},
+}
+
+@MISC{ESA_Webpage_2016,
+  AUTHOR =       {{European Space Agency}},
+  TITLE =        {GlobCover Land Cover Maps},
+  YEAR =         {2016},
+  url =          {http://due.esrin.esa.int/page_globcover.php},
+}
+
+@MISC{ArcGIS_2011,
+  AUTHOR =       {ESRI},
+  TITLE =        {ArcGIS Desktop: Release 9.3},
+  YEAR =         {2011},
+  howpublished = misc-software,
+  url =          {http://www.esri.com/software/arcgis/arcinfo/index.html},
+}
+
+@MISC{ArcGIS_2013,
+  AUTHOR =       {ESRI},
+  TITLE =        {ArcGIS},
+  YEAR =         {2013},
+  howpublished = misc-software,
+  url =          {http://www.esri.com/software/arcgis},
+}
+
+@MISC{CityEngine_Webpage_2012,
+  AUTHOR =       {{ESRI}},
+  TITLE =        {{CityEngine}},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        apr,
+  url =          {http://www.esri.com/software/cityengine/},
+}
+
+@MISC{ETHLife_Webpage_2013,
+  AUTHOR =       {{ETH Life}},
+  YEAR =         {2013},
+  title =        {Vertraute Fremde},
+  howpublished = misc-webpage,
+  url =          {http://www.ethlife.ethz.ch/archive_articles/130806_vertraute-fremde_aj},
+}
+
+@MISC{ETHSummerschool_Webpage_2014,
+  AUTHOR =       {{ETH}},
+  YEAR =         {2013},
+  title =        {{ETH Sustainability Summer School ``Future Cities -- Networks and Grammars''}},
+  howpublished = misc-webpage,
+  url =          {https://www.ethz.ch/de/die-eth-zuerich/nachhaltigkeit/aus-und-weiterbildung/sommer-und-winterschulen/eth-sustainability-summer-school/2013-stadt-der-zukunft.html},
+}
+
+@MISC{ETHTDA_Webpage_2013,
+  AUTHOR =       "uni-ethz-ivt" # and # "uni-ethz",
+  TITLE =        {{ETH} {T}ravel {D}ata {A}rchive},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://tda.ethz.ch},
+}
+
+@MISC{ETHTDA_Webpage_2010,
+  AUTHOR =       "uni-ethz-ivt" # and # "uni-ethz",
+  TITLE =        {{ETH} {T}ravel {D}ata {A}rchive},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  url =          {http://tda.ethz.ch},
+}
+
+@MISC{EIA_Annual_Energy_Outlook_2011,
+  AUTHOR =       "org-eia",
+  TITLE =        {Annual Energy Outlook 2011},
+  YEAR =         {2011},
+  url =          {http://www.eia.gov/forecasts/aeo/pdf/0383\%282011\%29.pdf},
+}
+
+@MISC{EMME_Webpage_2008,
+  AUTHOR =       "org-inro",
+  TITLE =        {{EMME}},
+  YEAR =         {2008},
+  howpublished = misc-webpage,
+  url =          {http://www.inro.ca/en/products/emme/index.php},
+}
+
+@MISC{EMME_Webpage_2011,
+  AUTHOR =       "org-inro",
+  TITLE =        {{EMME}},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.inro.ca/en/products/emme/index.php},
+}
+
+@MISC{EMME_Webpage_2015,
+  AUTHOR =       "org-inro",
+  TITLE =        {{EMME}},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://www.inro.ca/en/products/emme/index.php},
+}
+
+@MISC{EPA_Greenhouse_Gas_Emissions_2011,
+  AUTHOR =       "org-epa",
+  TITLE =        {Greenhouse Gas Emissions},
+  YEAR =         {2011},
+  url =          {http://www.epa.gov/climatechange/emissions/index.html},
+}
+
+@MISC{Erath_TST_2013,
+  AUTHOR =       Erath,
+  TITLE =        {How to solve the problem of bus bunching},
+  journal =      TST,
+  YEAR =         {2013},
+  howpublished = misc-onlinearticle,
+  pages =        {A30},
+  url =          {http://www.straitstimes.com/the-big-story/case-you-missed-it/story/how-solve-the-problem-bus-bunching-20130324},
+}
+
+@MISC{EStV_EV_2006,
+  AUTHOR =       "org-estv",
+  TITLE =        {{Kartographische Darstellung der Einkommensverteilung 2006}},
+  YEAR =         {2006},
+  url =          {http://www.estv2.admin.ch/d/dokumentation/zahlen_fakten/karten/2006/grafiken_2006.htm},
+}
+
+@MISC{EUNOIA_Webpage_2015,
+  AUTHOR =       {{EUNOIA Project}},
+  TITLE =        {{EUNOIA} Project Webpage},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://www.eunoia-project.eu/},
+  note =         {accessed on 20/03/2015},
+}
+
+@MISC{Eurostat_IncNUTS_Webpage_2015,
+  AUTHOR =       org-eurostat,
+  YEAR =         {2015},
+  title =        {Income of Household by {NUTS} Level},
+  howpublished = misc-webpage,
+  url =          {http://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=nama_r_ehh2inc&lang=en},
+  note =         {accessed on 31/03/2015}
+}
+
+@MISC{Eurostat_Tourism_Webpage_2016,
+  AUTHOR =       org-eurostat,
+  YEAR =         {2016},
+  title =        {{Tourism statistics - top destinations}}, 
+  howpublished = misc-webpage,
+  url =          {http://ec.europa.eu/eurostat/statistics-explained/index.php/Tourism_statistics_-_top_destinations},
+  note =         {accessed on 26/04/2016}
+}
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{FDOT_2014,
+  AUTHOR =       "org-fdot",
+  TITLE =        {{Office of Policy Planning: Transportation Costs}},
+  YEAR =         {2014},
+  url =          {http://www.dot.state.fl.us/planning/policy/costs/},
+}
+
+@MISC{FHWA_HighwayStats_Webpage_2013,
+  AUTHOR =       "org-fhwa",
+  TITLE =        {Highway Statistics Series},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://www.fhwa.dot.gov},
+}
+
+@MISC{Filialsuche_Webpage_2013,
+  AUTHOR =       {{filialsuche.ch}},
+  TITLE =        {{filialsuche.ch}},
+  YEAR =         {2013},
+  url =          {http://www.filialsuche.ch/},
+}
+
+@MISC{FutureCities_Webpage_2011,
+  AUTHOR =       {{Future Cities}},
+  TITLE =        {{ETH Future Cities Laboratory}},
+  YEAR =         {2011},
+  url =          {http://www.futurecities.ethz.ch/},
+}
+
+@MISC{Ordonez_Webpage_2011,
+  AUTHOR =       Ordonez,
+  TITLE =        {Updating link capacities after network to network matching},
+  YEAR =         {2011},
+  url =          {http://vimeo.com/37719479},
+}
+
+@MISC{Ordonez_Webpage_2011_2,
+  AUTHOR =       Ordonez,
+  TITLE =        {Interactive capacity and free speed fixing tool},
+  YEAR =         {2011},
+  url =          {http://vimeo.com/37719997},
+}
+
+@MISC{Ordonez_Webpage_2011_3,
+  AUTHOR =       Ordonez,
+  TITLE =        {Adding bus lanes using MATSim network editing tool},
+  YEAR =         {2011},
+  url =          {http://vimeo.com/37719740},
+}
+
+@MISC{Ordonez_Webpage_2011_4,
+  AUTHOR =       Ordonez,
+  TITLE =        {Demonstration of semi-automatic tool for bus route map matching},
+  YEAR =         {2011},
+  url =          {http://vimeo.com/27137889},
+}
+
+@MISC{FluegelEtAl_Samferdsel_2014,
+  AUTHOR =       Fluegel # and # Voll # and # Bockemuehl,
+  TITLE =        {{Prøves for vegnettverket i Trondheim: Ny og bedre metode for å beregne trafikkavvikling}},
+  YEAR =         {2014},
+  month =        jun,
+  howpublished = misc-pressrelease,
+  url =          {http://samferdsel.toi.no/nr-06/ny-og-bedre-metode-for-a-beregne-trafikkavvikling-article32606-1462.html},
+}
+
+@MISC{Fussell_Webpage_2006,
+  AUTHOR =       Fussell,
+  TITLE =        {Leaving {N}ew {O}rleans: Social Stratification, Networks, and Hurricane Evacuation},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  month =        jun,
+  url =          {http://understandingkatrina.ssrc.org/Fussell/},
+}
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Gapminder_Webpage_2014,
+  AUTHOR =       {{Gapminder}},
+  YEAR =         {2014},
+  title =        {{Gapminder}},
+  howpublished = misc-webpage,
+  url =          {http://www.gapminder.org/},
+}
+
+@MISC{Gianthypermarket_2011,
+  AUTHOR =       {{Giant}},
+  TITLE =        {Giant hypermarket},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.gianthypermarket.com.sg},
+}
+
+@MISC{GitHub_Webpage_2017,
+  AUTHOR = {{GitHub}},
+  TITLE = {Web-based Git repository hosting service},
+  YEAR = {2017},
+  howpublished = {webpage},
+  url = {https://github.com},
+}
+
+@MISC{GKS_2010,
+  AUTHOR =       {{GKS}},
+  TITLE =        {National Population Census, Volume~1: The size and distribution of the population, Section~5},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  url =          {http://www.gks.ru/free_doc/new_site/perepis2010/croc/perepis_itogi1612.htm},
+}
+
+@MISC{GNUScreen_Webpage_2011,
+  AUTHOR =       {{GNU Project}},
+  TITLE =        {GNU Screen},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://www.gnu.org/software/screen/},
+}
+
+@MISC{Golob_Webpage_2009,
+  AUTHOR =       Golob,
+  TITLE =        {Golob publications},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://www.its.uci.edu/its/personnel/golob.html},
+}
+
+@MISC{GOOGLE-EARTH_Software_2006,
+  AUTHOR =       {{Google Earth}},
+  YEAR =         {2006},
+  title =        {Google Earth - Explore, Search and Discover},
+  howpublished = misc-software,
+  url =          {http://earth.google.com},
+}
+
+@MISC{GOOGLE-MAPS_Webpage_2010,
+  AUTHOR =       {{Google}},
+  YEAR =         {2010},
+  title =        {{G}oogle {M}aps},
+  howpublished = misc-webpage,
+  url =          {http://maps.google.com/},
+}
+
+@MISC{GOOGLE-MAPS_Webpage_2012,
+  AUTHOR =       {{Google}},
+  YEAR =         {2012},
+  title =        {{G}oogle {M}aps},
+  howpublished = misc-webpage,
+  url =          {http://maps.google.com/},
+}
+
+@MISC{GOOGLE-MAPS-API_Webpage_2010,
+  AUTHOR =       {{Google}},
+  YEAR =         {2010},
+  title =        {{G}oogle {M}aps {API} {F}amily},
+  howpublished = misc-webpage,
+  url =          {http://code.google.com/apis/maps/index.html},
+}
+
+@MISC{GOOGLE-MAPS-Street-View_Webpage_2010,
+  AUTHOR =       {{Google}},
+  YEAR =         {2010},
+  title =        {{S}treet {V}iew: Explore the World at Street Level},
+  howpublished = misc-webpage,
+  url =          {http://www.google.com/intl/en_us/help/maps/streetview/},
+}
+
+@MISC{Google_Places_API_Webpage_2015,
+  AUTHOR =       {{Google}},
+  YEAR =         {2015},
+  title =        {{G}oogle {P}laces {API}},
+  howpublished = misc-webpage,
+  url =          {https://developers.google.com/places/},
+}
+
+@MISC{GPL_Webbpage_2007,
+  AUTHOR =       {{GPL}},
+  TITLE =        {{GNU Public License}},
+  YEAR =         {2007},
+  howpublished = misc-webpage,
+  url =          {http://www.gnu.org/licenses/gpl.html},
+}
+
+@MISC{Gradoteka_2015,
+  AUTHOR =       {{Gradoteka}},
+  TITLE =        {Exciting statistics {S}amara city in infographics},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://gradoteka.ru/city/samara/detail/transport-c/avtomobilizaciya},
+}
+
+@MISC{GEOPS_WEBPAGE_2015,
+  AUTHOR =       {{geOps}},
+  TITLE =        {{Public Transporation Feed for Switzerland}},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://gtfs.geops.ch/},
+}
+
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Haklay_2012,
+  AUTHOR =       {Haklay},
+  TITLE =        {'Nobody wants to do council estates' - digital divide, spatial justice and outliers},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  url =          {http://povesham.wordpress.com/2012/03/05/nobody-wants-to-do-council-estates-digital-divide-spatial-justice-and-outliers-aag-2012/},
+}
+
+
+@MISC{Hawth_Tools_2004,
+  AUTHOR =       {Beyer},
+  TITLE =        {Hawth's Analysis Tools for ArcGIS},
+  YEAR =         {2004},
+  howpublished = misc-software,
+  url =          {http://www.spatialecology.com/htools},
+}
+
+@MISC{HEATCO_Webpage_2014,
+  AUTHOR =       {{University of Stuttgart}},
+  YEAR =         {2014},
+  title =        {Developing Harmonised European Approaches for Transport Costing and Project Assessment ({HEATCO})},
+  howpublished = misc-webpage,
+  url =          {http://heatco.ier.uni-stuttgart.de/},
+}
+
+@MISC{HEV_Pressrelease_2006,
+  AUTHOR =       "org-hev",
+  TITLE =        {{Heizkostenabrechnungen - Grössere Nachforderungen zu erwarten}},
+  YEAR =         {2008},
+  month =        aug,
+  howpublished = misc-pressrelease,
+  url =          {http://old.hev-schweiz.ch/aktuell/news/presse/presse_heizkosten.html},
+}
+
+@MISC{HDB_InfoWEB_2011,
+  AUTHOR =       {{HDB}},
+  YEAR =         {2011},
+  TITLE =        {{HDB InfoWeb}},
+  url =          {http://services2.hdb.gov.sg/webapp/BB33RTIS/BB33PReslTrans.jsp},
+  note =         {accessed on 29/03/2011},
+}
+
+@MISC{HDB_programmes_2011,
+  AUTHOR =       {{HDB}},
+  YEAR =         {2011},
+  TITLE =        {{HDB Upgrading Programmes}},
+  url =          {http://www.hdb.gov.sg/fi10/fi10328p.nsf/w/UpgradeWhatsLUP?OpenDocument.},
+  note =         {accessed on 25/04/2011},
+}
+
+@MISC{HDB_website_2011,
+  AUTHOR =       {{HDB}},
+  YEAR =         {2011},
+  TITLE =        {{HDB website}},
+  url =          {http://www.hdb.gov.sg/},
+  note =         {accessed on 29/03/2011},
+}
+
+
+@MISC{HDB_keystats_2011,
+  AUTHOR =       {{HDB}},
+  YEAR =         {2011},
+  TITLE =        {{HDB Annual Report 2009/2010}},
+  howpublished = misc-webpage,
+  url =          {http://www88.hdb.gov.sg/eBook/AnnualReport/Statistics2010.html},
+  note =         {accessed on 29/03/2011},
+}
+
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{IBM_Interview_2012,
+  AUTHOR =       {IBM},
+  TITLE =        {Challenges of resilience in the tranport sector},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  volume =        {Summer 2012},
+  pages =          {22--27},
+}
+
+@MISC{Insee_Webpage_2016,
+  AUTHOR =       {INSEE},
+  TITLE =        {Institut national de la statistique et des etudes economiques},
+  YEAR =         {2016},
+  howpublished = misc-webpage,
+  month =        mar,
+  url =          {http://www.insee.fr/},
+}
+
+@MISC{Org-ieee_Webpage_2009,
+  AUTHOR =       "org-ieee",
+  TITLE =        {Intelligent Transportation Systems},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  month =        mar,
+  url =          {http://www.ewh.ieee.org/tc/its/},
+}
+
+@MISC{ICI_Webpage_2012,
+  AUTHOR =       {{Istanbul Chamber of Industry}},
+  TITLE =        {{Istanbul Chamber of Industry}},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  url =          {http://www.iso.org.tr/},
+}
+
+@MISC{IVT_Webpage_2010,
+  AUTHOR =       "uni-ethz-ivt" # and # "uni-ethz",
+  TITLE =        {{IVT}},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://www.ivt.ethz.ch},
+}
+
+@MISC{IVT_Webpage_2012,
+  AUTHOR =       "uni-ethz-ivt" # and # "uni-ethz",
+  TITLE =        {{IVT}},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        jan,
+  url =          {http://www.ivt.ethz.ch},
+}
+
+@MISC{IVTVPLResearch_Webpage_2010,
+  AUTHOR =       "uni-ethz-ivt" # and # "uni-ethz",
+  TITLE =        {{IVT VPL Projects}},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://www.ivt.ethz.ch/vpl/research},
+}
+
+@MISC{IAB_Daten_2013,
+	AUTHOR =  "org-iab",
+	TITLE= {{Daten zur Entwicklung der Arbeitszeit und ihrer Komponenten}},
+	YEAR= 2013,
+	url={http://doku.iab.de/arbeitsmarktdaten/AZ_Komponenten.xlsx},
+}
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{jCUDA_Webpage_2011,
+  AUTHOR =       {{Hoopoe}},
+  YEAR =         {2011},
+  title =        {{jCUDA -- Java for CUDA}},
+  howpublished = misc-webpage,
+  url =          {http://www.hoopoe-cloud.com/Solutions/jCUDA},
+}
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{KI_Webpage_2008,
+  AUTHOR =       {{KI}},
+  YEAR =         {2008},
+  title =        {{KI Zeitschrift}},
+  howpublished = misc-webpage,
+  url =          {http://www.kuenstliche-intelligenz.de},
+}
+
+@MISC{Kaisersrot_Webpage_2011,
+  AUTHOR =       {{Kaisersrot}},
+  YEAR =         {2011},
+  title =        {{Kaisersrot - Solutions you cannot draw}},
+  howpublished = misc-webpage,
+  month =        nov,
+  url =          {http://www.kaisersrot.com},
+}
+
+@MISC{KML_Webpage_2008,
+  AUTHOR =       {{KML}},
+  TITLE =        {Keyhole Markup Language - Google Code},
+  YEAR =         {2008},
+  howpublished = misc-webpage,
+  month =        dec,
+  url =          {http://code.google.com/apis/kml},
+}
+
+@MISC{knitr_Webpage_current,
+  AUTHOR =       XieY,
+  YEAR =         {\the\year},
+  title =        {knitr~-- Elegant, flexible and fast dynamic report generation with {R}},
+  howpublished = misc-webpage,
+  url =          {http://yihui.name/knitr},
+}
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{LaHowara_Software_2012,
+  AUTHOR =       {{LaHowara \& Commander Spock}},
+  TITLE =        {{An Agent-Based Cellular Automaton Cruising-For-Parking Simulation published on github.com}},
+  YEAR =         {2012},
+  howpublished = misc-software,
+  url =          {https://github.com/andreas77/LaHowara},
+}
+
+@MISC{LaHowara_Software_2013,
+  AUTHOR =       {{LaHowara \& Commander Spock}},
+  TITLE =        {{An Agent-Based Cellular Automaton Cruising-For-Parking Simulation published on sourceforge.net}},
+  YEAR =         {2013},
+  howpublished = misc-software,
+  url =          {https://sourceforge.net/projects/lahowara/},
+}
+
+@MISC{LeeHL_PressRelease_2008,
+  AUTHOR =       LeeHL,
+  TITLE =        {{New Year Message 2008}},
+  YEAR =         {2008},
+  month =        feb,
+  howpublished = misc-pressrelease,
+  url =          {http://app.mfa.gov.sg/pr/read_content.asp?View,9165,},
+}
+
+@MISC{LTA_Webpage_HITS_2013,
+  AUTHOR =       {{Land Transportation Authority}},
+  YEAR =         {2013},
+  title =        {Household {I}nterview {T}ravel {S}urvey 2012},
+  howpublished = misc-webpage,
+  url =          {http://www.lta.gov.sg/},
+}
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Mapnificent_Webpage_2012,
+  AUTHOR =       {{Mapnificent}},
+  YEAR =         {2012},
+  title =        {Mapnificent},
+  howpublished = misc-webpage,
+  url =          {http://www.mapnificent.net/},
+}
+
+@MISC{Mappuls_Webpage_2009,
+  AUTHOR =       {{Mappuls AG}},
+  YEAR =         {2009},
+  title =        {mappuls geo solutions},
+  howpublished = misc-webpage,
+  url =          {http://www.mappuls.ch/},
+}
+
+@MISC{MATLAB_2012,
+  AUTHOR =       {{MathWorks}},
+  TITLE =        {{MATLAB R2012b (Version 8.0)}},
+  YEAR =         {2012},
+  howpublished = misc-software,
+  url =          {http://www.mathworks.com/products/matlab/},
+}
+
+@MISC{MATSIM-T_Webpage_2004,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2004},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation {T}oolkit},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+
+@MISC{MATSIM-T_Webpage_2006,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2006},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation {T}oolkit},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+
+@MISC{MATSIM-T_Webpage_2008,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2008},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation {T}oolkit},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+
+@MISC{MATSIM-T_Webpage_2010,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2010},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation {T}oolkit},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+@MISC{MATSIM-T_Webpage_2011,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2011},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation {T}oolkit},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+@MISC{MATSIM-T_Webpage_2012,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2012},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+@MISC{MATSIM-T_Webpage_2013,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2013},
+  title =        {{M}ulti-{A}gent {T}ransportation {S}imulation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+@MISC{MATSIM-T_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{M}ulti-{A}gent {T}ransportation {S}imulation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+@MISC{MATSIM_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{M}ulti-{A}gent {T}ransportation {S}imulation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+@MISC{MATSIM_Webpage_2016,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2016},
+  title =        {{M}ulti-{A}gent {T}ransportation {S}imulation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+
+@MISC{MATSIM_Webpage_2017,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2017},
+  title =        {{M}ulti-{A}gent {T}ransportation {S}imulation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+}
+
+@MISC{MATSIM-T-Publications_Webpage_2013,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2013},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Publications},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/publications},
+}
+
+@MISC{MATSIM-T-Publications_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Publications},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/publications},
+}
+
+@MISC{MATSIM-Publications_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Publications},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/publications},
+}
+
+@MISC{MATSIM-T-Docu_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Documentation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/docs},
+}
+
+@MISC{MATSIM-Docu_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Documentation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/docs},
+}
+
+@MISC{MATSIM-T-Javadoc_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Javadoc},
+  howpublished = misc-webpage,
+  url =          {http://ci.matsim.org:8080/job/MATSim_M2/javadoc/?},
+}
+
+@MISC{MATSIM-Javadoc_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Javadoc},
+  howpublished = misc-webpage,
+  url =          {http://ci.matsim.org:8080/job/MATSim_M2/javadoc/?},
+}
+
+@MISC{MATSIM-T-Mailinglists_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Mailing Lists},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/mailinglists},
+}
+
+@MISC{MATSIM-Mailinglists_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Mailing Lists},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/mailinglists},
+}
+
+@MISC{MATSIM-T-BecomingAContributor_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Becoming a MATSim Contributor},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/docs/devguide/becomeAContributor},
+}
+
+@MISC{MATSIM-BecomingAContributor_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Becoming a MATSim Contributor},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/docs/devguide/becomeAContributor},
+}
+
+@MISC{MATSIM-T-CodingGuide_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Coding Guide},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/docs/contributing},
+}
+
+@MISC{MATSIM-CodingGuide_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation: Coding Guide},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/docs/contributing},
+}
+
+% Do not use this anymore. "Accessed on" noted can be added for "long" URLs
+% that refer to a specific document, but not for "general" URLs
+@MISC{MATSIM-T_Webpage_2010_acc,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2010},
+  title =        {{M}ulti {A}gent {T}ransportation {S}imulation {T}oolkit},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org},
+  note =         {accessed on 29/07/2010},
+}
+
+@MISC{MATSIM-T-Examples_Webpage_2008,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2008},
+  title =        {Examples {MATS}im},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/examples},
+}
+
+@MISC{MATSIM-Examples_Webpage_2015,
+  AUTHOR =       {{MATSim-T}},
+  YEAR =         {2015},
+  title =        {Examples {MATS}im},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/examples},
+}
+
+% ah: since 2012 MATSim is defined as a framework not a toolkit
+@MISC{MATSIM-T-Scenarios_Webpage_2013,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2013},
+  title =        {{MATS}im Scenarios},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/scenarios},
+}
+
+% ah: since 2012 MATSim is defined as a framework not a toolkit
+@MISC{MATSIM-T-Scenarios_Webpage_2014,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2014},
+  title =        {{MATS}im Scenarios},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/scenarios},
+}
+
+% ah: since 2012 MATSim is defined as a framework not a toolkit
+@MISC{MATSIM-Scenarios_Webpage_2015,
+  AUTHOR =       {{MATSim}},
+  YEAR =         {2015},
+  title =        {{MATS}im Scenarios},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/scenarios},
+}
+
+@MISC{MATSIM-T-DC_Webpage_2014,
+  AUTHOR =       Horni,
+  YEAR =         {2014},
+  title =        {{MATS}im Destination Choice Documentation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/node/218},
+}
+
+@MISC{MATSIM-DC_Webpage_2015,
+  AUTHOR =       {{Andreas Horni}},
+  YEAR =         {2015},
+  title =        {{MATS}im Destination Choice Documentation},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/node/218},
+}
+
+@MISC{FCL_MATSimSG_2014,
+  AUTHOR =       Chakirov # and # Erath # and # {{P.J.~Fourie (Producer)}} # and # Ordonez # and # VanEggermond,
+  YEAR =         {2014},
+  title =        {{MATS}im Singapore in operation},
+  howpublished = misc-webpage,
+  url =          {https://vimeo.com/74432255},
+}
+
+
+@MISC{FCL_MATSimBigData_2014,
+  AUTHOR =       Chakirov # and # {{A.~Erath (Producer)}} # and # {{P.J.~Fourie (Producer)}} # and # Ordonez,
+  YEAR =         {2014},
+  title =        {Big Data transport simulation with {MATSim}},
+  howpublished = misc-webpage,
+  url =          {https://vimeo.com/117976373},
+}
+
+
+@MISC{MedicalDaily_Webpage_2013,
+  AUTHOR =       {{Medical Daily}},
+  YEAR =         {2013},
+  title =        {{Social Networks Between 'Familiar Strangers' Could Predict How Diseases Spread In Urban Areas}},
+  howpublished = misc-webpage,
+  url =          {http://www.medicaldaily.com/social-networks-between-familiar-strangers-could-predict-how-diseases-spread-urban-areas-247931},
+}
+
+@MISC{MerriamWebster_Webpage_2013,
+  AUTHOR =       {{Merriam--Webster}},
+  TITLE =        {{Dictionary}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://www.merriam-webster.com},
+}
+
+@MISC{MITTechnologyReview_Webpage_2013,
+  AUTHOR =       {{MIT Technology Review}},
+  YEAR =         {2013},
+  title =        {{The Science of Familiar Strangers: Society's Hidden Social Network}},
+  howpublished = misc-webpage,
+  url =          {http://www.technologyreview.com/view/516846/the-science-of-familiar-strangers-societys-hidden-social-network/},
+}
+
+@MISC{MITSIM_Webpage_2006,
+  AUTHOR =       {{MITSIM}},
+  YEAR =         {2006},
+  title =        {{MITSIMLab}},
+  howpublished = misc-webpage,
+  url =          {http://www.web.mit.edu/its/mitsimlab.html},
+}
+
+@MISC{Mobility_Webpage_2008,
+  AUTHOR =       {{Mobility}},
+  TITLE =        {{Car Sharing Service der Schweiz}},
+  YEAR =         {2008},
+  howpublished = misc-webpage,
+  month =        jul,
+  url =          {http://www.mobility.ch},
+}
+
+@MISC{Mobitest_Webpage_2012,
+  AUTHOR =       {{MGE DATA}},
+  TITLE =        {{MobiTest GSL}},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://www.mgedata.com/de/hw-und-sw-produkte/custom-produkte/mobitest},
+}
+
+@MISC{Mobitopp_Webpage_2013,
+  AUTHOR =       {{mobiTopp}},
+  TITLE =        {{mobiTopp Simulation Program Homepage}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://www.mobitopp.net/},
+}
+
+@MISC{MOE_Singapore_Webpage_2011,
+  AUTHOR =       {{Ministry of Education}},
+  TITLE =        {{School Information Service}},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.moe.gov.sg},
+  note = 		{Accessed on 05/04/2011},
+}
+
+@MISC{MOE_Singapore_Webpage_2015,
+  AUTHOR =       {{Ministry of Education}},
+  TITLE =        {{School Information Service}},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://www.moe.gov.sg},
+}
+
+@MISC{Morphocode_Webpage_2014,
+  AUTHOR =       {{Morphocode}},
+  TITLE =        {{Morphocode}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://www.morphocode.com},
+  note = 		{Accessed on 20/11/2014},
+}
+
+@MISC{MPI-Forum_Webpage_2008,
+  AUTHOR =       {{MPI-Forum}},
+  TITLE =        {{M}essage {P}assing {I}nterface {F}orum},
+  YEAR =         {2008},
+  howpublished = misc-webpage,
+  url =          {http://www.mpi-forum.org},
+}
+
+@MISC{MultiNet_Webpage_2010,
+  AUTHOR =       {{Tele Atlas MultiNet}},
+  YEAR =         {2010},
+  title =        {{MultiNet}: The Most Powerful Map Database ever Built},
+  howpublished = misc-webpage,
+  month =        jan,
+  url =          {http://www.teleatlas.com/OurProducts/MapData/Multinet/index.htm},
+}
+
+@MISC{MultiNet_Webpage_2011,
+  AUTHOR =       {{TomTom MultiNet}},
+  YEAR =         {2011},
+  title =        {{MultiNet}: The Most Powerful Map Database ever Built},
+  howpublished = misc-webpage,
+  url =          {http://licensing.tomtom.com/OurProducts/MapData/Multinet/index.htm},
+  note =         {accessed 25/05/2011},
+}
+
+@MISC{MyTransport_Webpage_2015,
+  AUTHOR =       {{LTA}},
+  YEAR =         {2015},
+  title =        {{MyTransport.SG: DataMall}},
+  howpublished = misc-webpage,
+  url =          {http://www.mytransport.sg/content/mytransport/home/dataMall.html},
+}
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Nagel_2004,
+  AUTHOR =       {Nagel},
+  TITLE =        {Multi-agent transportation simulation},
+  YEAR =         {2004},
+  howpublished = {book in progress},
+  url =          {https://svn.vsp.tu-berlin.de/repos/public-svn/publications/vspwp/2004/04-01},
+}
+
+@MISC{Navteq_2011,
+  AUTHOR =       {{NAVTEQ}},
+  TITLE =        {{NAVTEQ Maps and Traffic}},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.navteq.com},
+}
+
+@MISC{Nielson_Webpage_2009,
+  AUTHOR =       {{The Nielsen Company}},
+  TITLE =        {{ACNielsen Corporate Site}},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  url =          {http://ch.de.acnielsen.com/site/index.shtml},
+}
+
+@MISC{NodeGame_Webpage_2015,
+  AUTHOR =       {{nodeGame}},
+  TITLE =        {{nodeGame} Website},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://www.nodegame.org/},
+  note =         {accessed on 20/03/2015},
+}
+
+@MISC{Nordumfahrung_Webpage_2008,
+  AUTHOR =       "org-bdktzrh",
+  TITLE =        {{Bauprojekt Nordumfahrung Zürich}},
+  YEAR =         {2008},
+  howpublished = misc-webpage,
+  url =          {http://www.nordumfahrung.ch/},
+}
+
+@MISC{Fairprice_2011,
+  AUTHOR =       {NTUC},
+  YEAR =         {2011},
+  title =        {Accessed on 10/04/2011},
+  howpublished = misc-webpage,
+  url =          {http://www.fairprice.com.sg/},
+  note = 		{Accessed on 10/04/2011}
+}
+
+@MISC{Novatlantis_Webpage_2010,
+  AUTHOR =       {{N}ovatlantis},
+  YEAR =         {2010},
+  title =        {Nachhaltigkeit im {ETH} {B}ereich},
+  howpublished = misc-webpage,
+  url =          {http://www.novatlantis.ch/},
+}
+
+@MISC{NTS_2014_UK_Webpage_2016,
+  AUTHOR =       "org-dft",
+  YEAR =         {2016},
+  title =        {National Travel Survey: 2014},
+  howpublished = misc-webpage,
+  url =          {http://www.gov.uk/government/statistics/national-travel-survey-2014},
+  note =         {Accessed on 17/02/2016}
+}
+
+@MISC{NTS_2008_France_Webpage_2016,
+  AUTHOR =       "org-ifsttar",
+  YEAR =         {2016},
+  title =        {French National Travel Survey: 2008},
+  howpublished = misc-webpage,
+  url =          {http://http://www.statistiques.developpement-durable.gouv.fr/transports/s/transport-voyageurs-deplacements.html},
+  note =         {Accessed on 17/02/2016}
+}
+
+@MISC{NTS_2001_US_Webpage_2016,
+  AUTHOR =       "org-bts",
+  YEAR =         {2016},
+  title =        {National Transportation Statistcs},
+  howpublished = misc-webpage,
+  url =          {http://www.rita.dot.gov/bts/sites/rita.dot.gov.bts/files/publications/national_transportation_statistics/index.html},
+  note =         {Accessed on 20/04/2016}
+}
+
+@MISC{NVIDIA_CUDA_Webpage_2011,
+  AUTHOR =       {{NVIDIA}},
+  YEAR =         {2011},
+  title =        {{C}ompute {U}nified {D}evice {A}rchitecture},
+  howpublished = misc-webpage,
+  url =          {http://www.nvidia.com/cuda},
+}
+
+@MISC{NZZSwissMade-NZZ_broadcast_2008,
+  AUTHOR =       {{Neue Zürcher Zeitung}},
+  TITLE =        {{NZZ Swiss made: Die Zürcher Westtangente - das Ende aller Staus?}},
+  YEAR =         {2008},
+  howpublished = misc-broadcast,
+  month =        nov,
+  url =          {http://www.nzzformat.ch/108+M5dba0b64859.html},
+}
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{OECD_TOURISM_2012,
+      author = org-oecd,
+      title = {{OECD Tourism Trends and Policies 2012}},
+      url = {http://www.oecd-ilibrary.org/industry-and-services/oecd-tourism-trends-and-policies-2012_tour-2012-en},
+      howpublished = misc-webpage,
+      YEAR = {2012},    
+      note =         {accessed on 26/04/2016},
+}
+
+@MISC{AUS_NTS_2014,
+      author = {{BMVI}},
+      title = {{Oesterreich Unterwegs}},
+      url = {http://www.oesterreich-unterwegs.at},
+      howpublished = misc-webpage,
+      YEAR = {2012},
+      note =         {accessed on 26/04/2016},
+}
+
+@MISC{OmniTRANS_Webpage_2011,
+  AUTHOR =       "org-omnint",
+  TITLE =        {{OmniTRANS}},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.omnitrans-international.com/en/products/omnitrans/modelling-packs/dynamic-traffic-assignment},
+}
+
+@MISC{OpenAMOS_Webpage_2011,
+  AUTHOR =       {{OpenAMOS}},
+  YEAR =         {2011},
+  title =        {{OpenAMOS} Modeling Framework},
+  howpublished = misc-webpage,
+  url =          {http://simtravel.wikispaces.asu.edu/OpenAMOS+Modeling+Framework},
+}
+
+@MISC{OpenStreetMap_Webpage_2010,
+  AUTHOR =       {{OpenStreetMap}},
+  YEAR =         {2010},
+  title =        {A free editable map of the whole world},
+  howpublished = misc-webpage,
+  url =          {http://www.openstreetmap.org},
+}
+
+@MISC{OpenStreetMap_Webpage_2011,
+  AUTHOR =       {{OpenStreetMap}},
+  YEAR =         {2011},
+  title =        {{The Free Wiki World Map}},
+  howpublished = misc-webpage,
+  url =          {http://www.openstreetmap.org},
+  note =         {accessed 25/05/2011},
+}
+
+@MISC{OpenStreetMap_Webpage_2015,
+  AUTHOR =       {{OpenStreetMap}},
+  YEAR =         {2015},
+  title =        {{The Free Wiki World Map}},
+  howpublished = misc-webpage,
+  url =          {http://www.openstreetmap.org},
+}
+
+
+@MISC{ORACLE_Java6u14ReleaseNotes_2009,
+  AUTHOR =       {{ORACLE}},
+  TITLE =        {{Java SE 6 Update 14 Release Notes}},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  url =          {http://www.oracle.com/technetwork/java/javase/6u14-137039.html},
+  note =         {accessed 10/02/2011},
+}
+
+@MISC{ORACLE_Java_2014,
+  AUTHOR =       {{ORACLE}},
+  TITLE =        {{Java Software}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://www.oracle.com/us/technologies/java/overview/index.html},
+  note =         {accessed 21/06/2014},
+}
+
+@MISC{OED_Gridlick_2014,
+  AUTHOR =       {{Oxford English Dictionary}},
+  TITLE =        {{Gridlock}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://www.oed.com/},
+  note =         {accessed 10/01/2014},
+}
+
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{PCATS_Webpage_2011,
+  AUTHOR =       {{PCATS}},
+  YEAR =         {2011},
+  title =        {Activity-Travel Simulator {PCATS}},
+  howpublished = misc-webpage,
+  url =          {http://trans.kuciv.kyoto-u.ac.jp/tba/kikuchi/PCATS_DEBNetS/pcats.html},
+}
+
+@MISC{PCATS_Webpage_2013,
+  AUTHOR =       {{PCATS}},
+  YEAR =         {2013},
+  title =        {Activity-Travel Simulator {PCATS}},
+  howpublished = misc-webpage,
+  url =          {http://trans.kuciv.kyoto-u.ac.jp/tba/kikuchi/PCATS_DEBNetS/pcats.html},
+}
+
+@MISC{Pebesma_Webpage_2011,
+  AUTHOR =       Pebesma,
+  YEAR =         {2011},
+  title =        {R package sp: version 0.9-82},
+  howpublished = misc-software,
+  url =          {http://cran.r-project.org/web/packages/sp/index.html},
+}
+
+
+@MISC{PopGen_SourceCode_2010_acc,
+  AUTHOR =       Charan,
+  TITLE =        {{PopGen} source code},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://code.google.com/p/populationsynthesis/source/checkout},
+  note =         {accessed on 29/07/2010},
+}
+
+@MISC{PopGen_Webpage_2010_acc,
+  AUTHOR =       {{PopGen website}},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://urbanmodel.asu.edu/popgen.html},
+  note =         {accessed on 29/07/2010},
+}
+
+@MISC{PopGen_Wiki_2010_acc,
+  AUTHOR =       {{PopGen wiki}},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://simtravel.wikispaces.asu.edu/Population+Synthesis},
+  note =         {accessed on 29/07/2010},
+}
+
+@MISC{POSDAP_SourceCode_2012,
+  AUTHOR =       {{POSDAP}},
+  YEAR =         {2012},
+  title =        {{Position Data Processing}},
+  howpublished = misc-webpage,
+  url =          {http://sourceforge.net/projects/posdap/},
+}
+
+@MISC{PostGIS_Webpage_2013,
+  AUTHOR =       {{Refractions Research}},
+  TITLE =        {{PostGIS}},
+  YEAR =         {2013},
+  howpublished = misc-software,
+  month =        apr,
+  url =          {http://postgis.net/},
+}
+
+@MISC{PostgreSQL_Webpage_2013,
+  AUTHOR =       {{PostgreSQL Global Developement Group}},
+  TITLE =        {{PostgreSQL: Release 9.2}},
+  YEAR =         {2013},
+  howpublished = misc-software,
+  month =        apr,
+  url =          {http://www.postgresql.org/},
+}
+
+@MISC{Power5_Wikipedia_Webpage_2014,
+  AUTHOR =       {{Wikipedia}},
+  TITLE =        {Power5 Microprocessor},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  month =        apr,
+  url =          {http://en.wikipedia.org/w/index.php?title=POWER5&oldid=600650542},
+  comment =      {Description of the Power5 processor, first multi-core desktop CPU.},
+}
+
+@MISC{PROCEDURAL_Webpage_2011,
+  AUTHOR =       {{PROCEDURAL}},
+  TITLE =        {{PROCEDURAL}},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  month =        jul,
+  url =          {http://www.procedural.com},
+}
+
+
+@MISC{PropertyGuru_Webpage_2010,
+  AUTHOR =       {{AllProperty}},
+  YEAR =         {2011},
+  title =        {{Property Guru}},
+  howpublished = misc-webpage,
+  url =          {http://www.propertyguru.com.sg},
+  note =		{Accessed from February to March 2011}
+}
+
+@MISC{ProtoGeo_Webpage_2015,
+  AUTHOR =       {{ProtoGeo Oy}},
+  YEAR =         {2015},
+  title =        {{moves app}},
+  howpublished = misc-webpage,
+  url =          {http://www.moves-app.com/},
+  note =		 {Accessed on 10/08/2015}
+}
+
+@MISC{PTVAmerica_Webpage_2010,
+  AUTHOR =       {{PTV America}},
+  YEAR =         {2010},
+  title =        {{PTV America}},
+  howpublished = misc-webpage,
+  url =          {http://www.ptvamerica.com},
+}
+
+@MISC{PTV_Webpage_2006,
+  AUTHOR =       {{PTV}},
+  YEAR =         {2006},
+  title =        org-ptv,
+  howpublished = misc-webpage,
+  url =          {http://www.ptv.de},
+}
+
+@MISC{PTV_Webpage_2009,
+  AUTHOR =       {{PTV}},
+  YEAR =         {2009},
+  title =        org-ptv,
+  howpublished = misc-webpage,
+  url =          {http://www.ptvag.com},
+}
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Qt_Webpage_2011,
+  AUTHOR =       {{Nokia}},
+  YEAR =         {2011},
+  title =        {Qt -- A cross-platform application and {UI} framework},
+  howpublished = misc-webpage,
+  url =          {http://qt.nokia.com/products},
+}
+
+@MISC{QuantumGIS_Webpage_2013,
+  AUTHOR =       {{QGIS Development Team}},
+  YEAR =         {2013},
+  title =        {Quantum GIS},
+  howpublished = misc-software,
+  url =          {http://qgis.org/},
+}
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Rieser_MATSimWebpage344_2009,
+  AUTHOR =       Rieser,
+  TITLE =        {How to speed up {MATSim} runs},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  url =          {http://www.matsim.org/node/344},
+  note =         {accessed on 11/02/2011},
+}
+
+
+@MISC{R_RWebpage_2012,
+  AUTHOR =       {{R Development Core Team}},
+  TITLE =        {A language and environment for statistical computing},
+  YEAR =         {2012},
+  howpublished = misc-software,
+  url =          {http://www.r-project.org.},
+}
+
+%%snadine: last accessed February 24, 2010
+@MISC{Rohrmann_Webpage_2010,
+  AUTHOR =       Rohrmann,
+  TITLE =        {Risk Attitude Scales: Concepts and Questionnaires},
+  YEAR =         {2010},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://www.rohrmannresearch.net/pdfs/rohrmann-racreport.pdf},
+}
+
+@MISC{Ronald_iMoD_2014,
+  AUTHOR =       Ronald,
+  TITLE =        {{iMoD: Intelligent Mobility on Demand}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://imod-au.info/},
+	note =         {Last accessed 6 Nov 2014},
+}
+
+@MISC{RSG_Webpage_2015,
+  AUTHOR =       {{Resource Systems Group (RSG)}},
+  TITLE =        {rMOVE},
+  YEAR =         {2015},
+  url =          {http://rmove.rsginc.com/index.html},
+  note =         {Accessed on 10/08/2015}
+}
+
+@MISC{Ryser_Maturitaetsarbeit_2013,
+  AUTHOR =       Ryser,
+  YEAR =         {2013},
+  title =        {{Mathematische Modelle und Simulation  Ein Erreichbarkeitsmodell des Veloverkehrs in der Stadt Zürich}},
+  howpublished = {{Maturitätsarbeit, KFR, Zurich}},
+}
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Saldo_Heftli_2002,
+  AUTHOR =       {Saldo},
+  TITLE =        {{Detailhandel - Beim Wocheneinkauf fast 50 Franken gespart}},
+  YEAR =         {2002},
+  month =        may,
+  url =          {http://www.saldo.ch/themen/beitrag/1014712/Detailhandel\_-\_Beim\_Wocheneinkauf\_fast\_50\_Franken\_gespart},
+}
+
+@MISC{Samuels_Webpage_2006,
+  AUTHOR =       Samuels,
+  TITLE =        {Rethinking Traffic Congestion - Traffic Expands to Fill Available Road Space},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  url =          {http://www.culturechange.org/issue8/traffic\%20expands.htm},
+}
+
+@MISC{SATURN_Webpage_2014,
+  AUTHOR =       {{SATURN}},
+  TITLE =        {{Simulation and Assignment of Traffic to Urban Road Networks}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://www.saturnsoftware.co.uk/},
+  note =         {accessed on 07/05/2014},
+}
+
+@MISC{SAX_Webpage_2006,
+  AUTHOR =       {{SAX}},
+  TITLE =        {Simple {API} for {XML}},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  url =          {http://www.saxproject.org},
+}
+
+@MISC{ScienceWorldReport_Webpage_2013,
+  AUTHOR =       {{Science World Report}},
+  YEAR =         {2013},
+  title =        {Secret Network of Familiar Strangers Uncovered},
+  howpublished = misc-webpage,
+  url =          {http://www.scienceworldreport.com/articles/8650/20130806/secret-network-familiar-strangers-uncovered.htm},
+}
+
+@MISC{ScientificAmerican_Webpage_2013,
+  AUTHOR =       {{Scientific American}},
+  YEAR =         {2013},
+  title =        {{Singapore Bus Study Reveals Hidden Social Networks}},
+  howpublished = misc-webpage,
+  url =          {http://www.scientificamerican.com/article.cfm?id=singapore-bus-study-reveals-hidden-social-networks},
+}
+
+@MISC{Scipy_Software_2011,
+  AUTHOR =       {{SourceForge}},
+  YEAR =         {2011},
+  TITLE =        {Open source library of algorithms and mathematical tools for the Python programming language},
+  howpublished = misc-software,
+}
+
+@MISC{senozon_Webpage_2012,
+  AUTHOR =       {{senozon AG}},
+  YEAR =         {2012},
+  title =        org-senozon,
+  howpublished = misc-webpage,
+  url =          {http://www.senozon.com/},
+}
+
+@MISC{senozonVIA_Webpage_2012,
+  AUTHOR =       {{senozon AG}},
+  YEAR =         {2012},
+  title =        {via~-- Visualization and Analysis Tool},
+  howpublished = misc-webpage,
+  url =          {http://www.senozon.com/matsim/analysistool},
+}
+
+@MISC{senozonVIA_Webpage_2013,
+  AUTHOR =       {{senozon AG}},
+  YEAR =         {2013},
+  title =        {via~-- Visualization and Analysis Tool},
+  howpublished = misc-webpage,
+  url =          {http://www.senozon.com/matsim/analysistool},
+}
+
+@MISC{senozonVIA_Webpage_2014,
+  AUTHOR =       {{senozon AG}},
+  YEAR =         {2014},
+  title =        {via~-- Visualization and Analysis Tool},
+  howpublished = misc-webpage,
+  url =          {http://senozon.com/de/produkte/via},
+}
+
+@MISC{senozonVIA_Webpage_2015,
+  AUTHOR =       {{senozon AG}},
+  YEAR =         {2015},
+  title =        {via~-- Visualization and Analysis Tool},
+  howpublished = misc-webpage,
+  url =          {http://senozon.com/products/via},
+}
+
+@MISC{senozonPVis_Webpage_2011,
+  AUTHOR =       {{senozon AG}},
+  YEAR =         {2011},
+  title =        {Graphical Analysis Tool},
+  howpublished = misc-webpage,
+  url =          {http://www.senozon.com/matsim/analysistool},
+}
+
+@MISC{SfSB_Webpage_2006,
+  AUTHOR =       {{SfSB}},
+  YEAR =         {2006},
+  title =        org-sfsb,
+  howpublished = misc-webpage,
+  url =          {http://www.stadtentwicklung.berlin.de},
+}
+
+@MISC{SingStat_Webpage_2010,
+  AUTHOR =       {{Department of Statistics}},
+  YEAR =         {2010},
+  title =        {Census of Population 2010 - Administrative Report},
+  howpublished = misc-webpage,
+  url =          {http://www.singstat.gov.sg/publications/publications-and-papers/population/census10_admin},
+}
+
+@MISC{SLAB_Webpage_2006,
+  AUTHOR =       {{SLAB}},
+  YEAR =         {2006},
+  title =        org-slab,
+  howpublished = misc-webpage,
+  url =          {http://www.statistik-berlin.de},
+}
+
+@MISC{SourceForge_Webpage_2006,
+  AUTHOR =       {{SourceForge}},
+  TITLE =        {Open Source Software Development Web Site},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  url =          {http://sourceforge.net},
+}
+
+@MISC{SourceForge_Webpage_2011,
+  AUTHOR =       {{SourceForge}},
+  TITLE =        {Open Source Software Development Web Site},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://sourceforge.net},
+}
+
+@MISC{SourceForge_Webpage_2013,
+  AUTHOR =       {{SourceForge}},
+  TITLE =        {Open Source Software Development Web Site},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://sourceforge.net},
+}
+
+@MISC{SourceForge_Webpage_2014,
+  AUTHOR =       {{SourceForge}},
+  TITLE =        {Open Source Software Development Web Site},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://sourceforge.net},
+}
+@MISC{SourceForge_Webpage_2015,
+  AUTHOR =       {{SourceForge}},
+  TITLE =        {Open Source Software Development Web Site},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://sourceforge.net},
+}
+
+@MISC{SRTM_Webpage_2012,
+  AUTHOR =       "org-nasa",
+  TITLE =        {{S}huttle {R}adar {T}opography {M}ission ({SRTM})},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  month =        feb,
+  url =          {http://www2.jpl.nasa.gov/srtm/},
+}
+
+@MISC{STATISTIK-ZH_Webpage_2006,
+  AUTHOR =       {{SAZH}},
+  YEAR =         {2006},
+  title =        org-sazh,
+  howpublished = misc-webpage,
+  url =          {http://www.statistik.zh.ch},
+}
+
+@MISC{STATISTIK-ZH_Webpage_2009,
+  AUTHOR =       {{SAZH}},
+  YEAR =         {2009},
+  title =        org-sazh,
+  howpublished = misc-webpage,
+  url =          {http://www.statistik.zh.ch},
+}
+
+@MISC{STRC_Webpage_2008,
+  AUTHOR =       {{STRC}},
+  TITLE =        {Swiss Transport Research Conference},
+  YEAR =         {2008},
+  howpublished = misc-webpage,
+  url =          {http://www.strc.ch/},
+}
+
+@MISC{Streetdirectory_2011,
+  AUTHOR =       {{Streetdirectory}},
+  TITLE =        {Streetdirectory {S}ingapore},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.streetdirectory.com.},
+  note =		{Accessed on 10/04/2011}
+}
+
+@MISC{Streetdirectory_2013,
+  AUTHOR =       {{Streetdirectory}},
+  TITLE =        {Streetdirectory {S}ingapore},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.streetdirectory.com.},
+  note =		{Accessed on 1/04/2012}
+}
+
+@MISC{StudioMobilita_Webpage_2015,
+  AUTHOR =       {{Studio Mobilita}},
+  TITLE =        {Studio Mobilita},
+  YEAR =         {2015},
+  howpublished = misc-webpage,
+  url =          {http://www.studio-mobilita.ch},
+  note =		 {Accessed on 10/08/2015}
+}
+
+
+@MISC{SUA_Webpage_2013,
+  AUTHOR =       {{Smart Urban Adapt}},
+  YEAR =         {2013},
+  month = 	apr,
+  title =        {The {Smart Urban Adapt} project},
+  howpublished = misc-webpage,
+  url =          {http://www.sua.ethz.ch},
+}
+
+@MISC{Survey_Webpage_current,
+  AUTHOR =       Lumley,
+  TITLE =        {Survey analysis in {R}},
+  YEAR =         {\the\year},
+  howpublished = misc-webpage,
+  url =          {http://faculty.washington.edu/tlumley/survey},
+  note =        {Accessed on 29/05/2012}
+}
+
+@MISC{SustainCity_Webpage_2011,
+  AUTHOR =       {{SustainCity}},
+  YEAR =         {2011},
+  title =        {The {SustainCity} project},
+  howpublished = misc-webpage,
+  url =          {http://www.sustaincity.org},
+}
+
+@MISC{SwissInfo_Webpage_2013,
+  AUTHOR =       {{Swissinfo.ch}},
+  YEAR =         {2013},
+  title =        {Commuters generate close-knit social network},
+  howpublished = misc-webpage,
+  url =          {http://www.swissinfo.ch/eng/science_technology/Commuters_generate_close-knit_social_network.html?cid=36615882},
+}
+
+@MISC{SwissRe_Interview_2012,
+  AUTHOR =       {{SwissRe}},
+  YEAR =         {2012},
+  title =        {{Challenges of resilience in the transport sector: Interview with Kay Axhausen, Federal Institute of Technology (ETH) Zurich,
+and Markus Reckling, Deutsche Post DHL}},
+  howpublished = misc-webpage,
+  pages = {22--29},
+  url =          {http://media.cgd.swissre.com/documents/Challenges_of_resilience_Risk_Dialogue_Series_Resilience.pdf},
+}
+
+@MISC{SwissOpenGovernmentData_Webpage_2013,
+  AUTHOR =       "org-sba",
+  YEAR =         {2013},
+  title =        {Swiss Open Government Data},
+  howpublished = misc-webpage,
+  url =          {http://opendata.admin.ch},
+}
+
+@MISC{Synthicity_Webpage_2013,
+  AUTHOR =       {{Synthicity}},
+  TITLE =        {{Synthicity}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  month =        nov,
+  url =          {http://www.synthicity.com/},
+}
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Tableau_Webpage_2013,
+  AUTHOR =       {{Tableau Software}},
+  YEAR =         {2013},
+  title =        {Tableau Desktop},
+  howpublished = misc-software,
+  url =          {http://www.tableausoftware.com/products/desktop},
+}
+
+@MISC{TA_ArtikelPW_2013,
+  AUTHOR =       {{Tagesanzeiger, Pia Wertheimer}},
+  YEAR =         {2013},
+  month = 	apr,
+  TITLE =        {{Weshalb es zum grössten Stau in Zürich kam}},
+  howpublished = {},
+  url =          {http://www.tagesanzeiger.ch/zuerich/stadt/Weshalb-es-zum-groessten-Stau-in-Zuerich-kam/story/15871972},
+}
+
+@MISC{TCS_Interview_2012,
+  AUTHOR =       {{Touring Club Schweiz}},
+  YEAR =         {2012},
+  month = 	mar,
+  TITLE =        {{Jeder kann einen Stau verursachen}},
+  howpublished = misc-webpage,
+  pages = {106--109},
+}
+
+@MISC{TCS_Software_2009,
+  AUTHOR =       {{Touring Club Schweiz}},
+  YEAR =         {2009},
+  TITLE =        {Kilometerkosten 2009},
+  howpublished = misc-software,
+}
+
+@MISC{TfL_Webpage_2006,
+  AUTHOR =       {{TfL}},
+  YEAR =         {2006},
+  title =        {{Transport for London - Congestion charging}},
+  howpublished = misc-webpage,
+  url =          {http://www.cclondon.com},
+}
+
+@MISC{TheAtlanticCities_Webpage_2013,
+  AUTHOR =       {{The Atlantic Cities}},
+  YEAR =         {2013},
+  title =        {{Now We Can Actually Count and Track the 'Familiar Strangers' in Our Lives}},
+  howpublished = misc-webpage,
+  url =          {http://www.theatlanticcities.com/commute/2013/07/now-we-can-actually-count-and-track-familiar-strangers-our-lives/6334/},
+}
+
+@MISC{TheAtlanticWire_Webpage_2013,
+  AUTHOR =       {{The Atlantic Wire}},
+  YEAR =         {2013},
+  title =        {{The 'Familiar Stranger' Is Your Friend}},
+  howpublished = misc-webpage,
+  url =          {http://www.theatlanticwire.com/national/2013/07/man-bus-your-familiar-stranger-heres-why-you-should-be-thankful-him/67503/},
+}
+
+@MISC{Thelma_Webpage_2013,
+  AUTHOR =       {{THELMA}},
+  YEAR =         {2013},
+  title =        {{Technology-centered Electric Mobility Assessment}},
+  howpublished = misc-webpage,
+  url =          {http://www.thelma-emobility.net/},
+}
+
+@MISC{TheStraitsTimes_Webpage_2013,
+  AUTHOR =       {{The Straits Times}},
+  YEAR =         {2013},
+  title =        {{Nothing random about 'familiar strangers': Study}},
+  howpublished = misc-webpage,
+  url =          {http://www.straitstimes.com/breaking-news/singapore/story/nothing-random-about-familiar-strangers-study-20130722},
+}
+
+@MISC{Topschools_Singapore_2011,
+  AUTHOR =       {{PAEXCO}},
+  YEAR =         {2011},
+  title =        {{Directory of top schools in Singapore}},
+  howpublished = misc-webpage,
+  url =          {http://singapore-top-schools.blogspot.com},
+  note =		{Accessed on 12/05/2011}
+}
+
+@MISC{TOP500_Overtime_2014,
+  AUTHOR =       {{TOP500}},
+  TITLE =        {Development over Time},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  month =        apr,
+  url =          {http://www.top500.org/statistics/overtime},
+  comment =      {Description of the performance development of supercomputers over time.},
+}
+
+@MISC{ToSamara_2015,
+  AUTHOR =       {{ToSamara }},
+  YEAR =         {2015},
+  title =        {The Transport Operator of {S}amara},
+  howpublished = misc-webpage,
+  url =          {http://www.tosamara.ru/},
+}
+
+@MISC{TRANSIMS_Webpage_2006,
+  AUTHOR =       {{TRANSIMS}},
+  TITLE =        {{TR}ansportation {AN}alysis and {SIM}ulation {S}ystem},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  month =        dec,
+  url =          {http://transims.tsasa.lanl.gov},
+}
+
+@MISC{TRANSIMS_Webpage_2007,
+  AUTHOR =       {{TRANSIMS}},
+  TITLE =        {{TRANSIMS Open Source Project Site}},
+  YEAR =         {2007},
+  howpublished = misc-webpage,
+  url =          {http://www.transims-opensource.net/},
+  note =         {accessed on 11/02/2011},
+}
+
+@MISC{TRANSIMS_Webpage_2009,
+  AUTHOR =       {{TRANSIMS}},
+  TITLE =        {{TR}ansportation {AN}alysis and {SIM}ulation {S}ystem},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://transims-opensource.org/},
+}
+
+@MISC{TRANSIMSSIMTRAVEL_Webpage_2013,
+  AUTHOR =       {{SimTRAVEL}},
+  TITLE =        {{TRANSIMS Application and Deployment}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://simtravel.wikispaces.asu.edu/TRANSIMS+Application+and+Deployment},
+}
+
+@MISC{TRANSIMSFHWA_Webpage_2013,
+  AUTHOR =       {{FHWA}},
+  TITLE =        {{TRANSIMS Background}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://www.fhwa.dot.gov/planning/tmip/resources/transims/},
+}
+
+@MISC{TRANSIMSOS_Webpage_2013,
+  AUTHOR =       {{TRANSIMS Open Source}},
+  TITLE =        {{Getting Started with TRANSIMS}},
+  YEAR =         {2013},
+  howpublished = misc-webpage,
+  url =          {http://code.google.com/p/transims/wiki/GettingStarted},
+}
+
+@MISC{TRANSIMSOS_Webpage_2017,
+  AUTHOR = {{TRANSIMS Open Source}},
+  TITLE = {{Getting Started with TRANSIMS}},
+  YEAR = {2017},
+  howpublished = {webpage},
+  url = {http://code.google.com/p/transims/wiki/GettingStarted},
+}
+
+
+
+@MISC{TransModeler_Webpage_2013,
+  AUTHOR =       {{Caliper}},
+  YEAR =         {2013},
+  title =        {TransModeler},
+  howpublished = misc-webpage,
+  url =          {http://www.caliper.com/transmodeler/},
+}
+
+
+@MISC{Transyt_Webpage_2014,
+  AUTHOR =       {{University of Florida}},
+  YEAR =         {2014},
+  title =        {{Traffic Network Study Tool (TRANSYT)}},
+  howpublished = misc-webpage,
+  url =          {http://mctrans.ce.ufl.edu/mct/?page_id=43},
+}
+
+@MISC{TRB_Webpage_2008,
+  AUTHOR =       {{National Academy of Sciences}},
+  YEAR =         {2008},
+  title =        {Transportation Research Board of the National Academies},
+  howpublished = misc-webpage,
+  url =          {http://www.trb.org/},
+}
+
+@MISC{TRLSoftware_Webpage_2014,
+  AUTHOR =       {{TRL Software}},
+  YEAR =         {2014},
+  title =        {{TRL Software}},
+  howpublished = misc-webpage,
+  url =          {https://www.trlsoftware.co.uk/},
+}
+
+@MISC{TSISCORSIM_Webpage_2013,
+  AUTHOR =       {{McTrans}},
+  YEAR =         {2013},
+  title =        {{Traffic Software Integrated System - Corridor Simulation}},
+  howpublished = misc-webpage,
+  url =          {http://mctrans.ce.ufl.edu/featured/tsis/},
+}
+
+@MISC{TSI_Webpage_2011,
+  AUTHOR =       {{Turkish Statistical Institute}},
+  TITLE =        {{Turkish Statistical Institute}},
+  YEAR =         {2011},
+  howpublished = misc-webpage,
+  url =          {http://www.turkstat.gov.tr/},
+}
+
+@MISC{Twitter_Webpage_2014,
+  AUTHOR =       {{Twitter}},
+  TITLE =        {{About Twitter}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {https://about.twitter.com/company},
+}
+
+@MISC{Twitter_FQ_2014,
+  AUTHOR =       {{Twitter}},
+  TITLE =        {{Twitter Reports First Quarter 2014 Results}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {https://investor.twitterinc.com/releasedetail.cfm?ReleaseID=843245},
+}
+
+@MISC{Tysons_Webpage_2014,
+  AUTHOR =       {{Fairfax County}},
+  TITLE =        {{Transforming Tysons}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://www.fairfaxcounty.gov/tysons},
+  note =         {accessed on 02/05/2014},
+}
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{UberPOOL_Webpage_2017,
+  AUTHOR =       {{Uber Technologies Inc.}},
+  TITLE =        {Share your ride and save with {uberPOOL}},
+  YEAR =         {2017},
+  url =          {http://www.uber.com/ride/uberpool/},
+}
+
+@MISC{UK_EWT_Calc_2007,
+  AUTHOR =       "uk.gov",
+  TITLE =        {Calculation of Excess Waiting Time(EWT): Example of Typical Scenario},
+  YEAR =         {2007},
+  url =          {http://clip.local.gov.uk/lgv/aio/36711},
+}
+
+@MISC{UN_CCTourism_2007,
+  AUTHOR =       "org-un",
+  TITLE =        {Climate Change and Tourism: Responding to Global Challenges},
+  YEAR =         {2007},
+  url =          {http://esa.un.org/marrakechprocess/pdf/davos_rep_advan_summ_26_09.pdf },
+}
+
+@MISC{UniBerkeley_Webpage_2009,
+  AUTHOR =       "uni-ca",
+  TITLE =        {Institute of {T}ransportation {S}tudies},
+  YEAR =         {2009},
+  howpublished = misc-webpage,
+  month =        may,
+  url =          {http://www.its.uci.edu/its/publications/casa.html},
+}
+
+@MISC{REALIS_Webpage_2011,
+  AUTHOR =       {{URA}},
+  YEAR =         {2011},
+  title =        {Real estate informations system {REALIS}},
+  howpublished = misc-webpage,
+  url =          {http://www.ura.gov.sg/realis/},
+  note =         {accessed on 29/03/2011},
+}
+
+
+@MISC{URA_Webpage_MP_2008,
+  AUTHOR =       {{Urban Redevelopment Authority}},
+  YEAR =         {2015},
+  title =        {Master {P}lan 2008},
+  howpublished = misc-webpage,
+  url =          {https://www.ura.gov.sg/maps/},
+}
+
+@MISC{UrbanSim_Webpage_2006,
+  AUTHOR =       {{UrbanSim}},
+  YEAR =         {2006},
+  title =        {A Software-Based Simulation Model for Integrated Planning and Analysis of Urban Development},
+  howpublished = misc-software,
+  url =          {http://www.urbansim.org},
+}
+
+@MISC{UrbanSim_Webpage_2010_acc,
+  AUTHOR =       {{UrbanSim}},
+  YEAR =         {2010},
+  title =        {{Open} {Platform} for {Urban} {Simulation}},
+  howpublished = misc-webpage,
+  url =          {http://www.urbansim.org},
+  note =         {accessed on 29/07/2010},
+}
+
+@MISC{UrbanSim_Webpage_2011,
+  AUTHOR =       {{UrbanSim}},
+  YEAR =         {2011},
+  title =        {{Open} {Platform} for {Urban} {Simulation}},
+  howpublished = misc-webpage,
+  url =          {http://www.urbansim.org},
+}
+
+@MISC{UrbanVision_Webpage_2012,
+  AUTHOR =       {{UrbanVision}},
+  YEAR =         {2012},
+  title =        {UrbanVision Home},
+  howpublished = misc-software,
+  url =          {http://www.cs.purdue.edu/cgvlab/urban/urbanvision-system.html},
+}
+
+@MISC{USDOT_Stat_2008,
+  AUTHOR =       "org-usdot",
+  TITLE =        {{National Transportation Statistics 2008}},
+  howpublished = misc-onlinearticle,
+  YEAR =         {2008},
+  url =          {},
+}
+
+@MISC{USDOT_Stat_2012,
+  AUTHOR =       "org-usdot",
+  TITLE =        {{National Transportation Statistics 2012}},
+  howpublished = misc-onlinearticle,
+  YEAR =         {2012},
+  url =          {},
+}
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Vaegverket_Webpage_2006,
+  AUTHOR =       {{Vägverket}},
+  YEAR =         {2006},
+  title =        {Trial Implementation of a Congestion Tax in {Stockholm}},
+  howpublished = misc-webpage,
+  url =          {http://www.vv.se/templates/page3____17154.aspx},
+}
+
+@MISC{Veledes_Webpage_2013,
+  AUTHOR =       {{Schweizerischer Verband der Lebensmittel-Detaillisten}},
+  TITLE =        {{veledes.ch}},
+  YEAR =         {2013},
+  url =          {http://www.veledes.ch/documents/Februar_2012_deutsch.pdf},
+}
+
+@MISC{VISSIM_Webpage_2006,
+  AUTHOR =       {{VISSIM}},
+  YEAR =         {2006},
+  title =        {{VISSIM}},
+  howpublished = misc-webpage,
+  month =        nov,
+  url =          {http://www.ptv.de/cgi-bin/traffic/graf_vissim.pl},
+}
+
+@MISC{VISUM_Webpage_2011,
+  AUTHOR =       "org-ptv",
+  YEAR =         {2011},
+  title =        {{VISUM}},
+  howpublished = misc-webpage,
+  url =          {http://www.ptvag.com/software/transportation-planning-traffic-engineering/software-system-solutions/visum/},
+}
+
+@MISC{VISUM_Webpage_2013,
+  AUTHOR =       "org-ptv",
+  YEAR =         {2013},
+  title =        {{VISUM}},
+  howpublished = misc-webpage,
+  url =          {http://vision-traffic.ptvgroup.com/en-us/products/ptv-visum/},
+}
+
+@MISC{VV_Webpage_2006,
+  AUTHOR =       {{Verwaltungs-Verlag}},
+  YEAR =         {2006},
+  howpublished = misc-webpage,
+  url =          {http://www.stadtplan.net},
+}
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{WalkScore_Webpage_2012,
+  AUTHOR =       {{Walk Score}},
+  TITLE =        {{Walk Score}},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  url =          {http://www.walkscore.com/},
+}
+
+@MISC{WalkScore_Webpage_2014,
+  AUTHOR =       {{Walk Score}},
+  TITLE =        {{Walk Score}},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  url =          {http://www.walkscore.com/},
+}
+
+@MISC{Westumfahrung_Webpage_2008,
+  AUTHOR =       "org-bdktzrh",
+  TITLE =        {{Bauprojekt Westumfahrung Zürich}},
+  YEAR =         {2008},
+  howpublished = misc-webpage,
+  url =          {http://www.westumfahrung.ch/},
+}
+
+@MISC{AlgDesign_Webpage_2012,
+  AUTHOR =       Wheeler,
+  TITLE =        {{AlgDesign}: Algorithmic Experimental Design. {R} package version 1.1-2},
+  YEAR =         {2012},
+  howpublished = misc-webpage,
+  url =          {http://CRAN.R-project.org/package=AlgDesign},
+}
+
+@MISC{WHO_ClimateChange_2010,
+  AUTHOR =       "org-who",
+  YEAR =         {2010},
+  title =        {Climate change and health},
+  howpublished = misc-webpage,
+  url =          {http://www.who.int/mediacentre/factsheets/fs266/en/index.html},
+}
+
+@MISC{WindowBuilder_Webpage_2014,
+  AUTHOR =       {{Eclipse}},
+  YEAR =         {2014},
+  title =        {{WindowBuilder}},
+  howpublished = misc-webpage,
+  url =          {http://www.eclipse.org/windowbuilder/},
+}
+
+@MISC{Wired_Webpage_2013,
+  AUTHOR =       {{Wired.co.uk}},
+  YEAR =         {2013},
+  title =        {{Study examines the role of 'familiar strangers' on public transport}},
+  howpublished = misc-webpage,
+  url =          {http://www.wired.co.uk/news/archive/2013-07/11/familiar-strangers-study},
+}
+
+@MISC{WohnungenNachBauperiode_Webpage_2011,
+  AUTHOR =       "org-sazh",
+  YEAR =         {2011},
+  title =        {Wohnungen nach Bauperiode},
+  howpublished = misc-webpage,
+  url =          {http://www.statistik.zh.ch/themenportal/themen/daten_detail.php?id=609&tb=3&mt=2},
+}
+
+@MISC{WohnungenNachEigentum_Webpage_2010,
+  AUTHOR =       "org-sazh",
+  YEAR =         {2010},
+  title =        {Wohnungen nach {E}igentumsverhältnissen},
+  howpublished = misc-webpage,
+  url =          {http://www.statistik.zh.ch/themenportal/themen/daten_detail.php?id=610&tb=3&mt=2},
+}
+
+@MISC{WohnungenNachEnergietraeger_Webpage_2011,
+  AUTHOR =       "org-sazh",
+  YEAR =         {2011},
+  title =        {Wohnungsbestand nach Energieträger},
+  howpublished = misc-webpage,
+  url =          {http://www.statistik.zh.ch/themenportal/themen/daten_detail.php?id=579&tb=3&mt=2},
+}
+
+@MISC{Wolfram_Webpage_2012,
+  AUTHOR =       {{WolframAlpha}},
+  YEAR =         {2012},
+  title =        {Wolfram|Alpha: Computational Knowledge Engine},
+  howpublished = misc-webpage,
+  url =          {www.wolframalpha.com},
+}
+
+@MISC{WorldBank_Webpage_2013,
+  AUTHOR =       "org-wb",
+  YEAR =         {2013},
+  title =        {World Bank Data},
+  howpublished = misc-webpage,
+  url =          {http://data.worldbank.org},
+}
+
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@MISC{Yandex_2013,
+  AUTHOR =       {{Yandex Company}},
+  YEAR =         {2013},
+  title =        {Traffic jams in {R}ussian cities},
+  howpublished = misc-webpage,
+  url =          {https://company.yandex.ru/researches/reports/2013/city_jams/city_jams_2013.xml},
+}
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MISC{Zensus_2011,
+  AUTHOR =       {{Statistisches Bundesamt}},
+  TITLE =        {Zensus 2011},
+  YEAR =         {2014},
+  howpublished = misc-webpage,
+  month =        dec,
+  url =          {https://www.zensus2011.de/DE/Home/home_node.html},
+}
+
+
+@MISC{ZHQuartierspiegel_2012,
+  AUTHOR =       {{Stadt Zürich Präsidialdepartement, Statistik Stadt Zürich}},
+  YEAR =         {2011},
+  title =        {Quartierspiegel {G}esamtreihe aller 34 {S}tadtquartiere},
+}
+
+@MISC{PreiseMietenRenditen_ZKB_2004,
+  AUTHOR =       {{ZKB}},
+  YEAR =         {2004},
+  title =        {Preise, {M}ieten und {R}enditen},
+  howpublished = misc-webpage,
+  url =          {https://www.zkb.ch/etc/ml/repository/prospekte_und_broschueren/corporate/studien/studie_immomarkt_transparent_pdf.File.pdf},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

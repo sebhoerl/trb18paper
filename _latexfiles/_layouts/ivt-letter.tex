@@ -1,0 +1,72 @@
+\providecommand\mypath[3]{}
+
+
+\providecommand{\mydocumentclass}{
+	\documentclass[
+	pagenumber=F, % Removes page numbers from page 2 onwards when false
+	parskip=half, % Separates paragraphs with some whitespace, use parskip=full for more space or comment out to return to default
+	fromalign=right, % Aligns the from address to the right
+	foldmarks=true, % Prints small fold marks on the left of the page
+	addrfield=true, % Set to false to hide the addressee section - you will then want to adjust the height of the body of the letter on the page by adding the following in this section: \makeatletter \@setplength{refvpos}{\useplength{toaddrvpos}} \makeatletter
+	firsthead=true,
+	fromlogo=true
+	]{scrlttr2}
+}
+\mydocumentclass
+
+
+%\input{\mypath../_latexfiles/_layouts/_font-times}
+%\input{\mypath../_latexfiles/_layouts/_packages}
+    \usepackage{courier}
+    
+\providecommand{\myheadinglogos}{%
+	\begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}%
+		\includegraphics[width=2.5in]{\mypath../_latexfiles/logos/ivt-logo-crop} & \includegraphics[height=0.27in]{\mypath../_latexfiles/logos/eth-logo-short} \\
+	\end{tabular*}}   
+
+%\providecommand{\myheaderfooterdef}{
+%	\usepackage{scrpage2}%
+%	\clearscrheadfoot%
+%	\automark[section]{chapter}%
+%	\renewcommand{\headrulewidth}{}%
+%	\ohead{\slshape \footnotesize \squelch{\wordmonth~\myyear}}%
+%	\ihead{\providecommand{\myheadinglogos}{\myheadinglogos}\slshape \footnotesize \squelch{\myheadinglogos}}%
+%	\ihead[\providecommand{\myheadinglogos}{\myheadinglogos}\slshape\footnotesize \squelch{\myheadinglogos}]{\providecommand{\myheadinglogos}{\myheadinglogos}\slshape\footnotesize \squelch{\myheadinglogos}}%
+%	\cfoot[    \sffamily \footnotesize\thepage]{    \sffamily \footnotesize\squelch{\thepage}}%
+%	\ofoot[    \sffamily \slshape \footnotesize \squelch{ID 000000 (Platzhalter)}]{    \sffamily \slshape \footnotesize \squelch{ID 000000 (Platzhalter)}}%
+%	%\ifoot[    \sffamily \slshape \footnotesize \squelch{\leftmark}]{    \sffamily \slshape \footnotesize \squelch{\leftmark-\rightmark}}%
+%	\setlength{\headheight}{1.33\baselineskip}%
+%	
+%	%% compatibility to old generic template:
+%	\setheadsepline{0.5pt}[\vspace{-2pt}]%
+%	\addtolength{\topmargin}{-6pt}
+%	\addtolength{\headsep}{20pt}
+%	\addtolength{\textheight}{12pt}
+%	\addtolength{\footskip}{-12pt}
+%}
+%\providecommand{\mypagestyle}{scrheadings}%
+
+%\providecommand{\myheaderfooterdef}{
+	%\usepackage{scrpage2}%
+	%\clearscrheadfoot%
+	%\ohead{\slshape \footnotesize \squelch{\wordmonth~\myyear}}%
+	%\ihead{\providecommand{\myheadingstitle}{\mytitle}\slshape \footnotesize \squelch{\myheadingstitle}}%
+	%\cfoot[\footnotesize\pagemark]{\footnotesize \squelch{\pagemark}}%
+	%\ofoot{ID}%
+	%\ifoot{ID}%
+	%\setheadsepline{0.5pt}%
+	%\setlength{\headheight}{1.33\baselineskip}%
+	
+	%% compatibility to old generic template:
+%	\setheadsepline{0.5pt}[\vspace{-2pt}]%
+%	\addtolength{\topmargin}{-6pt}
+%	\addtolength{\headsep}{4pt}
+%	\addtolength{\textheight}{12pt}
+%	\addtolength{\footskip}{-12pt}
+%}
+
+%\providecommand{\mypagestyle}{scrheadings}%
+
+%\myheaderfooterdef
+
+%\input{\mypath../_latexfiles/_layouts/ivt-generic}

@@ -1,0 +1,22 @@
+% !TeX encoding = usascii
+% Prepare to get rid of \mypath one day
+\providecommand\mypath[3]{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% $Id$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% TRR FIGURE EXTRACTION PAPER LAYOUT
+%% Date: 2014-02-26
+%% author:
+%%   Kirill M\"uller, kirill.mueller@ivt.baug.ethz.ch
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\figurecaptionandcontents}[2]{#2}
+\newcommand{\tablecaptionandcontents}[2]{#2}
+\newcommand{\figurecontentsafter}{\end{\figurecontentsenv}}
+\newcommand{\tablecontentsafter}{\end{\tablecontentsenv}}
+\def\ivtnofixltx{\relax}
+\input{\mypath../_latexfiles/_layouts/trr-preview}
+\usepackage[active,psfixbb,floats,tightpage]{preview}

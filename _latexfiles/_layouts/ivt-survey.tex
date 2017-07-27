@@ -1,0 +1,235 @@
+% !TeX encoding = UTF-8
+% Prepare to get rid of \mypath one day
+\providecommand\mypath[3]{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Survey Questionnaire Design
+%% Date: 2016-10-03
+%% author:Ilka Dubernet, ehrekei@ethz.ch
+%%
+%% based on http://www.qdds.org/fileadmin/files/Documentation_en_paper%2Bpencil.pdf
+%% & ivt-generic template by Kirill Mueller
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\mydocumentclass}{
+  \ifdefined\wcFileName
+    \documentclass[xcolor=dvipsnames,a4paper,12pt,fleqn,titlepage,onecolumn,oneside,final,numbers=noenddot]{scrreprt}
+  \else
+    \documentclass[xcolor=dvipsnames,a4paper,12pt,fleqn,titlepage,onecolumn,oneside,final,numbers=noenddot,parskip=full]{scrreprt}
+  \fi
+}
+
+\newcommand{\figurecaptionandcontents}[2]{#2#1}
+\newcommand{\tablecaptionandcontents}[2]{#1#2}
+\newcommand{\figurerule}{}
+%\newcommand{\myheaderfooterdef}{}
+%\newcommand{\mypagestyle}{plain}
+%\newcommand{\mytitlefigureboxheight}{8cm}
+%\newcommand{\mytitlepagedate}{}
+%\newcommand{\myinterninstitutionforabstract}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Titlepage definition
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\providecommand{\createtitlepage}{
+    \pagenumbering{arabic}%
+    \setcounter{page}{0}%
+    \providecommand{\mysubtitle}{}%
+    \begin{titlepage}
+        \setlength{\parfillskip}{0cm plus 30cm}
+        \mytitlepagefontcommand
+        \hrule
+        \noindent\parbox[][\mytitlefigureboxheight][c]{\textwidth}{
+            \ifdefined\mytitletext
+            \begin{center}\mytitletext\end{center}%
+            \else
+            \ifthenelse
+            {\equal{\mytitlefigure}{}}
+            {}
+            {\begin{center}\includegraphics[width=\textwidth,totalheight=9cm,keepaspectratio=true]{\mytitlefigure}\end{center}}
+            \fi
+        }
+        \vspace{0.1in}
+      
+        \hrule
+        
+        \vspace{0.2in}
+        
+        \begin{singlespace}
+            \noindent\LARGE\textbf{\mytitle}
+            
+            \ifthenelse{\equal{\mysubtitle}{}}
+            {}
+            {\Large\textbf{\mysubtitle}}
+        \end{singlespace}
+        
+        \vspace{0.3in}
+        
+        %    \noindent\parbox[][3cm][l]{\textwidth}{
+        %      \large\textbf{\internauthorlist}
+        %    }
+        
+        
+        \vfill
+        %\vspace{2.5in}
+        
+        \noindent
+        \begin{singlespace}
+            \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+                \myinternpapertypeandnumber
+                \textbf\interninstitution & \textbf\mytitlepagedate \\
+            \end{tabular*}
+        \end{singlespace}
+        
+        \vspace{0.25in}
+        
+        \mylogos
+    \end{titlepage}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Abstract definition
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\providecommand{\createabstract}[1]{%
+%    {
+%        % hack required for more than one invocation of \createabstract
+%%        \ifdefined\abstractpagenumber
+%%        \pagenumbering{arabic}%
+%%        \setcounter{page}{\abstractpagenumber}
+%%        \fi
+%        \setlength{\parfillskip}{0cm plus 30cm}
+%        \ifne\myinterninstitutionforabstract{
+%            \noindent%
+%            \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}
+%                \myinterninstitutionforabstract
+%            \end{tabular*}
+%            
+%            \vspace{0.25in}
+%        }%
+%        %\noindent\textbf{\mytitlepagefontcommand\Large\mytitle}
+%        
+%        \providecommand{\mysubtitle}{}
+%        \ifne{\mysubtitle}{\noindent\textbf{\mytitlepagefontcommand\mysubtitle}}
+%        
+%        \begin{singlespace}
+%            \providecommand{\mynumaddresscolumns}{3}%
+%            \ifthenelse{\equal{\mynumaddresscolumns}{1}}{%
+%                \raggedright%
+%                \internmakeonecolumn{\myfirstaddress}%
+%                \internmakeonecolumn{\mysecondaddress}%
+%            }{%
+%            \ifthenelse{\equal{\mynumaddresscolumns}{2}}{%
+%                \raggedright%
+%                \internmaketwocolumns{\myfirstaddress}{\mysecondaddress}%
+%                \internmaketwocolumns{\mythirdaddress}{\myfourthaddress}%
+%            }{%
+%            \ifthenelse{\equal{\mynumaddresscolumns}{3}}{%
+%                \raggedright%
+%                \internmakethreecolumns{\myfirstaddress}{\mysecondaddress}{\mythirdaddress}%
+%                \internmakethreecolumns{\myfourthaddress}{\myfifthaddress}{\mysixthaddress}%
+%            }{%
+%            !WRONG_NUMADDRESSCOLUMNS!
+%        }}}%
+%    \end{singlespace}
+%    
+%    %\noindent\wordmonth~\myyear
+%    
+%    \ifne{#1}{
+%        \vspace{0.25in} \noindent %\textbf{\sffamily\Large \abstractname}
+%        
+%        \begin{singlespace}
+%            #1
+%        \end{singlespace}
+%    }
+%    
+%    \vfill
+%    
+%    \ifthenelse{\equal{\internkeywords}{}}{}{
+%        \vspace{0.25in} \noindent \textbf{\sffamily\Large \wordkeywords} \\
+%        \internkeywords
+%    }
+%    
+%    \myinterncitation
+%
+%}
+% \eject%
+% 
+% % hack required for more than one invocation of \createabstract
+% \edef\abstractpagenumber{\number\value{page}}
+% % don't assume user interaction
+% %\pagenumbering{arabic}%
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Header and footer definition:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+\providecommand{\myheadinglogos}{%
+    \begin{tabular*}{\textwidth}{@{}l@{\extracolsep{\fill}}r@{}}%
+        \includegraphics[width=2.5in]{\mypath../_latexfiles/logos/ivt-logo-crop} & \includegraphics[height=0.27in]{\mypath../_latexfiles/logos/eth-logo-short} \\
+    \end{tabular*}}
+
+\providecommand{\myheaderfooterdef}{
+    \usepackage{scrpage2}%
+    \clearscrheadfoot%
+    \automark[section]{chapter}%
+    %\renewcommand{\headrulewidth}{}%
+    %\ohead{\slshape \footnotesize \squelch{\wordmonth~\myyear}}%
+    %\ihead{\providecommand{\myheadinglogos}{\myheadinglogos}\slshape \footnotesize \squelch{\myheadinglogos}}%
+    \ihead[\providecommand{\myheadinglogos}{\myheadinglogos}\slshape\footnotesize \squelch{\myheadinglogos}]{\providecommand{\myheadinglogos}{\myheadinglogos}\slshape\footnotesize \squelch{\myheadinglogos}}%
+    \cfoot[    \sffamily \footnotesize\thepage/\pageref{LastPage}]{    \sffamily \footnotesize\squelch{\thepage/\pageref{LastPage}}}%
+    \ofoot[    \sffamily \slshape \footnotesize \squelch{ID 000000 (Platzhalter)}]{    \sffamily \slshape \footnotesize \squelch{ID 000000 (Platzhalter)}}%
+    \ifoot[    \sffamily \slshape \footnotesize \squelch{\leftmark}]{    \sffamily \slshape \footnotesize \squelch{\rightmark}}%
+    \setlength{\headheight}{1.33\baselineskip}%
+    
+    %% compatibility to old generic template:
+    %\setheadsepline{0.5pt}[\vspace{-2pt}]%
+    \addtolength{\topmargin}{-6pt}
+    \addtolength{\headsep}{20pt}
+    \addtolength{\textheight}{12pt}
+    \addtolength{\footskip}{-12pt}
+}
+\providecommand{\mypagestyle}{scrheadings}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{\mypath../_latexfiles/_layouts/ivt-generic}
+
+%%%%%%%%%%%% further definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% packages needed
+\usepackage{color}
+\usepackage{longtable}
+\usepackage{amssymb}
+\usepackage{authblk}
+\usepackage{natbib}
+\usepackage{tabto}
+\usepackage{paperandpencil-ivt}
+\usepackage{lastpage}
+\usepackage{sectsty}
+\usepackage{xcolor}
+\usepackage{colortbl}
+
+%\singlespacing
+\geometry{a4paper,left=2cm,right=2cm,top=2.5cm,bottom=2.5cm}
+
+%% no numbering headlines
+\setcounter{secnumdepth}{-1}
+
+%%% color headings
+\definecolor{ethblue}{RGB}{0,105,180}
+
+
+\chapterfont{\color{ethblue}}
+\sectionfont{\color{ethblue}}
+\subsectionfont{\color{ethblue}}
+
+
+
+%%% table row heigth
+\renewcommand{\arraystretch}{1.8}
+\raggedbottom
+\input{\mypath../_latexfiles/_layouts/_font-times}

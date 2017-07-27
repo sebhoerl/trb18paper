@@ -1,0 +1,1693 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  RESEARCHREPORT
+%   A report of a research project with a client and institutions who
+%   worked for that project.
+%  NOTE:
+%   3. Research projects include
+%      - AUTHOR(s), TITLE, INSTITUTION(s), YEAR, TPYE, CLIENT, resprogram, number, month, address, url, note
+%      - The INSTITUTIONS are those who work for the project
+%      - The CLIENT (Auftraggeber) gave the money
+%      - The resprogram defines for which project the CLIENT gave
+%        the money and the INSTITUTIONS worked at.
+%      - Example:
+%        Vrtic, M., N. Schuessler, A. Erath, K.W. Axhausen, E. Frejinger,
+%        J. Stojanovic, M. Bierlaire, R. Rudel and R. Maggi                     (AUTHOR(s))
+%        (2006)                                                                 (YEAR)
+%        Einbezug von Reisekosten bei der Modellierung des Mobilitätsverhalten, (TITLE)
+%        final report                                                           (TYPE)
+%        for SVI research programm Mobility Pricing: Projekt B1,                (resprogram)
+%        Eidgenössisches Departement für Umwelt, Verkehr,
+%        Energie und Kommunikation and Bundesamt für Strassen,                  (CLIENT)
+%        IVT ETH Zurich, ROSO EPF Lausanne and IRE USI Lugano.                  (INSTITUTION(s))
+%  NOTE (for bibtex specialitst only):
+%   resprogram is not a standard entry.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  KEY-DEFINITION:
+%      (Author1|Author1Author2|Author1EtAl)_ResRep_(ClientAcronym)_(YEAR|forth)[_(INDEX)]
+%    Example:
+%      VrticEtAl_ResRep_SVI_2005,
+%  AUTHOR
+%    Must be crossrefs of authors given in the author.txt (add it there,
+%    if one is missing)
+%    Example:
+%      AUTHOR =      Axhausen # and # Beige # and # Bernard,
+%  TITLE
+%    Write the title in "Title-Style", the bib-style converts it.
+%    If there are Characters which MUST be written as defined
+%    (i.e. all-caps or no caps), then set those characters in
+%    additional curly brackets.
+%    Example:
+%      TITLE =       {{E}rmittlung eines optimalen {G}rnbandes auf {H}auptverkehrsstrassen},
+%  CLIENT
+%    Must be crossrefs to the organization given in the
+%    translations.txt file (add it there if it is missing)
+%    Example:
+%      CLIENT = org-bfs,
+%    Note (for bibtex specialitst only): CLIENT is not a standard
+%      attribute.
+%  INSTITUTION
+%    Must be crossrefs to the organizations given in the
+%    translations.txt file (add it there if it is missing)
+%    Example:
+%      INSTITUTION = uni-oxford-tsu # comma # uni-oxford,
+%  YEAR
+%    Either the year of publication or set the crossref to "in press"
+%    translations.txt file
+%    Example:
+%      YEAR =        {1981},
+%  TYPE
+%    Add the type of report here. Use the crossrefs given in
+%    translations.txt file (add it there if it is missing)
+%    Example:
+%      type =        rep-resrep,
+%  resprogram
+%    Optional: the research program for which the report is written
+%    Example:
+%      number =      {SVI research programm Mobility Pricing: Projekt B1},
+%    Note (for bibtex specialitst only): resprogram is not a standard
+%      attribute.
+%  number
+%    Optional: Add a number if exists.
+%    Example:
+%      number =      {123},
+%  address
+%    Optional: Must be crossrefs to the adresses given in the
+%    translations.txt file (add it there if it is missing)
+%    Example:
+%      address =      dusseldorf,
+%  month
+%    Optional: Must be crossrefs to the month given in the
+%    translations.txt file
+%    Example:
+%      month =        feb,
+%  url
+%    Optional: Add an url.
+%    Example:
+%      url =          {http://www.aamas2004.org/},
+%  comment
+%    Optional: add any comment you want
+%    Example:
+%      comment =      {balmermi: this is a very good report.},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{RESEARCHREPORT-AUTHOR_ResRep_ClientAcronym_YEAR_INDEX,
+  AUTHOR =      {RESEARCHREPORT-AUTHOR},
+  TITLE =       {{TITLE}},
+  CLIENT =      {{CLIENT}},
+  INSTITUTION = {INSTITUTION},
+  YEAR =        {0000},
+  TYPE =        {TYPE},
+  resprogram =  {resprogram},
+  number =      {number},
+  address =     {address},
+  month =       {month},
+  url =         {url},
+  comment =     {{comment}},
+}
+
+@RESEARCHREPORT{RESEARCHREPORT-AUTHOR_ResRep_Datapuls_0001,
+  AUTHOR =      {RESEARCHREPORT-AUTHOR},
+  TITLE =       {A Research Report with All Information},
+  CLIENT =      org-datapuls,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {0001},
+  TYPE =        rep-finalrep,
+  resprogram =  {F\&E Förderung: Science to Market},
+  number =      {1234},
+  address =     zurich,
+  month =       jan,
+  url =         {http://www.a-url.org/whatever},
+  comment =     {This is just a comment for that reference.},
+}
+
+@RESEARCHREPORT{RESEARCHREPORT-AUTHOR_ResRep_ARE_0001,
+  AUTHOR =      {RESEARCHREPORT-AUTHOR},
+  TITLE =       {Minimal Version of a Reseach Report},
+  CLIENT =      org-are,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {0001},
+  TYPE =        rep-resrep,
+}
+
+@RESEARCHREPORT{RESEARCHREPORT-AUTHOR_ResRep_ARE_forth,
+  AUTHOR =      {RESEARCHREPORT-AUTHOR},
+  TITLE =       {A Research Report in press},
+  CLIENT =      org-are,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        forth,
+  TYPE =        rep-resrep,
+  resprogram =  {A reseach program},
+  address =     zurich,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  End of Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Items:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of TODO Items
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RESEARCHREPORT Entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{AbayAxhausen_ResRep_2000,
+	AUTHOR =  Abay # and # Axhausen,
+	TITLE= {{Zeitkostenansätze im Personenverkehr: Vorstudie}},
+	YEAR= 2000,
+	TYPE= rep-schriftenreihe,
+	NUMBER= {2000/42},
+	ADDRESS= bern,
+	INSTITUTION= org-uvek,
+	CLIENT= org-svi,
+
+
+}
+
+@RESEARCHREPORT{Abay_ResRep_NFP_1999,
+  AUTHOR =      Abay,
+  TITLE =       {{Nachfrageabschätzung Swissmetro: Eine Stated-Preference Analyse}},
+  CLIENT =      org-snf,
+  INSTITUTION = org-abay,
+  YEAR =        {1999},
+  TYPE =        rep-resrep,
+  resprogram =  {{Nationales Forschungsprogramm 41: Verkehr und Umwelt}},
+  number =      {{F1}},
+  address =     bern,
+}
+
+@RESEARCHREPORT{AccentHague_ResRep_DETR_1999,
+  AUTHOR =      "org-accent" # and # "org-hague",
+  TITLE =       {The {V}alue of {T}ravel {T}ime on {UK} Roads},
+  CLIENT =      org-detr,
+  INSTITUTION =   "org-accent" # comma # "org-hague",
+  YEAR =        {1999},
+  TYPE =        rep-resrep,
+  address= london,
+}
+
+
+
+@RESEARCHREPORT{ADM_ResRep_2012,
+  AUTHOR =      {{ADM Arbeitskreis Deutscher Markt- und Sozialforschungsinstitute e.V.}} ,
+  TITLE =       {{Dual-Frame-Ansätze 2011/ 2012 - Forschungsbericht}},
+  YEAR =        {2012},
+  TYPE =        rep-resrep,
+  INSTITUTION=	org-adm,
+  CLIENT =	org-adm,
+  url =         {http://www.adm-ev.de/fileadmin/user_upload/PDFS/ADM_Dual_Frame_Projekt_-_Forschungsbericht.pdf},
+}
+
+@RESEARCHREPORT{AlbrechtLuetolfWaltert_ResRep_VSS_1998,
+  AUTHOR =      Albrecht # and # Luetolf # and # Waltert,
+  TITLE =       {{Verkehrskennwerte von Einkaufszentren: Verkehrsaufkommen, Parkfelder und Verkehrsflächen}},
+  CLIENT =      {Schweizerischer Verband der Strassen- und Verkehrsfachleute (VSS)},
+  INSTITUTION = {Albrecht \& Partner AG},
+  YEAR =        {1998},
+  TYPE =        rep-resrep,
+  number =      {{VSS 7/95}},
+  address =     lucerne,
+}
+
+@RESEARCHREPORT{AlgersEtAl_ResRep_EC_1998,
+  AUTHOR =      Algers # and # Bernauer # and # Boero # and # Breheret # and # DiTaranto # and # DoughertyM # and # FoxK # and # Gabard,
+  TITLE =       {A Review of Micro-Simulation Models},
+  CLIENT =      org-ec,
+  INSTITUTION = uni-leeds-its # comma # uni-leeds,
+  YEAR =        {1998},
+  TYPE =        rep-resrep,
+  resprogram =  {Smartest: Transport {RTD} Programme of the 4th Framework Programme},
+  address =     leeds,
+}
+
+@RESEARCHREPORT{AnableEtAl_ResRep_DFT_2006,
+  AUTHOR =      Anable # and # Lane # and # Kelay,
+  TITLE =       {Evidence Base review of public attitudes to climate change and travel behaviour},
+  CLIENT =      org-dft,
+  INSTITUTION = uni-rgu-ctp # comma # uni-rgu # comma # org-etcons # and # uni-sur-eprg # comma # uni-sur,
+  YEAR =        {2006},
+  TYPE =        rep-resrep,
+  address =     aberdeen # comma # bristol # and # guildford,
+  month =       jul,
+}
+
+@RESEARCHREPORT{AutoSchweiz_ResRep_UVEK_1999,
+  AUTHOR =      Blessing # and # Burgener,
+  TITLE =       {{13. Berichterstattung im Rahmen der Energieverordnung über die Absenkung des spezifischen Treibstoff-Normverbrauchs von Personenwagen 2008}},
+  CLIENT =      org-uvek,
+  INSTITUTION = org-autoschweiz,
+  YEAR =        {2008},
+  address =     bern,
+  url =         {http://www.auto-schweiz.ch/cms/dcs/users/2/Bericht2008de.pdf},
+}
+
+@RESEARCHREPORT{AutoSchweiz_ResRep_UVEK_2008,
+  AUTHOR =      Blessing # and # Burgener,
+  TITLE =       {{13. Berichterstattung im Rahmen der Energieverordnung über die Absenkung des spezifischen Treibstoff-Normverbrauchs von Personenwagen 2008}},
+  CLIENT =      org-uvek,
+  INSTITUTION = org-autoschweiz,
+  YEAR =        {2008},
+  address =     bern,
+  url =         {http://www.auto-schweiz.ch/cms/dcs/users/2/Bericht2008de.pdf},
+}
+
+@RESEARCHREPORT{AxhausenKoenig_ResRep_2002,
+	AUTHOR =  Axhausen # and # Koenig,
+	TITLE= {Zuverlässigkeit als Entscheidungsvariable (Vorstudie), Schlussbericht SVI 44/00},
+	YEAR= 2002,
+	TYPE= rep-schriftenreihe,
+	NUMBER= 1039,
+	ADDRESS= bern,
+	INSTITUTION= org-uvek,
+	CLIENT= org-uvek,
+
+
+}
+
+@RESEARCHREPORT{Axhausenl_ResRep_DFG_1989,
+  AUTHOR =      Axhausen,
+  TITLE =       {{Ortskenntnis und Parkplatzwahlverhalten}},
+  CLIENT =      org-dfg,
+  INSTITUTION = uni-karlsruhe-ifv # comma # uni-karlsruhe,
+  YEAR =        {1989},
+  type =        rep-resrep,
+  address =     karlsruhe,
+}
+
+%%scnadine: This is a research report with a client - the ARE. I moved it here, included the client but left the key because the reference is otherwise fine
+@RESEARCHREPORT{AxhausenEtAl_TechRep_ARE_2004,
+  AUTHOR =      Axhausen # and # Beige # and # Bernard,
+  TITLE =       {{Grundlagenbericht für die Perspektiven des Schweizer Personenverkehrs bis 2030. Prognose ber Besitz und Nutzenintensität von Mobilitätswerkzeugen im Personenverkehr}},
+  CLIENT =      org-are,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2004},
+  type =        rep-resrep,
+  address =     bern,
+}
+
+@RESEARCHREPORT{AxhausenLoder_ResRep_ARE_2016,
+  AUTHOR =      Axhausen # and # Loder,
+  TITLE =       {Fahrausweisbesitz in verschiedenen Befragungskontexten},
+  CLIENT =      org-are,
+  INSTITUTION = org-are,
+  YEAR =        {2016},
+  TYPE =        rep-finalrep,
+  address =     bern,
+  url =         {},
+}
+
+@RESEARCHREPORT{AxhausenEtAl_ResRep_BMVI_2015,
+  AUTHOR =      Axhausen # and # Ehreke # and # Glemser # and # Hess # and # Joedden # and # Nagel # and # Sauer # and # Weis,
+  TITLE =       {{Ermittlung von Bewertungsansätzen für Reisezeiten und Zuverlässigkeit auf Basis der Schätzung eines Modells für modale Verlagerungen im nicht-gewerblichen und gewerblichen Personenverkehr für die Bundesverkehrswegeplanung: FE-Projekt 96.996/2011 Zeitkosten Personenverkehr}},
+  CLIENT =      org-bmvi,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2015},
+  TYPE =        rep-resrep,
+  address =     berlin,
+  url =         {},
+}
+
+@RESEARCHREPORT{AxhausenEtAl_ResRep_ETH_2015,
+  AUTHOR =      Axhausen # and # Horni # and # Herrmann,
+  TITLE =       {{The Risk for a Gridlock and the Macroscopic Fundamental Diagram}},
+  CLIENT =      uni-ethz,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2015},
+  TYPE =        rep-finalrep,
+  number =	{},
+  address =     zurich,
+  url =         {http://dx.doi.org/10.3929/ethz-a-010433547},
+}
+
+@RESEARCHREPORT{AxhausenEtAl_ResRep_SBBLab_2015,
+  AUTHOR =      Axhausen # and # Bischof # and # Fuhrer # and # Neuenschwander # and # Sarlas # and # WalkerP,
+  TITLE =       {{Gesamtwirtschaftliche Effekte des öffentlichen Verkehrs mit besonderer Berücksichtigung der Verdichtungs- und Agglomerationseffekte}},
+  CLIENT =      uni-sg-sbblab,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz # and # org-ecoplan,
+  YEAR =        {2015},
+  TYPE =        rep-finalrep,
+  address =     zurich # and # bern,
+  url =         {http://www.ivt.ethz.ch/ivt/vpl/publications/reports#1079},
+}
+
+@RESEARCHREPORT{AxhausenEtAl_ResRep_SNF_2015,
+  AUTHOR =      Axhausen # and # Boesch # and # Ciari # and # Schmid,
+  TITLE =       {{Autonomous Cars -- The next revolution in mobility}},
+  YEAR =        {2015},
+  TYPE =        rep-projpro,
+  CLIENT =      org-snf,
+  INSTITUTION = org-snf,
+  address =     bern,
+  url =         {http://www.ivt.ethz.ch/vpl/publications/reports#1067},
+}
+
+
+@RESEARCHREPORT{AxhausenEtAl_ResRep_UVEK_2015,
+  AUTHOR =      Axhausen # and # Jaeggi # and # Dobler,
+  TITLE =       {{Bemessungsverkehrsstärken: Ein neuer Ansatz}},
+  CLIENT =      org-vss,
+  INSTITUTION = {{UVEK}},
+  YEAR =        {2015},
+  TYPE =        rep-finalrep,
+  number =      {},
+  address =     bern,
+  url =         {http://www.ivt.ethz.ch/ivt/vpl/publications/reports#1051},
+}
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{BVUEtAl_ResRep_2009,
+	AUTHOR =  {BVU} # and # {ITP} # and # {planco},
+	TITLE= {{Aktualisierung von Bewertungsansätzen für Wirtschaftlichkeitsuntersuchungen in der Bundesverkehrswegeplanung, Schlussbericht für das BMVBS}},
+	YEAR= 2009,
+	TYPE= rep-finalrep,
+	INSTITUTION = {BVU} # comma # {ITP} # comma # {planco},
+	CLIENT=org-bmvbs,
+
+
+}
+@RESEARCHREPORT{BaierEtAl_ResRep_BAST_2000,
+  AUTHOR =      Baier # and # Hebel # and # Peter # and # Schaefer,
+  TITLE =       {{Gesamtwirkungsanalyse zur Parkraumbewirtschaftung}},
+  CLIENT =      {{Bundesamt für Strassenwesen (BAST)}},
+  INSTITUTION = {{Büro für Stadt- und Verkehrsplanung Dr.Ing. Reinhold Baier GmbH}},
+  YEAR =        {2000},
+  TYPE =        rep-resrep,
+  address =     aachen,
+}
+
+@RESEARCHREPORT{BalmerEtAl_ResRep_bdktzrh_2009,
+  AUTHOR =      Balmer # and # Horni # and # Meister # and # Ciari # and # Charypar # and # Axhausen,
+  TITLE =       {{Wirkungen der Westumfahrung Zürich: Eine Analyse mit einer Agenten-basierten Mikrosimulation}},
+  CLIENT =      org-bdktzrh,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2009},
+  TYPE =        rep-finalrep,
+  address =     zurich,
+  month =       feb,
+  url =         {http://www.ivt.ethz.ch/vpl/publications/reports/ab550.pdf},
+}
+
+@RESEARCHREPORT{BaranziniEtAl_ResRep_BFE_2009,
+  AUTHOR =      Baranzini # and # Neto # and # Weber,
+  TITLE =       {{Elasticité-prix de la demande d'essence en Suisse}},
+  CLIENT =      org-bfe,
+  INSTITUTION = uni-heg-crag # comma # uni-heg # and # uni-geneva-lea # comma # uni-geneve,
+  YEAR =        {2009},
+  TYPE =        rep-finalrep,
+  address =     bern,
+  url =         {http://www.bfe.admin.ch/php/modules/enet/streamfile.php?file=000000010134.pdf&name=000000290036},
+}
+
+@RESEARCHREPORT{Bates_DFT_1996,
+  AUTHOR =      Bates,
+  TITLE =       {Time period choice modelling: a preliminary review},
+  CLIENT =      org-dft,
+  INSTITUTION = org-jbs,
+  YEAR =        {1996},
+  TYPE =        rep-finalrep,
+  address =     oxford,
+}
+
+@RESEARCHREPORT{BeckmanEtAl_TechRep_BMBF_2002,
+  AUTHOR =      Beckmann # and # Juergens # and # Kreitz # and # Axhausen # and # Koenig # and # Schlich # and # Schoenfelder # and # Friedrich # and # Haupt # and # Zimmermann # and # Klein # and # Kehle # and # Krebs,
+  TITLE =       {{Mobiplan, Endbericht}},
+  CLIENT =      org-bmbf,
+  INSTITUTION = uni-rwth-isb # and # org-ptv # and # uni-ethz-ivt # and # uni-karlsruhe-ifs,
+  YEAR =        {2002},
+  type =        rep-finalrep,
+}
+
+
+@RESEARCHREPORT{BalmerEtAl_ResRep_datapuls_2010,
+  AUTHOR =      Balmer # and # Meister # and # Waraich # and # Horni # and # Ciari # and # Axhausen,
+  TITLE =       {{Agenten-basierte Simulation für location based services}},
+  CLIENT =      org-datapuls,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2010},
+  TYPE =        rep-finalrep,
+  resprogram =  {F\&E Förderung: Science to Market},
+  number =      {KTI 8443.1 ESPP-ES},
+  address =     zurich,
+  month =       feb,
+  url =         {http://www.ivt.ethz.ch/vpl/publications/reports/ab613.pdf},
+}
+
+@RESEARCHREPORT{BernardAxhausen_ResRep_astra_2008,
+  AUTHOR =      Bernard # and # Axhausen,
+  TITLE =       {{Grundlagen für eine differenzierte Bemessung von Verkehrsanlagen, Endbericht für SVI 2000/339}},
+  CLIENT =      org-astra,
+  INSTITUTION = org-uvek,
+  YEAR =        {2008},
+  TYPE =        rep-schriftenreihe,
+  number =      {1283},
+  address =     bern,
+}
+
+@RESEARCHREPORT{BernardAxhausen_ResRep_VSS_2008_1,
+  AUTHOR =      Bernard # and # Axhausen,
+  TITLE =       {{Überprüfung der Schweizerischen Ganglinien}},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  CLIENT =      org-vss,
+  YEAR =        {2008},
+  TYPE =        rep-finalrep,
+  number =      {{2006/201}},
+  address =     zurich,
+}
+
+@RESEARCHREPORT{BernardAxhausen_ResRep_VSS_2008_2,
+  AUTHOR =      Bernard # and # Axhausen,
+  TITLE =       {{Entwicklung eines Entscheidungsverfahrens zur Bemessung von Verkehrsanlagen (Grundlagen für eine grundlegende Neukonzeption der SN 640 016a \glqq Massgebender Verkehr\grqq)}},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  CLIENT =      org-vss,
+  YEAR =        {2008},
+  TYPE =        rep-finalrep,
+  number =      {{2000/339}},
+}
+
+@RESEARCHREPORT{BfV_ResRep_1993,
+	AUTHOR =  "org-bfv",
+	TITLE= {{Gesamtwirtschaftliche Bewertung von Verkehrswegeinvestitionen: Bewertungsverfahren für den Bundesverkehrswegeplan 1992, Schlussbericht zum FE-Vorhaben 90372/92}},
+	YEAR= 1993,
+	TYPE= rep-finalrep,
+	ADDRESS= bonn,
+	INSTITUTION=org-bfv,
+	CLIENT=org-bfv,
+
+
+}
+
+@RESEARCHREPORT{BhatEtAl_ResRep_TDOT_2003,
+  AUTHOR =      Bhat # and # Srinivasan # and # Guo # and # Sivakumar,
+  TITLE =       {Activity-Based Travel-Demand Modeling for Metropolitan Areas in {Texas}: A Micro-Simulation Framework for Forecasting},
+  CLIENT =      org-tdot,
+  INSTITUTION = uni-texas,
+  YEAR =        {2003},
+  TYPE =        rep-finalrep,
+  address =     austin,
+  month =       feb,
+  url =         {http://www.ce.utexas.edu/prof/bhat/REPORTS/4080_4.pdf},
+}
+
+@RESEARCHREPORT{BickelEtAl_ResRep_eufp6_2006,
+	AUTHOR =  Bickel # and # FriedrichR # and # Burgess # and # Fagiani # and # HuntA # and # DeJongG # and # Tavasszy,
+	TITLE= {HEATCO Deliverable 5: Proposal for harmonised guidelines},
+  CLIENT = org-eufp6,
+  INSTITUTION = uni-stuttgart-iere # comma # uni-stuttgart,
+  month = mar,
+  YEAR =        {2006},
+  TYPE =        rep-resrep,
+}
+
+@RESEARCHREPORT{BirdsallEtAl_ResRep_NFP_forth,
+  AUTHOR =      Birdsall # and # Erath # and # Hajdin # and # Adey # and # Axhausen # and # BellM,
+  TITLE =       {Consideration of vulnerability in the management of Swiss transportation infrastructure},
+  CLIENT =      org-snf,
+  INSTITUTION = org-imc # and # uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        forth,
+  TYPE =        rep-resrep,
+  resprogram =  {{Nationales Forschungsprogramm 54: Sustainable Developement of the Built Environment}},
+  address =     bern,
+}
+
+@RESEARCHREPORT{BirdsallEtAl_ResRep_NFP_2008,
+  AUTHOR =      Birdsall # and # Erath # and # Hajdin # and # Adey # and # Axhausen # and # BellM,
+  TITLE =       {Consideration of vulnerability in the management of Swiss transportation infrastructure},
+  CLIENT =      org-snf,
+  INSTITUTION = org-imc # and # uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        2008,
+  TYPE =        rep-resrep,
+  resprogram =  {{Nationales Forschungsprogramm 54: Sustainable Developement of the Built Environment}},
+  address =     bern,
+}
+
+@RESEARCHREPORT{BirnEtAl_ResRep_2005,
+	AUTHOR =  Birn # and # Bolik # and # Rieken,
+	TITLE= {{Die gesamtwirtschaftliche Bewertungsmethodik Bundesverkehrswegeplan 2003, Schlussbericht zum FE-Vorhaben 96.0790/2003}},
+	YEAR= 2005,
+	TYPE= rep-finalrep,
+	ADDRESS= berlin,
+	INSTITUTION= org-bvu # comma # org-ivv # comma # planco,
+	CLIENT= org-bmvmw ,
+
+
+}
+
+@RESEARCHREPORT{BodenmannEtAl_ResRep_VeSPA_2014,
+  AUTHOR =      Bodenmann # and # Holenstein # and # Zeiler,
+  TITLE =       {Forschungspaket Verkehrssicherheitsgewinne durch Datapooling und strukturierte Datenanalysen (VeSPA): Synthesebericht Phase 1},
+  CLIENT =      org-svi,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2014},
+  TYPE =        rep-interrep,
+  address =     zurich,
+  url =         {},
+}
+
+@RESEARCHREPORT{BoeschEtAl_ResRep_NetCap_2014,
+  AUTHOR =      Boesch # and # JakobM # and # ZhengN # and # Rerat,
+  TITLE =       {NetCap -- Intermodal Capacity of Links, Segments and Networks},
+  CLIENT =      org-svi,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2014},
+  TYPE =        rep-interrep,
+  address =     zurich,
+  url =         {http://www.ivt.ethz.ch/vpl/publications/reports#1043},
+}
+
+
+@RESEARCHREPORT{BuliungHernandez_ResRep_NEPTIS_2009,
+  AUTHOR =      Buliung # and # Hernandez,
+  TITLE =       {Places to Shop and Places to Grow},
+  CLIENT =      {NEPTIS},
+  INSTITUTION = uni-toronto # and # uni-ryerson,
+  YEAR =        2009,
+  TYPE =        rep-resrep,
+  resprogram =  {{NEPTIS Studies on the Toronto Metropolitan Region}},
+  address =     toronto,
+}
+
+@RESEARCHREPORT{BradleyBowman_ResRep_SCAG_2009,
+  AUTHOR =      Bradley # and # Bowman,
+  TITLE =       {{SCAG} PROJECT 09-012: Strategy for Activity-Based Travel Demand Model Development with Travel Survey - Final Report},
+  CLIENT =      {Southern California Association of Governments - {SCAG}},
+  INSTITUTION = {Mark Bradley Research \& Consulting, Transportation Systems and Decision Sciences},
+  YEAR =        2009,
+  TYPE =        rep-resrep,
+  address =     {Santa Barbara},
+}
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{CayfordEtAl_ResRep_PATH_1997,
+  AUTHOR =      Cayford # and # LinWH # and # Daganzo,
+  TITLE =       {The {NETCELL} Simulation Package: Technical Description},
+  CLIENT =      org-path,
+  INSTITUTION = uni-ca # comma # berkeley,
+  YEAR =        {1997},
+  TYPE =        rep-resrep,
+  number =      {UCB-ITS-PRR-97-23},
+  address =     berkeley,
+  month =       may,
+  url =         {http://repositories.cdlib.org/its/path/reports/UCB-ITS-PRR-97-23},
+}
+
+@RESEARCHREPORT{CambrigeSystemsInc_ResRep_TelAviv_2008,
+  AUTHOR =      "org-csi",
+  TITLE =       {Tel {A}viv Activity Schedule Travel Demand Model System: A Tour-Based Approach},
+  CLIENT =      {Ministry of Transport},
+  INSTITUTION = org-csi,
+  YEAR =        {2008},
+  TYPE =        rep-resrep,
+  month =       dec,
+}
+
+@RESEARCHREPORT{ChaumetEtAl_ResRep_2007,
+	AUTHOR =  Chaumet # and # Locher # and # Bruns # and # Imhof # and # Bernard # and # Axhausen,
+	TITLE= {Verfahren zur Berücksichtigung der Zuverlässigkeit in Evaluationen},
+	YEAR= 2007,
+	TYPE= rep-schriftenreihe,
+	NUMBER= 1176,
+	ADDRESS= bern,
+	INSTITUTION= org-uvek,
+	CLIENT= org-astra,
+
+
+}
+
+@RESEARCHREPORT{Ciari_FinalRep_IVT_2013,
+  AUTHOR =      Ciari,
+  TITLE =       {Agent-based modeling of retailers and their reactions to road pricing},
+  CLIENT =      {ETH Research Grants},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2013},
+  TYPE =        rep-finalrep,
+  address =     zurich,
+  url = 	{http://www.ivt.ethz.ch/ivt/vpl/publications/reports#850},
+}
+
+@RESEARCHREPORT{CornelisEtAl_ResRep_BELDAM_2012,
+  AUTHOR =      Cornelis # and # Hubert # and # Huynen # and # LebrunK # and # Patriarche # and # deWitte # and # Creemers # and # Declercq # and # JanssensD # and # Castaigne # and # Hollaert # and # Walle,
+  TITLE =       {Belgian Daily Mobility---{BELDAM}: Enquête sur la mobilité quotidienne des {B}elges},
+  CLIENT =      {SPF Mobilité \& Transports},
+  INSTITUTION = {FUNDP, GRT, VUB, MOSI-T, UHasselt, IMOB},
+  YEAR =        {2012},
+  TYPE =        rep-resrep,
+  resprogram =  {Politique scientifique fédérale - Programme AGORA},
+  address =     {Brussels},
+}
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{DeJongEtAl_ResRep_AVV_2005,
+  AUTHOR =      DeJong # and # Pieters # and # Daly # and # Graafland # and # Kroes # and # Koopmans,
+  TITLE =       {Using the Logsum as an Evaluation Measure: Literature and Case Study},
+  CLIENT =      org-avv,
+  INSTITUTION = org-rand,
+  YEAR =        {2005},
+  TYPE =        rep-finalrep,
+  number =      {{WR-275-AVV}},
+  address =     leiden,
+  url =         {http://www.rand.org/pubs/working_papers/2005/RAND_WR275.pdf},
+}
+
+@RESEARCHREPORT{DemoscopeJud_ResRep_StadtZuerich_2007,
+  AUTHOR =      {{DemoSCOPE und Planungsbüro Jud}},
+  TITLE =       {{Rennweg mit und ohne Parkplätze: Erhebungen und Befragungen}},
+  CLIENT =      {{Stadt Zürich}},
+  INSTITUTION = {{DemoSCOPE und Planungsbüro Jud}},
+  YEAR =        {2007},
+  TYPE =        rep-finalrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{DLREtAl_ResRep_2008,
+  AUTHOR =      "org-dlr-ivf" # and # "org-frau" # and # "org-ftk" # and # "uni-tub",
+  TITLE =       {{Dienstleistungsverkehr in industriellen Wertschöpfungsprozessen}},
+  CLIENT =      org-bmwi,
+  INSTITUTION = {{DemoSCOPE, Planungsbüro Jud}},
+  YEAR =        {2007},
+  TYPE =        rep-finalrep,
+  address =     berlin,
+}
+
+@RESEARCHREPORT{DoblerEtAl_FinalRep_BABS_2013,
+  AUTHOR =      Dobler # and # Kowald # and # Jaeggi # and # Koot # and # Axhausen,
+  TITLE =       {{Grossräumige Evakuierung -- Agenten-basierte Analyse}},
+  CLIENT =      org-babs,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2013},
+  TYPE =        rep-finalrep,
+  address =     zurich,
+  url = 	{http://www.ivt.ethz.ch/ivt/vpl/publications/reports#943},
+}
+
+@RESEARCHREPORT{DoernenburgEtAl_ResRep_UVEK_2001,
+  AUTHOR =      Doernenburg # and # Kooijman # and # Hitz,
+  TITLE =       {{Alpen- und grenzquerender Personenverkehr 2001 (A+GQPV 01)}},
+  CLIENT =      org-are # comma # org-astra # and # org-bav,
+  INSTITUTION = org-sigma,
+  YEAR =        {2001},
+  TYPE =        rep-finalrep,
+  resprogram =  {{Nationales Forschungsprogramm 41: Verkehr und Umwelt}},
+  number =      {{F1}},
+  address =     bern,
+}
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{Enz_ResRep_AvenirSuisse_2005,
+  AUTHOR =      Enz,
+  TITLE =       {{Fakten statt Wunschdenken in der Verkehrspolitik: Zur Wirkung von Parkplatz- und Fahrtenbeschränkungen im Einkaufsverkehr}},
+  INSTITUTION = {Enz \& Partner GmbH},
+  CLIENT =      {Avenir Suisse},
+  YEAR =        {2005},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{ErathAxhausen_ResRep_UVEK_forth,
+  AUTHOR =      Erath # and # Axhausen,
+  TITLE =       {Long Term Fuel Price Elasticity: Effects on Mobility Tool Ownership and Residential Location Choice},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  CLIENT =      org-bfe # comma # org-bafu,
+  YEAR =        {2009},
+  address =     bern,
+  url =         {http://www.bfe.admin.ch/forschungewg/02544/02807/02808/index.html?lang=de},
+}
+
+@RESEARCHREPORT{ErathAxhausen_ResRep_UVEK_2010,
+  AUTHOR =      Erath # and # Axhausen,
+  TITLE =       {Long Term Fuel Price Elasticity: Effects on Mobility Tool Ownership and Residential Location Choice},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  CLIENT =      org-bfe # comma # org-bafu,
+  YEAR =        {2010},
+  address =     bern,
+  url =         {http://www.bfe.admin.ch/forschungewg/02544/02807/02808/index.html?lang=de&dossier_id=04462},
+}
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@RESEARCHREPORT{FanEtAl_ResRep_DOT_2015,
+  AUTHOR =      FanY # and # WolfsonJ # and # Adomavicius # and # Das # and # Khandelwal # and # KangJ,
+  TITLE =       {{SmarTrAC}: A Smartphone Solution for Context-Aware Travel and Activity Capturing},
+  CLIENT =      org-dot,
+  INSTITUTION = org-dot,
+  YEAR =        {2015},
+  TYPE =        rep-finalrep,
+}
+
+@RESEARCHREPORT{FlammEtAl_ResRep_SER_2008,
+  AUTHOR =      Flamm # and # Jemelin # and # Kaufmann,
+  TITLE =       {Travel Behaviour Adaptation Processes During Life Course Transitions: A Methodological and Empirical Study Using a Person Based {GPS} Tracking System},
+  CLIENT =      org-ser,
+  INSTITUTION = uni-epfl # comma # uni-epfl-lasur,
+  YEAR =        {2008},
+  TYPE =        rep-finalrep,
+  resprogram =  {Cost-355: Changing Behaviour Towards a More Sustainable Transport System},
+  address =     lausanne,
+  month =       oct,
+}
+
+@RESEARCHREPORT{Florian_ResRep_Montreal_1981,
+  AUTHOR =      Florian,
+  TITLE =       {The Convergence of Diagonalization Algorithms for Fixed Demand Asymmetric Network Equilibrium Problems},
+  INSTITUTION = uni-montreal # comma # uni-montreal-trans,
+  CLIENT =      uni-montreal,
+  YEAR =        {1981},
+  TYPE =        rep-resrep,
+  number =	    {198},
+  address =     montreal,
+}
+
+@RESEARCHREPORT{FosgerauEtAl_ResRep_2007,
+	AUTHOR =  Fosgerau # and # Hjorth # and # LykJensen,
+	TITLE= {The Danish Value of Time Study},
+  INSTITUTION = uni-denmark # comma # uni-dtu-dtri,
+  CLIENT =      uni-denmark,
+	YEAR= 2007,
+  TYPE =        rep-finalrep,
+  url = {http://www.dtu.dk/upload/institutter/dtu%20transport/pdf_dtf/rapporter/the%20danish%20value%20of%20time%20study_250208.pdf},
+  address = copenhagen,
+}
+
+
+
+@RESEARCHREPORT{FreiAxhausen_ResRep_2009_1,
+  AUTHOR =      Frei # and # Axhausen,
+  TITLE =       {Archived Data Set (According to the Current {DDI} Standard)},
+  CLIENT =      org-eufp6 # comma # org-eu,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2009},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{FreiAxhausen_ResRep_2009_2,
+  AUTHOR =      Frei # and # Axhausen,
+  TITLE =       {Call for Tender for Pilot Survey},
+  CLIENT =      org-eu,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2009},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{FreiAxhausen_ResRep_2009_3,
+  AUTHOR =      Frei # and # Axhausen,
+  TITLE =       {Report about Field Work and Recommendations for a Survey of Intermodal Long-Distance Travel in {E}urope},
+  CLIENT =      org-eu,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2009},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{FreiAxhausen_ResRep_2009_4,
+  AUTHOR =      Frei # and # Axhausen,
+  TITLE =       {Report about Results: User Requirements and Indications about Demand Volumes},
+  CLIENT =      org-eu,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2009},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{FriedEtAl_ResRep_NCHRP_1977,
+  AUTHOR = 		Fried # and # Havens # and # Thall,
+  TITLE = 		{Travel Behavior - A Synthesized Theory},
+  YEAR =   		{1977},
+  CLIENT =      org-nchrp # comma # org-trb,
+  INSTITUTION = uni-boston-college,
+  TYPE =        rep-finalrep,
+  address = 	washington,
+}
+
+@RESEARCHREPORT{FroehlichEtAl_ResRep_ARE_2012,
+  AUTHOR =      Froehlich # and # Axhausen # and # Vrtic # and # Weis # and # Erath,
+  TITLE =       {{SP-B}efragung 2010 zum {V}erkehrsverhalten im {P}ersonenverkehr},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  CLIENT =      org-are,
+  YEAR =        {2012},
+  TYPE = 	  rep-resrep,
+  address =     bern,
+}
+
+@RESEARCHREPORT{FroehlichAxhausen_ResRep_ARE_2012,
+  AUTHOR =      Froehlich # and # Axhausen,
+  TITLE =       {{Übersicht zu Stated Preference-Studien in der Schweiz und Abschätzung von Gesamelastizitäten, Statusbericht 2012}},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  CLIENT =      org-are,
+  YEAR =        {2012},
+  TYPE = 	  rep-resrep,
+  address =     zurich,
+}
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{GalusEtAl_ResRep_EWZ_2012,
+  AUTHOR =      Galus # and # Georges# and # Waraich,
+  TITLE =       {{Abschlussbericht des Projekts ARTEMIS (Abating Road Emissions Through Efficient (electric) Mobility - Interactions with the electric System)}},
+  CLIENT =      org-ewz,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2012},
+  TYPE =        rep-finalrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{GibbonsEtAl_ResRep_BDFT_2010,
+  AUTHOR =      Gibbons # and # Lyytikainen # and # Overman # and # SanchisGuarner # and # Laird,
+  TITLE =       {Evaluating the Productivity Impacts of Road Transport Schemes: Report on pilot study findings},
+  CLIENT =      org-dft,
+  INSTITUTION = uni-lse # and # uni-leeds-its # comma # uni-leeds,
+  YEAR =        {2010},
+  TYPE =        rep-finalrep,
+  address =     london,
+  url =         {Evaluating the Productivity Impacts of Road Transport Schemes},
+}
+
+
+@RESEARCHREPORT{GrahamEtAl_ResRep_2009,
+  AUTHOR =      Graham # and # Gibbons # and # Martin,
+  TITLE =       {Transport Investment and the Distance Decay of Agglomeration Benefits},
+  CLIENT =      {prepared for the UK Department for Transport},
+  INSTITUTION = uni-imp,
+  YEAR =        {2009},
+  TYPE =        rep-resrep,
+  address =     london,
+  month =       jan,
+}
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{HaefeliEtAl_ResRep_BFE_2006,
+  AUTHOR =      Haefeli # and # Matti # and # Schreyer # and # Maibach,
+  TITLE =       {Evaluation Car-Sharing: Schlussbericht},
+  CLIENT =      org-bfe,
+  INSTITUTION = org-interface # and # org-infras,
+  YEAR =        {2006},
+  TYPE =        rep-resrep,
+  address =     bern,
+}
+
+@RESEARCHREPORT{Haefeli_ResRep_NFP_2008,
+  AUTHOR =      Haefeli,
+  TITLE =       {Moving Towards Sustainability? The Consequences of Residential Relocation for Mobiity and the Built Environment. An Experimental Intervention Study},
+  CLIENT =      org-snf,
+  INSTITUTION = org-interface,
+  YEAR =        {2008},
+  TYPE =        rep-resrep,
+  resprogram =  {{Nationales Forschungsprogramm 54: Sustainable Development of the Built Environment}},
+  address =     bern,
+  url =         {http://www.interface-politikstudien.ch/downloads/deutsch/Be_NFP54_Mobilitaetspanel.pdf},
+}
+
+
+@RESEARCHREPORT{Hague_ResRep_AVV_1996,
+	AUTHOR =  "org-hague",
+	TITLE= {Further Research into the Value of Travel Time Variations},
+	YEAR= 1996,
+	INSTITUTION =  org-hague,
+	CLIENT =      org-avv,
+	TYPE =        rep-resrep,
+	number= 6060,
+	address = hague,
+
+}
+
+@RESEARCHREPORT{Hague_ResRep_AVV_1998,
+	AUTHOR =  "org-hague",
+	TITLE= {Value of Dutch Travel Time Savings in 1997: Final Report},
+	YEAR= 1998,
+	INSTITUTION =  org-hague,
+	CLIENT =      org-avv,
+	TYPE =        rep-resrep,
+	number= 6068,
+	address = hague,
+}
+
+@RESEARCHREPORT{HansSell_ResRep_USEPA_1974,
+  AUTHOR =      Hans # and # Sell,
+  TITLE =       {Evacuation Risks: an Evaluation},
+  CLIENT =      org-usepa # and # org-usepa-orp,
+  INSTITUTION = org-nerc,
+  YEAR =        {1974},
+  TYPE =        rep-finalrep,
+  address =     lasvegas,
+}
+
+
+@RESEARCHREPORT{HessEtAl_ResRep_SVI_2008,
+  AUTHOR =      Hess # and # Erath # and # Axhausen,
+  TITLE =       {{Zeitwerte im Personenverkehr: Wahrnehmungs- und Distanzabhängigkeit}},
+  CLIENT =      org-svi,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2008},
+  TYPE =        rep-resrep,
+  address =     zurich,
+  resprogram =  {{Forschungsauftrag Nr. 2005/007}},
+  url =         {http://www.ivt.ethz.ch/vpl/publications/reports/ab525.pdf},
+}
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{InfasDLR_ResRep_BMVBS_2010,
+  AUTHOR =      Follmer # and # Gruschwitz # and # Jesske # and # Quandt # and # Lenz # and # Nobis # and # KoehlerK # and # Mehlin,
+  TITLE =       {{Mobilität in Deutschland 2008}},
+  CLIENT =      org-bmvbs,
+  INSTITUTION = org-infas # comma # org-dlr-ivf,
+  YEAR =        {2010},
+  TYPE =        rep-finalrep,
+  address =     bonn,
+  url =         {http://www.mobilitaet-in-deutschland.de/pdf/MiD2008_Abschlussbericht_I.pdf},
+}
+
+@RESEARCHREPORT{ItenEtAl_ResRep_BFE_2005,
+  AUTHOR =      Iten # and # Hammer # and # Keller # and # SchmidtN # and # SammerK # and # Wuestenhagen,
+  TITLE =       {{Massnahmen zur Absenkung des Flottenverbrauchs Abschätzung der Wirkung}},
+  CLIENT =      org-bfe,
+  INSTITUTION = infras # and # uni-hsg-iwoe # comma # uni-hsg,
+  YEAR =        {2005},
+  TYPE =        rep-finalrep,
+  address =     bern,
+  url =         {http://www.bfe.admin.ch/themen/00526/00535/index.html?lang=de&dossier_id=00819},
+}
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{JaeggiEtal_ResRep_ASTRA_2013,
+  AUTHOR =      Jaeggi # and # Dobler # and # Axhausen,
+  TITLE =       {{Werkzeug zur aktuellen Gangliniennorm, Schlussbericht ASTRA 2010/020}},
+  CLIENT =      org-astra,
+  INSTITUTION = {{UVEK}},
+  YEAR =        {2013},
+  TYPE =        rep-schriftenreihe,
+  number =      {1412},
+  address =     bern,
+  url =         {http://www.ivt.ethz.ch/ivt/vpl/publications/reports#859},
+}
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{Khattak_ResRep_CDT_1993,
+  AUTHOR =      Khattak,
+  TITLE =       {Behavioral Impacts of Recurring and Incident Congestion and Response to Advanced Traveler Information Systems in the Bay Area: An Overview},
+  CLIENT =      org-cdt,
+  INSTITUTION = uni-berkeley # comma # uni-berkeley-its,
+  YEAR =        {1993},
+  TYPE =        rep-resrep,
+  address =     berkeley,
+  month =       sep,
+  resprogram =  uni-berkeley-path,
+  number =      {UCB-ITS-PWP-93-12},
+  url =         {http://www.path.berkeley.edu/PATH/Publications/PDF/PWP/93/PWP-93-12.pdf},
+}
+
+@RESEARCHREPORT{KhattakEtAl_ResRep_CDT_1996,
+  AUTHOR =      Khattak # and # Polydoropoulou # and # BenAkiva,
+  TITLE =       {Commuters' Normal and Shift Decisions in Unexpected Congestion: Pre-trip Response to Advanced Traveler Information Systems},
+  CLIENT =      org-cdt,
+  INSTITUTION = uni-berkeley # comma # uni-berkeley-its,
+  YEAR =        {1996},
+  TYPE =        rep-resrep,
+  address =     berkeley,
+  month =       mar,
+  resprogram =  uni-berkeley-path,
+  number =      {UCB-ITS-PRR-96-07},
+  url =         {http://www.path.berkeley.edu/PATH/Publications/PDF/PRR/96/PRR-96-07.pdf},
+}
+
+@RESEARCHREPORT{KieferEtAl_ResRep_NOOEP_2009,
+  AUTHOR =      Kiefer # and # Jenkins # and # Laska,
+  TITLE =       {City-Assisted Evacuation Plan Participant Survey Report},
+  CLIENT =      org-nooep,
+  INSTITUTION = uni-neworleans # comma # uni-neworleans-chart,
+  YEAR =        {2009},
+  TYPE =        rep-resrep,
+  address =     neworleans,
+  month =       apr,
+  url =         {http://chart.uno.edu/docs/City%20Assisted%20Evacuation%20Plan%20Evaluation%202009.pdf},
+}
+
+@RESEARCHREPORT{KillerEtAl_ResRep_BfS_2010,
+  AUTHOR =      Killer # and # Vitins # and # Braun # and # Gmuender,
+  TITLE =       {{Agglomerationsdefinition Schweiz - Vertiefte Abklärung der Eignung von Erreichbarkeitsdaten als Substitut für die Pendlerdaten im Rahmen einer Agglomerationsdefinition für die Schweiz}},
+  CLIENT =      org-bfs,
+  INSTITUTION = uni-ethz # and # org-bss,
+  YEAR =        {2010},
+  TYPE =        rep-finalrep,
+  address =     neuchatel,
+}
+
+@RESEARCHREPORT{KONSO_ResRep_Migros_2005,
+  AUTHOR =      {{KONSO Institut für Konsumenten- und Sozialanalysen AG}},
+  TITLE =       {{Wirkung von Parkplatzbeschränkungen im Einkaufsverkehr - Kurzdokumentation zur Primärforschung}},
+  CLIENT =      {Migros Genossenschaftsbund},
+  INSTITUTION = {{KONSO Institut für Konsumenten- und Sozialanalysen AG}},
+  YEAR =        {2005},
+  TYPE =        rep-resrep,
+  address =     basel,
+  url =         {http://www.viv.ch/studien_d/data/Parkplatzbeschraenkungen_Einkaufsverkehr.pdf},
+}
+
+@RESEARCHREPORT{KoenigEtAl_ResRep_SVI_2004,
+	AUTHOR =  Koenig # and # Axhausen # and # Abay,
+	TITLE= {{Zeitkosten im Personenverkehr}},
+	YEAR= 2004,
+	CLIENT =  org-svi,
+	INSTITUTION = uni-ethz-ivt # comma # uni-ethz # comma # org-abay,
+	number = {2001/534},
+	TYPE =        rep-schriftenreihe,
+	address =     stgallen,
+}
+
+@RESEARCHREPORT{KritzingerEtal_ResRep_UVEK_2013,
+  AUTHOR =      Kritzinger # and # Rikus # and # AufderMaur # and # Schad # and # Lutzenberger # and # Axhausen,
+  TITLE =       {{Messen des Nutzens von Massnahmen mit Auswirkungen auf den Langsamverkehr: Vorstudie, Schlussbericht SVI 2010/004}},
+  CLIENT =      org-uvek,
+  INSTITUTION = {{UVEK}},
+  YEAR =        {2013},
+  TYPE =        rep-schriftenreihe,
+  number =      {1442},
+  address =     bern,
+  url =         {http://www.ivt.ethz.ch/ivt/vpl/publications/reports#964},
+}
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{LarsenEtAl_ResRep_2006,
+  AUTHOR =      Larsen # and # Urry # and # Axhausen,
+  TITLE =       {Social Networks and Future Mobilities},
+  CLIENT =      org-dft,
+  INSTITUTION = uni-lancaster # and # uni-ethz-ivt,
+  YEAR =        {2006},
+  TYPE =        rep-resrep,
+  address =     lancaster # and # zurich,
+}
+
+@RESEARCHREPORT{LeVineSJones_ResRep_RAC_2012,
+  AUTHOR =      LeVineS # and # Jones,
+  TITLE =       {On the Move: Making Sense of Car and Train Travel Trends in Britain},
+  CLIENT =      org-rac,
+  INSTITUTION = uni-imp # and # uni-ucl,
+  YEAR =        {2012},
+  TYPE =        rep-finalrep,
+  address =     london,
+}
+
+@RESEARCHREPORT{LevinsonEtAl_ResRep_CDT_1999,
+  AUTHOR =      Levinson # and # Gillen # and # ChangE,
+  TITLE =       {Assessing the Benefits and Costs of Intelligent Tranportation Systems: The Value of Advanced Traveler Information Systems},
+  CLIENT =      org-cdt,
+  INSTITUTION = uni-berkeley # comma # uni-berkeley-its,
+  YEAR =        {1999},
+  TYPE =        rep-resrep,
+  address =     berkeley,
+  month =       mar,
+  resprogram =  uni-berkeley-path,
+  number =      {UCB-ITS-PRR-99-20},
+  url =         {http://www.path.berkeley.edu/PATH/Publications/PDF/PRR/99/PRR-99-20.pdf},
+}
+
+@RESEARCHREPORT{LiebEtAl_ResRep_ASTRA_2003,
+  AUTHOR =      Lieb # and # GublerF # and # Sommer,
+  TITLE =       {{NISTRA: Nachhaltigkeitsindikatoren für Strasseninfrastrukturprojekte}},
+  CLIENT =      org-astra,
+  INSTITUTION = org-ecoplan,
+  YEAR =        2003,
+  TYPE =        rep-finalrep,
+  address =     bern,
+}
+
+@RESEARCHREPORT{LuediWerlen_ResRep_BFS_2005,
+  AUTHOR =      Luedi # and # Werlen,
+  TITLE =       {{Eidgenössische Volkszählung 2000: Sprachenlandschaft in der Schweiz}},
+  CLIENT =      org-bfs,
+  INSTITUTION = uni-basel # comma # uni-bern,
+  YEAR =        2005,
+  TYPE =        rep-finalrep,
+  address =     neuchatel,
+  url =         {http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/publikationen_statistik/publikationskatalog.Document.52216.pdf}
+}
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{MackieEtAl_ResRep_DFT_2003,
+  AUTHOR =      Mackie # and # Wardman # and # Fowkes # and # Whelan # and # Nellthorp # and # Bates,
+  TITLE =       {Values of travel time savings in the {UK}},
+  CLIENT =      org-dft,
+  INSTITUTION = uni-leeds-its # comma # uni-leeds # comma # org-jbs,
+  YEAR =        {2003},
+  TYPE =        rep-resrep,
+  address =     leeds # comma # abingdon,
+}
+
+@RESEARCHREPORT{MartiAndWaldvogel_ResRep_BAV_2003,
+  AUTHOR =      MartiP # and # Waldvogel,
+  TITLE =       {Modal {S}plit-{Z}iele in der {S}chweizerischen {V}erkehrspolitik},
+  CLIENT =      org-bav,
+  INSTITUTION = {metron},
+  YEAR =        {2003},
+  TYPE =        rep-resrep,
+  address =     bern,
+}
+
+@RESEARCHREPORT{McFaddenEtAl_ResRep_org-usnsf_1977,
+  AUTHOR =      McFadden # and # Talvitie # and # Cosslett # and # HasanI # and # JohnsonM # and # Reid # and # Train,
+  TITLE =       {Demand Model Estimation and Validation},
+  CLIENT =      org-usnsf,
+  INSTITUTION = uni-ca-its # comma # uni-ca,
+  YEAR =        {1977},
+  TYPE =        rep-resrep,
+  resprogram =  {Urban Travel Demand Forecasting Project Phase 1},
+  number =      {5},
+  address =     berkeley # and # irvine,
+}
+
+@RESEARCHREPORT{MenendezEtAl_TechRep_VSS_2015,
+  AUTHOR =      Menendez # and # Guler # and # Puffe,
+  TITLE =       {Traffic flow at uncontrolled urban intersections with attention to different modes of traffic; {D}etermination of representative standard values and interrelations},
+  CLIENT =      org-vss,
+  INSTITUTION = org-vss,
+  YEAR =        {2015},
+  TYPE =        rep-techrep,
+  number =      {VSS 2011/38},
+  address =     zurich,
+  url =         {http://www.ivt.ethz.ch/svt/publications/papers#82},
+}
+
+@RESEARCHREPORT{MorlokEtAl_ResRep_org-fhwa_1973,
+  AUTHOR =      Morlok # and # Schofer # and # Pierskalla # and # Marsten # and # AgarwalSK # and # Stoner # and # EdwardsJL # and # LeBlanc # and # SpacekDT,
+  TITLE =       {Development and Application of a Highway Network Design Model, Volumes 1 and 2},
+  CLIENT =      org-fhwa,
+  INSTITUTION = uni-nw,
+  YEAR =        {1973},
+  TYPE =        rep-finalrep,
+  resprogram =  {Contract Number DOT-PH-11},
+  address =     evanston,
+}
+
+
+@RESEARCHREPORT{MuellerKAxhausen_ResRep_OECD_2012,
+  AUTHOR =      MuellerK # and # Axhausen,
+  TITLE =       {Weighting the {OECD} household survey on environmental behavior},
+  CLIENT =      org-oecd,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2012},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{Muheim_ResRep_BFE_1998,
+  AUTHOR =      Muheim,
+  TITLE =       {Carsharing: The Key to Combined Mobility},
+  CLIENT =      org-bfe,
+  INSTITUTION = org-muheimpartner,
+  YEAR =        {1998},
+  TYPE =        rep-resrep,
+  address =     lucerne,
+}
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{OdgaardEtAl_ResRep_2005,
+	AUTHOR =  Odgaard # and # KellyCE # and # LairdJJ,
+	TITLE= {HEATCO Deliverable 1: Current Practice in Project Appraisal in {E}urope – Analysis of Country Reports},
+	YEAR= 2005,
+	CLIENT = org-eufp6,
+	INSTITUTION = uni-stuttgart-iere # comma # uni-stuttgart,
+	TYPE =        rep-resrep,
+}
+
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{Pendyala_ResRep_FDoT_2004,
+  AUTHOR =      Pendyala,
+  TITLE =       {Phased Implementation of a Multimodal Activity-Based Travel Demand Modeling System in Florida. Vol. II: {FAMOS} Users guide},
+  CLIENT =      org-fdot,
+  INSTITUTION = uni-sfl-dcee # comma # uni-sfl,
+  YEAR =        {2004},
+  TYPE =        rep-finalrep,
+  url =         {http://www.public.asu.edu/~rpendyal/FAMOS Users Guide.pdf},
+  address =     tampa,
+}
+
+@RESEARCHREPORT{PendyalaEtAl_ResRep_RDC_1995,
+  AUTHOR =      Pendyala # and # Kitamura # and # Reddy # and # ChenQC,
+  TITLE =       {Activity-Based Modeling System for Travel Demand Forecasting},
+  CLIENT =      org-mwcg # and # org-dft,
+  INSTITUTION = org-rdc,
+  YEAR =        {1995},
+  TYPE =        rep-finalrep,
+  month =       sep,
+  url =         {http://tmip.fhwa.dot.gov/clearinghouse/docs/Amos/amos.pdf},
+  address =     sanfran,
+}
+
+@RESEARCHREPORT{PinjariEtAl_ResRep_TDoT_2006,
+  AUTHOR =      Pinjari # and # Eluru # and # Copperman # and # Sener # and # Guo # and # Srinivasan # and # Bhat,
+  TITLE =       {Activity-Based Travel-Demand Analysis for Metropolitan Areas in {Texas}: {CEMDAP} Models, Framework, Software Architecture and Application Results},
+  CLIENT =      org-tdot,
+  INSTITUTION = uni-uta-dcaee # comma # uni-uta,
+  YEAR =        {2006},
+  TYPE =        rep-resrep,
+  number =      {4080--8},
+  month =       oct,
+  url =         {http://www.caee.utexas.edu/prof/bhat/CEMDAP.htm},
+  address =     austin,
+}
+
+@RESEARCHREPORT{Pitzinger_Spacek_ResRep_VSS_2009,
+  AUTHOR =      Pitzinger # and # Spacek,
+  TITLE =       {{Verkehrsqualität und Leistungsfähigkeit von komplexen ungesteuerten Knoten: Analytische Schätzverfahren}},
+  INSTITUTION=	uni-ethz-ivt,
+  CLIENT =      org-vss,
+  YEAR =        {2009},
+  TYPE =        rep-resrep,
+  address =     zurich,
+  resprogram =  {{Forschungsauftrag Nr. 2008/301}},
+  url =         {http://www.ivt.ethz.ch/vpl/publications/reports/ab525.pdf},
+}
+@RESEARCHREPORT{PlanungsbueroJud_ResRep_1990,
+  AUTHOR =      {{Planungsbüro Jud}},
+  TITLE =       {{Parksuchverkehr Zürich}},
+  CLIENT =      {Stadtplanungsamt der Stadt Zürich},
+  INSTITUTION = {Planungsbüro Jud},
+  YEAR =        {1990},
+  TYPE =        rep-resrep,
+}
+
+@RESEARCHREPORT{PlanungsbueroJud_ResRep_2010,
+  AUTHOR =      {{Planungsbüro Jud}},
+  TITLE =       {{Belegung und Verkehrsaufkommen von Parkfeldern in der Stadt Zürich}},
+  CLIENT =      {Tiefbauamt der Stadt Zürich},
+  INSTITUTION = {Planungsbüro Jud},
+  YEAR =        {2010},
+  TYPE =        rep-resrep,
+}
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@RESEARCHREPORT{RDC_ResRep_USEPAUSDOT_1995,
+  AUTHOR =      "org-rdc",
+  TITLE =       {Activity-based Modeling System for Travel Demand Forecasting},
+  CLIENT =      org-tmip # comma # org-usepa # and # org-usdot,
+  INSTITUTION = {org-rdc},
+  YEAR =        {1995},
+  TYPE =        rep-resrep,
+  address =     sanfran,
+}
+
+@RESEARCHREPORT{RofiqueEtAl_ResRep_DFT_2011,
+  AUTHOR =      Rofique # and # Humphrey # and # Killpack,
+  TITLE =       {{National Travel Survey 2011 GPS} Pilot Field Report},
+  CLIENT =      org-dft,
+  INSTITUTION = {org-natcen},
+  YEAR =        {2011},
+  TYPE =        rep-resrep,
+  address =     london,
+}
+
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{SbaytiRoden_ResRep_AASHTO_2010,
+  AUTHOR =      Sbayti # and # Roden,
+  TITLE =       {Best Practices in the Use of Micro Simulation Models},
+  CLIENT =      org-aashto,
+  INSTITUTION = {AECOM},
+  YEAR =        {2010},
+  TYPE =        rep-resrep,
+  address =     arlington,
+}
+
+%Raja Sengupta, Bruce Hongola
+@RESEARCHREPORT{SenguptaHongola_ResRep_CDT_1998,
+  AUTHOR =      Sengupta # and # Hongola,
+  TITLE =       {Estimating ATIS Benefits for the Smart Corridor},
+  CLIENT =      org-cdt,
+  INSTITUTION = uni-berkeley # comma # uni-berkeley-its,
+  YEAR =        {1998},
+  TYPE =        rep-resrep,
+  address =     berkeley,
+  month =       mar,
+  resprogram =  uni-berkeley-path,
+  number =		{UCB-ITS-PRR-98-30},
+  url =         {http://www.path.berkeley.edu/PATH/Publications/PDF/PRR/98/PRR-98-30.pdf},
+}
+
+@RESEARCHREPORT{SchuesslerEtAl_ResRep_Endoxon_2006,
+  AUTHOR =      Schuessler # and # Vrtic # and # Axhausen,
+  TITLE =       {{Soziodemographische Segmentierung der nationalen Streckenbelastungen}},
+  CLIENT =      org-endoxon,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2006},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{SchultzSchilter_ResRep_ARE_2003,
+  AUTHOR =      Schultz # and # Schilter,
+  TITLE =       {{Publikumsintensive Einrichtungen - Konsum und Freizeit}},
+  CLIENT =      org-are,
+  INSTITUTION = uni-ethz-irl # comma # uni-ethz,
+  YEAR =        {2003},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{SchochEtAl_ResRep_Migros_2006,
+  AUTHOR =      Schoch # and # Sabatella # and # Steffen # and # Buchegger # and # Walder,
+  TITLE =       {{Einkaufen und Mobilität}},
+  CLIENT =      {Migros Genossenschaftsbund},
+  INSTITUTION = {{Institut für Umwelttechnik und Oekologie GmbH und Advokatur Dr. Walder \& Partner}},
+  YEAR =        {2006},
+  TYPE =        rep-resrep,
+  address =     lucerne,
+}
+
+
+@RESEARCHREPORT{SmallEtAl_NCHRP_1999,
+	AUTHOR =  Small # and # Noland # and # ChuX # and # LewisD,
+	TITLE= {Valuation of travel-time savings and predictability in congested conditions for highway user-cost estimation},
+	YEAR= 1999,
+  CLIENT =      org-nchrp # comma # org-trb,
+  number = 431,
+  address = washington,
+  INSTITUTION = uni-uci,
+  TYPE =        rep-finalrep,
+}
+
+@RESEARCHREPORT{Spiess_ResRep_Emme_1996,
+  AUTHOR =      Spiess,
+  TITLE =       {A Logit Parking Choice Model with Explicit Capacities},
+  CLIENT =      {{EMME2 Support Center}},
+  INSTITUTION = {{INRO}},
+  YEAR =        {1996},
+  TYPE =        rep-resrep,
+  address =     {{Aegerten}},
+}
+
+@RESEARCHREPORT{SignigicanceEtAl_ResRep_MIE_2012,
+	AUTHOR = "org-significance" # and # "uni-vu" # and # "org-jbs",
+	TITLE= {{V}alues of {T}ime and {R}eliability in {P}assenger and {F}reight {T}ransport in the {N}etherlands},
+	YEAR= 2012,
+	INSTITUTION = org-significance,
+	CLIENT = org-mie,
+	address = hague,
+}
+
+
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{TRB_ResRep_2002,
+  AUTHOR =      "org-trb",
+  TITLE =       {Costs of Sprawl},
+  CLIENT =      org-fta,
+  INSTITUTION = org-trb,
+  YEAR =        {2002},
+  TYPE =        rep-resrep,
+  number =      {74},
+  address =     washington,
+}
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{VitinsEtAl_ResRep_BfS_2010,
+  AUTHOR =      Vitins # and # Killer # and # Braun # and # Gmuender,
+  TITLE =       {{Agglomerationsdefinition Schweiz - Überprüfung der Machbarkeit einer von Pendlerdaten unabhängigen Methode}},
+  CLIENT =      org-bfs,
+  INSTITUTION = uni-ethz # and # org-bss,
+  YEAR =        {2010},
+  TYPE =        rep-finalrep,
+  address =     neuchatel,
+}
+
+@RESEARCHREPORT{VitinsEtAl_VW_2012,
+  AUTHOR =      Vitins # and # Dubernet # and # Horni # and # RieserSchuessler # and # Axhausen,
+  TITLE =       {{MATSim Moduswahl Untersuchungen}},
+  CLIENT =      org-vw,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2012},
+  TYPE =        rep-finalrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{VrticEtAl_ResRep_AFVKZH_2005,
+  AUTHOR =      Vrtic # and # Froehlich # and # Schuessler # and # KernP # and # Perret # and # Pfisterer # and # Schulze # and # Zimmermann # and # Heidl # and # Axhausen,
+  TITLE =       {{Verkehrsmodell für den öffentlichen Verkehr des Kantons Zürich}},
+  CLIENT =      org-afvkzh,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz # comma # org-ebp # comma # org-ptv,
+  YEAR =        {2005},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{VrticEtAl_ResRep_SBBARE_2003,
+  AUTHOR =      Vrtic # and # Axhausen # and # Rossera # and # Maggi,
+  TITLE =       {{Verifizierung von Prognosemethoden im Personenverkehr}},
+  CLIENT =      org-sbb # comma # org-are,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz # comma # uni-lugano-ire # comma # uni-lugano,
+  YEAR =        {2003},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{VrticEtAl_ResRep_SVI_2007,
+  AUTHOR =      Vrtic # and # Schuessler # and # Erath # and # Axhausen # and # Frejinger # and # Stojanovic # and # Bierlaire # and # Rudel # and # Scagnolari # and # Maggi,
+  TITLE =       {{Einbezug von Reisekosten bei der Modellierung des Mobilitätsverhaltens}},
+  CLIENT =      org-svi,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz # comma # uni-epfl-transpor # comma # uni-epfl # and # uni-lugano-ire # comma # uni-lugano,
+  YEAR =        {2007},
+  TYPE =        rep-resrep,
+  resprogram =  {{Forschungsauftrag Nr. 2005/004}},
+  address =     zurich,
+}
+
+@RESEARCHREPORT{VrticEtAl_ResRep_UVEK_2005,
+  AUTHOR =      Vrtic # and # Froehlich # and # Schuessler # and # Dasen # and # Erne # and # Singer # and # Axhausen # and # Lohse,
+  TITLE =       {{Erzeugung neuer Quell-/Zielmatrizen im Personenverkehr}},
+  CLIENT =      org-uvek # comma # org-are # comma # org-astra # and # org-bav,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz # comma # org-embe # comma # uni-tud-vkw # comma # uni-tud,
+  YEAR =        {2005},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{VrticEtAl_ResRep_UVEK_2005_1,
+  AUTHOR =      Vrtic # and # Froehlich # and # Schuessler # and # Dasen # and # Erne # and # Singer # and # Axhausen # and # Lohse,
+  TITLE =       {{Erstellung des nationalen Personenverkehrsmodells für den öffentlichen und privaten Verkehr}},
+  CLIENT =      org-uvek # comma # org-are # comma # org-astra # and # org-bav,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz # comma # org-embe # and # uni-tud-vkw # comma # uni-tud,
+  YEAR =        {2005},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{VrticEtAl_ResRep_UVEK_2007,
+  AUTHOR =      Vrtic # and # Schuessler # and # Erath # and # Meister # and # Axhausen,
+  TITLE =       {{Tageszeitliche Fahrtenmatrizen im Personenverkehr an Werktagen im Jahr 2000}},
+  CLIENT =      org-uvek # comma # org-are # comma # org-astra # and # org-bav,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2007},
+  TYPE =        rep-resrep,
+  address =     zurich,
+  url =         {http://www.ivt.ethz.ch/vpl/publications/reports/ab459.pdf},
+}
+
+@RESEARCHREPORT{VrticEtAl_ResRep_UVEK_2014,
+  AUTHOR =      Vrtic # and # Froehlich # and # Weis # and # Bodenmann # and # Zeiler # and # Axhausen,
+  TITLE =       {{Nationales Personenverkehrsmodell des UVEK -- Aktualisierung auf den Basiszustand 2010}},
+  CLIENT =      org-are,
+  INSTITUTION = org-transoptima # comma # org-transsol # comma # org-regioconcept # and # uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2014},
+  TYPE =        rep-finalrep,
+  address =     olten # comma # waedenswil # comma # herisau # and # zurich,
+  url =         {http://www.ivt.ethz.ch/ivt/vpl/publications/reports#1007},
+}
+
+@RESEARCHREPORT{VrticFroehlich_ResRep_UVEK_2010,
+  AUTHOR =      Vrtic # and # Froehlich,
+  TITLE =       {{Nationales Personenverkehrsmodell des UVEK, Basismodell 2005}},
+  CLIENT =      org-uvek # comma # org-are # comma # org-astra # and # org-bav,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz # comma # org-embe # and # uni-tud-vkw # comma # uni-tud,
+  YEAR =        {2010},
+  TYPE =        rep-resrep,
+  address =     bern,
+}
+
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{WagnerDP_ResRep_FHWA_1997,
+  AUTHOR =      WagnerDP,
+  TITLE =       {Lexington Area Travel Data Collection Test: {GPS} for Personal Travel Surveys},
+  CLIENT =      org-fhwa-ohim # and # org-fhwa-ota # comma # org-fhwa,
+  INSTITUTION = org-btd,
+  YEAR =        {1997},
+  TYPE =        rep-finalrep,
+  month =       sep,
+  address =     columbus,
+}
+
+
+@RESEARCHREPORT{WardmanEtAl_ResRep_DfT_2013,
+	AUTHOR =  Wardman # and # Batley # and # Laird # and # MackieP # and # FowkesT # and # Lyons # and # BatesJ # and # Eliasson,
+	TITLE= {Valuation of travel times savings for business travelers},
+	YEAR= 2013,
+	CLIENT = org-dft,
+	INSTITUTION = uni-leeds-its # comma # uni-leeds,
+	address = leeds,
+	month = apr,
+	TYPE =        rep-finalrep,
+}
+
+
+
+@RESEARCHREPORT{WeidmannEtAl_ResRep_ETHZ_2005,
+  AUTHOR =      Weidmann # and # Schneebeli # and # Alt # and # Buchmueller # and # Schuessler,
+  TITLE =       {{Erschliessung von Science City mit dem öffentlichen Verkehr}},
+  CLIENT =      uni-ethz,
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2005},
+  TYPE =        rep-resrep,
+  resprogram =  {{(Master-) Planung Science City}},
+  address =     zurich,
+}
+
+@RESEARCHREPORT{WeisAxhausen_ResRep_OECD_2012,
+  AUTHOR =      Weis # and # Axhausen,
+  TITLE =       {Household behaviour and environmental policy: Report on transport related data analysis},
+  CLIENT =      {OECD},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  YEAR =        {2012},
+  TYPE =        rep-resrep,
+  address =     zurich,
+}
+
+@RESEARCHREPORT{WeisAxhausen_ResRep_UVEK_2012,
+  AUTHOR =      Weis # and # Axhausen,
+  TITLE =       {{Aktivitätenorientierte Analyse des Neuverkehrs, final report SVI 2004/012}},
+  CLIENT =      org-uvek,
+  INSTITUTION = org-uvek,
+  YEAR =        {2012},
+  TYPE =        rep-finalrep,
+  number =	{1362},
+  address =     bern,
+}
+
+@RESEARCHREPORT{WeisAxhausen_ResRep_SVI_2013,
+  AUTHOR =      Weis # and # Axhausen,
+  TITLE =       {{Aktivitätenorientierte Analyse des Neuverkehrs: Leitfaden 2012/02}},
+  INSTITUTION = uni-ethz-ivt # comma # uni-ethz,
+  CLIENT =	org-svi,
+  YEAR =        {2013},
+  TYPE =        rep-resrep,
+  address =     stgallen,
+  url =         {http://www.ivt.ethz.ch/ivt/vpl/publications/reports#857},
+}
+
+@RESEARCHREPORT{WermuthEtAl_ResRep_2003,
+	AUTHOR =  Wermuth # and # Wirth # and # Neef # and # Loehner # and # Hilmer # and # Hautzinger # and # HeidemannD # and # Stock # and # SchmidtJ # and # MayerK # and # MichaelM # and # Amme # and # Ohrem # and # Hansjosten # and # Binnenbruck,
+	TITLE= {{Kontinuierliche Befragung des Wirtschaftsverkehrs in unterschiedlichen Siedlungsräumen – Phase 2}},
+	YEAR= 2003,
+	TYPE= rep-finalrep,
+	ADDRESS= braunschweig,
+	CLIENT =	org-bmvmw,
+	INSTITUTION= uni-tubr-ivs # comma # uni-tubr # comma # org-ivtev # comma # org-wvi # comma # org-kba # comma # org-putv ,
+}
+
+@RESEARCHREPORT{WermuthEtAl_ResRep_2012,
+	AUTHOR =  Wermuth # and # Neef # and # Wirth # and # Hanitz # and # Loehner # and # Hautzinger # and # Stock # and # Pfeiffer # and # Fuchs # and # Lenz # and # Ehrler # and # SchneiderSQ,
+	TITLE= {{Kraftfahrzeugverkehr in Deutschland 2010 (KiD 2010)}},
+	YEAR= 2012,
+	TYPE= rep-finalrep,
+	ADDRESS= braunschweig,
+	CLIENT =	org-bmvbs,
+	INSTITUTION= org-wvi # comma # org-ivtev # comma #  org-dlr-ivf # comma # org-kba,
+}
+
+@RESEARCHREPORT{WidmerVrtic_ResRep_VSS_2004,
+  AUTHOR =      Widmer # and # Vrtic,
+  TITLE =       {{Einfluss von Änderungen des Parkierungsangebots auf das Verkehrsverhalten}},
+  CLIENT =      {Schweizerischer Verband der Strassen- und Verkehrsfachleute (VSS)},
+  INSTITUTION = {Büro Widmer},
+  YEAR =        {2004},
+  TYPE =        rep-resrep,
+  number =      {{VSS 1997/46}},
+  address =     {Frauenfeld},
+}
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@RESEARCHREPORT{ZhangMa_ResRep_PATH_2008,
+  AUTHOR =      ZhangM # and # MaJ,
+  TITLE =       {Developing Calibration Tools for Microscopic Traffic Simulation Final Report Part 1: Overview Methods and Guidelines on Project Scoping and Data Collection},
+  CLIENT =      {California Partners for Advanced Transit and Highways (PATH)},
+  INSTITUTION = {University of California, Davis},
+  YEAR =        {2008},
+  TYPE =        rep-resrep,
+  number =      {UCB-ITS-PWP-2008-3},
+  address =     {Davis},
+}
+
+@RESEARCHREPORT{Zimmermann_2002,
+  AUTHOR =      Zimmermann # and # Axhausen # and # BeckmannJ # and # Beckmann # and # Duesterwald # and # Fraschini # and # Haupt # and # Koenig # and # Kuebel # and # Rindsfueser # and # Schlich # and # Schoenfelder # and # Simma # and # Wehmeier,
+  TITLE =       {{Mobidrive: Dynamik und Routinen im Verkehrsverhalten: Pilotstude Rhythmik}},
+  CLIENT =      org-bmbf,
+  INSTITUTION = org-ptv # and # uni-ethz-ivt # comma # uni-ethz # and # uni-rwth-isb # comma # uni-rwth,
+  YEAR =        {2001},
+  type =        rep-finalrep,
+  address =     karlsruhe # comma # zurich # and # aachen,
+}
+
+@RESEARCHREPORT{zoellig_konzeptstudie_2011,
+  AUTHOR =      Zoellig # and # Hilber # and # Axhausen,
+  TITLE =       {{Konzeptstudie Flächennutzungsmodellierung}},
+  CLIENT =      org-are,
+  INSTITUTION = uni-ethz-ivt # and # org-mappuls,
+  YEAR =        {2011},
+  TYPE =        rep-resrep,
+  address =     zurich,
+  url =         {http://e-collection.library.ethz.ch/eserv/eth:2469/eth-2469-01.pdf},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,609 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  MANUAL
+%   A technical documentation.
+%   Typically written by an institution, sometime there is an author.
+%   It is NOT a TechReport!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  KEY-DEFINITION:
+%      (ShortFormOfContent|Author)_manual_(YEAR)
+%    Example:
+%      BIOGEME_manual_2005,
+%  AUTHOR
+%    If the author is known, use the crossref given in the author.txt
+%    (add it there, if one is missing)
+%    Sometimes there is no Author but an institution or organization.
+%    In this case, use that (without using a crossref).
+%    Example:
+%      AUTHOR =       Bierlaire,
+%      AUTHOR =       {{BfS}},
+%  TITLE
+%    Write the title in "Title-Style", the bib-style converts it.
+%    If there are Characters which MUST be written as defined
+%    (i.e. all-caps or no caps), then set those characters in
+%    additional curly brackets.
+%    Example:
+%      TITLE =        {{R}egionales {B}ezugssystem ({RBS})},
+%      TITLE =        {{COM}-{D}okumentation für {VISUM} 9.3},
+%  YEAR
+%    Always define a year:
+%    Example:
+%      YEAR =         {1981},
+%  organization
+%    Must be crossrefs to the adresses given in the
+%    translations.txt file (add it there, if one is missing)
+%    Example:
+%      organization = org-ptv,
+%  address
+%    Optional: Must be crossrefs to the adresses given in the
+%    translations.txt file (add it there, if one is missing)
+%    Example:
+%      address =      dusseldorf,
+%  edition
+%    Optional: Write down the edition
+%    Example:
+%      edition =      {2.},
+%      edition =      {5.},
+%  month
+%    Optional: Must be crossrefs to the month given in the
+%    translations.txt file
+%    Example:
+%      month =        feb,
+%  url
+%    Optional: Add an url.
+%    Example:
+%      url =          {http://biogeme.epfl.ch/doc/tutorialv13.pdf},
+%  comment
+%    Optional: add any comment you want
+%    Example:
+%      comment =      {balmermi: this is a very good one.},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{MANUAL-AUTHOR_manual_YEAR,
+  AUTHOR =       {MANUAL-AUTHOR},
+  TITLE =        {{TITLE}},
+  YEAR =         {0000},
+  organization = {organization},
+  address =      {address},
+  edition =      {edition},
+  month =        {month},
+  url =          {url},
+  comment =      {{comment}},
+}
+
+@MANUAL{MANUAL-AUTHOR_manual_0001,
+  AUTHOR =       {MANUAL-AUTHOR},
+  TITLE =        {A Manual with All Information},
+  YEAR =         {0001},
+  organization = org-sfsb,
+  address =      Berlin,
+  edition =      {3.},
+  month =        oct,
+  url =          {http://www.a-url.com/path/to/the/manual},
+  comment =      {This is just a comment for that reference.},
+}
+
+@MANUAL{MANUAL-AUTHOR_manual_0002,
+  AUTHOR =       {MANUAL-AUTHOR},
+  TITLE =        {Minimal Version of a Manual},
+  YEAR =         {0002},
+}
+
+@MANUAL{MANUAL-AUTHOR_manual_0003,
+  AUTHOR =       {MANUAL-AUTHOR},
+  TITLE =        {A typical Manual},
+  YEAR =         {0003},
+  organization = org-bfs,
+  address =      Neuchatel,
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/servicestelle_geostat/datenbeschreibung/eidgenoessische_betriebszaehlung2.html},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  End of Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Items:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of TODO Items
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Manual Entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@MANUAL{Aashto_1999,
+  AUTHOR =       {{AASHTO}},
+  TITLE =        {Guide for the Development of Bicycle Facilities},
+  YEAR =         {1999},
+  organization = org-aashto,
+  address =      washington,
+}
+
+@MANUAL{Aashto_2004,
+  AUTHOR =       {{AASHTO}},
+  TITLE =        {A Policy on Geometric Design of Highways and Streets},
+  YEAR =         {2004},
+  organization = org-aashto,
+  address =      washington,
+}
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{BartonAschmanCambridgeSystematics_manual_1997,
+  AUTHOR =       {{Barton-Aschman Associates, Inc.and Cambridge Systematics, Inc.}},
+  TITLE =        {Model Validation and Reasonableness Checking Manual},
+  YEAR =         {1997},
+  organization = {Travel model improvement program (TMIP), Federal Highway Administration},
+  address =      {Arlington, Texas},
+  month =        feb,
+  url =          {http://tmip.fhwa.dot.gov/resources/clearinghouse/docs/mvrcm/},
+}
+
+@MANUAL{Beowulf-FAQ_manual_2006,
+  AUTHOR =       {Beowulf.org},
+  TITLE =        {Beowulf: Frequently Asked Questions},
+  YEAR =         {2006},
+  organization = {Beowulf.org},
+  url =          {http://www.beowulf.org/overview/faq.html},
+}
+
+@MANUAL{BfS-MZ2005_manual_2006,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Ergebnisse des Mikrozensus 2005 zum Verkehrsverhalten}},
+  YEAR =         {2006},
+  organization = org-bfs,
+  address =      neuchatel,
+}
+
+@MANUAL{BfS-MZ2010_manual_2012,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Mobilität in der Schweiz - Ergebnisse des Mikrozensus Mobilität und Verkehr 2010}},
+  YEAR =         {2012},
+  organization = org-bfs,
+  address =      neuchatel,
+}
+
+@MANUAL{BfS-EVE2004_manual_2007,
+  AUTHOR =       "org-bfs",
+  TITLE =        {{Einkommens-und Verbrauchserhebung 2004 (EVE 2004)}},
+  YEAR =         {2007},
+  organization = org-bfs,
+  address =      neuchatel,
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/infothek/publ.Document.89847.pdf},
+}
+
+@MANUAL{BPS-KDA_2005,
+  AUTHOR =       "org-bps",
+  TITLE =        {Kecamatan Dalam Angka - Subdistricts in Numbers},
+  YEAR =         {2005},
+  organization = org-bps,
+  address =      padang,
+}
+
+@MANUAL{BIOGEME_manual_2013,
+  TITLE =        {An introduction to {BIOGEME} (Version 2.2)},
+  AUTHOR =       Bierlaire,
+  YEAR =         {2013},
+  url =          {http://biogeme.epfl.ch/},
+}
+
+@MANUAL{BIOGEME_manual_2009,
+  TITLE =        {An introduction to {BIOGEME} (Version 1.8)},
+  AUTHOR =       Bierlaire,
+  YEAR =         {2009},
+  url =          {http://transp-or2.epfl.ch/biogeme/doc/tutorialv18.pdf},
+}
+
+@MANUAL{BIOGEME_manual_2008,
+  TITLE =        {An introduction to {BIOGEME} (Version 1.7)},
+  AUTHOR =       Bierlaire,
+  YEAR =         {2008},
+  url =          {http://transp-or2.epfl.ch/biogeme/doc/tutorial.pdf},
+}
+
+@MANUAL{BIOGEME_manual_2005,
+  TITLE =        {An introduction to {BIOGEME} (Version 1.3)},
+  AUTHOR =       Bierlaire,
+  YEAR =         {2005},
+  url =          {http://biogeme.epfl.ch/doc/tutorialv13.pdf},
+}
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{CambridgeSystematics_manual_2008,
+  AUTHOR =       {{Cambridge Systematics, Inc.}},
+  TITLE =        {Travel Model Validation Practices Peer Exchange White Paper},
+  YEAR =         {2008},
+  organization = {Travel model improvement program (TMIP), Federal Highway Administration},
+  address =      {Arlington, Texas},
+  month =        dec,
+}
+
+@MANUAL{COM-VISUM_manual_2005,
+  AUTHOR =       {PTV},
+  TITLE =        {COM-Dokumentation für VISUM 9.3},
+  YEAR =         {2005},
+  organization = org-ptv,
+  address =      karlsruhe,
+}
+
+@MANUAL{CNU_manual_2012,
+  AUTHOR =       {{CNU}},
+  TITLE =        {Sustainable Street network Principles},
+  YEAR =         {2012},
+  organization = {Congress for the New Urbanism},
+  address =      chicago,
+  month =        jan,
+}
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{DowlingEtAl_manual_2002,
+  AUTHOR =       Dowling # and # Holland # and # HuangAQ,
+  TITLE =        {{California Department of Transportation: Guidelines for Applying Traffic Microsimulation Modeling Software}},
+  YEAR =         {2002},
+  organization = {Downling Associates, Inc.},
+  month =        sep,
+}
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{ESRI-ShapeFile_manual_1998,
+  AUTHOR =       {ESRI},
+  TITLE =        {ESRI Shapefile Technical Description},
+  YEAR =         {1998},
+  organization = org-esri,
+  url =          {http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf},
+}
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{RIN_2008,
+  AUTHOR =       "org-fgsv",
+  TITLE =        {Richtlinien für Integrierte Netzgestaltung (RIN)},
+  YEAR =         {2008},
+  organization = org-fgsv,
+  address =      koeln,
+}
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{HCA_2010,
+  AUTHOR =       "org-hca",
+  TITLE =        {Employment densities guide},
+  YEAR =         {2010},
+  organization = org-hca,
+  edition =      {2.},
+  address =      london,
+  url =          {http://www.homesandcommunities.co.uk/download-doc/6155/10397}
+}
+
+@MANUAL{HBS_2009,
+  TITLE = {Handbuch f{\"u}r die Bemessung von Strassenverkehrsanlagen: HBS},
+  AUTHOR = {FGSV},
+  YEAR = {2009},
+  organization = org-fgsv,
+  address = koeln,
+}
+
+@MANUAL{HomburgerKell_1981,
+  AUTHOR =       Homburger # and # Kell,
+  TITLE =        {Fundamentals of Traffic Engineering, 10th Edition},
+  YEAR =         {1981},
+  organization = uni-berkeley,
+  address =      berkeley,
+}
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@MANUAL{IHT_1997,
+  AUTHOR =       {{IHT}},
+  TITLE =        {Transport in the Urban Environment},
+  YEAR =         {1997},
+  organization = org-iht,
+  address =      london,
+  month =        jun,
+}
+
+@MANUAL{ITE_2008,
+  AUTHOR =       {ITE},
+  TITLE =        {Urban Street Geometry Design Handbook},
+  YEAR =         {2008},
+  organization = org-ite,
+  address =      washington,
+}
+
+@MANUAL{ITE_2009,
+  AUTHOR =       "org-ite",
+  TITLE =        {Traffic Engineering Handbook, 6th Edition},
+  YEAR =         {2009},
+  organization = org-ite,
+  address =      washington,
+}
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% this is the ref I which is proposed on the JGAP webpage
+@MISC{MeffertEtAl_JGAP_2007,
+  AUTHOR =       Meffert # and # {others},
+  TITLE =        {{JGAP - Java Genetic Algorithms and Genetic Programming Package}},
+  YEAR =         {2007},
+  url =          {http://jgap.sf.net},
+}
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{MySQL_manual_2006,
+  AUTHOR =       Axmark # and # Larsson # and # Widenius,
+  TITLE =        {{MySQL} 3.23, 4.0, 4.1 Reference Manual},
+  YEAR =         {2006},
+  organization = {MySQL AB},
+  month =        dec,
+  url =          {http://dev.mysql.com/doc/refman/4.1/en/index.html},
+}
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{Perl_manual_1996,
+  TITLE =        {Perl Tutorial},
+  AUTHOR =       Johnson,
+  YEAR =         {1996},
+  organization = uni-illinois,
+  address =      urbana,
+  url =          {http://www.ncsa.uiuc.edu/General/Training/PerlIntro/},
+}
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{MATSim_Userguide_2014,
+  AUTHOR =       {{MATSim Development Core Team}},
+  TITLE =        {{MATSim} User Guide},
+  YEAR =         {2014},
+  organization = uni-tub # and # uni-ethz # and # org-senozon,
+  address =      zurich # and # berlin,
+  url =          {http://ci.matsim.org:8080/view/All/job/UserGuide/ws/trunk/docs/user-guide/user-guide.pdf},
+}
+
+@MANUAL{MATSim_Userguide_2015,
+  AUTHOR =       {{MATSim Development Core Team}},
+  TITLE =        {{MATSim} User Guide},
+  YEAR =         {2015},
+  organization = uni-tub # and # uni-ethz # and # org-senozon,
+  address =      zurich # and # berlin,
+  url =          {http://ci.matsim.org:8080/view/All/job/UserGuide/ws/trunk/docs/user-guide/user-guide.pdf},
+}
+
+@MANUAL{R_Manual_2007,
+  AUTHOR =       {{R Development Core Team}},
+  TITLE =        {{R}: A Language and Environment for Statistical Computing},
+  YEAR =         {2007},
+  organization = org-rfsc,
+  address =      wien,
+  url =          {http://www.r-project.org},
+}
+
+@MANUAL{R_Manual_2009,
+  AUTHOR =       {{R Development Core Team}},
+  TITLE =        {{R}: A Language and Environment for Statistical Computing},
+  YEAR =         {2009},
+  organization = org-rfsc,
+  address =      wien,
+  url =          {http://www.r-project.org},
+}
+
+@MANUAL{R_Manual_current,
+  AUTHOR =       {{R Development Core Team}},
+  TITLE =        {{R}: A Language and Environment for Statistical Computing},
+  YEAR =         {\the\year},
+  organization = org-rfsc,
+  address =      wien,
+  url =          {http://www.r-project.org},
+}
+
+@MANUAL{RBS_manual_2001,
+  TITLE =        {{Regionales Bezugssystem (RBS)}},
+  AUTHOR =       {{RBS}},
+  YEAR =         {2001},
+  organization = org-sfsb,
+  address =      berlin,
+  url =          {http://www.statistik-berlin.de/statistiken/rbs/start1.htm},
+}
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{MLPiS_Manual_2003,
+  AUTHOR =       Steenbergen,
+  TITLE =        {Maximum Likelihood Programming in Stata},
+  YEAR =         {2003},
+  organization = {Department of Political Science, University of North Carolina},
+  address =      {Chapel Hill},
+  url =          {www.unc.edu/~monogan/computing/r/MLE_in_Stata.pdf},
+}
+
+@MANUAL{SwissEnterpriseCensus_manual_2001,
+  TITLE =        {{Eidgenössische Betriebszählung 2001 - Sektoren 2 und 3, GEOSTAT Datenbeschreibung}},
+  AUTHOR =       "org-bfs",
+  YEAR =         {2001},
+  organization = org-bfs # comma # org-geostat,
+  address =      Neuchatel,
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/betriebszaehlung05.Document.111424.pdf},
+}
+
+@MANUAL{SwissEnterpriseCensus_manual_2008,
+  TITLE =        {{Eidgenössische Betriebszählung 2008 - Sektoren 2 und 3, GEOSTAT Datenbeschreibung}},
+  AUTHOR =       "org-bfs",
+  YEAR =         {2008},
+  organization = org-bfs # comma # org-geostat,
+  address =      Neuchatel,
+}
+
+@MANUAL{SwissEnterpriseCensus_noga_2001,
+  TITLE =        {{Eidgenössische Betriebszählung 2001 - Sektoren 2 und 3, Liste der Merkmale}},
+  AUTHOR =       "org-bfs",
+  YEAR =         {2001},
+  organization = org-bfs # comma # org-geostat,
+  address =      Neuchatel,
+  url =          {http://www.bfs.admin.ch/bfs/portal/de/index/dienstleistungen/geostat/datenbeschreibung/betriebszaehlung05.Document.111423.pdf},
+}
+
+@MANUAL{SwissGrid_manual_2006,
+  TITLE =        {Swiss map projections},
+  AUTHOR =       {{Swisstopo}},
+  YEAR =         {2006},
+  url =          {http://www.swisstopo.ch/en/basics/geo/system/projectionCH},
+}
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{TA_manual_1964,
+  AUTHOR =       {{U.S. Bureau of Public Roads}},
+  TITLE =        {Traffic Assignment Manual},
+  YEAR =         {1964},
+  organization = org-usdoc,
+  address =      washington,
+}
+
+@MANUAL{TRAF_manual_1995,
+  TITLE =        {TRAF User Reference Guide},
+  AUTHOR =       {{Federal Highway Administration}},
+  YEAR =         {1995},
+}
+
+@MANUAL{HCM_2010,
+  AUTHOR =       "org-trb",
+  TITLE =        {Highway Capacity Manual},
+  YEAR =         {2010},
+  organization = org-trb,
+  address =      washington,
+  month =        dec,
+}
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{VISUM_manualNewFeatures_2011,
+  AUTHOR =       {PTV},
+  TITLE =        {VISUM 12 - New features at a glance},
+  YEAR =         {2011},
+  organization = org-ptv,
+  address =      karlsruhe,
+}
+
+@MANUAL{VISUM_manual_2010,
+  AUTHOR =       {PTV},
+  TITLE =        {Visum 11.0 User Manual},
+  YEAR =         {2010},
+  organization = org-ptv,
+  address =      karlsruhe,
+}
+
+@MANUAL{VISUM_manual_2007,
+  AUTHOR =       {PTV},
+  TITLE =        {Benutzerhandbuch VISUM 10.0},
+  YEAR =         {2007},
+  organization = org-ptv,
+  address =      karlsruhe,
+}
+
+@MANUAL{VISUM_manual_2006,
+  AUTHOR =       {PTV},
+  TITLE =        {Benutzerhandbuch VISUM 9.4},
+  YEAR =         {2006},
+  organization = org-ptv,
+  address =      karlsruhe,
+}
+
+@MANUAL{VerordnungSicherheitStauanlagen_2003,
+  TITLE =        {{Verordnung über die Sicherheit der Stauanlagen}},
+  AUTHOR =       {{Schweizerischer Bundesrat}},
+  YEAR =         {2003},
+  url =          {www.admin.ch/ch/d/sr/7/721.102.de.pdf},
+}
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{WasseralarmSihlsee_2012,
+  TITLE =        {{Wasseralarm Sihlsee - Auslösung durch allgemeinen Alarm}},
+  AUTHOR =       {{Zivilschutz der Stadt Zürich}},
+  YEAR =         {2012},
+  url =          {http://www.stadt-zuerich.ch/content/dam/stzh/pd/Deutsch/Schutz%20und%20Rettung/Zivilschutz/Publikationen%20und%20Broschueren/3.4.8_Wasseralarm.pdf},
+}
+
+@MANUAL{WuestPartner_manual_2008,
+  AUTHOR =       "org-wuestpartner",
+  TITLE =        {{Immo Monitoring 2009}},
+  YEAR =         {2008},
+  organization = org-wuestpartner,
+  address =      zurich,
+}
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{XML_manual_2006,
+  TITLE =        {{eX}tensible {M}arkup {L}anguage ({XML})},
+  AUTHOR =       {{W3C}},
+  YEAR =         {2006},
+  organization = org-w3c,
+  url =          {http://www.w3.org/XML},
+}
+
+@MANUAL{XML-FAQ_manual_2006,
+  TITLE =        {The {XML FAQ}: Frequently-Asked Questions about the Extensible Markup Language},
+  AUTHOR =       flynn,
+  YEAR =         {2006},
+  address =      cork,
+  url =          {http://xml.silmaril.ie/},
+}
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@MANUAL{ZonenPlaeneNotfallplanung_2008,
+  TITLE =        {{Zonenpläne für die Notfallplanung}},
+  AUTHOR =       "org-ensi",
+  YEAR =         {2008},
+  organization = org-ensi,
+  address =      brugg,
+  url =          {http://www.ensi.ch/fileadmin/deutsch/files/Zonenplaene_vollversion_D.pdf},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

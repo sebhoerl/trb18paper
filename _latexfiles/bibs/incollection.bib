@@ -1,0 +1,2180 @@
+% !TEX encoding = utf8
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  INCOLLECTION
+%    A part of a book with its own title. Therefore, the book WITH
+%    EDITOR MUST exist in the book.bib!
+%    NO Article in a Journal or magazine!
+%    I.e. Axhausen in Jones (1990); Balmer et al. in Timmermans (2005);
+%    Balmer et al. in Bieger et al. (2005); etc...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  KEY-DEFINITION:
+%    (Author1|Author1Author2|Author1EtAl)[_INDEX]_(BOOK-KEY)
+%    BOOK-KEY is the key defined for the book the entry refers to.
+%    AN INCOLLECTION ENTRY CAN ONLY REFER TO A BOOK WITH AN EDITOR.
+%    A BOOK WITH AN AUTHOR DOES NOT HAVE OTHER AUTHORS WHICH WRITE
+%    CHAPTERS!!!
+%    Example:
+%      Axhausen_Jones_1990,
+%      BalmerEtAl_Timmermans_2005,
+%      BalmerEtAl_BiegerEtAl_2005,
+%  CROSSREF
+%    MUST be the key of the book to which the entry refers to.
+%    Example:
+%      CROSSREF = {Jones_1990},
+%      CROSSREF = {Timmermans_2005},
+%      CROSSREF = {BiegerEtAl_2005},
+%  AUTHOR
+%    Must be crossrefs of authors given in the author.txt (add it there,
+%    if one is missing)
+%    Example:
+%      AUTHOR =   Balmer # and # Raney # and # Nagel,
+%  TITLE
+%    Write the title in "Title-Style", the bib-style converts it.
+%    If there are Characters which MUST be written as defined
+%    (i.e. all-caps or no caps), then set those characters in
+%    additional curly brackets.
+%    Example:
+%      TITLE =    {{PTV} Vision: Activity-Based Micro-Simulation Model for Travel Demand Forecasting},
+%  chapter
+%    Optional. Write the chapter number
+%    Example:
+%      chapter =  {5},
+%  pages
+%    Optional: Write the pages
+%    Example:
+%      pages =   {205--223},
+%  comment
+%    Optional: add any comment you want
+%    Example:
+%      comment =      {balmermi: this is a very good one.},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{INCOLLECTION-AUTHOR_INDEX_BOOK-EDITOR_YEAR_INDEX,
+  CROSSREF = {BOOK-EDITOR_YEAR_INDEX},
+  AUTHOR =   {INCOLLECTION-AUTHOR},
+  TITLE =    {{TITLE}},
+  chapter =  {chapter},
+  pages =    {pages},
+  comment =  {{comment}},
+}
+
+@INCOLLECTION{INCOLLECTION-AUTHOR_BOOK-EDITOR_0001,
+  CROSSREF = {BOOK-EDITOR_0001},
+  AUTHOR =   {INCOLLECTION-AUTHOR},
+  TITLE =    {A Chapter of a Book with an Editor with its own Title and Author},
+  chapter =  {9},
+  pages =    {87--654},
+  comment =  {This is just a comment for that reference.},
+}
+
+@INCOLLECTION{INCOLLECTION-AUTHOR_BOOK-EDITOR_0002,
+  CROSSREF = {BOOK-EDITOR_0002},
+  AUTHOR =   {INCOLLECTION-AUTHOR},
+  TITLE =    {Minimal Version of a Chapter of a Book with an Editor with its own Title and Author},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  End of Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Items:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of TODO Items
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Incollection Entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{AhasEtAl_Gartner_2008,
+   CROSSREF = {GartnerRehrl_2008},
+   title={Modelling Home and Work Locations of Populations Using Passive Mobile Positioning Data},
+   author = Ahas # and # Silm # and  # Saluveer # and # Jaerv,
+   pages={301-315},
+}
+
+
+@INCOLLECTION{ArellanoHonore_HeckmanLeamer_2001,
+  CROSSREF = {HeckmanLeamer_2001},
+  AUTHOR =   Arellano # and # Honore,
+  TITLE =    {Panel Data Models: Some Recent Developments},
+  pages =  {3229--3296},
+}
+
+@INCOLLECTION{ArendtVrtic_BiegerEtAl_2006,
+  CROSSREF = {BiegerEtAl_2006},
+  AUTHOR =   Arendt # and # Vrtic,
+  TITLE =    {{Nationales Personenverkehrsmodell des Bundes als verkehrsplanerische Grundlage}},
+}
+
+@INCOLLECTION{ArentzeEtAl_Hensher_2001,
+  CROSSREF = {Hensher_2001},
+  AUTHOR =   Arentze # and # Borgers # and # Hofman # and # Fujii # and # Joh # and # Kikuchi # and # Kitamura # and # Timmermans # VanDerWaerden,
+  TITLE =    {Rule-Based Versus Utility-Maximizing Models of Activity-Travel Patterns: A Comparison of Empirical Performance},
+  pages =    {569--583},
+}
+
+@INCOLLECTION{ArentzeEtAl_PagliaraEtAl_2010,
+  CROSSREF = {PagliaraEtAl_2010},
+  AUTHOR =   Arentze # and # Timmermans # and # Veldhuisen,
+  TITLE =    {{The Residential Choice Module in the Albatross and Ramblas Model Systems}},
+  pages =  {209--222},
+}
+
+@INCOLLECTION{ArmoogumMadre_AxhausenEtAl_2002,
+  CROSSREF = {AxhausenEtAl_2002},
+  AUTHOR =   Armoogum # and # Madre,
+  TITLE =    {Weighting and correcting long-distance travel surveys},
+  pages =    {152--170},
+}
+
+@INCOLLECTION{ArmoogumEtAl_BonnelEtAl_2009,
+  CROSSREF = {BonnelEtAl_2009},
+  AUTHOR =   Armoogum # and # Axhausen # and # Madre,
+  TITLE =    {Synthesis of the working group {E}uropean {T}ransport {S}urveys of the {E}uropean {A}ction \glqq{C}hanging behavior towards a more sustainable transport system\grqq},
+}
+
+@INCOLLECTION{Axelrod_Rennard_2007,
+  CROSSREF = {Rennard_2007},
+  AUTHOR = Axelrod,
+  TITLE = {Simulation in the Social Sciences},
+  pages = {90--100},
+}
+
+@INCOLLECTION{Axhausen_ECMT_1999,
+  CROSSREF = {ECMT_1999},
+  AUTHOR =   Axhausen,
+  TITLE =    {Which management and which pricing?},
+}
+
+@INCOLLECTION{Axhausen_1998,
+  CROSSREF = {GaerlingEtAl_1998},
+  AUTHOR =   Axhausen,
+  TITLE =    {Can We Ever Obtain the Data We Would Like to Have?},
+  pages =    {305--323},
+}
+
+@INCOLLECTION{Axhausen_BhatPendyala_2012,
+  CROSSREF = {BhatPendyala_2012},
+  AUTHOR =   Axhausen,
+  TITLE =    {Computational challenges for integrated micro-simulation models},
+}
+
+@INCOLLECTION{Axhausen_DonaghyEtAl_2005,
+  CROSSREF = {DonaghyEtAl_2005},
+  AUTHOR =   Axhausen,
+  TITLE =    {Social Networks and Travel: Some Hypotheses},
+}
+
+@INCOLLECTION{Axhausen_HuwerEtAl_2015,
+  CROSSREF = {HuwerEtAl_2015},
+  AUTHOR =   Axhausen,
+  TITLE =    {{Welches Geschwindigkeitsniveau braucht eine Stadt?}},
+  pages =    {71--74},
+  url =      {http://www.svi.ch/fileadmin/redaktoren/dokumente/Geschwindigkeit/Tagungsband_online.pdf},
+}
+
+@INCOLLECTION{Axhausen_Kitamura_2009,
+  CROSSREF = {Kitamura_2009},
+  AUTHOR =   Axhausen,
+  TITLE =    {Advances in Activity Analysis},
+  pages =    {457--463},
+}
+
+@INCOLLECTION{Axhausen_KowaldAxhausen_2015,
+  CROSSREF = {KowaldAxhausen_2015},
+  AUTHOR =   Axhausen,
+  TITLE =    {{Activity Spaces, Biographies, Social Networks and their Welfare Gains and Externalities: Some Hypotheses and Empirical Results}},
+  pages =    {5--30},
+  url =      {http://www.ashgate.com/isbn/9781472433831},
+}
+
+@INCOLLECTION{AxhausenEtAl_SalehSammer_2009,
+  CROSSREF = {SalehSammer_2009},
+  AUTHOR =   Axhausen # and # Larsen # and # Urry,
+  TITLE =    {Network Society and Networked Traveller},
+  pages =    {89--108},
+}
+
+@INCOLLECTION{Axhausen_Axhausen_2006,
+  CROSSREF = {Axhausen_2006},
+  AUTHOR =   Axhausen,
+  TITLE =    {Moving Through Nets: An Introduction},
+  pages =    {1--7},
+}
+
+@INCOLLECTION{Axhausen_Jones_1990,
+  CROSSREF = {Jones_1990},
+  AUTHOR =   Axhausen,
+  TITLE =    {A Simultaneous Simulation of Activity Chains and Traffic Flow},
+  pages =    {206--225},
+}
+
+@INCOLLECTION{Axhausen_EttemaTimmermans_1997,
+  CROSSREF = {EttemaTimmermans_1997},
+  AUTHOR =   Axhausen,
+  TITLE =    {Data Needs of Activity Scheduling Models},
+  pages =    {229--241},
+}
+
+@INCOLLECTION{Axhausen_HensherButton_2007,
+  CROSSREF = {HensherButton_2007},
+  AUTHOR =   Axhausen,
+  TITLE =    {Definition of movement and activity for transport modelling},
+  pages =    {329--343},
+}
+
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{BagleyMokhtarianP_Ceder_1999,
+  CROSSREF = {Ceder_1999},
+  AUTHOR =   Bagley # and # MokhtarianP,
+  TITLE =    {The Role of Lifestyle and Attitudinal Characteristics in Residential Neighborhood Choice},
+}
+
+% meisterk: do not use this one anymore, use BalmerEtAl_BazzanKluegl_2009 instead
+% scnadine: but it is still a valid entry because we want preserve papers in the state they have been actually published and this includes the status of publication of the references
+%           however, I agree that any new work should cite BalmerEtAl_BazzanKluegl_2009
+@INCOLLECTION{BalmerEtAl_BazzanKluegl_forth,
+  CROSSREF = {BazzanKluegl_forth},
+  AUTHOR =   Balmer # and # Rieser # and # Meister # and # Charypar # and # Lefebvre # and # Nagel,
+  TITLE =    {{MATSim-T}: Architecture and Simulation Times},
+}
+
+@INCOLLECTION{BalmerEtAl_BazzanKluegl_2009,
+  CROSSREF = {BazzanKluegl_2009},
+  AUTHOR =   Balmer # and # Rieser # and # Meister # and # Charypar # and # Lefebvre # and # Nagel,
+  TITLE =    {{MATSim-T}: Architecture and Simulation Times},
+  pages =    {57--78},
+}
+
+@INCOLLECTION{BalmerEtAl_BiegerEtAl_2005,
+  CROSSREF = {BiegerEtAl_2005},
+  AUTHOR =   Balmer # and # Rieser # and # Vogel # and # Axhausen # and # Nagel,
+  TITLE =    {Generating Day Plans Using Hourly Origin-Destination Martices},
+  pages =    {5--36},
+}
+
+@INCOLLECTION{BalmerEtAl_Timmermans_2005,
+  CROSSREF = {Timmermans_2005},
+  AUTHOR =   Balmer # and # Raney # and # Nagel,
+  TITLE =    {Adjustments of Activity Timing and Duration in an Agent-Based Traffic Flow Simulation},
+  pages =    {91--114},
+}
+
+@INCOLLECTION{BalmerNagel_VanLeeuwenTimmermans_2006,
+  CROSSREF = {VanLeeuwenTimmermans_2006},
+  AUTHOR =   Balmer # and # Nagel,
+  TITLE =    {Shape Morphing of Intersection Layouts Using Curb Side Oriented Driver Simulation},
+  pages =    {167--183},
+}
+
+@INCOLLECTION{BarceloEtAl_MarcotteNguyen_1998,
+  CROSSREF = {MarcotteNguyen_1998},
+  AUTHOR =   Barcelo # and # Ferrer # and # Garcia # and # Florian # and # LeSaux,
+  TITLE =    {Microscopic Traffic Simulation},
+  chapter =  {1},
+  pages =    {1--26},
+}
+
+@INCOLLECTION{Bast_AlbersEtAl_2009,
+  CROSSREF = {AlbersEtAl_2009},
+  AUTHOR =   Bast,
+  TITLE =    {Car or Public Transport --- Two Worlds}
+  pages =    {355--367},
+}
+
+@INCOLLECTION{BastEtAl_DebergMeyerU_2010,
+  CROSSREF = {DeBergMeyerU_2010},
+  AUTHOR =   Bast # and # Carlsson # and # Eigenwillig # and # Geisberger # and # Harrelson # and # Raychev # and # Viger,
+  TITLE =    {Fast Routing in Very Large Public Transportation Networks Using Transfer Patterns},
+  pages =    {290--301},
+}
+
+@INCOLLECTION{Bates_Axhausen_2006,
+  CROSSREF = {Axhausen_2006},
+  AUTHOR =   Bates,
+  TITLE =    {Economic evaluation and transport modelling: {T}heory and practice},
+  pages =    {279--351},
+}
+
+@INCOLLECTION{Bates_HensherButton_2000,
+  CROSSREF = {HensherButton_2000},
+  AUTHOR =   BatesJ,
+  TITLE =    {History of Demand Modelling},
+  pages =    {11--33},
+  chapter =  {2},
+}
+
+@INCOLLECTION{Batsell_HuberJ_1982,
+  CROSSREF = {HuberJ_1982},
+  AUTHOR =   Batsell,
+  TITLE =    {A Multiattribute Extension of the Luce Model which Simultaneously Scales Utility and Substitutability},
+  pages =    {4--23},
+}
+
+@INCOLLECTION{Baumann_BaumannGingrich_2004,
+  CROSSREF = {BaumannGingrich_2004},
+  AUTHOR =   Baumann,
+  TITLE =    {Grammars of Identity/Alterity : A structural Approach},
+  pages =    {18--50},
+}
+
+@INCOLLECTION{BazzanEtAl_LNCS_1999,
+  EDITOR =   Burgard # and # Christaller # and # Cremers,
+  BOOKTITLE = {Lecture Notes in Computer Science: Proceedings of the 23rd Annual German Conference on Artificial Intelligence: Advances in Artificial Intelligence 1999},
+  PUBLISHER = Springer,
+  YEAR =     {1999},
+  AUTHOR =   Bazzan # and # Wahle # and # Kluegl,
+  TITLE =    {Agents in Traffic Modelling - From Reactive to Social Behaviour},
+  volume =   {1701},
+  pages =    {303--306},
+}
+
+@INCOLLECTION{BenAkivaBierlaire_Hall_1999,
+  CROSSREF = {Hall_1999},
+  AUTHOR =   BenAkiva # and # Bierlaire,
+  TITLE =    {Discrete Choice Methods and their Applications to Short-Term Travel Decisions},
+  chapter =  {2},
+  pages =    {5--34},
+}
+
+@INCOLLECTION{BenAkivaEtAl_SchreckenbergSelten_2006,
+  CROSSREF = {SchreckenbergSelten_2006},
+  AUTHOR =   BenAkiva # and # Ramming # and # Bekhor,
+  TITLE =    {Route Choice Models},
+  pages =    {23--46},
+}
+
+@INCOLLECTION{BenAkivaEtAl_GendreauMarcotte_2002,
+  CROSSREF = {GendreauMarcotte_2002},
+  AUTHOR =   BenAkiva # and # Bierlaire # and # Koutsopoulos # and # Mishalani,
+  TITLE =    {Real Time Simulation of Traffic demand-supply interactions with {DynaMIT}},
+  pages =    {19--36},
+}
+
+@INCOLLECTION{BenAkivaEtAl_Mahmassani_2002,
+  CROSSREF = {Mahmassani_2002},
+  AUTHOR =   BenAkiva # and # Walker # and # Bernardino # and # Gopinath # and # Morikawa # and # Polydoropoulou,
+  TITLE =    {Integration of Choice and Latent Variable Models},
+  pages =    {431--470},
+}
+
+@INCOLLECTION{BenAkivaEtAl_VolmullerHamerslag_1984,
+  CROSSREF = {VolmullerHamerslag_1984},
+  AUTHOR =   BenAkiva # and # Bergman # and # Daly # and # Ramaswamy,
+  TITLE =    {Modelling Inter-Urban Route Choice Behaviour},
+  chapter =  {15},
+  pages =    {299--330},
+}
+
+@INCOLLECTION{BerdicaMattsson_MurrayGrubesic_2007,
+  CROSSREF = {MurrayGrubesic_2007},
+  AUTHOR =   Berdica # and # Mattsson,
+  TITLE =    {Vulnerability: A Mode-Based Case Study of the Road Network in Stockholm},
+  pages =    {81--106},
+}
+
+@INCOLLECTION{BeserEtAl_LundqvistMattson_2001,
+   CROSSREF={LundqvistMattsson_2001},
+   TITLE={SAMPERS - The New Swedish National Travel Demand Forecasting Tool},
+   AUTHOR=Beser # and # Algers,
+   pages={101-118},
+}
+
+
+@INCOLLECTION{Bhat_Goulias_2003,
+  CROSSREF = {Goulias_2003},
+  AUTHOR =   Bhat,
+  TITLE =    {Random Random Utility-Based Discrete Choice Models for Travel Demand Analysis},
+  chapter =  {10},
+  pages =    {1--30},
+}
+
+@INCOLLECTION{BhatKoppelman_HallRW_2003,
+  CROSSREF = {HallRW_2003},
+  AUTHOR =   Bhat # and # Koppelman,
+  TITLE =    {Activity-Based Modeling of Travel Demand},
+  pages =    {39--65},
+}
+
+@INCOLLECTION{Bierlaire_LabbeEtAl_1998,
+  CROSSREF = {LabbeEtAl_1998},
+  AUTHOR =   Bierlaire,
+  TITLE =    {Discrete Choice Models},
+  pages =    {203--227},
+}
+
+@INCOLLECTION{BirgFloethmann_BeckmannPEngelbrech_1994,
+  CROSSREF = {BeckmannPEngelbrech_1994},
+  AUTHOR =   Birg # and # Floethmann,
+  TITLE =    {{E}rwerbsorientierung und {L}ebenslauf von jungen {F}rauen in unterschiedlichen regionalen {L}ebenswelten},
+  pages =    {253--280},
+}
+
+@INCOLLECTION{Birkmann_Birkmann_2006,
+  CROSSREF = {Birkmann_2006},
+  AUTHOR =   Birkmann,
+  TITLE =    {Measuring vulnerability to promote disaster-resilent societies},
+  pages =    {9--54},
+}
+
+@INCOLLECTION{BorgersEtAl_EttemaTimmermans_1997,
+  CROSSREF = {EttemaTimmermans_1997},
+  AUTHOR =   Borgers # and # Hofman # and # Timmermans,
+  TITLE =    {Activity-Based Modelling: Prospects},
+  pages =    {339--351},
+}
+
+@INCOLLECTION{Bodenmann_BiegerEtAl_2007,
+  CROSSREF = {BiegerEtAl_2007},
+  AUTHOR =   Bodenmann,
+  TITLE =    {{Modelle zur Standortwahl von Unternehmen}},
+  pages =    {5--37},
+}
+
+@INCOLLECTION{BodenmannAxhausen_HurtubiaEtAl_2015,
+  CROSSREF = {HurtubiaEtAl_2015},
+  AUTHOR =   Bodenmann # and # Axhausen,
+  TITLE =    {Modeling the life-cycle of firms and its effect on relocation choice},
+  pages =    {201--218},
+  url =      {http://www.ivt.ethz.ch/vpl/publications/reports#1052},
+}
+
+@INCOLLECTION{BognerMenz_BognerEtAl_2009,
+  CROSSREF = {BognerEtAl_2009},
+  AUTHOR =   Bogner # and # Menz,
+  TITLE =    {{Experteninterviews in der qualitativen Sozialforschung}},
+  pages =    {7--31},
+}
+
+@INCOLLECTION{BognerMenz_BognerEtAl_2009a,
+  CROSSREF = {BognerEtAl_2009},
+  AUTHOR =   Bogner # and # Menz,
+  TITLE =    {{Das theoriegenerierende Experteninterview}},
+  pages =    {61--98},
+}
+
+@INCOLLECTION{BowmanEtAl_MeersmanEtAl_1999_3,
+  CROSSREF = {MeersmanEtAl_1999_3},
+  AUTHOR =   Bowman # and # Bradley # and # Shiftan # and # Lawton # and # BenAkiva,
+  TITLE =    {Demonstration of an Activity Based Model System for {P}ortland},
+  pages =    {171--184},
+}
+
+@INCOLLECTION{Brandes_2001,
+  CROSSREF = {KaufmannKEtAl_2001},
+  AUTHOR =   Brandes,
+  TITLE =    {Drawing on Physical Analogies},
+  pages =    {71--86},
+}
+
+@INCOLLECTION{BrilonGrossmann_Brilon_1991,
+  CROSSREF = {Brilon_1991},
+  AUTHOR =   Brilon # and # Grossmann,
+  TITLE =    {The  New  German Guideline for Capacity of Unsignalized Intersections},
+  pages =    {62--82},
+}
+
+@INCOLLECTION{BrilonWuN-BrilonEtAl_1998,
+  CROSSREF = {BrilonEtAl_1998},
+  AUTHOR =   Brilon # and # WuN,
+  TITLE =    {Evaluation of Cellular Automata for Traffic Flow Simulation on Freeway and Urban Streets},
+  pages =    {163--180},
+}
+
+@INCOLLECTION{Busse_KatenkampEtAl_2003,
+  CROSSREF = {KatenkampEtAl_2003},
+  AUTHOR =   Busse,
+  TITLE =    {Leitfadengestützte qualitative Telefoninterviews},
+  pages =    {27--36},
+}
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Cardona_Ingleton_1999,
+  CROSSREF = {Ingleton_1999},
+  AUTHOR =   Cardona,
+  TITLE =    {Environmental Management and Disaster Prevention: Two Related Topics: A Holistic Risk Assessment and Management Approach},
+  pages =    {91--102},
+}
+
+@INCOLLECTION{CascettaEtAl_Lesort_1996,
+  CROSSREF = {Lesort_1996},
+  AUTHOR =   Cascetta # and # Nuzzola # and # Russo # and # Vitetta,
+  TITLE =    {A Modified Logit Route Choice Model Overcoming Path Overlapping Problems: Specification and Some Calibration Results for Interurban Networks},
+  pages =    {697--711},
+}
+
+@INCOLLECTION{CassirBellM_BellMCassir_2001,
+  CROSSREF = {BellMCassir_2001},
+  AUTHOR =   Cassir # and # BellM,
+  TITLE =    {The N+M Person Game: Approach to Network Reliability},
+  pages =    {91--102},
+}
+
+@INCOLLECTION{CassirEtAl_BellMIida_2003,
+  CROSSREF = {BellMIida_2003},
+  AUTHOR =   Cassir # and # Bell # and # Schmoecker,
+  TITLE =    {A normative assessment of transport network reliability based on game theory},
+  pages =    {225--243},
+}
+
+@INCOLLECTION{ChangMahmassani_ICTB_1989,
+  CROSSREF = {Gerardin_1989},
+  AUTHOR =   ChangG # and # Mahmassani,
+  TITLE =    {The Dynamics of Commuting Decision Behaviour in Urban Transportation Networks},
+	pages = {15–-26},
+}
+
+@INCOLLECTION{CharnesCooper_Herman_1961,
+  CROSSREF = {Herman_1961},
+  AUTHOR =   Charnes # and # Cooper,
+  TITLE =    {Multicopy Traffic Network Models},
+  pages =    {85--96},
+}
+
+@INCOLLECTION{Christmann_BognerEtAl_2009,
+  CROSSREF = {BognerEtAl_2009},
+  AUTHOR =   Christmann,
+  TITLE =    {{Telefonische Experteninterview - ein schwieriges Unterfangen}},
+  pages =    {197--222},
+}
+
+@INCOLLECTION{ChurchScaparra_MurrayGrubesic_2007,
+  CROSSREF = {MurrayGrubesic_2007},
+  AUTHOR =   Church # and # Scaparra,
+  TITLE =    {Analysis of facility systems' reliability when subject to attack or natural disaster},
+  pages =    {221--241},
+}
+
+@INCOLLECTION{CiariBalac_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Ciari # and # Balac,
+  TITLE =    {Car sharing},
+  pages =    {141--144},
+  url =      {https://doi.org/10.5334/baw},
+}
+
+@INCOLLECTION{CopperCEtAl_CopperCFrancis_1998,
+  CROSSREF = {CopperCFrancis_1998},
+  AUTHOR =   CopperC # and # Francis # and # RussellR,
+  TITLE =    {Urban Plazas},
+  pages =    {13--84},
+}
+
+% ah: searched intensively but have not found pages. But seems to be an optional attribute anyway.
+@INCOLLECTION{CorreaStier_Cochran_2010,
+  CROSSREF = {Cochran_2010},
+  AUTHOR =   Correa # and # Stier,
+  TITLE =    {Wardrop Equilibria},
+}
+
+@INCOLLECTION{CourtEtAl_IngallsEtAl_2004,
+  CROSSREF = {IngallsEtAl_2004},
+  AUTHOR =   Court # and # Pittman # and # Alexopoulos # and # Goldsman # and # KimSH # and # Loper # and # Pritchett # and # Haddock,
+  TITLE =    {A Framework for Simulating Human Cognitive Behavior and Movement when Predicting Impacts of Catastrophic Events},
+  pages =    {830--838},
+}
+
+@INCOLLECTION{Cramer_Grefenstette_1985,
+  CROSSREF = {Grefenstette_1985},
+  AUTHOR =   Cramer,
+  TITLE =    {A Representation for the Adaptive Generation of Simple Sequential Programs},
+  pages =    {183--187},
+}
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Damm_CarpenterJones_1983,
+  CROSSREF = {Jones_1990},
+  AUTHOR =   Damm,
+  TITLE =    {Theory and Empirical Results: A Comparison of Recent Activity-Based Research},
+  pages =    {3--33},
+}
+
+@INCOLLECTION{DellingEtAl_DemetrescuEtAl_2009,
+  CROSSREF = {DemetrescuEtAl_2009},
+  AUTHOR    = Delling # and # Holzer # and # MuellerK # and # Schulz # and # Wagner,
+  TITLE     = {High-performance multi-level routing},
+  pages =    {73--91},
+}
+
+@INCOLLECTION{DibbeltEtAl_BonifaciEtAl_2013,
+  CROSSREF = {BonifaciEtAl_2013},
+  AUTHOR =   Dibbelt # and # Pajor # and # Strasser # and # Wagner,
+  TITLE =    {Intriguingly Simple and Fast Transit Routing},
+  pages =    {43--54},
+}
+
+@INCOLLECTION{DiekmannVoss_DiekmannVoss_2004,
+  CROSSREF = {DiekmannVoss_2004},
+  AUTHOR =   Diekmann # and # Voss,
+  TITLE =    {Die Theorie rationalen Handelns. Stand und Perspektiven},
+  pages =    {13--29},
+}
+
+@INCOLLECTION{DijstVidakovic_EttemaTimmermans_1997,
+  CROSSREF = {EttemaTimmermans_1997},
+  AUTHOR =   Dijst # and # Vidakovic,
+  TITLE =    {Individual Action Space in the City},
+  pages =    {117--134},
+}
+
+@INCOLLECTION{Dobler_LeidlHartmannA_2011,
+  CROSSREF = {LeidlHartmannA_2011},
+  AUTHOR =   Dobler,
+  TITLE =    {Exceptional Events in a Transport Simulation},
+  pages =    {311--325},
+}
+
+@INCOLLECTION{DoblerEtAl_RoordaMiller_2013,
+  CROSSREF = {RoordaMiller_2013},
+  AUTHOR =   Dobler # and # Axhausen # and # Weinmann,
+  TITLE =    {Transport simulations: Knowledge levels and system outcomes},
+  chapter =  {13},
+  pages =    {299--319},
+}
+
+@INCOLLECTION{DoblerEtAl_RoordaMiller_2015,
+  CROSSREF = {RoordaMiller_2015},
+  AUTHOR =   Dobler # and # Weinmann # and # Axhausen,
+  TITLE =    {Transport simulations: Knowledge levels and system outcomes},
+  chapter =  {},
+  pages =    {},
+  url =      {http://www.ivt.ethz.ch/vpl/publications/reports#1086},
+}
+
+@INCOLLECTION{Doherty_Goulias_2003,
+  CROSSREF = {Goulias_2003},
+  AUTHOR =   Doherty,
+  TITLE =    {Interactive Methods for Activity Scheduling Processes},
+  chapter =  {7},
+  pages =    {1--26},
+}
+
+@INCOLLECTION{DohertyAxhausen_BrilonEtAl_1998,
+  CROSSREF = {BrilonEtAl_1998},
+  AUTHOR =   Doherty # and # Axhausen,
+  TITLE =    {A Unified Framework for the Development of a Weekly Household Activity-Travel Scheduling Model},
+  pages =    {35--56},
+}
+
+@INCOLLECTION{DohertyEtAl_SternEtAl_2002,
+  CROSSREF = {SternEtAl_2002},
+  AUTHOR =   Doherty # and # Miller # and # Axhausen # and # Gaerling,
+  TITLE =    {A conceptual model of the weekly household activity-travel scheduling process},
+  pages =    {233--264},
+}
+
+@INCOLLECTION{DoughertyEtAl_BielliEtAl_1994,
+  CROSSREF = {BielliEtAl_1994},
+  AUTHOR =   Dougherty # and # Kirby # and # Boyle,
+  TITLE =    {Using neural networks to recognise, predict and model traffic},
+  pages =    {233--250},
+}
+
+@INCOLLECTION{DuarteJPEtAl_2012,
+  CROSSREF = {ArizonaEtAl_2012},
+  AUTHOR =   DuarteJP # and # Beirao # and # Montenegro # and # Gil,
+  TITLE =    {City Induction: A Model for Formulating, Generating, and Evaluating Urban Designs},
+  pages =    {79--104},
+}
+
+@INCOLLECTION{Dubernet_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Dubernet,
+  TITLE =    {Joint Decisions},
+}
+
+@INCOLLECTION{DujardinEtAl_Papageorgiou_1991,
+  CROSSREF = {Papageorgiou_1991},
+  AUTHOR =   Dujardin # and # Fondacci # and # Redon,
+  TITLE =    {Air Traffic Simulators},
+  pages =    {22--29},
+}
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@INCOLLECTION{EhrekeAxhausen_HolzrauScheiner_2015,
+  CROSSREF = {HolzrauScheiner_2015},
+  AUTHOR =   Ehreke # and # Axhausen,
+  TITLE =    {{Modellierung von Arbeitsplatzentscheidungen in Mobilitätsbiographien}},
+  pages =    {261--276},
+  url =      {http://doi.org/10.1007/978-3-658-07546-0_14},
+}
+
+@INCOLLECTION{EagleEtAl_LiuHQEtAl_2008,
+  CROSSREF = {LiuHQEtAl_2008},
+  AUTHOR =   EagleN # and # Pentland # and # Lazer,
+  TITLE =    {Mobile Phone Data for Inferring Social Network Structure},
+  pages =    {79--88},
+}
+
+@INCOLLECTION{Eliasson_PagliaraEtAl_2010,
+  CROSSREF = {PagliaraEtAl_2010},
+  AUTHOR =   Eliasson,
+  TITLE =    {{The Influence of Accessibility on Residential Location}},
+  pages =    {137--164},
+}
+
+@INCOLLECTION{EvansEtAl_Kuzmyak_2003,
+  CROSSREF = {Kuzmyak_2003},
+  AUTHOR =   Evans # and # Bhatt # and # Turnbull,
+  TITLE =    {Road Value Pricing},
+  chapter =  {14},
+}
+
+@INCOLLECTION{Erath_BiegerEtAl_2007,
+  CROSSREF = {BiegerEtAl_2007},
+  AUTHOR =   Erath,
+  TITLE =    {{Der Einfluss von Mobility Pricing auf den Besitz von Mobilitätswerkezugen und die Wohnstandortwahl}},
+  chapter =  {3},
+  pages =    {43--72},
+}
+
+@INCOLLECTION{ErathFourie_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Erath # and # Fourie,
+  TITLE =    {{Interactive Analysis and Decision Support with MATSim}},
+}
+@INCOLLECTION{ErathFourie_HorniEtAl_forth,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Erath # and # Fourie,
+  TITLE =    {{Interactive Analysis and Decision Support with MATSim}},
+}
+
+@INCOLLECTION{EsserNagel_Hensher_2001,
+  CROSSREF = {Hensher_2001},
+  AUTHOR =   Esser # and # Nagel,
+  TITLE =    {Iterative Demand Generation for Transportation Simulations},
+  pages =    {689--709},
+}
+
+@INCOLLECTION{EwingR_MarzluffEtAl_2008,
+  CROSSREF = {MarzluffEtAl_2008},
+  AUTHOR =   EwingR,
+  TITLE =    {Characteristics, Causes, and Effects of Sprawl: A Literature Review},
+  pages =    {519--536},
+}
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Fagin_1974,
+  CROSSREF = {Karp_1974},
+  AUTHOR =   Fagin,
+  TITLE =    {General First-Order Spectra and Polynomial-Time Recognizable Sets},
+  pages =    {43--73},
+}
+
+@INCOLLECTION{FarooqEtAl_HurtubiaEtAl_2015,
+  CROSSREF = {HurtubiaEtAl_2015},
+  AUTHOR =   Farooq # and # MuellerK # and # Bierlaire # and # Axhausen,
+  TITLE =    {Methodologies for synthesizing populations},
+  pages =    {77--94},
+  url =      {http://www.ivt.ethz.ch/vpl/publications/reports#932},
+}
+
+@INCOLLECTION{FellendorfEtAl_EttemaTimmermans_1997,
+  CROSSREF = {EttemaTimmermans_1997},
+  AUTHOR =   Fellendorf # and # Haupt # and # Heidl # and # Scherr,
+  TITLE =    {{PTV} Vision: Activity-Based Micro-Simulation Model for Travel Demand Forecasting},
+  pages =    {55--72},
+}
+
+@INCOLLECTION{FerreiraEtAl_Yuhua_2008,
+  CROSSREF = {Yuhua_2008},
+  AUTHOR =   Ferreira # and # Esteves # and # Rossetti # and # OliveiraEC,
+  TITLE =    {A Cooperative Simulation Framework for Traffic and Transportation Engineering},
+  pages =    {89--97},
+}
+
+@INCOLLECTION{Ferscha_Zomaya_1996,
+  CROSSREF = {Zomaya_1996},
+  AUTHOR =   Ferscha,
+  TITLE =    {Parallel and Distributed Simulation of Discrete Event Systems},
+  pages =    {1003--1041},
+}
+
+@INCOLLECTION{FloetteroedKickhoefer_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Floetteroed # and # Kickhoefer,
+  TITLE =    {Choice Models in {MATSim}}
+  pages =    {337--346},
+}
+
+@INCOLLECTION{FlorianEtAl_GendreauMarcotte_2002,
+  CROSSREF = {GendreauMarcotte_2002},
+  AUTHOR =   Florian # and # WuJH # and # HeS,
+  TITLE =    {A multi-class multi-mode variable demand network equilibrium model with hierarchical logit structures},
+  pages =    {119--133},
+}
+
+@INCOLLECTION{Fosgerau_LundqvistMattsson_2001,
+  CROSSREF = {LundqvistMattsson_2001},
+  AUTHOR =   Fosgerau,
+  TITLE =    {{PETRA} - an Activity-based Approach to Travel Demand Analysis},
+  pages =    {134--146},
+}
+
+@INCOLLECTION{FourieEtAl_forth,
+  CROSSREF = {KurauchiSchmoecker_forth},
+  AUTHOR =   Fourie # and # Erath # and # Ordonez # and # Chakirov # and # Axhausen,
+  TITLE =    {Using smartcard data for agent-based transport simulation},
+}
+
+@INCOLLECTION{Fourie_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Fourie,
+  TITLE =    {{Multi-Modeling in MATSim: PSim}},
+}
+
+@INCOLLECTION{FreiEtAl_OhnmachtEtAl_2009,
+  CROSSREF = {OhnmachtEtAl_2009},
+  AUTHOR =   Frei # and # Axhausen # and # Ohnmacht,
+  TITLE =    {Mobilities and Social Network Geography: Size and Spatial Dispersion - The {Z}urich Case Study Results},
+  pages =    {99--120},
+}
+
+@INCOLLECTION{FreyEtAl_FreyIrle_1993,
+  CROSSREF = {FreyIrle_1993},
+  AUTHOR =   Frey # and # Stahlberg # and # Gollwitzer,
+  TITLE =    {{Einstellung und Verhalten: Die Theorie des überlegten Handelns und die Theorie des geplanten Verhaltens}},
+  pages =    {361--398},
+}
+
+@INCOLLECTION{FriedrichEtAl_Beckmann_2000,
+  CROSSREF = {Beckmann_2000},
+  AUTHOR =   Friedrich # and # Hofsaess # and # Noekel # and # Vortisch,
+  TITLE =    {{Umlegung zeitlich differenzierter Nachfragematrizen: ein dynamisches Verfahren für Verkehrsplanung und Telematik}},
+  pages =    {99--109},
+}
+
+@INCOLLECTION{FriedrichHaupt_KagermeierEtAl_2002,
+  CROSSREF = {KagermeierEtAl_2002},
+  AUTHOR =   Friedrich # and # Haupt,
+  TITLE =    {{Verkehrsplanung im Internet, Tagungsband der Jahrestagung 2002 des Arbeitskreises Verkehr der Deutschen Gesellschaft für Geographie}},
+  pages =    {213--226},
+}
+
+@INCOLLECTION{Friesz_Hillier_2010,
+  CROSSREF = {Hillier_2010},
+  AUTHOR =   Friesz,
+  TITLE =    {Dynamic User Equilibrium},
+  chapter =  {9},
+  pages =    {411--456},
+}
+
+@INCOLLECTION{FrieszBernstein_HensherButton_2000,
+  CROSSREF = {HensherButton_2000},
+  AUTHOR =   Friesz # and # Bernstein,
+  TITLE =    {Analytical Dynamic Traffic Assignment Models},
+  pages =    {181--195},
+  chapter =  {11},
+}
+
+@INCOLLECTION{FroehlichEtAl_AxhausenHurni_2005,
+  CROSSREF = {AxhausenHurni_2005},
+  AUTHOR =   Froehlich # and # Tschopp # and # Axhausen,
+  TITLE =    {{Netzmodelle und Erreichbarkeit in der Schweiz: 1950-2000}},
+  pages =    {29--40},
+}
+
+@INCOLLECTION{FuhrerEtAl_BiegerEtAl_2015,
+  CROSSREF = {BiegerEtAl_2015},
+  AUTHOR =   Fuhrer # and # WalkerP # and # Sarlas # and # Axhausen # and # Neuenschwander,
+  TITLE =    {{Gesamtwirtschaftliche Effekte des öffentlichen Verkehrs mit besonderer Berücksichtigung der Verdichtungs- und Agglomerationseffekte -- Eine empirische Studie im Schweizer Kontext}},
+  pages =    {29--42},
+  url =      {http://www.ivt.ethz.ch/vpl/publications/reports#1103},
+}
+
+@INCOLLECTION{Fujimoto_PetersBEtAl_2001,
+  CROSSREF = {PetersBEtAl_2001},
+  AUTHOR =   Fujimoto,
+  TITLE =    {Parallel and Distributed Simulation Systems},
+  pages =    {147--157},
+}
+
+@INCOLLECTION{Fujimoto_MacNairEtAl_1989,
+  CROSSREF = {MacNairEtAl_1989},
+  AUTHOR =   Fujimoto,
+  TITLE =    {Parallel Discrete Event Simulation},
+  pages =    {19--28},
+}
+
+@INCOLLECTION{FukumotoHasegawa_Yang_2011,
+  CROSSREF = {Yang_2011},
+  AUTHOR =   Fukumoto # and # Hasegawa,
+  TITLE =    {Investigation of Temporal Change in Heartbeat in Transition of Sound and Music Stimuli},
+  pages =    {235--248},
+}
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Gilbert_Sun_2006,
+  CROSSREF = {Sun_2006},
+  AUTHOR =   Gilbert,
+  TITLE =    {When Does Social Simulation Need Cognitive Models?},
+  chapter =  {19},
+  pages =    {428--432},
+}
+
+@INCOLLECTION{Golob_Goulias_2003,
+  CROSSREF = {Goulias_2003},
+  AUTHOR =   Golob,
+  TITLE =    {Structural Equation Modeling},
+  chapter =  {11},
+}
+
+@INCOLLECTION{GosebergEtAl_SmithJM_2009,
+  CROSSREF = {SmithJM_2009},
+  AUTHOR =   Goseberg # and # Stahlmann # and # Schimmels # and # Schlurmann,
+  TITLE =    {Highly-Resolved Numerical Modeling of Tsunami Run-Up and Inundation Scenario in the City of {P}adang, {We}st {S}umatra},
+}
+
+@INCOLLECTION{Gower_KotzEtAl_1985,
+  CROSSREF = {KotzEtAl_1985},
+  AUTHOR =   GowerJC,
+  TITLE =    {Measures of Similarity, Dissimilarity, and Distance},
+  pages =    {397--405},
+}
+
+@INCOLLECTION{Gould_ZmudEtAl_2013,
+  CROSSREF = {ZmudEtAl_2013},
+  AUTHOR =   Gould,
+  TITLE =    {{Cell Phone Enabled Travel Surveys: The Medium Moves the Message}},
+  pages =    {51--70}
+}
+
+@INCOLLECTION{GourleyJohnson_2005,
+  CROSSREF = {SchadschneiderEtAl_2005},
+  AUTHOR =   Gourley # and # JohnsonNF,
+  TITLE =    {Decision-Making and Transport Costs in Complex Networks},
+  pages =    {359--374},
+}
+
+@INCOLLECTION{Grefenstette_Davis_1987,
+  CROSSREF = {Davis_1987},
+  AUTHOR =   Grefenstette,
+  TITLE =    {Incorporating Problem Specific Knowledge into Genetic Algorithms},
+  pages =    {42--60},
+}
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Hajdin_Structures_2001,
+  CROSSREF = {Structures_2001},
+  AUTHOR =   Hajdin,
+  TITLE =    {{KUBA-MS} The {S}wiss Bridge Management System},
+}
+
+@INCOLLECTION{HanXLPolak_AxhausenEtAl_2002,
+  CROSSREF = {AxhausenEtAl_2002},
+  AUTHOR =   HanXL # and # Polak,
+  TITLE =    {Imputation with non-ignorable missing values: a stochastic approach},
+  pages =    {171--186},
+}
+
+@INCOLLECTION{HanQEtAl_BazzanKluegl_2009,
+  CROSSREF = {BazzanKluegl_2009},
+  AUTHOR =   HanQ # and # Arentze # and # Timmermans # and # Janssens # and # Wets,
+  TITLE =    {A Multi-Agent Modeling Approach to Simulate Dynamic Activity-Travel Patterns},
+  pages =    {36--56},
+}
+
+@INCOLLECTION{HansonHuff_GolledgeTimmermans_1988,
+  CROSSREF = {GolledgeTimmermans_1988},
+  AUTHOR =   Hanson # and # HuffJ,
+  TITLE =    {Repetition and Day-to-Day Variability in Individual Travel Patterns: Implications for Classification},
+  pages =    {368--398},
+}
+
+@INCOLLECTION{HartrumDonlan_FoxG_1988,
+  CROSSREF = {FoxG_1988},
+  AUTHOR =   Hartrum # and # Donlan,
+  TITLE =    {{HYPERSIM}: Distributed Discrete-Event Simulation on an {iPSC}},
+  pages =    {745--747},
+}
+
+@INCOLLECTION{Heckman_Rosen_1981,
+  AUTHOR = {Heckman, James J},
+  TITLE = {Heterogeneity and state dependence},
+  pages = {91--140},
+  EDITOR = Rosen,
+  BOOKTITLE = {Studies in labor markets},
+  PUBLISHER = UCPress,
+  YEAR = {1981},
+  Volume={31},
+  address = chicago,
+}
+
+@INCOLLECTION{Hensher_GreeneDEtAl_1997,
+  CROSSREF = {GreeneDEtAl_1997},
+  AUTHOR =   Hensher,
+  TITLE =    {Behavioral Value of Time Savings in Personal and Commercial Automobile Travel},
+  pages =    {245--280},
+}
+
+@INCOLLECTION{Hensher_DePalmaEtAl_2011,
+  CROSSREF = {DePalmaEtAl_2011},
+  AUTHOR =   Hensher,
+  TITLE =    {Valuation of Travel Time Savings},
+  pages =    {135--159},
+}
+
+@INCOLLECTION{HensherGreene_Hensher_2001,
+  CROSSREF = {Hensher_2001},
+  AUTHOR =   Hensher # and # Greene,
+  TITLE =    {Choosing between conventional, electric, and LPG/CNG vehicles in single-vehicle households},
+  pages =    {725--750},
+}
+
+@INCOLLECTION{HilhorstBankhoff_BankhoffEtAl_2004,
+  CROSSREF = {BankhoffEtAl_2004},
+  AUTHOR =   Hilhorst # and # Bankhoff,
+  TITLE =    {Introduction: Mapping Vulnerability},
+  pages =    {1--9},
+}
+
+@INCOLLECTION{HoogendoornLanserEtAl_Mahmassani_2005,
+  CROSSREF = {Mahmassani_2005},
+  AUTHOR =   HoogendoornLanser # and # vanNes # and # Bovy,
+  TITLE =    {Path Size and Overlap in Multimodal Transport Networks},
+  pages =    {63--83},
+}
+
+@INCOLLECTION{HorniEtAl_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Horni # and # Nagel # and # Axhausen,
+  TITLE =    {Destination innovation},
+  pages =    {165--174},
+  url =      {https://doi.org/10.5334/baw},
+}
+
+@INCOLLECTION{HorniNagel_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Nagel # and # Axhausen,
+  TITLE =    {Introducing {MATSim}},
+  pages =    {3--7},
+  url =      {https://doi.org/10.5334/baw},
+}
+
+
+@INCOLLECTION{HuelsmannEtAl_GerikeEtAl_2013,
+  CROSSREF = {GerikeEtAl_2013},
+  AUTHOR =   HuelsmannFH # and # Kickhoefer # and # Gerike,
+  TITLE =    {Air pollution hotspots in urban areas -- how effective are pricing strategies to comply with the {EU} limits for $NO_{2}$},
+  pages =			{105--128},
+}
+
+@INCOLLECTION{HuffJHanson_Jones_1990,
+  CROSSREF = {Jones_1990},
+  AUTHOR =   HuffJ # and # Hanson,
+  TITLE =    {Measurement of Habitual Behaviour: Examining Systematic Variability in Repetitive Travel},
+  pages =    {229--249},
+}
+
+@INCOLLECTION{Hunt_PagliaraEtAl_2010,
+  CROSSREF = {PagliaraEtAl_2010},
+  AUTHOR =   Hunt,
+  TITLE =    {{Stated Preference Examination of Factors Influencing Residential Attraction}},
+  pages =  {21--59},
+}
+
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{IidaEtAl_WCTRS_1989,
+  CROSSREF = {WCTRS_1989},
+  AUTHOR =   Iida # and # Wakabayashi,
+  TITLE =    {An Approximation Method of Terminal Reliability of Road Network Using Partial Minimum Path and Cut sets},
+  pages =    {367--380},
+}
+
+@INCOLLECTION{IovanEtAl_Vandenbroucke_2013,
+   CROSSREF = {VandenbrouckeEtAl_2013},
+   AUTHOR = Iovan # and # OlteanuRaimond # and # Couronne # and # Smoreda,
+   TITLE = {{Moving and Calling: Mobile Phone Data Quality Measurements and Spatiotemporal Uncertainty in Human Mobility Studies}},
+   pages =    {247--265},
+}
+
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{JainMahdian_NisanEtAl_2007,
+  CROSSREF = {NisanEtAl_2007},
+  AUTHOR =   Jain # and # Mahdian,
+  TITLE =    {Cost Sharing},
+  pages =    {385--410},
+}
+
+@INCOLLECTION{JonesEtAl_Jones_1990,
+  CROSSREF = {Jones_1990},
+  AUTHOR =   Jones # and # Koppelman # and # Orfeuil,
+  TITLE =    {Activity Analysis: State-of-the-Art and Future Directions},
+  pages =    {34--55},
+}
+
+@INCOLLECTION{Jones_HensherStopher_1979,
+  CROSSREF = {HensherStopher_1979},
+  AUTHOR =   Jones,
+  TITLE =    {New Approaches to Understand Travel Behaviour: the Human Activity Approach},
+  pages =    {55--80},
+}
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{KawakamiIsobe_WCTRS_1989,
+  CROSSREF = {WCTRS_1989},
+  AUTHOR =   Kawakami # and # Isobe,
+  TITLE =    {Development of a Travel-Activity Scheduling Model Considering Time Constraint and Temporal Transferability Test of the Model},
+  pages =    {221--233},
+}
+
+@INCOLLECTION{KickhoeferEtAl_VanoutriveVerhetsel_2013,
+  CROSSREF = {VanoutriveVerhetsel_2013},
+  AUTHOR =   Kickhoefer # and # HuelsmannFH # and # Gerike # and # Nagel,
+  TITLE =    {Rising car user costs: comparing aggregated and geo-spatial impacts on travel demand and air pollutant emissions},
+  pages =    {180--207},
+}
+
+@INCOLLECTION{Kitamura_GolledgeTimmermans_1988,
+  CROSSREF = {GolledgeTimmermans_1988},
+  AUTHOR =   Kitamura,
+  TITLE =    {An Analysis of Weekly Activity Patterns and Travel Expenditure},
+  pages =    {399--423},
+}
+
+@INCOLLECTION{KitamuraEtAl_KitamuraKuwahara_2005,
+  CROSSREF = {KitamuraKuwahara_2005},
+  AUTHOR =   Kitamura # and # Kikuchi # and # Fujii,
+  TITLE =    {An Overview of {PCATS/DEBNetS} Micro-Simulation System: Its Development, Extension, and Application to Demand Forecasting},
+  pages =    {371--399},
+}
+
+@INCOLLECTION{KitamuraFujii_1998,
+  CROSSREF = {GaerlingEtAl_1998},
+  AUTHOR =   Kitamura # and # Fujii,
+  TITLE =    {Two Computational Process Models of Activity-Travel Behavior},
+  pages =    {251--279},
+}
+
+@INCOLLECTION{KitrinouEtAl_HessDaly_2010,
+  CROSSREF = {HessDaly_2010},
+  AUTHOR =   Kitrinou # and # Polydoropoulou # and # Bolduc,
+  TITLE =    {Development of Integrated Choice and Latent Variable Models for the Residential Relocations Decision in Island Areas},
+  chapter =  {27},
+  pages =    {593--618},
+}
+
+
+@INCOLLECTION{KoehlerEtAl_Nikoletseas_2005,
+  CROSSREF = {Nikoletseas_2005},
+  AUTHOR =   Koehler # and # Moehring # and # Schilling,
+  TITLE =    {Acceleration of Shortest Path and Constrained Shortest Path Computation},
+  volume =   {3503},
+  pages =    {126--138},
+}
+
+@INCOLLECTION{KoenigRMuellerD_Salcido_2011,
+  CROSSREF = {Salcido_2011},
+  AUTHOR =   KoenigR # and # MuellerD,
+  TITLE =    {Cellular-Automata-Based Simulation of the Settlement Development in Vienna},
+  pages =    {23--46},
+}
+
+@INCOLLECTION{KollSchretzenmayrZoellig_KlemmeSelle_2009,
+  CROSSREF = {KlemmeSelle_2009},
+  AUTHOR =   KollSchretzenmayr # and # Zoellig,
+  TITLE =    {Innenentwicklung akteursbezogen},
+  pages =	{214--227},
+}
+
+@INCOLLECTION{KochSkutella_MavronicolasPapadopoulou_2009,
+  CROSSREF = {MavronicolasPapadopoulou_2009},
+  AUTHOR =   Koch # and # Skutella,
+  TITLE =    {Nash Equilibria and the Price of Anarchy for Flows over Time},
+  pages =    {323--334},
+}
+
+@INCOLLECTION{KollSchretzenmayrZoellig_KlemmeSelle_forth,
+  CROSSREF = {KlemmeSelle_forth},
+  AUTHOR =   KollSchretzenmayr # and # Zoellig,
+  TITLE =    {Innenentwicklung akteursbezogen},
+}
+
+@INCOLLECTION{KoppEtAl_GerikeEtAl_2013,
+  CROSSREF = {GerikeEtAl_2013},
+  AUTHOR =   Kopp # and # Gerike # and # Axhausen,
+  TITLE =    {{Status Quo and Perspectives for CarSharing Systems: the Example of DriveNow}},
+  pages =    {207--226},
+}
+
+@INCOLLECTION{KostyniukKitamura_CarpenterJones_1983,
+  CROSSREF = {CarpenterJones_1983},
+  AUTHOR =   Kostyniuk # and # Kitamura,
+  TITLE =    {An Empirical Investigation of Household Time Space Paths},
+  pages =    {266--289},
+}
+
+@INCOLLECTION{KowaldAxhausen_GriecoUrry_2012,
+  CROSSREF = {GriecoUrry_2012},
+  AUTHOR =   Kowald # and # Axhausen,
+  TITLE =    {Egos' horizons and behind it: Snowball sampling of personal leisure networks},
+  pages =    {109--134},
+}
+
+@INCOLLECTION{KowaldAxhausen_KowaldAxhausen_2015,
+  CROSSREF = {KowaldAxhausen_2015},
+  AUTHOR =   Kowald # and # Axhausen,
+  TITLE =    {Transport planning and social network analysis -- {A}n introduction},
+  pages =    {1--4},
+  url =      {http://doi.org/10.3929/ethz-a-010449825},
+}
+
+@INCOLLECTION{Krier_LariceMacDonald_2007,
+  CROSSREF = {LariceMacDonald_2007},
+  AUTHOR =   Krier,
+  TITLE =    {{Critiques and Urban Components}},
+  pages =    {231--250},
+}
+
+@INCOLLECTION{Kruskal_SankoffKruskal_1983,
+  CROSSREF = {SankoffKruskal_1983},
+  AUTHOR =   Kruskal,
+  TITLE =    {An overview of sequence comparison},
+  pages =    {1--44},
+}
+
+@INCOLLECTION{KuhnauGoulias_Goulias_2003,
+  CROSSREF = {Goulias_2003},
+  AUTHOR =   Kuhnau # and # Goulias,
+  TITLE =    {Centre {SIM}: First-Generation Model Design, Pragmatic Implementation, and Scenarios},
+  pages =    {16-1--16-14},
+}
+
+@INCOLLECTION{KunzeEtAl_2012,
+  CROSSREF = {ArizonaEtAl_2012},
+  AUTHOR =   Kunze # and # Burkhard # and # Gebhardt # and # Tuncer,
+  TITLE =    {Visualisation and Decision Support Tools in Urban Planning},
+  pages =    {279--298},
+}
+
+@INCOLLECTION{Kwan_EttemaTimmermans_1997,
+  CROSSREF = {EttemaTimmermans_1997},
+  AUTHOR =   Kwan,
+  TITLE =    {{GISICAS}: An Activity-Based Travel Decision Support System Using a {GIS}-Interfaced Computational-Process Model},
+  pages =    {263--282},
+}
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Lademan_SchuckelToporowski_2007,
+  CROSSREF = {SchuckelToporowski_2007},
+  AUTHOR =   Lademann,
+  TITLE =    {{Zum Einfluss von Verkaufsfläche und Standort auf die Einkaufswahrscheinlichkeit}},
+  pages =    {143--162},
+}
+
+@INCOLLECTION{LaemmelFloetteroed_MertschingEtAl_2009,
+  CROSSREF = {MertschingEtAl_2009},
+  AUTHOR =   Laemmel # and # Floetteroed,
+  TITLE =    {Towards System Optimum: Time-Dependent Networks for Large-Scale Evacuation Problems},
+  pages =    {532--539},
+}
+
+@INCOLLECTION{LaemmelEtAl_KlingschEtAl_2008,
+  CROSSREF = {KlingschEtAl_2008},
+  AUTHOR =   Laemmel # and # Rieser # and # Nagel # and # Taubenboeck # and # Strunz # and # Goseberg # and # Schlurmann # and # Kluepfel # and # Setiadi # and # Birkmann,
+  TITLE =    {Emergency Preparedness in the Case of a Tsunami-Evacuation Analysis and Traffic Optimization for the Indonesian City of Padang},
+  pages =    {171--182},
+}
+
+@INCOLLECTION{LaemmelEtAl_KlingschEtAl_2010,
+  CROSSREF = {KlingschEtAl_2010},
+  AUTHOR =   Laemmel # and # Rieser # and # Nagel,
+  TITLE =    {Large Scale Microscopic Evacuation Simulation},
+  pages =    {503--508},
+}
+
+@INCOLLECTION{Langton_FarmerEtAl_1986,
+  CROSSREF = {FarmerEtAl_1986},
+  AUTHOR =   Langton,
+  TITLE =    {Studying Artificial Life with Cellular Automata},
+  pages =    {120--149},
+}
+
+@INCOLLECTION{Lauther_RauberEtAl_2004,
+  CROSSREF = {RauberEtAl_2004},
+  AUTHOR =   Lauther,
+  TITLE =    {An Extremely Fast, Exact Algorithm for Finding Shortest Paths in Static Networks with Geographical Background},
+  volume =   {22},
+  pages =    {219--230},
+}
+
+@INCOLLECTION{LeeJKimTJ_MurrayGrubesic_2007,
+  CROSSREF = {MurrayGrubesic_2007},
+  AUTHOR =   LeeJ # and # KimTJ,
+  TITLE =    {Spatio-Temporal Models for Network Economic Loss Analysis Under Unscheduled Events: A Conceptual Design},
+  doi =      {DOI: 10.1007/978-3-540-68056-7_4},
+}
+
+@INCOLLECTION{Lerman_HutchinsonEtAl_1985,
+  CROSSREF = {HutchinsonEtAl_1985},
+  AUTHOR =   Lerman,
+  TITLE =    {Random Utility Models of Spatial Choice},
+  pages =    {200--217},
+}
+
+@INCOLLECTION{LevinsonEtAl_BellMEtAl_2007,
+  CROSSREF = {BellMEtAl_2007},
+  AUTHOR =   Levinson # and # Xie # and # ZhuS,
+  TITLE =    {The co-evolution of land use and road networks},
+  pages =    {839--859},
+}
+
+@INCOLLECTION{Littig_BognerEtAl_2009,
+  CROSSREF = {BognerEtAl_2009},
+  AUTHOR =   Littig,
+  TITLE =    {{Interviews mit Eliten - Interwievs mit Experten: Gibt es Unterschiede?}},
+  pages =    {117--135},
+}
+
+@INCOLLECTION{Lotzmann_BazzanKluegl_2009,
+  CROSSREF = {BazzanKluegl_2009},
+  AUTHOR =   Lotzmann,
+  TITLE =    {{TRASS}: A Multi-Purpose Agent-Based Simulation Framework for Complex Traffic Simulation Applications},
+  pages =    {79--107},
+}
+
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{MahmassaniEtAl_GartnerImprota_1995,
+  CROSSREF = {GartnerImprota_1995},
+  AUTHOR =   Mahmassani # and # HuT # and # Jayakrishnan,
+  TITLE =    {Dynamic traffic assignment and simulation for advanced network informatics ({DYNASMART})},
+}
+
+@INCOLLECTION{Malpezzi_OsullivanGibbK_2003,
+  CROSSREF = {OsullivanGibbK_2003},
+  AUTHOR =   Malpezzi,
+  TITLE =    {Hedonic pricing models: A selective and applied review},
+}
+
+@INCOLLECTION{March_1972,
+  CROSSREF = {MartinLMarch_1972},
+  AUTHOR =   March,
+  TITLE =    {Elementary Models of Built Forms},
+  pages =    {55--96},
+}
+
+@INCOLLECTION{March_March_1976,
+  CROSSREF = {March_1976},
+  AUTHOR =   March,
+  TITLE =    {A Boolean Description of a Class of Built Forms},
+  pages =    {41--73},
+}
+
+@INCOLLECTION{MarchalNagel_KlueglEtAl_2005,
+  CROSSREF = {KlueglEtAl_2005},
+  AUTHOR =   Marchal # and # Nagel,
+  TITLE =    {Computation of location choice of secondary activities in transportation models with cooperative agents},
+  pages =    {153--164},
+}
+
+@INCOLLECTION{MartinezEtAl_PagliaraEtAl_2010,
+  CROSSREF = {PagliaraEtAl_2010},
+  AUTHOR =   Martinez # and # Donoso,
+  TITLE =    {{The MUSSA II Land Use Auction Equilibrium Model}},
+  pages =  {99--113},
+}
+
+@INCOLLECTION{McFadden_Karlqvist_1978,
+  CROSSREF = {Karlqvist_1978},
+  AUTHOR =   McFadden,
+  TITLE =    {Modeling the Choice of Residential Location},
+  pages =    {75--96},
+}
+
+@INCOLLECTION{McFadden_Zarembka_1974,
+  CROSSREF = {Zarembka_1974},
+  AUTHOR =   McFadden,
+  TITLE =    {Conditional Logit Analysis of Qualitative Choice-Behaviour},
+  pages =    {105--142},
+}
+
+@INCOLLECTION{McNally_HensherButton_2000,
+  CROSSREF = {HensherButton_2000},
+  AUTHOR =   McNally,
+  TITLE =    {The Four Step Model},
+  pages =    {35--52},
+  chapter =  {3},
+}
+
+@INCOLLECTION{Menendez_HuwerEtAl_2015,
+  CROSSREF = {HuwerEtAl_2015},
+  AUTHOR =   Menendez,
+  TITLE =    {{Speed versus capacity: Area speed limits and their potential effects on network capacity}},
+  pages =    {177--179},
+  url =      {http://www.ivt.ethz.ch/svt/publications/papers#116},
+}
+
+@INCOLLECTION{MeuserNagelU_GarzKraimer_1991,
+  CROSSREF = {GarzKraimer_1991},
+  AUTHOR =   Meuser # and # NagelU,
+  TITLE =    {{Experteninterviews - vielfach erprobt}},
+  pages =    {441--471},
+}
+
+@INCOLLECTION{MeuserNagelU_BognerEtAl_2009,
+  CROSSREF = {BognerEtAl_2009},
+  AUTHOR =   Meuser # and # NagelU,
+  TITLE =    {{Experteninterview und der Wandel der Wissensproduktion}},
+  pages =    {35--60},
+}
+
+@INCOLLECTION{MeyerNiebergSBeyerHG_LoboFEtAl_2007,
+  CROSSREF = {LoboFEtAl_2007},
+  AUTHOR =   MeyerNiebergS # and # BeyerHG,
+  TITLE =    {Self-Adaptation in Evolutionary Algorithms},
+  pages =    {47--75},
+}
+
+@INCOLLECTION{Miller_2005,
+  CROSSREF = {Timmermans_2005},
+  AUTHOR =   Miller,
+  TITLE =    {An Integrated Framework for Modelling Short- and Long-Run Household Decision-Making},
+  pages =    {175--201},
+}
+
+@INCOLLECTION{Michael_Scott_1996,
+  CROSSREF = {BurnsMoses_1996},
+  AUTHOR =   Michael # and # ScottM,
+  TITLE =    {Simple, Fast, and Practical Non-Blocking and Blocking Concurrent Queue Algorithms},
+  pages =    {267--275},
+}
+
+@INCOLLECTION{Miller_Goulias_2003,
+  CROSSREF = {Goulias_2003},
+  AUTHOR =   Miller,
+  TITLE =    {Microsimulation},
+  chapter =  {12},
+}
+
+@INCOLLECTION{MoellerThoegersen_JensenBEtAl_2006,
+  CROSSREF = {JensenBEtAl_2006},
+  AUTHOR =   Moeller # and # Thoegersen,
+  TITLE =    {Car Use Habits: An Obstacle to the Use of Public Transportation},
+  pages =    {301--313},
+}
+
+@INCOLLECTION{MoreEtAl_Cowell_1984,
+  CROSSREF = {Cowell_1984},
+  AUTHOR =   More # and # Hillstrom # and # Garbow,
+  TITLE =    {The MINPACK Project},
+  pages =    {88--111},
+}
+
+@INCOLLECTION{Morikawa_HensherEtAl_1996_1,
+  CROSSREF = {HensherEtAl_1996_1},
+  AUTHOR =   Morikawa,
+  TITLE =    {A Hybrid Probabilistic Choice Set Model With Compensatory and Noncompensatory Choice Rules},
+  pages =    {317--325},
+}
+
+@INCOLLECTION{MorikawaEtAl_FransesMontgomery_2002,
+  CROSSREF = {FransesMontgomery_2002},
+  AUTHOR =   Morikawa # and # BenAkiva # and # McFadden,
+  TITLE =    {Discrete Choice Models Incorporating Revealed Preferences and Psychometric Data},
+  pages =    {29--55},
+}
+
+@INCOLLECTION{MuellerMEtAl-BreenDLinM_2003,
+  CROSSREF = {BreenDLinM_2003},
+  AUTHOR =   MuellerM # and # Charypar # and # GrossM,
+  TITLE =    {Particle-Based Fluid Simulation for Interactive Applications},
+}
+
+@INCOLLECTION{MulderHooimeijer-vanWissenDijkstraP_1999,
+  CROSSREF = {VanWissenDijkstraP_1999},
+  AUTHOR =   Mulder # and # Hooimeijer,
+  TITLE =    {Residential Relocations in the Life Course},
+}
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{NagelAxhausen_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Nagel # and # Axhausen,
+  TITLE =    {Some history of {MATSim}},
+  pages =    {310--314},
+  url =      {https://doi.org/10.5334/baw},
+}
+
+@INCOLLECTION{NagelEtAl_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Nagel # and # Axhausen # and # Kickhoefer # and # Horni,
+  TITLE =    {Research avenues},
+  pages =    {533--542},
+  url =      {https://doi.org/10.5334/baw},
+}
+
+@INCOLLECTION{NagelMarchal_Axhausen_2006,
+  CROSSREF = {Axhausen_2006},
+  AUTHOR =   Nagel # and # Marchal,
+  TITLE =    {Computational Methods for Multi-Agent Simulations of Travel Behavior},
+  pages =    {131--188},
+}
+
+@INCOLLECTION{NagelFloetteroed_PendyalaBhat_2012,
+  CROSSREF = {PendyalaBhat_2012},
+  AUTHOR =   Nagel # and # Floetteroed,
+  TITLE =    {Agent-Based Traffic Assignment: Going from Trips to Behavioural Travelers},
+  pages =    {261--294},
+}
+
+@INCOLLECTION{Nagurney_FloudasPardalos_2001,
+  CROSSREF = {FloudasPardalos_2001},
+  AUTHOR =   Nagurney,
+  TITLE =    {Variational Inequalities: Geometric Interpretation, Existence and Uniqueness},
+  pages =    {2676--2679},
+}
+
+@INCOLLECTION{Nagurney_FloudasPardalos_2009,
+  CROSSREF = {FloudasPardalos_2001},
+  AUTHOR =   Nagurney,
+  TITLE =    {Variational Inequalities: Projected Dynamical System {PDS}},
+  pages =    {4002--4007},
+}
+
+@INCOLLECTION{NashCEtAl_2008,
+  CROSSREF = {RichardsonBae_2008},
+  AUTHOR =    NashC # and # Menaz # and # Matthews,
+  TITLE =     {Inter-Urban Road Goods Vehicle Pricing in Europe},
+  pages =    {233--251},
+}
+
+@INCOLLECTION{Nielsen_WilsonNuzzolo_2004,
+  CROSSREF = {WilsonNuzzolo_2004},
+  AUTHOR =   Nielsen,
+  TITLE =    {A Large Scale Stochastic Multi-Class Schedule-Based Transit Model with Random Coefficients},
+  pages =    {51--77},
+}
+
+@INCOLLECTION{NiedringhausEtAl_Siegel_1994,
+  CROSSREF = {Siegel_1994},
+  AUTHOR =   Niedringhaus # and # Opper # and # Rhodes # and # Hughes,
+  TITLE =    {{IVHS} Traffic Modeling Using Parallel Computing: Performance Results},
+  pages =    {688--693},
+}
+
+@INCOLLECTION{Nuzzolo_LamBell_2003,
+  CROSSREF = {LamBell_2003},
+  AUTHOR =   Nuzzolo,
+  TITLE =    {Transit Path Choice and Assignment Model Approaches},
+  pages =    {93--124},
+}
+
+@INCOLLECTION{NuzzoloCrisalli_WilsonNuzzolo_2004,
+  CROSSREF = {WilsonNuzzolo_2004},
+  AUTHOR =   Nuzzolo # and # Crisalli,
+  TITLE =    {The Schedule-Based Approach in Dynamic Transit Modelling: A General Overview},
+  pages =    {1--24},
+}
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{OlesonEtAl_BazzanKluegl_2009,
+  CROSSREF = {BazzanKluegl_2009},
+  AUTHOR = Oleson # and # Kaup # and # ClarkT # and # Malone # and # Boloni,
+  TITLE = {Social potential models for traffic and transportation},
+  chapter = {VII},
+  pages = {155--175},
+}
+
+@INCOLLECTION{Orme_Orme_2010,
+  CROSSREF = {Orme_2010},
+  TITLE =    {Sample Size Issues for Conjoint Analysis},
+  chapter =  {7},
+  pages =    {57--66},
+}
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{PalmerR_Stein_1989,
+  CROSSREF = {Stein_1989},
+  AUTHOR =   PalmerR,
+  TITLE =    {Broken Ergodicity},
+  pages =    {275--300},
+}
+
+@INCOLLECTION{ParishEtAl_2001,
+  CROSSREF = {Fiume_2001},
+  AUTHOR =   Parish # and # MuellerP,
+  TITLE =    {Procedural Modeling of Cities},
+  pages =    {301--308},
+}
+
+@INCOLLECTION{Pas_Jones_1990,
+  CROSSREF = {Jones_1990},
+  AUTHOR =   Pas,
+  TITLE =    {Is Travel Demand Analysis and Modelling in the Doldrums?},
+  pages =    {3--33},
+}
+
+@INCOLLECTION{PasHarvey_StopherLeeGosselin_1997,
+  CROSSREF = {StopherLeeGosselin_1997},
+  AUTHOR =   Pas # and # Harvey,
+  TITLE =    {Time Use Research and Travel Demand Analysis Modelling},
+  chapter =  {13},
+  pages =    {315--338},
+}
+
+@INCOLLECTION{Petty_SokolowskiBanks_2010,
+  CROSSREF = {SokolowskiBanks_2010},
+  AUTHOR =   Petty,
+  TITLE =    {Verification, Validation, and Accreditation},
+  chapter =  {10},
+  pages =    {325--372},
+}
+
+@INCOLLECTION{Pfadenhauer_BognerEtAl_2009,
+  CROSSREF = {BognerEtAl_2009},
+  AUTHOR =   Pfadenhauer,
+  TITLE =    {{Das Experteninterview - ein Gespräch zwischen Experte und Quasi-Experte}},
+  pages =    {99--116},
+}
+
+@INCOLLECTION{PicouMarshallBK_BrunsmaEtAl_2007,
+  CROSSREF = {BrunsmaEtAl_2007},
+  AUTHOR =   Picou # and # MarshallBK,
+  TITLE =    {Katrina as paradigm shift: Reflections on disaster research in the twenty-first century},
+  pages =    {1--20},
+}
+
+@INCOLLECTION{PiddEtAl_EvansGEtAl_1993,
+  CROSSREF = {EvansGEtAl_1993},
+  AUTHOR =   Pidd # and # deSilva # and # Eglese,
+  TITLE =    {{CEMPS}: A configurable evacuation management and planning system - a progress report},
+  pages =    {1319--1323},
+}
+
+@INCOLLECTION{PopoviciEtAl_2012,
+  CROSSREF = {RozenbergEtAl_2012},
+  AUTHOR =   Popovici # and # Wiegand # and # DeJongED,
+  TITLE =    {Coevolutionary Principles},
+  pages =    {987--1033},
+}
+
+@INCOLLECTION{Preparata_Gruska_1977,
+  CROSSREF = {Gruska_1977},
+  AUTHOR = Preparata,
+  TITLE = {The medial axis of a simple polygon},
+  pages = {443--450},
+}
+
+@INCOLLECTION{PrimeranoTaylor_DavidsonKrizek_2005,
+  CROSSREF = {DavidsonKrizek_2005},
+  AUTHOR =   Primerano # and # Taylor,
+  TITLE =    {An accessibility framework for evaluating transport policies},
+  pages =    {325--346},
+}
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{RaneyNagel_RietveldEtAl_2006,
+  CROSSREF = {RietveldEtAl_2006},
+  AUTHOR =   Raney # and # Nagel,
+  TITLE =    {An Improved Framework for Large-Scale Multi-Agent Simulations of Travel Behavior},
+  pages =    {305--347},
+}
+
+@INCOLLECTION{RasmussenC_SollaEtAl_2000,
+  CROSSREF = {SollaEtAl_2000},
+  AUTHOR =   RasmussenC # and # Nagel,
+  TITLE =    {The Infinite Gaussian Mixture Model},
+  pages =    {554--560},
+}
+
+
+@INCOLLECTION{RathiSolanki_EvansGEtAl_1993,
+  CROSSREF = {EvansGEtAl_1993},
+  AUTHOR =   Rathi # and # Solanki,
+  TITLE =    {Simulation of traffic flow during emergency evacuations: A microcomputer based modeling system},
+  pages =    {1250--1258},
+}
+
+@INCOLLECTION{RieserSchuesslerAxhausen_HessDaly_2014,
+  CROSSREF = {HessDaly_2014},
+  AUTHOR =   RieserSchuessler # and # Axhausen,
+  TITLE =    {Self-tracing and reporting: state-of-the-art in the capture of revealed behaviour},
+  pages =    {131--151},
+  url =      {http://doi.org/10.4337/9781781003152},
+}
+
+@INCOLLECTION{RieserSchuesslerEtAl_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   RieserSchuessler # and # Boesch # and # Horni # and # Balmer,
+  TITLE =    {Zürich},
+  pages =    {375--377},
+  url =      {https://doi.org/10.5334/baw},
+}
+
+@INCOLLECTION{RieserEtAl_ISB_2006,
+  CROSSREF = {ISB_2006},
+  AUTHOR =   Rieser # and # Nagel # and # Beuck # and # Balmer # and # Ruemenapp,
+  TITLE =    {Truly Agent-Oriented Coupling of an Activity-Based Demand Generation with a Multi-Agent Traffic Simulation},
+  pages =    {185--192},
+  url =      {http://www.vsp.tu-berlin.de/publications/workingpapers/2006/12/AMUS06Rieser7sep06.pdf},
+}
+
+@INCOLLECTION{RossettiLiu_Timmermans_2005,
+  CROSSREF = {Timmermans_2005},
+  AUTHOR =   Rossetti # and # Liu,
+  TITLE =    {Activity-based analysis of travel demand using cognitive agents},
+  pages =    {139--160},
+  url =      {http://www.its.leeds.ac.uk/software/dracula/downloads/Paper8-Rossetti_Liu.activity.02.pdf},
+}
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Sadek_TRBC_2007,
+  CROSSREF = {Sadek_TRBCircular_2007},
+  AUTHOR =   Sadek,
+  TITLE =    {Artificial Intelligence Applications in Transportation},
+  pages =    {1--6},
+}
+
+@INCOLLECTION{SafeEtAl_BazzanLabidi_2004,
+  CROSSREF = {BazzanLabidi_2004},
+  AUTHOR =   Safe # and # Carballido # and # Ponzoni # and # Brignole,
+  TITLE =    {On Stopping Criteria for Genetic Algorithms},
+  pages =    {405--413},
+}
+
+@INCOLLECTION{SammerKWuestenhagen_PfriemEtAl_2006,
+  CROSSREF = {PfriemEtAl_2006},
+  AUTHOR =   SammerK # and # Wuestenhagen,
+  TITLE =    {{Der Einfluss von Öko-Labelling auf das Konsumentenverhalten - ein Discrete Choice Experiment zum Kauf von Glühbirnen}},
+  pages =    {469--486},
+}
+
+@INCOLLECTION{SandersSchultes_BrodalLeonardi_2005,
+  CROSSREF = {BrodalLeonardi_2005},
+  AUTHOR =   Sanders # and # Schultes,
+  TITLE =    {Highway Hierarchies Hasten Exact Shortest Path Queries},
+  volume =   {3669},
+  pages =    {568--579},
+}
+
+@INCOLLECTION{SanfordBernhardt_TRBC_2007,
+  CROSSREF = {Sadek_TRBCircular_2007},
+  AUTHOR =   SanfordBernhardt,
+  TITLE =    {Agent-Based Modeling in Transportation},
+  pages =    {72--80},
+}
+
+@INCOLLECTION{SchirmerEtAl_HurtubiaEtAl_2015,
+  CROSSREF = {HurtubiaEtAl_2015},
+  AUTHOR =   Schirmer # and # ZoelligRenner # and # MuellerK # and # Axhausen,
+  TITLE =    {Land use and transport microsimulation in the canton of {Zurich} using {UrbanSim}},
+  pages =    {461--509},
+  url =      {http://www.ivt.ethz.ch/vpl/publications/reports#934},
+}
+
+@INCOLLECTION{SchlichEtAl_ISB_73_2002,
+  CROSSREF = {ISB_73_2002},
+  AUTHOR =  Schlich # and # Kluge # and # Lehmann # and # Axhausen,
+  TITLE =   {{D}urchführung einer 12-wöchigen {L}angzeitbefragung},
+  pages =   {141--154},
+}
+
+@INCOLLECTION{SchneiderSEtAl_ParryEtAl_2007,
+  CROSSREF = {ParryEtAl_2007},
+  AUTHOR =   SchneiderS # and # Semenov # and # Patwardhan # and # Burton # and # Magadza # and # Oppenheimer # and # Pittock # and # SmithJB # and # Suarez # and # Yamin,
+  TITLE =    {Assessing Key Vulnerabilities and the Risk from Climate Change},
+  chapter =  {19},
+  pages =    {779--810},
+}
+
+@INCOLLECTION{SchoenfelderAxhausen_KasparEtAl_2001,
+  CROSSREF = {KasparEtAl_2001},
+  AUTHOR =   Schoenfelder # and # Axhausen,
+  TITLE =    {Modelling the Rhythms of Travel Using Survival Analysis},
+  pages =    {137--162},
+}
+
+@INCOLLECTION{SchoenfelderAxhausen_KollSchretzenmayrEtAl_2004,
+  CROSSREF = {KollSchretzenmayrEtAl_2004},
+  AUTHOR =   Schoenfelder # and # Axhausen,
+  TITLE =    {On the Variability of Human Activity Spaces},
+  pages =    {237--262},
+}
+
+@INCOLLECTION{SchoenfelderEtAl_MoelthenWytzisk_2002,
+  CROSSREF = {MoelthenWytzisk_2002},
+  AUTHOR =   Schoenfelder # and # Axhausen # and # Antille # and # Bierlaire,
+  TITLE =    {Exploring the Potentials of Automatically Collected {GPS} Data for Travel Behaviour Analysis - A {S}wedish Data Source},
+  pages =    {155--179},
+}
+
+@INCOLLECTION{SchummerVohra_NisanEtAl_2007,
+  CROSSREF = {NisanEtAl_2007},
+  AUTHOR =   Schummer # and # Vohra,
+  TITLE =    {Mechanism Design without Money},
+  pages =    {243--266},
+}
+
+@INCOLLECTION{Schwerdtfeger_VolmulerHamerslag_1984,
+  CROSSREF = {VolmullerHamerslag_1984},
+  AUTHOR =   Schwerdtfeger,
+  TITLE =    {{DYNEMO}: A Model for the Simulation of Traffic Flow in Motorway Networks},
+  chapter =  {4},
+  pages =    {65--87},
+}
+
+@INCOLLECTION{SerrasEtAl_HorniEtAl_2016,
+  CROSSREF = {HorniEtAl_2016},
+  AUTHOR =   Serras # and # Bosredon # and # Zachariadis # and # VargasRuiz # and # Dubernet # and # Batty,
+  TITLE =    {London},
+  pages =    {447--450},
+  url =      {https://doi.org/10.5334/baw},
+}
+
+
+@INCOLLECTION{SlavinEtAl_WilsonNHMNuzzolo_2009,
+  CROSSREF = {WilsonNHMNuzzolo_2009},
+  AUTHOR =   Slavin # and # Rabinowicz # and # Brandon # and # Flammia # and # Freimer,
+  TITLE =    {Using {Automatic Fare Collection Data}, {GIS}, and Dynamic Schedule Queries to Improve Transit Data and Transit Assignment Models},
+  pages =    {101--118},
+}
+
+@INCOLLECTION{SmithRD_RalstonAEtAl_2000,
+  CROSSREF = {RalstonAEtAl_2000},
+  AUTHOR =   SmithRD,
+  TITLE =    {Simulation},
+}
+
+@INCOLLECTION{SmoredaEtAl_Zmud_2013,
+   author = Smoreda # and # OlteanuRaimond # and # Couronne,
+   title = {{Spatiotemporal Data from Mobile Phones for Personal Mobility Assessment}},
+   CROSSREF = {ZmudEtAl_2013},
+   chapter = {41},
+   pages = {745--768},
+}
+
+@INCOLLECTION{StinyEtAl_1972,
+  CROSSREF = {Freiman_1972},
+  AUTHOR =   Stiny # and # Gips,
+  TITLE =    {Shape Grammars and the Generative Specification of Painting and Sculpture},
+  chapter =  {6},
+  pages =    {1460--1465},
+}
+
+@INCOLLECTION{Stopher_BonnelEtAl_2009,
+  CROSSREF = {BonnelEtAl_2009},
+  AUTHOR =   Stopher,
+  TITLE =    {Collecting and Processing Data from Mobile Technologies},
+  chapter =  {21},
+  pages =    {361--391},
+}
+
+@INCOLLECTION{Swiderski_CarpenterJones_1983,
+  CROSSREF = {CarpenterJones_1983},
+  AUTHOR =   Swiderski,
+  TITLE =    {A model for simulating spatially and temporally coordinated activity sequences on the basis of mental maps},
+  pages =    {313--334},
+}
+
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{TaylorDeste_2003,
+  CROSSREF = {BellMIida_2003},
+  AUTHOR =   Taylor # and # Deste,
+  TITLE =    {Network Vulnerability: An Approach to Reliability Analysis at the Level of National Strategic Transport Networks},
+  pages =    {23--44},
+}
+
+@INCOLLECTION{Tourangeau_1999,
+  CROSSREF = {Stone_1999},
+  AUTHOR =   Tourangeau,
+  TITLE =    {{Remembering What Happened: Memory Errors and Survey Reports}}
+  pages =    {29--47},
+  chapter = {3},
+}
+
+@INCOLLECTION{Timmermans_Axhausen_2006,
+  CROSSREF = {Axhausen_2006},
+  AUTHOR =   Timmermans,
+  TITLE =    {The Saga of Integrated Land Use and Transport Modelling: How Many More Dreams Before we Wake Up?},
+  pages =    {219--248},
+}
+
+@INCOLLECTION{Timmermans_Pitfield_1984,
+  CROSSREF = {Pitfield_1984},
+  AUTHOR =   Timmermans,
+  TITLE =    {Descrete Choice Models versus Decompositional Multiattribute Preference Models: A Comparative Analysis of Model Performance in the Context of Spatial Shopping Behaviour},
+  pages =    {88--101},
+}
+
+@INCOLLECTION{TimmermansVanDerWaerden_IGU_1991,
+  CROSSREF = {Heinritz_1992},
+  AUTHOR =   Timmermans # and # VanDerWaerden,
+  TITLE =    {Store performance, pedestrian movement, and parking facilities},
+  url =      {http://alexandria.tue.nl/repository/freearticles/591670.pdf},
+}
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{VanVliet_BonsallEtAl_1977,
+  CROSSREF = {BonsallEtAl_1977},
+  AUTHOR =   VanVliet,
+  TITLE =    {An application of mathematical programming to network assignment},
+  pages =    {147--158},
+}
+
+@INCOLLECTION{Vause_EttemaTimmermans_1997,
+  CROSSREF = {EttemaTimmermans_1997},
+  AUTHOR =   Vause,
+  TITLE =    {A Rule-Based Model of Activity Scheduling Behavior},
+  pages =    {73--88},
+}
+
+@INCOLLECTION{VitiTampere_TampereEtAl_2010,
+	AUTHOR =  Viti # and # Tampere,
+	TITLE= {Dynamic Traffic Assignment: Recent Advances and New Theories Towards Real Time Applications and Realistic Travel Behaviour},
+	CROSSREF = {TampereEtAl_2010},
+  pages =    {1--25},
+}
+
+
+@INCOLLECTION{VitinsAxhausen_Pardalos_forth,
+  CROSSREF = {Pardalos_forth},
+  AUTHOR =   Vitins # and # Axhausen,
+  TITLE =    {Evaluation and Reliability of Shape Grammars for Urban Planning and Network Design},
+}
+
+@INCOLLECTION{VitinsAxhausen_RassiaSTPardalos_2015,
+  CROSSREF = {RassiaSTPardalos_2015},
+  AUTHOR =   Vitins # and # Axhausen,
+  TITLE =    {Evaluation and reliability of shape grammars for urban planning and network design},
+  volume =   {102},
+  pages =    {161--181},
+}
+
+@INCOLLECTION{VrticEtAl_BiegerEtAl_2003,
+  CROSSREF = {BiegerEtAl_2003},
+  AUTHOR =   Vrtic # and # Froehlich # and # Axhausen,
+  TITLE =    {{Schweizerische Netzmodelle für Strassen- und Schienenverkehr}},
+  pages =    {119--140},
+}
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Waddell_BrailKlosterman_2008,
+  CROSSREF = {BrailKlosterman_2008},
+  TITLE = {{UrbanSim}: An evolving planning support system for evolving communities},
+  AUTHOR = Waddell # and # WangLQ # and # LiuXQ,
+  PAGES = {103--138}
+}
+
+@INCOLLECTION{Waddell_PagliaraEtAl_2010,
+  CROSSREF = {PagliaraEtAl_2010},
+  AUTHOR =   Waddell,
+  TITLE =    {{Modeling Residential Location in UrbanSim}},
+  pages =  {165--180},
+}
+
+@INCOLLECTION{WagnerWillhalm_DiBattistaZwick_2003,
+  CROSSREF = {DiBattistaZwick_2003},
+  AUTHOR =   Wagner # and # Willhalm,
+  TITLE =    {Geometric Speed-Up Techniques for Finding Shortest Paths in Large Sparse Graphs},
+  volume =   {2832},
+  pages =    {776--787},
+}
+
+@INCOLLECTION{WaraichEtAl_HelbichEtAl_2015,
+  CROSSREF = {HelbichEtAl_2015},
+  AUTHOR =   Waraich # and # Charypar # and # Balmer # and # Axhausen,
+  TITLE =    {Performance improvements for large-scale traffic simulation in MATSim},
+  pages =    {211--233},
+  url =      {http://doi.org/10.1007/978-3-319-11469-9_9},
+}
+
+@INCOLLECTION{WaraichEtAl_JanssensEtAl_2014,
+  CROSSREF = {JanssensEtAl_2014},
+  AUTHOR =   Waraich # and # Georges # and # Galus # and # Axhausen,
+  TITLE =    {Adding Electric Vehicle Modeling Capability to an
+Agent-Based Transport Simulation},
+  pages =    {282--318},
+  url =      {http://dx.doi.org/10.4018/978-1-4666-4920-0.ch014},
+}
+
+@INCOLLECTION{Wegener_HensherEtAl_2004,
+  CROSSREF = {HensherEtAl_2004},
+  AUTHOR =   Wegener,
+  TITLE =    {{Overview of Land Use Transport Models}},
+  pages =    {127--146},
+}
+
+@INCOLLECTION{WeisAxhausen_OECD_2014,
+  CROSSREF = {OECD_2014},
+  AUTHOR =   Weis # and # Axhausen,
+  TITLE =    {Comportement des ménages et choix du mode de transport},
+  pages =    {127--166},
+  url =      {http://doi.org/10.1787/9789264195493-fr},
+}
+
+@INCOLLECTION{WeisAxhausen_OECD_Greening_2013,
+  CROSSREF = {OECD_Greening_2013},
+  AUTHOR =   Weis # and # Axhausen,
+  TITLE =    {{Household behaviour and transport choices}},
+  pages =    {113--147},
+}
+
+@INCOLLECTION{WeisEtAl_ZmudEtAl_2013,
+  CROSSREF = {ZmudEtAl_2013},
+  AUTHOR =   Weis # and # Dobler # and # Axhausen,
+  TITLE =    {{An Interactive Stated Adaptation Survey of Activity Scheduling Decisions}},
+  pages =    {569--590},
+  url =      {http://www.ivt.ethz.ch/ivt/vpl/publications/reports#856}
+}
+
+@INCOLLECTION{Wermuth_SchoellerEtAl_2007,
+	AUTHOR =  Wermuth,
+	CROSSREF = {SchoellerEtAl_2007},
+	TITLE= {{Personen-und Personenwirtschaftsverkehr}},
+	pages = {323--347}
+}
+
+@INCOLLECTION{Wisner_KitchinThrift_2009,
+  CROSSREF = {KitchinThrift_2009},
+  AUTHOR =  Wisner,
+  TITLE =   {Vulnerability},
+  pages =   {176--182},
+  doi =     {doi:10.1016/B978-008044910-4.00129-2},
+}
+
+@INCOLLECTION{Wild_BielliEtAl_1994,
+  CROSSREF = {BielliEtAl_1994},
+  AUTHOR =   Wild,
+  TITLE =    {Using Artificial Intelligence in traffic engineering - perspectives and potential applications},
+  pages =    {29--42},
+}
+
+@INCOLLECTION{Willumsen_HensherButton_2000,
+  CROSSREF = {HensherButton_2000},
+  AUTHOR =   Willumsen,
+  TITLE =    {Travel Networks},
+  pages =    {165--180},
+  chapter =  {10},
+}
+
+@INCOLLECTION{WilsonNHMEtAl_WilsonNHMNuzzolo_2009,
+  CROSSREF = {WilsonNHMNuzzolo_2009},
+  AUTHOR =   WilsonNHM # and # ZhaoJ # and # Rahbee,
+  TITLE =    {The Potential Impact of Automated Data Collection Systems on Urban Public Transport Planning},
+  pages =    {75--99},
+}
+
+@INCOLLECTION{Wolf_StopherStecher_2006,
+  CROSSREF = {StopherStecher_2006},
+  AUTHOR =   Wolf,
+  TITLE =    {Applications of New Technologies in Travel Surveys},
+  pages =    {531--544},
+}
+
+@INCOLLECTION{WolfEtAl_StopherJones_2003,
+  CROSSREF = {StopherJones_2003},
+  AUTHOR =   Wolf # and # Loechl # and # Thompson # and # Arce,
+  TITLE =    {Trip Rate Analysis in {GPS}-Enhanced Personal Travel Surveys},
+  pages =    {483--498},
+}
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{YoungAndWeng_KitamuraKuwahara_2005,
+  CROSSREF = {KitamuraKuwahara_2005},
+  AUTHOR =   YoungW # and # Weng,
+  TITLE =    {Data and Parking Simulation Models},
+  pages =    {235--267},
+}
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@INCOLLECTION{Zaroliagis_FleischerEtAl_2002,
+  CROSSREF = {FleischerEtAl_2002},
+  AUTHOR =   Zaroliagis,
+  TITLE =    {Implementations and Experimental Studies of Dynamic Graph Algorithms },
+  pages =    {229--278},
+}
+
+@INCOLLECTION{ZhangL_Millan_2007,
+  CROSSREF = {MillanInglada_2007},
+  AUTHOR =   ZhangL # and # Levinson,
+  TITLE =    {The Economics of Transportation Network Growth},
+}
+
+@INCOLLECTION{Zheng_2011,
+  CROSSREF = {ZhengZhouX_2011},
+  AUTHOR =   Zheng,
+  TITLE =    {{Location-based social networks: Users}},
+}
+
+@INCOLLECTION{ZoelligAxhausen_GeursKrizekReggiani_2012,
+  CROSSREF = {GeursKrizekReggiani_2012},
+  AUTHOR =   Zoellig # and # Axhausen,
+  TITLE =    {Assessment of infrastructure investments using agent-based accessibility},
+  pages =    {54--70},
+}
+
+@INCOLLECTION{ZoelligRennerAxhausen_HurtubiaEtAl_2015,
+  CROSSREF = {HurtubiaEtAl_2015},
+  AUTHOR =   ZoelligRenner # and # Axhausen,
+  TITLE =    {A real estate development model with heterogeneous agents},
+  pages =    {181--200},
+  url =      {http://www.ivt.ethz.ch/vpl/publications/reports#925},
+}
+
+@INCOLLECTION{ZoelligRennerEtAl_HurtubiaEtAl_2015,
+  CROSSREF = {HurtubiaEtAl_2015},
+  AUTHOR =   ZoelligRenner # and # Nicolai # and # Nagel,
+  TITLE =    {Agent-based land use transport interaction modeling: state of the art},
+  pages =    {17--39},
+  url =      {http://www.ivt.ethz.ch/vpl/publications/reports#924},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,50 @@
+271 Patch Control
+
+0
+0
+1
+example.tex
+6
+1
+0
+
+
+
+
+
+
+example.tex
+TeX
+403713979 0 52 53 53 1 88 116 1280 709 0 22 901 -1 -1 0 0 71 0 0 71 1 0 1 53   0
+D:\My Documents\sandboxCVS\ivt\doc\_latexfiles\styles\template_plain-unsrt-ger.bst
+DATA
+273678514 0 275 60 275 65 110 145 1342 738 1 582 391 -1 -1 0 0 -1 -1 -1 -1 1 0 65 275   0
+D:\My Documents\sandboxCVS\ivt\doc\_latexfiles\styles\template_plain-unsrt-eng.bst
+DATA
+273678514 2 226 11 226 24 88 116 1320 709 1 254 -12551 -1 -1 0 0 -1 -1 -1 -1 1 0 24 226   0
+D:\My Documents\sandboxCVS\ivt\doc\_latexfiles\styles\template_ivt-unsrt-ger.bst
+DATA
+273678514 0 0 1 0 1 0 0 1232 593 1 70 0 -1 -1 0 0 -1 -1 -1 -1 1 0 1 0   0
+D:\My Documents\sandboxCVS\ivt\doc\_latexfiles\styles\template_ivt-unsrt-eng.bst
+DATA
+273678514 0 797 7 797 7 22 29 1254 622 1 118 408 -1 -1 0 0 -1 -1 -1 -1 1 0 7 797   0
+D:\My Documents\sandboxCVS\ivt\doc\papers\_layouts\heureka.tex
+TeX
+269496251 0 0 1 0 1 198 261 1430 854 0 22 -1581 -1 -1 0 0 -1 -1 -1 -1 1 0 1 0   0
+
+*example.tex
+>
+*../../../_latexfiles/bibs/all.bib
+*../../../_latexfiles/bibs/main.bib
+*../../../_latexfiles/bibs/article.bib
+*../../../_latexfiles/bibs/book.bib
+*../../../_latexfiles/bibs/incollection.bib
+*../../../_latexfiles/bibs/inproceedings.bib
+*../../../_latexfiles/bibs/manual.bib
+*../../../_latexfiles/bibs/mastersthesis.bib
+*../../../_latexfiles/bibs/misc.bib
+*../../../_latexfiles/bibs/phdthesis.bib
+*../../../_latexfiles/bibs/proceedings.bib
+*../../../_latexfiles/bibs/techreport.bib
+*../../../_latexfiles/bibs/unpublished.bib
+<

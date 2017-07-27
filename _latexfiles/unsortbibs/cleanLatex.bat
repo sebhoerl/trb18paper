@@ -1,0 +1,11 @@
+rm *.aux
+rm *.log
+rm *.aux
+rm *.bbl
+rm *.blg
+rm *.lof
+rm *.lot
+rm *.out
+rm *.toc
+rm *.aux
+rm *.pdf

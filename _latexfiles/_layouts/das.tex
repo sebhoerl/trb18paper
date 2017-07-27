@@ -1,0 +1,118 @@
+% !TeX encoding = usascii
+% Prepare to get rid of \mypath one day
+\providecommand\mypath[3]{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% $Id: ivt-generic.tex 16005 2015-03-31 00:09:27Z muelleki $
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% IVT GENERIC PAPER LAYOUT FOR KOMA SCRIPT
+%% Date: 2010-04-05
+%% author:
+%%   Kirill M\"uller, muelleki@ivt.baug.ethz.ch
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Standard latex layout configurations
+%%   Here, commands and settings are use which are available
+%%   by the latex packages
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Type of document:
+%% - Paperformat: letterpaper, a4paper, a5paper, b5paper,
+%%   executivepaper, legalpaper
+%% - Main font size: 10pt, 11pt, 12pt
+%% - Formulae setting: - (centred), fleqn (left-aligned)
+%% - Numbering of formulae: - (right-aligned), leqno (left-aligned)
+%% - New page after title: titlepage, notitlepage
+%% - Number of columns per page: onecolumn, twocolumn
+%% - Page style: oneside, twoside
+%% - Paper rotation: - (protrait), landscape
+%% - Chapter start: openright, openany
+%% - Mark overfull boxes: draft, final
+\providecommand{\mydocumentclass}{
+  \ifdefined\wcFileName
+    \documentclass[a4paper,12pt,fleqn,titlepage,onecolumn,oneside,final,bibliography=totocnumbered,numbers=noenddot]{article}
+  \else
+    \ifdefined\HCode%
+      \documentclass[a4paper,12pt,fleqn,titlepage,onecolumn,oneside,final,bibliography=totocnumbered,numbers=noenddot]{article}%
+    \else%
+      \documentclass[a4paper,12pt,fleqn,titlepage,onecolumn,oneside,final,bibliography=totocnumbered,numbers=noenddot,parskip=full]{scrartcl}%
+    \fi
+  \fi
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Package options
+\PassOptionsToPackage{nooneline,format=hang}{caption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% caption settings:
+\newcommand{\mypackages}{
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    %% borders, margrins and offset
+    \usepackage[a4paper,left=1.0in,right=1.0in,top=0.5in,bottom=0.5in,includeheadfoot]{geometry}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Header and footer definition:
+\providecommand{\myheaderfooterdef}{
+  \usepackage{scrpage2}%
+  \clearscrheadfoot%
+  \ohead{\slshape \footnotesize \squelch{\wordmonth~\myyear}}%
+  \ihead{\providecommand{\myheadingstitle}{\mytitle}\slshape \footnotesize \squelch{\myheadingstitle}}%
+  \cfoot[\footnotesize\pagemark]{\footnotesize \squelch{\pagemark}}%
+  \ofoot{}%
+  \setheadsepline{0.5pt}%
+  \setlength{\headheight}{1.33\baselineskip}%
+
+%% compatibility to old generic template:
+  \setheadsepline{0.5pt}[\vspace{-2pt}]%
+  \addtolength{\topmargin}{-6pt}
+  \addtolength{\headsep}{4pt}
+  \addtolength{\textheight}{12pt}
+  \addtolength{\footskip}{-12pt}
+}
+\providecommand{\mypagestyle}{scrheadings}%
+
+\providecommand{\createcontact}[7]{{%
+        \providecommand{\mynumaddresscolumns}{3}
+        \ifthenelse{\equal{\mynumaddresscolumns}{1}}{%
+            \newcommand{\interncolumnwidthfactor}{1}}{%
+            \ifthenelse{\equal{\mynumaddresscolumns}{2}}{%
+                \newcommand{\interncolumnwidthfactor}{.48}}{%
+                \ifthenelse{\equal{\mynumaddresscolumns}{3}}{%
+                    \newcommand{\interncolumnwidthfactor}{.31}}{%
+                    !WRONG_NUMADDRESSCOLUMNS!
+                }}}
+                \ifthenelse{\equal{#1}{}}{%
+                    \noindent%
+                    \begin{minipage}[t]{\interncolumnwidthfactor\textwidth}
+                    \end{minipage}
+                }{%
+                \noindent%
+                \begin{minipage}[t]{\interncolumnwidthfactor\textwidth}%
+                    \raggedright{}%
+                    #1\newline
+                    #2\newline
+                    #3\newline
+                    #4\newline \newline
+                    \wordphone: #5\newline 
+                    #7\newline
+                    \ifne{#6}{Skype: #6}\newline
+                    
+                \end{minipage}
+            }%
+        }}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% template-specific title and TOC settings:
+\newcommand{\mysettings}{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Titlepage definition
+\newcommand{\mytitlepagefontcommand}{\sffamily}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Input base file
+\input{\mypath../_latexfiles/_layouts/ivt-generic-base-das}
+\flushbottom

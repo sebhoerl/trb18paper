@@ -1,0 +1,84 @@
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  C for Unix
+Release version: 3.71 (18 mar 2013)
+
+The top-level auxiliary file: example.aux
+The style file: ../styles/template_ivt-unsrt-eng.bst
+Reallocated glb_str_ptr (elt_size=8) to 10 items from 0.
+Reallocated global_strs (elt_size=20001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=8) to 10 items from 0.
+Database file #1: ../bibs/all-eng.bib
+Reallocated field_info (elt_size=8) to 10017 items from 5000.
+Reallocated field_info (elt_size=8) to 15034 items from 10017.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated field_info (elt_size=8) to 20051 items from 15034.
+Reallocated field_info (elt_size=8) to 25068 items from 20051.
+Reallocated cite_info (elt_size=8) to 1500 items from 750.
+Reallocated cite_list (elt_size=8) to 1500 items from 750.
+Reallocated entry_exists (elt_size=1) to 1500 items from 750.
+Reallocated type_list (elt_size=8) to 1500 items from 750.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated field_info (elt_size=8) to 30085 items from 25068.
+Reallocated field_info (elt_size=8) to 35102 items from 30085.
+Reallocated field_info (elt_size=8) to 40119 items from 35102.
+Reallocated str_pool (elt_size=1) to 260000 items from 195000.
+Reallocated field_info (elt_size=8) to 45136 items from 40119.
+Reallocated cite_info (elt_size=8) to 2250 items from 1500.
+Reallocated cite_list (elt_size=8) to 2250 items from 1500.
+Reallocated entry_exists (elt_size=1) to 2250 items from 1500.
+Reallocated type_list (elt_size=8) to 2250 items from 1500.
+Reallocated field_info (elt_size=8) to 50153 items from 45136.
+Reallocated str_pool (elt_size=1) to 325000 items from 260000.
+Reallocated field_info (elt_size=8) to 55170 items from 50153.
+Reallocated field_info (elt_size=8) to 60187 items from 55170.
+Reallocated str_pool (elt_size=1) to 390000 items from 325000.
+Reallocated field_info (elt_size=8) to 65204 items from 60187.
+Reallocated field_info (elt_size=8) to 70221 items from 65204.
+Reallocated cite_info (elt_size=8) to 3000 items from 2250.
+Reallocated cite_list (elt_size=8) to 3000 items from 2250.
+Reallocated entry_exists (elt_size=1) to 3000 items from 2250.
+Reallocated type_list (elt_size=8) to 3000 items from 2250.
+Reallocated str_pool (elt_size=1) to 455000 items from 390000.
+Reallocated field_info (elt_size=8) to 75238 items from 70221.
+Reallocated field_info (elt_size=8) to 80255 items from 75238.
+Reallocated field_info (elt_size=8) to 85272 items from 80255.
+Reallocated str_pool (elt_size=1) to 520000 items from 455000.
+Reallocated field_info (elt_size=8) to 90289 items from 85272.
+Reallocated cite_info (elt_size=8) to 3750 items from 3000.
+Reallocated cite_list (elt_size=8) to 3750 items from 3000.
+Reallocated entry_exists (elt_size=1) to 3750 items from 3000.
+Reallocated type_list (elt_size=8) to 3750 items from 3000.
+Reallocated field_info (elt_size=8) to 95306 items from 90289.
+Reallocated str_pool (elt_size=1) to 585000 items from 520000.
+Reallocated field_info (elt_size=8) to 100323 items from 95306.
+Reallocated field_info (elt_size=8) to 105340 items from 100323.
+Reallocated str_pool (elt_size=1) to 650000 items from 585000.
+Reallocated field_info (elt_size=8) to 110357 items from 105340.
+Reallocated str_pool (elt_size=1) to 715000 items from 650000.
+Reallocated cite_info (elt_size=8) to 4500 items from 3750.
+Reallocated cite_list (elt_size=8) to 4500 items from 3750.
+Reallocated entry_exists (elt_size=1) to 4500 items from 3750.
+Reallocated type_list (elt_size=8) to 4500 items from 3750.
+Reallocated field_info (elt_size=8) to 115374 items from 110357.
+Reallocated field_info (elt_size=8) to 120391 items from 115374.
+Reallocated str_pool (elt_size=1) to 780000 items from 715000.
+Reallocated field_info (elt_size=8) to 125408 items from 120391.
+Reallocated field_info (elt_size=8) to 130425 items from 125408.
+Reallocated str_pool (elt_size=1) to 845000 items from 780000.
+Reallocated field_info (elt_size=8) to 135442 items from 130425.
+Reallocated cite_info (elt_size=8) to 5250 items from 4500.
+Reallocated cite_list (elt_size=8) to 5250 items from 4500.
+Reallocated entry_exists (elt_size=1) to 5250 items from 4500.
+Reallocated type_list (elt_size=8) to 5250 items from 4500.
+Reallocated field_info (elt_size=8) to 140459 items from 135442.
+Reallocated str_pool (elt_size=1) to 910000 items from 845000.
+Reallocated field_info (elt_size=8) to 145476 items from 140459.
+Reallocated field_info (elt_size=8) to 150493 items from 145476.
+
+Here's how much of BibTeX's memory you used:
+ Cites:              5100 out of 5250
+ Fields:           147887 out of 150493
+ Hash table:        22012 out of 35000
+ Strings:           25073 out of 35000
+ Free string pool: 895383 out of 910000
+ Wizard functions:   2643 out of 3000

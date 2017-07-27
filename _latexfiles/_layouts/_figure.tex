@@ -1,0 +1,313 @@
+% !TeX encoding = usascii
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Caption on top or at bottom?
+%%   Default: on top
+\providecommand{\figurecaptionandcontents}[2]{#1#2}%
+\ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ab}}{%
+  \captionsetup*[figure]{position=above}%
+  \captionsetup*[subfigure]{position=above}%
+}{%
+  \captionsetup*[figure]{position=below}%
+  \captionsetup*[subfigure]{position=below}%
+}%
+%\captionsetup*[figure]{position=below}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Caption on top or at bottom for tables?
+%%   Default: same as for figure
+\providecommand{\tablecaptionandcontents}[2]{\figurecaptionandcontents{#1}{#2}}%
+\ifthenelse{\equal{\tablecaptionandcontents{a}{b}}{ab}}{%
+  \captionsetup*[table]{position=above}
+  \captionsetup*[subtable]{position=above}%
+}{%
+  \captionsetup*[table]{position=below}%
+  \captionsetup*[subtable]{position=below}%
+}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Which environment to surround the figure with?
+%% (If left empty, do nothing)
+%%   Default: center
+\providecommand{\figurecontentsenv}{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Which environment to surround the table with?
+%% (If left empty, do nothing)
+%%   Default: \figurecontentsenv
+\providecommand{\tablecontentsenv}{\figurecontentsenv}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Which command to put before/after figure?
+%%   Default: \begin{\figurecontentsenv} and \end{\figurecontentsenv}
+%%            or nothing if \figurecontentsenv is empty
+\providecommand{\figurecontentsbefore}{\begin{\figurecontentsenv}}
+\providecommand{\figurecontentsafter}{\end{\figurecontentsenv}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Which command to put before/after table?
+%%   Default: \begin{\tablecontentsenv} and \end{\tablecontentsenv}
+%%            or nothing if \tablecontentsenv is empty
+\providecommand{\tablecontentsbefore}{\begin{\tablecontentsenv}}
+\providecommand{\tablecontentsafter}{\end{\tablecontentsenv}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Use hrules?
+%%   Default: yes
+\providecommand{\figurerule}{\hrule}
+\providecommand{\tablerule}{\figurerule}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Surrounds all figures
+%%   Default: Just use it
+\providecommand{\dofigure}[1]{#1}
+\providecommand{\dotable}{\dofigure}
+\providecommand{\doxmlfigure}{\dofigure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Rotate sideways figures and tables?
+%%   Only works reliably for oneside layouts
+\makeatletter
+\if@twoside
+\newcommand{\rotatesideways}{}
+\else
+\newcommand{\rotatesideways}{\AddThispageHook{\AddPageRotate{90}}}
+\fi
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Figure definition:
+%%   \createfigure
+%%     [placement, default: tbp]
+%%     {<short caption>}
+%%     {<long caption>}
+%%     {<\label{label}>}
+%%     {<\includegraphics[...]{figure}>}
+%%     {<source>or<>}
+%%
+%% \createfigure* puts figure across two columns in two-column mode
+%%
+%% The richfigure environment has been deprecated:  It was not used,
+%% and capturing the figure contents did not work well.
+\ifnwc{
+  \NewDocumentCommand\createfigure{s O{tbp} m m m +m m}{%
+    \dofigure{%
+      \IfBooleanTF{#1}{\begin{figure*}[#2]}{\begin{figure}[#2]}%
+        \ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ab}}{%
+          \captionabove[#3]{#4}#5%
+        }{}%
+        \figurerule%
+        \figurecontentsbefore%
+          #6
+        \figurecontentsafter%
+        \ifthenelse%
+          {\equal{#7}{}}%
+          {}%
+          {\begin{singlespace}\wordsource #7\end{singlespace}\smallskip}%
+        \figurerule%
+        \ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ba}}{%
+          \captionbelow[#3]{#4}#5%
+        }{}%
+      \IfBooleanTF{#1}{\end{figure*}}{\end{figure}}%
+    }%
+  }
+}
+\ifwc{
+  \NewDocumentCommand\createfigure{s O{tbp} m m m +m m}{%
+  }
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Sideways figure definition
+%%   \createsidewaysfigure
+%%     {<short caption>}
+%%     {<long caption>}
+%%     {<\label{label}>}
+%%     {<\includegraphics[...]{figure}>}
+%%     {<source>or<>}
+\newcommand{\createsidewaysfigure}[5]{%
+  \ifelseht{%
+    \createfigure{#1}{#2}{#3}{#4}{#5}%
+  }{%
+    \ifnwc{%
+      \dofigure{%
+        \begin{sidewaysfigure*}%
+          \thisfloatcommand{\rotatesideways}%
+          \ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ab}}{%
+            \captionabove[#1]{#2}#3%
+          }{}%
+          \figurerule%
+          \begin{center}%
+            #4\\%
+          \end{center}%
+          \ifthenelse
+            {\equal{#5}{}}
+            {}
+            {\begin{singlespace}\wordsource #5\end{singlespace}\smallskip}%
+          \figurerule%
+          \ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ba}}{%
+            \captionbelow[#1]{#2}#3%
+          }{}%
+        \end{sidewaysfigure*}%
+      }%
+    }%
+  }%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Sub-figure:
+%%   \createsubfigure
+%%     {<caption>}
+%%     {<\includegraphics[...]{figure}>}
+%%     {<\label{label}>}
+%%     {<\\>or<>}%
+\newcommand{\createsubfigure}[4]{%
+  \subcaptionbox{#1#3}{#2}\ #4
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Table definition (old style, code in [] can be omitted):
+%%   \createtable
+%%     [placement, default: tbp]
+%%     {<short caption>}
+%%     {<long caption>}
+%%     {<\label{label}>}
+%%     {<\begin{tabular}...\end{tabular}>}
+%%     {<source>or<>}
+%%
+%% \createtable* puts table across two columns in two-column mode
+%%
+%% The richtable environment has been deprecated:  It was not used,
+%% and capturing the contents did not work well.
+\ifnwc{
+  \NewDocumentCommand\createtable{s O{tbp} m m m +m m}{%
+    \dotable{%
+      \AsPicture{%
+        \IfBooleanTF{#1}{\begin{table*}[#2]}{\begin{table}[#2]}%
+          \ifthenelse{\equal{\tablecaptionandcontents{a}{b}}{ab}}{%
+            \captionabove[#3]{#4}#5%
+          }{}%
+          \tablerule%
+          \tablecontentsbefore%
+            #6
+          \tablecontentsafter%
+          \ifthenelse%
+            {\equal{#7}{}}%
+            {}%
+            {\begin{singlespace}\wordsource #7\end{singlespace}\smallskip}%
+          \tablerule%
+          \ifthenelse{\equal{\tablecaptionandcontents{a}{b}}{ba}}{%
+            \captionbelow[#3]{#4}#5%
+          }{}%
+        \IfBooleanTF{#1}{\end{table*}}{\end{table}}%
+      }%
+    }%
+  }
+}
+\ifwc{
+  \NewDocumentCommand\createtable{s O{tbp} m m m +m m}{%
+  }
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Sideways table definition
+%%   \createsidewaystable
+%%     {<short caption>}
+%%     {<long caption>}
+%%     {<\label{label}>}
+%%     {<\begin{tabular}...\end{tabular}>}
+%%     {<source>or<>}
+\newcommand{\createsidewaystable}[5]{%
+  \ifelseht{%
+    \createtable{#1}{#2}{#3}{#4}{#5}%
+  }{%
+    \ifnwc{%
+      \dotable{%
+        \AsPicture{%
+          \begin{sidewaystable*}%
+          \thisfloatcommand{\rotatesideways}%
+            \ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ab}}{%
+              \captionabove[#1]{#2}#3%
+            }{}%
+            \tablerule%
+            \begin{center}%
+              #4\\%
+            \end{center}%
+            \ifthenelse
+              {\equal{#5}{}}
+              {}
+              {\begin{singlespace}\wordsource #5\end{singlespace}\smallskip}%
+            \tablerule%
+            \ifthenelse{\equal{\tablecaptionandcontents{a}{b}}{ba}}{%
+              \captionbelow[#1]{#2}#3%
+            }{}%
+          \end{sidewaystable*}%
+        }%
+      }%
+    }%
+  }%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Sub-table:
+%%   \createsubtable
+%%     {<caption>}
+%%     {<\begin{tabular}...\end{tabular}>}
+%%     {<\label{label}>}
+%%     {<\\>or<>}%
+\newcommand{\createsubtable}[4]{%
+  \createsubfigure{#1}{#2}{#3}{#4}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% XML-figure
+%%   \createxmlfigure
+%%     [placement, default: tbp]
+%%     {<short caption>}
+%%     {<long caption>}
+%%     {<\label{label}>}
+%%     {<the/file/with/the/xml/code/to/include>}
+%%     {<source>or<>}
+%%
+%% \createxmlfigure* puts figure across two columns in two-column mode
+\ifnwc{
+  \NewDocumentCommand\createxmlfigure{s O{tbp} m m m +m m}{%
+    \doxmlfigure{%
+      \IfBooleanTF{#1}{\begin{figure*}[#2]}{\begin{figure}[#2]}%
+        \ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ab}}{%
+          \captionabove[#3]{#4}#5%
+        }{}%
+        \figurerule%
+        \lstinputlisting[language=XML]{#6}%
+        \ifthenelse
+          {\equal{#7}{}}
+          {}
+          {\begin{singlespace}\wordsource #7\end{singlespace}\smallskip}%
+        \figurerule%
+        \ifthenelse{\equal{\figurecaptionandcontents{a}{b}}{ba}}{%
+          \captionbelow[#3]{#4}#5%
+        }{}%
+      \IfBooleanTF{#1}{\end{figure*}}{\end{figure}}%
+    }%
+  }%
+}
+\ifwc{
+  \NewDocumentCommand\createxmlfigure{s O{tbp} m m m +m m}{%
+  }%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Algorithm definition:
+%%   \createalgorithm
+%%     [placement, default: tbp]
+%%     {<short caption>}
+%%     {<long caption>}
+%%     {<\label{label}>}
+%%     {<\includegraphics[...]{figure}>}
+%%     {<source>or<>}
+%%
+%% \createalgorithm* puts figure across two columns in two-column mode
+%%
+%% The richfigure environment has been deprecated:  It was not used,
+%% and capturing the figure contents did not work well.
+\ifnwc{
+  \NewDocumentCommand\createalgorithm{s O{tbp} m m m +m m}{%
+    \dofigure{%
+      \IfBooleanTF{#1}{\begin{algorithm*}[#2]}{\begin{algorithm}[#2]}%
+        \captionabove[#3]{#4}#5%
+          #6
+        \ifthenelse%
+          {\equal{#7}{}}%
+          {}%
+          {\begin{singlespace}\wordsource #7\end{singlespace}\smallskip}%
+      \IfBooleanTF{#1}{\end{algorithm*}}{\end{algorithm}}%
+    }%
+  }
+}
+\ifwc{
+  \NewDocumentCommand\createalgorithm{s O{tbp} m m m +m m}{%
+  }
+}

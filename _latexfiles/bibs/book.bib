@@ -1,0 +1,4272 @@
+% !TEX encoding = utf8
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  BOOK with Author or Editor
+%    A book with an explicit publisher. NO Journals like TRR!
+%    I.e. Arentze and Timmermans: "ALBATROSS: A Learning-Based
+%    Transportation Oriented Simulation"; Bieger, Laesser and Maggi:
+%    Jahrbuch 2002/2003 Schweizerische Verkehrswirtschaft; etc...s
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  KEY-DEFINITION:
+%    if author is defined (means that those persons wrote the whole book):
+%      (Author1|Author1Author2|Author1EtAl)_(YEAR|forth)[_(INDEX)]
+%    if editor is defined (means that they edited the book, but others contributed papers to it):
+%      (Editor1|Editor1Editor2|Editor1EtAl)_(YEAR|forth)[_(INDEX)]
+%    Never define both!
+%    Never define none of them!
+%    Example:
+%      Andersen_1997,
+%      ArentzeTimmermans_2000,
+%      ArentzeTimmermans_2000_3,
+%      BiegerEtAl_2003,
+%      BiegerEtAl_forth,
+%  AUTHOR / EDITOR
+%    Must be crossrefs of authors given in the author.txt (add it there,
+%    if one is missing)
+%    Example:
+%      AUTHOR =    Arentze # and # Timmermans,
+%      EDITOR =    Axhausen,
+%  TITLE
+%    Write the title in "Title-Style", the bib-style converts it.
+%    If there are Characters which MUST be written as defined
+%    (i.e. all-caps or no caps), then set those characters in
+%    additional curly brackets.
+%    Example:
+%      TITLE =     {{J}ahrbuch 2002/2003 {S}chweizerische {V}erkehrswirtschaft},
+%  PUBLISHER
+%    Must be a crossref of the publisher in the publisher.txt (add
+%    it there, if one is missing)
+%    Example:
+%      PUBLISHER = SVWG,
+%  YEAR
+%    Either the year of publication or set the crossref to 'forth'
+%    as given in the translations.txt file
+%    Example:
+%      YEAR =    {2004},
+%  volume
+%    Optional. Write the volume number
+%    Example:
+%      volume =  {8},
+%  series
+%    Optional. Write the series
+%    Example:
+%      volume =  {XYZ},
+%  address
+%    Optional: Must be crossrefs to the adresses given in the
+%    translations.txt file (add it there, if one is missing)
+%    Example:
+%      address =   dusseldorf,
+%  edition
+%    Optional: Write down the edition
+%    Example:
+%      edition =   {2.},
+%      edition =   {5.},
+%  comment
+%    Optional: add any comment you want
+%    Example:
+%      comment =      {balmermi: this is a very good one.},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{BOOK-AUTHOR_YEAR_INDEX,
+  AUTHOR =    {BOOK-AUTHOR},
+  TITLE =     {{TITLE}},
+  PUBLISHER = {PUBLISHER},
+  YEAR =      {0000},
+  volume =    {volume},
+  series =    {series},
+  address =   {address},
+  edition =   {edition},
+  comment =   {{comment}},
+}
+
+@BOOK{BOOK-AUTHOR_0001,
+  AUTHOR =    {BOOK-AUTHOR},
+  TITLE =     {A Book with an Author and all Information},
+  PUBLISHER = Springer,
+  YEAR =      {0001},
+  volume =    {987},
+  series =    {6},
+  address =   zurich,
+  edition =   {3.},
+  comment =   {This is just a comment for that reference.},
+}
+
+@BOOK{BOOK-AUTHOR_0002,
+  AUTHOR =    {BOOK-AUTHOR},
+  TITLE =     {A Book with an Author and Some Missing Optional Values},
+  PUBLISHER = Springer,
+  YEAR =      {0002},
+  volume =    {987},
+  address =   zurich,
+}
+
+@BOOK{BOOK-AUTHOR_0002_2,
+  AUTHOR =    {BOOK-AUTHOR},
+  TITLE =     {A Book with an Author (Minimal Version)},
+  PUBLISHER = Springer,
+  YEAR =      {0002},
+}
+
+@BOOK{BOOK-AUTHOR_forth,
+  AUTHOR =    {BOOK-AUTHOR},
+  TITLE =     {A Book with an Author which is Going to be Published},
+  PUBLISHER = Springer,
+  YEAR =      forth,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{BOOK-EDITOR_YEAR_INDEX,
+  EDITOR =    {BOOK-EDITOR},
+  TITLE =     {{TITLE}},
+  PUBLISHER = {PUBLISHER},
+  YEAR =      {0000},
+  volume =    {volume},
+  series =    {series},
+  address =   {address},
+  edition =   {edition},
+  comment =   {{comment}},
+}
+
+@BOOK{BOOK-EDITOR_0001,
+  EDITOR =    {BOOK-EDITOR},
+  TITLE =     {A Book with an Editor and all Information},
+  PUBLISHER = Springer,
+  YEAR =      {0001},
+  volume =    {987},
+  series =    {6},
+  address =   zurich,
+  edition =   {3.},
+}
+
+@BOOK{BOOK-EDITOR_0002,
+  EDITOR =    {BOOK-EDITOR},
+  TITLE =     {A Book with an Editor and Some Missing Optional Values},
+  PUBLISHER = Springer,
+  YEAR =      {0002},
+  volume =    {987},
+  address =   zurich,
+}
+
+@BOOK{BOOK-EDITOR_0002_2,
+  EDITOR =    {BOOK-EDITOR},
+  TITLE =     {A Book with an Editor (Minimal Version)},
+  PUBLISHER = Springer,
+  YEAR =      {0002},
+}
+
+@BOOK{BOOK-EDITOR_forth,
+  EDITOR =    {BOOK-EDITOR},
+  TITLE =     {A Book with an Editor which is Going to be Published},
+  PUBLISHER = Springer,
+  YEAR =      forth,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  End of Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Items:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% balmermi: AUTHOR:
+%             Carla Buriks, Tetra Tech EM Inc.
+%             William Bohn, Tetra Tech EM Inc.
+%             Milagros Kennett, FEMA, Project Officer, Risk Management Series Publications
+%             Lisa Scola, Tetra Tech EM Inc.
+%             Bogdan Srdanovic, Spring International Consulting Group
+%           PUBLISHER: put that into the publisher.txt and refer to it
+%           TITLE: {Using HAZUS-MH for Risk Assessment}
+%           it also has a series: HAZUS-MH Risk Assessment and User Group
+%
+%           NOTE: This User Guide is available on the web. Therefore,
+%           !PLEASE! put all available infos in the entry or at least---if
+%           you were short in time---put it into the TODO part. I've found it
+%           at index 'F'.
+%% schenkn2013: added series, changed publisher.
+%%				Do I need to change key?? cited several times...
+%%				Added authors. Or should I do "%  EDITOR =    FEMA," instead of authors??
+@BOOK{BuriksEtAl_2004,
+  AUTHOR =    Buriks # and # Bohn # and # Kennett # and # Scola # and # Srdanovic,
+  TITLE =     {Using {HAZUS-MH} for Risk Assessment},
+  PUBLISHER = FEMA,
+  YEAR =      {2004},
+  series = 	  {{HAZUS-MH} Risk Assessment and User Group},
+  address =   washington,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of TODO Items
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Book Entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{AbadyGardelli_1996,
+  AUTHOR =    Abady # and # Gardelli,
+  TITLE =     {A Theory of Objects},
+  PUBLISHER = Springer,
+  YEAR =      {1997},
+  address =   newyork,
+}
+
+@BOOK{Abel_1976,
+  AUTHOR =    Abel,
+  TITLE =     {Man is the measure: a cordial invitation to the central problems of philosophy},
+  PUBLISHER = FP,
+  YEAR =      {1976},
+  address =   london,
+}
+
+@BOOK{ADM_2014,
+  AUTHOR =    {{ADM Arbeitskreis Deutscher Markt- und Sozialforschungsinstitute e.V.}},
+  TITLE =     {Stichproben-Verfahren in der Umfrageforschung. Eine Darstellung für die Praxis},
+  PUBLISHER = Springer,
+  YEAR =      {2014},
+  address =   wiesbaden,
+}
+
+@BOOK{AgrestiFinlay_1997,
+  AUTHOR =    Agresti # and # Finlay,
+  TITLE =     {Statistical Methods for the Social Sciences},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {1997},
+  address =   uppersaddleriver,
+}
+
+@BOOK{Aigner_1971,
+  AUTHOR =    Aigner,
+  TITLE =     {Basic Econometrics},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {1971},
+  address =   englewoodcliffs,
+}
+
+@BOOK{AlbersEtAl_2009,
+  EDITOR =  Albers # and # Alt # and # Naeher,
+  TITLE =     {Efficient Algorithms},
+  PUBLISHER = Springer,
+  YEAR =      {2009},
+  series =	{Lecture Notes in Computer Science},
+  address =   berlin,
+}
+
+@BOOK{Albrecht_2009,
+  AUTHOR =    AlbrechtCM,
+  TITLE =     {Einkaufsstress},
+  PUBLISHER = GablerVerlag,
+  YEAR =      {2009},
+  series =		{Schriftenreihe des Instituts für Marktorientierte Unternehmensführung (IMU), Universität Mannheim},
+  address =   wiesbaden,
+}
+
+@BOOK{Alexander_1977,
+  AUTHOR =    Alexander # and # IshikawaS # and # Silverstein,
+  TITLE =     {A Pattern Language: Towns, Buildings, Construction},
+  PUBLISHER = OxUniPress,
+  YEAR =      {1977},
+  address =   oxford,
+}
+
+@BOOK{Alexander_1979,
+  AUTHOR =    Alexander,
+  TITLE =     {The Timeless Way of Building},
+  PUBLISHER = OxUniPress,
+  YEAR =      {1979},
+  address =   newyork,
+}
+
+@BOOK{AlexanderEtAl_1987,
+  AUTHOR =    Alexander # and # Heis # and # Anninou # and # KingI,
+  TITLE =     {A New Theory of Urban Design},
+  PUBLISHER = OxUniPress,
+  YEAR =      {1987},
+  address =   oxford,
+}
+
+@BOOK{Alonso_1964,
+  AUTHOR =    Alonso,
+  TITLE =     {Location and Land Use},
+  PUBLISHER = Harvard,
+  YEAR =      {1964},
+  address =   cambridge-ma,
+}
+
+
+@BOOK{Anas_1982,
+  AUTHOR =    Anas,
+  TITLE =     {Residential Location Markets and Urban Transportation},
+  PUBLISHER = AcademicP,
+  YEAR =      {1982},
+  address =   newyork,
+}
+
+
+@BOOK{Andersen_1997,
+  AUTHOR =    Andersen,
+  TITLE =     {Introduction to the Statistical Analysis of Categorial Data},
+  PUBLISHER = Springer,
+  YEAR =      {1997},
+  address =   berlin,
+}
+
+@BOOK{Anselin_1988,
+  AUTHOR =    Anselin,
+  TITLE =     {Spatial Econometrics: Methods and Models},
+  PUBLISHER = Kluwer,
+  YEAR =      {1988},
+  address =   dordrecht,
+}
+
+@BOOK{Anselin_1992,
+  AUTHOR =    Anselin,
+  TITLE =     {SpaceStat Tutorial: A Workbook for Using SpaceStat in the Analysis of Spatial Data},
+  PUBLISHER = {University of Illinois},
+  YEAR =      {1992},
+  address =   {Urbana},
+}
+
+@BOOK{APA_2006,
+  AUTHOR =    {{American Planning Association}},
+  TITLE =     {Planning and Urban Design Standards},
+  PUBLISHER = WileySons,
+  YEAR =      {2006},
+  address =   hoboken,
+}
+
+
+@BOOK{Arbib_2003,
+  EDITOR =    Arbib,
+  TITLE =     {The handbook of brain theory and neural networks},
+  PUBLISHER = MITPress,
+  YEAR =      {2003},
+  address =   cambridge-ma,
+  edition =   {2.},
+}
+
+@BOOK{ArentzeTimmermans_2000,
+  AUTHOR =    Arentze # and # Timmermans,
+  TITLE =     {{ALBATROSS}: A Learning-Based Transportation Oriented Simulation},
+  PUBLISHER = EIRASS,
+  YEAR =      {2000},
+  address =   eindhoven,
+}
+
+@BOOK{ArimahEtAl_2009,
+  AUTHOR =    Arimah # and # JensenI # and # MutizwaMangiza # and # Yemeru,
+  TITLE =     {Planning Sustainable Cities},
+  PUBLISHER = Earthscan,
+  YEAR =      {2009},
+  address =   london,
+}
+
+@BOOK{ArizonaEtAl_2012,
+  EDITOR =    MuellerAS # and # Aschwanden # and # Halatsch # and # Wonka,
+  TITLE =     {Digital Urban Modeling and Simulation},
+  PUBLISHER = Springer,
+  YEAR =      {2012},
+  address =   berlin,
+}
+
+@BOOK{ATOC_2002,
+  EDITOR =    {{ATOC}},
+  TITLE =     {Passenger Demand Forecasting Handbook},
+  PUBLISHER = "org-atoc",
+  YEAR =      {2002},
+  address =   london,
+}
+
+@BOOK{AxhausenEtAl_2002,
+  EDITOR =    Axhausen # and # Madre # and # Polak # and # Toint,
+  TITLE =     {Capturing Long-Distance Travel},
+  PUBLISHER = RSP,
+  YEAR =      {2002},
+  address =   hertfordshire,
+}
+
+@BOOK{AxhausenHurni_2005,
+  EDITOR =    Axhausen # and # Hurni,
+  TITLE =     {{Zeitkarten Schweiz 1950 - 2000}},
+  PUBLISHER = IVT # and # IKA # comma # ETHZ,
+  YEAR =      {2005},
+  address =   zurich,
+}
+
+@BOOK{AxhausenPolak_1989,
+  AUTHOR =    Axhausen # and # Polak,
+  TITLE =     {The Role of Parking Search Strategies in Understanding Parking Behaviour},
+  PUBLISHER = {Transport Studies Unit, Oxford University},
+  YEAR =      {1989},
+  address =   oxford,
+}
+
+@BOOK{Axhausen_2006,
+  EDITOR =    Axhausen,
+  TITLE =     {Moving Through Nets: The Physical and Social Dimensions of Travel},
+  PUBLISHER = Elsevier,
+  YEAR =      {2006},
+  address =   oxford,
+}
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Back_1996,
+  AUTHOR =    Back,
+  TITLE =     {Evolutionary Algorithms in Theory and Practice: Evolution Strategies, Evolutionary Programming, Genetic Algorithms},
+  PUBLISHER = OxUniPress,
+  YEAR =      {1996},
+  address =   oxford,
+}
+
+@BOOK{Baehr_1997,
+  AUTHOR =    Baehr,
+  TITLE =     {Bevölkerungsgeographie. Verteilung und Dynamik der Bevölkerung in globaler, nationaler und regionaler Sicht},
+  PUBLISHER = UTB,
+  YEAR =      {1997},
+  address =   stuttgart,
+  edition =   {3.},
+}
+
+@BOOK{Banks_1998,
+  AUTHOR =    Banks,
+  TITLE =     {Handbook of Simulation: Principles, Methodology, Advances, Applications, and Practice},
+  PUBLISHER = WileySons,
+  YEAR =      {1998},
+  address =   newyork,
+}
+
+@BOOK{Banks_2001,
+  AUTHOR =    Banks,
+  TITLE =     {Discrete-event system simulation},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {2001},
+  address =   uppersaddleriver,
+}
+
+@BOOK{Barabasi_2003,
+  AUTHOR =    Barabasi,
+  TITLE =     {Linked: The New Science of Networks},
+  PUBLISHER = Perseus,
+  YEAR =      {2003},
+  address =   cambridge-ma,
+}
+
+@BOOK{BarkerRobbins_1974,
+  AUTHOR =    Barker # and # Robbins,
+  TITLE =     {A History of London Transport},
+  PUBLISHER = Allen,
+  YEAR =      {1974},
+  address =   london,
+}
+
+@BOOK{Barnett_1995,
+  AUTHOR =    Barnett,
+  TITLE =     {The Fractured Metropolis},
+  PUBLISHER = HarperCollins,
+  YEAR =      {1995},
+  address =   newyork,
+}
+
+@BOOK{Barton_2000,
+  EDITOR =    Barton,
+  TITLE =     {Sustainable Communities: The Potential for Eco-neighbourhoods},
+  PUBLISHER = Earthscan,
+  YEAR =      {2000},
+  address =   london,
+}
+
+@BOOK{Batty_2005,
+  AUTHOR =    Batty,
+  TITLE =     {Cities and Complexities},
+  PUBLISHER = MITPress,
+  YEAR =      {2005},
+  address =   cambridge-ma,
+}
+
+@BOOK{Batty_2013,
+  AUTHOR =    Batty,
+  TITLE =     {The New Science of Cities},
+  PUBLISHER = MITPress,
+  YEAR =      {2013},
+  address =   cambridge-ma,
+}
+
+@BOOK{BaumannGingrich_2004,
+  EDITOR =    Baumann # and # Gingrich,
+  TITLE =     {Grammars of Identity/Alterity : A Structural Approach},
+  PUBLISHER = Berghahn,
+  YEAR =      2004,
+  address =   newyork,
+}
+
+% meisterk: do not use this one anymore, use BazzanKluegl_2009 instead
+% scnadine: but it is still a valid entry because we want preserve papers in the state they have been actually published and this includes the status of publication of the references
+%           however, I agree that any new work should cite BazzanKluegl_2009
+@BOOK{BazzanKluegl_forth,
+  EDITOR =    Bazzan # and # Kluegl,
+  TITLE =     {Multi-Agent Systems for Traffic and Transportation Engineering},
+  PUBLISHER = IGI,
+  YEAR =      forth,
+}
+
+@BOOK{BazzanKluegl_2009,
+  EDITOR =    Bazzan # and # Kluegl,
+  TITLE =     {Multi-Agent Systems for Traffic and Transportation Engineering},
+  PUBLISHER = ISR,
+  YEAR =      {2009},
+  address =   hershey,
+}
+
+@BOOK{BazzanLabidi_2004,
+  EDITOR =    Bazzan # and # Labidi,
+  TITLE =     {Advances in {Artificial Intelligence} - {SBIA} 2004},
+  PUBLISHER = Springer,
+  YEAR =      {2004},
+  volume =    {3171},
+  series =    {Lecture Notes in Computer Science},
+  address =   berlin,
+}
+
+@BOOK{BeckmannEtAl_1956,
+  AUTHOR =    BeckmannM # and # McGuire # and # WinstonCB,
+  TITLE =     {Studies in the Economics of Transportation},
+  PUBLISHER = YaleUnivPress,
+  YEAR =      {1956},
+  address =   newhaven,
+}
+
+@BOOK{BeckmannPEngelbrech_1994,
+  EDITOR =    BeckmannP # and # Engelbrech,
+  TITLE =     {{A}rbeitsmarkt für {F}rauen 2000 - ein {S}chritt vor oder ein {S}chritt zurück?}
+  PUBLISHER = org-iab,
+  YEAR =      {1994},
+  series =	  {{B}eiträge zur {A}rbeitsmarkt- und {B}erufsforschung},
+  volume = 	  {179},
+  address =   nuernberg,
+}
+
+@BOOK{Beckmann_2000,
+  EDITOR =    Beckmann,
+  TITLE =     {Tagungsband zum 1. Aachener Kolloquium Mobilität und Stadt},
+  PUBLISHER = uni-rwth-isb # comma # uni-rwth,
+  YEAR =      {2000},
+  series =	  {Schriftenreihe Stadt Region Land},
+  volume = 	  {69},
+  address =   aachen,
+}
+
+@BOOK{BenAkivaLerman_1985,
+  AUTHOR =    BenAkiva # and # Lerman,
+  TITLE =     {Discrete Choice Analysis: Theory and Application to Travel Demand},
+  PUBLISHER = MITPress,
+  YEAR =      {1985},
+  address =   cambridge-ma,
+}
+
+@BOOK{BellMCassir_2001,
+  EDITOR =    BellM # and # Cassir,
+  TITLE =     {Reliability of Transport Networks},
+  PUBLISHER = {Research Studies Press},
+  address =   baldock,
+  YEAR =      {2001},
+}
+
+@BOOK{BellMEtAl_2007,
+  EDITOR =    BellM # and # Heydecker # and # Allsop,
+  TITLE =     {Transportation and Traffic Theory},
+  PUBLISHER = Elsevier,
+  YEAR =      {2007},
+  address =   amsterdam,
+}
+
+@BOOK{BellMIida_2003,
+  EDITOR =    BellM # and # Iida,
+  TITLE =     {The Network Reliability of Transport},
+  PUBLISHER = Pergamon,
+  YEAR =      {2003},
+  address =   oxford,
+}
+
+@BOOK{Bellman_1961,
+  AUTHOR =    Bellman,
+  TITLE =     {Adaptive Control Processes: A Guided Tour},
+  PUBLISHER = PrincetonUniPress,
+  YEAR =      {1961},
+  address =   princeton,
+}
+
+@BOOK{Bettman_1979,
+  AUTHOR =    Bettman,
+  TITLE =     {An Information Processing Theory of Consumer Choice},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {1979},
+  address =   {Massachusetts},
+}
+
+@BOOK{BhatPendyala_2012,
+  EDITOR =    Bhat # and # Pendyala,
+  TITLE =     {Travel Behaviour Research for an Evolving World},
+  PUBLISHER = Emerald,
+  YEAR =      {2012},
+}
+
+@BOOK{BiegerEtAl_2003,
+  EDITOR =    Bieger # and # Laesser # and # Maggi,
+  TITLE =     {{Jahrbuch 2002/2003 Schweizerische Verkehrswirtschaft}},
+  PUBLISHER = uni-hsg-svwg,
+  YEAR =      {2003},
+  address =   StGallen,
+}
+
+@BOOK{BiegerEtAl_2005,
+  EDITOR =    Bieger # and # Laesser # and # Maggi,
+  TITLE =     {{Jahrbuch 2004/2005 Schweizerische Verkehrswirtschaft}},
+  PUBLISHER = uni-hsg-svwg,
+  YEAR =      {2005},
+  address =   stgallen,
+}
+
+@BOOK{BiegerEtAl_2006,
+  EDITOR =    Bieger # and # Laesser # and # Maggi,
+  TITLE =     {{Jahrbuch 2005/2006 Schweizerische Verkehrswirtschaft}},
+  PUBLISHER = uni-hsg-svwg,
+  YEAR =      {2006},
+  address =   stgallen,
+}
+
+@BOOK{BiegerEtAl_2007,
+  EDITOR =    Bieger # and # Laesser # and # Maggi,
+  TITLE =     {{Jahrbuch 2006/2007 Schweizerische Verkehrswirtschaft}},
+  PUBLISHER = uni-hsg-svwg,
+  YEAR =      {2007},
+  address =   stgallen,
+}
+
+@BOOK{BiegerEtAl_2015,
+  EDITOR =    Bieger # and # Laesser # and # Maggi,
+  TITLE =     {{Jahrbuch 2015 Schweizerische Verkehrswirtschaft}},
+  PUBLISHER = uni-hsg-svwg,
+  YEAR =      {2015},
+  address =   stgallen,
+}
+
+@BOOK{BielliEtAl_1994,
+  EDITOR =    Bielli # and # Ambrosino # and # Boero,
+  TITLE =     {Artificial Intelligence Applications to Traffic Engineering},
+  PUBLISHER = {VSP},
+  YEAR =      {1994},
+  address =   {Utrecht},
+}
+
+@BOOK{BiethahnEtAl_2004,
+  AUTHOR =    Biethahn # and # Lackner # and # Range,
+  TITLE =     {{Optimierung und Simulation}},
+  PUBLISHER = Oldenbourg,
+  YEAR =      {2004},
+  address =   muenchen,
+}
+
+@BOOK{Birkmann_2006,
+  EDITOR =    Birkmann,
+  TITLE =     {Measuring Vulnerability to Natural Hazards},
+  PUBLISHER = {United Nations University Press},
+  YEAR =      {2006},
+  address =   tokyo,
+}
+
+@BOOK{BlaikieEtAl_1994,
+  EDITOR =    Blaikie # and # Cannon # and # DavisI # and # Wisner,
+  TITLE =     {At Risk: Natural Hazards, People's Vulnerability, and Disasters},
+  PUBLISHER = Routledge,
+  YEAR =      {1994},
+  address =   london,
+}
+
+@BOOK{BognerEtAl_2009,
+  EDITOR =    Bogner # and # Littig # and # Menz,
+  TITLE =     {Experteninterviews: Theorien, Methoden, Anwendungsfelder},
+  PUBLISHER = VS,
+  YEAR =      {2009},
+  address =   wiesbaden,
+}
+
+@BOOK{Bollen_1989,
+  AUTHOR =    Bollen,
+  TITLE =     {Structural Equations With Latent Variables},
+  PUBLISHER = WileySons,
+  YEAR =      {1989},
+  address =   newyork,
+}
+
+@BOOK{BonifaciEtAl_2013,
+  EDITOR =    Bonifaci # and # Demetrescu # and # MarchettiSpaccamela,
+  TITLE =     {Experimental Algorithms},
+  PUBLISHER = Springer,
+  YEAR =      {2013},
+  volume =    {7933},
+  series =    {Lecture Notes in Computer Science},
+  address =   heidelberg,
+}
+
+@BOOK{BonnelEtAl_2009,
+  EDITOR =    Bonnel # and # Zmud # and # LeeGosselin # and # Madre,
+  TITLE =     {Transport Survey Methods: Keeping Up with a Changing World},
+  PUBLISHER = Emerald,
+  YEAR =      {2009},
+  address =   bingley,
+}
+
+@BOOK{BonsallEtAl_1977,
+  EDITOR =    Bonsall # and # Dalvi # and # Hills,
+  TITLE =     {Urban transportation planning: current themes and future prospects},
+  PUBLISHER = Abacus,
+  YEAR =      {1977},
+  address =   kent,
+}
+
+@BOOK{Bossel_2004,
+  AUTHOR =    Bossel,
+  TITLE =     {{Systeme, Dynamik, Simulation: Modellbildung, Analyse und Simulation komplexer Systeme}},
+  PUBLISHER = BoD,
+  YEAR =      {2004},
+  address =   norderstedt,
+}
+
+@BOOK{BovyStern_1990,
+  AUTHOR =    Bovy # and # Stern,
+  TITLE =     {Route Choice and Way Finding in Transport Networks},
+  PUBLISHER = Kluwer,
+  YEAR =      {1990},
+  address =   dordrecht,
+}
+
+@BOOK{BoyceWilliams_forthcoming,
+  EDITOR =    Boyce # and # Williams,
+  TITLE =     {Forecasting Urban Travel: Past, Present and Future},
+  PUBLISHER = EdwardElgar,
+  YEAR =      {forthcoming},
+  address =   northampton,
+}
+
+@BOOK{BoxEtAl_1978,
+  AUTHOR =    Box # and # HunterWG # and # HunterJS,
+  TITLE =     {Statistics for Experimenters -- An introduction to design, data analysis, and model building},
+  PUBLISHER = WileySons,
+  YEAR =      {1978},
+  address =   newyork,
+}
+
+@BOOK{BrailKlosterman_2008,
+  EDITOR = Brail # and # Klosterman,
+  TITLE = {Planning Support Systems for cities and regions},
+  PUBLISHER = {{Lincoln Institute of Land Policy}},
+  YEAR = {2008},
+  ADDRESS = cambridge-ma,
+}
+
+@BOOK{BreenDLinM_2003,
+  EDITOR =    BreenD # and # LinM,
+  TITLE =     {{ACM SIGGRAPH} / {E}urographics Symposium on Computer Animation},
+  PUBLISHER = ACM,
+  YEAR =      {2003},
+  address =   sandiego,
+}
+
+@BOOK{Brilon_1991,
+  EDITOR =    Brilon,
+  TITLE =     {Intersections without Traffic Signals II},
+  PUBLISHER = Springer,
+  YEAR =      {1991},
+  address =   berlin,
+}
+
+@BOOK{BrilonEtAl_1998,
+  EDITOR =    Brilon # and # Huber # and # Schreckenberg # and # Wallentowitz,
+  TITLE =     {Traffic and Mobility: Simulation---Economics---Environment},
+  PUBLISHER = Springer,
+  YEAR =      {1998},
+  address =   berlin,
+}
+
+@BOOK{BrodalLeonardi_2005,
+  EDITOR =    Brodal # and # Leonardi,
+  TITLE =     {Algorithms -- {ESA} 2005},
+  PUBLISHER = Springer,
+  YEAR =      {2005},
+  series =    {Lecture Notes in Computer Science / Theoretical Computer Science and General Issues},
+  address =   berlin,
+  volume =    {3669},
+}
+
+@BOOK{BruhnStuass_2007,
+  AUTHOR =    {BOOK-AUTHOR},
+  TITLE =     {A Book with an Author and all Information},
+  PUBLISHER = Springer,
+  YEAR =      {0001},
+  volume =    {987},
+  series =    {6},
+  address =   zurich,
+  edition =   {3.},
+  comment =   {This is just a comment for that reference.},
+}
+
+@BOOK{BrunsmaEtAl_2007,
+  EDITOR =    Brunsma # and # Overfelt # and # Picou,
+  TITLE =     {The sociology of Katrina. Perspectives on a Modern Catastrophe},
+  PUBLISHER = RowmanLittlefield,
+  YEAR =      {2007},
+  address =   plymouth,
+}
+
+@BOOK{BrychtaMueller_2004,
+  AUTHOR =    Brychta # and # Mueller,
+  TITLE =     {{Technische Simulation}},
+  PUBLISHER = VogelBuchverlag,
+  YEAR =      {2004},
+  address =   wuerzburg,
+}
+
+@BOOK{Byrne_2001,
+  EDITOR =    Byrne,
+  TITLE =     {Structural Equation Modelling With AMOS - Basic Concepts, Applications, and Programming},
+  PUBLISHER = PsychoPress,
+  YEAR =      {2001},
+  address =   eastsussex,
+}
+
+@BOOK{ButtonVerhoef_1998,
+  EDITOR =    Button # and # Verhoef,
+  TITLE =     {Road Pricing, Traffic Congestion and the Environment: Issues of Efficiency and Social Feasibility},
+  PUBLISHER = EdwardElgar,
+  YEAR =      {1998},
+  address =   cheltenham,
+}
+
+@BOOK{BurnsMoses_1996,
+  EDITOR =    Burns # and # Moses,
+  TITLE =     {Proceedings of the 15th ACM Symposium on Principles of Distributed Computing},
+  PUBLISHER = ACM,
+  YEAR =      {1996},
+  address =   newyork,
+}
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{CarpenterJones_1983,
+  EDITOR =    Carpenter # and # Jones,
+  TITLE =     {Recent Advances in Travel Demand Analysis},
+  PUBLISHER = Gower,
+  YEAR =      {1983},
+  address =   aldershot,
+}
+
+@BOOK{Cascetta_2001,
+  AUTHOR =    Cascetta,
+  TITLE =     {Transportation Systems Engineering: Theory and Methods},
+  PUBLISHER = Kluwer,
+  YEAR =      {2001},
+  address =   dordrecht,
+}
+
+@BOOK{Casti_1997,
+  AUTHOR =    Casti,
+  TITLE =     {Would-Be Worlds: How Simulation is Changing the Frontiers of Science},
+  PUBLISHER = WileySons,
+  YEAR =      {1997},
+  address =   newyork,
+}
+
+@BOOK{Ceder_1999,
+  EDITOR =    Ceder,
+  TITLE =     {Transportation and Traffic Theory - {Proceedings of the 14th International Symposium on Transportation and Traffic Theory}},
+  PUBLISHER = Elsevier,
+  YEAR =      {1999},
+  address =   oxford,
+}
+
+@BOOK{Chapin_1974,
+  AUTHOR =    Chapin,
+  TITLE =     {Human Activity Patterns in the City},
+  PUBLISHER = WileySons,
+  YEAR =      {1974},
+  address =   hoboken,
+}
+
+@BOOK{CheneyKincaid_2012,
+  author = Cheney # and # Kincaid,
+  title = {Numerical Mathematics and Computing},
+  publisher = BrooksCole,
+  year = {2012},
+  edition = {7.},
+}
+
+@BOOK{ChristallerW_1933,
+  AUTHOR = ChristallerW,
+  TITLE = {{Die zentralen Orte in S{\"u}ddeutschland: eine {\"o}konomisch-geographische Untersuchung {\"u}ber die Gesetzm{\"a}ssigkeit der Verbreitung und Entwicklung der Siedlungen mit st{\"a}dtischen Funktionen}},
+  PUBLISHER = WissBuchg,
+  YEAR = {1933},
+  shorttitle = {{Die zentralen Orte in S{\"u}ddeutschland}},
+}
+
+@BOOK{ClarkJHolton_1991,
+  AUTHOR =    ClarkJ # and # Holton,
+  TITLE =     {A first look at graph theory},
+  PUBLISHER = worldscientific,
+  YEAR =      {1991},
+  address =   teaneck,
+}
+
+@BOOK{Cliff_1981,
+  EDITOR =    Cliff # and # Ord,
+  TITLE =     {Spatial processes: models and applications},
+  PUBLISHER = Pion,
+  YEAR =      {1981},
+  address =   london,
+}
+
+@BOOK{Coates_2010,
+  AUTHOR =    Coates,
+  TITLE =     {Programming Architecture},
+  PUBLISHER = Routledge,
+  YEAR =      {2010},
+  address =   london,
+}
+
+% address is in my opinion difficult as it is ambigous for large publishers especially in case of online "publication"
+% please advise
+% http://www0.gsb.columbia.edu/whoswho/more.cfm?&uni=ns2224&pub=4550
+@BOOK{Cochran_2010,
+  EDITOR =    Cochran # and # CoxLA # and # Keskinocak # and # Kharoufeh # and # SmithJC,
+  TITLE =     {Wiley Encyclopedia of Operations Research and Management Science},
+  PUBLISHER = WileySons,
+  YEAR =      {2010},
+  address =   hoboken,
+}
+
+@BOOK{CopperCFrancis_1998,
+  EDITOR =    CopperC # and # Francis,
+  TITLE =     {People Places},
+  PUBLISHER = WileySons,
+  YEAR =      {1998},
+  address =   newyork,
+}
+
+@book{CoverThomas_1991,
+  AUTHOR = Cover # and # Thomas,
+  TITLE = {Elements of Information Theory},
+  PUBLISHER = WileySons,
+  YEAR = 1991,
+  address = newyork,
+  series = {Wiley Series in Telecommunications},
+}
+
+@BOOK{Cowan_2002,
+  AUTHOR =    Cowan,
+  TITLE =     {Urban Design Guidance: Urban Design Frameworks, Development Briefs and Master Plans},
+  PUBLISHER = TelfordPublishing,
+  YEAR =      {2002},
+  address =   london,
+}
+
+@BOOK{Cowell_1984,
+  EDITOR =    Cowell,
+  TITLE =     {Sources and Development of Mathematical Software},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {1984},
+  address =   uppersaddleriver,
+}
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Daganzo_1979,
+  AUTHOR =    Daganzo,
+  TITLE =     {Multinomial Probit: The Theory and Its Application to Demand Forecasting},
+  PUBLISHER = AcademicP,
+  YEAR =      {1979},
+  address =   newyork,
+}
+
+@BOOK{Darwin_1871,
+  author =    Darwin,
+  TITLE =     {The Descent of Man, and Selection in Relation to Sex},
+  PUBLISHER = JohnMurray,
+  YEAR =      {1871},
+  address =   london,
+}
+
+@BOOK{DavidsonKrizek_2005,
+  EDITOR =    Davidson # and # Krizek,
+  TITLE =     {Access to Destinations},
+  PUBLISHER = Elsevier,
+  YEAR =      {2005},
+  address =   oxford,
+}
+
+@BOOK{Davis_1987,
+  EDITOR =    Davis,
+  TITLE =     {Genetic Algorithms and Simulated Annealing},
+  PUBLISHER = Pitman,
+  YEAR =      {1987},
+  series =    {Research Notes in Artificial Intelligence},
+  address =   london,
+}
+
+@BOOK{DeatonMuellbauer_1980,
+  AUTHOR =    Deaton # and # Muellbauer,
+  TITLE =     {Economics and Consumer Behaviour},
+  PUBLISHER = CamUniPress,
+  YEAR =      {1980},
+  address =   cambridge-uk,
+}
+
+@BOOK{DeBergMeyerU_2010,
+  EDITOR =    deBerg # and # MeyerU,
+  TITLE =     {Algorithms -- {ESA} 2010},
+  PUBLISHER = Springer,
+  YEAR =      {2010},
+  series =    {Lecture Notes in Computer Science},
+  address =   berlin,
+  volume =    {6346},
+}
+
+@BOOK{DemetrescuEtAl_2009,
+  EDITOR =    Demetrescu # and # GoldbergAV # and # JohnsonDS,
+  TITLE =     {The Shortest Path Problem: Ninth {DIMACS} Implementation Challenge},
+  PUBLISHER = AmMathSoc,
+  YEAR =      {2009},
+  address =   providence,
+}
+
+@BOOK{DePalmaEtAl_2011,
+  EDITOR =    DePalma # and # Lindsey # and # Quinet # and # Vickerman,
+  TITLE =     {A Handbook of Transport Economics},
+  PUBLISHER = EdwardElgar,
+  YEAR =      {2011},
+  address =   cheltenham,
+}
+
+@BOOK{Deppermann_2008,
+  AUTHOR =    Deppermann,
+  TITLE =     {Gespräche analysieren: Eine Einführung},
+  PUBLISHER = VS,
+  YEAR =      {2008},
+  address =   wiesbaden,
+}
+
+
+%% TODO update author..
+@BOOK{Devroye_1986,
+    author = Devroye,
+    title = {Non-Uniform Random Variate Generation},
+    PUBLISHER = Springer,
+    year = {1986},
+    address = newyork,
+}
+
+
+@BOOK{DiBattistaZwick_2003,
+  EDITOR =    DiBattista # and # Zwick,
+  TITLE =     {Algorithms -- {ESA} 2003},
+  PUBLISHER = Springer,
+  YEAR =      {2003},
+  series =    {Lecture Notes in Computer Science},
+  address =   berlin,
+  volume =    {2832},
+}
+
+@BOOK{DiekmannVoss_2004,
+  EDITOR =    Diekmann # and # Voss,
+  TITLE =     {{Rational-Choice-Theorie in den Sozialwissenschaften: Anwendung und Probleme}},
+  PUBLISHER = Oldenbourg,
+  YEAR =      {2004},
+  address =   muenchen,
+}
+
+@BOOK{Dillman_2000,
+  AUTHOR =    Dillman,
+  TITLE =     {Mail and Internet Surveys. The Tailored Design Method},
+  PUBLISHER = WileySons,
+  YEAR =      {2000},
+  address =   newyork,
+}
+
+@BOOK{DonaghyEtAl_2005,
+  EDITOR =    Donaghy # and # Poppelreuter # and # Rudinger,
+  TITLE =     {Social Dimensions of Sustainable Transport: Transatlantic Perspectives},
+  PUBLISHER = ashgate,
+  YEAR =      {2005},
+  address =   aldershot,
+}
+
+@BOOK{DorigoStuetzle_2004,
+  AUTHOR =    Dorigo # and # Stuetzle,
+  TITLE =     {Ant Colony Optimization},
+  PUBLISHER = MITPress,
+  YEAR =      {2004},
+  address =   cambridge-ma,
+}
+
+@BOOK{Downs_2004,
+  AUTHOR =    Downs,
+  TITLE =     {Still Stuck in Traffic},
+  PUBLISHER = Brookings,
+  YEAR =      {2004},
+  address =   washington,
+}
+
+@BOOK{DomencichMcFadden_1975,
+  AUTHOR =    Domencich # and # McFadden,
+  TITLE =     {Urban Travel Demand: A Behavioral Analysis},
+  PUBLISHER = NorthHolland,
+  YEAR =      {1975},
+  address =   amsterdam,
+}
+
+@BOOK{DuanyEtAlk_2009,
+  AUTHOR =    Duany # and # Sorlien # and # Wright,
+  TITLE =     {SmartCode Version 9.2},
+  PUBLISHER = NUNP,
+  YEAR =      {2009},
+  address =   ithaca,
+}
+
+@BOOK{Dutton_2000,
+  AUTHOR =    Dutton,
+  TITLE =     {New American Urbanism},
+  PUBLISHER = Skira,
+  YEAR =      {2000},
+  address =   milano,
+}
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{ECMT_1999,
+  EDITOR =    {{ECMT}},
+  TITLE =     {Which changes for transport in the next century?},
+  PUBLISHER = {{ECMT}},
+  YEAR =      {1999},
+  address =   paris,
+}
+
+@BOOK{EvansGEtAl_1993,
+  EDITOR =    EvansG # and # Mollaghasemi # and # RussellE # and # Biles,
+  TITLE =     {WSC '93: Proceedings of the 25th Conference on Winter Simulation},
+  PUBLISHER = ACM,
+  YEAR =      {1993},
+  address =   newyork,
+}
+
+@BOOK{EibenSmithJE_2003,
+  EDITOR =    Eiben # and # SmithJE,
+  TITLE =     {Introduction to Evolutionary Computing},
+  PUBLISHER = Springer,
+  YEAR =      {2003},
+  address =   berlin,
+}
+
+@BOOK{EttemaTimmermans_1997,
+  EDITOR =    Ettema # and # Timmermans,
+  TITLE =     {Activity-Based Approaches to Travel Analysis},
+  PUBLISHER = Pergamon,
+  YEAR =      {1997},
+  address =   oxford,
+}
+
+@BOOK{Eymann_2003,
+  AUTHOR =    Eymann,
+  TITLE =     {Digitale Geschäftsagenten - Softwareagenten im Einsatz},
+  PUBLISHER = Springer,
+  YEAR =      {2003},
+  address =   berlin,
+}
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Faber_2008,
+  AUTHOR =    Faber,
+  TITLE =     {Risk Assessment in Engineering --- Principles, System Representation \& Risk Criteria},
+  PUBLISHER = {{Joint Committee on Structural Safety}},
+  YEAR =      {2008},
+  address =   zurich,
+}
+
+@BOOK{Fahrlaender_2007,
+  AUTHOR =    Fahrlaender,
+  TITLE =     {Hedonische Immobilienbewertung: Eine empirische Untersuchung der Schweizer Märkte für Wohneigentum 1985 bis 2005},
+  PUBLISHER = MPRESS,
+  YEAR =      {2007},
+}
+
+@BOOK{FarmerEtAl_1986,
+  EDITOR =    Farmer # and # Lapedes # and # Packard # and # Wendorff,
+  TITLE =     { Evolution, Games and Learning: Models for Adaptation in Machines and Nature, Proceedings of the Fifth Annual Conference of the Centre for Nonlinear Studies, Los Alamos},
+  PUBLISHER = Elsevier,
+  YEAR =      {1986},
+}
+
+@BOOK{Ferber_1999,
+  AUTHOR =    Ferber,
+  TITLE =     {Multi-Agent Systems: An Introduction to Distributed Artificial Intelligence},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {1999},
+  address =   boston,
+}
+
+@BOOK{Ferber_2001,
+  AUTHOR =    Ferber,
+  TITLE =     {{Multiagentensysteme: Eine Einführung in die Verteilte Künstliche Intelligenz}},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {2001},
+  address =   muenchen,
+}
+
+@BOOK{Fiume_2001,
+  EDITOR =    Fiume,
+  TITLE =     {Proceedings of ACM SIGGRAPH 2001},
+  PUBLISHER = ACMPress,
+  YEAR =      {2001},
+  address =   newyork,
+}
+
+@BOOK{FleischerEtAl_2002,
+  EDITOR =    Fleischer # and # Moret # SchmidtEM,
+  SERIES =    {Lecture Notes in Computer Science},
+  TITLE =     {Experimental Algorithmics: From Algorithm Design to Robust and Efficient Software},
+  PUBLISHER = Springer,
+  YEAR =      {2002},
+  volume =    {2547},
+  address =   berlin,
+}
+
+@BOOK{Fletcher_1987,
+  AUTHOR =    Fletcher,
+  TITLE =     {Practical Methods of Optimization},
+  PUBLISHER = Wiley,
+  YEAR =      {1987},
+  address =   chichester,
+}
+
+@BOOK{Florida_2005,
+  AUTHOR =    Florida,
+  TITLE =     {Cities and the creative class},
+  PUBLISHER = Routledge,
+  YEAR =      {2005},
+  address =   newyork,
+}
+
+@BOOK{FloudasPardalos_2001,
+  EDITOR =    Floudas # and # Pardalos,
+  TITLE =     {Encyclopedia of Optimization},
+  PUBLISHER = springer,
+  YEAR =      {2001},
+  address =   newyork,
+}
+
+@BOOK{FloudasPardalos_2009,
+  EDITOR =    Floudas # and # Pardalos,
+  TITLE =     {Encyclopedia of Optimization},
+  PUBLISHER = springer,
+  YEAR =      {2009},
+  address =   newyork,
+}
+
+@BOOK{FogelEtAl_1966,
+  AUTHOR =    FogelL # and # Owens # and # WalshM,
+  TITLE =     {Artificial Intelligence through Simulated Evolution},
+  PUBLISHER = WileySons,
+  YEAR =      {1966},
+  address =   chichester,
+}
+
+@BOOK{FotheringhamBrunsdonCharlton_2002,
+  AUTHOR =    Fotheringham # and # Brunsdon # and # Charlton,
+  TITLE =     {Geographically Weighted Regression - The Analysis of Spatially varying Relationships},
+  PUBLISHER = WileySons,
+  YEAR =      {2002},
+  address =   chichester,
+}
+
+@BOOK{FoschtSwoboda_2007,
+  AUTHOR =    Foscht # and # Swoboda,
+  TITLE =     {{Käuferverhalten}},
+  PUBLISHER = GablerVerlag,
+  YEAR =      {2007},
+  address =   {Wiesbaden},
+  edition =   {3.},
+}
+
+@BOOK{FoxG_1988,
+  EDITOR =    FoxG,
+  TITLE =     {Proceedings of the third conference on Hypercube concurrent computers and applications: Architecture, software, computer systems, and general issues},
+  PUBLISHER = ACM,
+  YEAR =      {1988},
+  volume =    {1},
+  address =   newyork,
+}
+
+@BOOK{FransesMontgomery_2002,
+  EDITOR =    Franses # and # Montgomery,
+  TITLE =     {Econometric Models in Marketing},
+  PUBLISHER = Elsevier,
+  YEAR =      {2002},
+  volume =    {16},
+  series =    {Advances in Econometrics},
+  address =   oxford,
+}
+
+@BOOK{Freiman_1972,
+  EDITOR =    Freiman,
+  TITLE =     {Information Processing 71},
+  PUBLISHER = NorthHolland,
+  YEAR =      {1972},
+  address =   amsterdam,
+}
+
+@BOOK{FreyIrle_1993,
+  EDITOR =    Frey # and # Irle,
+  TITLE =     {{Theorien der Sozialpsychologie, Band 1: Kognitive Theorien}},
+  PUBLISHER = HuberVerl,
+  YEAR =      {1993},
+  address =   bern,
+}
+
+@BOOK{FriedmanD_1992,
+  AUTHOR =    FriedmanD # and # Wand # and # HaynesC,
+  TITLE =     {Essentials of Programming Languages},
+  PUBLISHER = MITPress,
+  YEAR =      {1992},
+  address =   cambridge-ma,
+}
+
+@BOOK{Friedrich_2002,
+  AUTHOR =    Friedrich,
+  TITLE =     {{Analyse und Optimierung von Verkehrsnetzen im IV und ÖV}},
+  PUBLISHER = VSM,
+  YEAR =      {2002},
+  series =	  {Schriftenreihe des Lehrstuhls für Verkehrs- und Stadtplanung, Technische Universität München},
+  volume =	  {Heft 14},
+  address =   muenchen,
+}
+
+@BOOK{FroschaugerLueger_2003,
+  AUTHOR =    Froschauer # and # Lueger,
+  TITLE =     {Das qualitative Interview},
+  PUBLISHER = WUV,
+  YEAR =      {2003},
+  address =   vienna,
+}
+
+@BOOK{FudenbergLevineDK_1998,
+  AUTHOR =    Fudenberg # and # LevineDK,
+  TITLE =     {The Theory of Learning in Games},
+  PUBLISHER = MITPress,
+  YEAR =      {1998},
+  address =   cambridge-ma,
+}
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{GaerlingEtAl_1998,
+  EDITOR =    Gaerling # and # Laitila # and # Westin,
+  TITLE =     {Theoretical Foundations of Travel Choice Modeling},
+  PUBLISHER = Pergamon,
+  YEAR =      {1998},
+  address =   oxford,
+}
+
+@BOOK{GammaEtAl_1995,
+  AUTHOR =    Gamma # and # Helm # and # JohnsonR # and # Vlissides,
+  TITLE =     {Design Patterns: Elements of Reusable Object-Oriented Software},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {1995},
+  address =   boston,
+}
+
+@BOOK{GareyJohnson_1979,
+  AUTHOR =    Garey # and # JohnsonDS,
+  TITLE =     {Computers and Intractability - A Guide to the Theory of NP-Completeness},
+  PUBLISHER = WHFreeman,
+  YEAR =      {1979},
+  address =   sanfran,
+}
+
+@BOOK{GartnerEtAl_2002,
+  AUTHOR =    Gartner # and # Messer # and # Rathi,
+  TITLE =     {Traffic Flow Theory},
+  PUBLISHER = org-usdot,
+  YEAR =      {2002},
+  address =   washington,
+}
+
+@BOOK{GartnerImprota_1995,
+  EDITOR =    Gartner # and # Improta,
+  TITLE =     {Urban traffic networks: dynamic flow modeling and control},
+  PUBLISHER = Springer,
+  YEAR =      {1995},
+  address =   berlin,
+}
+
+@BOOK{GartnerRehrl_2008,
+ editor = GartnerG # and # Rehrl,
+ TITLE = {Location Based Services and TeleCartography II: From Sensor Fusion to Context Models},
+ YEAR = {2008},
+ isbn = {3540873929, 9783540873921},
+ edition = {1st},
+ PUBLISHER = Springer,
+}
+
+@BOOK{GarzKraimer_1991,
+  EDITOR =    Garz # and # Kraimer,
+  TITLE =     {Qualitativ-empirische Sozialforschung: Konzepte, Methoden, Analysen},
+  PUBLISHER = Westdeutscher,
+  YEAR =      {1991},
+  address =   opladen,
+}
+
+@BOOK{GelfandEtAl_2010,
+  EDITOR =    Gelfand # and # Diggle # and # Fuentes # and # Guttorp,
+  TITLE =     {Handbook of spatial statistics},
+  PUBLISHER = CRCPress,
+  YEAR =      {2010},
+  address =   {{Boca Raton}},
+}
+
+@BOOK{GendreauMarcotte_2002,
+  EDITOR =    Gendreau # and # Marcotte,
+  TITLE =     {Transportation and Network Analysis: Current Trends},
+  PUBLISHER = Kluwer,
+  YEAR =      {2002},
+  address =   dordrecht,
+}
+
+@BOOK{Gerardin_1989,
+  EDITOR =    Gerardin,
+  TITLE =     {Travel Behaviour Research},
+  PUBLISHER = {Avebury, Gower},
+  YEAR =      {1989},
+  address =   {Aldershot},
+}
+
+@BOOK{GerdesEtAl_2004,
+  AUTHOR =    Gerdes # and # Klawonn # and # Kruse,
+  TITLE =     {{Evolutionäre Algorithmen - Genetische Algorithmen, Strategien udn Optimierungsverfahren, Beispielanwendungen}},
+  PUBLISHER = Vieweg,
+  YEAR =      {2004},
+  address =   wiesbaden,
+}
+
+@BOOK{GerikeEtAl_2013,
+  EDITOR =    Gerike # and # Huelsmann # and # Roller,
+  TITLE =     {{Strategies for Sustainable Mobilities -- Opportunities and Challenges}},
+  PUBLISHER = Ashgate,
+  YEAR =      {2013},
+  address =   burlington,
+}
+
+@BOOK{GeursKrizekReggiani_2012,
+  EDITOR =    Geurs # and # Krizek # and # Reggiani,
+  TITLE =     {Accessibility and Transport Planning},
+  PUBLISHER = {Edward Elgar Publishing},
+  YEAR =      {2012},
+  address =   cheltenham,
+}
+
+@Book{GhezBecker_1975,
+  author =    Ghez # and # Becker,
+  title =     {The Allocation of Time and Goods over the Life Cycle},
+  publisher = ColUniPress,
+  year =      {1975},
+  address =   newyork,
+}
+
+@BOOK{Giddens_1984,
+  AUTHOR =    Giddens,
+  TITLE =     {The Constitution of Society: Outline of the Theory of Structuration},
+  PUBLISHER = PolityPress,
+  YEAR =      {1984},
+  address =   cambridge-ma,
+}
+
+@BOOK{GilbertTroitzschKG_2005,
+  AUTHOR =    Gilbert # and # TroitzschKG,
+  TITLE =     {Simulation for the Social Scientist},
+  PUBLISHER = OpenUniPress,
+  YEAR =      {2005},
+  edition =   {2.},
+  address =   maidenhead,
+}
+
+@BOOK{GlaeserLaudel_2010,
+  AUTHOR =    Glaeser # and # Laudel,
+  TITLE =     {Experteninterviews und qualitative Inhaltsanalyse},
+  PUBLISHER = VS,
+  YEAR =      {2010},
+  address =   wiesbaden,
+}
+
+@BOOK{Goldberg_1989,
+  AUTHOR =    Goldberg,
+  TITLE =     {Genetic Algorithms in Search, Optimization and Machine Learning},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {1989},
+  address =   Reading,
+}
+
+@BOOK{Goldberg_2002,
+  AUTHOR =    Goldberg,
+  TITLE =     {The Design of Innovation},
+  PUBLISHER = Kluwer,
+  YEAR =      {2002},
+  address =   dordrecht,
+}
+
+@BOOK{GolledgeTimmermans_1988,
+  EDITOR =    Golledge # and # Timmermans,
+  TITLE =     {Behavioural Modelling in Geography and Planning},
+  PUBLISHER = {Croom Helm},
+  YEAR =      {1988},
+  address =   london,
+}
+
+@BOOK{Goulias_2003,
+  EDITOR =    Goulias,
+  TITLE =     {Transportation Systems Planning: Methods and Applications},
+  PUBLISHER = CRCPress,
+  YEAR =      {2002},
+  address =   newyork,
+}
+
+@BOOK{Grefenstette_1985,
+  EDITOR =    Grefenstette,
+  TITLE =     {Proceedings of the First International Conference on Genetic Algorithms and Their Applications},
+  PUBLISHER = LEA,
+  YEAR =      {1985},
+  address =   pittsburgh,
+}
+
+@BOOK{GreeneDEtAl_1997,
+  EDITOR =    GreeneD # and # JonesD # and # Delucchi,
+  TITLE =     {The Full Costs and Benefits of Transportation: Contributions to Theory, Method and Measurement},
+  PUBLISHER = springer,
+  YEAR =      {1997},
+  address =   berlin,
+}
+
+@BOOK{GriecoUrry_2012,
+  EDITOR =  Grieco # and # Urry,
+  TITLE =     {Mobilities: New Perspectives on Transport and Society},
+  PUBLISHER = Ashgate,
+  YEAR =      {2012},
+  address =   farnham,
+}
+
+@BOOK{Gruebler_1998,
+  AUTHOR =  Gruebler,
+  TITLE =     {Technology and Global Change},
+  PUBLISHER = CamUniPress,
+  YEAR =      {1998},
+  address =   cambridge-ma,
+}
+
+@BOOK{Gruska_1977,
+  EDITOR =    Gruska,
+  SERIES =    {Lecture Notes in Computer Science},
+  TITLE =     {Mathematical Foundations of Computer Science 1977},
+  PUBLISHER = Springer,
+  YEAR =      {1977},
+  volume =    {53},
+  address =   berlin,
+}
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{HaasT_2008,
+  AUTHOR =    HaasT,
+  TITLE =     {New Urbanism and Beyond},
+  PUBLISHER = Rizzoli,
+  YEAR =      {2008},
+  address =   newyork,
+}
+
+@BOOK{Hall_1999,
+  EDITOR =    Hall,
+  TITLE =     {Handbook of Transportation Science},
+  PUBLISHER = Kluwer,
+  YEAR =      {1999},
+  address =   dordrecht,
+}
+
+@BOOK{HallRW_2003,
+  EDITOR =    HallRW,
+  TITLE =     {Handbook of Transportation Science},
+  PUBLISHER = springer,
+  YEAR =      {2003},
+  address =   newyork,
+}
+
+@BOOK{HargettChorley_1969,
+  EDITOR =    Hargett # and # Chorley,
+  TITLE =     {Network Analysis in Geography},
+  PUBLISHER = ButlerTanner,
+  YEAR =      {1969},
+  address =   london,
+}
+
+@BOOK{Hastie_2009,
+  AUTHOR =    Hastie # and # Tibshirani # and # Friedman,
+  TITLE =     {The Elements of Statistical Learning: Data Mining, Inference, and Prediction},
+  PUBLISHER = springer,
+  YEAR =      {2009},
+  address =   newyork,
+  edition =   {2.},
+  series =    {Springer Series in Statistics},
+}
+
+@BOOK{Hautzinger_2003,
+  EDITOR =    Hautzinger,
+  TITLE =     {{Freizeitmobilitätsforschung - Theoretische und methodische Ansätze}},
+  PUBLISHER = {Verlag MetaGIS Infosysteme},
+  YEAR =      {2003},
+  address =   mannheim,
+}
+
+@BOOK{HeckmanLeamer_2001,
+  EDITOR =    Heckman # and # Leamer,
+  TITLE =     {Handbook of Econometrics},
+  PUBLISHER = Elsevier,
+  YEAR =      {2001},
+  address =   oxford,
+}
+
+@BOOK{HeinrichGrass_2006,
+  AUTHOR =    Heinrich # and # Grass,
+  TITLE =     {{Operations Research in der Praxis: Anwendungen, Modelle, Algorithmen und JAVA-Programme}},
+  PUBLISHER = Oldenbourg,
+  YEAR =      {2006},
+  address =   muenchen,
+}
+
+@BOOK{Heinritz_1992,
+  EDITOR =    Heinritz,
+  TITLE =     {The Attraction of Retail Locations: IGU-Symposium},
+  PUBLISHER = Lassleben,
+  YEAR =      {1992},
+  address =   Kallmuenz,
+}
+
+@BOOK{HelbichEtAl_2015,
+  EDITOR =    Helbich # and # Arsanjani # and # Leitner,
+  TITLE =     {{Computational Approaches for Urban Environments}},
+  PUBLISHER = Springer,
+  YEAR =      {2015},
+  series =    {{Geotechnologies and the Environment}},
+  volume =    {13},
+  address =   cham,
+}
+
+@BOOK{Hensher_1977,
+  AUTHOR =    Hensher,
+  TITLE =     {Value of business travel time},
+  PUBLISHER = Pergamon,
+  YEAR =      {1977},
+  address =   oxford,
+}
+
+@BOOK{Hensher_2001,
+  EDITOR =    Hensher,
+  TITLE =     {Travel Behaviour Research: The Leading Edge},
+  PUBLISHER = Pergamon,
+  YEAR =      {2001},
+  address =   oxford,
+}
+
+@BOOK{HensherButton_2000,
+  EDITOR =    Hensher # and # Button,
+  TITLE =     {Handbook of Transport Modelling},
+  PUBLISHER = Pergamon,
+  YEAR =      {2000},
+  address =   amsterdam,
+}
+
+@BOOK{HensherButton_2007,
+  EDITOR =    Hensher # and # Button,
+  TITLE =     {Handbook of Transport Modelling},
+  PUBLISHER = Elsevier,
+  YEAR =      {2007},
+  address =   oxford,
+  edition =   {2.},
+}
+
+@BOOK{HensherEtAl_1996_1,
+  EDITOR =    Hensher # and # KingJ # and # Oum,
+  TITLE =     {World Transport Research: Proceedings of the 7th {World Conference on Transport Research}},
+  PUBLISHER = Pergamon,
+  YEAR =      {1996},
+  volume =    {1},
+  address =   oxford,
+}
+
+@BOOK{HensherEtAl_1996_2,
+  EDITOR =    Hensher # and # KingJ # and # Oum,
+  TITLE =     {World Transport Research: Proceedings of the 7th {World Conference on Transport Research}},
+  PUBLISHER = Pergamon,
+  YEAR =      {1996},
+  volume =    {2},
+  address =   oxford,
+}
+
+@BOOK{HensherEtAl_1996_3,
+  EDITOR =    Hensher # and # KingJ # and # Oum,
+  TITLE =     {World Transport Research: Proceedings of the 7th {World Conference on Transport Research}},
+  PUBLISHER = Pergamon,
+  YEAR =      {1996},
+  volume =    {3},
+  address =   oxford,
+}
+
+@BOOK{HensherEtAl_1996_4,
+  EDITOR =    Hensher # and # KingJ # and # Oum,
+  TITLE =     {World Transport Research: Proceedings of the 7th {World Conference on Transport Research}},
+  PUBLISHER = Pergamon,
+  YEAR =      {1996},
+  volume =    {4},
+  address =   oxford,
+}
+
+@BOOK{HensherEtAl_2004,
+  EDITOR =    Hensher # and # Button # and # Haynes # and # Stopher,
+  TITLE =     {{Handbook of Transport Geography and Spatial System}},
+  PUBLISHER = Elsevier,
+  YEAR =      {2004},
+  address =   oxford,
+}
+
+@BOOK{HensherEtAl_2015,
+  AUTHOR =    Hensher # and # Rose # and # Greene,
+  TITLE =     {{Applied Choice Analysis, Second Edition}},
+  PUBLISHER = CamUniPress,
+  YEAR =      {2015},
+  address =   cambridge-uk,
+}
+
+@BOOK{HensherJohnsonLW_1980,
+  AUTHOR =    Hensher # and # JohnsonLW,
+  TITLE =     {Applied Discrete Choice Modeling},
+  PUBLISHER = Wiley,
+  YEAR =      {1980},
+  address =   newyork,
+}
+
+@BOOK{HensherStopher_1979,
+  EDITOR =    Hensher # and # Stopher,
+  TITLE =     {Behavioural Travel Modelling},
+  PUBLISHER = CroomHelm,
+  YEAR =      {1979},
+  address =   kent,
+}
+
+@BOOK{Herman_1961,
+  EDITOR =       Herman,
+  TITLE =        {Theory of Traffic Flow},
+  YEAR =         {1961},
+  PUBLISHER = elsevier,
+  address =      amsterdam,
+}
+
+@BOOK{HessDaly_2010,
+  EDITOR =    Hess # and # Daly,
+  TITLE =     {Choice Modelling: {The} State of the Art and the State of Practice - {Proceedings} from the Inaugural {International Choice Modeling Conference}},
+  PUBLISHER = Emerald,
+  YEAR =      {2010},
+  address =   bingley,
+}
+
+@BOOK{HessDaly_2014,
+  EDITOR =    Hess # and # Daly,
+  TITLE =     {Handbook of Choice Modelling},
+  PUBLISHER = EdwardElgar,
+  YEAR =      2014,
+  address =   cheltenham,
+}
+
+@BOOK{Hillier_2010,
+  EDITOR =    Hillier,
+  TITLE =     {Dynamic Optimization and Differential Games},
+  PUBLISHER = Springer,
+  YEAR =      {2010},
+  address =   newyork,
+}
+
+@BOOK{HillierLieberman_2005,
+  EDITOR =    Hillier # and # Lieberman,
+  TITLE =     {Introduction to Operations Research},
+  PUBLISHER = McGrawHill,
+  YEAR =      {2005},
+  address =   newyork,
+}
+
+@BOOK{HillierBHansonJ_1984,
+  EDITOR =    HillierB # and # HansonJ,
+  TITLE =     {The Social Logic of Space},
+  PUBLISHER = CamUniPress,
+  YEAR =      {1984},
+  address =   cambridge-uk,
+}
+
+@BOOK{BankhoffEtAl_2004,
+  EDITOR =    Bankhoff # and # Frerks # and # Hilhorst,
+  TITLE =     {Mapping Vulnerabilitiy: Disasters, Developement and People},
+  PUBLISHER = Earthscan,
+  YEAR =      {2004},
+  address =   london,
+}
+
+@BOOK{HofbauerSigmund_1998,
+  AUTHOR =    Hofbauer # and # Sigmund,
+  TITLE =     {Evolutionary Games and Population Dynamics},
+  PUBLISHER = CamUniPress,
+  YEAR =      {1998},
+  address =   cambridge-uk,
+}
+
+@BOOK{Holland_1975,
+  AUTHOR =    Holland,
+  TITLE =     {Adaptation in Natural and Artificial Systems},
+  PUBLISHER = UMP,
+  YEAR =      {1975},
+  address =   ann-arbor,
+}
+
+@BOOK{Holland_1992,
+  AUTHOR =    Holland,
+  TITLE =     {Adaptation in Natural and Artificial Systems: An Introductory Analysis with Applications to Biology, Control, and Artificial Intelligence},
+  PUBLISHER = MITPress,
+  YEAR =      {1992},
+  address =   cambridge-ma,
+}
+
+@BOOK{HollerIlling_2005,
+  AUTHOR =    Holler # and # Illing,
+  TITLE =     {{Einführung in die Spieltheorie}},
+  PUBLISHER = Springer,
+  YEAR =      {2005},
+  address =   berlin # comma # heidelberg # comma # newyork,
+}
+
+@BOOK{HolzrauScheiner_2015,
+  EDITOR =    Holzrau # and # Scheiner,
+  TITLE =     {{Räumliche Mobilität und Lebenslauf -- Studien zu Mobilitätsbiografien und Mobilitätssozialisation}},
+  PUBLISHER = Springer,
+  YEAR =      {2015},
+  address =   wiesbaden,
+}
+
+@BOOK{HopfWeingarten_1984,
+  EDITOR =    Hopf # and # Weingarten,
+  TITLE =     {Qualitative Sozialforschung},
+  PUBLISHER = Klett,
+  YEAR =      {1984},
+  address =   stuttgart,
+}
+
+@BOOK{HorniEtAl_forth,
+  EDITOR =    Horni # and # Nagel # and # Axhausen,
+  TITLE =     {The Multi-Agent Transport Simulation {MATSim}},
+  PUBLISHER = {self-published},
+  YEAR =      forth,
+}
+
+@BOOK{HorniEtAl_2016,
+  EDITOR =    Horni # and # Nagel # and # Axhausen,
+  TITLE =     {The Multi-Agent Transport Simulation {MATSim}},
+  PUBLISHER = Ubiquity,
+  YEAR =      {2016},
+  address =   london,
+}
+
+@BOOK{HoutsEtAl_1988,
+  AUTHOR =    Houts # and # Cleary # and # HuTW,
+  TITLE =     {The {T}hree {M}ile {I}sland Crisis: Psychological, Social, and Economic Impacts on the Surrounding Population},
+  PUBLISHER = PenStateUniPress,
+  YEAR =      {1988},
+  address =   harrisburg,
+}
+
+@BOOK{HowardSheth_1969,
+  AUTHOR =    Howard # and # Sheth,
+  TITLE =     {The Theory of Buyer Behavior},
+  PUBLISHER = Wiley,
+  YEAR =      {1969},
+  address =   newyork,
+}
+
+@BOOK{HuberJ_1982,
+  EDITOR =    HuberJ,
+  TITLE =     {The Effect of Item Similarity on Choice Probabilities: A Collection of Working Papers from a Conference at {Quail Roost}},
+  PUBLISHER = Duke,
+  YEAR =      {1982},
+  address =   durham,
+}
+
+@BOOK{Hunecke_2003,
+  AUTHOR =    HutchinsonTP,
+  TITLE =     {{Produktionsfaktor Wissen: Untersuchung des Zusammenhangs zwischen Wissen und Standort von Unternehmen}},
+  PUBLISHER = WissMainz,
+  YEAR =      {2003},
+  series =    {{Aachener Reihe Mensch und Technik}},
+  volume =    {45},
+  address =   aachen,
+}
+
+@BOOK{HurtubiaEtAl_2015,
+  EDITOR =    Hurtubia # and # Bierlaire # and # Waddell # and # DePalma,
+  TITLE =     {Integrated transport and land use modeling for sustainable cities},
+  PUBLISHER = EPFLpress,
+  YEAR =      {2015},
+  address =   lausanne,
+}
+
+@BOOK{HutchinsonEtAl_1985,
+  EDITOR =    Hutchinson # and # Nijkamp # and # Batty,
+  TITLE =     {Optimization and Discrete Choice in Urban Systems},
+  PUBLISHER = Springer,
+  YEAR =      {1985},
+  address =   berlin,
+}
+
+@BOOK{HutchinsonTP_1993,
+  AUTHOR =    HutchinsonTP,
+  TITLE =     {Essentials of Statistical Methods in 41 Pages},
+  PUBLISHER = {Rumsby Scientific Publishing},
+  YEAR =      {1993},
+  address =   adelaide,
+}
+
+@BOOK{HuwerEtAl_2015,
+  EDITOR =    Huwer # and # Wimmer # and # Ott # and # Hinden # and # Camandona # and # Renard,
+  TITLE =     {{Optimale Geschwindigkeiten in Siedlungsgebieten}},
+  PUBLISHER = BoD,
+  YEAR =      {2015},
+  address =   norderstedt,
+}
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{IFMO_2005,
+  EDITOR =    "IFMO",
+  TITLE =     {{Zukunft der Mobilität - Szenarien für das Jahr 2025}},
+  PUBLISHER = IFMO,
+  YEAR =      {2005},
+  address =   muenchen,
+}
+
+@BOOK{IFMO_2000,
+  EDITOR =    "IFMO",
+  TITLE =     {Freizeitverkehr},
+  PUBLISHER = Springer,
+  YEAR =      {2000},
+  address =   berlin,
+}
+
+@BOOK{IPCC_2007,
+  EDITOR =    Pachauri # and # Reisinger,
+  TITLE =     {{C}limate {C}hange 2007: {S}ynthesis {R}eport. {C}ontribution of {W}orking {G}roups I, II and III to the {F}ourth {A}ssessment
+{R}eport of the {I}ntergovernmental {P}anel on {C}limate {C}hange},
+  PUBLISHER = IPCC,
+  YEAR =      {2007},
+  address =   geneva,
+}
+
+
+@BOOK{ISB_73_2002,
+  EDITOR =    {ISB},
+  TITLE =     {{Stadt Region Land}},
+  PUBLISHER = ISBAachen,
+  YEAR =      {2002},
+  volume =    {73},
+  address =   aachen,
+}
+
+@BOOK{ISB_2006,
+  EDITOR =    {ISB},
+  TITLE =     {{Stadt Region Land}},
+  PUBLISHER = ISBAachen,
+  YEAR =      {2006},
+  volume =    {81},
+  address =   aachen,
+}
+
+@BOOK{IngallsEtAl_2004,
+  EDITOR =    Ingalls # and # RossettiM # and # SmithJS # and # PetersB,
+  TITLE =     {WSC '04: Proceedings of the 36th Conference on Winter Simulation},
+  PUBLISHER = ICS,
+  YEAR =      {2004},
+  address =   washington,
+}
+
+@BOOK{Ingleton_1999,
+  EDITOR =    Ingleton,
+  TITLE =     {Natural Disaster Management},
+  PUBLISHER = {Tudor Rose},
+  YEAR =      {1999},
+  address =   london,
+}
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Jacobs_1993,
+  AUTHOR =    Jacobs,
+  TITLE =     {Great Streets},
+  PUBLISHER = MITPress,
+  YEAR =      {1993},
+  address =   cambridge-ma,
+}
+
+@BOOK{Jacobs_1961,
+  AUTHOR =    Jacobs,
+  TITLE =     {The Death and Life of Great American Cities},
+  PUBLISHER = RandomHouse,
+  YEAR =      {1961},
+  address =   newyork,
+}
+
+
+@BOOK{JacobsEtAl_2002,
+  AUTHOR =    Jacobs # and # MacDonald # and # Rofe,
+  TITLE =     {The Boulevard Book},
+  PUBLISHER = MITPress,
+  YEAR =      {2002},
+  address =   cambridge-ma,
+}
+
+@BOOK{JanssensEtAl_2014,
+  EDITOR =    Janssens # and # Yasar # and # Knapen,
+  TITLE =     {Data Science and Simulation in Transportation Research},
+  PUBLISHER = IGI,
+  YEAR =      {2014},
+  address =   hershey,
+}
+
+@BOOK{JensenBEtAl_2006,
+  EDITOR =    JensenB # and # Sloth # and # LarsenM # and # Madsen # and # Nielsen,
+  TITLE =     {Road Pricing, the Economy and the Environment},
+  PUBLISHER = Springer,
+  YEAR =      {2006},
+  series =    {Advances in Spatial Science},
+  address =   berlin,
+}
+
+@BOOK{Jones_1990,
+  EDITOR =    Jones,
+  TITLE =     {Developments in Dynamic and Activity-Based Approaches to Travel Analysis},
+  PUBLISHER = Avebury,
+  YEAR =      {1990},
+  address =   aldershot,
+}
+
+@BOOK{JonesEtAl_1983,
+  AUTHOR =    Jones # and # Dix # and # Clarke # and # Heggie,
+  TITLE =     {Understanding Travel Behaviour},
+  PUBLISHER = Gower,
+  YEAR =      {1983},
+  address =   aldershot,
+}
+
+@BOOK{JungermannEtAl_2005,
+  AUTHOR =    Jungermann # and # Pfister # and # FischerK,
+  TITLE =     {{Die Psychologie der Entscheidung}},
+  PUBLISHER = elsevier,
+  YEAR =      {2005},
+  address =   muenchen,
+}
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@BOOK{KagermeierEtAl_2002,
+  EDITOR =    Kagermeier # and # Mager # and # Zaengler,
+  TITLE =     {{Mobilitätskonzepte in Ballungsräumen}},
+  PUBLISHER = MetaGIS,
+  YEAR =      {2002},
+  series =	  {Studien zur Mobilitäts- und Verkehrsforschung},
+  volume =	  {2},
+  address =   mannheim,
+}
+
+@BOOK{Kanskey_1969,
+  EDITOR =    Kanskey,
+  TITLE =     {Structure of Transportation Networks: Relationships between Network Geometry and Regional Characteristics},
+  PUBLISHER = UniChic,
+  YEAR =      {1969},
+  address =   chicago,
+}
+
+@BOOK{Karp_1974,
+  EDITOR =    Karp,
+  TITLE =     {Complexity of Computation},
+  PUBLISHER = org-siam,
+  YEAR =      {1974},
+  address =   providence,
+}
+
+@BOOK{Karlqvist_1978,
+  EDITOR =    Karlqvist,
+  TITLE =     {Spatial Interaction Theory and Residential Location},
+  PUBLISHER = NorthHolland,
+  YEAR =      {1978},
+  address =   amsterdam,
+}
+
+@BOOK{KasparEtAl_2001,
+  EDITOR =    Kaspar # and # Laesser # and # Bieger,
+  TITLE =     {{Jahrbuch 2000/2001 Schweizerische Verkehrswirtschaft}},
+  PUBLISHER = SVWG,
+  YEAR =      {2001},
+  address =   stgallen,
+}
+
+@BOOK{KatenkampEtAl_2003,
+  EDITOR =    Katenkamp # and # KoppR # and # SchroederA,
+  TITLE =     {{Praxishandbuch: Empirische Sozialforschung}},
+  PUBLISHER = LV,
+  YEAR =      {2003},
+  address =   munster,
+}
+
+@BOOK{KaufmannKEtAl_2001,
+  EDITOR =    KaufmannM # and # Wagner,
+  TITLE =     {{Drawing Graphs}},
+  PUBLISHER = Springer,
+  YEAR =      {2001},
+  address =   berlin,
+}
+
+@BOOK{Kelly_1955,
+  AUTHOR =    Kelly,
+  TITLE =     {The Psychology of Personal Constructs},
+  PUBLISHER = Norton,
+  YEAR =      {1955},
+  address =   newyork,
+}
+
+@BOOK{KinderlehrerStampacchia_1980,
+  AUTHOR =    Kinderlehrer # and # Stampacchia,
+  TITLE =     {An Introduction to Variational Inequalities and Their Applications},
+  PUBLISHER = AcademicP,
+  YEAR =      {1980},
+  address =   newyork,
+}
+
+@BOOK{Kirchhoff_2002,
+  AUTHOR =    Kirchhoff,
+  TITLE =     {{Städtische Verkehrsplanung - Konzepte, Verfahren, Massnahmen}},
+  PUBLISHER = BGTeubner,
+  YEAR =      {2002},
+  address =   stuttgart # comma # leipzig # comma # wiesbaden,
+}
+
+@BOOK{Kitamura_2009,
+  EDITOR =    Kitamura,
+  TITLE =     {The Expanding Sphere of Travel Behaviour Research: Selected Papers from the 11th International Conference on Travel Behaviour Research},
+  PUBLISHER = Emerald,
+  YEAR =      {2009},
+  address =   bingley,
+}
+
+@BOOK{KitamuraKuwahara_2005,
+  EDITOR =    Kitamura # and # Kuwahara,
+  TITLE =     {Simulation Approaches in Transportation Analysis: Recent Advances and Challenges},
+  PUBLISHER = Springer,
+  YEAR =      {2005},
+  address =   newyork,
+}
+
+@BOOK{KitchinThrift_2009,
+  EDITOR =    Kitchin # and # Thrift,
+  TITLE =     {International Encyclopedia of Human Geography},
+  PUBLISHER = Elsevier,
+  YEAR =      {2009},
+  address =   oxford,
+}
+
+@BOOK{Kleijnen_2008,
+  AUTHOR =    Kleijnen,
+  TITLE =     {Design and Analysis of Simulation Experiments},
+  PUBLISHER = Springer,
+  YEAR =      {2008},
+  address =   newyork,
+}
+
+@BOOK{Klein_2007,
+  AUTHOR =    Klein,
+  TITLE =     {{Versuchsplanung DoE - Einführung in die Taguchi/Shainin-Methodik}},
+  PUBLISHER = Oldenbourg,
+  YEAR =      {2007},
+  address =   muenchen,
+}
+
+@BOOK{KlemmeSelle_forth,
+  EDITOR =    Klemme # and # Selle,
+  TITLE =     {{Siedlungsflächen entwickeln}},
+  PUBLISHER = VDR,
+  YEAR =      forth,
+  address =   detmold,
+}
+
+@BOOK{KlemmeSelle_2009,
+  EDITOR =    Klemme # and # Selle,
+  TITLE =     {{Siedlungsflächen entwickeln}},
+  PUBLISHER = VDR,
+  YEAR =      {2010},
+  address =   detmold,
+}
+
+@BOOK{Kleppmann_2008,
+  AUTHOR =    Kleppmann,
+  TITLE =     {{Taschenbuch Versuchsplanung - Produkte und Prozesse optimieren}},
+  PUBLISHER = CarlHanser,
+  YEAR =      {2008},
+  address =   muenchen # comma # vienna,
+}
+
+@BOOK{KlingschEtAl_2008,
+  EDITOR =    Klingsch # and # Rogsch # and # Schadschneider # and # Schreckenberg,
+  TITLE =     {Pedestrian and Evacuation Dynamics 2008},
+  PUBLISHER = Springer,
+  YEAR =      {2008},
+  address =   heidelberg,
+}
+
+@BOOK{KlingschEtAl_2010,
+  EDITOR =    Klingsch # and # Rogsch # and # Schadschneider # and # Schreckenberg,
+  TITLE =     {Pedestrian and Evacuation Dynamics 2010},
+  PUBLISHER = Springer,
+  YEAR =      {2010},
+  address =   heidelberg,
+}
+
+@BOOK{Kluegl_2001,
+  AUTHOR =    Kluegl,
+  TITLE =     {Multiagentensimulation - Konzepte, Werkzeuge, Anwendung},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {2001},
+  address =   muenchen,
+}
+
+@BOOK{KlueglEtAl_2005,
+  EDITOR =    Kluegl # and # Bazzan # and # Ossowski,
+  TITLE =     {Applications of Agent Technology in Traffic and Trasportation},
+  PUBLISHER = {Birkhäuser},
+  YEAR =      {2005},
+  address =   basel,
+}
+
+@BOOK{KollSchretzenmayrEtAl_2004,
+  EDITOR =    KollSchretzenmayr # and # Keiner # and # Nussbaumer,
+  TITLE =     {The Real and Virtual Worlds of Spatial Planning},
+  PUBLISHER = Springer,
+  YEAR =      {2004},
+  address =   heidelberg,
+}
+
+@BOOK{Korda_2005,
+  AUTHOR =    Korda,
+  TITLE =     {{Städtebau - Technische Grundlagen}},
+  PUBLISHER = BGTeubner,
+  YEAR =      {2005},
+  address =   stuttgart # comma # leipzig # comma # wiesbaden,
+}
+
+@BOOK{KotzEtAl_1985,
+  EDITOR =    Kotz # and # JohnsonNL # and # Read,
+  TITLE =     {Encyclopedia of Statistical Sciences},
+  PUBLISHER = Wiley,
+  YEAR =      {1985},
+  volume =    {5},
+  address =   newyork,
+}
+
+@BOOK{KowaldAxhausen_2015,
+  EDITOR =    Kowald # and # Axhausen,
+  TITLE =     {{Social Networks and Travel Behaviour}},
+  PUBLISHER = Ashgate,
+  YEAR =      {2015},
+  address =   burlington,
+}
+
+@BOOK{Koza_1994,
+  AUTHOR =    Koza,
+  TITLE =     {Genetic Programming {II}: Automatic Discovery of Reusable Programs},
+  PUBLISHER = MITPress,
+  YEAR =      {1994},
+  address =   cambridge-ma,
+}
+
+@BOOK{Koza_1992,
+  AUTHOR =    Koza,
+  TITLE =     {Genetic Programming: On the Programming of Computers by Means of Natural Selection},
+  PUBLISHER = MITPress,
+  YEAR =      {1992},
+  address =   cambridge-ma,
+}
+
+@BOOK{KramerNeculau_1996,
+  AUTHOR =    Kramer # and # Neculau,
+  TITLE =     {{Simulationstechnik}},
+  PUBLISHER = CarlHanser,
+  YEAR =      {1996},
+  address =   muenchen # comma # wien,
+}
+
+@BOOK{KroeberWeinberg_2003,
+  AUTHOR =    KroeberRiel # and # Weinberg,
+  TITLE =     {{Konsumentenverhalten}},
+  PUBLISHER = VahlenVerlag,
+  YEAR =      {2003},
+  address =   muenchen,
+  edition =   {8.},
+}
+
+@BOOK{Krueger_2004,
+  AUTHOR =    Krueger,
+  TITLE =     {{Handbuch der Java-Programmierung}},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {2004},
+  address =   muenchen,
+  edition =   {4.},
+}
+
+@BOOK{Kuzmyak_2003,
+  EDITOR =    Kuzmyak,
+  TITLE =     {Traveler Response to Transportation System Changes},
+  PUBLISHER = TRB,
+  YEAR =      {2003},
+  volume =    {95},
+  series =    {Transit Cooperative Research Program Report {(TCRP)}},
+  address =   washington,
+}
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{LabbeEtAl_1998,
+  EDITOR =    Labbe # and # Laporte # and # Tanczos # and # Toint,
+  TITLE =     {Operations Research and Decision Aid Methodologies in Traffic and Transportation Management},
+  PUBLISHER = Springer,
+  YEAR =      {1998},
+  volume =    {166},
+  series =    {{NATO ASI S}eries {F}: {C}omputer and {S}ystems {S}ciences},
+  address =   berlin,
+}
+
+@BOOK{Lampugnani_2010,
+  AUTHOR =    Lampugnani,
+  TITLE =     {Die Stadt im 20. Jahrhundert},
+  PUBLISHER = Wagenbach,
+  YEAR =      {2010},
+  address =   berlin,
+}
+
+@BOOK{LariceMacDonald_2007,
+  EDITOR =    Larice # and # MacDonald,
+  TITLE =     {The Urban Design Reader},
+  PUBLISHER = Routledge,
+  YEAR =      {2007},
+  address =   london,
+}
+
+@BOOK{Laumann_1973,
+  EDITOR =    Laumann,
+  TITLE =     {Bonds of Pluralism: The Form and Substance of Urban Social Networks},
+  PUBLISHER = Wiley,
+  YEAR =      {1973},
+  address =   wiley,
+}
+
+@BOOK{Lawler_1976,
+  AUTHOR =    Lawler,
+  TITLE =     {Combinatorial Optimization: Networks and Matroids},
+  PUBLISHER = HoltRW,
+  YEAR =      {1976},
+  address =   newyork,
+}
+
+@BOOK{Leach_1994,
+  AUTHOR =    Leach,
+  TITLE =     {Survival Psychology},
+  PUBLISHER = MacmillanPress,
+  YEAR =      {1994},
+  address =   basingstoke,
+}
+
+@BOOK{LeCorbusier_1955,
+  AUTHOR =    LeCorbusier,
+  TITLE =     {Oeuvre Complete},
+  PUBLISHER = EdGirsberger,
+  YEAR =      {1955},
+  address =   zurich,
+}
+
+@BOOK{Lehnerer_2009,
+  AUTHOR =    Lehnerer,
+  TITLE =     {Grand Urban Rules},
+  PUBLISHER = NAI,
+  YEAR =      {2009},
+  address =   rotterdam,
+}
+
+@BOOK{Lesort_1996,
+  EDITOR =    Lesort,
+  TITLE =     {Proceedings of the 13th International Symposium on Transportation and Traffic Theory},
+  PUBLISHER = Pergamon,
+  YEAR =      {1996},
+  address =   oxford,
+}
+
+@BOOK{LeidlHartmannA_2011,
+  EDITOR =    Leidl # and # HartmannA,
+  TITLE =     {Modern Computational Science 11: Simulation of Extreme Events. Lecture Notes from the 3rd International Summer School Oldenburg, August 15-26, 2011},
+  PUBLISHER = BIS,
+  YEAR =      {2011},
+  address =   oldenburg,
+}
+
+@BOOK{Lennon_2003,
+  TITLE      = {{Tourism Statistics: International Perspectives and Current Issues}},
+  author     = LennonJJ,
+  year       ={2003},
+  publisher  = cont,
+}
+
+@BOOK{Leontief_1986,
+  EDITOR =    Leontief,
+  TITLE =     {Input-Output Economics},
+  PUBLISHER = OxUniPress,
+  YEAR =      {1986},
+  edition =   {2.},
+}
+
+@BOOK{LevinFox_2003,
+  AUTHOR =    Levin # and # FoxJA,
+  TITLE =     {Elementary Statsitics in Social Research},
+  PUBLISHER = AllynBacon,
+  YEAR =      {2003},
+  address =   boston,
+}
+
+@BOOK{Liamputtong_2009,
+  AUTHOR =    Liamputtong,
+  TITLE =     {Qualitative Research Methods},
+  PUBLISHER = oxford,
+  YEAR =      {2009},
+  address =   newyork,
+}
+
+@BOOK{Liebl_1995,
+  AUTHOR =    Liebl,
+  TITLE =     {{Simulation - Problemorientierte Einführung}},
+  PUBLISHER = Oldenbourg,
+  YEAR =      {1995},
+  address =   muenchen # comma # wien,
+}
+
+@BOOK{Litman_2011,
+  AUTHOR =    Litman,
+  TITLE =     {Transportation Cost and Benefit Analysis},
+  PUBLISHER = VTPI,
+  YEAR =      {2011},
+  address =   victoria,
+}
+
+@BOOK{LittleRubin_2002,
+  TITLE =     {Statistical analysis with missing data},
+  AUTHOR =    Little # and # Rubin,
+  PUBLISHER = WileySons,
+  YEAR =      {2002},
+  address =   hoboken,
+}
+
+@BOOK{LiuHQEtAl_2008,
+  TITLE =     {Social Computing, Behavioral Modeling, and Prediction},
+  EDITOR =    LiuHQ # and # Salermo # and # YoungMJ,
+  PUBLISHER = springer,
+  YEAR =      {2008},
+}
+
+@BOOK{LoboFEtAl_2007,
+  EDITOR =    LoboF # and # LimaC # and # MichalewiczZ,
+  TITLE =     {Parameter Setting in Evolutionary Algorithms},
+  PUBLISHER = springer,
+  YEAR =      {2007},
+  volume =    {54},
+  series =    {Studies in Computational Intelligence},
+}
+
+@BOOK{LoechlEtAl_2005,
+  AUTHOR =    Loechl # and # Schoenfelder # and # Schlich # and # Buhl # and # WidmerP # and # Axhausen,
+  TITLE =     {{Untersuchung der Stabilität des Verkehrsverhaltens}},
+  PUBLISHER = UVEK,
+  YEAR =      {2005},
+  series =    {1120},
+  address =   bern,
+}
+
+@BOOK{LohseSchneider_1997,
+  AUTHOR =    Lohse # and # SchneiderR,
+  TITLE =     {{Vergleichende Untersuchungen der aggregierten und disaggregierten Verkehrsplanungsmodelle}},
+  PUBLISHER = uni-tud # comma # uni-tud-vkw,
+  YEAR =      {1997},
+  series =	  {Schriftenreihe},
+  volume = 	  {3},
+  address =   dresden,
+}
+
+@BOOK{LordWilson_2007,
+  AUTHOR =    Lord # and # WilsonCB,
+  TITLE =     {The Mathematical Description of Shape and Form},
+  PUBLISHER = WileySons,
+  YEAR =      {1984},
+  address =   newyork,
+}
+
+@BOOK{LouviereEtAl_2000,
+  AUTHOR =    Louviere # and # Hensher # and # Swait,
+  TITLE =     {Stated Choice Methods - Analysis and Application},
+  PUBLISHER = CamUniPress,
+  YEAR =      {2000},
+  address =   cambridge-uk,
+}
+
+@BOOK{Lumley_2010,
+  AUTHOR = Lumley,
+  TITLE = {Complex surveys: A guide to analysis using {R}},
+  PUBLISHER = WileySons,
+  YEAR = {2010},
+  address = hoboken,
+  volume = {565},
+}
+
+@BOOK{LundqvistMattsson_2001,
+  EDITOR =    Lundqvist # and # Mattsson,
+  TITLE =     {National Transport Models: Recent Developments and Prospects},
+  PUBLISHER = Springer,
+  YEAR =      {2001},
+  series =    {Advances in Spatial Science},
+  address =   stockholm,
+}
+
+@BOOK{Lynch_1960,
+  AUTHOR =    Lynch,
+  TITLE =     {The Image of the City},
+  PUBLISHER = MITPress,
+  YEAR =      {1960},
+  address =   cambridge-uk,
+}
+
+@BOOK{Lynch_1981,
+  AUTHOR =    Lynch,
+  TITLE =     {A Theory of Good City Form},
+  PUBLISHER = MITPress,
+  YEAR =      {1981},
+  address =   cambridge-uk,
+}
+
+@BOOK{Lynch_2001,
+  AUTHOR =    Lynch,
+  TITLE =     {Good City Form},
+  PUBLISHER = MITPress,
+  YEAR =      {2001},
+  address =   cambridge-ma,
+}
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{MacKay_2009,
+  AUTHOR =    MacKay,
+  TITLE =     {Sustainable Energy - without the hot air},
+  PUBLISHER = UITC,
+  YEAR =      {2009},
+  address =   cambridge-uk,
+}
+
+@BOOK{MacNairEtAl_1989,
+  EDITOR =    MacNair # and # Musselman # and # Heidelberger,
+  TITLE =     {WSC '89: Proceedings of the 21st Conference on Winter Simulation},
+  PUBLISHER = ACM,
+  YEAR =      {1989},
+  address =   newyork,
+}
+
+@BOOK{Mahmassani_2002,
+  EDITOR =    Mahmassani,
+  TITLE =     {In Perpetual Motion: Travel Behavior Research Opportunities and Application Challenges},
+  PUBLISHER = Elsevier,
+  YEAR =      {2002},
+  address =   oxford,
+}
+
+
+@BOOK{Mahmassani_2005,
+  EDITOR =    Mahmassani,
+  TITLE =     {Flow, Dynamics and Human Interaction - Proceedings of the 16th International Symposium on Transportation and Traffic Theory},
+  PUBLISHER = Elsevier,
+  YEAR =      {2005},
+  address =   oxford,
+}
+
+@BOOK{MaierToedtling_2006,
+  AUTHOR =    Maier # and # Toedtling,
+  TITLE =     {Regional- und {S}tadtökonomik 1: {S}tandorttheorie und {R}aumstruktur},
+  PUBLISHER = Springer,
+  YEAR =      {2006},
+  address =   wien # comma # newyork,
+}
+
+
+@BOOK{MallardGlaister_2008,
+  AUTHOR =    Mallard # and # Glaister,
+  TITLE =     {Transport Economics: Theory, Application and Policy},
+  PUBLISHER = Palgrave,
+  YEAR =      {2008},
+  address =   basingstoke,
+}
+
+@BOOK{March_1976,
+  EDITOR =    March,
+  TITLE =     {The Architecture of Forms},
+  PUBLISHER = CamUniPress,
+  YEAR =      {1976},
+  address =   london,
+}
+
+@BOOK{MartinLMarch_1972,
+  EDITOR =    MartinL # and # March,
+  TITLE =     {Urban Space and Structures},
+  PUBLISHER = CamUniPress,
+  YEAR =      {1972},
+  address =   london,
+}
+
+@BOOK{MarcotteNguyen_1998,
+  EDITOR =    Marcotte # and # Nguyen,
+  TITLE =     {Equilibrium and Advanced Transportation Modelling},
+  PUBLISHER = Kluwer,
+  YEAR =      {1998},
+  address =   dordrecht,
+}
+
+@BOOK{MarshallS_2005,
+  AUTHOR =    MarshallS,
+  TITLE =     {Streets and Patterns},
+  PUBLISHER = SponPress,
+  YEAR =      {2005},
+  address =   london,
+}
+
+@BOOK{MarzluffEtAl_2008,
+  EDITOR =    Marzluff # and # Shulenberger # and # Endlicher # and # AlbertiM # and # Bradlay # and # RyanC # and # SimonU # and # ZumBrunnen,
+  TITLE =     {Urban Ecology},
+  PUBLISHER = Springer,
+  YEAR =      {2008},
+  address =   newyork,
+}
+
+@BOOK{MavronicolasPapadopoulou_2009,
+  EDITOR =    Mavronicolas # and # Papadopoulou,
+  TITLE =     {Algorithmic Game Theory},
+  PUBLISHER = Springer,
+  YEAR =      {2009},
+  volume =    {5814},
+  series =    {Lecture Notes in Computer Science},
+  address =   berlin,
+}
+
+@BOOK{Mayring_2002,
+  AUTHOR =    Mayring,
+  TITLE =     {Einführung in die qualitative Sozialforschung},
+  PUBLISHER = Beltz,
+  YEAR =      {2002},
+  address =   weinheim,
+}
+
+@BOOK{Mayring_2008,
+  AUTHOR =    Mayring,
+  TITLE =     {Qualitative Inhaltsanalyse: Grundlagen und Techniken},
+  PUBLISHER = Beltz,
+  YEAR =      {2008},
+  address =   weinheim,
+}
+
+@BOOK{MeersmanEtAl_1999_1,
+  EDITOR =    Meersman # and # VanDeVoorde # and # Winkelmans,
+  TITLE =     {World Transport Research},
+  PUBLISHER = Pergamon,
+  YEAR =      {1999},
+  volume =    {1},
+  address =   oxford,
+}
+
+@BOOK{MeersmanEtAl_1999_2,
+  EDITOR =    Meersman # and # VanDeVoorde # and # Winkelmans,
+  TITLE =     {World Transport Research},
+  PUBLISHER = Pergamon,
+  YEAR =      {1999},
+  volume =    {2},
+  address =   oxford,
+}
+
+@BOOK{MeersmanEtAl_1999_3,
+  EDITOR =    Meersman # and # VanDeVoorde # and # Winkelmans,
+  TITLE =     {World Transport Research},
+  PUBLISHER = Pergamon,
+  YEAR =      {1999},
+  volume =    {3},
+  address =   oxford,
+}
+
+@BOOK{MeersmanEtAl_1999_4,
+  EDITOR =    Meersman # and # VanDeVoorde # and # Winkelmans,
+  TITLE =     {World Transport Research},
+  PUBLISHER = Pergamon,
+  YEAR =      {1999},
+  volume =    {4},
+  address =   oxford,
+}
+
+@BOOK{MertschingEtAl_2009,
+  EDITOR =    Mertsching # and # Hund # and # Aziz,
+  TITLE =     {KI 2009: Advances in Artificial Intelligence - 32nd Annual German Conference on AI, Paderborn, Germany, September 15-18, 2009, Proceedings},
+  PUBLISHER = Springer,
+  YEAR =      {2009},
+  address =   berlin,
+}
+
+@BOOK{MeyerMiller_2001,
+  AUTHOR =    Meyer # and # Miller,
+  TITLE =     {Urban Transportation Planning},
+  PUBLISHER = McGrawHill,
+  YEAR =      {2001},
+  address =   singapore,
+  edition =   {2.},
+}
+
+@BOOK{MichalewiczFogel_2004,
+  AUTHOR =    MichalewiczZ # and # Fogel,
+  TITLE =     {How to Solve It: Modern Heuristics},
+  PUBLISHER = Springer,
+  YEAR =      {2004},
+  address =   heidelberg,
+}
+
+@BOOK{Michie_1974,
+  AUTHOR =    Michie,
+  TITLE =     {On Machine Intelligence},
+  PUBLISHER = EdinburghUP,
+  YEAR =      {1974},
+  address =   edinburgh,
+}
+
+@BOOK{MikoleitPuerckhauer_2011,
+  AUTHOR =    Mikoleit # and # Puerckhauer,
+  TITLE =     {Urban Code},
+  PUBLISHER = GTA,
+  YEAR =      {2011},
+  address =   zurich,
+}
+
+@BOOK{MillanInglada_2007,
+  EDITOR =    Millan # and # Inglada,
+  TITLE =     {Essays on Transportation Economics},
+  PUBLISHER = Springer,
+  YEAR =      {2007},
+  address =   heidelberg,
+}
+
+@BOOK{MillardBallEtAl_2005,
+  EDITOR =    MillardBall# and # MurrayG # and # Schure # and # FoxC # and # Burkhardt,
+  TITLE =     {Car-Sharing: Where and How It Succeeds},
+  PUBLISHER = TRB,
+  YEAR =      {2005},
+  volume =    {108},
+  series =    {Transit Cooperative Research Program Report {(TCRP)}},
+  address =   washington,
+}
+
+@BOOK{MillerALupton_2005,
+  AUTHOR =    MillerA # and # Lupton,
+  TITLE =     {swarm},
+  PUBLISHER = TheFabric,
+  YEAR =      {2005},
+  address =   philadelphia,
+}
+
+@BOOK{MitchellRapkin_1954,
+  AUTHOR =    Mitchell # and # Rapkin,
+  TITLE =     {Urban Traffic: A Function of Land Use},
+  PUBLISHER = ColUniPress,
+  YEAR =      {1954},
+  address =   newyork,
+}
+
+@BOOK{MitchellW_1990,
+  AUTHOR =    MitchellW,
+  TITLE =     {The Logic of Architecture: Design, Computation, and Cognition},
+  PUBLISHER = MITPress,
+  YEAR =      {1990},
+  address =   cambridge-ma,
+}
+
+@BOOK{MoelthenWytzisk_2002,
+  EDITOR =    Moelthen # and # Wytzisk,
+  TITLE =     {{GI-Technologien für Verkehr und Logistik - IfGI}},
+  PUBLISHER = IFGI,
+  YEAR =      {2002},
+  volume =    {13},
+  address =   munster,
+}
+
+@BOOK{Morsch_2005,
+  AUTHOR =    Morsch,
+  TITLE =     {Sandburgen, Staus und Seifenblasen},
+  PUBLISHER = WileyVCH,
+  YEAR =      {2005},
+  address =   {Weinheim},
+}
+
+@BOOK{MurrayGrubesic_2007,
+  EDITOR =    Murray # and # Grubesic,
+  TITLE =     {{Critical Infrastructure: Reliability and Vulnerability}},
+  PUBLISHER = Springer,
+  YEAR =      {2007},
+  address =   berlin,
+}
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Nagurney_1993,
+  AUTHOR =    Nagurney,
+  TITLE =     {Network Economics: A Variational Inequality Approach},
+  PUBLISHER = Kluwer,
+  YEAR =      {1993},
+  address =   dordrecht,
+}
+
+@BOOK{NagurneyZhang_1996,
+  AUTHOR =    Nagurney # and # ZhangD,
+  TITLE =     {Projected Dynamical Systems and Variational Inequalities With Applications},
+  PUBLISHER = Kluwer,
+  YEAR =      {1996},
+  address =   boston,
+}
+
+@BOOK{NewmanMEJBarkema_1999,
+  AUTHOR =    NewmanMEJ # and # Barkema,
+  TITLE =     {Monte Carlo Methods in Statistical Physics},
+  PUBLISHER = OxUniPress,
+  YEAR =      {1999},
+  address =   oxford,
+}
+
+@BOOK{NievergeltHinrichs_1993,
+  AUTHOR =    Nievergelt # and # Hinrichs,
+  TITLE =     {Algorithms and Data Structures: With Applications to Graphics and Geometry},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {1993},
+  address =   uppersaddleriver,
+}
+
+@BOOK{Nikoletseas_2005,
+  EDITOR =    Nikoletseas,
+  TITLE =     {Experimental and Efficient Algorithms},
+  PUBLISHER = Springer,
+  YEAR =      {2005},
+  series =    {Lecture Notes in Computer Science},
+  address =   berlin,
+  volume =    {3503},
+}
+
+@BOOK{NisanEtAl_2007,
+  EDITOR =    Nisan # and # Roughgarden # and # Tardos # and # Vazirani,
+  TITLE =     {Algorithmic Game Theory},
+  PUBLISHER = CamUniPress,
+  YEAR =      {2007},
+  address =   cambridge-ma,
+}
+
+@BOOK{NRC_1991,
+  AUTHOR =    {{National Research Council}},
+  TITLE =     {Improving Information for Social Policy Decisions: The Uses of Microsimulation Modeling},
+  PUBLISHER = {National Academy Press},
+  YEAR =      {1991},
+  volume =    {I: Review and Recommendations},
+  address =   washington,
+}
+
+@BOOK{NRC_2008,
+  AUTHOR =    {{National Research Council}},
+  TITLE =     {Potential Impacts of Climate Change on U.S. Transportation},
+  PUBLISHER = org-trb,
+  YEAR =      {2008},
+  address =   washington,
+}
+
+@BOOK{NuzzoloEtAl_2003,
+  AUTHOR =	Nuzzolo # and # Russo # and # Crisalli,
+  TITLE =	{Transit network modelling. The schedule-based dynamic approach},
+  PUBLISHER =	CT,
+  year =	{2003},
+  address =   milano,
+}
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{ODPM_2003,
+  AUTHOR =    {ODPM},
+  TITLE =     {Sustainable Communities: Building for the Future},
+  PUBLISHER = {Office of teh Deputy Prime Minister},
+  YEAR =      {2003},
+  address =   london,
+}
+
+@BOOK{OECD_2014,
+  EDITOR =    {OECD},
+  TITLE =     {Vers des comportements plus environnementaux: Vue d'ensemble de l'enquête 2011},
+  PUBLISHER = {OECD Publishing},
+  YEAR =      {2014},
+  address =   paris,
+  url =       {http://doi.org/10.1787/9789264195493-fr},
+}
+
+
+@BOOK{OECD_Greening_2011,
+  EDITOR =    {OECD},
+  TITLE =     {Greening Household Behaviour: The Role of Public Policy},
+  PUBLISHER = {OECD Publishing},
+  YEAR =      {2011},
+}
+
+@BOOK{OECD_Greening_2013,
+  EDITOR =    {OECD},
+  TITLE =     {Greening Household Behaviour: Overview from the 2011 Survey},
+  PUBLISHER = {OECD Publishing},
+  YEAR =      {2013},
+  address =   paris,
+}
+
+@BOOK{OhnmachtEtAl_2009,
+  EDITOR =    Ohnmacht # and # Maksim # and # Bergmann,
+  TITLE =     {Mobilities and Inequalities},
+  PUBLISHER = Ashgate,
+  YEAR =      {2009},
+  address =   farnham,
+}
+
+@BOOK{OiShuldiner_1962,
+  AUTHOR =    Oi # and # Shuldiner,
+  TITLE =     {An Analysis of Urban Travel Demands},
+  PUBLISHER = NoWeUniPress,
+  YEAR =      {1962},
+  address =   evanston,
+}
+
+@BOOK{OlukotunEtAl_2007,
+  EDITOR =    Olukotun # and # HammondL # and # Laudon,
+  TITLE =     {Chip Multiprocessor Architecture: Techniques to Improve Throughput and Latency},
+  PUBLISHER = MorganClaypool,
+  YEAR =      {2007},
+  volume =    {3},
+  series =    {Synthesis Lectures on Computer Architecture},
+}
+
+@BOOK{Openshaw_1984,
+  AUTHOR =    Openshaw,
+  TITLE =     {The Modifiable Areal Unit Problem},
+  PUBLISHER = GeoBooks,
+  YEAR =      {1984},
+  address =   norwich,
+}
+
+@BOOK{Orme_2010,
+  AUTHOR =    Orme,
+  TITLE =     {Getting Started with Conjoint analysis: Strategies for Product Design and Pricing Research},
+  PUBLISHER = ResPubLLC,
+  YEAR =      {2010},
+  address =   madison,
+  edition =   {2.},
+}
+
+@BOOK{OrtuzarWillumsen_2001,
+  AUTHOR =    Ortuzar # and # Willumsen,
+  TITLE =     {Modelling Transport},
+  PUBLISHER = WileySons,
+  YEAR =      {2001},
+  address =   chichester,
+  edition =   {3rd},
+}
+
+@BOOK{OrtuzarWillumsen_2011,
+  AUTHOR =    Ortuzar # and # Willumsen,
+  TITLE =     {Modelling Transport},
+  PUBLISHER = WileySons,
+  YEAR =      {2011},
+  address =   chichester,
+  edition =   {4th},
+}
+
+@BOOK{OsullivanGibbK_2003,
+  EDITOR =    Osullivan # and # GibbK,
+  TITLE =     {Housing Economics and Public Policy},
+  PUBLISHER = BWP,
+  YEAR =      {2003},
+}
+
+
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{PagliaraEtAl_2010,
+  EDITOR =    Pagliara # and # Preston # and # Simmonds,
+  TITLE =     {Residential Location Choice: Models and Applications},
+  PUBLISHER = Springer,
+  YEAR =      {2010},
+  series =	{Advances in Spatial Science},
+  address =   berlin,
+}
+
+@BOOK{Papageorgiou_1996,
+  AUTHOR =    Papageorgiou,
+  TITLE =     {{Optimierung - Statische, dynamische, stochastische Verfahren für die Anwendung}},
+  PUBLISHER = Oldenbourg,
+  YEAR =      {1996},
+  address =   muenchen # comma # wien,
+}
+
+@BOOK{Papageorgiou_1991,
+  EDITOR =    Papageorgiou,
+  TITLE =     {Concise Encyclopedia of Traffic and Transportation Systems},
+  PUBLISHER = Pergamon,
+  YEAR =      {1991},
+  address =   oxford,
+}
+
+@BOOK{Papula_1991,
+  AUTHOR =    Papula,
+  TITLE =     {{Mathematik für Ingenieure 1}},
+  PUBLISHER = Vieweg,
+  YEAR =      {1991},
+  address =   braunschweig,
+  edition =   {6.},
+}
+
+@BOOK{Pardalos_forth,
+  EDITOR =    Pardalos,
+  TITLE =     {Future City Architecture for Optimal Living},
+  PUBLISHER = Springer,
+  YEAR =      {forthcoming},
+}
+
+@BOOK{ParryEtAl_2007,
+  EDITOR =    Parry # and # Canziani # and # Palutikof # and # VanDerLinden # and # HansonC,
+  TITLE =     {Fourth Assessment Report of the Intergovernmental Panel on Climate Change},
+  PUBLISHER = CamUniPress,
+  YEAR =      {2007},
+  address =   cambridge-uk,
+}
+
+@BOOK{Patriksson_1994,
+  AUTHOR =    Patriksson,
+  TITLE =     {The Traffic Assignment Problem, Models and Methods},
+  PUBLISHER = {VSP},
+  YEAR =      {1994},
+  address =   utrecht,
+}
+
+@BOOK{PendyalaBhat_2012,
+  EDITOR =    Pendyala # and # Bhat,
+  TITLE =     {Travel Behaviour Research in an Evolving World},
+  PUBLISHER = IATBR,
+  YEAR =      {2012},
+}
+
+@BOOK{PendyalaEtAl_2011,
+  AUTHOR =    Pendyala # and # Christian # and # KonduriKC,
+  TITLE =     {{PopGen 1.1 User’s Guide}},
+  PUBLISHER = {Lulu Publishers},
+  YEAR =      {2011},
+  address =   {Raleigh, North Carolina},
+}
+
+@BOOK{PetersenM_1995,
+  AUTHOR =    PetersenM,
+  TITLE =     {{Ökonomische Analyse des Car-Sharing}},
+  PUBLISHER = GablerVerlag,
+  YEAR =      {1995},
+}
+
+@BOOK{Perry_1981,
+  AUTHOR =    Perry,
+  TITLE =     {Citizen Evacuation in Response to Nuclear and Nonnuclear Threats},
+  PUBLISHER = BHARC,
+  YEAR =      {1981},
+}
+
+@BOOK{Perry_1985,
+  AUTHOR =    Perry,
+  TITLE =     {Comprehensive emergency management: evacuating threatened populations},
+  PUBLISHER = JAIPress,
+  YEAR =      {1985},
+  address =   greenwich,
+}
+
+@BOOK{PerryMushkatel_1984,
+  AUTHOR =    Perry # and # Mushkatel,
+  TITLE =     {Disaster Management: Warning Response and Community Relocation},
+  PUBLISHER = QuorumBooks,
+  YEAR =      {1984},
+  address =   westport,
+}
+
+@BOOK{PetersBEtAl_2001,
+  EDITOR =    PetersB # and # SmithJS # and # Medeiros # and # Rohrer,
+  TITLE =     {WSC '01: Proceedings of the 33rd Conference on Winter Simulation},
+  PUBLISHER = ICS,
+  YEAR =      {2001},
+  address =   washington,
+}
+
+@BOOK{PfriemEtAl_2006,
+  EDITOR =    Pfriem # and # Antes # and # Fichter # and # MuellerMa # and # Paech # and # Seuring # and # Siebenhuener,
+  TITLE =     {{Innovationen für eine nachhaltige Entwicklung}},
+  PUBLISHER = DUV,
+  YEAR =      {2006},
+  address =   wiesbaden,
+}
+
+@BOOK{Phang_1992,
+  AUTHOR =    Phang,
+  TITLE =     {{Housing Markets and Urban Transportation: Economic Theory, Econometrics and Policy Analysis for Singapore}},
+  PUBLISHER = McGrawHill,
+  YEAR =      {1992},
+  address =   singapore,
+}
+
+@BOOK{Pigou_1920,
+  AUTHOR =    Pigou,
+  TITLE =     {The Economics of Welfare},
+  PUBLISHER = MacmillanCo,
+  YEAR =      {1920},
+  address =   london,
+}
+
+@BOOK{Pitfield_1984,
+  EDITOR =    Pitfield,
+  TITLE =     {Discrete Choice Models in Regional Science},
+  PUBLISHER = Pion,
+  YEAR =      {1984},
+  address =   london,
+}
+
+@BOOK{PredtechenskiiMilinskii_1978,
+  AUTHOR = Predtechenskii # and # Milinskii,
+  TITLE = {Planning for Foot Traffic in Buildings},
+  PUBLISHER = Amerind,
+  YEAR = {1978},
+  address = newdehli,
+}
+
+@BOOK{PressEtAl_2007,
+  AUTHOR =    Press # and # Teukolsky # and # Vetterling # and # Flannery,
+  TITLE =     {Numerical Recipes: The Art of Scientific Computing},
+  PUBLISHER = CamUniPress,
+  YEAR =      {2007},
+  address =   cambridge-uk,
+  edition =   {3.},
+}
+
+@BOOK{PrusinkiewiczLindenmayer_1996,
+  AUTHOR = Prusinkiewicz # and # Lindenmayer,
+  TITLE = {The Algorithmic Beauty of Plants},
+  PUBLISHER = Springer,
+  YEAR = {1996},
+  address = newyork,
+}
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Quarantelli_1980,
+  AUTHOR =    Quarantelli,
+  TITLE =     {Evacuation behavior and problems: findings and implications from the research literature},
+  PUBLISHER = DRCOSUni,
+  YEAR =      {1980},
+  address =   columbus,
+}
+
+@BOOK{QuinetVickerman_2004,
+  AUTHOR =    Quinet # and # Vickerman,
+  TITLE =     {Principles of {T}ransport {E}conomics},
+  PUBLISHER = EdwardElgar,
+  YEAR =      {2004},
+  address =   cheltenham,
+}
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{RalstonAEtAl_2000,
+  EDITOR =    RalstonA # and # ReillyED # and # HemmendingerD,
+  TITLE =     {Encyclopedia of Computer Science},
+  PUBLISHER = NaturePubGroup,
+  YEAR =      {2000},
+  address =   london,
+  edition =   {4.},
+}
+
+@BOOK{RauberEtAl_2004,
+  EDITOR =    Raubal # and # Sliwinski # and # Kuhn,
+  TITLE =     {{Geoinformation und Mobilität - von der Forschung zur praktischen Anwendung}},
+  PUBLISHER = IFGI,
+  YEAR =      {2004},
+  address =   munster,
+}
+
+@BOOK{RassiaSTPardalos_2015,
+  EDITOR =    RassiaST # and # Pardalos,
+  TITLE =     {Future City Architecture for Optimal Living},
+  PUBLISHER = Springer,
+  YEAR =      {2015},
+  address =   newyork,
+}
+
+@BOOK{RegierungsratBaselLandschaft_1987,
+  AUTHOR =   {{Regierungsrat des Kantons Basel-Landschaft}},
+  TITLE =     {{Bericht des Regierungsrates an den Landrat zur Katastrophe Schweizerhalle}},
+  PUBLISHER = VKBL,
+  YEAR =      {1987},
+  volume =    {7},
+  series= {Recht und Politik im Kanton Basel-Landschaft},
+  address =   liestal,
+}
+
+% it was 1931, corrected. Key left intentionally.
+@BOOK{Reilly_1929,
+  AUTHOR =    Reilly,
+  TITLE =     {The Law of Retail Gravitation},
+  PUBLISHER = KNP,
+  YEAR =      {1931},
+  address =   newyork,
+}
+
+@BOOK{Rennard_2007,
+  TITLE = {Handbook of Research on Nature Inspired Computing for Economy and Management},
+  editor = Rennard,
+  publisher = IGI,
+  year = 2007,
+  address = hershey,
+}
+
+@BOOK{Ricardo_1817,
+  AUTHOR =    Ricardo,
+  TITLE =     {The Principles of Political Economy and Taxation},
+  PUBLISHER = JohnMurray,
+  YEAR =      {1817},
+  address =   london,
+}
+
+@BOOK{RichardsonBae_2008,
+  EDITOR =    RichardsonH # and # Bae,
+  TITLE =     {Road Congestion Pricing In Europe: Implications for the United States},
+  PUBLISHER = EdwardElgar,
+  YEAR =      {2008},
+  address =   northampton,
+}
+
+@BOOK{RichardsonEtAl_1995,
+  EDITOR =    RichardsonAJ # and # Ampt # and # Meyburg,
+  TITLE =     {{Survey Methods for Transport Planning}},
+  PUBLISHER = Euca,
+  YEAR =      {1995},
+  address =   melbourne,
+}
+
+
+@BOOK{RichterRost_2004,
+  AUTHOR =    Richter # and # Rost,
+  TITLE =     {{Komplexe Systeme}},
+  PUBLISHER = FTBV,
+  YEAR =      {2004},
+  address =   frankfurt,
+}
+
+@BOOK{RietveldEtAl_2006,
+  EDITOR =    Rietveld # and # Jourquin # and # Westin,
+  TITLE =     {Towards Better Performing Transport Networks},
+  PUBLISHER = Routledge,
+  YEAR =      {2006},
+  address =   london,
+}
+
+@BOOK{RobinsonS_2004,
+  AUTHOR =    RobinsonS,
+  TITLE =     {Simulation: The Practice of Model Development and Use},
+  PUBLISHER = WileySons,
+  YEAR =      {2004},
+  address =   chichester,
+}
+
+@BOOK{Rogers_1962,
+  AUTHOR =    RogersEM,
+  TITLE =     {Diffusion of Innovations},
+  PUBLISHER = FP,
+  YEAR =      {1962},
+}
+
+@BOOK{Rogers_2010,
+  AUTHOR =    RogersEM,
+  TITLE =     {Diffusion of Innovations},
+  PUBLISHER = SAS,
+  YEAR =      {2010},
+}
+
+@BOOK{RoordaMiller_2013,
+  EDITOR =    Roorda # and # Miller,
+  TITLE =     {Travel Behaviour Research: Current Foundations, Future Prospects},
+  PUBLISHER = Lulu,
+  YEAR =      {2013},
+}
+
+@BOOK{RoordaMiller_2015,
+  EDITOR =    Roorda # and # Miller,
+  TITLE =     {Transport simulations: {K}nowledge levels and system outcomes},
+  PUBLISHER = LuLu,
+  YEAR =      forth,
+}
+
+@BOOK{Rosen_1981,
+  EDITOR =    Rosen,
+  TITLE =     {Studies in labor markets},
+  PUBLISHER = UCPress,
+  YEAR =      {1981},
+   volume =  {31},
+}
+
+@BOOK{RossEtAl_2011,
+  AUTHOR =    Roess # and # Prassas # and # McShane,
+  TITLE =     {Traffic Engineering},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {2011},
+  address =   boston,
+}
+
+@BOOK{RossiPH_1980,
+  AUTHOR =    RossiPH,
+  TITLE =     {Why families move},
+  PUBLISHER = SAGE,
+  YEAR =      {1980},
+  address =   beverlyhills # comma # california,
+  edition =   {2.},
+
+}
+
+@BOOK{RozenbergSalomaa_1980,
+  AUTHOR =    Rozenberg # and # Salomaa,
+  TITLE =     {The mathematical Theory of L Systems},
+  PUBLISHER = AcademicP,
+  YEAR =      {1980},
+  address =   newyork,
+}
+
+@BOOK{RozenbergEtAl_2012,
+  EDITOR =    Rozenberg # and # Back # and # Kok,
+  TITLE =     {Handbook of Natural Computing},
+  PUBLISHER = Springer,
+  YEAR =      {2012},
+  address =   heidelberg,
+}
+
+@BOOK{Rubin_1987,
+  AUTHOR =    Rubin,
+  TITLE =     {Multiple Imputation for Nonresponse in Surveys},
+  PUBLISHER = WileySons,
+  YEAR =      {1987},
+  address =   newyork,
+}
+
+@BOOK{RusselNorvig_1995,
+  EDITOR =    Russell # and # Norvig,
+  TITLE =     {Artificial Intelligence: A Modern Approach},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {1995},
+  address =   uppersaddleriver,
+}
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Sadek_TRBCircular_2007,
+  EDITOR =    Sadek,
+  TITLE =     {Artificial Intelligence in Transportation: Information for Application},
+  PUBLISHER = TRB,
+  YEAR =      {2007},
+  series =    {Transportation Research Circular},
+  number =    {E-C113},
+  address =   washington,
+}
+
+@BOOK{SakamotoKitagawa_1987,
+  EDITOR =    Sakamoto # and # Kitagawa,
+  TITLE =     {Akaike information criterion statistics},
+  PUBLISHER = Kluwer,
+  YEAR =      {1987},
+  address =   {{Norwell}},
+}
+
+@BOOK{Salcido_2011,
+  EDITOR =    Salcido,
+  TITLE =     {Cellular Automata - Simplicity Behind Complexity},
+  PUBLISHER = {Intechopen},
+  YEAR =      {2011},
+  address =   rijeka,
+}
+
+@BOOK{SalehSammer_2009,
+  EDITOR =    Saleh # and # Sammer,
+  TITLE =     {Road User Pricing: the Success and Failure of Travel Demand Management},
+  PUBLISHER = Ashgate,
+  YEAR =      {2009},
+  address =   aldershot,
+}
+
+@BOOK{SaltelliEtAl_2008,
+  AUTHOR =    Saltelli # and # Ratto # and # Andres # and # Campolongo # and # Cariboni # and # Gatelli # and # Saisana # and # Tarantola,
+  TITLE =     { Global Sensitivity Analysis: The Primer},
+  PUBLISHER = WileySons,
+  YEAR =      {2008},
+  address =   chichester,
+}
+
+@BOOK{SankoffKruskal_1983,
+  EDITOR =    Sankoff # and # Kruskal,
+  TITLE =     {Time Warps, String Edits and Macromolecules: The Theory and Practice of Sequence Comparison},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {1983},
+  address =   london,
+}
+
+@BOOK{SchadschneiderEtAl_2005,
+  EDITOR =    Schadschneider # and # Poeschel # and # Kuehne # and # Schreckenberg # and # WolfDE,
+  TITLE =     {Traffic and Granular Flow'05},
+  PUBLISHER = Springer,
+  YEAR =      {2005},
+  address =   berlin,
+}
+
+@BOOK{KurauchiSchmoecker_forth,
+  EDITOR =    Kurauchi # and # Schmoecker,
+  TITLE =     {Public Transport Planning with Smart Card Data},
+  PUBLISHER = CRCPress,
+  YEAR =      {forthcoming},
+  address =   bocaraton,
+}
+
+@BOOK{SchnabelLohse_1997,
+  AUTHOR =    Schnabel # and # Lohse,
+  TITLE =     {Verkehrsplanung},
+  PUBLISHER = VFB,
+  YEAR =      {1997},
+  volume =    {2},
+  series =    {{Grundlagen der Strassenverkehrstechnik und der Verkehrsplanung}},
+  address =   berlin,
+  edition =   {2.},
+}
+
+@BOOK{SchoenfelderAxhausen_2010,
+  AUTHOR =    Schoenfelder # and # Axhausen,
+  TITLE =     {Urban Rythms and Travel Behaviour},
+  PUBLISHER = Ashgate,
+  YEAR =      {2010},
+  address =   farnham,
+}
+
+@BOOK{SchoellerEtAl_2007,
+  EDITOR =    Schoeller # and # Canzler # and # Knie,
+  TITLE =     {Handbuch Verkehrspolitik},
+  PUBLISHER = Springer,
+  YEAR =      {2007},
+}
+
+
+@BOOK{ScholzGScholzJ_2004,
+  AUTHOR =    ScholzG # and # ScholzJ,
+  TITLE =     {{Die Verkehrsnachfrage - Ein multistabiles System}},
+  PUBLISHER = BoD,
+  YEAR =      {2004},
+  address =   norderstedt,
+}
+
+@BOOK{SchreckenbergSelten_2006,
+  EDITOR =    Schreckenberg # and # Selten,
+  TITLE =     {Human Behaviour and Traffic Networks},
+  PUBLISHER = springer,
+  YEAR =      {2004},
+  address =   berlin,
+}
+
+@BOOK{SchuckelToporowski_2007,
+  EDITOR =    Schuckel # and # Toporowski,
+  TITLE =     {{Theoretische Fundierung und praktische Relevanz der Handelsforschung}},
+  PUBLISHER = Springer,
+  YEAR =      {2007},
+  address =   heidelberg,
+}
+
+@BOOK{Siegel_1994,
+  EDITOR =    Siegel,
+  TITLE =     {Proceedings of the 8th International Symposium on Parallel Processing},
+  PUBLISHER = ICS,
+  YEAR =      {1994},
+  address =   washington,
+}
+
+@BOOK{Silverman_2001,
+  AUTHOR =    Silverman,
+  TITLE =     {Interpreting Qualitative Data. Methods for Analysing Talk, Text and Interaction},
+  PUBLISHER = SAGE,
+  YEAR =      {2001},
+  address =   london,
+}
+
+@BOOK{SilvermanB_2001,
+  AUTHOR =    SilvermanB,
+  TITLE =     {Density estimation for statistics and data analysis},
+  PUBLISHER = ChapmanHall,
+  YEAR =      {1986},
+  series = {Monographs on Statistics and Applied Probability},
+  address =   london,
+}
+
+@BOOK{Sheffi_1985,
+  AUTHOR =    Sheffi,
+  TITLE =     {Urban Transportation Networks: Equilibrium Analysis with Mathematical Programming Methods},
+  PUBLISHER = PrenticeHall,
+  YEAR =      {1985},
+  address =   englewoodCliffs,
+}
+
+@BOOK{ShiftanButtonNijkamp_2007,
+  EDITOR =    Shiftan # and # Button # and # Nijkamp,
+  TITLE =     {Transportation Planning},
+  PUBLISHER = EdwardElgar,
+  YEAR =      {2007},
+  volume =    {7},
+  series =    {Classics in Planning},
+  address =   cheltenham,
+}
+
+@BOOK{Shoup_2005,
+  AUTHOR =    Shoup,
+  TITLE =     {The High Cost of Free Parking},
+  PUBLISHER = PlannersPress,
+  YEAR =      {2005},
+  address =   chicago,
+}
+
+@BOOK{Sigua_2008,
+  AUTHOR =    Sigua,
+  TITLE =     {Fundamentals of traffic engineering},
+  PUBLISHER = UPP,
+  YEAR =      {2008},
+  address =   {Quezon City},
+}
+
+@BOOK{Simon_1950,
+  AUTHOR =    Simon,
+  TITLE =     {Administrative Behavior},
+  PUBLISHER = MacmillanPress,
+  YEAR =      {1950},
+  address =   newyork,
+}
+
+@BOOK{SivanandamDeepa_2008,
+  AUTHOR =    Sivanandam # and # Deepa,
+  TITLE =     {Introduction to Genetic Algorithms},
+  PUBLISHER = Springer,
+  YEAR =      {2008},
+  address =   berlin,
+}
+
+
+@BOOK{SmallK_1992,
+	AUTHOR =  SmallK,
+	TITLE= {Urban Transportation Economics},
+	YEAR= 1992,
+  PUBLISHER = Harwood,
+	address = philadelphia,
+}
+
+@BOOK{SmallVerhoef_2007,
+  AUTHOR =    Small # and # Verhoef,
+  TITLE =     {The Economics of Urban Transportation},
+  PUBLISHER = Routledge,
+  YEAR =      {2007},
+  address =   abingdon,
+}
+
+@BOOK{SmithJM_2009,
+  EDITOR =    SmithJM,
+  TITLE =     {Proceedings of the 31st International Conference  on Coastal Engineering 2008},
+  PUBLISHER = WorldScientific,
+  YEAR =      {2009},
+  address =   hamburg,
+}
+
+@BOOK{SollaEtAl_2000,
+  EDITOR =    Solla # and # Leen # and # MuellerKR,
+  TITLE =     {Advances in Neural Information Processing Systems 12},
+  PUBLISHER = MITPress,
+  YEAR =      {2000},
+  address =   boston,
+}
+
+@BOOK{Solomon_2009,
+  AUTHOR =    Solomon,
+  TITLE =     {Consumer Behavior},
+  PUBLISHER = PearsonPrenticeHall,
+  YEAR =      {2009},
+  address =   uppersaddleriver,
+}
+
+@BOOK{SokolowskiBanks_2010,
+  EDITOR =    Sokolowski # and # BanksCM,
+  TITLE =     {Verification, Validation, and Accreditation, in Modeling and Simulation Fundamentals: Theoretical Underpinnings and Practical Domains},
+  PUBLISHER = WileySons,
+  YEAR =      {2010},
+  address =   hoboken,
+}
+
+@BOOK{Sonar_2001,
+  AUTHOR =    Sonar,
+  TITLE =     {{Angewandte Mathematik, Modellbildung und Informatik: Eine Einführung für Lehramtsstudenten, Lehrer und Schüler}},
+  PUBLISHER = Vieweg,
+  YEAR =      {2001},
+  address =   braunschweig # comma # wiesbaden,
+}
+
+@BOOK{Sorkin_1993,
+  AUTHOR =    Sorkin,
+  TITLE =     {Local Code: The Constitution of a City at 42 N Latitude},
+  PUBLISHER = PrincetonArchPress,
+  YEAR =      {1993},
+  address =   newyork,
+}
+
+@BOOK{SouthworthM_BenJoseph_2003,
+  AUTHOR =    SouthworthM # and # BenJoseph,
+  TITLE =     {Streets and the Shaping of Towns and Cities},
+  PUBLISHER = IslandPress,
+  YEAR =      {2003},
+  address =   washington,
+}
+
+@BOOK{Spacek_2009,
+  AUTHOR =    Spacek,
+  TITLE =     {Entwurf von Strassen - Grundzüge},
+  PUBLISHER = org-bfh,
+  YEAR =      {2009},
+  address =   bern,
+}
+
+@BOOK{Speck_2012,
+  AUTHOR =    Speck,
+  TITLE =     {{Walkable City: How Downtown Can Save America, One Step At A Time}},
+  PUBLISHER = FarrarStraussGiroux,
+  YEAR =      {2012},
+  address =   newyork,
+}
+
+@BOOK{Speed_2003,
+  TITLE =     {Statistical Analysis of Gene Expression Microarray Data},
+  YEAR =      {2003},
+  EDITOR =    Speed,
+  PUBLISHER = ChapCRC,
+  address =   bocaraton,
+  comment =   {Chapter 3 Classification in microarray experiments}
+}
+
+@BOOK{Stahel_2009,
+  AUTHOR =    Stahel,
+  TITLE =     {Statistische Datenanalyse. Eine Einführung für Naturwissenschaftler},
+  PUBLISHER = Vieweg,
+  YEAR =      {2009},
+  address =   wiesbaden,
+}
+
+@BOOK{Structures_2001,
+  TITLE =     {Structures 2001 -- A Structural Engineering Odyssey},
+  YEAR =      {2001},
+  EDITOR =    ChangP,
+  PUBLISHER = {Structural Engineering Institute of ASCE},
+  address =   washington,
+}
+
+@BOOK{Stone_1999,
+  TITLE ={{The Science of Self-report: Implications for Research and Practice}},
+  EDITOR = Stone # and  # Bachrach # and # Jobe # and # Kurtzman # and # Cain,
+  year={1999},
+  publisher = PsychoPress,
+  address =   eastsussex,
+}
+
+@BOOK{StopherJones_2003,
+  EDITOR =    Stopher # and # Jones,
+  TITLE =     {Transport Survey Quality and Innovation},
+  PUBLISHER = Pergamon,
+  YEAR =      {2003},
+  address =   oxford,
+}
+
+@BOOK{StopherLeeGosselin_1997,
+  EDITOR =    Stopher # and # LeeGosselin,
+  TITLE =     {Understanding Travel Behaviour in an Era of Change},
+  PUBLISHER = Pergamon,
+  YEAR =      {1997},
+  address =   oxford,
+}
+
+@BOOK{StopherMeyburg_1976,
+  AUTHOR =    Stopher # and # Meyburg,
+  TITLE =     {Transportation System Evaluation},
+  PUBLISHER = LexingtonBooks,
+  YEAR =      {1976},
+  address =   lexington,
+}
+
+@BOOK{StopherStecher_2006,
+  EDITOR =    Stopher # and # Stecher,
+  TITLE =     {Travel Survey Methods - Quality and Future Directions},
+  PUBLISHER = Elsevier,
+  YEAR =      {2006},
+  address =   oxford,
+}
+
+@BOOK{Stein_1989,
+  EDITOR =    Stein,
+  TITLE =     {Lectures in the Sciences of Complexity},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {1989},
+  volume =    {1},
+  series =    {Santa Fe Institute Studies in the Sciences of Complexity},
+  address =   redwoodcity,
+}
+
+@BOOK{SternEtAl_2002,
+  EDITOR = Stern # and # Salomon # and # Bovy,
+  TITLE = {Travel Behaviour: Patterns, Implications and Modelling},
+  PUBLISHER = EdwardElgar,
+  YEAR = {2002},
+  address =   cheltenham,
+}
+
+@BOOK{Stiny_2006,
+  AUTHOR =    Stiny,
+  TITLE =     {Shape},
+  PUBLISHER = MITPress,
+  YEAR =      {2000},
+  address =   cambridge-ma,
+}
+
+@BOOK{Stroustrup_2000,
+  AUTHOR =    Stroustrup,
+  TITLE =     {{Die C++ Programmiersprache}},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {2000},
+  address =   muenchen,
+  edition =   {4.},
+}
+
+@BOOK{Studenmund_2006,
+  AUTHOR =    Studenmund,
+  TITLE =     {{Using econometrics: a practical guide}},
+  PUBLISHER = AddisonWesley,
+  YEAR =      {2006},
+  address =   {{Boston}},
+  edition =   {5.},
+}
+
+@BOOK{Stuebben_1907,
+  AUTHOR =    Stuebben,
+  TITLE =     {Der St\"{a}dtebau},
+  PUBLISHER = AlfredKroener,
+  YEAR =      {1907},
+  address =   stuttgart,
+}
+
+@BOOK{Sumpter_2010,
+  AUTHOR =    Sumpter,
+  TITLE =     {Collective Animal Behavior},
+  PUBLISHER = {Princeton University Press},
+  YEAR =      {2010},
+  address =   newjersey,
+}
+
+@BOOK{Sun_2006,
+  EDITOR =    Sun,
+  TITLE =     {Cognition and Multi-Agent Interaction: From Cognitive Modeling to Social Simulation},
+  PUBLISHER = {Cambridge University Press},
+  YEAR =      {2006},
+  address =   cambridge-ma,
+}
+
+@BOOK{SuttonBarto_1998,
+  AUTHOR =    Sutton # and # Barto,
+  TITLE =     {Reinforcement Learning: An Introduction},
+  PUBLISHER = MITPress,
+  YEAR =      {1998},
+  address =   cambridge-ma,
+}
+
+@BOOK{SweeYong_2011,
+  AUTHOR =    SweeYong,
+  TITLE =     {Real Estate Riches: Understanding Singapore's property market in a volatile economy},
+  PUBLISHER =  MarshallCavendishB,
+  YEAR =      {2011},
+  address =   singapore,
+}
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@BOOK{TampereEtAl_2010,
+  EDITOR =    Tampere # and # Viti # and # Benners,
+  TITLE =     {New Developments in Transport Planning: Advances in Dynamic Traffic Assignment},
+  PUBLISHER = EdwardElgar,
+  YEAR =      {2010},
+  address =   cheltenham,
+}
+
+@BOOK{Thuenen_1910,
+  AUTHOR =    Thuenen,
+  TITLE =     {Der isolierte Staat in Beziehung auf Landwirtschaft und Nationalökonomie},
+  PUBLISHER = Jona,
+  YEAR =      {1910},
+  address =   berlin,
+}
+
+@BOOK{Tilly_1992,
+  AUTHOR =    Tilly,
+  TITLE =     {Coercion, Capital and European States, AD 990-1992},
+  PUBLISHER = Blackwell,
+  YEAR =      {1992},
+  address =   oxford,
+}
+
+@BOOK{Timmermans_2005,
+  EDITOR =    Timmermans,
+  TITLE =     {Progress in Activity-Based Analysis},
+  PUBLISHER = Elsevier,
+  YEAR =      {2005},
+  address =   oxford,
+}
+
+@BOOK{Train_2003,
+  AUTHOR =    Train,
+  TITLE =     {Discrete Choice Methods with Simulation},
+  PUBLISHER = CamUniPress,
+  YEAR =      {2003},
+  address =   newyork,
+}
+
+@BOOK{Train_1986,
+  AUTHOR =    Train,
+  TITLE =     {Qualitative Choice Analysis: Theory, Econometrics, and an Application to Automobile Demand},
+  PUBLISHER = MITPress,
+  YEAR =      {1986},
+  address =   cambridge-ma,
+}
+
+@BOOK{Trischler_2014,
+  AUTHOR =    Trischler,
+  TITLE =     {{E}rwerbsverlauf, {A}ltersübergang, {A}lterssicherung},
+  PUBLISHER = Springer,
+  YEAR =      {2014},
+  address =   wiesbaden,
+}
+
+@BOOK{Thust_1999,
+  AUTHOR =    Thust,
+  TITLE =     {Simultane Verkehrsmittelwahl, -verteilung und -umlegung mittels hierarchischer Logitmodelle unter Einhaltung von Strassenkapazitäten},
+  PUBLISHER = VWF,
+  YEAR =      {1999},
+  address =   berlin,
+}
+
+@BOOK{TschoppEtAl_2010,
+  AUTHOR =    Tschopp # and # Beige # and # Axhausen,
+  TITLE =     {{Verkehrssystem, Touristenverhalten und Raumstruktur in alpinen Landschaften}},
+  PUBLISHER = VDF,
+  YEAR =      {2010},
+  address =   zurich,
+}
+
+@BOOK{Tufte_2003,
+  AUTHOR =    Tufte,
+  TITLE =     {The Cognitive Style of {PowerPoint}},
+  PUBLISHER = Graphics,
+  YEAR =      {2003},
+  address =   cheshire,
+}
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Underhill_1999,
+  AUTHOR =    Underhill,
+  TITLE =     {Why we buy},
+  PUBLISHER = SASP,
+  YEAR =      {1999},
+  address =   newyork,
+}
+
+@BOOK{Underhill_2004,
+  AUTHOR =    Underhill,
+  TITLE =     {Call of the Mall},
+  PUBLISHER = SASP,
+  YEAR =      {2004},
+  address =   newyork,
+}
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{VandenbrouckeEtAl_2013,
+  EDITOR =    Vandenbroucke # and # Bucher # and # Crompvoets,
+  TITLE =     {{Geographic Information Science at the Heart of Europe}},
+  PUBLISHER = Springer,
+  YEAR =      {2013},
+  address =   cham,
+}
+
+
+@BOOK{VanLeeuwenTimmermans_2006,
+  EDITOR =    VanLeeuwen # and # Timmermans,
+  TITLE =     {Innovations in Design \& Decision Support Systems in Architecture and Urban Planning},
+  PUBLISHER = Springer,
+  YEAR =      {2006},
+  address =   eindhoven,
+}
+
+@BOOK{VanoutriveVerhetsel_2013,
+  EDITOR =    Vanoutrive # and # Verhetsel,
+  TITLE =     {{S}mart {T}ransport {N}etworks: {D}ecision {M}aking, {S}ustainability and {M}arket structure},
+  PUBLISHER = {Edward Elgar Publishing Ltd},
+  YEAR =      {2013},
+  series =    {{NECTAR} Series on Transportation and Communications Networks Research},
+  address =   {Cheltham},
+}
+
+@BOOK{VanWissenDijkstraP_1999,
+  EDITOR =    VanWissen # and # DijkstraP,
+  TITLE =     {{Population Issues: An Interdisciplinary Focus}},
+  PUBLISHER = Springer,
+  YEAR =      {1999},
+  address =   berlin,
+}
+
+@BOOK{Varian_2004,
+  AUTHOR =    Varian,
+  TITLE =     {{Grundzüge der Mikroökonomik}},
+  PUBLISHER = Oldenbourg,
+  YEAR =      {2004},
+  address =   muenchen,
+  edition =   {6.},
+}
+
+@BOOK{Vaughan_1987,
+  AUTHOR =    Vaughan,
+  TITLE =     {Urban Spatial Traffic Patterns},
+  PUBLISHER = Pion,
+  YEAR =      {1987},
+  address =   london,
+}
+
+@BOOK{ViryKaufmann_2015,
+  AUTHOR = Viry # and # Kaufmann,
+  TITLE = {High Mobility in Europe},
+  PUBLISHER = Palgrave,
+  YEAR = {2015},
+  address = london,
+}
+
+@BOOK{Vollmer_2005,
+  EDITOR =    Vollmer,
+  TITLE =     {{Theorien zur Emergenz}},
+  PUBLISHER = {Grin-Verlag für akademische Texte},
+  YEAR =      {2005},
+  address =   muenchen,
+}
+
+@BOOK{VolmullerHamerslag_1984,
+  EDITOR =    Volmuller # and # Hamerslag,
+  TITLE =     {Proceedings of the Ninth International Symposium on Transportation and Traffic Theory},
+  PUBLISHER = VNUSP,
+  YEAR =      {1984},
+  address =   utrecht,
+}
+
+@BOOK{vonNeumannMorgenstern_1944,
+  EDITOR =    VonNeumann # and # Morgenstern,
+  TITLE =     {Theory of Games and Economic Behavior},
+  PUBLISHER = PrincetonUniPress,
+  YEAR =      {1944},
+  address =   princeton,
+}
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{WillekeEtAl_1979,
+	AUTHOR =  Willeke # and # Ollick # and # Zebisch,
+	TITLE= {Nutzen-Kosten-Analysen für Investitionen im öffentlichen Personennahverkehr: Methoden und Ergebnisse der Standardisierten Bewertung},
+	YEAR= 1979,
+	publisher = FischerVerlag,
+	address = dusseldorf,
+}
+
+@BOOK{Weiner_2008,
+  AUTHOR =    Weiner,
+  TITLE =     {Urban Transportation Planning in the United States},
+  PUBLISHER = Springer,
+  YEAR =      {2008},
+  address =   newyork,
+  edition =   {3.},
+}
+
+@BOOK{LamBell_2003,
+  EDITOR =    Lam # and # BellM,
+  TITLE =     {Advanced Modeling for Transit Operations and Service Planning},
+  PUBLISHER = Pergamon,
+  YEAR =      {2003},
+  address =   oxford,
+}
+
+@BOOK{VonThunen_1826,
+  AUTHOR = VonThunen,
+  TITLE =     {Der isolierte Staat in beziehung auf Landwirtschaft und Nationalokonomie, Gustav Fisher, Stuttgart. English edition: The isolated state (trans: Wartenburg CM (1966), edited by Hall P)},
+  PUBLISHER = Pergamon,
+  YEAR =      {1826},
+  address =   oxford,
+}
+
+@BOOK{WB_2009,
+  AUTHOR =    {{World Bank}},
+  TITLE =     {Reshaping Economic Geography},
+  PUBLISHER = org-wb,
+  YEAR =      {2009},
+  address =   washington,
+}
+
+@BOOK{WCTRS_1989,
+  EDITOR =    {WCTRS},
+  TITLE =     {Transport Policy, Management and Technology towards 2001: Selected Proceedings of the 5th {World Conference on Transport Research}},
+  PUBLISHER = WestPerod,
+  YEAR =      {1989},
+  address =   ventura,
+}
+
+@BOOK{Webster_1958,
+  AUTHOR =    Webster,
+  TITLE =     {Traffic signal settings},
+  PUBLISHER = HMSO,
+  YEAR =      {1958},
+  address =   london,
+}
+
+@BOOK{Wilson_1970,
+  AUTHOR =    WilsonAG,
+  TITLE =     {Entropy in Urban and Regional Modelling},
+  PUBLISHER = Pion,
+  YEAR =      {1970},
+  address =   london,
+}
+
+@BOOK{WilsonNuzzolo_2004,
+  EDITOR =    WilsonNHM # and # Nuzzolo,
+  TITLE =     {Schedule-based Dynamic Transit Modeling: Theory and Applications},
+  PUBLISHER = Kluwer,
+  YEAR =      {2004},
+  address =   dordrecht,
+}
+
+@BOOK{WilsonNHMNuzzolo_2009,
+  EDITOR =    WilsonNHM # and # Nuzzolo,
+  TITLE =     {Schedule-Based Modeling of Transportation Networks: Theory and Applications},
+  PUBLISHER = Springer,
+  YEAR =      {2009},
+  address =   newyork,
+}
+
+@BOOK{WinstonGC_1982,
+  AUTHOR =    WinstonGC,
+  TITLE =     {The Timing of Economic Activities},
+  PUBLISHER = CamUniPress,
+  YEAR =      {1982},
+  address =   cambridge-uk,
+}
+
+@BOOK{Woehe_2002,
+  AUTHOR =    Woehe,
+  TITLE =     {{Einführung in die Allgemeine Betriebstwirtschaftslehre}},
+  PUBLISHER = VahlenVerlag,
+  YEAR =      {2002},
+  address =   muenchen,
+}
+
+@BOOK{Wolfram_2002,
+  AUTHOR =    Wolfram,
+  TITLE =     {A New Kind of Science},
+  PUBLISHER = WolframMedia,
+  YEAR =      {2002},
+  address =   champaign,
+}
+
+@BOOK{Woodworth_1958,
+  AUTHOR =    Woodworth,
+  TITLE =     {Dynamics of behavior},
+  PUBLISHER = HoltRW,
+  YEAR =      {1958},
+  address =   newyork,
+}
+
+@BOOK{Wooldridge_2000,
+  AUTHOR =    Wooldridge,
+  TITLE =     {Reasoning about Rational Agents},
+  PUBLISHER = MITPress,
+  YEAR =      {2000},
+  address =   cambridge-ma,
+}
+
+@BOOK{Wooldridge_2009,
+  AUTHOR =    Wooldridge,
+  TITLE =     {An Introduction to MultiAgent Systems},
+  PUBLISHER = WileySons,
+  YEAR =      {2009},
+  address =   westsussex,
+}
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{XieLevinson_2011,
+  AUTHOR =    Xie # and # Levinson,
+  TITLE =     {Evolving Transportation Networks},
+  PUBLISHER = Springer,
+  YEAR =      {2011},
+  address =   newyork,
+}
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Yang_2011,
+  EDITOR =    YangJ,
+  TITLE =     {Biometrics},
+  PUBLISHER = {InTech},
+  YEAR =      {2011},
+  address =   shanghai,
+}
+
+@BOOK{Yuhua_2008,
+  EDITOR =    Yuhua,
+  TITLE =     {Cooperative Design, Visualization, and Engineering},
+  PUBLISHER = Springer,
+  YEAR =      {2008},
+  volume =    {5220},
+  series =    {Lecture Notes in Computer Science},
+  address =   berlin,
+}
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@BOOK{Zaengler_2000,
+  AUTHOR =    Zaengler,
+  TITLE =     {{Mikroanalyse des Mobilitätsverhaltens in Alltag und Freizeit}},
+  PUBLISHER = Springer,
+  YEAR =      {2000},
+  address =   berlin,
+}
+
+@BOOK{Zarembka_1974,
+  EDITOR =    Zarembka,
+  TITLE =     {Frontiers in Econometrics},
+  PUBLISHER = AcademicP,
+  YEAR =      {1974},
+  address =   newyork,
+}
+
+@BOOK{ZelinskyKosinski_1991,
+  AUTHOR =    Zelinsky # and # Kosinski,
+  TITLE =     {The Emergency Evacuation of Cities: A Cross-national Historical and Geographical Study},
+  PUBLISHER = RowmanLittlefield,
+  YEAR =      {1991},
+  address =   maryland,
+}
+
+@BOOK{ZhaoY_1997,
+  AUTHOR =    ZhaoY,
+  TITLE =     {Vehicle Location and Navigation Systems},
+  PUBLISHER = ArtechHouse,
+  YEAR =      {1997},
+  address =   boston,
+}
+
+@BOOK{ZhengZhouX_2011,
+  EDITOR =    Zheng # and # ZhouX,
+  TITLE =     {Computing with Spatial Trajectories},
+  PUBLISHER = Springer,
+  YEAR =      {2011},
+  address =   newyork,
+}
+
+@BOOK{ZiliakMcCloskey_2006,
+  AUTHOR =    Ziliak # and # McCloskey,
+  TITLE =     {The Cult of Statistical Significance: How the Standard Error Costs Us Jobs, Justice, and Lives},
+  PUBLISHER = UMP,
+  YEAR =      {2006},
+  address =   {Ann Arbor},
+}
+
+@BOOK{ZimmermannHJ_2008,
+  AUTHOR =    ZimmermannHJ,
+  TITLE =     {Operations Research},
+  PUBLISHER = Vieweg,
+  YEAR =      {2008},
+  address =   wiesbaden,
+}
+
+@BOOK{ZmudEtAl_2013,
+  EDITOR =    Zmud # and # LeeGosselin # and # Munizaga # and # CarrascoJA,
+  TITLE =     {Transport Survey Methods: Best Practice for Decision Making},
+  PUBLISHER = Emerald,
+  YEAR =      {2013},
+  address =   bingley,
+}
+
+@BOOK{Zomaya_1996,
+  EDITOR =    Zomaya,
+  TITLE =     {Parallel and Distributed Computing Handbook},
+  PUBLISHER = McGrawHill,
+  YEAR =      {1996},
+  address =   newyork,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

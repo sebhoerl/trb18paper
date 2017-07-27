@@ -1,0 +1,2704 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  PROCEEDINGS
+%    The proceedings of a conference. NO Journals like TRR!
+%    The papers can be published as CD-ROM, on the web or similar.
+%    If the paper of a conference is published in a book
+%    DO NOT put it here. It MUST be a BOOK entry with the paper
+%    as an INCOLLECTION entry.
+%    Proceedings examples are:
+%    STRC (web)
+%    IATBR (CD-ROM)
+%    TRB annual meeting CD-ROM
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  KEY-DEFINITION:
+%    (PROCEEDINGS-EDITOR)_(YEAR)
+%    Example:
+%      EIRASS_2003,
+%      IATBR_2003,
+%      TRB_2006,
+%    Note: there is no index in the key, since it is unlikely to
+%    have more that one time the same conference in the same year (hopefully...)
+%  TITLE
+%    Write the title of the conference in "Title-Style".
+%    Note, that latex will add words in front of the title, like
+%    "in" or "in proceedings of". Therefore, if the title consists of
+%    terms like "5th conference" it makes sense to write
+%    "the 5th conference".
+%    Example:
+%      TITLE =        {The 4th Swiss Transport Research Conference (STRC)},
+%  YEAR
+%    Always set the year of publication.
+%    Example:
+%      YEAR =         {2004},
+%  EDITOR
+%    Add editor. Typically it is the conference acronym.
+%    Example:
+%      editor =       {AAMAS},
+%  publisher
+%    Optional: Must be a crossref of the publisher in the publisher.txt (add
+%    it there, if one is missing)
+%    Example:
+%      publisher =    SVWG,
+%  organization
+%    Optional: Must be crossrefs to the organizations given in the
+%    translations.txt file (add it there, if one is missing)
+%    Example:
+%      organization = org-trb,
+%  address
+%    Optional: Must be crossrefs to the adresses given in the
+%    translations.txt file (add it there, if one is missing)
+%    Example:
+%      address =      dusseldorf,
+%  month
+%    Optional: Must be crossrefs to the month given in the
+%    translations.txt file
+%    Example:
+%      month =        feb,
+%  url
+%    Optional: Add an url.
+%    Example:
+%      url =          {http://www.aamas2004.org/},
+%  comment
+%    Optional: add any comment you want
+%    Example:
+%      comment =      {balmermi: this is a very good one.},
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{PROCEEDINGS-EDITOR_YEAR,
+  TITLE =        {{TITLE}},
+  YEAR =         {0000},
+  EDITOR =       {PROCEEDINGS-EDITOR},
+  publisher =    {publisher},
+  organization = {organization},
+  address =      {address},
+  month =        {month},
+  url =          {url},
+  comment =      {{comment}},
+}
+
+@PROCEEDINGS{PROCEEDINGS-EDITOR_0001,
+  TITLE =        {Proceedings of a Conference with all Information},
+  YEAR =         {0001},
+  EDITOR =       {PROCEEDINGS-EDITOR},
+  publisher =    Elsevier,
+  organization = uni-tud,
+  address =      dresden,
+  month =        mar,
+  url =          {http://www.a-url.org/whatever},
+  comment =      {This is just a comment for that reference.},
+}
+
+@PROCEEDINGS{PROCEEDINGS-EDITOR_0002,
+  TITLE =        {Typical Proceedings of a Conference},
+  YEAR =         {0002},
+  EDITOR =       {PROCEEDINGS-EDITOR},
+  organization = uni-tud,
+  address =      dresden,
+  month =        mar,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  End of Description
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO Items:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% End of TODO Items
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Proceedings Entries
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{AAMAS_2004,
+  TITLE =        {3rd International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+  YEAR =         {2004},
+  EDITOR =       {AAMAS},
+  organization = org-aamas,
+  address =      newyork,
+  month =        jul,
+  url =          {http://www.aamas2004.org/},
+}
+
+@PROCEEDINGS{AAMAS_2012,
+  TITLE =        {11th International Joint Conference on Autonomous Agents and Multiagent Systems (AAMAS)},
+  YEAR =         {2012},
+  EDITOR =       {AAMAS},
+  organization = org-aamas,
+  address =      valencia,
+  month =        jun,
+  url =          {http://www.aamas2012.org/},
+}
+
+@PROCEEDINGS{ABTFC_1996,
+  TITLE =        {Activity-Based Travel Forecasting Conference},
+  YEAR =         {1996},
+  EDITOR =       uni-texas-ti,
+  organization = org-tmip # comma # org-dot # comma # org-epa,
+  month =        jun,
+  address =      neworleans,
+}
+
+@PROCEEDINGS{ABTFCEngelke_1996,
+  TITLE =        {Activity-Based Travel Forecasting Conference},
+  YEAR =         {1996},
+  EDITOR =       Engelke,
+  organization = org-tmip # comma # org-dot # comma # org-epa,
+  month =        jun,
+  address =      neworleans,
+}
+
+@PROCEEDINGS{ABM_2015,
+  TITLE =        {International Workshop "Behavioural detail and computational demands in agent-based models"},
+  YEAR =         {2015},
+  EDITOR =       sec-fcl,
+  organization = sec,
+  month =        mar,
+  address =      singapore,
+}
+
+@PROCEEDINGS{ABMTRANS_2012,
+  TITLE =        {1st International Workshop on Agent-based Mobility, Traffic and Transportation Models, Methodologies and Applications},
+  YEAR =         {2012},
+  EDITOR =       uni-hasselt-ifm,
+  organization = uni-hasselt,
+  month =        aug,
+  address =      niagarafalls,
+}
+
+@PROCEEDINGS{ABMTRANS_2013,
+  TITLE =        {2nd International Workshop on Agent-based Mobility, Traffic and Transportation Models, Methodologies and Applications},
+  YEAR =         {2013},
+  EDITOR =       uni-hasselt-ifm,
+  organization = uni-hasselt,
+  month =        aug,
+  address =      niagarafalls,
+}
+
+@PROCEEDINGS{ACC_2011,
+  TITLE =        {American Control Conference},
+  YEAR =         {2011},
+  EDITOR =       {ACC},
+  address =      {San Francisco},
+  month =        jul,
+}
+
+@PROCEEDINGS{ACC_2015,
+  TITLE =        {American Control Conference},
+  YEAR =         {2015},
+  EDITOR =       {ACC},
+  address =      chicago,
+  month =        jul,
+}
+
+@PROCEEDINGS{ACE_2014,
+  TITLE =        {11th International Congress on Advances in Civil Engineering},
+  YEAR =         {2014},
+  EDITOR =       {ACE},
+  address =      istanbul,
+  month =        oct,
+}
+
+@PROCEEDINGS{SODA_1993,
+  TITLE =        {4th Annual ACM-SIAM Symposium on Discrete Algorithms},
+  YEAR =         {1993},
+  EDITOR =       {Society for Industrial and Applied Mathematics},
+  address =      philadelphia,
+  month =        jan,
+}
+
+@PROCEEDINGS{AET_2000,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2000},
+  EDITOR =       {AET},
+  organization = org-aet,
+  address =      cambridge-uk,
+  url = {http://tmip.fhwa.dot.gov/resources/clearinghouse/docs/abtf/},
+}
+
+@PROCEEDINGS{AFIPS_1967,
+  TITLE =        {Spring Joint Computer Conference},
+  YEAR =         {1967},
+  EDITOR =       {AFIPS},
+  organization = org-aet,
+  address =      newyork,
+  month =        apr,
+}
+
+@PROCEEDINGS{AGILE_2009,
+  TITLE =        {{AGILE} International Conference on Geographic Information Science},
+  YEAR =         {2009},
+  organization = uni-han,
+  address =      hannover,
+}
+
+@PROCEEDINGS{ALENEX_2004,
+  TITLE =        {6th Workshop on Algorithm Engineering and Experiments (ALENEX)},
+  YEAR =         {2004},
+  EDITOR =       {{SIAM}},
+  organization = org-siam,
+  address =      neworleans,
+  month =        jan,
+  url =          {http://www.siam.org/meetings/alenex04/},
+}
+
+@PROCEEDINGS{APERAU_2012,
+  TITLE =        {Journées APERAU, Penser et produire la ville au XXIe siècle},
+  YEAR =         {2012},
+  address =      lausanne,
+  month =        jun,
+}
+
+@PROCEEDINGS{APITSFE_2012,
+  TITLE =        {12th Asia Pacific ITS Forum \& Exhibition},
+  YEAR =         {2012},
+  EDITOR =       {WCITS},
+  address =      kualalumpur,
+  month =        apr,
+}
+
+@PROCEEDINGS{APSSRA_2012,
+  TITLE =        {5th Asian-Pacific Symposium on Structural Reliability and its Applications},
+  YEAR =         {2012},
+  EDITOR =       Phoon # and # Beer # and # Queck # and # PangSD,
+  address =      singapore,
+  month =        may,
+}
+
+@PROCEEDINGS{ARMONIA_2005,
+  TITLE =        {1st Applied Multi-Risk Mapping of Natural Hazards for Impact Assessment Conference},
+  YEAR =         {2005},
+  EDITOR =       {{ARMONIA}},
+  address =      barcelona,
+  month =        dec,
+}
+
+@PROCEEDINGS{ASCE_2010,
+  TITLE =        {7th International Conference on Traffic and Transportation Studies},
+  YEAR =         {2010},
+  EDITOR =       {ASCE},
+  address =      kunming,
+  month =        aug,
+}
+
+@PROCEEDINGS{ATPM_2001,
+  TITLE =        {8th Conference on the Application of Transportation Planning Methods},
+  YEAR =         {2001},
+  EDITOR =       {ATPM},
+  address =      corpuschristi,
+  month =        apr,
+}
+
+@PROCEEDINGS{ASNA_2009,
+  TITLE =        {Applications of {S}ocial {N}etwork {A}nalysis},
+  YEAR =         {2009},
+  EDITOR =       {ASNA},
+  address =      zurich,
+  month =        aug,
+}
+
+@PROCEEDINGS{ASPRS_2009,
+  TITLE =        {{ASPRS/MAPPS 2009 Fall Conference}},
+  YEAR =         {2009},
+  address =      sanantonio,
+  month =        nov,
+}
+
+@PROCEEDINGS{ATRF_2011,
+  TITLE =        {Australasian {T}ransport {R}esearch {F}orum 2011},
+  YEAR =         {2011},
+  address =      adelaide,
+  month =        sep,
+}
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@PROCEEDINGS{BSG_2003,
+  TITLE =        {V Simpósio Brasileiro de Geoinformática},
+  YEAR =         {2003},
+  EDITOR =       {ANAIS},
+  address =      camposdojordao,
+  month =        nov,
+}
+
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{CAADFutures_2007,
+  TITLE =        {12th {CAADFutures} Conference},
+  YEAR =         {2007},
+  EDITOR =       {{CAADFutures}},
+  address =      sydney,
+  month =        jul,
+}
+
+@PROCEEDINGS{CAITR_2007,
+  TITLE =        {29th Conference of Australian Institutes of Transport Research},
+  YEAR =         {2007},
+  EDITOR =       {{CAITR}},
+  address =      adelaide,
+  month =        dec,
+}
+
+@PROCEEDINGS{CEC_2004,
+  TITLE =        {Congress on Evolutionary Computation},
+  YEAR =         {2004},
+  EDITOR =       {CEC},
+  address =      portland,
+  month =        jun,
+}
+
+@PROCEEDINGS{CICTP_2015,
+  TITLE =        {15th COTA International Conference of Transportation Professionals},
+  YEAR =         {2015},
+  EDITOR =       org-cota,
+  address =      beijing,
+  month =        jul,
+}
+
+@PROCEEDINGS{CIGD_2009,
+  TITLE =        {13th Congreso Iberoamericano de Gráfica Digital},
+  YEAR =         {2009},
+  EDITOR =       {CIGD},
+  address =      saopaolo,
+  month =        nov,
+}
+
+@PROCEEDINGS{CIGRE_2011,
+  TITLE =        {Cigré 2011 Bologna Symposium},
+  YEAR =         {2011},
+  EDITOR =       {Cigre},
+  address =      {Bologna},
+  month =        sep,
+}
+
+@PROCEEDINGS{Compstat_2002,
+  TITLE =        {Compstat 2002 --- Proceedings in Computational Statistics},
+  YEAR =         {2002},
+  EDITOR =       Haerdle # and # Roenz,
+}
+
+@PROCEEDINGS{CCNC_2012,
+  TITLE =        {Consumer Communications and Networking Conference },
+  YEAR =         {2012},
+  EDITOR =       {IEEE},
+  address =      lasvegas,
+  month =        jan,
+}
+
+@PROCEEDINGS{CUPUM_2005,
+  TITLE =        {9th Conference on Computers in Urban Planning and Urban Management (CUPUM)},
+  YEAR =         {2005},
+  EDITOR =       {CUPUM},
+  organization = uni-ucl,
+  address =      london,
+  month =        jun,
+}
+
+@PROCEEDINGS{CUPUM_2013,
+  TITLE =        {13th International Conference on Computers in Urban Planning and Urban Management (CUPUM)},
+  YEAR =         {2013},
+  EDITOR =       {CUPUM},
+  organization = uni-utr,
+  address =      utrecht,
+  month =        jul,
+}
+
+@PROCEEDINGS{CVPR_1997,
+  TITLE =        {Conference on Computer Vision and Pattern Recognition},
+  YEAR =         {1997},
+  EDITOR =       {CUPUM},
+  organization = org-cs,
+  address =      sanjuan,
+  month =        jun,
+}
+
+@PROCEEDINGS{CVPR_2010,
+  TITLE =        {23th IEEE Computer Vision and Pattern Recognition},
+  YEAR =         {2010},
+  EDITOR =       {CUPUM},
+  organization = org-cs,
+  address =      sanfran,
+  month =        jun,
+}
+
+
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{DACCORS_1998,
+  TITLE =        {{DACCORS} Short Term Forecasting Workshop},
+  YEAR =         {1998},
+  EDITOR =       {DACCORS},
+}
+
+@PROCEEDINGS{DCC_2008,
+  TITLE        = {Third International Conference on Design Computing and Cognition},
+  YEAR =         {2008},
+  month =        jun,
+  publisher    = springer,
+  address      = atlanta,
+}
+
+@PROCEEDINGS{DDSS_2008,
+  TITLE = {9th Design and Decision Support Systems Conference},
+  YEAR = {2008},
+  month = jul,
+  address = eindhoven,
+}
+
+@PROCEEDINGS{DDSS_2012,
+  TITLE        = {12th Design and Decision Support Systems Conference},
+  YEAR =         {2012},
+  month =        aug,
+  address      = eindhoven,
+}
+
+@PROCEEDINGS{DIMACS_2006,
+  TITLE        = {Ninth DIMACS implementation challenge: The shortest path problem},
+  YEAR =         {2006},
+  month =        nov,
+  publisher    = AmMathSoc,
+  address      = piscataway,
+}
+
+@PROCEEDINGS{DRIVE_1991,
+  TITLE =        {Advanced Telematics in Road Transport},
+  EDITOR =       {Commission of the European Communities},
+  YEAR =         {1991},
+  publisher =    {Elsevier},
+  address =      amsterdam,
+}
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{EASTS_2013,
+  TITLE =        {10th International Conference of Eastern Asia Society for Transportation Studies},
+  YEAR =         {2013},
+  EDITOR =       {EASTS},
+  address =      taipei,
+  month =        sep,
+}
+
+@PROCEEDINGS{eCAADe_2007,
+  TITLE =        {25th {eCAADe} Conference},
+  YEAR =         {2007},
+  EDITOR =       {{eCAADe}},
+  address =      frankfurt,
+  month =        sep,
+}
+
+@PROCEEDINGS{eCAADe_2009,
+  TITLE =        {27th {eCAADe} Conference},
+  YEAR =         {2009},
+  EDITOR =       {{eCAADe}},
+  address =      istanbul,
+  month =        sep,
+}
+
+@PROCEEDINGS{eCAADe_2011,
+  TITLE =        {29th {eCAADe} Conference},
+  YEAR =         {2011},
+  EDITOR =       {{eCAADe}},
+  address =      ljubljana,
+  month =        sep,
+}
+
+@PROCEEDINGS{ECAL_2001,
+  TITLE =        {Advances in Artificial Life, 6th European Conference},
+  YEAR =         {2001},
+  EDITOR =       Kelemen # and # Sosik,
+  publisher =    springer,
+  series =       {Lecture Notes in Computer Science},
+  volume =       {2159},
+  address =      prague,
+  month =        sep,
+}
+
+@PROCEEDINGS{ECCS_2007,
+  TITLE =        {European Conference on Complex Systems},
+  YEAR =         {2007},
+  EDITOR =       {ECCS},
+  organization = uni-tud,
+  address =      dresden,
+  month =        oct,
+  url =          {http://vwitme011.vkw.tu-dresden.de/TrafficForum/dresden/},
+}
+
+@PROCEEDINGS{ECTQG_2007,
+  TITLE =        {15th European Colloquium on Theoretical and Quantitative Geography},
+  YEAR =         {2007},
+  EDITOR =       {ECTQG},
+  organization = uni-lausanne-idg # comma # uni-lausanne,
+  address =      montreux,
+  month =        sep,
+}
+
+@PROCEEDINGS{EE_21C_2005,
+  TITLE =        {Earthquake Engineering in the 21st Century (EE-21C) Conference: Technologies and Trends for Disaster Monitoring and Reduction},
+  YEAR =         {2005},
+  EDITOR =       org-ee-21c,
+  address =      skopje,
+  month =        aug,
+}
+
+@PROCEEDINGS{EIRASS_2003,
+  TITLE =        {Euro-Conference Workshop on Behavioral Responses to ITS},
+  YEAR =         {2003},
+  EDITOR =       {EIRASS},
+  organization = uni-tue-eirass # comma # uni-tue,
+  address =      eindhoven,
+  month =        apr,
+}
+
+@PROCEEDINGS{EIRASS_2004,
+  TITLE =        {EIRASS Conference in Advances in Activity Based Approaches},
+  YEAR =         {2004},
+  EDITOR =       {EIRASS},
+  organization = uni-tue-eirass # comma # uni-tue,
+  address =      maastricht,
+  month =        may,
+}
+
+@PROCEEDINGS{EIRASS_2007,
+  TITLE =        {14th {EIRASS} Conference in Advances in Activity Based Approaches},
+  YEAR =         {2007},
+  EDITOR =       {EIRASS},
+  organization = uni-tue-eirass # comma # uni-tue,
+  address =      sanfran,
+  month =        jun,
+}
+
+@PROCEEDINGS{EIRASS_2008,
+  TITLE =        {15th {EIRASS} Conference in Advances in Activity Based Approaches},
+  YEAR =         {2008},
+  EDITOR =       {EIRASS},
+  organization = uni-tue-eirass # comma # uni-tue,
+  address =      zagreb,
+  month =        jul,
+}
+
+@PROCEEDINGS{EIRASS_2016,
+  TITLE =        {23rd International Conference on Recent Advances In Retailing And Services Science},
+  YEAR =         {2016},
+  EDITOR =       {EIRASS},
+  organization = uni-tue-eirass,
+  address =      edinburgh,
+  month =        jul,
+}
+
+@PROCEEDINGS{EMM_2012,
+  TITLE =        {2nd International Conference on Evacuation Modeling and Management},
+  YEAR =         {2012},
+  address =      chicago,
+  month =        aug,
+}
+
+@PROCEEDINGS{EMO_2013,
+  TITLE =        {7th International Conference on Evolutionary Multi-Criterion Optimization (EMO 2013)},
+  YEAR =         {2013},
+  address =      {Sheffiled},
+  month =        mar,
+}
+
+@PROCEEDINGS{ERSA_2002,
+  TITLE =        {42th Congress of the European Regional Science Association},
+  YEAR =         {2002},
+  EDITOR =       {ERSA},
+  organization = uni-vu,
+  address =      dortmund,
+  month =        aug,
+}
+
+@PROCEEDINGS{ERSA_2003,
+  TITLE =        {43rd Congress of the European Regional Science Association},
+  YEAR =         {2003},
+  EDITOR =       {ERSA},
+  organization = uni-jyv,
+  address =      jyv,
+  month =        aug,
+}
+
+@PROCEEDINGS{ERSA_2005,
+  TITLE =        {45th Congress of the European Regional Science Association},
+  YEAR =         {2005},
+  EDITOR =       {ERSA},
+  organization = uni-vu,
+  address =      amsterdam,
+  month =        aug,
+}
+
+@PROCEEDINGS{ERSA_2008,
+  TITLE =        {48th Congress of the European Regional Science Association},
+  YEAR =         {2008},
+  EDITOR =       {ERSA},
+  organization = uni-liverpool,
+  address =      liverpool,
+  month =        aug,
+}
+
+@PROCEEDINGS{ERSA_2010,
+  TITLE =        {50th Congress of the European Regional Science Association},
+  YEAR =         {2010},
+  EDITOR =       {ERSA},
+  organization = uni-jonkoping,
+  address =      jonkoping,
+  month =        aug,
+}
+
+@PROCEEDINGS{ERSA_2011,
+  TITLE =        {51st Congress of the European Regional Science Association},
+  YEAR =         {2011},
+  EDITOR =       {ERSA},
+  organization = uni-barcelona,
+  address =      barcelona,
+  month =        sep,
+}
+
+@PROCEEDINGS{ERSA_2014,
+  TITLE =        {54th Congress of the European Regional Science Association},
+  YEAR =         {2014},
+  EDITOR =       {ERSA},
+  address =      stpetersburg,
+  month =        aug,
+}
+
+@PROCEEDINGS{ERSA_2015,
+  TITLE =        {55th Congress of the European Regional Science Association},
+  YEAR =         {2015},
+  EDITOR =       {ERSA},
+  address =      lisbon,
+  month =        aug,
+}
+
+@PROCEEDINGS{ESA_2003,
+  TITLE =        {11th Annual European Symposium on Algorithms (ESA)},
+  YEAR =         {2003},
+  EDITOR =       {ESA},
+  organization = org-eatcs,
+  address =      budapest,
+  month =        sep,
+  url =          {http://www.conferences.hu/algo2003/ESA.htm},
+}
+
+@PROCEEDINGS{ESRI_2004,
+  TITLE =        {19th European Conference for ESRI Users},
+  YEAR =         {2004},
+  EDITOR =       {ESRI},
+  organization = org-esri,
+  address =      copenhagen,
+  month =        nov,
+}
+
+@PROCEEDINGS{ETF_1995,
+  TITLE =        {23rd European Transport Forum},
+  YEAR =         {1995},
+  EDITOR =       {ETF},
+  organization = {University of Warwick},
+  address =      {Warwick},
+}
+
+@PROCEEDINGS{ETC_1997,
+  TITLE =        {European Transport Conference},
+  YEAR =         {1997},
+  EDITOR =       {ETC},
+  organization = org-aet,
+  address =      cambridge-uk,
+}
+
+@PROCEEDINGS{ETC_1999,
+  TITLE =        {European Transport Conference},
+  YEAR =         {1999},
+  EDITOR =       {ETC},
+  organization = org-aet,
+  address =      cambridge-uk,
+}
+
+@PROCEEDINGS{ETC_2000,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2000},
+  EDITOR =       {ETC},
+  organization = org-aet,
+  address =      cambridge-uk,
+}
+
+@PROCEEDINGS{ETC_2001,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2001},
+  EDITOR =       {ETC},
+  organization = org-aet,
+  address =      cambridge-uk,
+}
+
+@PROCEEDINGS{ETC_2002,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2002},
+  EDITOR =       {ETC},
+  organization = org-aet,
+  address =      cambridge-uk,
+  month =        sep,
+}
+
+@PROCEEDINGS{ETC_2003,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2003},
+  EDITOR =       {ETC},
+  address =      strasbourg,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2004,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2004},
+  EDITOR =       {ETC},
+  address =      strasbourg,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2005,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2005},
+  EDITOR =       {ETC},
+  address =      strasbourg,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2006,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2006},
+  EDITOR =       {ETC},
+  address =      strasbourg,
+  month =        sep,
+}
+
+@PROCEEDINGS{ETC_2007,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2007},
+  EDITOR =       {ETC},
+  address =      leeuwenhorst,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2008,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2008},
+  EDITOR =       {ETC},
+  address =      leeuwenhorst,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2009,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2009},
+  EDITOR =       {ETC},
+  address =      leeuwenhorst,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2010,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2010},
+  EDITOR =       {ETC},
+  address =      glasgow,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2011,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2011},
+  EDITOR =       {ETC},
+  address =      glasgow,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETC_2014,
+  TITLE =        {European Transport Conference},
+  YEAR =         {2014},
+  EDITOR =       {ETC},
+  address =      frankfurt,
+  month =        oct,
+}
+
+@PROCEEDINGS{ETHSSS_2013,
+  TITLE =        {ETH Sustainability Summer School},
+  YEAR =         {2013},
+  address =      singapore,
+  month =        jun,
+}
+
+@PROCEEDINGS{EUSIPCO_2012,
+  TITLE =        {20th European Signal Processing Conference (EUSIPCO 2012)},
+  YEAR =         {2012},
+  EDITOR =       {EURASIP},
+  address =      bucharest,
+  month =        aug,
+}
+
+@PROCEEDINGS{EWGT_2002,
+  TITLE =        {13th Mini-Euro Conference and 9th Meeting of the Euro Working Group Transportation},
+  YEAR =         {2002},
+  EDITOR =       {},
+  address =      {Bari},
+  month =        jun,
+}
+
+@PROCEEDINGS{EWGT_2005,
+  TITLE =        {10th Meeting of the Euro Working Group Transportation},
+  YEAR =         {2005},
+  EDITOR =       {},
+  address =      poznan,
+  month =        sep,
+}
+
+@PROCEEDINGS{EWGT_2012,
+  TITLE =        {15th Meeting of the Euro Working Group Transportation},
+  YEAR =         {2012},
+  EDITOR =       {},
+  address =      paris,
+  month =        sep,
+}
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{FISTS_2011,
+  TITLE =        {IEEE Forum on Integrated and Sustainable Transportation Systems},
+  YEAR =         {2011},
+  address =      vienna,
+  month =        jun,
+}
+
+@PROCEEDINGS{FCL_2012,
+  TITLE =        {Future Cities Laboratory conference 2012},
+  YEAR =         {2012},
+  EDITOR =       {FCL},
+  address =      zurich,
+  month =        sep,
+}
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{GartnerImprota_1992,
+  EDITOR =    Gartner # and # Improta,
+  TITLE =     {Compendium of the Second International Seminar on Urban Traffic Networks},
+  YEAR =      {1992},
+  address=    capri,
+}
+
+@PROCEEDINGS{GEOProcessing_2012,
+  TITLE =        {4th International Conference on Advanced Geographic Information Systems, Applications, and Services (GEOProcessing 2012)},
+  YEAR =         {2012},
+  EDITOR =       {IARIA},
+  address =      valencia,
+  month =        jan,
+}
+
+@PROCEEDINGS{GIS_2003,
+  TITLE =        {11th ACM International Symposium on Advances in Geographic Information Systems},
+  YEAR =         {2003},
+  EDITOR =       {ACM},
+  address =      neworleans,
+  month =        nov,
+}
+
+@PROCEEDINGS{GIS_2004,
+  TITLE =        {12th ACM International Workshop on Geographic Information Systems},
+  YEAR =         {2004},
+  EDITOR =       {ACM},
+  address =      washington,
+  month =        nov,
+}
+
+
+@PROCEEDINGS{GIS_2005,
+  TITLE =        {13th ACM International Workshop on Geographic Information Systems},
+  YEAR =         {2005},
+  EDITOR =       {ACM},
+  address =      bremen,
+  month =        nov,
+}
+
+@PROCEEDINGS{GIS_2011,
+  TITLE =        {19th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems},
+  YEAR =         {2011},
+  EDITOR =       {ACM},
+  address =      chicago,
+  month =        nov,
+}
+
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{hEART_2013,
+  TITLE =        {2nd Symposium of the {European Association for Research in Transportation}},
+  YEAR =         {2013},
+  EDITOR =       uni-kth,
+  address =      stockholm,
+  month =        sep,
+}
+
+@PROCEEDINGS{hEART_2014,
+  TITLE =        {3rd Symposium of the {European Association for Research in Transportation}},
+  YEAR =         {2014},
+  EDITOR =       uni-leeds,
+  address =      leeds,
+  month =        sep,
+}
+
+@PROCEEDINGS{hEART_2015,
+  TITLE =        {4th Symposium of the {European Association for Research in Transportation}},
+  YEAR =         {2015},
+  EDITOR =       uni-denmark # comma # uni-denmark-tra,
+  address =      copenhagen,
+  month =        sep,
+}
+
+@PROCEEDINGS{HEUREKA_2005,
+  TITLE =        {HEUREKA '05},
+  YEAR =         {2005},
+  EDITOR =       {HEUREKA},
+  publisher =    FGSV,
+  organization = org-fgsv,
+  address =      koeln,
+}
+
+@PROCEEDINGS{HEUREKA_2008,
+  TITLE =        {Heureka '08},
+  YEAR =         {2008},
+  EDITOR =       {HEUREKA},
+  publisher =    FGSV,
+  organization = org-fgsv # comma # org-vdv,
+  address =      stuttgart,
+  month =        mar,
+}
+
+@PROCEEDINGS{HICSS_2000,
+  TITLE =        {Hawaii International Conference on System Sciences},
+  YEAR =         {2000},
+  EDITOR =       {IEEE Computer Society},
+  address =      Maui,
+  month =        jan,
+}
+
+@PROCEEDINGS{HKSTS_2007,
+  TITLE =        {12th international conference of {Hong Kong Society for Transportation Studies}},
+  YEAR =         {2007},
+  EDITOR =       org-hksts,
+  address =      hongkong,
+  month =        dec,
+}
+
+@PROCEEDINGS{HKSTS_2011,
+  TITLE =        {16th international conference of {Hong Kong Society for Transportation Studies}},
+  YEAR =         {2011},
+  EDITOR =       org-hksts,
+  address =      hongkong,
+  month =        dec,
+}
+
+@PROCEEDINGS{HKSTS_2012,
+  TITLE =        {17th international conference of {Hong Kong Society for Transportation Studies}},
+  YEAR =         {2012},
+  EDITOR =       org-hksts,
+  address =      hongkong,
+  month =        dec,
+}
+
+@PROCEEDINGS{HST_2009,
+  TITLE =        {IEEE International Conference on Technologie for Homeland Security},
+  YEAR =         {2009},
+  EDITOR =       {IEEE},
+  address =      boston,
+  month =        may,
+}
+
+@PROCEEDINGS{HRB_1973,
+  TITLE =        {52nd Annual Meeting of the Highway Research Board},
+  YEAR =         {1973},
+  EDITOR =       org-hrb,
+  address =      washington,
+  month =        jan,
+}
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{IABSE_2006,
+  TITLE =        {Conference on Operation and Maintenance and Rehabilitation of Large Infrastructure Projects, Bridges and Tunnels},
+  YEAR =         {2006},
+  EDITOR =       {IABSE},
+  organization = org-iabse,
+  address =      copenhagen,
+  month =        may,
+}
+
+@PROCEEDINGS{IAHR_2015,
+  TITLE =        {36th IAHR World Congress},
+  YEAR =         {2015},
+  EDITOR =       {IAHR},
+  address =      delft,
+  month =        jun,
+}
+
+@PROCEEDINGS{IAMA_2009,
+  TITLE =        {19th IAMA Annual World Forum and Symposium},
+  YEAR =         {2009},
+  EDITOR =       {IAMA},
+  address =      budapest,
+  month =        jun,
+}
+
+@PROCEEDINGS{IAMF_2009,
+  TITLE =        {International Advanced Mobility Forum 2009},
+  YEAR =         {2009},
+  EDITOR =       {IAMF},
+  address =      geneva,
+  month =        mar,
+}
+
+@PROCEEDINGS{IATBR_1997,
+  TITLE =        {8th International Conference on Travel Behaviour Research (IATBR)},
+  YEAR =         {1997},
+  EDITOR =       {IATBR},
+  address =      austin,
+  month =        sep,
+}
+
+@PROCEEDINGS{IATBR_2000,
+  TITLE =        {9th International Conference on Travel Behaviour Research (IATBR)},
+  YEAR =         {2000},
+  EDITOR =       {IATBR},
+  address =      goldcoast,
+  month =        jun,
+}
+
+@PROCEEDINGS{IATBR_2003,
+  TITLE =        {10th International Conference on Travel Behaviour Research (IATBR)},
+  YEAR =         {2003},
+  EDITOR =       {IATBR},
+  address =      lucerne,
+  month =        aug,
+}
+
+@PROCEEDINGS{IATBR_2006,
+  TITLE =        {11th International Conference on Travel Behaviour Research (IATBR)},
+  YEAR =         {2006},
+  EDITOR =       {IATBR},
+  address =      kyoto,
+  month =        aug,
+}
+
+@PROCEEDINGS{IATBR_2009,
+  TITLE =        {12th International Conference on Travel Behaviour Research (IATBR)},
+  YEAR =         {2009},
+  EDITOR =       {IATBR},
+  address =      jaipur,
+  month =        dec,
+}
+
+@PROCEEDINGS{IATBR_2012,
+  TITLE =        {13th International Conference on Travel Behaviour Research (IATBR)},
+  YEAR =         {2012},
+  EDITOR =       {IATBR},
+  address =      toronto,
+  month =        jul,
+}
+
+@PROCEEDINGS{IATBR_2015,
+  TITLE =        {14th International Conference on Travel Behaviour Research (IATBR)},
+  YEAR =         {2015},
+  EDITOR =       {IATBR},
+  address =      windsor,
+  month =        jul,
+}
+
+@PROCEEDINGS{IBPSA_2009,
+  TITLE =        {{E}leventh {I}nternational {IBPSA} {C}onference},
+  YEAR =         {2009},
+  EDITOR =       {{IBPSA}},
+  address =      glasgow,
+  month =        jul,
+}
+
+@PROCEEDINGS{IBSMC_2008,
+  TITLE =        {10th International Bridge and Structure Management Conference},
+  YEAR =         {2008},
+  EDITOR =       {IBSMC},
+  organization = org-trb,
+  address =      buffalo,
+  month =        oct,
+}
+
+@PROCEEDINGS{ICAE_2015,
+  TITLE =        {7th International Conference on Applied Energy},
+  YEAR =         {2015},
+  EDITOR =       {ICAE},
+  address =      {Abu Dhabi},
+  month =        mar,
+}
+
+@PROCEEDINGS{ICC_2005,
+  TITLE =        {22nd International Cartographic Conference},
+  YEAR =         {2005},
+  EDITOR =       {ICCS},
+  organization = {{International Federation of Surveyors}},
+  address =      {{A Coruna}},
+  month =        jul,
+}
+
+@PROCEEDINGS{ICCS_2002,
+  TITLE =        {International Conference of Computational Science},
+  YEAR =         {2002},
+  EDITOR =       {ICCS},
+  organization = uni-vu,
+  address =      amsterdam,
+  month =        jul,
+}
+
+@PROCEEDINGS{ICCSIT_2010,
+  TITLE =        {3rd IEEE International Conference on Computer Science and Information Technology},
+  YEAR =         {2010},
+  EDITOR =       {ICCSIT},
+  address =      Nanjing,
+  month =        jul,
+}
+
+@PROCEEDINGS{ICICTA_2011,
+  TITLE =        {Fourth International Conference on Intelligent Computation Technology and Automation},
+  YEAR =         {2011},
+  EDITOR =       {ICICTA},
+  address =      shenzhen,
+  month =        mar,
+}
+
+@PROCEEDINGS{ICEM_2012,
+  TITLE =        {2nd International Conference on Evacuation Modeling and Management},
+  YEAR =         {2012},
+  EDITOR =       {ICEM},
+  address =      chicago,
+  month =        aug,
+}
+
+@PROCEEDINGS{ICEEM_2011,
+  TITLE =        {8th International Conference on Environmental Engineering},
+  YEAR =         {2011},
+  EDITOR =       {ICEEM},
+  address =      vilnius,
+  month =        may,
+}
+
+@PROCEEDINGS{ICMAS_1995,
+  TITLE =        {1st International Conference on Multi-Agent Systems},
+  YEAR =         {1995},
+  EDITOR =       {ICMAS},
+  address =      sanfran,
+  month =        jun,
+}
+
+@PROCEEDINGS{ICMC_2011,
+  TITLE =        {2nd International Choice Modelling Conference},
+  YEAR =         {2011},
+  EDITOR =       {ICMC},
+  address =      leeds,
+  month =        jul,
+}
+
+@PROCEEDINGS{ICMC_2009,
+  TITLE =        {1st International Choice Modelling Conference},
+  YEAR =         {2009},
+  EDITOR =       {ICMC},
+  address =      leeds,
+  month =        apr,
+}
+
+@PROCEEDINGS{ICPED_2001,
+  TITLE =        {1st International Conference on Pedestrian and Evacuation Dynamics},
+  YEAR =         {2001},
+  address =      duisburg,
+
+}
+
+@PROCEEDINGS{ICPS_2010,
+  TITLE =        {7th International Conference on Pervasive Services},
+  YEAR =         {2010},
+  EDITOR =       {ICPSP},
+  address =      berlin,
+  month =        jul,
+}
+
+@PROCEEDINGS{ICPSP_2014,
+  TITLE =        {International Conference on Public Space and Placemaking},
+  YEAR =         {2014},
+  EDITOR =       {ICPSP},
+  address =      buenosaires,
+  month =        sep,
+}
+
+@PROCEEDINGS{ICS_1996,
+  TITLE =        {3rd Invitational Choice Symposium},
+  YEAR =         {1996},
+  EDITOR =       {ICS},
+  organization = uni-columbia,
+}
+
+@PROCEEDINGS{ICRRSS_2008,
+  TITLE =        {International Conference on Recent Advances in Retailing and Services Science},
+  YEAR =         {2008},
+  EDITOR =       {EIRASS},
+  organization = {{European Institute of Retailing and Service Studies (EIRASS)}},
+  address =      zagreb,
+  month =        jul,
+}
+
+@PROCEEDINGS{ICRRSS_2014,
+  TITLE =        {21st International Conference on Recent Advances in Retailing and Services Science},
+  YEAR =         {2014},
+  EDITOR =       {EIRASS},
+  organization = {{European Institute of Retailing and Service Studies (EIRASS)}},
+  address =      bucharest,
+  month =        jul,
+}
+
+@PROCEEDINGS{ICTTE_2014,
+  TITLE =        {International Conference for Traffic and Transport Engineering},
+  YEAR =         {2014},
+  EDITOR =       {ICTTE},
+  address =      {Belgrade},
+  month =        nov,
+}
+
+@PROCEEDINGS{ICWWW_2010,
+  TITLE =        {19th International Conference on World Wide Web},
+  YEAR =         {2010},
+  publisher =    {ACM},
+  address =      raleigh,
+  month =        apr,
+}
+
+@PROCEEDINGS{IDRIM_2010,
+  TITLE =        {1st Annual Conference of the {I}nternational {S}ociety of {I}ntegrated {D}isaster {R}isk {M}anagement (IDRim)},
+  YEAR =         {2010},
+  EDITOR =       {IDRiM},
+  organization = org-idrim,
+  address =      vienna,
+  month =        sep,
+}
+
+@PROCEEDINGS{IFAC_1997,
+  TITLE =        {8th IFAC Symposium on Transportation Systems},
+  YEAR =         {1997},
+  EDITOR =       Papageorgiou,
+  organization = org-ifac,
+  address =      chania,
+  month =        jun,
+}
+
+@PROCEEDINGS{IFORS_2014,
+  TITLE =        {20th Conference of the International Federation of Operational Research Societies},
+  YEAR =         {2014},
+  EDITOR =       {IFORS},
+  address =      barcelona,
+  month =        jul,
+}
+
+@PROCEEDINGS{IJCAIMOO_2005,
+  TITLE =        {International Joint Conference on Artificial Intelligence (IJCAI) Workshop on Modeling Others from Observations},
+  YEAR =         {2005},
+  EDITOR =       {IJCAI},
+  address =      edinburgh,
+  month =        jul,
+}
+
+@PROCEEDINGS{IMC_2007,
+  TITLE =        {7th ACM SIGCOMM Conference on Internet Measurement},
+  YEAR =         {2007},
+  EDITOR =       org-acm,
+  address =      sandiego,
+  month =        oct,
+}
+
+@PROCEEDINGS{INFORMS_2008,
+  TITLE =        {INFORMS Annual Meeting},
+  YEAR =         {2008},
+  EDITOR =       org-informs,
+  address =      washington,
+  month =        oct,
+}
+
+@PROCEEDINGS{INSTR_2012,
+  TITLE =        {5th International Symposium on Transportation Network Reliability},
+  YEAR =         {2012},
+  EDITOR =       {INSTR},
+  address =      hongkong,
+  month =        dec,
+}
+
+@PROCEEDINGS{INSTR_2007,
+  TITLE =        {3rd International Symposium on Transportation Network Reliability},
+  YEAR =         {2007},
+  EDITOR =       {INSTR},
+  address =      delft,
+  month =        jul,
+}
+
+@PROCEEDINGS{ISCA_2005,
+  TITLE =        {18th International Conference on Computer Applications in Industry and Engineering},
+  YEAR =         {2005},
+  EDITOR =       {ISCA},
+  address =      honolulu,
+  month =        nov,
+}
+
+@PROCEEDINGS{ISCTSC_2001,
+  TITLE =        {6th International Conference on Survey Methods in Transport},
+  YEAR =         {2001},
+  EDITOR =       {ISCTSC},
+  address =      krugerpark,
+}
+
+@PROCEEDINGS{ISCTSC_2004,
+  TITLE =        {7th International Conference on Survey Methods in Transport},
+  YEAR =         {2004},
+  EDITOR =       {ISCTSC},
+  address =      costarica,
+  month =        aug,
+}
+
+@PROCEEDINGS{ISCTSC_2008,
+  TITLE =        {8th International Conference on Survey Methods in Transport},
+  YEAR =         {2008},
+  EDITOR =       {ISCTSC},
+  address =      annecy,
+  month =        may,
+}
+
+@PROCEEDINGS{ISCTSC_2011,
+  TITLE =        {9th International Conference on Survey Methods in Transport},
+  YEAR =         {2011},
+  EDITOR =       {ISCTSC},
+  address =      termasPuyehue,
+  month =        nov,
+}
+
+@PROCEEDINGS{ISCTSC_2014,
+  TITLE =        {10th International Conference on Transport Survey Methods},
+  YEAR =         {2014},
+  EDITOR =       {ISCTSC},
+  address =      leura,
+  month =        nov,
+}
+
+@PROCEEDINGS{ISGTEC_2012,
+  TITLE =        {IEEE ISGT Europe Conference},
+  YEAR =         {2012},
+  EDITOR =       {IEEE},
+  address =      berlin,
+  month =        oct,
+}
+
+@PROCEEDINGS{ISIwTS_1997,
+  TITLE =        {3rd International Symposium on Intersections without Traffic Signals},
+  YEAR =         {1997},
+  EDITOR =       {{USA University of Idaho}},
+  address =      portland,
+  month =        jul,
+}
+
+@PROCEEDINGS{ISSS_2003,
+  TITLE =        {4th International Space Syntax Symposium},
+  YEAR =         {2003},
+  EDITOR =       {University College London},
+  address =      london,
+  month =        jun,
+}
+
+@PROCEEDINGS{ISSS_2012,
+  TITLE =        {8th International Space Syntax Symposium},
+  YEAR =         {2012},
+  EDITOR =       { Pontificia Universidad Catolica de Chile},
+  address =      santiagodechile,
+  month =        jan,
+}
+
+@PROCEEDINGS{ISTTT_1983,
+  TITLE =        {Eighth International Symposium on Transportation and Traffic Theory},
+  YEAR =         {1983},
+  EDITOR =       {University of Toronto Press},
+  address =      toronto,
+}
+
+@PROCEEDINGS{ISTTT_1997,
+  TITLE =        {14th International Symposium on Transportation and Traffic Theory (ISTTT)},
+  YEAR =         {1997},
+  EDITOR =       {Technion-Israel, Institute of Technology},
+  address =      jerusalem,
+  month =        jul,
+}
+
+@PROCEEDINGS{ISTTT_2005,
+  TITLE =        {16th International Symposium on Transportation and Traffic Theory (ISTTT)},
+  YEAR =         {2005},
+  EDITOR =       {ISTTT},
+  address =      maryland,
+  month =        jul,
+}
+
+@PROCEEDINGS{ITE_2007,
+  TITLE =        {ITE 2007 Annual Meeting and Exhibit},
+  YEAR =         {2007},
+  EDITOR =       {Institute of Transportation Engineers},
+  address =      {Pittsburgh PA},
+  month =        aug,
+}
+
+@PROCEEDINGS{ITSC_2001,
+  TITLE =        {Intelligent Transportation Systems Conference (ITSC)},
+  YEAR =         {2001},
+  EDITOR =       {IEEE},
+  address =      oakland,
+  month =        aug,
+}
+
+@PROCEEDINGS{ITSC_2006,
+  TITLE =        {Intelligent Transportation Systems Conference (ITSC)},
+  YEAR =         {2006},
+  EDITOR =       {IEEE},
+  address =      toronto,
+  month =        sep,
+}
+
+@PROCEEDINGS{ITSC_2007,
+  TITLE =        {Intelligent Transportation Systems Conference (ITSC)},
+  YEAR =         {2007},
+  EDITOR =       {IEEE},
+  address =      seattle,
+  month =        sep,
+}
+
+@PROCEEDINGS{ITSC_2010,
+  TITLE =        {Intelligent Transportation Systems Conference (ITSC)},
+  YEAR =         {2010},
+  EDITOR =       {IEEE},
+  address =      madeira,
+  month =        sep,
+}
+
+@PROCEEDINGS{ITSC_2012,
+  TITLE =        {15th IEEE International Conference on Intelligent Transportation Systems (ITSC)},
+  YEAR =         {2012},
+  EDITOR =       {IEEE},
+  address =      anchorage,
+  month =        sep,
+}
+
+@PROCEEDINGS{ITSC_2015,
+  TITLE =        {18th IEEE International Conference on Intelligent Transportation Systems (ITSC)},
+  YEAR =         {2015},
+  EDITOR =       {IEEE},
+  address =      laspalmasdegrancanaria,
+  month =        sep,
+}
+
+@PROCEEDINGS{ITSF_2012,
+  TITLE =        {The 12th Asia Pacific ITS Forum \& Exhibition},
+  YEAR =         {2012},
+  EDITOR =       {ITSF},
+  organization = org-itsmy,
+  address =      kualalumpur,
+  month =        apr,
+}
+
+@PROCEEDINGS{IWUC_2012,
+  TITLE =        {International Workshop on Urban Computing},
+  YEAR =         {2012},
+  EDITOR =       {UC},
+  address =      beijing,
+  month =        aug,
+}
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{JSM_2009,
+  TITLE =        {Joint Statistical Meetings},
+  YEAR =         {2009},
+  EDITOR =       {ASA},
+  address =      washington,
+  month =        aug,
+}
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{KDD_1996,
+  TITLE =        {2nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '96)},
+  YEAR =         {1996},
+  EDITOR =       {ACM SIGKDD},
+  address =      portland,
+  month =        aug,
+}
+
+@PROCEEDINGS{KDD_2012,
+  TITLE =        {18th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '12)},
+  YEAR =         {2012},
+  EDITOR =       {ACM SIGKDD},
+  address =      beijing,
+  month =        aug,
+}
+
+
+
+@PROCEEDINGS{KDD_2014,
+  TITLE =        {20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '14)},
+  YEAR =         {2014},
+  EDITOR =       {ACM SIGKDD},
+  address =      newyork,
+  month =        aug,
+}
+
+
+
+@PROCEEDINGS{Kuhmo_2010,
+  TITLE =        {Kuhmo NECTAR Conference on Transportation Economics},
+  YEAR =         {2010},
+  EDITOR =       {Kuhmo NECTAR},
+  address =      valencia,
+  month =        jul,
+}
+
+@PROCEEDINGS{Kuhmo_2013,
+  TITLE =        {Kuhmo NECTAR Conference on Transportation Economics},
+  YEAR =         {2013},
+  EDITOR =       {Kuhmo NECTAR},
+  address =      chicago,
+  month =        jul,
+}
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{LATSIS_2012,
+  TITLE =        {1st {European} Symposium on Quantitative Methods in Transportation Systems},
+  YEAR =         {2012},
+  EDITOR =       uni-epfl,
+  address =      lausanne,
+  month =        sep,
+}
+
+@PROCEEDINGS{LAS_2011,
+  TITLE =        {{Kolloquium Luftqualität an Strassen}},
+  YEAR =         {2011},
+  EDITOR =       {Bundesanstalt für Strassenwesen BASt},
+  address =      {Bergisch Gladbach},
+  month =        mar,
+}
+
+@PROCEEDINGS{Lifestyle_RECSYS_2012,
+  TITLE =        {Workshop on Recommendation Technologies for Lifestyle Change},
+  YEAR =         {2012},
+  EDITOR =       {ACM},
+  organization = org-acm,
+  address =      dublin,
+  month =        sep,
+  url =          {http://ceur-ws.org/Vol-891/}
+}
+
+@PROCEEDINGS{LION_2010,
+  TITLE =        {4th Learning and Intelligent Optimizatio{N} Conference},
+  YEAR =         {2010},
+  EDITOR =       uni-ve,
+  address =      venice,
+  month =        jan,
+}
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@PROCEEDINGS{MEART_2009,
+   TITLE = {{First International Conference on the Measurement and Economics Analysis of Regional Tourism}},
+   YEAR = {2009},
+   address = sansebastian,
+   month = oct,
+}
+
+@PROCEEDINGS{MobiHeld_2009,
+  TITLE =        {{MobiHeld '09} the 1st ACM workshop on Networking, systems, and applications for mobile handhelds},
+  YEAR =         {2009},
+  EDITOR =       {ACM},
+  organization = org-acm,
+  address =      barcelona,
+  month =        aug,
+  url =          {http://dl.acm.org/citation.cfm?id=1592606&picked=prox&cfid=536320643&cftoken=43870416}
+ }
+
+@PROCEEDINGS{MobiHoc_2007,
+  TITLE =        {{MobiHoc '07} the 8th ACM International Symposium on Mobile Ad Hoc Networking and Computing},
+  YEAR =         {2007},
+  EDITOR =       {ACM},
+  organization = org-acm,
+  address =      montreal,
+  month =        sep,
+ }
+
+@PROCEEDINGS{MobileGhent_2013,
+  TITLE =        {{Mobile Ghent '13}},
+  YEAR =         {2013},
+  EDITOR =       {uni-ghent},
+  address =      ghent,
+  month =        oct,
+  url =          {http://cartogis.ugent.be/mobileghent/}
+}
+
+@PROCEEDINGS{MobileHCI_2013,
+  TITLE =        {{MobileHCI '13}},
+  YEAR =         {2013},
+  EDITOR =       {ACM},
+  organization = org-acm,
+  address =      muenchen,
+  month =        aug,
+  url =          {http://dl.acm.org/citation.cfm?id=2493190}
+}
+
+@PROCEEDINGS{MobilTUM_2014,
+  TITLE =        {International Scientific Conference on Mobility and Transport},
+  YEAR =         {2014},
+  EDITOR =       {uni-tum},
+  address =      muenchen,
+  month =        may,
+}
+
+@PROCEEDINGS{MobiSys_2005,
+  TITLE =        {3rd International Conference on {Mobile} Systems, Applications, and Services},
+  YEAR =         {2005},
+  EDITOR =       {MobiSys},
+  address =      newyork,
+  month =        jun,
+}
+
+@PROCEEDINGS{MCTRS_2005,
+  TITLE =        {2005 Mid-Continent Transportation Research Symposium},
+  YEAR =         {2005},
+  EDITOR =       {Iowa State University},
+  address =      ames,
+  month =        aug,
+}
+
+@PROCEEDINGS{MTITS_2013,
+  TITLE =        {3rd International Conference on Models and Technologies for Intelligent Transportation Systems},
+  YEAR =         {2013},
+  EDITOR =       {TU Dresden},
+  address =      dresden,
+  month =        dec,
+}
+
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+@PROCEEDINGS{NARSC_2002,
+  TITLE =        {49th Annual North American Meetings of the Regional Science Association International},
+  YEAR =         {2002},
+  EDITOR =       {NARSC},
+  address =      sanjuan,
+  month =        nov,
+  url =          {},
+}
+
+@PROCEEDINGS{NARSC_2003,
+  TITLE =        {50th Annual North American Meetings of the Regional Science Association International},
+  YEAR =         {2003},
+  EDITOR =       {NARSC},
+  address =      philadelphia,
+  month =        nov,
+  url =          {},
+}
+
+@PROCEEDINGS{NECTAR_1998,
+  TITLE =        {4th NECTAR Conference},
+  YEAR =         {1998},
+  EDITOR =       {NECTAR},
+  address =      telaviv,
+  month =        apr,
+}
+
+@PROCEEDINGS{NTRPAC_1995,
+  TITLE =        {5th TRB National Transportation Planning Methods Applications Conference},
+  YEAR =         {1995},
+  EDITOR =       {NTRPAC},
+  organization = org-trb,
+  address =      seattle,
+  month =        apr,
+}
+
+@PROCEEDINGS{NTRPAC_2007,
+  TITLE =        {11th TRB National Transportation Planning Applications Conference},
+  YEAR =         {2007},
+  EDITOR =       {NTRPAC},
+  address =      daytonabeach,
+  month =        may,
+}
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{PANAM_2014,
+  TITLE =        {XVIII Pan-American Conference on Traffic and Transportation Engineering},
+  YEAR =         {2014},
+  EDITOR =       {PANAM},
+  address =      santander,
+  month =        jun,
+  url =          {http://www.panam2014.unican.es/index.php?lang=en},
+}
+
+@PROCEEDINGS{PATAT_2006,
+  TITLE =        {6th Interational Conference on the Practice and Theory of Automated Timetabling},
+  YEAR =         {2006},
+  EDITOR =       Burke # and # Rudova,
+  publisher =    uni-masaryk,
+  organization = uni-masaryk,
+  address =      brno,
+  month =        aug,
+  url =          {http://patat06.muni.cz/doc/PATAT_2006_Proceedings.pdf},
+}
+
+@PROCEEDINGS{PED_2012,
+  TITLE =        {6th International Conference on Pedestrian and Evacuation Dynamics},
+  YEAR =         {2012},
+  EDITOR =       {PED},
+  address =      zurich,
+  month =        jun,
+}
+
+@PROCEEDINGS{PervasiveComp_2009,
+  EDITOR =    Tokuda # and # Beigl # and # Friday # and # Brush # and # Tobe,
+  TITLE =     {7th International Conference on Pervasive Computing},
+  YEAR =      {2009},
+  address=    {Nara},
+  month =     may,
+}
+
+@PROCEEDINGS{PPSN_2004,
+  TITLE =        {Eighth International Conference on Parallel Problem Solving from Nature},
+  YEAR =         {2004},
+  EDITOR =       {PPSN},
+  address =      birmingham,
+  month =        sep,
+  url =          {http://events.cs.bham.ac.uk/ppsn04/},
+}
+
+@PROCEEDINGS{PROCESSUS_2005,
+  TITLE =        {2nd International Colloqium on the Behavioural Foundations of Integrated Land-use and Transportation Models: Frameworks, Models and Applications},
+  YEAR =         {2005},
+  EDITOR =       {PROCESSUS},
+  address =      toronto,
+  month =        jun,
+}
+
+@PROCEEDINGS{PTRC_1978,
+  TITLE =        {Planning and Transport, Research and Computation (PTRC) Summer Meeting},
+  YEAR =         {1978},
+  EDITOR =       {PTRC},
+  address =      {Warwick},
+  month =        jul,
+}
+
+@PROCEEDINGS{PTRC_1993,
+  TITLE =        {21st Planning and Transport, Research and Computation (PTRC) Summer Meeting},
+  YEAR =         {1993},
+  EDITOR =       {PTRC},
+  address =      manchester,
+  month =        sep,
+}
+
+@PROCEEDINGS{PABA_2004,
+  TITLE =        {Conference on Progress in Activity-Based Analysis},
+  YEAR =         {2004},
+  EDITOR =       {PABA},
+  address =      maastricht,
+  month =        may,
+}
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{FRCSPUDM_1977,
+	TITLE =        {Decision Making and Change in Human Affairs},
+	YEAR =         {1977},
+	EDITOR =       Jungermann # and # DeZeeuw,
+	address =      darmstadt,
+	month =        sep,
+}
+
+
+
+
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{SAM_2005,
+  TITLE =        {Workshop on Sequence Alignment Methods},
+  YEAR =         {2005},
+  EDITOR =       {SAM},
+  address =      halifax,
+  month =        oct,
+}
+
+@PROCEEDINGS{SATC_2003,
+  TITLE =        {22nd Annual Southern African Transport Conference},
+  YEAR =         {2003},
+  EDITOR =       {SATC},
+  address =      pretoria,
+  month =        jul,
+}
+
+@PROCEEDINGS{SATC_2009,
+  TITLE =        {28th Annual Southern African Transport Conference},
+  YEAR =         {2009},
+  EDITOR =       {SATC},
+  address =      pretoria,
+  month =        jul,
+}
+
+@PROCEEDINGS{SATC_2010,
+  TITLE =        {29th Annual Southern African Transport Conference},
+  YEAR =         {2010},
+  EDITOR =       {SATC},
+  address =      pretoria,
+  month =        jul,
+}
+
+@PROCEEDINGS{SDEWES_2013,
+  TITLE =        {8th Conference on Sustainable Development of Energy, Water and Environment Systems},
+  YEAR =         {2013},
+  organization = {org-sdewes},
+  address =      dubrovnik,
+  month =        sep,
+  url = 	 {http://www.dubrovnik2013.sdewes.org/}
+}
+
+@PROCEEDINGS{SEAL_2014,
+  TITLE =        {The Tenth International Conference on Simulated Evolution And Learning (SEAL 2014)},
+  YEAR =         {2014},
+  EDITOR =       {Springer, Lecture Notes in Computer Science (LNCS)},
+  address =      {Otago},
+  month =        dec,
+}
+
+@PROCEEDINGS{SIRC_2005,
+  TITLE =        {17th Annual Colloquium of the Spatial Information Research Centre},
+  YEAR =         {2005},
+  EDITOR =       Whigham,
+  organization = uni-otago,
+  address =      dunedin-nz,
+  month =        nov,
+  url =          {http://www.business.otago.ac.nz/SIRC/conferences/index2005.html},
+}
+
+@PROCEEDINGS{SIGSPATIAL_2013,
+  TITLE =        {ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems 2013},
+  YEAR =         {2013},
+  EDITOR =       {ACM SIGPATIAL},
+  address =      orlando,
+  month =        nov,
+  url = 	 {}
+}
+
+@PROCEEDINGS{SITCE_2013,
+  TITLE =        {LTA-UITP Singapore International Transport Congress and Exhibition (SITCE) 2013},
+  YEAR =         {2013},
+  EDITOR =       {SITCE},
+  address =      singapore,
+  month =        oct,
+  url = 	 {http://www.sitce.org/}
+}
+
+@PROCEEDINGS{SODA_2000,
+  TITLE =        {11th annual ACM-SIAM symposium on Discrete algorithms (SODA)},
+  YEAR =         {2000},
+  EDITOR =       {ACM-SIAM},
+  organization = org-siam,
+  address =      sanfran,
+  month =        jan,
+  url =          {http://www.siam.org/meetings/da00/},
+}
+
+@PROCEEDINGS{SODA_2005,
+  TITLE =        {16th annual ACM-SIAM symposium on Discrete algorithms (SODA)},
+  YEAR =         {2005},
+  EDITOR =       {ACM-SIAM},
+  organization = org-siam,
+  address =      vancouver,
+  month =        jan,
+  url =          {http://www.siam.org/meetings/DA05/},
+}
+
+@PROCEEDINGS{STRC_2001,
+  TITLE =        {1st Swiss Transport Research Conference},
+  YEAR =         {2001},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        mar,
+}
+
+@PROCEEDINGS{STRC_2002,
+  TITLE =        {2nd Swiss Transport Research Conference},
+  YEAR =         {2002},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        mar,
+}
+
+@PROCEEDINGS{STRC_2003,
+  TITLE =        {3rd Swiss Transport Research Conference},
+  YEAR =         {2003},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        mar,
+}
+
+@PROCEEDINGS{STRC_2004,
+  TITLE =        {4th Swiss Transport Research Conference},
+  YEAR =         {2004},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        mar,
+}
+
+@PROCEEDINGS{STRC_2005,
+  TITLE =        {5th Swiss Transport Research Conference},
+  YEAR =         {2005},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        mar,
+}
+
+@PROCEEDINGS{STRC_2006,
+  TITLE =        {6th Swiss Transport Research Conference},
+  YEAR =         {2006},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        mar,
+}
+
+@PROCEEDINGS{STRC_2007,
+  TITLE =        {7th Swiss Transport Research Conference},
+  YEAR =         {2007},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        sep,
+}
+
+@PROCEEDINGS{STRC_2008,
+  TITLE =        {8th Swiss Transport Research Conference},
+  YEAR =         {2008},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        oct,
+}
+
+@PROCEEDINGS{STRC_2009,
+  TITLE =        {9th Swiss Transport Research Conference},
+  YEAR =         {2009},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        sep,
+}
+
+@PROCEEDINGS{STRC_2010,
+  TITLE =        {10th Swiss Transport Research Conference},
+  YEAR =         {2010},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        sep,
+}
+
+@PROCEEDINGS{STRC_2011,
+  TITLE =        {11th Swiss Transport Research Conference},
+  YEAR =         {2011},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        may,
+}
+
+@PROCEEDINGS{STRC_2012,
+  TITLE =        {12th Swiss Transport Research Conference},
+  YEAR =         {2012},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        may,
+}
+
+@PROCEEDINGS{STRC_2013,
+  TITLE =        {13th Swiss Transport Research Conference},
+  YEAR =         {2013},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        apr,
+}
+
+@PROCEEDINGS{STRC_2014,
+  TITLE =        {14th Swiss Transport Research Conference},
+  YEAR =         {2014},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        may,
+}
+
+@PROCEEDINGS{STRC_2015,
+  TITLE =        {15th Swiss Transport Research Conference},
+  YEAR =         {2015},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        apr,
+}
+
+@PROCEEDINGS{STRC_2016,
+  TITLE =        {16th Swiss Transport Research Conference},
+  YEAR =         {2016},
+  EDITOR =       {STRC},
+  address =      Ascona,
+  month =        apr,
+}
+
+@PROCEEDINGS{I3D_2011,
+  TITLE =        {I3D '11 Symposium on Interactive 3D Graphics and Games},
+  YEAR =         {2011},
+  EDITOR =       {I3D},
+  organization = {ACM SIGGRAPH},
+  address =      sanfran,
+  month =        feb,
+}
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{T2M_2013,
+  TITLE =        {11th Annual T2M Conference ``Transport and Borders''},
+  YEAR =         {2013},
+  EDITOR =       {T2M},
+  organization = org-t2m,
+  address =      kouvola # and # stpetersburg,
+  month =        sep,
+}
+
+@PROCEEDINGS{TALL_2005,
+  TITLE =        {6th International Conference on Tall Buildings},
+  YEAR =         {2005},
+  EDITOR =       {STRC},
+  month =        dec,
+}
+
+@PROCEEDINGS{TCC_2012,
+  TITLE =        {Transport Chicago Conference},
+  YEAR =         {2012},
+  EDITOR =       {},
+  month =        jun,
+}
+
+@PROCEEDINGS{TMCC_2003,
+  TITLE =        {Tourism Modelling and Competitiveness Conference},
+  YEAR =         {2003},
+  EDITOR =       {TMCC},
+  organization = org-tmip,
+  address =      paphos # comma # cyprus,
+  month =        nov,
+}
+
+@PROCEEDINGS{TMIP_1996,
+  TITLE =        {Activity-Based Travel Forecasting Conference},
+  YEAR =         {1996},
+  EDITOR =       {TMIP},
+  organization = org-tmip,
+  address =      neworleans,
+  month =        jun,
+  url =          {http://tmip.fhwa.dot.gov/resources/clearinghouse/95},
+}
+
+
+@PROCEEDINGS{TPAU_2010,
+  TITLE =        {Trafikdage på Aalborg Universitet},
+  YEAR =         {2010},
+  EDITOR =       {TPAU},
+  address =      aalborg,
+  month =        aug,
+}
+
+@PROCEEDINGS{TRA_2014,
+  TITLE =        {Transport Research Arena (TRA2014)},
+  YEAR =         {2014},
+  EDITOR =       {TRA},
+  address =      paris,
+  month =        apr,
+}
+
+@PROCEEDINGS{TRB2_1995,
+  TITLE =        {Conference on Household Travel Surveys: New Concepts and Research Needs},
+  YEAR =         {1995},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      irvine,
+  month =        mar,
+}
+
+@PROCEEDINGS{TRB_1984,
+  TITLE =        {63th Annual Meeting of the Transportation Research Board},
+  YEAR =         {1984},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_1997,
+  TITLE =        {76th Annual Meeting of the Transportation Research Board},
+  YEAR =         {1997},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_1999,
+  TITLE =        {78th Annual Meeting of the Transportation Research Board},
+  YEAR =         {1999},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2000,
+  TITLE =        {79th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2000},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2001,
+  TITLE =        {80th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2001},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2002,
+  TITLE =        {81st Annual Meeting of the Transportation Research Board},
+  YEAR =         {2002},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2003,
+  TITLE =        {82nd Annual Meeting of the Transportation Research Board},
+  YEAR =         {2003},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2004,
+  TITLE =        {83rd Annual Meeting of the Transportation Research Board},
+  YEAR =         {2004},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2005,
+  TITLE =        {84th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2005},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2006,
+  TITLE =        {85th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2006},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2007,
+  TITLE =        {86th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2007},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2008,
+  TITLE =        {87th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2008},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2009,
+  TITLE =        {88th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2009},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2010,
+  TITLE =        {89th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2010},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2011_forthcoming,
+  TITLE =        {90th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2011},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+% anhorni: changed TRB_2011 with YEAR=forth above to TRB_2011_forthcoming. Sorry for broken refs!
+@PROCEEDINGS{TRB_2011,
+  TITLE =        {90th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2011},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2012,
+  TITLE =        {91st Annual Meeting of the Transportation Research Board},
+  YEAR =         {2012},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2012_forthcoming,
+  TITLE =        {91st Annual Meeting of the Transportation Research Board},
+  YEAR =         forth,
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+}
+
+@PROCEEDINGS{TRB_2013,
+  TITLE =        {92nd Annual Meeting of the Transportation Research Board},
+  YEAR =         {2013},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2014,
+  TITLE =        {93rd Annual Meeting of the Transportation Research Board},
+  YEAR =         {2014},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2015,
+  TITLE =        {94th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2015},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2016,
+  TITLE =        {95th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2016},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRB_2017,
+  TITLE =        {96th Annual Meeting of the Transportation Research Board},
+  YEAR =         {2017},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      washington,
+  month =        jan,
+}
+
+@PROCEEDINGS{TRBATPM_2001,
+  TITLE =        {8th TRB Conference on the Application of Transportation Planning Methods},
+  YEAR =         {2001},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      {Chorpus Christi, Texas},
+  month =        apr,
+}
+
+% different information for this conference exists:
+% http://www.trb-appcon.org/2007conf/program.html
+% http://www.trb.org/Calendar/Blurbs/11th_National_Transportation_Planning_Applications_156462.aspx
+@PROCEEDINGS{TRBNTPAC_2007,
+  TITLE =        {11th National Transportation Planning Applications Conference},
+  YEAR =         {2007},
+  EDITOR =       {TRB},
+  organization = org-trb,
+  address =      {Daytona Beach, Florida},
+  month =        may,
+}
+
+@PROCEEDINGS{TRISTAN_2007,
+  TITLE =        {6th Triennial Symposium on Transportation Analysis (TRISTAN)},
+  YEAR =         {2007},
+  EDITOR =       {TRISTAN},
+  address =      phuketisland,
+  month =        jun,
+}
+
+@PROCEEDINGS{TRBTDF_2006,
+  TITLE =        {Innovations in Travel Demand Modeling {(ITM'06)}},
+  YEAR =         {2006},
+  EDITOR =       {TRB Committee: Transportation Demand Forecasting},
+  publisher =    org-trb,
+  address =      austin,
+  month =        may,
+  url =          {http://www.trb-forecasting.org/innovationsConference2006.html},
+}
+
+@PROCEEDINGS{TRBTDF_2008,
+  TITLE =        {Innovations in Travel Modeling {(ITM'08)}},
+  YEAR =         {2008},
+  EDITOR =       {TRB Committee: Transportation Demand Forecasting},
+  publisher =    org-trb,
+  address =      portland,
+  month =        jun,
+  url =          {http://www.trb-forecasting.org/innovationsConference2008.html},
+}
+
+@PROCEEDINGS{TRBTDF_2010,
+  TITLE =        {3rd Conference on Innovations in Travel Modeling {(ITM2010)}},
+  YEAR =         {2010},
+  EDITOR =       {TRB Committee: Transportation Demand Forecasting},
+  publisher =    org-trb,
+  address =      tempe,
+  month =        may,
+  url =          {},
+}
+
+@PROCEEDINGS{TRBTDF_2012,
+  TITLE =        {4th Conference on Innovations in Travel Modeling},
+  YEAR =         {2012},
+  EDITOR =       {TRB Committee: Transportation Demand Forecasting},
+  publisher =    org-trb,
+  address =      tampa,
+  month =        may,
+  url =          {},
+}
+
+@PROCEEDINGS{TRBTDF_2014,
+  TITLE =        {5th Conference on Innovations in Travel Modeling},
+  YEAR =         {2014},
+  EDITOR =       {TRB Committee: Transportation Demand Forecasting},
+  publisher =    org-trb,
+  address =      baltimore,
+  month =        apr,
+  url =          {},
+}
+
+@PROCEEDINGS{VTS_1996,
+  TITLE =        {Value of Time Seminar},
+  YEAR =         {1996},
+  month =        oct,
+}
+
+@PROCEEDINGS{TSSP_2008,
+  TITLE =        {16th Annual Conference of the Transportation Science Society of the Philippines (TSSP)},
+  YEAR =         {2008},
+  EDITOR =       {TSSP},
+  address =      {Metro Manila, Philippines},
+  month =        sep,
+  url =          {},
+}
+
+@PROCEEDINGS{TUO_2012,
+  TITLE =        {3rd Workshop on Time Use Observatory},
+  YEAR =         {2012},
+  EDITOR =       {ITUO},
+  address =      santiagodechile,
+  month =        mar,
+  url =          {},
+}
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{UbiComp_2006,
+  TITLE =        {8th International Conference on Ubiquitous Computing},
+  YEAR =         {2006},
+  EDITOR =       {UbiComp},
+  address =      orangeCounty,
+  month =        sep,
+}
+
+@PROCEEDINGS{UbiComp_2014,
+  TITLE =        {International Joint Conference on Pervasive and Ubiquitous Computing},
+  YEAR =         {2014},
+  EDITOR =       {UbiComp},
+  address =      seattle,
+  month =        sep,
+}
+
+@PROCEEDINGS{UrbComp_2012,
+  TITLE =        {ACM SIGKDD International Workshop on Urban Computing},
+  YEAR =         {2012},
+  EDITOR =       {UrbComp},
+  organization = org-acmsigkdd,
+  address =      beijing,
+  month =        aug,
+}
+
+@PROCEEDINGS{UrbComp_2013,
+  TITLE =        {ACM SIGKDD International Workshop on Urban Computing},
+  YEAR =         {2013},
+  EDITOR =       {UrbComp},
+  organization = org-acmsigkdd,
+  address =      chicago,
+  month =        aug,
+}
+
+@PROCEEDINGS{UrbComp_2014,
+  TITLE =        {ACM SIGKDD International Workshop on Urban Computing},
+  YEAR =         {2014},
+  EDITOR =       {UrbComp},
+  organization = org-acmsigkdd,
+  address =      newyork,
+  month =        aug,
+}
+
+@PROCEEDINGS{URSJE_2007,
+  TITLE =        {Urban Remote Sensing Joint Event 2007},
+  YEAR =         {2007},
+  EDITOR =       {Telecommunications \& Remote Sensing Lab, Department of Electronics, University of Pavia},
+  address =      paris,
+  month =        apr,
+  url =          {http://tlc.unipv.it/urban-remote-sensing-2007/},
+}
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{VLDB_2004,
+  TITLE =        {30th International Conference on Very Large Data Bases},
+  YEAR =         {2004},
+  EDITOR =       org-vldb,
+  address =      Toronto,
+  month =        sep,
+}
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@PROCEEDINGS{WALK21_2011,
+  TITLE =        {XII International Walk21 Conference on Walking and Liveable Communities},
+  YEAR =         {2011},
+  address =      vancouver,
+  month =        oct,
+}
+
+@PROCEEDINGS{WCICA_2004,
+  TITLE =        {5th World Congress on Intelligent Control and Automation (WCICA)},
+  YEAR =         {2004},
+  EDITOR =       org-wcica,
+  address =      hangzhou,
+  month =        jun,
+}
+
+@PROCEEDINGS{WCTR_vol4_1989,
+  TITLE =        {Transport Policy, Management \& Technology Towards 2001},
+  EDITOR =       {WCTR},
+  YEAR =         {1989},
+  volume =       {IV},
+  address =      ventura,
+  publisher =    {Western Periodicals},
+}
+
+@PROCEEDINGS{WCTRS_1989,
+  TITLE =        {5th World Conference on Transportation Research},
+  YEAR =         {1989},
+  EDITOR =       {WCTRS},
+  organization = org-wctrs,
+  address =      yokohama,
+  month =        jun,
+}
+
+@PROCEEDINGS{WCTRS_1998,
+  TITLE =        {8th World Conference on Transportation Research},
+  YEAR =         {1998},
+  EDITOR =       {WCTRS},
+  organization = org-wctrs,
+  address =      antwerp,
+  month =        jul,
+}
+
+@PROCEEDINGS{WCTRS_2007,
+  TITLE =        {11th World Conference on Transportation Research},
+  YEAR =         {2007},
+  EDITOR =       {WCTRS},
+  organization = org-wctrs,
+  address =      berkeley,
+  month =        jun,
+}
+
+@PROCEEDINGS{WCTRS_2010,
+  TITLE =        {12th World Conference on Transportation Research},
+  YEAR =         {2010},
+  EDITOR =       {WCTRS},
+  organization = org-wctrs,
+  address =      lisbon,
+  month =        jul,
+}
+
+@PROCEEDINGS{WCTRS_2016,
+  TITLE =        {14th World Conference on Transportation Research (WCTR 2016)},
+  YEAR =         {2016},
+  EDITOR =       {WCTRS},
+  organization = org-wctrs,
+  address =      shanghai,
+  month =        jul,
+}
+
+@PROCEEDINGS{WCITS_1995,
+  TITLE =        {2nd World Congress on Intelligent Transport Systems},
+  YEAR =         {1995},
+  EDITOR =       {WCITS},
+  address =      yokohama,
+  month =        nov,
+}
+
+@PROCEEDINGS{WCITS_1996,
+  TITLE =        {3rd World Congress on Intelligent Transport Systems},
+  YEAR =         {1996},
+  EDITOR =       {WCITS},
+  address =      orlando,
+  month =        oct,
+}
+
+@PROCEEDINGS{WAE_1998,
+  TITLE =        {2nd Workshop on Algorithm Engineering},
+  YEAR =         {1998},
+  EDITOR =       {WAE},
+  address =      saarbrucken,
+  month =        aug,
+}
+
+@PROCEEDINGS{WEA_2007,
+  TITLE =        {Experimental Algorithms: 6th International Workshop, {WEA} 2007},
+  YEAR =         {2007},
+  EDITOR =       {WEA},
+  publisher =    Springer,
+  series =       {Lecture Notes in Computer Science},
+  volume =       {4525},
+}
+
+@PROCEEDINGS{WEA_2008,
+  TITLE =        {Experimental Algorithms: 7th International Workshop, {WEA} 2008},
+  YEAR =         {2008},
+  EDITOR =       {WEA},
+  publisher =    Springer,
+  series =       {Lecture Notes in Computer Science},
+  volume =       {5038},
+  bibsource =    {DBLP, http://dblp.uni-trier.de},
+}
+
+@PROCEEDINGS{WF_1939,
+  TITLE =        {World's Fair},
+  YEAR =         {1939},
+  address =      newyork,
+  month =        apr,
+}
+
+@PROCEEDINGS{WMSCI_2010,
+  TITLE =        {14th World Multi-Conference on Systemics, Cybernetics and Informatics},
+  YEAR =         {2010},
+  EDITOR =       {WMSCI},
+  address =      caracas,
+  organization = {International Institute of Informatics and Systemics (IIIS)},
+  month =        jun,
+}
+
+@PROCEEDINGS{WSC_1999,
+  TITLE =        {Winter Simulation Conference},
+  YEAR =         {1999},
+  EDITOR =       Farrington # and # Nembhard # and # Sturrock # and # EvansGW,
+  address =      phoenix,
+  month =        dec,
+}
+
+@PROCEEDINGS{WSTLUR_2014,
+  TITLE =        {World Symposium on Transport and Land Use Research},
+  YEAR =         {2014},
+  EDITOR =       {WSTLUR},
+  address =      delft,
+  month =        jun,
+}
+
+@PROCEEDINGS{WSC_2009,
+  TITLE =        {Winter Simulation Conference},
+  YEAR =         {2009},
+  EDITOR =       Rosetti # and # Hill # and # JohanssonB # and # Dunkin # and # IngallsRG,
+  address =      austin,
+  month =        dec,
+}
+
+@PROCEEDINGS{WWWC_2008,
+  TITLE =        {17th World Wide Web Conference},
+  YEAR =         {2008},
+  EDITOR =       {WWWC},
+  address =      beijing,
+  month =        apr,
+}
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

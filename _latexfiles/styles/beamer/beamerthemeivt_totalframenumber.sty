@@ -1,0 +1,115 @@
+\mode<presentation>
+
+\newcommand{\mybeamerpath}{\mypath/styles/beamer/}
+
+% Requirement
+\RequirePackage{tikz}
+
+% Settings
+\setbeamercolor*{title page header}{fg=black}
+\setbeamercolor*{author}{fg=black}
+\setbeamercolor*{date}{fg=black}
+
+
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+ \useasboundingbox (0,1.0) rectangle(\the\paperwidth,\the\paperheight);
+% \fill[color=brown] (0,2) rectangle (\the\paperwidth,\the\paperheight);
+%  \fill[color=orange] (0,0) rectangle(2.95,1.9);
+%  \fill[color=blue!50!cyan!80] (3.05,0) rectangle(\the\paperwidth,1.9);
+  \ifnum\thepage>1\relax%
+  \draw[thick, black] (0,0) -- (4,12);
+  \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+     \fi
+  \end{tikzpicture}
+%  \includegraphics[0.3cm]{\mybeamerpath ivt.pdf}
+ }
+
+\pgfdeclarelayer{background}
+% Title page
+
+
+\defbeamertemplate*{title page}{ivt}[1][]
+{
+\vskip3cm%
+\begin{beamercolorbox}[wd=10cm,leftskip=0.3cm,sep=1pt,#1]{title page header}
+\usebeamerfont{title}\inserttitle\par%
+\end{beamercolorbox}%
+\vskip0.75cm%
+\begin{beamercolorbox}[wd=8cm,leftskip=0.3cm,#1]{author}
+\usebeamerfont{author}\insertauthor%
+\end{beamercolorbox}
+\vskip0.6cm%
+\begin{beamercolorbox}[wd=8cm,leftskip=0.3cm]{}
+\usebeamerfont{author}IVT\\ ETH Zurich
+\end{beamercolorbox}
+\begin{tikzpicture}[remember picture, overlay]
+ \node (ivt) at (9.15,0.25)  {\includegraphics[width=4cm]{\mybeamerpath ivt.pdf}};
+  \node (eth) at (9,-1) {\includegraphics[width=3.7cm]{\mybeamerpath eth.pdf}};
+\end{tikzpicture}
+\vskip0.35cm%
+\begin{beamercolorbox}[wd=8cm,leftskip=0.3cm,sep=1pt,#1]{date}
+\usebeamerfont{author}\insertdate%
+\end{beamercolorbox}
+\vfill
+}
+
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded][shadow=true]  
+\setbeamercolor{block title}{fg=black,bg=black!25!white}%
+\setbeamercolor{block body}{fg=black,bg=black!5!white}%
+
+
+% Frame title
+\defbeamertemplate*{frametitle}{ivt}[1][]
+{
+\vskip1cm%
+\begin{beamercolorbox}[wd=\paperwidth,ht=0.5cm]{frametitle} 
+\begin{tikzpicture}
+\useasboundingbox[fill=white](0,0) rectangle(\the\paperwidth,1.2);
+%\fill[orange] (0,0) rectangle(2.95,1.2);
+%\fill[blue!50!cyan!80] (3.05,0) rectangle(\the\paperwidth,1.2);
+%\ifx\insertframesubtitle\@empty%
+{\node[anchor=west, black,font=\Large] at (1,.85){\textbf{\insertframetitle}};}
+%\else%
+%\node[anchor= west, black,font=\large] at (1.2,0.81){\insertframetitle};%
+%\node[anchor= west, black,font=\small] at (1.2,0.41){\insertframesubtitle};%
+%\fi
+  \draw[black] (1,0.4) -- (\the\paperwidth -20.0 ,0.4);
+\end{tikzpicture}
+\end{beamercolorbox}
+}
+
+
+
+
+
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[ball unnumbered]
+%\setbeamertemplate{subsection in toc}[ball unnumbered]
+
+%\setbeamerfont{section in toc}{family=\rmfamily,series=\bfseries,size=\normalsize}
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black, bg=black}
+\setbeamercolor{subsection number projected}{fg=black, bg=black}
+
+%\setbeamerfont{page number in foot}{size=\large}
+%\setbeamertemplate{footline}[frame number]
+
+
+\setbeamertemplate{footline}
+{%
+\ifnum \insertpagenumber=1
+  \else
+   \begin{beamercolorbox}[wd=\paperwidth,ht=.25ex]{}
+\hspace{0.2cm}      \insertshorttitle %[width=\paperwidth-0.5cm] 
+\hfill \insertframenumber/\inserttotalframenumber \hspace{0.2cm}
+\vspace{.15cm}
+   \end{beamercolorbox}%
+   \fi
+}
+
+
+
+\mode<all>

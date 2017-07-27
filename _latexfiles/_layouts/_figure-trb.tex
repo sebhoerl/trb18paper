@@ -1,0 +1,17 @@
+% !TeX encoding = usascii
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Caption on top or at bottom?
+%%   TRB guidelines: Caption at bottom
+\providecommand{\figurecaptionandcontents}[2]{#2#1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Caption on top or at bottom for tables?
+%%   TRB guidelines: Caption at top
+\providecommand{\tablecaptionandcontents}[2]{#1#2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Use hrules?
+%%   No
+\newcommand{\figurerule}{}
+\providecommand{\figurecontentsafter}{\end{\figurecontentsenv}\vspace{-2ex}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Input definition file
+\input{\mypath../_latexfiles/_layouts/_figure}

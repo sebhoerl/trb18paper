@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% balmermi bibliography list
+%% Date: 2007-06-21
+%% author:
+%%   Michael Balmer, balmer@ivt.baug.ethz.ch
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% language specification:
+%%   Define the language of your Bibliagraphy List
+%%   Choose either 'german' or 'english' as your first language.
+\newcommand{\myfirstlang}{english}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% DO NOT CHANGE ANYTHING DOWN HERE.
+%% Add your references after the preamble is ended (inside)
+%% '\begin{document}'
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[a4paper,12pt,oneside,english,german]{article}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm,includeheadfoot]{geometry}
+\usepackage{ifthen}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifthenelse{\equal{\myfirstlang}{german}}{%
+  \usepackage[german]{babel}%
+}{%
+  \usepackage[english]{babel}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{parskip}
+\setlength{\parindent}{0in}%
+\setlength{\parskip}{10pt}
+\usepackage{times}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{setspace}
+\singlespacing
+\usepackage{xspace}
+\usepackage{amsmath}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[numbers]{natbib}
+\bibpunct{\emph{(}}{\emph{)}}{\emph{,}}{n}{\emph{,}}{\emph{,}}
+\renewcommand{\citenumfont}[1]{\emph{#1}}
+\renewcommand{\bibnumfmt}[1]{}
+\ifthenelse{\equal{\myfirstlang}{german}}{%
+  %\bibliographystyle{../styles/template_plain-unsrt-ger}%
+  \bibliographystyle{../styles/template_ivt-unsrt-ger}%
+}{%
+  %\bibliographystyle{../styles/template_plain-unsrt-eng}%
+  \bibliographystyle{../styles/template_ivt-unsrt-eng}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{%
+  \ifthenelse{\equal{\myfirstlang}{german}}{%
+    Beispiel-Referenzen für ein Paper geschrieben in Word%
+  }{%
+    Example References for a Paper written in Word%
+  }%
+}
+\author{balmer at ivt dot baug dot ethz dot ch}
+\date{\today}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\@ifpackageloaded{tex4ht}{%
+  \def\mymaketitle{}
+}{%
+  \def\mymaketitle{\maketitle}
+}%
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% BEGIN OF DOCUMENT
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Include the title (do not chage that)
+\mymaketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\nocite{*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{../bibs/all-eng}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% END OF DOCUMENT
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Editor specific keywords:
+%%
+%% WinEdt:
+%%   to get the bibliography list
+%%GATHER{../../../_latexfiles/bibs/all-eng.bib}
+%GATHER{../../../_latexfiles/bibs/main.bib}
+%GATHER{../../../_latexfiles/bibs/article.bib}
+%GATHER{../../../_latexfiles/bibs/book.bib}
+%GATHER{../../../_latexfiles/bibs/incollection.bib}
+%GATHER{../../../_latexfiles/bibs/inproceedings.bib}
+%GATHER{../../../_latexfiles/bibs/manual.bib}
+%GATHER{../../../_latexfiles/bibs/mastersthesis.bib}
+%GATHER{../../../_latexfiles/bibs/misc.bib}
+%GATHER{../../../_latexfiles/bibs/phdthesis.bib}
+%GATHER{../../../_latexfiles/bibs/proceedings.bib}
+%GATHER{../../../_latexfiles/bibs/techreport.bib}
+%GATHER{../../../_latexfiles/bibs/unpublished.bib}

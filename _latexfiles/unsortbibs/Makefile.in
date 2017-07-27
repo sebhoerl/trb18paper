@@ -1,0 +1,11 @@
+OUTDIR_NAME := .
+
+all: example.grep example.pdf $(EXTRA_TARGETS)
+
+example.blg: example.pdf
+
+example.grep: example.blg
+	egrep -v "^Reallocated" $< | egrep "^I'm skipping|^Warning" -C 5 -nH -h > $@ || true
+	[ ! -s $@ ] || (cat example.grep && false)
+
+.PHONY: example.grep

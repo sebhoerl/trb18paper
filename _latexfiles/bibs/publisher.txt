@@ -1,0 +1,212 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% publisher.txt:
+%   Defines shortcuts for publishers.
+%   NOTE: NEVER use names for publishers
+%         in your BibTeX item! Always use the ones in here, or
+%         add it if necessary.
+%   NOTE: If you add a new shortcut, add it at the right place meaning
+%         sorted lexicographially!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publishers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ACM	Association for Computing Machinery
+ACMPress	ACM Press
+AMA	American Marketing Association
+Aashto	AASHTO
+AashtoPublisher	American Association of State Highway and Transportation Officials
+Abacus	Abacus Press
+AcademicP	Academic Press
+AddisonWesley	Addison-Wesley
+Alba	Alba
+AlfredKroener	Alfred Kröner Verlag
+Allen	Allen and Unwin
+AllynBacon	Allyn and Bacon
+AmMathSoc	American Mathematical Society
+Amerind	Amerind
+ArtechHouse	Artech House
+Ashgate	Ashgate
+Avebury	Avebury
+Berghahn	Berghahn Books
+BGTeubner	B. G. Teubner
+BHARC	Battelle Human Affairs Research Centers
+BIS	BIS-Verlag
+Blackwell	Blackwell
+BWP	Blackwell Science
+Beltz	Beltz
+BoD	Books on Demand
+Brill	Brill Academic Publishers
+Brookings	The Brookings Institution
+BrooksCole	Brooks/Cole
+ButlerTanner	Butler and Tanner
+CRCPress	CRC Press
+CamUniPress	Cambridge University Press
+CarlHanser	Carl Hanser Verlag
+ChapmanHall 	Chapman \& Hall
+ChapCRC	Chapman \& Hall/CRC
+CT	Collana Transporti, Franco Angeli
+ColUniPress	Columbia University Press
+CroomHelm	Croom Helm Ltd
+DRCOSUni	Disaster Research Center, Ohio State University
+DUV	Deutscher Universitätsverlag
+DVWG	DVWG-Schriftenreihe
+Duke	Duke University
+EIRASS	EIRASS
+EPFLpress	EPFL Press
+ETHZ	ETH Zürich
+Earthscan	Earthscan
+EdGirsberger	Editions Girsberger
+EdinburghUP	Edinburgh University Press
+EdwardElgar	Edward Elgar
+Elsevier	Elsevier
+Emerald	Emerald
+Euca	Eucalyptus Press	
+FarrarStraussGiroux	Farrar\, Strauss \& Giroux
+FEMA	Federal Emergency Management Agency
+FischerVerlag	Verkehrs-Verlag J. Fischer
+FGSV	FGSV Verlag GmbH
+FP	Free Press, a division of Macmillan Publishing Company
+FTBV	Fischer Taschenbuch Verlag
+GablerVerlag	Gabler Verlag
+GeoBooks	Geo Books
+Gower	Gower
+Graphics	Graphics Press
+GTA	GTA Verlag
+cont	Continuum
+harwood	Harwood Academic Publishers
+HRB	Highway Research Board
+HarperCollins	HarperCollins
+Harvard	Harvard University Press
+HMSO	Her Majesty's Stationery Office
+HoltRW	Holt, Rinehart \& Winston
+HuberVerl	Huber
+IATBR	International Association for Travel Behaviour Research
+ICE	Institute of Civil Engineers
+IFGI	IfGI prints, Institut für Geoinformatik
+IFMO	Institut für Mobilitätsforschung 
+IGI	IGI Global
+IKA	Institut für Kartografie
+IPCC	Intergovernmental Panel on Climate Change
+ISBAachen	Institut für Stadtbauwesen RWTH Aachen
+ISR	Information Science Reference
+ITUO	International Time Use Observatory
+IVT	Institut für Verkehrsplanung und Transportsysteme
+IslandPress	Island Press
+JAIPress	JAI Press
+JohnMurray	John Murray
+Jona	Jona
+Klett	Klett
+Kluwer	Kluwer
+LEA	Lawrence Erlbaum Associates
+LV	Lit Verlag
+Lassleben	Verlag Michael Lassleben
+LexingtonBooks	Lexington Books
+Lulu	Lulu Press Center
+MITPress	MIT Press
+MPRESS	m-press
+MacmillanCo	Macmillan and Co.
+MacmillanPress	Macmillan Press
+MarshallCavendishB	Marshall Cavendish Business
+McGrawHill	McGraw-Hill
+MetaGIS	Verlag MetaGIS Infosysteme
+MorganClaypool	Morgan and Claypool Publishers
+NUNP	New Urban News Publications Inc.
+NAI	NAI010 Publishers
+NaturePubGroup	Nature Publishing Group
+NoWeUniPress	Northwestern University Press
+NorthHolland	North-Holland
+Norton	Norton
+Oldenbourg	Oldenbourg
+OpenUniPress	Open University Press
+OxUniPress	Oxford University Press
+Palgrave	Palgrave Macmillan
+PearsonPrenticeHall	Pearson Prentice Hall
+PenStateUniPress	Pennsylvania State University Press
+Pergamon	Pergamon Press
+Perseus	Perseus
+Pion	Pion
+Pitman	Pitman
+PlannersPress	Planners Press
+PolityPress	Polity Press
+PrenticeHall	Prentice Hall
+PrincetonArchPress	Princeton Architectural Press
+PrincetonUniPress	Princeton University Press
+PsychoPress	Psychology Press
+QuorumBooks	Quorum Books
+RCSE	Research Collection School of Economics Singapore
+ResPubLLC	Research Publishers LLC
+RRZN	Regionales Rechenzentrum für Niedersachsen
+RSP	Research Studies Press
+RandomHouse	Random House
+Rizzoli	Rizzoli
+Routledge	Routledge
+RowmanLittlefield	Rowman \& Littlefield
+SAGE	SAGE Publications
+SASP	Simon \& Schuster Paperbacks
+SAS	Simon \& Schuster
+SVWG	Schweizerische Verkehrswissenschaftliche Gesellschaft (SVWG)
+Skira	Skira
+SponPress	Spon Press
+Springer	Springer
+Sterling	Sterling
+TRAIL	TRAIL Research School
+TRB	Transportation Research Board
+TelfordPublishing	Thomas Telford Publishing
+TheFabric	The Fabric Workshop and Museum
+Ubiquity	Ubiquity
+UC	Urban Computing
+UCPress	University of Chicago Press
+UITC	UIT Cambridge Ltd.
+UMP	The University of Michigan Press
+UPP	University of the Philippines Press
+UTB	UTB
+UVEK	Eidgenössisches Departement für Umwelt, Verkehr, Energie und Kommunikation
+UniChic	University of Chicago
+VDF	vdf Hochschulverlag AG an der ETH Zürich
+VDR	Verlag Dorothea Rohn
+VFB	Verlag für Bauwesen
+VKBL	Verlag des Kantons Basel-Landschaft
+VNUSP	VNU Science Press
+VS	Verlag für Sozialwissenschaften
+VSM	VSM München
+VTPI	Victoria Transport Policy Institute
+VWF	Verlag für Wiss. und Forschung
+VahlenVerlag	Verlag Vahlen
+Vieweg	Vieweg
+VogelBuchverlag	Vogel Buchverlag
+Wagenbach	Klaus Wagenbach
+WHFreeman	W.H. Freeman and Company
+WUV	WUV-Universitätsverlag
+WestPerod	Western Perodicals
+Westdeutscher	Westdeutscher Verlag
+Wiley	John Wiley
+WileySons	John Wiley \& Sons
+WileyVCH	Wiley-VCH Verlag GmbH \& Co. KGaA
+WissBuchg	Wissenschaftliche Buchgesellschaft
+WissMainz	Wissenschaftsverlag Mainz
+WolframMedia	Wolfram Media
+WorldScientific	World Scientific
+YaleUnivPress	Yale University Press
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

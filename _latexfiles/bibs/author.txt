@@ -1,0 +1,4830 @@
+% !TEX encoding = utf8
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Encoding check:
+%%   ä  ö  ü  Ä  Ö  Ü  ß  á  é  í  ó  ú  à  è  ì  ò  ù  â  ê  î  ô  û
+%%
+%%   If the above contains rubbish, please re-open this file using
+%%   the CORRECT encoding.  By default this is UTF-8.
+%%   DO NOT save the file in this case!
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% author.txt:
+%   Defines shortcuts for authors.
+%   NOTE: NEVER use names for authors
+%         in your BibTeX item! Always use the ones in here, or
+%         add it if necessary.
+%   NOTE: If you add a new shortcut, add it at the right place meaning
+%         sorted lexicographially!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% author names
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% A %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Aasa	Aasa, Anto
+Abady	Abady, M.
+Abay	Abay, Georg
+Abbe	Abbe, E.
+AbdelAty	Abdel-Aty, Mohamed A.
+Abdulaal	Abdulaal, Mustafa
+AbdulMassih	Abdul Massih, Michel
+Abdulhai	Abdulhai, Baher
+Abedin	Abedin, Zain U.
+Abel	Abel, Troy
+AbelR	Abel, Reuben
+Abeysinghe	Abeysinghe, Tilak
+AbouZeid	Abou-Zeid, Maya
+Abraham	Abraham, J. E.
+AbrahamD	Abraham, Dulcy
+Abrahamse	Abrahamse, Wokje
+Abrantes	Abrantes, Pedro A. L.
+AbuLebdeh	Abu-Lebdeh, Ghassan
+Abulghasemi	Abulghasemi, Farhad
+Abunaim	Abunaim, Bilal
+Achtnicht	Achtnicht, Martin
+Ackermann	Ackermann, T.
+Adey	Adey, Bryan
+Adler	Adler, T. J.
+AdlerJ	Adler, Jeffrey L.
+Adomavicius	Adomavicius, Gediminas
+Aerts	Aerts, Koen
+Agarwal	Agarwal, Manish
+AgarwalSK	Agarwal, S. K.
+Agresti	Agresti, A.
+Aguila	Aguila, Felipe
+Aguirre	Aguirre, H.
+Ahas	Ahas, Rein
+Ahn	Ahn, Kyoungho
+Aigner	Aigner, Dennis John
+Airoldi	Airoldi, Edoardo M.
+AjmoneMarsan	Ajmone-Marsan, Marco
+Ajzen	Ajzen, Icek
+Akamatsu	Akamatsu, T.
+Akar	Akar, Gulsah
+Akcelik	Akcelik, Rahmi
+Akguen	Akgün, Vedat
+AlamS	Alam, Saniul
+Albers	Albers, Susanne
+AlbertiM	Alberti, Marina
+AlDeek	Al-Deek, Haitham M.
+AlKhamis	AlKhamis, T.
+AlKhudhairy	Al-Khudhairy, D.
+Alam	Alam, M.
+AlamSB	Alam, Sajjad B.
+Alberini	Alberini, Anna
+Albert	Albert, Réka
+AlbertI	Albert, I.
+Albrantes	Albrantes, Pedro A.
+Albrecht	Albrecht, B.
+AlbrechtCM	Albrecht, Carmen-Maria
+Alderson	Alderson, David L.
+Aldskogius	Aldskogius, Hans
+Alexander	Alexander, Christopher
+AlexanderL	Alexander, Lauren
+Alexopoulos	Alexopoulos, Christos
+Algers	Algers, Staffan
+Ali	Ali, J.
+AliA	Ali, Atizaz
+AliSSM	Ali, S. Sheik Mohammed
+Aliaga	Aliaga, Daniel G.
+Allard	Allard, Bruno
+Allenby	Allenby, Greg M.
+Allsop	Allsop, Richard E.
+Alonso	Alonso, William
+AlosFerrer	Alós-Ferrer, Carlos
+Alpern	Alpern, B.
+Alrabady	Alrabady, Ansaf
+Als	Als, Helmut
+Alt	Alt, Bernhard
+Alvarez	Alvarez, R.
+Alver	Alver, Yalcin
+Alves	Alves, Ana
+Amacher	Amacher, Matthias
+Ambrosino	Ambrosino, G.
+Amdahl	Amdahl, Gene Myron
+Amme	Amme, F.
+Ammoser	Ammoser, Hendrik
+Ampountolas	Ampountolas, Konstantinos
+Ampt	Ampt, Elizabeth S.
+Anable	Anable, Jillian
+Anandalingam	Anandalingam, G.
+Anas	Anas, Alex
+Anda	Anda, Cuauhtemoc
+Andan	Andan, Odile
+Anders	Andres, Karl-Heinrich
+Andersen	Andersen, Erling B.
+Anderson	Anderson, Simon P.
+AndersonJC	Anderson, James C.
+AndersonJR	Anderson, John R.
+AndersonR	Anderson, Rebekah
+AndersonW	Anderson, William
+AndersonWP	Anderson, William P.
+Andersson	Andersson, G.
+Andrade	Andrade, J. S.
+Andre	André, M.
+AndreBK	Andre, Brandon K.
+Andres	Andres, Terry
+Andrews	Andrews, Rick L.
+Anez	Añez, J.
+Ankomah	Ankomah, Paul K.
+Anninou	Anninou, Artemis
+Ansah	Ansah, J. A.
+Anselin	Anselin, Luc
+Anson	Anson, Doug
+Antes	Antes, Ralf
+Antille	Antille, N.
+Antoniou	Antoniou, Constantinos
+Apostolou	Apostolou, Dimitris
+Appleyard	Appleyard, D.
+Aptus	Aptus, Elias
+Arbib	Arbib, Michael A.
+Arce	Arce, Carlos
+Arellano	Arellano, Manuel
+Arendt	Arendt, Michael
+Arentze	Arentze, Theo A.
+Arge	Arge, Lars
+Aribarg	Aribarg, Anocha
+Arimah	Arimah, Ben C.
+Arizumi	Arizumi, N.
+Armas	Armas, R.
+Armoogum	Armoogum, Jimmy
+Arnet	Arnet, Kathrin
+Arnold	Arnold, Stephen J.
+ArnoldM	Arnold, Michael A.
+Arnott	Arnott, Robert
+ArnottR	Arnott, Richard
+Arora	Arora, Neeraj
+Arrache	Arrache, Saida
+Arsanjani	Arsanjani, Jamal J.
+Arthur	Arthur, Brian W.
+Artukovic	Artukovic, Mirjana
+Arvidson	Arvidson, Peter
+Asakura	Asakura, Yasuo
+Aschwanden	Aschwanden, Gideon
+AschwandenA	Aschwanden, Alain
+Asensio	Asensio, Javier
+Ashbrook	Ashbrook, Daniel
+Ashiru	Ashiru, Olu
+Asim	Asim, Ajaz
+Assemi	Assemi, Behrang
+Astarita	Astarita, V.
+Astroza	Astroza, Sebastian
+Atasoy	Atasoy, Bilge
+Athuru	Athuru, Sudhakar R.
+Atkinson	Atkinson, J. B.
+Attanucci	Attanucci, John
+AufderMaur	Auf der Maur, Alex
+Auld	Auld, Joshua
+Aultmann	Aultman-Hall, Lisa
+AustinA	Austin, Andrea
+Avineri	Avineri, Erel
+Axelrod	Axelrod, Robert
+Axhausen	Axhausen, Kay Werner
+AxhausenKW	Axhausen, Kay W.
+Axmark	Axmark, David
+Ayed	Ayed, H.
+Aytug	Aytug, Haldun
+Azevedo	Azevedo, José Augusto
+Aziz	Aziz, Zaheer
+
+% B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Baass	Baass, K.
+Bachman	Bachman, William
+Bachner	Bachner, Gerald
+Bachrach	Bachrach, Christine A.
+Back	Bäck, T.
+Backstrom	Backstrom, Lars
+Badia	Badia, H.
+Badler	Badler, Norman I.
+Badoe	Badoe, Daniel A.
+Badsey-Ellis	Badsey-Ellis, Antony
+Bae	Bae, Chang-Hee C.
+Baehr	Bähr, Jürgen
+Bafna	Bafna, Sonit
+Bagchi	Bagchi, M.
+Baggerly	Baggerly, Keith A.
+Bagley	Bagley, Michael N.
+Baier	Baier, Reinhold
+Baker	Baker, Earl J.
+BakerD	Baker, Dean
+BakerJ	Baker, Julie
+BakerP	Baker, Paul
+Bakuli	Bakuli, David L.
+Balac	Balac, Milos
+Balakrishna	Balakrishna, Ramachandran
+BalakrishnaR	Balakrishna, R.
+Ballard	Ballard, Dana H.
+Baldacci	Baldacci, Roberto
+Balietti	Balietti, S.
+Ball	Ball, Michael O.
+Balmer	Balmer, Michael
+Balmforth	Balmforth, P.
+Baltas	Baltas, George
+Bamberg	Bamberg, Sebastian
+Bampi	Bampi, Sergio
+Bandara	Bandara, Thusitha
+Banerjee	Banerjee, Ipsita
+Bang	Bang, Yoonsik
+Banfi	Banfi, Silvia
+Bankhoff	Bankhoff, Greg
+Banks	Banks, J.
+BanksCM	Banks, C. M.
+BanksWE	Banks, W. E.
+BarGera	Bar-Gera, Hillel
+Barabasi	Barabási, Albert-László
+Baranzini	Baranzini, Andrea
+Barbeau	Barbeau, Sean J.
+Barcelo	Barceló, J.
+Barkema	Barkema, G. T.
+Barker	Barker, T. G.
+Barnard	Barnard, P. O.
+Barnett	Barnett, Jonathan
+Barnum	Barnum, H. Gardiner
+Baro	Baro, J.
+Barrett	Barrett, Chris L.
+BarrettCL	Barrett, Christopher L.
+BarrettF	Barrett, Frank
+Barth	Barth, Matthew
+Barthelemy	Barthélemy, Johan
+BarthelemyM	Barthélemy, Marc
+Barto	Barto, Andrew G.
+Barton	Barton, Hugh
+Basso	Basso, Leonardo J.
+Bast	Bast, Hannah
+Basturk	Basturk, Halil
+Basu	Basu, S.
+Batchu	Batchu, Umalathan
+Bates	Bates, John J.
+BatesJ	Bates, J.
+Bateson	Bateson, John E. G.
+Batley	Batley, R.
+Batsell	Batsell, Richard R.
+Batt	Batt, Peter J.
+Batta	Batta, Rajan
+Batty	Batty, Mike
+Baumann	Baumann, Gerd
+Baumeister	Baumeister, Roy F.
+Baumeler	Baumeler, M.
+Baumgartner	Baumgartner, Michael
+Bawa	Bawa, Kapil
+Bayarma	Bayarma, Alexander
+Bayen	Bayen, Alexandre M.
+Bayir	Bayir, Murat Ali
+Bazzan	Bazzan, A. L. C.
+Bazzani	Bazzani, A.
+Bebber	Bebber, Dan P.
+Beck	Beck, Matthew J.
+Becke	Becke, M.
+Becken	Becken, Susanne
+BeckenO	Becken, Olaf
+Becker	Becker, Gary S.
+BeckerF	Becker, Felix
+BeckerH	Becker, Henrik
+BeckerR	Becker, R.
+BeckerU	Becker, Udo
+BeckmanR	Beckman, Richard J.
+Beckmann	Beckmann, Klaus J.
+BeckmannJ	Beckmann, Judith
+BeckmannM	Beckmann, Martin
+BeckmannMJ	Beckmann, M. J.
+BeckmannP	Beckmann, Petra
+Beckx	Beckx, Carolien
+Bedford	Bedford, M.
+Beer	Beer, M.
+Beesley	Beesley, Michael E.
+BeharryBorg	Beharry-Borg, Nesha
+Beige	Beige, Sigrun
+Beigl	Beigl, M.
+Beimborn	Beimborn, Edward
+Beirao	Beirão, J. N.
+Bekhor	Bekhor, Shlomo
+Belart	Belart, Benjamin C.
+Belderrain	Belderrain, M. C. N.
+Belella	Belella, Paul A.
+Belik	Belik, Vitaly
+Belisle	Belisle, Patrick
+Bell	Bell, D. E.
+BellDR	Bell, David R.
+BellM	Bell, Michael G. H.
+BellR	Bell, R.
+BellSJ	Bell, Simon J.
+Bellemans	Bellemans, Tom
+Bellens	Bellens, Rik
+Bellman	Bellman, Richard Ernest
+Bello	Bello, Laurentino
+BelloD	Bello, Daniel C.
+Belzner	Belzner, Heidrun
+Bemetz	Bemetz, V.
+BenAbdesslem	Ben Abdesslem, Fehmi
+BenAkiva	Ben-Akiva, Moshe E.
+BenJoseph	Ben-Joseph, E.
+Bender	Bender, Klaus
+BenderEA	Bender, Edward A.
+Benekohal	Benekohal, Rahim F.
+Benenson	Benenson, Itzhak
+Benes	Benes, Bedrich
+Benmohamed	Benmohamed, Mohamed
+Benners	Benners, L.
+Bennison	Bennison, David
+Benson	Benson, Jimmie D.
+BensonPE	Benson, Paul E.
+Bentler	Bentler, P. M.
+Bentley	Bentley, J. L.
+Benzion	Benzion, Uri
+Bera	Bera, A.K.
+Berdica	Berdica, Katja
+Berestycki	Berestycki, Henri
+Berg	Berg, W. D.
+Berger	Berger, Manuel
+Bergman	Bergman, M. J.
+Bergmann	Bergmann, M.
+Bernard	Bernard, Michael
+Bernardin	Bernardin, Vincent L.
+Bernardino	Bernardino, Adriana T.
+Bernauer	Bernauer, Eric
+BernoulliD	Bernoulli, Daniel
+Bernstein	Bernstein, David H.
+BernsteinD	Bernstein, David
+Berry	Berry, Brian J. L.
+Berstein	Berstein, D. H.
+Beser	Beser, Muriel
+Bettman	Bettman, J. R.
+Betz	Betz, Nancy E.
+Beuck	Beuck, Ulrike
+Beverland	Beverland, Michael
+BeyerHG	Beyer, Hans-Georg
+Bhargava	Bhargava, Sana
+Bhat	Bhat, Chandra R.
+BhatAC	Bhat, Aarti C.
+Bhatt	Bhatt, Kiran U.
+Bhattacharjee	Bhattacharjee, Bobby
+Bhattacharyya	Bhattacharyya, A.
+Bialostozky	Bialostozky, Evan
+Bickel	Bickel, P.
+Biding	Biding, T.
+Bieger	Bieger, T.
+Biehl	Biehl, Katherine
+Bielli	Bielli, M.
+Bierce	Bierce, Eric
+Bierlaire	Bierlaire, Michel
+Biethahn	Biethahn, Jörg
+Biles	Biles, William E.
+Bilotkach	Bilotkach, Volodymyr
+Bindra	Bindra, S.
+Binnenbruck	Binnenbruck, H.
+Birdsall	Birdsall, James
+Birfir	Birfir, Slava
+Birg	Birg, H.
+Birkeland	Birkeland, Mikkel Egede
+Birkin	Birkin, M.
+Birkmann	Birkmann, Jörn
+Birkner	Birkner, Thomas
+Birn	Birn, K.
+Birotker	Birotker, Yehoshua
+Bischof	Bischof, Tamara
+Bischoff	Bischoff, Joschka
+Bishop	Bishop, S.
+Bittner	Bittner, W. L.
+Bivand	Bivand, Robert
+Bjorner	Bjorner, Thomas B.
+Blachman	Blachman, Meir
+Black	Black, W. C.
+Blaikie	Blaikie, Piers
+Blais	Blais, Ann-Renée
+Bleisch	Bleisch, A.
+Blessing	Blessing, R.
+Bliemer	Bliemer, Michiel C. J.
+Blinde	Blinde, Julia
+Blitzstein	Blitzstein, Joseph
+Bloebaum	Blöbaum, Anke
+Blom	Blom, Jan
+Blommestein	Blommestein, Hans
+Blondel	Blondel, Vincent D.
+Blossfeld	Blossfeld, Hans-Peter
+Blum	Blum, J.
+Blumenberg	Blumenberg, Evelyn
+Blumm	Blumm, Nicholas
+Blundell	Blundell, Richard
+Boccara	Boccara, Bruno
+Bock	Bock, Benno
+Bockemuehl	Bockemühl, F.
+Boddy	Boddy, L.
+Bode	Bode, Jeffrey W.
+Bodenbender	Bodenbender, Anne-Kathrin
+Bodenmann	Bodenmann, Balz R.
+Bodur	Bodur, H. Onur
+Boehme	Böhme, S.
+Boerjesson	Börjesson, Maria
+Boero	Boero, M.
+Boesch	Bösch, Patrick M.
+Boettger	Böttger, Thorsten
+Bogenberger	Bogenberger, Klaus
+Bogner	Bogner, Alexander
+Boguna	Bogu\~n\'a, Mari\'an
+Bohn	Bohn, William
+Bohte	Bohte, Wendy
+Bolduc	Bolduc, Denis
+Bolik	Bolik, H.
+Bollen	Bollen, K. A.
+Boloni	Boloni, Ladislau
+Bolot	Bolot, Jean
+Boltze	Boltze, M.
+Bonabeau	Bonabeau, Eric
+Bondzio	Bonzio, Lothar
+Bonifaci	Bonifaci, Vincenzo
+Bonnel	Bonnel, P.
+Bonsall	Bonsall, P. W.
+Boo	Boo, G.
+Bordin	Bordin, Patricia
+Bordini	Bordini, Rafael H.
+Borgers	Borgers, Aloys W. J.
+Bornholdt	Bornholdt, Stefan
+Borning	Borning, A.
+Borzacchiello	Borzacchiello, Maria Teresa
+Bosredon	Bosredon, Melanie
+Bossel	Bossel, Hartmut
+Bosselmann	Bosselmann, Michael
+Bothos	Bothos, Efthimios
+Botkin	Botkin, Martin R.
+Botma	Botma, H.
+Bottom	Bottom, J. A.
+BottomJ	Bottom, J.
+Boulouchos	Boulouchos, K.
+Bouman	Bouman, P.
+BounMy	Boun My, Kene
+Bourahla	Bourahla, Mustapha
+Bourguignon	Bourguignon, Francois
+Bourdic	Bourdic, Loeiz
+Bovy	Bovy, Piet H. L.
+Bowman	Bowman, John L.
+Box	Box, G. E. P.
+Boyce	Boyce, David
+BoyceDE	Boyce, David E.
+Boyd	Boyd, J. Hayden
+Boyle	Boyle, R. D.
+BoyleK	Boyle, K.
+Bradburn	Bradburn, Norman M.
+Bradlay	Bradlay, Gordon
+Bradley	Bradley, Mark A.
+Braendle	Brändle, Norbert
+Braennaes	Brännäs, Kurt
+Braess	Braess, Dietrich
+Brail	Brail, R. K.
+Bramley	Bramley, Glen
+Brandes	Brandes, U.
+Brandon	Brandon, Jonathan
+Bratrich	Bratrich, Christine
+Braun	Braun, Nils
+Brawand	Brawand, Sergio
+Brazil	Brazil, William
+Brechet	Brechet, Y.
+Brederode	Brederode, L.
+BreenD	Breen, D.
+Breheret	Breheret, Laurent
+Breiman	Breiman, Leo
+Breitenstein	Breitenstein, Christine
+Brems	Brems, C.
+Breuss	Breuss, Simon
+Brewer	Brewer, Ann M.
+Briand	Briand, Anne
+Bricka	Bricka, Stacey
+Brignole	Brignole, Nélida
+Brignoni	Brignoni, Massimo
+Brijs	Brijs, T.
+Brilon	Brilon, W.
+Bristow	Bristow, Abigail L.
+Broach	Broach, Joseph
+Brodal	Brodal, G. S.
+Broeg	Brög, Werner
+Brook	Brook, D.
+Brown	Brown, Juanita J.
+BrownC	Brown, Colby
+BrownL	Brown, Lawrence A.
+BrownS	Brown, Stephen
+Browning	Browning, M.
+Brownlee	Brownlee, A. T.
+Brownstone	Brownstone, D.
+Brucks	Brucks, Wernher M.
+Brueggemann	Brüggemann, U.
+Bruehwiler	Brühwiler, Eugen
+Bruhn	Bruhn, Manfred
+Brunn	Brunn, Stanley D.
+Brunner	Brunner, James A.
+BrunnerB	Brunner, Beat
+Bruns	Bruns, Frank
+Brunsdon	Brunsdon, Chris
+Brunsma	Brunsma, David L.
+Brush	Brush, A.J.B.
+Bruwier	Bruwier, M.
+Brychta	Brychta, Peter
+Bucci	Bucci, Anthony
+Buchegger	Buchegger, T.
+Bucher	Bucher, Benedicte
+Buchmueller	Buchmüller, Stephan
+Buergle	Bürgle, Michaela
+Buergler	Bürgler, Stefan
+Buhl	Buhl, T
+BuhlJ	Buhl, J.
+BuhlS	Buhl, Soren
+Buhmann	Buhmann, J. M.
+Buisson	Buisson, Christine
+Bujosa	Bujosa, Marcos
+Buliung	Buliung, Ron N.
+Bullock	Bullock, P.
+BullockD	Bullock, Darcy
+Bulsara	Bulsara, Max
+Bunch	Bunch, D.
+Burgard	Burgard, Wolfram
+Burgener	Burgener, A.
+Burgess	Burgess, A.
+Buriks	Buriks, Carla
+Buriol	Buriol, Luciana S.
+Burke	Burke, Edmund
+Burkhard	Burkhard, Remo
+Burkhardt	Burkhardt, Jon
+Burmeister	Burmeister, B.
+Burnett	Burnett, K. O.
+BurnettKP	Burnett, K. P.
+BurnettP	Burnett, Pat
+Burns	Burns, James E.
+Burri	Burri, Adrian
+Burris	Burris, Mark W.
+Burt	Burt, Steve
+Burton	Burton, I.
+Buschor	Buschor, Oliver
+Busic	Busic, Ana
+Buss	Buss, Dale
+Busse	Busse, G.
+Button	Button, Kenneth J.
+Byon	Byon, Young-Ji
+Byrd	Byrd, Andrew
+Byrne	Byrne, B.
+ByrneJ	Byrne, John
+
+% C %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Caceres	Caceres, R.
+Cacho	Cacho, Oscar
+Caduff	Caduff, Luzian
+Cadwallader	Cadwallader, Martin
+Cai	Cai, X.
+Cain	Cain, Virginia S.
+Calabrese	Calabrese, Francesco
+Callahan	Callahan, Paul B.
+Calvo	Calvo, Roberto Wolfer
+Camandona	Camandona, Christian
+Camara	Câmara, Gilberto
+Cameron	Cameron, Gordon D. B.
+Campari	Campari, Riccardo
+Campbell	Campbell, Andrew
+CampbellKE	Campbell, Karen E.
+Campolongo	Campolongo, Francesca
+Caneparo	Caneparo, Luca
+Canfield	Canfield, E. Rodney
+Cannon	Cannon, Terry
+Cantarella	Cantarella, C.
+Cantillo	Cantillo, Victor
+CantuRos	Cantú-Ros, Oliva
+Canziani	Canziani, O. F.
+Canzler	Canzler, Weert
+Cao	Cao, Xinyu
+CaoJ	Cao, Jin
+CaoL	Cao, Lili
+Carballido	Carballido, Jessica
+Carbone	Carbone, Ana
+Cardell	Cardell, N. Scott
+Cardillo	Cardillo, Alessio
+Cardona	Cardona, O. D.
+Carell	Carell, A.
+Carey	Carey, Malachy
+Cariboni	Cariboni, Jessica
+Carl	Carl, Gudrun
+Carle	Carle, Gian
+Carlsson	Carlsson, Erik
+Carmona	Carmona, Matthew
+Carosio	Carosio, A.
+Carpenter	Carpenter, S. M.
+Carralero	Carralero-Encinas, Jose
+Carrasco	Carrasco, Nelson
+CarrascoJA	Carrasco, Juan Antonio
+Carrel	Carrel, André
+Carrier	Carrier, Emmanuel
+CarrionMadera	Carrion-Madera, C.
+Carson	Carson, J.
+Carter	Carter, Todd B.
+Casas	Casas, J.
+Casati	Casati, Daniele
+Cascetta	Cascetta, Ennio
+Casey	Casey, H. J.
+Cassir	Cassir, C.
+Castaigne	Castaigne, M.
+Casti	Casti, John L.
+Castiglione	Castiglione, Joe
+Castro	Castro, Marisol
+Cattaneo	Cattaneo, P.
+Caulfield	Caulfield, Brian
+Cayford	Cayford, Randall
+Cebrian	Cebrian, Manuel
+Ceder	Ceder, Avishai
+Cepeda	Cepeda, M.
+Cervero	Cervero, Robert
+Cerwenka	Cerwenka, Peter
+Cetin	Cetin, Nurhan
+Chabini	Chabini, I.
+Chakirov	Chakirov, Artem
+Chakour	Chakour, Vincent
+Chakravarthy	Chakravarty, Pramodh
+Chalasani	Chalasani, V. S.
+Chalermpong	Chalermpong, Saksith
+Chamhuri	Chamhuri, Norshamliza
+Chan	Chan, C.
+Chang	Chang, Gang-Len.
+ChangE	Chang, Elva
+ChangG	Chang, G.-L.
+ChangHyeon	Chang-Hyeon, J.
+ChangP	Chang, Peter C.
+ChangS	Chang, Stephanie
+Chao	Chao, Fred
+Chapin	Chapin, F. S.
+Chapleau	Chapleau, Robert
+Chapman	Chapman, Randall G.
+Charan	Charan, Karthik
+Charlton	Charlton, Martin
+CharltonB	Charlton, Billy
+CharltonW	Charlton, William A.
+Charnes	Charnes, A.
+Charypar	Charypar, David
+Chatterjee	Chatterjee, Arnab
+Chau	Chau, K. W.
+Chaumet	Chaumet, Ralf
+Chawathe	Chawathe, Yatin
+Chen	Chen, A.
+ChenCy	Chen, Cynthia
+ChenF	Chen, F.
+ChenH	Chen, Haohui
+ChenJ	Chen, Jingmin
+ChenJQ	Chen, J.
+ChenJI	Chen, Jiangzhuo
+ChenJa	Chen, Jason
+ChenMC	Chen, Ming-Chi
+ChenQ	Chen, Qian
+ChenQC	Chen, Qiuzi Cynthia
+ChenW	Chen, Wendy Y.
+ChenWe	Chen, Weiya
+ChenX	Chen, Xuewu
+ChenXQ	Chen, Xiang
+ChenXU	Chen, Xuewi
+ChenY	Chen, Yangchi
+ChenYQ	Chen, Yali
+ChenYu	Chen, Yu
+ChenZ	Chen, Zhiya
+Cheney	Cheney, Ward
+Cheng	Cheng, Guangxiang
+ChengC	Cheng, Chuntian
+ChengT	Cheng, Tao
+ChengYC	Cheng, Yu-Chung
+Cherchi	Cherchi, Elisabetta
+Chesher	Chesher, Andrew
+Cheu	Cheu, Ruey Long
+Cheung	Cheung, A. K. C.
+Chiabai	Chiabai, Aline
+Chiabaut	Chiabaut, Nicolas
+Chiappori	Chiappori, P. A.
+Chikaraishi	Chikaraishi, Makoto
+Childress	Childress, Suzanne
+Chin	Chin, Shih-Miao
+ChinTL	Chin, Tung-Leong
+Chintakayala	Chintakayala, V. Phani K.
+Chiu	Chiu, Yi-Chang
+Chlond	Chlond, Bastian
+Cho	Cho, Gi-Hyoug
+ChoHJ	Cho, Hsun-Jung
+ChoS	Cho, Sungbin
+Choi	Choi, Chik Cheong
+ChoiMH	Choi, Myoung Hun
+Chomsky	Chomsky, Noam
+Chon	Chon, Kyung S.
+Choo	Choo, Sangho
+Chor	Chor, Miaw Ling
+Chorley	Chorley, J. C.
+Chorus	Chorus, Caspar G.
+Chou	Chou, Yu-Li
+Choudhury	Choudhury, Charisma F.
+Chow	Chow, Joseph Y.J.
+Chowdhury	Chowdhury, D.
+Christakis	Christakis, Nicholas A.
+Christaller	Christaller, T.
+ChristallerW	Christaller, Walter
+Christian	Christian, K. P.
+Christmann	Christmann, Gabriela B.
+Chromy	Chromy, J. R.
+Chu	Chu, Chaushie
+ChuKKA	Chu, Ka Kee Alfred
+ChuR	Chu, Raymond
+ChuX	Chu, X.
+ChuY	Chu, You-Lian
+ChuYL	Chu, Y. L.
+Chua	Chua, Victor
+Chung	Chung, Eui-Hwan
+ChungM	Chung, Moo K.
+ChungYY	Chung, Yim Yiu
+Church	Church, Richard L.
+Ciari	Ciari, Francesco
+Cici	Cici, Blerim
+Cik	Cik, Michael
+Cirillo	Cirillo, Cinzia
+Ciuffo	Ciuffo, Biagio
+Claramunt	Claramunt, C.
+Clark	Clark, Andrew. F.
+ClarkJ	Clark, John
+ClarkS	Clark, S. D.
+ClarkT	Clark, Thomas L.
+ClarkW	Clark, William A. V.
+Clarke	Clarke, Mike I.
+ClarkeJ	Clarke, John
+Cleary	Cleary, Paul D.
+Clever	Clever, Reinhard
+Cliff	Cliff, A.D.
+Clifford	Clifford, Eoin
+Clifton	Clifton, Kelly J.
+Coates	Coates, Paul
+Cochran	Cochran, James J.
+Coffman	Coffman, E. G.
+Cohen	Cohen, Yehoshua
+CohenH	Cohen, Harry
+Coil	Coil, John
+Colakoglu	Colakoglu, Birgul
+Coller	Coller, Maribeth
+Collins	Collins, Reuben
+CollinsA	Collins, Andrew
+Collo	Collo, Mattia
+Colome	Colome, Rosa
+ComanchoTorregrosa	Comancho Torregrosa, Francisco Javier
+Come	Come, E.
+Cominetti	Cominetti, R.
+Conners	Conners, R. D.
+Contardo	Contardo, Claudio
+Conti	Conti, John
+Conventz	Conventz, Svens
+Converse	Converse, P. D.
+Cook	Cook, James M.
+CookA	Cook, A.
+CookAJ	Cook, A. J.
+Cooke	Cooke, Ernest F.
+Cools	Cools, Mario
+Coombe	Coombe, D.
+Cooper	Cooper, W. W.
+Copley	Copley, Geoff
+CopperC	Copper Marcus, Clare
+Copperman	Copperman, Rachel B.
+Corbett	Corbett, James
+Cormican	Cormican, Kelly J.
+Cornelis	Cornélis, Eric
+CornelisE	Cornelis, E.
+Cornelius	Cornelius, Sarah
+Correa	Correa, José
+Correia	Correia, Gonçalo
+Cortes	Cortés, Christian E.
+Corthout	Corthout, Ruben
+Cosley	Cosley, Dan
+Cosslett	Cosslett, Stephen
+Costello	Costello, Anna B.
+Cottrill	Cottrill, Caitlin Doyle
+CottrillC	Cottrill, Caitlin
+Couronne	Couronne, Thomas
+CouronneT	Couronn\'e, Thomas
+Court	Court, Mary
+Courtat	Courtat, Thomas
+Cova	Cova, Thomas J.
+Cover	Cover, Thomas M.
+Cowan	Cowan, R.
+Cowell	Cowell, W. J.
+Cox	Cox, William E.
+CoxDR	Cox, D. R.
+CoxLA	Cox, Louis A.
+CoxLH	Cox, L. H.
+Craglia	Craglia, Massimo
+Cramer	Cramer, Nichael Lynn
+CrastesditSourd	Crastes dit Sourd, Romain
+Crawford	Crawford, Melba M.
+Creemers	Creemers, L.
+Crandall	Crandall, David J.
+Cremers	Cremers, Armin B.
+Creutzig	Creutzig, F.
+Crisalli	Crisalli, U.
+Crittin	Crittin, Frank
+Crompton	Crompton, John L.
+Crompvoets	Crompvoets, Joep
+Crouch	Crouch, Geoffrey I.
+Crucitti	Crucitti, P.
+Csiszar	Csiszár, I.
+Cuellar	Cuéllar, Leticia
+Cunha	Cunha, S. H. F.
+Curtis	Curtis, Andrew
+Cutler	Cutler, Adele
+Cutter	Cutter, Susan L.
+Cuttone	Cuttone, Andrea
+Cybis	Cybis, Helena B. B.
+
+% D %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+DAcierno	D'Acierno, Luca
+DAttoma	D'Attoma, Pierangelo
+DEste	D'Este, Glen M.
+Dafermos	Dafermos, Stella
+Daganzo	Daganzo, Carlos F.
+Dalton	Dalton, Ruth
+Dalumpines	Dalumpines, Ron
+Dalvi	Dalvi, Quasim
+Daly	Daly, A. J.
+DalyEM	Daly, Elizabeth M.
+Dalziell	Dalziell, Erica
+Damm	Damm, D.
+Danne	Danne, Carter A.
+Dantzig	Dantzig, G. B.
+Darbha	Darbha, S.
+Dargay	Dargay, Joyce
+Darlington	Darlington, P. J.
+Darrah	Darrah, P. R.
+Darwin	Darwin, Charles R.
+Das	Das, Kirti Vardhan
+Dasen	Dasen, Stefan
+Dasgupta	Dasgupta, A.
+DasguptaS	Dasgupta, Subinay
+Dash	Dash, Nicole
+Datta	Datta, Sumon
+Datye	Datye, Som S.
+David	David, Nuno
+Davidson	Davidson, W. A.
+DavidsonB	Davidson, Bill
+DavidsonR	Davidson, R.
+DaviesC	Davies, C.
+DaviesFM	Davies, Fiona M.
+Davis	Davis, Lawrence
+DavisI	Davis, Ian
+Davison	Davison, Robert M.
+Dayan	Dayan, Peter
+DeCantis	De Cantis, Stefano
+DeJongED	De Jong, Edwin D
+DeNocker	De Nocker, L.
+Declercq	Declercq, K.
+Decuyper	Decuyper, Adeline
+Deepa	Deepa, S.N.
+DeGier	de Gier, Jan
+DeGrange	de Grange, Louis
+DeHaan	de Haan, Peter
+DeJong	de Jong, Robert
+DeJongG	de Jong, Gerard
+DeJongKA	De Jong, Kenneth Alan
+DeJongT	de Jong, Tom
+DeJuan	de Juan, Aránzazu
+DeLaBarra	de la Barra, T.
+DeLapparent	De Lapparent, M.
+DeMaeyer	de Maeyer, Philippe
+DeOnaLopez	de Oña López, Juan
+DePalma	de Palma, André
+DeRomph	de Romph, Erik
+DeSerpa	DeSerpa, Allan C.
+DeSilva	de Silva, F. N.
+DeWulf	de Wulf, Kristof
+Dean	Dean, Brian C.
+Deaton	Deaton, Angus
+Debreu	Debreu, Gérard
+Deecke	Deecke, Helmut
+Deflorio	Deflorio, F. P.
+DelRosario	Del Rosario, B. T.
+Delafontaine	Delafontaine, Matthias
+Delfino	Delfino, Ralph
+Delleart	Delleart, Benedict G. C.
+Delling	Delling, Daniel
+Delucchi	Delucchi, Mark A.
+Demetrescu	Demetrescu, Camil
+Deming	Deming, W. Edwards
+Demirbas	Demirbas, Murat
+DenantBoemont	Denant-Boèmont, Laurent
+Deneubourg	Deneubourg, J. L.
+Deng	Deng, Zhihong
+DengZ	Deng, Zhongwei
+Denison	Denison, Tim J.
+Deppermann	Deppermann, Arnulf
+Deqlercq	Deqlercq, K.
+Derungs	Derungs, Curdin
+Dessalles	Dessalles, Jean-Louis
+Dessemontet	Dessemontet, Pierre
+Deutsch	Deutsch, Kathleen
+DeutschF	Deutsch, F.
+Devillaine	Devillaine, Flavio
+Deville	Deville, Jean-Claude
+DeZeeuw	De Zeeuw, Gerard
+Devroye	Devroye, Luc
+Dewals	Dewals, B. J.
+Di	Di, Shan
+DiBattista	di Battista, Guiseppe
+DiLorenzo	di Lorenzo, Giusy
+DiTaranto	Di Taranto, Carlo
+Diaconis	Diaconis, Persi
+Dial	Dial, Robert B.
+Dias	Dias, I.
+DiazGuilera	Diaz-Guilera, A.
+Dibbelt	Dibbelt, Julian
+Dickson	Dickson, Peter R.
+DicksonJ	Dickson, J.J.
+Diekmann	Diekmann, Andreas
+Dieleman	Dieleman, Frans M.
+Dielman	Dielman, Terry E.
+Dietz	Dietz, Thomas
+Dieussaert	Dieussaert, Karel
+Diggle	Diggle, Peter J.
+Dijkstra	Dijkstra, Edsger Wybe
+DijkstraP	Dijkstra, Pearl A.
+Dijst	Dijst, M.
+Dill	Dill, Jennifer
+Dillman	Dillman, Don A.
+Diminescu	Diminescu, Dana
+Dimitrakopolou	Dimitrakopolou, E.
+Dimitropoulos	Dimitropoulos, I.
+Ding	Ding, Dong
+Dion	Dion, Francois
+Dix	Dix, M. C.
+Dixit	Dixit, Vinayak V.
+Doblack	Doblack, Joseph
+Dobler	Dobler, Christoph
+Dobritz	Dobritz, Robert
+Dodsworth	Dodsworth, Robert O.
+Doernenburg	Dörnenburg, K.
+Doherty	Doherty, Sean T.
+Doig	Doig, A. G.
+Dolci	Dolci, C.
+Dombroski	Dombroski, Matt
+Domencich	Domencich, Tom
+Donaghy	Donaghy, Kieran P.
+Donnell	Donnell, Eric T.
+Dong	Dong, Shen
+DongX	Dong, Xiaojing
+Donlan	Donlan, Brian J.
+Donnelly	Donnelly, Robert
+DonnellyR	Donnelly, Rick
+Donoso	Donoso, Pedro
+Dorigo	Dorigo, Marco
+DosSantos	dos Santos Eleutério, Vânia Lucia
+DosSantosMIRD	dos Santos, M. Isabel Reis
+Douady	Douady, Stephane
+Dougherty	Dougherty, M. S.
+DoughertyM	Dougherty, M.
+Douma	Douma, Frank
+Dousse	Dousse, Olivier
+Dow	Dow, Kirstin
+Dowling	Dowling, Richard
+Downey	Downey, Paul O.
+Downs	Downs, Anthony
+Doyle	Doyle, John C.
+Drabek	Drabek, Thomas E.
+Draijer	Draijer, Geert
+Druschel	Druschel, Peter
+Du	Du, Jianhe
+Duan	Duan, J.
+Duany	Duany, Andres
+Duarte	Duarte, Abraham
+DuarteJP	Duarte, Jose Pinto
+Dubernet	Dubernet, Thibaut
+DubernetI	Dubernet, Ilka
+Duesterwald	Düsterwald, Michael
+Dugge	Dugge, Birgit
+Dugundji	Dugundji, E. R.
+Dujardin	Dujardin, C.
+Dukes	Dukes, Anthony
+Dunbar	Dunbar, Frederick C.
+Duncan	Duncan, Gordon I. D.
+Dunkerley	Dunkerley, Fay
+Dunkin	Dunkin, A.
+Dunlap	Dunlap, Riley E.
+Dunn	Dunn, Travis P.
+Dupuis	Dupuis, Paul
+DurandRaucher	Durand-Raucher, Y.
+DutraDeAguilar	Dutra  de Aguilar, A. P.
+Dutta	Dutta, Tridib
+Dutton	Dutton, J. A.
+Dynan	Dynan, Karen
+
+
+% E %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Eagle	Eagle, Thomas C.
+EagleN	Eagle, Nathan
+East	East, Robert
+Eastlick	Eastlick, Mary Ann
+Ebel	Ebel, Holger
+Eberhard	Eberhard, L. K.
+Echenique	Echenique, Pablo
+Eckhardt	Eckhardt, Roger
+Ecola	Ecola, Liisa
+Edelhoff	Edelhoff, Torben
+Edwards	Edwards, Henrik
+EdwardsJL	Edwards, J. L.
+EdwardsB	Edwards, Bob
+Efrat	Efrat, Elisha
+Eftekhar	Eftekhar, H.
+Efthymiou	Efthymiou, Dimitrios
+Eggenberger	Eggenberger, Manfred
+Eglese	Eglese, Richard W.
+Ehlers	Ehlers, Emily
+Ehreke	Ehreke, Ilka
+Ehrler	Ehrler, Verena
+Ehrlich	Ehrlich, D.
+Eiben	Eiben, A. E.
+Eichler	Eichler, Michael
+EichlerD	Eichler, David
+Eigenhueller	Eigenhüller, L.
+Eigenmueller	Eigenmüller, L.
+Eigenwillig	Eigenwillig, Arno
+Eizenberg	Eizenberg, Julie
+Ekambaram	Ekambaram, Venkatesan
+Ekmekci	Ekmekci, Onur
+ElEsawey	El Esawey, Mohamed
+ElGeneidy	El-Geneidy,  Ahmed
+ElMahrsi	ElMahrsi, M. K.
+Elalouf	Elalouf, A.
+Elaluf	Elaluf, A.
+Elefteriadou	Elefteriadou, L.
+Eliasson	Eliasson, Jonas
+Ellison	Ellison, Richard
+Elphick	Elphick, M. J.
+Eluru	Eluru, Naveen
+Embrechts	Embrechts, Paul
+Emmerink	Emmerink, Richard H. M.
+Emmonds	Emmonds, Andy
+Endlicher	Endlicher, Wilfried
+Engelbrech	Engelbrech, Gerhard
+Engelen	Engelen, Guy
+Engelke	Engelke, Lynette J.
+English	English, Donald B.K.
+Enz	Enz, Robert
+Eom	Eom, Jin Ki
+Epstein	Epstein, Joshua M.
+ErRafia	Er-Rafia, K.
+Erath	Erath, Alexander L.
+Erhard	Erhard, Kristina
+Erhardt	Erhardt, Gregory
+ErhardtGD	Erhardt, Gregory D.
+Erickson	Erickson, Bonnie H.
+Erkut	Erkut, Erhan
+Erne	Erne, Stephan
+Erni	Erni, D.
+Eroglu	Eroglu, Sevgin
+Ertl	Ertl, Gerhard
+Ester	Ester, M.
+Esser	Esser, Jörg
+Esteves	Esteves, Edgar F
+Estrada	Estrada, M.
+Ettema	Ettema, Dick F.
+Etzel	Etzel, Michael J.
+Eubank	Eubank, Stephen E.
+Evangelinos	Evangelinos, C.
+Evans	Evans, John E.
+EvansG	EvansG, Gerald W.
+EvansGW	Evans, G. W.
+EvansSP	Evans, Suzanne. P.
+Evenson	Evenson, Kelly
+Everett	Everett, Carol T.
+EverettJ	Everett, Jerry
+Ewing	Ewing, Gordon
+EwingR	Ewing, Reid
+Eymann	Eymann, Torsten
+
+% F %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Faber	Faber, Michael H.
+Fabrikant	Fabrikant, Sara
+Fagiani	Fagiani, P.
+Fagin	Fagin, Ronald
+Fagnant	Fagnant, Daniel J.
+Fahmy	Fahmy, Monica
+Fahrlaender	Fahrländer, Stefan Sebastian
+FaivreDArcier	Faivre D'Arcier, Bruno
+Falk	Falk, Armin
+Fan	Fan, Jessie X.
+FanW	Fan, Wei
+FanY	Fan, Yingling
+Fang	Fang, Hao Audrey
+FangJ	Fang, Jinqi
+Farah	Farah, M.
+Farber	Farber, Steven
+Fargier	Fargier, Paul-Henri
+Farkas	Farkas, Illes
+Farmer	Farmer, D.
+Farooq	Farooq, Bilal
+Farrington	Farrington, P. A.
+Farrokhikhiav	Farrokhikhiav, R.
+Farsi	Farsi, Mehdi
+Farzin	Farzin, Janine M.
+Favez	Favez, J.-Y.
+Fearne	Fearne, Andrew
+Feeney	Feeney, B. P.
+Fehr	Fehr, Ernst
+Feil	Feil, Matthias
+Feld	Feld, Scott L.
+FeldmanBarr	Feldman Barr, Terri
+Fellendorf	Fellendorf, Martin
+Feng	Feng, Y.
+FentonOCreevy	Fenton-O'Creevy, Mark
+Ferber	Ferber, Jacques
+Ferdous	Ferdous, N.
+Ferguson	Ferguson, Erik
+Fernandes	Fernandes, Ralston
+Ferrante	Ferrante, Mauro
+Ferreira	Ferreira, Paulo A. F
+FerreiraJ	Ferreira, Joseph
+FerreiraL	Ferreira, Luis
+Ferrer	Ferrer, J. L.
+Ferris	Ferris, Michael C.
+Ferscha	Ferscha, Alois
+Fessant	Fessant, Francoise
+Fetiarson	Fetiarson, Mamy
+Feygin	Feygin, Sidney
+FgsvD	FGSV
+Fichter	Fichter, Klaus
+Ficici	Ficici, Sevan Gregory
+Fienberg	Fienberg, Stephen E.
+Fiez	Fiez, Tim
+Fifer	Fifer, Simon
+Figueiredo	Figueiredo, Mario A.T.
+Filippini	Filippini Massimo
+Filliger	Filliger, Paul
+Finkel	Finkel, R. A.
+Finlay	Finlay, B
+FiorenzoCatalano	Fiorenzo-Catalano, Stella
+Fischbacher	Fischbacher, Urs
+Fischbeck	Fischbeck, Paul
+Fischer	Fischer, Daniel
+FischerK	Fischer, K.
+Fischhoff	Fischhoff, Baruch
+Fishburn	Fishburn, P. C.
+Fisher	Fisher, Michael
+Fishman	Fishman, Elliot
+FitzGerald	FitzGerald, Camden
+Fiume	Fiume, E.
+Flamm	Flamm, Michael
+Flammia	Flammia, Giovanni
+Flammini	Flammini, Alessandro
+Flannery	Flannery, Brain P.
+Fleischer	Fleischer, Rudolf
+Fleisher	Fleisher, A.
+Fletcher	Fletcher, R.
+Fletterman	Fletterman, Manuel
+Floethmann	Flöthmann, J.
+Floetteroed	Flötteröd, Gunnar
+Flora	Flora, R.
+Florian	Florian, M.
+Florida	Florida, Richard
+Floudas	Floudas, Christodoulos A.
+Fluegel	Flügel, S.
+Flyvbjerg	Flyvbjerg, Bent
+Flynn	Flynn, Peter
+FlynnC	Flynn, Cynthia B.
+Fogel	Fogel, David B.
+FogelL	Fogel, Lawrence J.
+Folkers	Folkers, G.
+Follmer	Follmer, Robert
+Fondacci	Fondacci, R.
+Fonzone	Fonzone, A.
+Ford	Ford, L. R.
+FordJ	Ford, James S.
+Forer	Forer, Pip
+Forma	Forma, Iris A.
+Foerster	Förster, Agnes
+Forrest	Forrest, Timothy L.
+Foscht	Foscht, Thomas
+Fosgerau	Fosgerau, Mogens
+Fotheringham	Fotheringham, A. Stewart
+Fourie	Fourie, Pieter J.
+Fowkes	Fowkes, A. S.
+FowkesA	Fowkes, A.
+FowkesT	Fowkes, T.
+Fowler	Fowler, James H.
+Fox	Fox, Dieter
+FoxC	Fox, Christine
+FoxE	Fox, Edward J.
+FoxG	Fox, Geoffrey
+FoxJ	Fox, James
+FoxJA	Fox, J. A.
+FoxK	Fox, Ken
+Francis	Francis, Carolyn
+Francois	Francois, Dominique
+Frank	Frank, M.
+FrankE	Frank, Eibe
+FrankL	Frank, Lawrence
+FrankN	Frank, N.
+FrankO	Frank, Ove
+FrankP	Frank, Patrick
+Franklin	Franklin, Joel P.
+Frankowski	Frankowski, Dan
+Franks	Franks, Daniel W.
+Franses	Franses, Philip Hans
+Fraschini	Fraschini, Elena
+Frazier	Frazier, Christopher
+Frederiksen	Frederiksen, Rasmus Dyhr
+Freedman	Freedman, N.
+FreedmanJ	Freedman, Joel
+Freeman	Freeman, L. C.
+Frei	Frei, A.
+Freier	Freier, N.
+Freiman	Freiman, C.V.
+Freimer	Freimer, Robert
+Frejinger	Frejinger, Emma
+Frerks	Frerks, Georg
+Frey	Frey, Dieter
+FreyB	Frey, Bruno S.
+FriasMartinez	Frías-Martínez, Enrique
+Frick	Frick, Martin
+FrickR	Frick, Roman
+Fricker	Fricker, Mark D.
+FrickerC	Fricker, Christine
+Friday	Friday, A.
+Fried	Fried, M.J.
+Friedman	Friedman, Jerome
+FriedmanD	Friedman, Daniel P.
+Friedrich	Friedrich, Markus
+FriedrichR	Friedrich, R.
+Fries	Fries, Nikolaus
+Friesz	Friesz, T. L.
+Frigioni	Frigioni, Daniele
+Frignani	Frignani, Martina Z.
+Fritz	Fritz, Charles E.
+Froehlich	Fröhlich, Philipp
+Froschauer	Froschauer, Ulrike
+Frusti	Frusti, T.
+Frybourg	Frybourg, M.
+Fu	Fu, Mengyin
+FuC	Fu, Chi-Wing
+FuL	Fu, L.
+FuY	Fu, Yingfei
+Fuchs	Fuchs, Mario
+FuchsPA	Fuchs, Philipp A.
+Fudenberg	Fudenberg, Drew
+Fuentes	Fuentes, Montserrat
+Fuhrer	Fuhrer, Raphael
+Fujii	Fujii, Satoshi
+Fujimoto	Fujimoto, Richard M.
+Fujioka	Fujioka, Heather
+Fujiwara	Fujiwara, Akimasa
+Fukuda	Fukuda, D.
+Fukui	Fukui, Minoru
+Fukumoto	Fukumoto, Makoto
+Fulkerson	Fulkerson, D. R.
+Fuller	Fuller, Andy
+Fullerton	Fullerton, D.
+Funaro	Funaro, Maria
+Furey	Furey, Eoghan
+Furtak	Furtak, Peter
+Fussell	Fussell, Elizabeth
+
+% G %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Gabard	Gabard, Jean-Francois
+Gaerling	Gärling, Tommy
+GaerlingA	Gärling, Anita
+Gaetzi	Gaetzi, M.
+Gaker	Gaker, DJ
+Galdames	Galdames, Camila
+Gallo	Gallo, Mariano
+Gallotti	Gallotti, Riccardo
+Galus	Galus, Matthias D.
+GalvezFernandez	Galvez-Fernandez, C.
+Gamma	Gamma, Erich
+Gan	Gan, Li Ping
+GangJin	Gang Jin, J.
+GangaRao	GangaRao, Hota V. S.
+Ganig	Ganig, Nicholas
+Ganjalizadeh	Ganjalizadeh,S.
+Gantner	Gantner, U.
+Gao	Gao, Song
+GaoSh	Gao, Shengyi
+GaoW	Gao, Wenli
+GaoZ	Gao, ZiYou
+Garbow	Garbow, Burton S.
+Garcia	Garcia, D.
+GarciaA	García, Alfredo
+GarciaDorado	Garcia-Dorado, I.
+GarciaF	García-Ferrer, Antonio
+GarciaLopez	Garcia-López, Miquel Angel
+GarciadeSoto	Garcia de Soto, Borja
+Gardelli	Gardelli, Luca
+Gardner	Gardner, B.
+Garey	Garey, M. R.
+Garoni	Garoni, Timothy M.
+Garrison	Garrison, W. L.
+Garry	Garry, G. R.
+Gartner	Gartner, Nathan H.
+GartnerG	Gartner, Georg
+Garver	Garver, Raymond
+Garvill	Garvill, Jörgen
+Garz	Garz, Detlef
+Gast	Gast, Nicolas
+Gatelli	Gatelli, Debora
+Gatersleben	Gatersleben, Birgitta
+GaticaPerez	Gatica-Perez, Daniel
+Gaudry	Gaudry, Marc
+Gautama	Gautama, Sidharta
+Gautrais	Gautrais, J.
+Gautschi	Gautschi, David A.
+Gawron	Gawron, C.
+Gayah	Gayah, Vikash V.
+Ge	Ge, Y. E.
+Gebhardt	Gebhardt, Serge
+Geddes	Geddes, Norman Melancton Bel
+GeQ	Ge, Qiao
+Gehlke	Gehlke, C. E.
+Gehlsen	Gehlsen, Björn
+Geisberger	Geisberger, Robert
+Geistefeldt	Geistefeldt, Justin
+Gelatt	Gelatt, C. D.
+Gelfand	Gelfand, Alan E.
+Gemperle	Gemperle, Fabian
+Gendreau	Gendreau, Michel
+GenreGrandpierre	Genre-Grandpierre, C.
+Gentile	Gentile, Guido
+George	George, Boby
+Georgeff	Georgeff, Michael P.
+Georges	Georges, Gil
+Georggi	Georggi, Nevine L.
+Gerardin	Gerardin, Bernard
+Gerdes	Gerdes, Ingrid
+Gerike	Gerike, Regine
+Germanos	Germanos, George
+Geroliminis	Geroliminis, Nikolas
+Gerrard	Gerrard, Bill
+GertschJossi	Gertsch-Jossi, Ursula
+Geurs	Geurs, K. T.
+Ghez	Ghez, R. G.
+Ghosh	Ghosh, Avijit
+GhoshJ	Ghosh, Joydeep
+Giacomin	Giacomin, David J.
+Giaimo	Giaimo, Greg
+Giannotti	Giannotti, F.
+Gibb	Gibb, John
+GibbK	Gibb, K.
+Gibbons	Gibbons, Stephen
+Gibson	Gibson, Jaime
+GibsonH	Gibson, Heather
+Gicheva	Gicheva, Dora
+Giddens	Giddens, Anthony
+Gidron	Gidron, David
+Gifford	Gifford, Robert
+Gil	Gil, Jorge
+Gilbert	Gilbert, Nigel
+GilbertEN	Gilbert, E. N.
+Gilchrist	Gilchrist, A.
+Gile	Gile, Krista J.
+Giles-Corti	Giles-Corti, Billie
+Gillen	Gillen, David W.
+Gillholm	Gillholm, Robert
+Gillingham	Gillingham, Kenneth
+Gillis	Gillis, Dominique
+Gingrich	Gingrich, André
+Gips	Gips, James
+Girault	Girault, Jan-Torben
+Giuliano	Giuliano, Genevieve
+Givon	Givon, Danny
+Gladwin	Gladwin, Hugh
+Glaeser	Gläser, Jochen
+GlaeserEL	Glaeser, Edward L.
+Glaister	Glaister, Stephen
+Glazer	Glazer, Amihai
+Glemser	Glemser, A.
+Glerum	Glerum, Aurélie
+Gliebe	Gliebe, John P.
+GliebeJ	Gliebe, J.
+Gloaguen	Gloaguen, Catherine
+Gloor	Gloor, Christian D.
+Glover	Glover, Fred
+Gmuender	Gmünder, Markus
+Goel	Goel, Shivendra
+Goetzke	Goetzke, Frank
+Goldberg	Goldberg, D. E.
+GoldbergAV	Goldberg, A. V.
+GoldbergP	Goldberg, P.
+Golden	Golden, Bruce L.
+Goldenberg	Goldenberg, Anna
+Goldsman	Goldsman, David
+Goldstein	Goldstein, Jeffrey
+Golias	Golias, John
+Golle	Golle, Philippe
+Golledge	Golledge, Reginald G.
+Gollwitzer	Gollwitzer, Peter M.
+Golob	Golob, Thomas F.
+Gomez	Gómez, Penélope
+GomezGardenes	G\'omez-Garde\~nes, Jes\'us
+GomezJimenez	Gómez Jiménez, Penelope
+Gong	Gong, Hongmian
+Gonzales	Gonzales, Eric J.
+Gonzalez	González, Ana M.
+GonzalezMC	González, Marta C.
+GonzalezMCQ	Gonz\'alez, Marta C.
+GonzalezRM	González, Rosa Marina
+GonzalezVaya	González, Vayá M.
+Goodchild	Goodchild, Anne
+Goode	Goode, Mark M. H.
+Goodman	Goodman, Leo A.
+Goodwin	Goodwin, P. B.
+GoodwinPh	Goodwin, Phil
+Gopal	Gopal, Sucharita
+GopalA	Gopal, A.
+Gopinath	Gopinath, Dinesh
+Gordon	Gordon, Peter
+Goseberg	Goseberg, Nils
+Gosling	Gosling, Samuel D
+Gossen	Gossen, Rachel
+Gottardi	Gottardi, Giovanni
+Gottlieb	Gottlieb, Joshua D.
+Gould	Gould, Jane
+Goulias	Goulias, Konstadinos G.
+Gourley	Gourley, Sean
+Govindarajan	Govindarajan, Ajay
+GowerJC	Gower, J. C.
+Goyal	Goyal, Devendra
+Graafland	Graafland, Irma
+Grabowski	Grabowski, A.
+Graeffe	Gräffe, J
+Graf	Graf, Philip
+GrafM	Graf, Monique
+GrafR	Graf, Ramona
+Graham	Graham, Daniel J.
+Granovetter	Granovetter, Mark S.
+Grass	Grass, Jürgen
+Grassian	Grassian, Stuart
+Gray	Gray, N.F.
+GrayL	Gray, Lawrence
+Greaves	Greaves, Stephen
+Greene	Greene, William H.
+GreeneD	Greene, David Loyd
+GreeneWH	Greene, William H.
+Greenfeld	Greenfeld, J. S.
+Greenhalgh	Greenhalgh, D.
+GreenhalghJ	Greenhalgh, Jack
+Greeven	Greeven, P.
+Grefenstette	Grefenstette, John J.
+Grembek	Grembek, Offer
+Grether	Grether, Dominik
+Grewel	Grewel, Dhruv
+Gribaudi	Gribaudi, Maurizio
+Grieco	Grieco, Margaret
+Griesenbeck	Griesenbeck, Bruce
+Griffeath	Griffeath, David
+Griffin	Griffin, Terry
+Grimal	Grimal, Richard
+Grigolon	Grigolon, Anna B.
+Grimm	Grimm, Bente
+Gringmuth	Gringmuth, Christoph
+Groesche	Grösche, Peter
+GroothuisOudshoorn	Groothuis-Oudshoorn, Karin
+GrossM	Gross, Markus
+Grossenbacher	Grossenbacher, Timo
+Grossmann	Grossmann, Michael
+Gruber	Gruber, C.
+Grubesic	Grubesic, T.
+Gruebler	Grübler, Arnulf
+Gruentzig	Grüntzig, Katrin
+Grumbach	Grumbach, Alain
+Gruschwitz	Gruschwitz, Dana
+Gruska	Gruska, Jozef
+Gruteser	Gruteser, Marco
+Gschwender	Gschwender, Antonio
+Gu	Gu, Tianqi
+GuJ	Gu, Jiaying
+Guagnano	Guagnano, Gregory A.
+Gubler	Gubler, E.
+GublerF	Gubler, Florian
+Gudzinas	Gudzinas, Brad
+Guensler	Guensler, Randall
+Guerra	Guerra, Reinaldo
+Guerreiro	Guerreiro, Manuela
+Guevara	Guevara, Cristian A.
+Gueye	Gueye, S.
+Guhathakurta	Guhathakurta, Subhrajit
+Guibas	Guibas, Leonidas J.
+Guida	Guida, Michele
+Guihaire	Guihaire, Valerie
+Guler	Guler, S. Ilgin
+Gummadi	Gummadi, Krishna P.
+Gundogan	Gündogan, Fatih
+Gunn	Gunn, Hugh
+Guo	Guo, Jessica Y.
+GuoF	Guo, Feng
+GuoX	Guo, Xiucheng
+GuoZ	Guo, Zhan
+Gupta	Gupta, Surabhi
+Gurram	Gurram, S.
+Guscetti	Guscetti, Franco
+Guth	Guth, D.
+Gutknecht	Gutknecht, D.
+Gutman	Gutman, Ron
+Guttorp	Guttorp, Peter
+Guyon	Guyon, Frederic
+Guzman	Guzman, Stacey
+
+% H %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Haab	Haab, Timothy C.
+Haahr	Haahr, Mads
+Haas	Haas, Michael Sebastian
+HaasT	Haas, T.
+Haase	Haase, R.
+HaaseK	Haase, Knut
+Haastrup	Haastrup, Palle
+Habbas	Habbas, Z.
+Habib	Habib, Khandker M. Nurul
+Hackett	Hackett, Lisa M.
+Hackney	Hackney, Jeremy K.
+Haddadi	Haddadi, A.
+Haddock	Haddock, Jorge
+Haefeli	Haefeli, Ueli
+Haegerstrand	Hägerstrand, T.
+Haerdle	Härdle, Wolfgang
+Haessig	Hässig, Martin
+Hagle	Hagle, Paul I.
+Haider	Haider, M.
+Haigh	Haigh, M.
+Hajdin	Hajdin, Rade
+Haklay	Haklay, Muki
+Halabe	Halabe, Udaya B.
+Halas	Halas, Marian
+Halatsch	Halatsch, Jan
+Haldi	Haldi, Frédéric
+Hale	Hale, David
+HaleT	Hale, Trevor S.
+Hall	Hall, R.
+HallM	Hall, Mark
+HallP	Hall, Peter
+HallRW	Hall, Randolf W.
+Halldorsdottir	Halldórsdóttir, K.
+Halley	Halley, Julianne D.
+Hallmark	Hallmark, Shauna
+Halton	Halton, J. H.
+Ham	Ham, Heejoo
+HamJ	Ham, JiSoo
+Hamdouch	Hamdouch, Younes
+Hameed	Hameed, Mutahar Abdel
+Hamerslag	Hamerslag, R.
+Hamilton	Hamilton, W. D.
+Hammadi	Hammadi, Slim
+Hammadou	Hammadou, Hakim
+HammelU	Hammel, U.
+Hammer	Hammer, Stephan
+Hammond	Hammond, Kathy
+HammondL	Hammond, Lance
+Hamnett	Hamnett, Steve
+Hampshire	Hampshire, Robert C.
+HampshireR	Hampshire, Robert
+Han	Han, S. K.
+HanL	Han, Lee D.
+HanM	Han, Mingchang
+HanQ	Han, Qi
+HanXL	Han, X.-L.
+Handcock	Handcock, Mark S.
+Handy	Handy, Susan. L.
+Hanebutte	Hanebutte, Ulf R.
+Hanitz	Hanitz, Inga
+Hanley	Hanley, James A.
+HanlyM	Hanly, Mark
+Hannes	Hannes, Els
+Hans	Hans, Joseph M.
+Hansen	Hansen, Nikolaus
+HansenJ	Hansen, J.
+HansenM	Hansen, Mark
+HansenMH	Hansen, Mark H.
+HansenR	Hansen, R.C.
+HansenW	Hansen, W.G.
+Hansjosten	Hansjosten, E.
+Hanson	Hanson, Susan
+HansonC	Hanson, C. E.
+HansonJ	Hanson, J.
+HansonK	Hanson, K.
+Hansson	Hansson, Anders
+Hao	Hao, Jiang Yang
+HaoJK	Hao, Jin-Kao
+Harata	Harata, Noboru
+Harding	Harding, Chris
+Hargett	Hargett, P.
+Harjanne	Harjanne, Atte
+Harker	Harker, Patrick T.
+Harlow	Harlow, Harry F.
+HarlowMK	Harlow, Margaret K.
+Harrell	Harrell, Gilbert D.
+Harrelson	Harrelson, C.
+Harrington	Harrington, Winston
+Harris	Harris, Patricia
+HarrisCC	Harris, Charles C.
+Hart	Hart, Peter E.
+Hartgen	Hartgen, David T.
+Hartmann	Hartmann, Maria
+HartmannA	Hartmann, Alexander K.
+Hartrum	Hartrum, Thomas C.
+Harvatis	Harvatis, Michael
+Harvey	Harvey, Andrew S.
+HarveyF	Harvey, Francis
+Hasan	Hasan, M.
+HasanI	Hasan, Ibrahim
+HasanS	Hasan, Samiul
+Hasebe	Hasebe, Katsuya
+Hasegawa	Hasegawa, Hiroki
+Hastie	Hastie, Trevor
+Hastings	Hastings, Justine
+Hatayama	Hatayama, Michinori
+Hatcher	Hatcher, S. G.
+Hatfield	Hatfield, Julie
+Hato	Hato, Eiji
+Hattendorf	Hattendorf, Jan
+Hatzopoulou	Hatzopoulou, Marianne
+Hau	Hau, Timothy D.
+Hauber	Hauber, A. B.
+Haupt	Haupt, Thomas
+Hauri	Hauri, R.
+HauriHR	Hauri, H. R.
+Hausberger	Hausberger, S.
+Hauser	Hauser, John R.
+Hausman	Hausman, Jerry A.
+Hautzinger	Hautzinger, Heinz
+Havens	Havens, J.
+Hawas	Hawas, Yaser E.
+Hawkins	Hawkins, Renee
+Hawks	Hawks, Brandon
+Hawoong	Hawoong, J.
+Haworth	Haworth, Narelle
+HayesRothB	Hayes-Roth, Barbara
+HayesRothF	Hayes-Roth, F.
+Haynes	Haynes, K.E.
+HaynesC	Haynes, Christopher T.
+He	He, Xiaozheng
+HeBingsheng	He, Bingsheng
+HeD	He, D.
+HeH	He, Haitao
+HeM	He, Min
+HeMW	He, Mingwei
+HeQ	He, Qing
+HeS	He, S.
+HeT	He, Tian
+HeXiaozheng	He, Xiaozheng
+HeZ	He, Zhaocheng
+Head	Head, K. Larry
+Heath	Heath, Yuko
+Hebel	Hebel, Christoph
+Hecht	Hecht, R.
+Heckathorn	Heckathorn, Douglas D.
+Hecker	Hecker, Dirk
+Heckman	Heckman, J. J.
+Heeren	Heeren, N.
+Heggie	Heggie, I. G.
+Hegselmann	Hegselmann, Rainer
+Heidelberger	Heidelberger, Philip
+Heidemann	Heidemann, C.
+HeidemannD	Heidemann, D.
+Heidl	Heidl, Udo
+Heisel	Heisel, Felix
+Heimgartner	Heimgartner, Christian
+Heinen	Heinen, Eva
+Heinrich	Heinrich, Gert
+Heinritz	Heinritz, Günther
+Heinzle	Heinzle, Frauke
+Heis	Heis, Hajo
+Helbich	Helbich, Marco
+Helbing	Helbing, Dirk
+Heldt	Heldt, Tobias
+Hellweg	Hellweg, S.
+Helm	Helm, Richard
+HemmendingerD	Hemmendinger, David
+Henderson	 Henderson, Tristan
+Heneka	Heneka, P.
+Hengartner	Hengartner, Nicolas
+Hensher	Hensher, David A.
+Henson	Henson, Kriste M.
+Herman	Herman, R.
+Hernandez	Hernández, Tony
+Herold	Herold, H.
+Herranz	Herranz, Ricardo
+Herrera	Herrera, F.
+Herrigel	Herrigel, Sabrina
+Herrmann	Herrmann, Hans J.
+Hertkorn	Hertkorn, Georg
+Herz	Herz, Raimund
+Hess	Hess, Stephane
+HessD	Hess, Daniel Baldwin
+Hester	Hester, Susan M.
+Hettinger	Hettinger, Thomas
+Heung	Heung, Vincent C. S.
+Heydecker	Heydecker, Benjamin G.
+Heyndrickx	Heyndrickx, Christophe
+Heywood	Heywood, John B.
+Hickman	Hickman, Mark D.
+Hicks	Hicks, Robert L.
+HicksJ	Hicks, Jim
+Hidalgo	Hidalgo, C\'esar A.
+Higuchi	Higuchi, Hideyo
+Hilber	Hilber, Raffael
+Hilhorst	Hilhorst, Dorothea
+Hill	Hill, R. R.
+Hillier	Hillier, Frederick S.
+HillierB	Hillier, Bill
+Hills	Hills, Peter J.
+Hillstrom	Hillstrom, Kenneth E.
+Hilmer	Hilmer, J.
+Hilty	Hilty, Lorenz M.
+Hinden	Hinden, Samuel
+Hine	Hine, J. P.
+Hinrichs	Hinrichs, Klaus H.
+Hiramatsu	Hiramatsu, Tomoru
+Hirschberg	Hirschberg, Stefan
+Hirschmann	Hirschmann, K.
+Hirsh	Hirsh, Moshe
+Hitchcock	Hitchcock, F. L.
+Hitz	Hitz, P.
+Hjorth	Hjorth, K.
+Ho	Ho, Teck-Hua
+HoC	Ho, Chinh
+HoHW	Ho, H. W.
+HoKHD	Ho, Kim Hin David
+Hobeika	Hobeika, Antoine G.
+Hofbauer	Hofbauer, J.
+Hofert	Hofert, Marius
+Hoff	Hoff, Peter D.
+Hoffer	Hoffer, Brice
+Hofler	Hofler, R.
+Hofman	Hofman, Frank
+HofmannT	Hofman, T.
+Hofmann	Hofman, Urs
+Hofsaess	Hofsäss, Ingmar
+Hogan	Hogan, B.
+Hoh	Hoh, Baik
+Hohenfellner	Hohenfellner, M.
+Hohmann	Hohmann, Sandra
+Hoinville	Hoinville, Gerald
+Holden	Holden, David J.
+HoldenE	Holden, Erling
+Holenstein	Holenstein, Nadja
+HolguinVeras	Holguin-Veras, José
+Hollaert	Hollaert, L.
+Holland	Holland, John H.
+Hollander	Hollander, Yaron
+Hollenstein	Hollenstein, Nadja
+Holler	Holler, Manfred
+Holm	Holm, Einar
+Holme	Holme, P.
+HolmM	Holm, Mette Skamris
+Holmes	Holmes, Geoffrey
+Holton	Holton, Derek Allan
+Holyoake	Hoyoake, Belinda
+HolzRau	Holz-Rau, Christian
+Holzer	Holzer, Martin
+Holzmann	Holzmann, Hajo
+Homburger	Homburger, Wolfgang S.
+HongSK	Hong, Sung-Kwon
+HongSP	Hong, Seung Pyo
+HongXD	Hong, Xiao-Dong
+Hongola	Hongola, Bruce
+Honore	Honoré, Bo E.
+Hood	Hood, Jeffrey
+Hoogendoorn	Hoogendoorn, Serge P.
+HoogendoornLanser	Hoogendoorn-Lanser, Sascha
+Hooghiemstra	Hooghiemstra, Gerard
+Hooimeijer	Hooimeijer, Pieter
+Hope	Hope, Michael
+Hopf	Hopf, Christel
+Hoppe	Hoppe, Mirko
+Horisberger	Horisberger, David
+Horni	Horni, Andreas
+Horowitz	Horowitz, Alan J.
+HorowitzJL	Horowitz, J. L.
+Horton	Horton, F.
+Horvitz	Horvitz, Eric
+Hoteit	Hoteit, Sahar
+Hotelling	Hotelling, Harold
+Houck	Houck, David J.
+Houde	Houde, Sébastien
+House	House, James S.
+Houska	Houska, R.V.
+Houston	Houston, Douglas
+Houthakker	Houthakker, H. S.
+Houts	Houts, Peter S.
+Howard	Howard, J. A.
+Hoerl	H{\"o}rl, Sebastian
+Hsieh	Hsieh, Ting-Ya
+Hu	Hu, B.
+HuH	Hu, Hyejung
+HuHQ	Hu, Hsi-Hwa
+HuT	Hu, T.
+HuTW	Hu, Teh Wei
+Huang	Huang, Bo
+HuangA	Huang, Arthur
+HuangAQ	Huang, Allen
+HuangG	Huang, Guoxiong
+HuangH	Huang, Hai-Jun
+HuangS	Huang, Shan
+HuangX	Huang, Xianfeng
+HuangY	Huang, Yan
+HuangZ	Huang, Zengyi
+Hubbard	Hubbard, Bryan
+HubbardR	Hubbard, Raymond
+Huber	Huber, F.
+HuberJ	Huber, Joel
+Hubert	Hubert, Jean-Paul
+HubertM	Hubert, M.
+Huelsmann	Hülsmann, Friederike
+HuelsmannFH	Hülsmann, F. H.
+Huff	Huff, James O.
+HuffDL	Huff, D. L.
+HuffJ	Huff, J.
+Hughes	Hughes, Brian L.
+HughesD	Hughes, David
+Hui	Hui, Michael K.
+Huinink	Huinink, Johannes
+Huisman	Huisman, Otto
+Hulkranz	Hulkranz, L.
+Hultkrantz	Hultkrantz, L.
+Humphrey	Humphrey, Alun
+Hund	Hund, Marcus
+Hunecke	Hunecke, Heike
+HungWai	Hung-Wai, Ho
+Hunt	Hunt, John Douglas
+HuntA	Hunt, A.
+HuntJD	Hunt, John D.
+HunterJS	Hunter, J. S.
+HunterT	Hunter, Timothy
+HunterWG	Hunter, W. G.
+Huntsinger	Huntsinger, Leta F.
+Hunyen	Hunyen, P.
+Hunziker	Hunziker, P.
+Hupf	Hupf, Martin
+Hurni	Hurni, Lorenz
+Hurtubia	Hurtubia, Ricardo
+Hutchinson	Hutchinson, B. G.
+HutchinsonTP	Hutchinson, T. P.
+Hutt	Hutt, Michael D.
+Huttenlocher	Huttenlocher, Daniel
+Huwer	Huwer, Ulrike
+Huybers	Huybers, Twan
+Huynen	Huynen, P.
+Hwang	Hwang, Holing
+Hyman	Hyman, G.
+Hynen	Hynen, P.
+Hynes	Hynes, J.
+
+% I %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Iacono	Iacono, Michael
+Ibanez	Ibáñez, N.
+Ibrahim	Ibrahim, Muhammad Faishal
+Iguchi	Iguchi, Takashi
+Igusa	Igusa, T.
+Iht	IHT
+Iida	Iida, Yasunori
+Ikeda	Ikeda, T.
+Illenberger	Illenberger, Johannes
+Illing	Illing, Gerhard
+Imhof	Imhof, D.
+Imhoff	Imhoff, Daniel
+Immisch	Immisch, Katrin
+Improta	Improta, Gennaro
+Inci	Inci, Eren
+Ingalls	Ingalls, Ricki
+IngallsRG	Ingalls, R. G.
+Inglada	Inglada, V.
+Ingleton	Ingleton, J.
+Innes	Innes, J. David
+IntPais	Int Pais, L.
+IntPanis	Int Panis, Luc
+Ioannou	Ioannou, G.
+Iovan	Iovan, Corina
+Iqbal	Md. Shahadat
+Iragael	Iragael, Joly
+Ircha	Ircha, Michael C.
+Ireland	Ireland, C. T.
+Irle	Irle, Martin
+Irvin	Irvin, Katja
+Isaacman	Isaacman, S.
+Ishikawa	Ishikawa, Yoshitaka
+IshikawaS	Ishikawa, Sara
+Isobe	Isobe, Tomohiko
+Ison	Ison, Stephen
+Israeli	Israeli, Eitan
+Israelsen	Israelsen, P.
+Italiano	Italiano, Giuseppe F.
+Iten	Iten, Rolf
+Ito	Ito, Kentaro
+Iwakura	Iwakura, Seiji.
+
+% J %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Jacob	Jacob, Riko
+Jacobi	Jacobi, Martina
+Jacobs	Jacobs, A.B.
+Jacoby	Jacoby, Henry D.
+Jaeggi	Jäggi, Boris
+Jaeggle	Jäggle, Bernhard
+Jaerv	Järv, Olle
+JainA	Jain, Anil K.
+Jain	Jain, Kamal
+Jakob	Jakob, Martin
+JakobM	Jakob, Manuel
+Jakobsson	Jakobsson, Cecilia
+James	James, Richard
+JanO	Jan, Oliver
+Jang	Jang, Hochan
+Janssens	Janssens, Davy
+JanssensD	Janssens, D.
+Janzen	Janzen, Maxim
+JaraDiaz	Jara-Diaz, Sergio R.
+Jariyasunant	Jariyasunant, Jerald
+Jarvis	Jarvis, Philip
+Javanmardi	Javanmardi, Mahmoud
+Jayakrishnan	Jayakrishnan, R.
+Jehlicka	Jehlicka, Prokop
+Jemelin	Jemelin, Christophe
+Jenelius	Jenelius, E.
+Jenkins	Jenkins, Pamela
+Jennings	Jennings, Nicholas R.
+Jensen	Jensen, Christian S.
+JensenB	Jensen-Butler, Chris
+JensenI	Jensen, Inge
+JensenTL	Jensen, T. L.
+Jeong	Jeong, H.
+JeongD	Jeong, David
+JeonK	Jeon, Kyunghwi
+Jesske	Jesske, Birgit
+Jessurun	Jessurun, Joran
+Jha	Jha, Mithilesh
+Ji	Ji, Minhe
+Jiang	Jiang, Qingjian
+JiangB	Jiang, B.
+JiangC	Jiang, Chengsheng
+JiangS	Jiang, Shan
+Jim	Jim, C. Y.
+Jin	Jin, Jing
+JinJG	Jin, Jian Gang
+JinWL	Jin, Wen-Long
+JinY	Jin, Yaochu
+Jobe	Jobe, Jared B.
+Joedden	Joedden, C.
+Joh	Joh, Chang-Hyeon
+Johansson	Johansson, Maria Vredin
+JohanssonB	Johansson, B.
+JohanssonP	Johansson, Per
+Johnson	Johnson, B.
+JohnsonDS	Johnson, David S.
+JohnsonJ	Johnson, Justin P.
+JohnsonJH	Johnson, James H.
+JohnsonLW	Johnson, L. W.
+JohnsonM	Johnson, Michael
+JohnsonNF	Johnson, Neil F.
+JohnsonNL	Johnson, N. L.
+JohnsonR	Johnson, Ralph
+Johnston	Johnston, R.
+Joly	Joly, J. F.
+Jones	Jones, Peter M.
+JonesD	Jones, Donald W.
+JonesK	Jones, Kelvyn
+JonesP	Jones, P.
+Jonnalagadda	Jonnalagadda, J.
+Jopson	Jopson, Ann
+Jordal	Jordal-Jørgensen, Jørgen
+Jorge	Jorge, Alípio
+Jorgensen	Jørgensen, René Munk
+Joseph	Joseph, Lawrence
+Joshi	Joshi, Niranjan
+Joubert	Joubert, J. W.
+Jourquin	Jourquin, B.
+Jovanis	Jovanis, Paul P.
+Jovicic	Jovicic, Goran
+Joye	Joye, Dominique
+JoyeC	Joye, Claude
+Juergens	Juergens, C.
+JunJ	Jun, Jungwook
+Junchaya	Junchaya, Thanavat
+Jung	Jung, HeeJin
+Jungermann	Jungermann, H.
+
+% K %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Kaempf	Kämpf, Jérôme
+Kagermeier	Kagermeier, Andreas
+Kahn	Kahn, Barbara E.
+KahnH	Kahn, H.
+Kahne	Kahne, S.J.
+Kahneman	Kahneman, Daniel
+Kaiser	Kaiser, C.
+Kalapurakal	Kalapurakal, Rosemary
+Kalen	Kaln, T.
+Kalfs	Kalfs, Nelly
+Kalish	Kalish, yuval
+Kalof	Kalof, Linda
+Kalvo	Kalvo, Raul
+Kamanda	Kamanda, T.
+Kanafani	Kanafani, Adib
+Kanaroglou	Kanaroglou, Pavlos S.
+Kanda	Kanda, T.
+Kang	Kang, Youn-Soo
+KangJ	Kang, Jie
+KangMY	Kang, Moon Young
+Kanskey	Kanskey, K.
+Kanturska	Kanturska, U.
+Kaparias	Kaparias, Ioannis
+Kaplan	Kaplan, Sigal
+Kapoen	Kapoen, Loek
+Karamalaputi	Karamalaputi, Ramachandra
+Karimi	Karimi, Hassan A.
+Karl	Karl, Marion
+Karlaftis	Karlaftis, Matthew
+Karlqvist	Karlqvist, Anders
+Karlstroem	Karlström, Anders
+Karp	Karp, Richard M.
+Kasemsuppakorn	Kasemsuppakorn, Piyawan
+Kaspar	Kaspar, C.
+Katenkamp	Katenkamp, Olaf
+Kato	Kato, Hironori
+Katsev	Katsev, R.
+Katsurai	Katsurai, Kumiko
+Kaufman	Kaufman, David E.
+Kaufmann	Kaufmann, Vincent
+KaufmannA	Kaufmann, Andrea
+KaufmannM	Kaufmann, M.
+KaufmannR	Kaufmann, Rolf
+Kaup	Kaup, D. J.
+Kautz	Kautz, Henry
+Kawabata	Kawabata, Mizuki
+Kawagishi	Kawagishi, N.
+Kawai	Kawai, S.
+Kawakami	Kawakami, Shogo
+Kawamura	Kawamura, Akira
+Kawasaki	Kawasaki, Tomoya
+Kaysi	Kaysi, Isam
+Keall	Keall, Michael
+Kehle	Kehle, M.
+Keiner	Keiner, Marco
+Keirstead	Keirstead, James
+Kek	Kek, Alvina G.H.
+Kelay	Kelay, Tanika
+Kelemen	Kelemen, Jozef
+Kell	Kell, James H.
+Keller	Keller, Mario
+Kelly	Kelly, George A.
+KellyCE	Kelly, C. E.
+KellyTerence	Kelly, Terence
+Kemper	Kemper, Carsten
+KemperFJ	Kemper, F. J.
+Kemperman	Kemperman, Astrid
+Kempton	Kempton, W.
+Kennedy	Kennedy, Rob
+Kennett	Kennett, Milagros
+Kenny	Kenny, F.
+KennyT	Kenny, Tricia
+Kepaptsoglou	Kepaptsoglou, Konstantinos
+Kern	Kern, Stefan
+KernC	Kern, Clifford
+KernJ	Kern, J.
+KernJQ	Kern, J.
+KernP	Kern, Pascal
+Kerr	Kerr, Alistair
+Kerridge	Kerridge, Jon
+Kesting	Kesting, Arne
+Keskinocak	Keskinocak, Pinar
+Ketterer	Ketterer, Florian
+Khadraoui	Khadraoui, D.
+Khalifa	Khalifa, Mohamed
+Khan	Khan, Maleq
+Khandelwal	Khandelwal, Yash
+Kharoufeh	Kharoufeh, Jeffrey P.
+Khattak	Khattak, Asad J.
+Kickhoefer	Kickhöfer, Benjamin
+Kickner	Kickner, Susanne
+Kiefer	Kiefer, John J.
+Kienitz	Kienitz, K. H.
+Kikuchi	Kikuchi, Akira
+KikuchiM	Kikuchi, Macoto
+KikuchiS	Kikuchi, Shinya
+Kilani	Kilani, Moez
+Killer	Killer, Veronika
+Killi	Killi, M.
+Killpack	Killpack, Caroline
+Kim	Kim, B. J.
+KimA	Kim, Annette M.
+KimBD	Kim, Byung-Do
+KimC	Kim, Changkyun
+KimD	Kim, Daehyon
+KimE	KimE, Eunyoung
+KimJ	Kim, Jae-hyun
+KimJi	Kim, Jiyoung
+KimJY	Kim, Joo Young
+KimJa	Kim, Jaehwan
+KimKH	Kim, KiHong
+KimP	Kim, Pan-Jun
+KimS	Kim, Seung-Jun
+KimSH	Kim, Seong-Hee
+KimTJ	Kim, Tschangho John
+KimVO	Kim, V. O.
+KimW	Kim, Wonho
+Kincaid	Kincaid, David Ronald
+Kinderlehrer	Kinderlehrer, David
+King	King, C.
+KingI	King, Ingrid
+KingJ	King, Jenny
+Kipke	Kipke, Harald
+Kirby	Kirby, H. R.
+Kirchhoff	Kirchhoff, Peter
+Kirkpatrick	Kirkpatrick, S.
+Kishizawa	Kishizawa, Keiko
+Kisseleff	Kisseleff, Beat
+Kissling	Kissling, Daniel W.
+Kistler	Kistler, D.
+Kitagawa	Kitagawa, Genshiro
+Kitamura	Kitamura, Ryuichi
+Kitchin	Kitchin, Rob
+Kitrinou	Kitrinou, Eleni
+Kiukkonen	Kiukkonen, Niko
+Kladivo	Kladivo, Petr
+Klapka	Klapka, Pavel
+Klasen	Klasen, Stephan
+Klatzky	Klatzky, Roberta L.
+Klawonn	Klawonn, Frank
+Kleijnen	Kleijnen, Jack P. C.
+Klein	Klein, H.-J.
+KleinB	Klein, Bernd
+Kleinberg	Kleinberg, Jon
+Klemme	Klemme, M.
+Kleppmann	Kleppmann, Wilhelm
+Klessing	Klessing, R. W.
+Klingsch	Klingsch, Wolfram W. F.
+Klinkhachorn	Klinkhachorn, Powsiri
+Kloas	Kloas, J.
+Kloeckner	Klöckner, Christian A.
+Klosterman	Klosterman, R. E.
+Kluegl	Klügl, F.
+Kluepfel	Klüpfel, Hubert
+Kluge	Kluge, B.
+Knapen	Knapen, Luk
+Knie	Knie, Andreas
+Knight	Knight, F. H.
+Knockaert	Knockaert, Jasper
+Knoop	Knoop, Victor L.
+Knox	Knox, Simon D.
+Knudsen	Knudsen, Daniel C.
+Kobayashi	Kobayashi, Yukio
+KobayashiM	Kobayashi, Masanori
+KobayashiR	Kobayashi, Ryo
+Kobourov	Kobourov, S.
+Koch	Koch, Ronald
+Kochan	Kochan, Bruno
+Kockelman	Kockelman, Kara
+Koehler	Köhler, Ekkehard
+KoehlerGJ	Koehler, Gary J.
+KoehlerK	Köhler, Katja
+Koenig	König, Arnd
+KoenigR	König, Reinhard
+Koerner	Körner, Christine
+Koessler	Koessler, Frédéric
+Koh	Koh, Winston T.H
+Kok	Kok, Joost N
+Kolahdouzan	Kolahdouzan, Mohammad
+Kolar	Kolar, Jan
+Kolin	Kolin, Elizabeth A.
+KollSchretzenmayr	Koll-Schretzenmayr, Martina
+Kollock	Kollock, Peter
+Kolmanovsky	Kolmanovsky, I. V.
+Konduri	Konduri, Karthik
+KonduriKC	Konduri, K. C.
+Kongsomsaksakul	Kongsomsaksakul, S.
+Koning	Koning, Hank
+Kooijman	Kooijman, G.
+Koopmans	Koopmans, Carl
+Koot	Koot, Jolanda
+Kopp	Kopp, Johanna
+KoppR	Kopp, Ralf
+Koppelman	Koppelman, Frank S.
+Korda	Korda, Martin
+Kornhauser	Kornhauser, Alain L.
+Kosaraju	Kosaraju, S. Rao
+Kosinski	Kosi{\'n}ski, Leszek A.
+KosinskiRA	Kosi\'nski, R. A.
+KosterH	Koster, Hans
+Koster	Koster, Paul
+Kostyniuk	Kostyniuk, Lidia P.
+Kote	Kote, Thejovardhana
+Kottmeier	Kottmeier, C.
+Kotz	Kotz, S.
+Koushki	Koushki, P. A.
+Koutsak	Koutsak, Maxim
+Koutsopoulos	Koutsopoulos, H.
+Kouwenhoven	Kouwenhoven, M.
+Kowald	Kowald, Matthias
+Koza	Koza, John R.
+Kraimer	Kraimer, Klaus
+Krajzewicz	Krajzewicz, Daniel
+Kramer	Kramer, Ulrich
+KraschlHirschmann	Kraschl-Hirschmann, K.
+Krause	Krause, Ulrich
+Krebs	Krebs, B.
+Kreibich	Kreibich, V.
+Kreitz	Kreitz, M.
+KrepsDM	Kreps, David M.
+KrepsGA	Kreps, G. A.
+Krider	Krider, Robert E.
+Kriegel	Kriegel, H.
+Krier	Krier, Léon
+Kriesel	Kriesel, Warren
+Kriger	Kriger, David
+Krijgsman	Krijgsman, S.
+Krings	Krings, Gautier
+Kritikos	Kritikos, M.
+Kritzinger	Kritzinger, Stephan
+Krivitsky	Krivitsky, Pavel N.
+Krizek	Krizek, Kevin J.
+KroeberRiel	Kroeber-Riel, Werner
+Kroeger	Kröger, W.
+Kroes	Kroes, Eric
+Kronfelder	Kronfelder, Marcel
+Kroon	Kroon, L.
+Krstic	Krstic, Miroslav
+Kruchten	Kruchten, Nicolas
+Krueger	Krüger, Guido
+KruegerCL	Krueger, C. L.
+Krumm	Krumm, John
+Krumme	Krumme, Coco
+Kruse	Kruse, Rudolf
+Kruskal	Kruskal, J. B.
+Krygsman	Krygsman, Stephan
+Ku	Ku, Wei-Shinn
+Kubicek	Kubicek, Deborah
+Kubik	Kubik, Ales
+Kuby	Kuby, Michael
+Kucirek	Kucirek, Peter
+Kuebel	Kübel, Anja
+Kuehne	Kühne, Reinhart
+Kueller	Küller, Rikard
+Kuhfeld	Kuhfeld, H.
+Kuhn	Kuhn, W.
+Kuhnau	Kuhnau, JoNette
+Kuhnimhof	Kuhnimhof, T.
+Kuipers	Kuipers, Benjamin
+Kukla	Kukla, Robert
+Kuliowsky	Kuliowsky, M.
+Kuljovsky	Kuljovský, Milan
+Kulkarni	Kulkarni, A.
+Kull	Kull, Ain
+Kullback	Kullback, S.
+Kumar	Kumar, P.
+KumarVSA	Kumar, V. S. Anil
+Kumaraswamy	Kumaraswamy, P.
+KumarR	Kumar, Roshan
+Kunert	Kunert, U.
+Kuntz	Kuntz, P.
+Kunze	Kunze, Antje
+Kuppam	Kuppam, A. R.
+Kuramoto	Kuramoto, Yoshiki
+Kurani	Kurani, Kenneth S.
+Kuraruchi	Kuraruchi, Fumitaka
+Kurauchi	Kurauchi, Fumitaka
+KurauchiF	Kurauchi, F.
+Kuroda	Kuroda, S.
+Kurri	Kurri, J.
+Kurth	Kurth, David L.
+Kurtzman	Kurtzman, Howard S.
+Kutter	Kutter, E.
+Kuwahara	Kuwahara, M.
+Kuzmyak	Kuzmyak, J. Richard
+KwakSe	Kwak, Seung-Jung
+KwakSo	Kwak, So-Yoon
+Kwan	Kwan, M.-P.
+KwanM	Kwan, Mei-Po
+Kwartler	Kwartler, Ariela
+Kwee	Kwee, Lanny K.
+Kwon	Kwon, Eil
+Kyriazidou	Kyriazidou, Ekaterini
+Kytoejoki	Kytöjoki, Jari
+
+% L %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+LaMarca	LaMarca, Anthony
+LaMondia	LaMondia, Jeffrey J.
+LaPaix	La Paix, Lissy
+Labbe	Labbé, Martine
+LabbeF	Labbé, Francoise
+Labidi	Labidi, S.
+Labrador	Labrador, Miguel A.
+Lackner	Lackner, Andreas
+Lademann	Lademann, R.
+Ladier	Ladier, Cyril
+Laemmel	Lämmel, Gregor
+Laemmer	Lämmer, Stefan
+Laesser	Lässer, C.
+Lafayette	Lafayette, West
+Lagarias	Lagarias, Jeffrey C.
+Lai	Lai, Ying-Cheng
+Laidet	Laidet, Laura
+Laird	Laird, James
+LairdJJ	Laird, J. J.
+Laitila	Laitila, T.
+Lakshmanan	Lakshmanan, T. R.
+Lam	Lam, William H. K.
+Lambiotte	Lambiotte, Renaud
+Lampugnani	Lampugnani, Vittorio Magnago
+Lan	Lan, Shan
+Lancaster	Lancaster, K. J.
+Land	Land, A. H.
+Landau	Landau, U.
+Landis	Landis, Karl R.
+Landsverk	Landsverk, O. B.
+Lane	Lane, Ben
+LaneC	Lane, Clayton
+Langton	Langton, Christopher
+Lanzendorf	Lanzendorf, M.
+Laoutaris	Laoutaris, Nikolaos
+Lapedes	Lapedes, A.
+Laporte	Laporte, Gilbert
+Larice	Larice, Michael
+Laroche	Laroche, Michel
+Larsen	Larsen, J.
+LarsenJE	Larsen, Jakob Eg
+LarsenM	Larsen, Morten Marott
+LarsenMK	Larsen, Marie K.
+Larsson	Larsson, Allan
+LarssonT	Larsson, T.
+Laska	Laska, Shirley
+Last	Last, Jörg
+Latora	Latora, Vito
+Lattin	Lattin, J.
+Lau	Lau, Daren C. B.
+Laudel	Laudel, Grit
+Laudon	Laudon, James
+Laumann	Laumann, Edward O.
+Laurent	Laurent, Fabien M.
+Laurier	Laurier, Eric
+Laurila	Laurila, Juha
+Lauther	Lauther, Ulrich
+Lave	Lave, Charles A.
+Laverty	Laverty, William H.
+Lawe	Lawe, Stephen
+Lawler	Lawler, Eugene L.
+Lawley	Lawley, Mark
+Lawlor	Lawlor, Aonghus
+Lawphongpanich	Lawphongpanich, Siriphong
+Lawson	Lawson, Catherine
+Lawton	Lawton, T. Keith
+Lazer	Lazer, David
+LeColletter	Le Colletter, Emmanuel
+LeCorbusier	LeCorbusier
+LePlastrier	Le Plastrier, Vicki
+LeRiche	Le Riche, Rodolphe
+LeSaux	Le Saux, E.
+LeVine	Le Vine, Scott
+Leach	Leach, John
+LeachA	Leach, A. G.
+Leaman	Leaman, A.
+Leamer	Leamer, E. E.
+Leary	Leary, Mark R.
+Leather	Leather, J.
+Lebacque	Lebacque, Jean-Patrick
+Lebaron	Lebaron, Blake
+Leblanc	LeBlanc, Larry J.
+Lebrun	Lebrun, K
+LebrunK	Lebrun, K.
+Lechene	Lechene, Valerie
+Lechler	Lechler, Tim
+Leclercq	Leclercq, Ludovic
+Lee	Lee, Michelle
+LeeBA	Lee, Barrett A.
+LeeBHY	Lee, Brian H. Y.
+LeeC	Lee, Chungwon
+LeeDH	Lee, Der-Horng
+LeeGosselin	Lee-Gosselin, Martin E. H.
+LeeHL	Lee, Hsien Loong
+LeeJ	Lee, Jong Sung
+LeeJA	Lee, J. A.
+LeeJames	Lee, James
+LeeJQ	Lee, Jun
+LeeK	Lee, Kwang-Sub
+LeeNJ	Lee, Nai Jia
+LeeS	Lee, Seokho
+LeeSE	Lee, Seungho
+LeeSH	Lee, Sang Hoon
+LeeSJ	Lee, Seung Jae
+LeeT	Lee, Taihyeong
+LeeUK	Lee, Un-Kun
+Leen	Leen, T.K.
+Leeworthy	Leeworthy, Vernon R.
+Lefebvre	Lefebvre, Nicolas
+LefebvreW	Lefebvre, W.
+Legrain	Legrain, Laetitia
+Lehmann	Lehmann, S.
+Lehner	Lehner, Manuel
+Lehnerer	Lehnerer, Alex
+Lei	Lei, Ming
+LeiT	Lei, T. L.
+LeiTQ	Lei, Ting
+Leibler	Leibler, R. A.
+Leidl	Leidl, Reinhard
+Leisch	Leisch, Friedrich
+Leiser	Leiser, David
+Leitner	Leitner, Michael
+Lemp	Lemp, Jason D.
+Lennon	Lennon, Alexia
+LennonJJ	Lennon, J. John
+Lenntorp	Lenntorp, Bo
+Lenormand	Lenormand, Maxime
+Lenz	Lenz, Barbara
+Lenstra	Lenstra, J. K.
+Leonardi	Leonardi, S.
+LeonardiG	Leonardi, G.
+LeonardiJ	Léonardi, Jacques.
+Leontief	Leontief, Wassily W.
+Lepp	Lepp, Andrew
+Lerman	Lerman, S. R.
+Leroux	Leroux, Philippe
+Lesort	Lesort, J. B.
+LethPetersen	Leth-Petersen, Soeren
+Leutzbach	Leutzbach, Wilhelm
+Levin	Levin, J.
+LevineJC	Levine, Jonathan C.
+LevineDK	Levine, David K.
+LevineS	Le Vine, Scott
+Levinson	Levinson, David
+Lewis	Lewis, T.
+LewisB	Lewis, Bryan
+LewisD	Lewis, D.
+Ley	Ley, Hubert
+Li	Li, Jie
+LiD	Li, Deyi
+LiH	Li, Hainan
+LiHao	Li, Hao
+LiJ	Li, Jieping
+LiJQ	Li, Junlong
+LiL	Li, Lun
+LiMZF	Li, Michael Z. F.
+LiP	Li, Pei
+LiS	Li, S.
+LiT	Li, Tong
+LiTQ	Li, T.
+LiW	Li, W.
+LiWai	Li, Wai Wing
+LiY	Li, Yuanjun
+LiZC	Li, Zhi-Chun
+LiZ	Li, Zhigang Jason
+Liamputtong	Liamputtong, Pranee
+Liao	Liao, Lin
+LiaoCF	Liao, Chen-Fu
+LiaoF	Liao, Feixiong
+LiaoY	Liao, Yihua
+Lichman	Lichman, Moshe
+Licoppe	Licoppe, Christian
+Lieb	Lieb, Christoph
+Lieberman	Lieberman, Gerald J.
+Liebl	Liebl, Franz
+Liedtke	Liedtke, Gernot
+Light	Light, Thomas
+Lighthill	Lighthill, Michael James
+Lim	Lim, Clarck
+LimCH	Lim, Chai Hoon
+LimHB	Lim, Hock Beng
+LimaC	Lima, Cláudio
+Limtanakool	Limtanakool, Narisra
+Lin	Lin, Ge
+LinDY	Lin, Dung-Ying
+LinH	Lin, H.
+LinM	Lin, Ming C.
+LinS	Lin, Shan
+LinWH	Lin, Wei-Hua
+Lind	Lind, G.
+Lindberg	Lindberg, Erik
+LindbergP	Lindberg, Per Olov
+Lindell	Lindell, Michael K.
+Lindenberg	Lindenberg, Siegwart
+Lindenmayer	Lindenmayer, Aristid
+Lindsey	Lindsey, Robert
+LindseyR	Lindsey, Robin
+Linkletter	Linkletter, Crystal
+Lintell	Lintell, M.
+Lippuner	Lippuner, Catherine
+Litian	Litian, Xie
+Litman	Litman, Todd Alexander
+Littig	Littig, Beate
+Little	Little, Roderick J. A.
+LittleJD	Little, John D.C.
+Litwin	Litwin, Marek S.
+Liu	Liu, Like
+LiuH	Liu, Henry
+LiuHQ	Liu, Huan
+LiuHenryX	Liu, Henry X.
+LiuHs	Liu, Hsin-Lung
+LiuJ	Liu, J.
+LiuK	Liu, Kun
+LiuL	Liu, Liang
+LiuR	Liu, Ronghui
+LiuX	Liu, Xiang
+LiuXQ	Liu, Xuan
+LiuY	Liu, Y.-H.
+LiuYQ	Liu, Yunhuai
+Liverman	Liverman, Diana M.
+Livshits	Livshits, Vladimir
+Lo	Lo, Lucia
+LoAK	Lo, Anthony K.
+LoK	Lo, K.
+Lobb	Lobb, John
+LoboF	Lobo, Fernando
+Locher	Locher, Peter
+Lockwood	Lockwood, Allison
+Loder	Loder, Allister
+Loechl	Löchl, Michael
+Loehrer	Löhrer, R.
+Loehner	Löhner, H.
+Logan	Logan, Brian
+Loh	Loh, J.
+Lohse	Lohse, Dieter
+Lomax	Lomax, Wendy
+LomaxT	Lomax, Tim
+Lonad	Lonad, H. K.
+Long	Long, JianCeng
+Longo	Longo, Nicola
+Loomes	Loomes, G.
+Loper	Loper, Margaret
+Lord	Lord, E. A.
+Lorenz	Lorenz, Matt
+Los	Los, M.
+Lotan	Lotan, T.
+Lott	Lott, G.
+Lotzmann	Lotzmann, Ulf
+Louail	Louail, Thomas
+Loudon	Loudon, W. R.
+Louf	Louf, R\'emi
+Louis	Louis, E.
+Louviere	Louviere, Jordan J.
+Love	Love, Peter E. D.
+Lovric	Lovric, Milan
+Low	Low, Steven
+LowD	Low, David
+Lowry	Lowry, Ira S.
+Lozano	Lozano, M.
+Lu	Lu, Ming
+LuJ	Lu, Jiangang
+LuL	Lu, Linjun
+LuQ	Lu, Qingying
+LuY	Lu, Yijing
+Luathep	Luathep, Paramet
+Lubore	Lubore, S. H.
+Luca	Luca, L.
+Ludford	Ludford, Pamela
+Luebeck	Lübeck, Sven
+Luedi	Lüdi, Georges
+Lueger	Lueger, Manfred
+Luersen	Luersen, Marco Antonio
+Luethy	Lüthy, Nico
+Luetolf	Lütolf, T.
+Luigi	Luigi, Fabio de
+Lula	Lula, Clarisse V.
+Lumley	Lumley, Thomas
+Lundberg	Lundberg, Shelly J.
+Lundqvist	Lundqvist, Lars
+Lupton	Lupton, Ellen
+Lusher	Lusher, Dean
+Lutzenberger	Lutzenberger, Martin
+Luz	Luz, R.
+LykJensen	Lyk-Jensen, S.
+Lynch	Lynch, K.
+Lyons	Lyons, G.
+Lyytikainen	Lyytikainen, Teemu
+
+% M %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Ma	Ma, Xiaolei
+MaH	Ma, Huiye
+MaJ	Ma, Jingtao
+MaJQ	Ma, J.
+MaL	Ma, Lu
+MaT	Ma, Tai-Yu
+Maat	Maat, Kees
+Mabit	Mabit, Stefan L.
+MacDonald	MacDonald, Elizabeth
+MacKay	MacKay, David J. C.
+MacKayRS	MacKay, R. S.
+MacNair	MacNair, Edward A.
+Machemehl	Machemehl, Randy B.
+Machleit	Machleit, Karen A.
+Maciejewski	Maciejewski, Michal
+Macintosh	MacIntosh, J.
+Mackie	Mackie, P. J.
+MackieP	Mackie, P.
+Macpherson	Macpherson, David A.
+Madera	Madera, John
+Madre	Madre, Jean-Loup
+Madsen	Madsen, Bjarne
+MadsenMM	Madsen, Mette My
+Maerivoet	Maerivoet, Sven
+Maerki	Märki, Fabian
+Magadza	Magadza, C. H. D.
+Mager	Mager, Thomas J.
+Maggi	Maggi, Rico
+Magnanti	Magnanti, T. L.
+Mahdian	Mahdian, Mohammad
+Mahey	Mahey, P.
+Mahmassani	Mahmassani, H. S.
+Mahmoud	Mahmoud, M.
+Mahpour	Mahpour, Alireza
+Mahut	Mahut, Michael
+Maibach	Maibach, Markus
+Maier	Maier, Gunther
+Maiolo	Maiolo, John R.
+Maksim	Maksim, H.
+Maley	Maley, Donald W.
+Malinovskiy	Malinovskiy, Yegor
+Mallard	Mallard, Graham
+Malone	Malone, Linda C.
+Malpezzi	Malpezzi, Stephen
+Mamdoohi	Mamdoohi, Amirezza
+Mandir	Mandir, Eileen
+Maniezzo	Maniezzo, Vittorio
+Manley	Manley, Ed
+Mann	Mann, H. B.
+Manna	Manna, S. S.
+Mannering	Mannering, F.
+Manrai	Manrai, Ajay K.
+Manski	Manski, Charles F.
+Manz	Manz, Wilko
+Maoh	Maoh, Hanna
+Marathe	Marathe, Madhav
+MaratheMV	Marathe, Madhav V.
+Marble	Marble, D. F.
+Marca	Marca, James E.
+March	March, L.
+MarchJG	March, James G.
+Marchal	Marchal, Fabrice
+MarchalP	Marchal, Philippe
+MarchettiSpaccamela	Marchetti-Spaccamela, Alberto
+Marchiori	Marchiori, M.
+Marcon	Marcon, Massimiliano
+Marcotte	Marcotte, Patrice
+Maritan	Maritan, Amos
+Mark	Mark, Ülar
+Markin	Markin, Rom J.
+Markopoulou	Markopoulou, Athina
+Markram	Markram, Henry
+Marks	Marks, Eli S.
+MarksP	Marks, P.
+Marmolejo	Marmolejo, Alejandro
+Marnay	Marnay, Chris
+Marsden	Marsden, Greg
+MarsdenP	Marsden, P.V.
+Marshall	Marshall, A.
+MarshallAW	Marshall, A. W.
+MarshallBK	Marshall, Brent K.
+MarshallS	Marshall, Stephen
+Martens	Martens, Karel
+Marti	Marti, U.
+MartiP	Marti, Peter
+MartiR	Martí, Rafael
+Martin	Martin, Ralf
+MartinB	Martin, Basile
+MartinL	Markin, L.
+Martinez	Martínez, Francisco
+MartinezI	Martínez, Irene
+MartinezL	Martínez, L.M.
+Martonosi	Martonosi, M.
+Maruyama	Maruyama, H.
+Marzluff	Marzluff, John M.
+Mascolo	Mascolo, Cecilia
+Masera	Masera, Marcelo
+Marsten	Marsten, R.E.
+Mason	Mason, John L.
+Matas	Matas, Anna
+Matheson	Matheson, I. B. C.
+Mathew	Mathew, Tom V.
+Matisziw	Matisziw, T.
+Matsoukis	Matsoukis, E. C.
+Matsumoto	Matsumoto, Manabu
+Matthews	Matthews, Bryan
+MatthewsR	Matthews, Robert
+Matthies	Matthies, Ellen
+Matti	Matti, Daniel
+Mattsson	Mattsson, L.-G.
+Matylis	Matylis, G.
+Maurer	Maurer, Peter
+Mauron	Mauron, Laurent
+Mavronicolas	Mavronicolas, Marios
+Mawson	Mawson, Anthony R.
+MayM	May, Michael
+Mayer	Mayer, Thomas
+MayerK	Mayer, K.
+Mayeres	Mayeres, Inge
+Mayers	Mayers, I.
+Mayring	Mayring, Philipp
+Maze	Maze, Thomas H.
+Mazilu	Mazilu, D. A.
+MaziluI	Mazilu, I.
+McArdle	McArdle, Gavin
+McCabe	McCabe, Hugh
+McCarthy	McCarthy, P. S.
+McCloskey	McCloskey, Deidre N.
+McCormack	McCormack, Gavin R.
+McCormackE	McCormack, Evan
+McDonald	McDonald, John F.
+McFadden	McFadden, Daniel
+McGrath	McGrath, R.
+McGuire	McGuire, C. B.
+McKay	McKay, Michael D.
+McLaughlin	McLaughlin, Amanda
+McLaughlinWJ	McLaughlin, William J.
+McMillen	McMillen, Daniel P.
+McNabola	McNabola, Aonghus
+McNally	McNally, Michael G.
+McPherson	McPherson, Miller
+McShane	McShane, William R.
+McWethy	McWethy, Laura B.
+Mead	Mead, Roger
+Medeiros	Medeiros, Deb J.
+Meeraus	Meeraus, Alexander
+Meersman	Meersman, Hilde
+Meffert	Meffert, Klaus
+Mehaffy	Mehaffy, Michael W.
+Mehlin	Mehlin, Markus
+Mehrabian	Mehrabian, Alber
+Mehran	Mehran, B.
+Mehta	Mehta, Nihal J.
+Meier	Meier, Linus
+MeierD	Meier, D.
+Meinel	Meinel, G.
+Meiners	Meiners, H.
+Meister	Meister, Konrad
+Mellman	Mellman, Robert E.
+Melnik	Melnik, Ofer
+Melo	Melo, Patricia C.
+Menard	Menard, Jason
+Menaz	Menaz, Batool
+Mende	Mende, Felix H.
+Mendes	Mendes, G. A.
+MendesJ	Mendes, Julio
+Menendez	Menéndez, Mónica
+Menghini	Menghini, Gianluca
+Mensonides	Mensonides, Wytse
+Mentzas	Mentzas, Gregoris
+Menz	Menz, Wolfgang
+MeridaCasermeiro	Mérida-Casermeiro, Enrique
+Merkle	Merkle, Daniel
+Merlo	Merlo, Antonio
+Mertsching	Mertsching, Bärbel
+Mesbah	Mesbah, Mahmoud
+Messer	Messer, Carroll J.
+Messinger	Messinger, Paul R.
+Metha	Metha, N. J.
+Metz	Metz, David
+Meuser	Meuser, Michael
+Meyburg	Meyburg, A. H.
+Meyer	Meyer, Michael D.
+MeyerNiebergS	Meyer-Nieberg, Silja
+MeyerOnlyR	Meyer, R.
+MeyerR	Meyer, Robert J.
+MeyerU	Meyer, Ulrich
+MeyerdeFreitas	Meyer de Freitas, Lucas
+Mezdani	Mezdani, Youssef
+Michael	Michael, Maged M.
+MichaelM	Michael, M.
+MichalewiczZ	Michalewicz, Zbigniew
+Michalopoulos	Michalopoulos, P. C.
+Michelon	Michelon, P.
+Michie	Michie, Donald
+Michiels	Michiels, H.
+Micklewright	Micklewright, John
+Middaugh	Middaugh, Beauregard
+Middendorf	Middendorf, Martin
+Middleton	Middleton, Richard S.
+Midenet	Midenet, Sophie
+Midgley	Midgley, Peter
+Mielsch	Mielsch, Lutz-Ingo
+Mieth	Mieth, P.
+Miglioretti	Miglioretti, Diana L.
+Mikoleit	Mikoleit, Anne
+Milam	Milam, Ronald T.
+Milgram	Milgram, Stanley
+Milinskii	Milinskii, Ronald A. I.
+Millan	Millan, P. C.
+MillardBall	Millard-Ball, Adam
+Miller	Miller, Eric J.
+MillerA	Miller, Abbott
+MillerGA	Miller, George A.
+MillerGK	Miller, Gerald K.
+MillerHJ	Miller, Harvey J.
+MillerHooks	Miller-Hooks, Elise
+MillerSt	Miller, Stephen
+Milon	Milon, J. W.
+Minami	Minami, K.
+Minderhoud	Minderhoud, M. M.
+Mingozzi	Mingozzi, Aristide
+Minkevicius	Minkevicius, Saulius
+Mirchandani	Mirchandani, Pitu
+Mirmehdi	Mirmehdi, Majid
+Miron	Miron, John R.
+Mishalani	Mishalani, R.
+Mislove	Mislove, Alan
+Misra	Misra, Sudip
+Mitchell	Mitchell, R
+MitchellJE	Mitchell, Joshua E.
+MitchellM	Mitchell, Michael
+MitchellW	Mitchell, W. J.
+Mitradjieva	Mitradjieva, M.
+Moberg	Moberg, Christopher R.
+ModestoDeSouza	Modesto de Souza, Ricardo Cartaxo
+Modrzejewski	Modrzejewski, Jakub
+Moeckel	Moeckel, R.
+Moehring	Möhring, Rolf H.
+Moeller	Möller, Berit
+Moelthen	Mölthen, J.
+Mogridge	Mogridge, Martin J H
+Mohammadian	Mohammadian, Abolfazl Kouros
+Mohanty	Mohanty, Sudatta
+Moiseeva	Moiseeva, Anastasia
+Mok	Mok, D.
+Mokhtarian	Mokhtarian, G.
+MokhtarianP	Mokhtarian, Patricia L.
+Molin	Molin, Eric J. E.
+Moll	Moll, Stephan
+Mollaghasemi	Mollaghasemi, Mansooreh
+Molnar	Moln\'ar, P\'eter
+Mondschein	Mondschein, Andrew
+Montuori	Montuori, Alfonso
+Monro	Monro, S.
+Montella	Montella, Bruno
+Montenegro	Montenegro, N.
+Montgomery	Montgomery, Alan L.
+Montini	Montini, Lara
+Monzon	Monzón, Andrés
+Moons	Moons, E.
+Moore	Moore, James E.
+MooreE	Moore, Eric G.
+MooreJ	Moore, José
+MooreK	Moore, Katie
+Morari	Morari, Manfred
+More	Moré, Jorge J.
+Moreira	Moreira, João M.
+Morency	Morency, Catherine
+Moreno	Moreno, Yamir
+Moret	Moret, Bernard
+Morgan	Morgan, D.
+Morgenstern	Morgenstern, Oskar
+Morichi	Morichi, Shigeru
+Morikawa	Morikawa, Taka
+Morlok	Morlok, Edward K.
+Morsch	Morsch, Oliver
+Mortazavi	Mortazavi, R.
+Morton	Morton, David P.
+Moses	Yoram, Moses
+Mosteller	Mosteller, Frederick
+Moudon	Moudon, Anne Vernez
+Mourali	Mourali, Mehdi
+Mourik	Mourik, H.
+Moutinho	Moutinho, Luiz A.
+Muckell	Muckell, Jonathan
+Muegge	Mügge, Holger
+Muehlethaler	Mühlethaler, Franz
+Muehlhans	Mühlhans, Heike
+Muehlich	Mühlich, Nicolas
+Muellbauer	Muellbauer, J.
+Mueller	Müller, Kai
+MuellerAS	Müller Arizona, Stefan
+MuellerArisona	Müller Arisona, Stefan
+MuellerD	Müller, Daniela
+MuellerKR	Müller, K. R.
+MuellerK	Müller, Kirill
+MuellerM	Müller, Matthias
+MuellerMa	Müller, Martin
+MuellerMi	Müller, Michel
+MuellerP	Müller, Pascal
+MuellerS	Müller, Sven
+Muheim	Muheim, Peter
+Muhs	Muhs, J.
+Mukherjee	Mukherjee, G.
+Mulder	Mulder, Clara H.
+Mulley	Mulley, Corinne
+Muniz	Muñiz, Ivan
+Munizaga	Munizaga, Marcela A.
+Munoz	Muñoz, Juan Carlos
+Murakami	Murakami, Elaine
+MurakamiD	Murakami, D.
+Murga	Murga, Mikel
+Murphy	Murphy, Paul
+Murray	Murray, T.
+MurrayA	Murray, Alan T.
+MurrayG	Murray, Gail
+MurrayTuite	Murray-Tuite, Pamela M.
+Musha	Musha, Toshimitsu
+Mushkatel	Mushkatel, Alvin H.
+Musselman	Musselman, Kenneth J.
+Mustafa	Mustafa, A.
+MutizwaMangiza	Mutizwa-Mangiza, Naison D.
+Myers	Myers, J.
+Myllymaeki	Myllymäki, Petri J.
+
+
+% N %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Naeher	Näher, Stefan
+Nagae	Nagae, T.
+Nagaraj	Nagaraj, Kalyani
+Nagel	Nagel, Kai
+NagelU	Nagel, Ulrike
+Naghawi	Naghawi, Hana
+Nagurney	Nagurney, A.
+Nair	Nair, Rahul
+Nakagaki	Nakagaki, Toshiyuki
+Nakai	Nakai, Shusaku
+Nakamichi	Nakamichi, K.
+Nakamura	Nakamura, H.
+Nakanishi	Nakanishi, Hitomi
+Nakarado	Nakarado, G. L.
+Nakatsuji	Nakatsuji, Takashi
+Nakaya	Nakaya, Tomoki
+Nakayama	Nakayama, Akihiro
+NakayamaS	Nakayama, Shoichiro
+Nakazato	Nakazato, Morimichi
+Nanda	Nanda, Raman
+Nanni	Nanni, Umberto
+Narasimhan	Narasimhan, Chakravarthi
+Narayana	Narayana, Chem L.
+Narayanan	Narayanan, Ravi
+Narula	Narula, Subhash C.
+Nash	Nash, John
+NashA	Nash, Andy
+NashC	Nash, Chris
+NashCA	Nash, C. A.
+Neale	Neale, Margaret A.
+Neculau	Neculau, Mihaela
+Neda	Néda, Z.
+Nedungadi	Nedungadi, Prakash
+Needleman	Needleman, Saul B.
+Neef	Neef, C.
+Nel	Nel, Johanna
+Nelder	Nelder, John Ashforth
+Nellthorp	Nellthorp, J.
+Nelson	Nelson, Peter
+NelsonB	Nelson, B.
+Nembhard	Nembhard, H. B.
+Neo	Neo, Poh Har
+Nerella	Nerella, Sriharsha
+Neto	Neto, David
+Netzer	Netzer, Nick
+Neuburger	Neuburger, H.
+Neuenschwander	Neuenschwander, René
+Neumann	Neumann, Marc
+NeumannA	Neumann, Andreas
+NeumannAQ	Neumann, Alexander
+Neutens	Neutens, Tijs
+Newman	Newman, Jeffrey
+NewmanMEJ	Newman, M. E. J
+Newsome	Newsome, Tracy H.
+Ng	Ng, ManWo
+NgCF	Ng, Chen Feng
+NgFF	Ng, F. F.
+Nguyen	Nguyen, S.
+Nice	Nice, M.
+Nicholson	Nicholson, Nigel
+NicholsonA	Nicholson, A
+Nicol	Nicol, D.
+Nicolai	Nicolai, T.
+Nicosia	Nicosia, Vincenzo
+Niedringhaus	Niedringhaus, William P.
+Nielsen	Nielsen, Otto Anker
+Niemeier	Niemeier, Debbie A.
+Nievergelt	Nievergelt, Jürg
+Niininen	Niininen, Outi
+Nijkamp	Nijkamp, Peter
+Nijland	Nijland, Linda
+Nikias	Nikias, Vasileios
+Nikitin	Nikitin, A.
+Nikoletseas	Nikoletseas, Sotiris
+Nilsson	Nilsson, Nils J.
+NilssonM	Nilsson, Maria
+Nisan	Nisan, Noam
+Nishii	Nishii, Kazuo
+Nishikawa	Nishikawa, Ikuko
+Nishinari	Nishinari, Katsuhiro
+Niskanen	Niskanen, Esko
+Nitsche	Nitsche, Philippe
+Niyogi	Niyogi, Dev
+Nobis	Nobis, Claudia
+Noble	Noble, Jason
+Noekel	Nökel, Klaus
+Noel	Noel, C.
+Noembrini	Noembrini, F.
+Noh	Noh, Hyunsoo
+Nohls	Nohls, Clausia
+Noland	Noland, Robert B.
+Noor	Noor, Muhammad Aslam
+NoorKI	Noor, Khalida Inayat
+Norland	Norland, Ingrid T.
+Northcraft	Northcraft, Gregory B.
+Norvig	Norvig, Peter
+Noth	Noth, M.
+Noulas	Noulas, Anastasios
+Novak	Novak, David C.
+Nowak	Nowak, A.
+NowakMA	Nowak, Martin A.
+Nuortio	Nuortio, Teemu
+NurArifin	Nur Arifin, Z.
+Nurmi	Nurmi, Väinö
+Nurumbetova	Nurumbetova, Adel E.
+Nussbaumer	Nussbaumer, Gustav
+Nuzzola	Nuzzola, A.
+Nuzzolo	Nuzzolo, Agostino
+
+% O %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+OCinneide	O'Cinneide, Colm Art
+OKelly	O'Kelly, M. E.
+OReilly	O'Reilly, Gerard P.
+Oberkampf	Oberkampf, W. L.
+Obermeyer	Obermeyer, A.
+Obradovic	Obradovic, Zoran
+Ocel	Ocel, Norah M.
+Ochelen	Ochelen, Sara
+Ochieng	Ochieng, Washington Yotto
+Oded	Oded, Cats
+Odell	Odell, James
+Odgaard	Odgaard, T.
+Odland	Odland, John
+Ogbonna	Ogbonna, Emmanuel
+Ogle	Ogle, Jennifer
+Oh	Oh, Cheol
+Ohmori	Ohmori, Nobuaki
+Ohnmacht	Ohnmacht, Timo
+Ohrem	Ohrem, P.
+Oi	Oi, Walter Y.
+OjedaCabral	Ojeda Cabral, Manuel
+Oladeine	Oladeine, F.
+Oladosu	Oladosu, Gbadebo
+Olaru	Olaru, Doina
+Oleson	Oleson, Rex
+Olguin	Olguín, Javiera
+Olhofer	Olhofer, Markus
+Oliveira	Oliveira, Marcelo
+OliveiraEC	Oliveira, Eugénio C.
+OliveiraGC	Oliveira, G. C.
+Ollick	Ollick, F.
+Olsen	Olsen, Aksel
+Olszewski	Olszewski, Piotr
+OlteanuRaimond	Olteanu-Raimond, Ana-Maria
+Olukotun	Olukotun, Kunle
+Onaka	Onaka, Jun L.
+Ong	Ong, Seow Eng
+OomdoValle	Oom do Valle, Patricia
+Oommen	Oommen, B. John
+Openshaw	Openshaw, Stan
+Oppenheimer	Oppenheimer, M.
+Opper	Opper, Jeffrey M.
+Oppermann	Oppermann, Martin
+Oppewal	Oppewal, H.
+Orbe	Orbe, César
+Orcutt	Orcutt, Guy H.
+Ord	Ord, J. K.
+Ordonez	Ordóñez Medina, Sergio A.
+Orfeuil	Orfeuil, J. P.
+Orgel	Orgel, D.
+Orme	Orme, B.
+Orram	Orram, H. C.
+Orselli	Orselli, Jean
+OrtaloMagne	Ortalo-Magné, François
+Ortigosa	Ortigosa, Javier
+Ortiz	Ortiz, José
+Ortuzar	Ortúzar, Juan de Dios
+Ory	Ory, David T.
+Osborne	Osborne, Jason W.
+Osman	Osman, Ahmed O.
+Osorio	Osorio, Carolina
+Ossowski	Ossowski, S.
+Ostermeier	Ostermeier, A.
+Osullivan	O'Sullivan, T.
+Ott	Ott, Ruedi
+Ottens	Ottens, Henk F. L.
+Otterstaetter	Otterstätter, Thomas
+Ottmann	Ottmann, Matthias
+Otto	Otto, Vivianne I.
+Ouafi	Ouafi, Rachid
+Oukhellou	Oukhellou, L.
+Oum	Oum, Tae
+Ouorou	Ouorou, A.
+Outwater	Outwater, M.
+Ouyang	Ouyang, L. Q.
+Overfelt	Overfelt, David
+OvergaardHansen	Overgaard Hansen, C.
+Overman	Overman, Henry
+Owen	Owen, Andrew
+Owens	Owens, Alvin J.
+Oyama	Oyama, A.
+% P %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Paasche	Paasche, Julie
+PabonJimenez	Pabón-Jiménez, Glarycelis
+Pachauri	Pachauri, Rajendra K.
+Packard	Packard, N.
+Pae	Pae, Taavi
+Paech	Paech, Niko
+Paez	Páez, Antonio
+Page	Page, Mattew
+PageB	Page, Bernd
+Pagliara	Pagliara, Francesca
+Pajor	Pajor, Thomas
+Paleti	Paleti, Rajesh
+Pallottino	Pallottino, S.
+Palma	Palma, Carolina
+Palmer	Palmer, R. G.
+PalmerIA	Palmer, I. A.
+PalmerR	Palmer, R.
+Palutikof	Palutikof, J. P.
+Pan	Pan, Bei
+PanC	Pan, Changxuan
+Pang	Pang, Jong-Shi
+PangSD	Pang, S. D.
+Pantisano	Pantisano, Francesco
+Papadopoulou	Papadopoulou, Vicky G.
+Papageorgiou	Papageorgiou, M.
+Papaix	Papaix, Claire
+Papastathopoulou	Papastathopoulou, Paulina
+Papathanasopoulou	Papathanasopoulou, Vasileia
+Papinski	Papinski, Dominik
+Papola	Papola, A.
+Papula	Papula, Lothar
+Parameswaran	Parameswaran, J.
+Parasuraman	Parasuraman, A.
+Parcells	Parcells, Robert J.
+Pardalos	Pardalos, Panos M.
+Parish	Parish, Yoav I. H.
+Park	Park, Jun Hyeong
+ParkK	Park, Kyounga
+ParkKy	Park, Kyungdo
+ParkS	Park, Seung yong
+ParkYS	Park, Young Soo
+Parker	Parker, J. Scott
+Parkes	Parkes, A.
+Parkin	Parkin, John
+Parroco	Parroco, Anna Maria
+Parry	Parry, M. L.
+ParryI	Parry, Ian W.H.
+Parsons	Parsons, G. R.
+Partridge	Partridge, Kurt
+Pas	Pas, Eric I.
+Pashaie	Pashaie, Behruz
+Pashardes	Pashardes, Panos
+Pasman	Pasman, Sander
+Pasquier	Pasquier, Martial
+PastorSatorras	Pastor-Satorras, Romualdo
+Patacchini	Patacchini, Eleonora
+Pathak	Pathak, Parth
+Patriarche	Patriarche, G.
+Patriksson	Patriksson, M.
+Patterson	Patterson, Donald J.
+PattersonZ	Patterson, Zachary
+Pattison	Pattison, Pip
+Patwardhan	Patwardhan, A.
+Paulmyer	Paulmyer, Isabelle
+Paulussen	Paulußen, U.
+Pawlak	Pawlak, J
+Payne	Payne, John W.
+Paz	Paz, Alex
+Pearce	Pearce, David
+Pearson	Pearson, David F.
+Pebesma	Pebesma, Edzer
+Pedersen	Pedersen, Torben Bach
+Peer	Peer, Stefanie
+Peeta	Peeta, Srinivas
+Pel	Pel, Adam J.
+Pelechano	Pelechano, Nuria
+Peleg	Peleg, Kobi
+Pelizaro	Pelizaro, T. A.
+Pellegrini	Pellegrini, Pasquale A.
+Pelletier	Pelletier, Marie-Pier
+Pelling	Pelling, Mark
+Pendyala	Pendyala, Ram M.
+Peng	Peng, Zhong-Ren
+PengW	Peng, Wen-Chih
+Penn	Penn, Alan
+Pennoni	Pennoni, Fulvia
+Pensa	Pensa, Stefano
+Pentland	Pentland, Alex
+Perdok	Perdok, Jan
+Perdue	Perdue, Richard R.
+Pereira	Pereira, M. V. F.
+PereiraF	Pereira, Francisco Camara
+PereiraFC	Pereira, Francisco C.
+Perez	Peréz, B.
+PerezC	Perez, C.
+PerezD	Perez, Diane
+PerezL	Pérez-Lombard, Luis
+PerezR	Perez, Rafael A.
+PerezZuriaga	Pérez Zuriaga, Ana M.
+Perincherry	Perincherry, Vijay
+Perkins	Perkins, Alan
+PerkinsD	PerkinsD, David D.
+Permain	Permain, D
+Perrels	Perrels, Adriaan
+Perret	Perret, Fabienne
+Perrone	Perrone, Michael Peter
+Perry	Perry, Ronald W.
+Peter	Peter, Christoph
+Peters	Peters, Anja
+PetersB	Peter, Brett A.
+Petersen	Petersen, Eric
+PetersenM	Petersen, Markus
+PetersenT	Petersen, Tom
+Peterson	Peterson, Steven K.
+Petty	Petty, M. D.
+Pfadenhauer	Pfadenhauer, Michaela
+Pfahringer	Pfahringer, Bernhard
+Pfeiffer	Pfeiffer, Manfred
+Pfeifhofer	Pfeifhofer, Yannick
+Pfister	Pfister, H.-R.
+Pfisterer	Pfisterer, Steven
+Pfriem	Pfriem, Reinhard
+Pfromer	Pfromer, Julius
+Phang	Phang, Sock-Yong
+Phillips	Phillips, Andrew
+Phipps	Phipps, Alan G.
+Phleps	Phleps, Peter
+Phoon	Phoon, K. K.
+Picard	Picard, Nathalie
+Pick	Pick, G. W.
+Pickl	Pickl, S.
+Picklesimer	Picklesimer, David D.
+Picone	Picone, Gabriel A.
+Picornell	Picornell, Miguel
+Picou	Picou, J. Steven
+Pidd	Pidd, Michael
+Pierskalla	Pierskalla, William P.
+Pieters	Pieters, Marits
+Pigou	Pigou, Arthur C.
+Pikora	Pikora, Terri J.
+Pilch	Pilch, M.
+Pillat	Pillat, Juliane
+PilliSihvola	Pilli-Sihvola, Karoliina
+Pinar	Pinar, Ali
+Pinjari	Pinjari, Abdul Rawoof
+PinjariAR	Pinjari, A. R.
+Pinkofsky	Pinkofsky, Lutz
+Pitaksringkarn	Pitaksringkarn, Ladda
+Pitfield	Pitfield, D.
+Pitt	Pitt, Sonia
+Pittman	Pittman, Jennifer
+Pittock	Pittock, A. B.
+Pitts	Pitts, T. C.
+Pitz	Pitz, Gordon F.
+Pitzinger	Pitzinger, Peter
+Planatscher	Planatscher, Hannes
+Plasmeijer	Plasmeijer, Ronald
+Platt	Platt, Robert W.
+Plaue	Plaue, Matthias
+Plotz	Plotz, Joseph
+Plum	Plum, Alexander
+Poeck	Poeck, M.
+Poeschel	Pöschel, Thorsten
+PohlmannT	Pohlmann, Tobias
+Polak	Polak, John W.
+PolakJ	Polak, J.
+Poletti	Poletti, Flavio
+Poll	Poll, Martina
+Pollack	Pollack, Jordan B.
+Pollak	Pollak, Robert A.
+PollakHO	Pollak, H.O.
+Polydoropoulou	Polydoropoulou, Amalia
+Poncela	Poncela, Pilar
+Pons	Pons, Frank
+Pontil	Pontil, Massimiliano
+Ponzoni	Ponzoni, Ignacio
+Poortinga	Poortinga, Wouter
+Poorzahedy	Poorzahedy, Hossain
+Popkowskileszczyc	Popkowski Leszczyc, Peter T.L.
+Popovici	Popovici, Elena
+Poppelreuter	Poppelreuter, Stefan
+Porta	Porta, Sergio
+PortaNova	Porta Nova, Acacio M. O.
+Portnov	Portnov, B. A.
+Portugali	Portugali, Y.
+Posdnoukhov	Posdnoukhov, A.
+Pospischil	Pospischil, Andreas
+Postrel	Postrel, Steven
+Potoglou	Potoglou, Dimitris
+Potter	Potter, Stephen
+PotterR	Potter, R.B.
+Poudenx	Poudenx, Pascal
+Pout	Pout, Christine
+Powell	Powell, Warren B.
+PowellMJD	Powell, Michael J. D.
+Power	Power, Sinead
+Pownall	Pownall, C. E.
+Pozdnouhkov	Pozdnouhkov, A.
+Pozdnoukhov	Pozdnoukhov, A.
+Pozsgay	Pozsgay, Michael A.
+Prabaharan	Prabaharan, N.
+Prakasam	Prakasam, S.
+Prasad	Prasad, Christine
+PrasadK	Prasad, Karan
+Prashker	Prashker, J. N.
+Prassas	Prassas, Elena S.
+Prastacos	Prastacos, G.
+Prather	Prather, Paul J.
+Prato	Prato, Carlo Giacomo
+Prayag	Prayag, Girish
+Predtechenskii	Predtechenskii, V. M.
+Preparata	Preparata, F. P.
+Press	Press, William H.
+Preston	Preston, John
+Prettenthaler	Prettenthaler, Franz E.
+Prevedouros	Prevedouros, Panos D.
+Price	Price, Leah
+Primerano	Primerano, F.
+Prismerano	Prismerano, Frank
+Pritchard	Pritchard, David R.
+Pritchett	Pritchett, Amy
+Pronello	Pronello, Christina
+Proost	Proost, Stef
+Propp	Propp, James Gary
+Prost	Prost, Sebastian
+Prusinkiewicz	Prusinkiewicz, Przemyslaw
+Pudney	Pudney, S.
+Puerckhauer	Puerckhauer, Anne
+Puffe	Puffe, Enrico
+Pujolle	Pujolle, Guy
+Pukelsheim	Pukelsheim, Friedrich
+Pullen	Pullen, Stephen
+Pulugurta	Pulugurta, Vasmi
+Pursula	Pursula, M.
+Purwanto	Purwanto, Joko
+Putman	Putman, S. H.
+Puzicha	Puzicha, J.
+Pyo	Pyo, Jong-Sun
+
+
+% Q %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Qiang	Qiang, Wu
+Qiao	Qiao, Jianhong
+QiaoG	Qiao, Ge
+Qin	Qin, Xiao
+Qu	Qu, Hailin
+QuH	Qu, Huamin
+QuZ	Qu, Zehui
+Quandt	Quandt, Sylvia
+Quarantelli	Quarantelli, Enrico Louis
+Quddus	Quddus, Mohammed A.
+Queck	Queck, S. T.
+Quigley	Quigley, John M.
+Quinet	Quinet, Emile
+
+% R %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Rabin	Rabin, Matthew
+Rabinowicz	Rabinowicz, Andres
+RadcliffeBrown	Radcliffe-Brown, Alfred Reginald
+Radwan	Radwan, Essam
+Raffel	Raffel, Wolf-Ulrich
+Raftery	Raftery, Adrian E.
+Ragland	Ragland, David R.
+Rahbee	Rahbee, Adam
+Rahman	Rahman, A.
+Rahoual	Rahoual, Malek
+Rai	Rai, Rohit K.
+Rajagopal	Rajagopal, K. R.
+Rajagopalan	Rajagopalan, Bharath S.
+Rajiwade	Rajiwade, Swapnil S.
+Rakha	Rakha, Hesham
+RalevicDekic	Ralevic-Dekic, Biljana
+RalstonA	Ralston, Anthony
+Ramadurai	Ramadurai, Gitakrishnan
+Ramalingam	Ramalingam, G.
+Ramasamy	Ramasamy, Shankar
+Ramasco	Ramasco, José Juan
+Ramaswamy	Ramaswamy, R.
+Rambaldi	Rambaldi, Sandro
+Ramjerdi	Ramjerdi, F.
+Ramming	Ramming, M. Scott
+Ramos	Ramos, B. T.
+Ran	Ran, Bin
+Rand	Rand, L.
+Raney	Raney, Bryan
+Ranganathan	Ranganathan, S.
+Range	Range, Michael
+Ranjan	Ranjan, Gyan
+Ranjitkar	Ranjitkar, Prakash
+Rao	Rao, Anand S.
+RaoQ	Rao, Qian
+Raphael	Raphael, Bertram
+Rapisarda	Rapisarda, A.
+Rapkin	Rapkin, C.
+Rapolu	Rapolu, Sujith Reddy
+Rapone	Rapone, M.
+Rapoport	Rapoport, Amnon
+Rasheed	Rasheed, A
+Rashidi	Rashidi, Taha H.
+Rasmussen	Rasmussen, Steen
+RasmussenC	Rasmussen, Carl Edward
+RasmussenT	Rasmussen, Thomas K.
+Rasouli	Rasouli, Soora
+Rassia	Rassia, M.
+RassiaST	Rassia, Stamatina Th.
+Rassias	Rassias, Themistocles M.
+Rathi	Rathi, Ajay K.
+Ratliff	Ratliff, Donald H.
+Ratti	Ratti, Carlo
+Ratto	Ratto, Marco
+Rau	Rau, Ursula
+Raubal	Raubal, M.
+Rauh	Rauh, Jürgen
+Raux	Raux, Charles
+Ravasz	Ravasz, E.
+Raveau	Raveau, Sebastián
+Raviv	Raviv, Tal
+Ray	Ray, Markus
+Raychev	Raychev, Veselin
+Read	Read, C. B.
+ReadS	Read, Stephen
+Rebmann	Rebmann, Kathrin
+Rechenberg	Rechenberg, Ingo
+Recker	Recker, Wilfred W.
+Reddy	Reddy, Prasuna D.
+Redmond	Redmond, L. S.
+Redon	Redon, M. S.
+Reed	Reed, Thomas B.
+Reeds	Reeds, James A.
+Rees	Rees, P. H.
+Reeves	Reeves, Anthony P.
+Rege	Rege, M.
+Reggiani	Reggiani, Aura
+Regler	Regler, M.
+Rehrl	Rehrl, Karl
+Reick	Reick, Christian H.
+Reid	Reid, Fred A.
+Reilly	Reilly, W. J.
+ReillyED	Reilly, Edwin D.
+Reintinger	Reintinger, Christine
+Reisinger	Reisinger, Andy
+Reka	Reka, A.
+Remmel	Remmel, Tarmo K.
+Renard	Renard, Aline
+Rennard	Rennard, Jean-Philippe
+Rentfrow	Rentfrow, Peter J
+Reps	Reps, Thomas
+Rerat	Rérat, Guillaume
+Resende	Resende, Mauricio G. C.
+Resosudarmo	Resosudarmo, Budy P.
+Reusser	Reusser, Dominik
+Reutemann	Reutemann, Peter
+Reutterer	Reutterer, Thomas
+Reynolds	Reynolds, D. R.
+Reznikova	Reznikova, Lena
+Rhee	Rhee, Hongjai
+Rhodes	Rhodes, Lisa
+Rhoten	Rhoten, Ronald P.
+Ricardo	Ricardo, David
+Ricciato	Ricciato, Fabio
+Rice	Rice, Patricia
+Rich	Rich, Jeppe
+Richard	Richard, Jean-Philippe
+Richards	Richards, F. J.
+Richardson	Richardson, J.
+RichardsonA	Richardson, A.
+RichardsonAJ	Richardson, Anthony J.
+RichardsonH	Richardson, Harry W.
+Richter	Richter, Klaus
+Rickert	Rickert, Marcus
+Ridley	Ridley, David B.
+Rieder	Rieder, Markus
+Rieken	Rieken, P.
+Rieser	Rieser, Marcel
+RieserSchuessler	Rieser-Schüssler, Nadine
+Rietveld	Rietveld, P.
+Rikus	Rikus, Simon
+Rilett	Rilett, L. R.
+Riley	Riley, Michael
+Rinaldo	Rinaldo, Alessandro
+Rindsfueser	Rindsfüser, Guido
+Rindt	Rindt, Craig R.
+RinnooyKan	Rinnooy Kan, A. H. G.
+Rips	Rips, Lance J.
+Rivera	Rivera, Jorge
+Robbins	Robbins, M.
+RobbinsH	Robbins, H.
+Roberts	Roberts, J. H.
+Robin	Robin, Marina
+Robins	Robins, Gabriel
+RobinsG	Robins, Garry
+Robinson	Robinson, R. V. F.
+RobinsonD	Robinson, Darren
+RobinsonS	Robinson, Stewart
+Robuste	Robuste, F.
+RocaRiu	Roca-Riu, Mireia
+Rocha	Rocha, Joao M.
+Rockenbach	Rockenbach, Bettina
+Roden	Roden, David
+Rodier	Rodier, C. J.
+Rodric	Rodric, F.
+Rodrigues	Rodrigues, Filipe
+Rodriguez	Rodriguez, Daniel A.
+Roederer	Röderer, Kathrin
+Roenz	Rönz, Bernd
+Roeschel	Röschel, G.
+Roess	Roess, Roger P.
+Rofe	Rofé, Yodan
+Rofique	Rofique, Josi
+Rogers	Rogers, David S.
+RogersEM	Rogers, Everett M.
+Rogsch	Rogsch, Christian
+Rohr	Rohr, C.
+Rohrer	Rohrer, Matt W.
+Rohrmann	Rohrmann, Bernd
+Rojey	Rojey, Laurent
+Rolle	Rolle, Stephen S.
+Roller	Roller, Katrin
+RollerK	Roller, K.
+Romanus	Romanus, J.
+RomeE	Rome, Erich
+Romeijn	Romeijn, H. Edwin
+Ronald	Ronald, Nicole
+Roorda	Roorda, Matthew J.
+Roos	Roos, Teemu
+Roose	Roose, Antti
+Root	Root, G. S.
+Rose	Rose, John M.
+RoseB	Rose, Bill
+Rosen	Rosen, Sherwin
+Rosengren	Rosengren, Karl Erik
+Rosetti	Rosetti, M. D.
+Rossera	Rossera, F.
+Rossetti	Rossetti, Rosaldo J. F.
+RossettiM	Rossetti, Manuel D.
+Rossi	Rossi, Thomas F.
+RossiP	Rossi, Peter E.
+RossiPH	Rossi, Peter Henry
+Rost	Rost, Jan-Michael
+Roth	Roth, Achim
+Rothenfluh	Rothenfluh, Marco
+Rothengatter	Rothengatter, Werner
+Rotheram	Rotheram, Jonathon
+Rotstan	Rotstan, Neil
+Roughan	Roughan, Matthew
+Roughgarden	Roughgarden, Tim
+Roumier	Roumier, Benoit
+Rouphail	Rouphail, Nagui M.
+Rousseau	Rousseau, Guy
+RousseauJJ	Rousseau, Jean Jacques
+RousseauL	Rousseau, Louis-Martin
+Rousseeuw	Rousseeuw, P.J.
+Rouwendal	Rouwendal, Jan
+Roux	Roux, Sophie
+Rowland	Rowland, James R.
+RowlandJ	Rowland, J.
+Rowse	Rowse, John
+Rozenberg	Rozenberg, Grzegorz
+Rubin	Rubin, Donald B.
+Rubner	Rubner, Yossi
+Ruck	Ruck, B.
+Rudel	Rudel, Roman
+Rudinger	Rudinger, Georg
+Rudloff	Rudloff, Christian
+Rudova	Rudova, Hana
+Ruedy	Ruedy, R.
+Ruemenapp	Rümenapp, Jens
+Ruiter	Ruiter, E. R.
+RuizCastillo	Ruiz-Castillo, Javier.
+Ruiz	Ruíz, Tomas
+Russell	Russell, Stuart J.
+RussellE	Russell, Edward C.
+RussellJ	Russell, James A.
+RussellR	Russell, Robert
+Russo	Russo, F.
+Rutherford	Rutherford, Thomas F.
+RutherfordR	Rutherford, Ronald C.
+Rutter	Rutter, Carolyn M.
+Ruxton	Ruxton, Graeme D.
+Ryan	Ryan, Justin
+RyanC	Ryan, Clare
+Rye	Rye, Tom
+Ryser	Ryser, Fabio
+
+% S %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Saad	Saad, Rachid
+Saadi	Saadi, I.
+Sabatella	Sabatella, G.
+Sabina	Sabina, Erik E.
+Sachs	Sachs, Natalie J.
+Sadek	Sadek, Adel W.
+Saeednia	Saeednia, Mahnam
+Saelensminde	Saelensminde, K.
+Saerndal	Särndal, Carl-Erik
+Saetermo	Saetermo, I.
+Safe	Safe, Martín
+Saffarzadeh	Saffarzadeh, Mahmoud
+Safi	Safi, Hamid
+Safirova	Safirova, Elena
+Safwat	Safwat, K. N. A.
+Sagebiel	Sagebiel, Julian
+Sahgal	Sahgal, Anna
+Saigusa	Saigusa, Tetsu
+Saisana	Saisana, Michaela
+Sakalauskas	Sakalauskas, Leonidas
+Sakamoto	Sakamoto, Y.
+Sakoda	Sakoda, J. M.
+Sala	Sala, Marcel
+SalaA	Sala, Alessandra
+Salat	Salat, Serge
+Salcido	Salcido, Alejandro
+Saleh	Saleh, W.
+SalomonI	Salomon, I.
+Salermo	Salermo, John J.
+Saltelli	Saltelli, Andrea
+Salomaa	Salomaa, Arto
+Salomon	Salomon, Ilan
+Salonen	Salonen, Maria
+Saluveer	Saluveer, Erki
+Salvini	Salvini, P. A.
+SalviniMM	Salvini, M. M.
+Samaga	Samaga, Uta
+Sammer	Sammer, Gerd
+SammerK	Sammer, Katharina
+Samstad	Samstad, H.
+Samuels	Samuels, Tom
+Sana	Sana, Bhargava
+Sanchez	Sanchez, S. M.
+SanchezB	Sanchez, Breogan
+SanchisGuarner	Sanchis-Guarner, Rosa
+Sander	Sander, J.
+Sanders	Sanders, Peter
+SandersP	Sanders, P.
+Sands	Sands, Sean
+Saner	Saner, D.
+SanfordBernhardt	Sanford Bernhardt, Kristen L.
+Sankoff	Sankoff, D.
+Sanni	Sanni, Taiwo
+Santen	Santen, L.
+Santiago	Santiago, Alberto J.
+Santos	Santos, Georgina
+SantosB	Santos, Bruno
+SantosCosta	Santos Costa, Maria Emilia O.
+SantosJ	Santos, Jorge
+Sapiezynski	Sapiezynski, Piotr
+Saquib	Saquib, Sarfaraz
+Sarasua	Sarasua, Wayne
+Sardesai	Sardesai, R.
+Saricks	Saricks, Christopher L.
+Sarigoellue	Sarigöllü, Emine
+Sarlas	Sarlas, Georgios
+Sasaki	Sasaki, Kuniaki
+Sasic	Sasic, C.
+Sasidharan	Sasidharan, Lekshmi
+Sato	Sato, M.
+Sauer	Sauer, A.
+Saunders	Sanders, H. D.
+Sautory	Sautory, Olivier
+Savage	Savage, David A.
+Savarino	Savarino, James E.
+Sayed	Sayed, Tarek
+Sazonov	Sazonov, Edward S.
+Sbayti	Sbayti, Hayssam
+Scagnolari	Scagnolari, Stephano
+Scaparra	Scaparra, Maria P.
+Scarpa	Scarpa, Riccardo
+Scelatto	Scellato, S.
+Scellato	Scellato, Salvatore
+Schaap	Schaap, Nina
+Schad	Schad, Helmut
+Schadschneider	Schadschneider, Andreas
+Schaefer	Schäfer, Karl Heinz
+SchaeferA	Schaefer, Andreas
+Schaub	Schaub, H.
+Scheiner	Scheiner, Joachim
+Scellato Scellato, Salvatore
+Schelling	Schelling, Thomas C.
+Schenk	Schenk, Tilman A.
+SchenkA	Schenk, Anais
+Schenker	Schenker, N. S.
+Scherer	Scherer, Milena
+SchererR	Scherer, Roland
+Scherr	Scherr, W.
+Schieffer	Schieffer, S. V.
+Schiffer	Schiffer, Robert G.
+Schiffmann	Schiffmann, Frank
+Schil	Schil, Micka{\"e}l R.J.
+Schildbach	Schildbach, Georg
+SchillaciMA	Schillaci, Michael A.
+SchillaciME	Schillaci, Mario E.
+Schiller	Schiller, Christian
+SchillerF	Schiller, Frank
+Schilling	Schilling, Heiko
+Schilter	Schilter, René
+Schimmels	Schimmels, Stefan
+Schipper	Schipper, Lee
+Schirmer	Schirmer, Patrick M.
+Schlaich	Schlaich, Johannes
+Schlechtner	Schlechtner, Katja
+Schleiffer	Schleiffer, Ralf
+Schlich	Schlich, Robert
+Schlossberg	Schlossberg, Marc
+Schlurmann	Schlurmann, Thorsten
+Schmeck	Schmeck, Hartmut
+Schmid	Schmid, Basil
+Schmidt	Schmidt, M.
+SchmidtC	Schmidt, Charles G.
+SchmidtEM	Schmidt, Erik Meineche
+SchmidtJ	Schmidt, J.
+SchmidtKM	Schmidt, Klaus M.
+SchmidtN	Schmidt, N.
+Schmied	Schmied, Martin
+Schmiedel	Schmiedel, R.
+Schmitt	Schmitt, Gerhard
+SchmittL	Schmitt, Laura
+Schmittlein	Schmittlein, David C.
+Schmoecker	Schmöcker, Jan-Dirk
+Schmude	Schmude, Juergen
+Schmuecker	Schm{\"u}cker, Dirk
+Schmutz	Schmutz, Simon
+Schnabel	Schnabel, Werner
+Schneebeli	Schneebeli, Hannes
+Schneider	Schneider, Adrian
+SchneiderCM	Schneider, Christian M.
+SchneiderJ	Schneider, Jürgen
+SchneiderR	Schneider, Rainer
+SchneiderRJ	Schneider, Robert James
+SchneiderS	Schneider, S. H.
+SchneiderSQ	Schneider, Sebastian
+SchneiderT	Schneider, T.
+Schneiderbauer	Schneiderbauer, S.
+Schnittger	Schnittger, S.
+Schoch	Schoch, Ch.
+Schoeller	Schöller, Oliver
+Schoenfelder	Schönfelder, Stefan
+Schofer	Schofer, Joseph L.
+Scholten	Scholten, Henk
+Scholz	Scholz, Roland W.
+ScholzG	Scholz, Gerhard
+ScholzJ	Scholz, Joachim
+Schonland	Schonland, Addison M.
+Schrader	Schrader, R.
+Schrammel	Schrammel, Johann
+Schrank	Schrank, David
+Schreckenberg	Schreckenberg, M.
+Schreiber	Schreiber, Andrew
+Schreuder	Schreuder, Yda
+Schreyer	Schreyer, Christoph
+Schroeder	Schröder, Stefan
+SchroederA	Schröder, Antonius
+Schuckel	Schuckel, Marcus
+Schuemperlin	Schuemperlin, Oliver
+Schuermann	Schürmann, C.
+Schuessler	Schüssler, Nadine
+Schuijbroek	Schuijbroek, Jasper
+Schuler	Schuler, Harry J.
+Schultes	Schultes, Dominik
+SchultesD	Schultes, D.
+Schultz	Schultz, Barbara
+SchultzPW	Schultz, P. Wesley
+Schulz	Schulz, Frank
+Schulze	Schulze, Christoph
+Schummer	Schummer, James
+Schure	Schure, Jessica ter
+Schuster	Schuster, Thomas D.
+Schwanen	Schwanen, Tim
+Schwartz	Schwartz, M.
+SchwartzS	Schwartz, Shalom H.
+Schwarze	Schwarze, B.
+Schwefel	Schwefel, Hans-Paul
+Schwerdtfeger	Schwerdtfeger, Thomas
+Schwizer	Schwizer, Erich
+Scola	Scola, Lisa
+Scott	Scott, Darren M.
+ScottK	Scott, Kelley A.
+ScottM	Scott, Michael L.
+Scrogin	Scrogin, D.
+Seaborn	Seaborn, Catherine
+Seah	Seah, Daniel W. M.
+Sealy	Sealy, K.
+Seaton	Seaton, Katherine A.
+Secci	Secci, Stefano
+Seddighi	Seddighi, Hamid R.
+Seddon	Seddon, P.A.
+Sedgewick	Sedgewick, Robert
+Seidel	Seidel, Frauke
+Seidl	Seidl, Irmi
+Sekara	Sekara, Vedran
+Sekhar	Sekhar, Somenahalli V. C.
+Selart	Selart, M.
+Sell	Sell, Thomas C.
+Selle	Selle, K.
+Selten	Selten, Reinhard.
+Semenov	Semenov, S.
+Sen	Sen, Sudeshna
+SenP	Sen, Parongama
+Senbil	Senbil, Metin
+Sendhoff	Sendhoff, Bernhard
+Sener	Sener, Ipek N.
+Sengupta	Sengupta, Raja
+Seredinski	Seredinski, A. M.
+Serra	Serra, Daniel
+Serrano	Serrano, \'Angeles
+Serras	Serras, Joan
+Sester	Sester, Monika
+Setiadi	Setiadi, Neysa
+Seuring	Seuring, Stefan A.
+Sevcikova	Sevciková, Hana S.
+Sevtsuk	Sevtsuk, Andres
+Sewall	Sewall, Murphy A.
+SewallJ	Sewall, Jason
+Sexton	Sexton, Chris
+Seya	Seya, H.
+Sghaier	Sghaier, Manel
+Shaffer	Shaffer, Blake
+Shafizadeh	Shafizadeh, Kevan
+Shah	Shah, Nilay
+ShahM	Shah, Mohit
+Shahabi	Shahabi, Cyrus
+Shaheen	Shaheen, Susan A.
+Shalaby	Shalaby, Amer
+Shalizi	Shalizi, Cosma Rohilla
+Shalunov	Shalunov, Stansislav
+Sharma	Sharma, S.
+Shatz	Shatz, Steven M.
+Sheffi	Sheffi, Yosef
+Shekhar	Shekhar, Shashi
+Shen	Shen, Li
+ShenQ	Shen, Qing
+Shendarkar	Shendarkar, Ameya
+Shenhar	Shenhar, Gilead
+Sherali	Sherali, Hanif D.
+Sherman	Sherman, Michael
+Sheth	Sheth, J. N.
+Shevell	Shevell, Steven K.
+Shiftan	Shiftan, Yoram
+Shim	Shim, Soyeon
+Shin	Shin, Dong-Ho
+Shimamoto	Shimamoto, Hiroshi
+Shinozuka	Shinozuka, Masanobu
+Shocker	Shocker, Allan D.
+Shoshani	Shoshani, A.
+Shoup	Shoup, D.
+Shuai	Shuai, Bin
+Shubik	Shubik, M.
+Shugan	Shugan, Steven M.
+Shulenberger	Shulenberger, Eric
+Shuldiner	Shuldiner, Paul W.
+Shulman	Shulman, Norman
+Si	Si, BingFeng
+Sicilia	Sicilia, Thomas G.
+Sicks	Sicks, Kathrin
+Siebenhuener	Siebenhüner, Bernd
+Siegel	Siegel, Howard Jay
+Sierzchula	Sierzchula, William
+Sigmund	Sigmund, K.
+Signer	Signer, T.
+Sigua	Sigua, R. G.
+Silm	Silm, Siiri
+Silva	Silva, J. M. C. Santos
+SilvaJ	Silva, J. A.
+Silverman	Silverman, David
+SilvermanB	Silverman, B.W.
+Silverstein	Silverstein, Murray
+SilvestreMadeira	Silvestre Madeira, Joaquim Joao E. R.
+Simeone	Simeone, Bruno
+Simini	Simini, Filippo
+Simma	Simma, Anja
+Simmonds	Simmonds, David
+Simon	Simon, Patrice M.
+SimonH	Simon, Herbert A.
+SimonOnlyH	Simon, H.
+Simoni	Simoni, Michele D.
+SimonU	Simon, Ute
+Simos	Simos, T. E.
+Simpson	Simpson, B. M.
+Sinden	Sinden, J. A.
+Sing	Sing, Tien-Foo
+Singer	Singer, Benno
+Singh	Singh, Vishal
+SinghS	Singh, Sujit K.
+Singhi	Singhi, P.
+Sinha	Sinha, Ashish
+SinhaAK	Sinha, Ashok K.
+SinuanyStern	Sinuany-Stern, Zila
+Sirmans	Sirmans, Stacy G.
+Sirois	Sirois, C.
+Sissel	Sissel, S.
+Sivakumar	Sivakumar, Aruna
+Sivanandam	Sivanandam, S.N.
+Sivaraman	Sivaraman, Vijayaraghavan
+Skinner	Skinner, Jonathan
+Skutella	Skutella, Martin
+Slavin	Slavin, Howard
+Sliwinski	Sliwinski, A.
+Sloth	Sloth, Brigitte
+Small	Small, Kenneth A.
+SmallE	Small, E.
+SmallK	Small, K.
+Smieszek	Smieszek, Timo
+Smit	Smit, Remko
+Smith	Smith, B.
+SmithBL	Smith, Brian L.
+SmithJB	Smith, J. B.
+SmithJC	Smith, J. Cole
+SmithJE	Smith, J. E.
+SmithJL	Smith, James L
+SmithJM	Smith, Jane McKee
+SmithJS	Smith, Jeff S.
+SmithJamesP	Smith, James P.
+SmithK	Smith, Kevin T.
+SmithL	Smith, LaRon
+SmithLovin	Smith-Lovin, Lynn
+SmithMC	Smith, Mark C.
+SmithMG	Smith, MacGregor
+SmithMJ	Smith, M. J.
+SmithPD	Smith, Paul D.
+SmithRD	Smith, Roger D.
+SmithRS	Smith, R. S.
+SmithRobertL	Smith, Robert L.
+SmithS	Smith, S. A.
+SmithT	Smith, T.
+SmithTR	Smith, Terence R.
+Smock	Smock, R. B.
+Smoreda	Smoreda, Zbigniew
+Smyth	Smyth, Padhraic
+Snediker	Snediker, Diane
+Snelder	Snelder, M.
+Snell	Snell, Tara
+Snellen	Snellen, Danielle
+Snijders	Snijders, Tom A. B.
+Soane	Soane, Emma
+Soares	Soares, Carlos
+SoaresG	Soares, Goncalo Ducla
+Sobel	Sobel, K. L.
+Sobolevsky	Sobolevsky, Stanislav
+Socha	Socha, D.
+Soeoet	Sööt, Siim
+Sohn	Sohn, Jungyul
+Sohail	Sohail, Khalid
+Sokolowski	Sokolowski, J. A.
+Solanki	Solanki, Rajendra S.
+Sole	Solé, R. V.
+Solla	Solla, S.A.
+Solomon	Solomon, Michael R.
+SolomonC	Solomon, Charles
+Somenahalli	Somenahalli, Sekhar V. C.
+Sommer	Sommer, Heini
+Son	Son, Young-Jun
+Sonar	Sonar, Thomas
+Song	Song, G.
+SongC	Song, Chaoming
+SongX	Song, Xianmin
+Soo	Soo, Joyce
+Soriguera	Soriguera, Francesc
+Sorkin	Sorkin, M.
+Sorlien	Sorlien, Sandy
+Sosik	Sosik, Petr
+Soto	Soto, Borja Garcia de
+Souleyrette	Souleyrette, Reginald
+Sousa	Sousa, Jorge Freire de
+Southworth	Southworth, Frank
+SouthworthM	Southworth, M.
+Spacek	Spacek, Peter
+SpacekDT	Spacek, D. T.
+Spahn	Spahn, M.
+Sparmann	Sparmann, Udo
+Speck	Speck, Jeff
+Speckman	Speckman, P.
+Speed	Speed, Terry
+Speisser	Speisser, Nicolas
+Spiekermann	Spiekermann, K.
+Spiess	Spiess, H.
+Spiggle	Spiggle, Susan
+Spissu	Spissu, Erika
+Spitaels	Spitaels, Karel
+Spring	Spring, Gary
+SpringerTM	Springer, T.M.
+Srdanovic	Srdanovic, Bogdan
+Sreeram	Sreeram, P. A.
+Srinivasan	Srinivasan, Sivaramakrishnan
+SrinivasanSu	Srinivasan, Sumeeta
+Srivastava	Srivastava, G.
+Srour	Srour, Issam M.
+Staelin	Staelin, Richard
+Stahel	Stahel, Werner A.
+StahelA	Stahel, Alexander
+Stahlberg	Stahlberg, Dagmar
+Stahlmann	Stahlmann, Arne
+Stallings	Stallings, Robert A.
+Stampacchia	Stampacchia, Guido
+Stankovic	Stankovic, John A.
+Stansall	Stansall, P.
+Stanton	Stanton, Isabelle
+Stapel	Stapel, D. A.
+Starner	Starner, Thad
+Stathopoulos	Stathopoulos, Amanda
+Stauffacher	Stauffacher, Michael
+StauffacherD	Stauffacher, D.
+Stauss	Stauss, Bernd
+Stecher	Stecher, Cheryl C.
+Steenbergen	Steenbergen, Marco R.
+Steenberghen	Steenberghen, Thérèse
+Steenbruggen	Steenbruggen, John
+Stefan	Stefan, K. J.
+Steffen	Steffen, J.
+Steg	Steg, Linda
+Stein	Stein, D. L.
+Steininger	Steininger, Karl W.
+Stempfel	Stempfel, Julie
+Stempniewski	Stempniewski, L.
+Stenneth	Stenneth, Leon
+Stephan	Stephan, Frederick F.
+Stern	Stern, Eliahu
+SternP	Stern, Paul C.
+Steurs	Steurs, K.
+Stevens	Stevens, Quentin
+Stier	Stier-Moses, Nicolás E.
+Still	Still, Ben
+Stinson	Stinson, Monique A.
+Stiny	Stiny, George Nicholas
+Stock	Stock, W.
+Stojanovic	Stojanovic, Jelena
+Stone	Stone, Arthur A.
+Stoner	Stoner, J. W.
+Stopczynski	Stopczynski, Arkadiusz
+Stopher	Stopher, Peter R.
+Stouffer	Stouffer, Samuel A.
+Strano	Strano, Emanuele
+Strasser	Strasser, Ben
+Strauch	Strauch, D.
+Strauss	Strauss, M.
+StraussT	Strauss, Todd
+Strehler	Strehler, Martin
+StreichertF	Streichert, Felix
+Stretz	Stretz, Paula E.
+Strippgen	Strippgen, David
+Strogatz	Strogatz, S. H.
+Stroustrup	Stroustrup, Bjarne
+Strunz	Strunz, Günter
+Stryker	Stryker, Andrew
+Stuart	Stuart, A. L.
+Studenmund	Studenmund, A. H.
+Stuebben	Stübben, Hermann Josef
+Stuetzle	Stuetzle, T.
+Sturdevant	Sturdevant, James R.
+Sturesson	Sturesson, Dahn
+Sturm	Sturm, Thomas F.
+Sturrock	Sturrock, D. T.
+Stutz	Stutz, Frederick P.
+Suarez	Suarez, A.
+SuarezP	Suarez, Pablo
+Subhani	Subhani, Ahmad
+Sudhir	Sudhir, K.
+Sudret	Sudret, Bruno
+SueEDW	Sue, Eddie D. W.
+Sugden	Sugden, R.
+Sugiyama	Sugiyama, Yuki
+Sullivan	Sullivan, J. L.
+Sumalee	Sumalee, Agachai
+Suman	Suman, B.
+Sumpter	Sumpter, David J. T.
+Sun	Sun, D.
+SunD	Sun, Di
+SunH	Sun, Huijun
+SunJ	Sun, Jie
+SunL	Sun, Lijun
+SunW	Sun, Wu
+SunY	Sun, Yan
+SunZ	Sun, Zhongwei
+Sung	Sung, Tae-Kyung
+SungJG	Sung, Jung Gon
+Suri	Suri, Siddharth
+Susilawati	Susilawati, Susilawati
+Susilo	Susilo, Yusak O.
+Susset	Susset, Robert
+Sutherland	Sutherland, Holly
+Sutton	Sutton, Richard S.
+Swait	Swait, Joffre D.
+Swann	Swann, William B. Jr.
+SweeYong	Swee Yong, Ku
+Sweetnam	Sweetnam, Glen E.
+Swiderski	Swiderski, D.
+Swiler	Swiler, L. P.
+Swain	Swain, Michael J.
+Swoboda	Swoboda, Bernhard
+Szell	Szell, Michael
+Szivas	Szivas, Edith
+
+% T %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Tadaki	Tadaki, Shin-Ichi
+Taghizadeh	Taghizadeh, Gelareh
+Tahon	Tahon, Christian
+Taillard	Taillard, Eric
+Takafuji	Takafuji, Daisuke
+Takagi	Takagi, Seiji
+Talen	Talen, Emily
+Talvitie	Talvitie, Antti
+Tamminga	Tamminga, Guus
+Tampere	Tampère, Chris M. J.
+Tan	Tan, T.
+TanE	Tan, E.
+Tanaka	Tanaka, Reiko
+TanakaK	Tanaka, K.
+Tanczos	Tanczos, Katalin
+Tang	Tang, W. H.
+TangB	Tang, Bo-sin
+TangCS	Tang, Christopher S.
+TangD	Tang, Daimin
+TangLC	Tang, Loon Ching
+Tanjo	Tanjo, T.
+Taoka	Taoka, Satoshi
+Tapia	Tapia, H.
+Tarantola	Tarantola, Stefano
+Tardos	Tardos, Éva
+Targa	Targa, Felipe
+Tarnita	Tarnita, Corina E.
+Tarnoff	Tarnoff, Philip J.
+Tasker	Tasker, M. P.
+Tatano	Tatano, H
+Tatieni	Tatieni, Maya
+Taubenboeck	Taubenböck, Hannes
+Tavasszy	Tavasszy, L.
+Tayler	Tayler, Paul
+Taylor	Taylor, Michael A. P.
+TaylorB	Taylor, Brian D.
+TaylorME	Taylor, Maria Elena
+Teichert	Teichert, Heidrun
+Teknomo	Teknomo, Kardi
+Tele	Tele, K.
+Teller	Teller, Christoph
+TellerJ	Teller, J.
+Tennant	Tennant, Robert J.
+Tentner	Tentner, Adrian M.
+Teo	Teo, Kwong Meng
+Teramachi	Teramachi, Yasuaki
+Tero	Tero, Atsushi
+Terveen	Terveen, Loren
+Teukolsky	Teukolsky, Saul A.
+Thakuriah	Thakuriah, Piyushimita
+Thall	Thall, M.
+Thananjeyan	Thananjeyan, Paramsothy
+Theberge	Theberge, F.
+Theler	Theler, Bernd
+Theocharous	Theocharous, Antonis L.
+Theodoridou	Theodoridou, Sofia
+Theodoropoulos	Theodoropoulos, Georgios
+Theodoulou	Theodoulou, Gegoris
+Theraulaz	Theraulaz, G.
+Thierstein	Thierstein, Alain
+Thill	Thill, Jean-Claude
+Thisse	Thisse, Jacques-François
+Thoegersen	Thøgersen, John
+Thomann	Thomann, Sylvie
+Thomas	Thomas, Joy A.
+ThomasD	Thomas, Duncan
+ThomasT	Thomas, T.
+Thompson	Thompson, Miriam
+ThompsonJ	Thompson, Julie
+ThompsonP	Thompson, P.
+ThompsonR	Thompson, R.
+ThompsonRG	Thompson, Russell G.
+ThompsonRGQ	Thompson, Russel G.
+ThompsonSK	Thompson, Steven K.
+Thorup	Thorup, Mikkel
+Thrift	Thrift, Nigel
+Thuenen	Thünen, Johann Heinrich
+Thust	Thust, Martin
+Tibshirani	Tibshirani, Robert
+Tigert	Tigert, Douglas J.
+Tilahun	Tilahun, Nebiyou
+Tilly	Tilly, Charles
+Timko	Timko, Igor
+Timmermans	Timmermans, Harry J. P.
+Timothy	Timothy, D.
+Tirachini	Tirachini, A.
+Tirri	Tirri, Henry R.
+Tiru	Tiru, Margus
+Tisato	Tisato, Peter
+Titze	Titze, Torben
+Tlalka	Tlalka, M.
+Tobe	Tobe, Y.
+Tobin	Tobin, R. L.
+TobinR	Tobin, R.
+Todd	Todd, Michael
+Toedtling	Toedtling, Franz
+Toh	Toh, Raymond
+Toint	Toint, Philippe L.
+Toivonen	Toivonen, Tuuli
+Tokuda	Tokuda, H.
+Tokuhata	Tokuhata, George
+Toledo	Toledo, Tomer
+Tomasi	Tomasi, Carlo
+Tomic	Tomic, J.
+Toporowski	Toporowski, Waldemar
+Topp	Topp, Hartmut H.
+Torgler	Torgler, Benno
+Tourangeau	Tourangeau, Roger
+Train	Train, Kenneth E.
+Tran	Tran, Cong-Liem
+Travers	Travers, Jeffrey
+Trebilcock	Trebilcock, David
+Treiber	Treiber, Martin
+Trepanier	Trépanier, Martin
+Trevino	Trevino, Steven
+Trigg	Trigg, D. W.
+Trischler	Trischler, Falko
+TroitzschKG	Troitzsch, Klaus G.
+Trozzi	Trozzi, Valentina
+Trucano	Trucano, T. G.
+Tsai	Tsai, I-Chun
+Tsang	Tsang, F.
+TschannenSuess	Tschannen-Süess, Monika
+Tscheligi	Tscheligi, Manfred
+Tschopp	Tschopp, M.
+Tse	Tse, Raymond Y. C.
+Tsekeris	Tsekeris, Theodore
+Tseng	Tseng, Yin-Yen
+TsengYY	Tseng, Y. Y.
+Tsirimpa	Tsirimpa, Athena
+Tsuchiya	Tsuchiya, S.
+Tsui	Tsui, Sheung Yuen Amy
+Tu	Tu, Yong
+Tudela	Tudela, Alejandro
+Tufte	Tufte, Edward
+Tugores	Tugores, Antònia
+Tuncer	Tuncer, Bige
+Turkienicz	Turkienicz, Benamy
+Turnbull	Turnbull, Katherine F.
+Turner	Turner, Shawn
+TurnerA	Turner, Alasdair
+Turrentine	Turrentine, Thomas S.
+Tutert	Tutert, S. I. A.
+Tuydes	Tuydes, Hediye
+Tversky	Tversky, Amon
+Tvrzsky	Tvrzsky, Tomas
+Tweedie	Tweedie, Stephen W.
+Tyagi	Tyagi, V.
+Tyagunov	Tyagunov, S.
+Tzur	Tzur, Michal
+
+% U %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Ueno	Ueno, M.
+Uges	Uges, Rogier
+Ukkusuri	Ukkusuri, Satish
+Ulfarsson	Ulfarsson, G.
+Uljee	Uljee, Inge
+UlmerH	Ulmer, Holger
+Ulrich	Ulrich, Philip
+Ulsoy	Ulsoy, A. G.
+Umar	Umar, Ilyas
+Umberson	Umberson, Debra
+Un	UN
+Uncles	Uncles, Mark D.
+Underhill	Underhill, Paco
+Upadhyay	Upadhyay, Devendra
+Urbanek	Urbanek, S.
+UrbanekS	Urbanek, S.
+Urbany	Urbany, Joel E.
+Urry	Urry, J.
+Usadel	Usadel, Klaus D.
+Uzunalioglu	Uzunalioglu, Huseyin
+
+% V %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+VSS	VSS
+Vaccina	Vaccina, Franco
+Valverde	Valverde, S.
+VanDeVoorde	van de Voorde, E.
+VanDeWeghe	van de Weghe, Nico
+VanDenBerg	van den Berg, Pauline
+VanDenBergV	van den Berg, Vincent A.C.
+VanDender	van Dender, Kurt
+VanDerHeijden	van der Heijden, Rob
+VanDerLinden	van der Linden, P. J.
+VanDerWaerden	van der Waerden, Peter
+VanDerZijpp	van der Zijpp, N. J.
+VanEck	van Eck, J. R. Ritsema
+VanEggermond	van Eggermond, Michael A. B.
+VanKenhove	van Kenhove, Patrick
+VanLeeuwen	van Leeuwen, Jos P.
+VanLiere	van Liere, Kent D.
+VanMiddelkoop	van Middelkoop, Manon
+VanNes	van Nes, Rob
+VanNostrand	Van Nostrand, Caleb
+VanSlyke	van Slyke, Chris
+VanVeenendaal	van Veenendaal, Wouter
+VanVliet	van Vliet, Dirck
+VanWaterschoot	van Waterschoot, Walter
+VanWee	van Wee, Bert
+VanWilligen	van Willigen, Marieke
+VanWissen	van Wissen, Leo J.G.
+VanZuylen	van Zuylen, Henk J.
+Vanajakshi	Vanajakshi, Lelitha
+Vance	Vance, Colin
+Vandenbroucke	Vandenbroucke, Danny
+Vanderslice	Vanderslice, Ellen
+Vanegas	Vanegas, Carlos A.
+Vanhoof	Vanhoof, K.
+VanhoofM	Vanhoof, Maarten
+Vankerkorn	Vankerkorn, Jean
+Vanoutrive	Vanoutrive, T.
+VargasRuiz	Vargas-Ruiz, Camilo
+Varian	Varian, Hal R.
+Varshavsky	Varshavsky, A.
+VarshavskyA	Varshavsky, A.
+Vasoo	Vasoo, S
+Vasudevan	Vasudevan, Karthik
+Vaughan	Vaughan, R. J.
+Vaughn	Vaughn, K. M.
+VaughnK	Vaughn, K.
+Vause	Vause, M.
+Vaze	Vaze, Vikrant S.
+Vazirani	Vazirani, Vijay V.
+Vecchi	Vecchi, M. P.
+VecchiI	Vecchi, I.
+Veenstra	Veenstra, S. A.
+Velaga	Velaga, Nagendra R.
+Velan	Velan, S.
+Velarde	Velarde, José Luis González
+Veldhuisen	Veldhuisen, Jan
+Venables	Venables, Anthony J.
+Venter	Venter, Christoffel
+Verdegay	Verdegay, J. L.
+Verhetsel	Verhetsel, A.
+Verhoef	Verhoef, Erik T.
+VerhoefE	Verhoef, E.
+Verma	Verma, Trivik
+Versichele	Versichele, Mathias
+Vervest	Vervest, P.
+Veryovka	Veryovka, Oleg
+Vespignani	Vespignani, Alessandro
+Vetterling	Vetterling, William T.
+Vial	Vial, J.-P.
+Viana	Viana, Matheus P.
+Vickerman	Vickerman, Roger W.
+Vickrey	Vickrey, William Spencer
+Vicsek	Vicsek, Tamas
+VicsekT	Vicsek, T.
+Vidakovic	Vidakovic, V.
+Viegas	Viegas, José Manuel
+Vieira	Vieira, H.
+VieiraMartins	Vieira Martins, Ernesto Q.
+VieiraMonteiro	Vieira Monteiro, Antonio Miguel
+Viger	Viger, Fabien
+Vij	Vij, Akshay
+Vijay	Vijay, Mahal
+Vilhelmson	Vilhelmson, B.
+VillasBoas	Villas-Boas, Sofia
+Viola	Viola, Francesco A.
+Viry	Viry, Gil
+Vitetta	Vitetta, A.
+Viti	Viti, Francesco
+Vitins	Vitins, Basil Janis
+Vitter	Vitter, Jeffrey Scott
+Vlachos	Vlachos, D. S.
+Vlassenroot	Vlassenroot, Sven
+Vlek	Vlek, Charles
+Vlissides	Vlissides, John
+Voas	Voas, David
+Voellings	Völlings, Andreas
+Vogel	Vogel, Arnd
+VogelB	Vogel, B.
+VogelJ	Vogel, Julia
+VogelR	Vogel, R.
+Vogt	Vogt, W.
+Vohra	Vohra, Rakesh V.
+Voituret	Voituret, F.
+Volinsky	Volinsky, C.
+Voll	Voll, N. G.
+Vollmer	Vollmer, Christian
+VollmerS	Vollmer, Sebastian
+Vollmy	Völlmy, A.
+Volmuller	Volmuller, J.
+Volz	Volz, Erik
+VonHippel	von Hippel, Paul T.
+VonThunen	von Thunen, Johannes Heinrich
+Vortisch	Vortisch, P.
+Voss	Voss, Thomas
+VossRF	Voss, Richard F.
+VossS	Vo\ss, Stefan
+Vovsha	Vovsha, Peter
+Vragovic	Vragovic, L.
+Vrtic	Vrtic, Milenko
+Vucetic	Vucetic, Slobodan
+
+% W %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Waard	van de Waard, Jan
+Wachowicz	Wachowicz, M.
+Waddell	Waddell, Paul A.
+Wagner	Wagner, Dorothea
+WagnerDP	Wagner, David P.
+WagnerP	Wagner, P.
+Wahba	Wahba, Mohamed
+Wahle	Wahle, J.
+Waitz	Waitz, Ian A.
+Wakabayashi	Wakabayashi, H.
+Walcott	Walcott, Wayne A.
+Walder	Walder, R.
+Waldner	Waldner, Urs
+Waldvogel	Waldvogel, Samuel
+Wales	Wales, Terence J.
+Walker	Walker, Joan Leslie
+WalkerP	Walker, Philipp
+Wallace	Wallace, James P.
+Walle	Walle, F.
+Wallentowitz	Wallentowitz, H.
+Waller	Waller, S. Travis
+Walls	Walls, Margaret
+Walsh	Walsh, Stephen J.
+WalshM	Walsh, Michael J.
+Walter	Waltert, Felix
+Waltert	Waltert, T.
+Walther	Walther, Guenther
+Wan	Wan, Chi-Ngai
+Wand	Wand, Mitchell
+WanK	Wan, Kevin
+Wang	Wang, Haojun
+WangDianhai	WangDianghai
+WangD	Wang, Donggen
+WangF	Wang, Fahui
+WangH	Wang, H.
+WangJ	Wang, Jiamei
+WangJing	Wang, Jing
+WangJR	Wang, Jr-Yan
+WangL	Wang, Longhao
+WangLQ	Wang, Liming
+WangLiming	Wang, Liming
+WangP	Wang, Pu
+WangPQ	Wang, Peng
+WangQ	Wang, Qian
+WangW	Wang, Wei
+WangY	Wang, Yinhai
+WangYu	Wang, Yufei
+Waraich	Waraich, Rashid A.
+Wardman	Wardman, M.
+Wardrop	Wardrop, J. G.
+Warffemuis	Warffemuis, P.
+Wargelin	Wargelin, Laurie
+Warrington	Warrington, Joseph
+WashingtonS	Washington, Simon
+Wasson	Wasson, Jason S.
+Watanabe	Watanabe, Toshimasa
+Watkins	Watkins, Christopher J. C. H.
+Watkinson	Watkinson, S. C.
+Watling	Watling, David P.
+Watson	Watson, Barry
+WatsonB	Watson, Benjamin
+Watts	Watts, D. J.
+Weber	Weber, David
+WeberB	Weber, Basil
+WeberE	Weber, Elke U.
+WeberG	Weber, Guglielmo
+Webster	Webster, F. V.
+WeckstroemEno	Weckstr{\"o}m-Eno, Kaisa
+Wegener	Wegener, M.
+Wegmann	Wegmann, Fred
+Wehmeier	Wehmeier, Thomas
+Wei	Wei, Ling-Yin
+Weidmann	Weidmann, Ulrich
+Weidner	Weidner, T.
+Weilenmann	Weilenmann, M.
+Weinberg	Weinberg, Peter
+WeinbergCB	Weinberg, Charles B.
+WeinbergDH	Weinberg, Daniel H.
+Weinberger	Weinberger, Rachel R.
+Weiner	Weiner, Edward
+Weingarten	Weingarten, Elmar
+Weinstein	Weinstein Agrawal, Asha
+Weinmann	Weinmann, Siegfried
+Weis	Weis, Claude
+Weisbrod	Weisbrod, Glen
+Weiss	Weiss, Adam
+Wekeck	Wekeck, S.
+Welch	Welch, M.
+Welle	Welle, Molly
+Wellington	Wellington, John F.
+Wellman	Wellman, Barry
+Wen	Wen, Chieh-Hua
+WenY	Wen, Yang
+Wendorff	Wendorff, B.
+Weng	Weng, Tan Yan
+Werlen	Werlen, Iwar
+Wermuth	Wermuth, M.
+Westerveld	Westerveld, Hans
+Westin	Westin, K.
+Weston	Weston, L.
+Wets	Wets, Geert
+Wheeler	Wheeler, Bob
+Whelan	Whelan, G.
+Whigham	Whigham, P. A.
+White	White, Christopher E.
+WhiteMJ	White, Michelle J.
+WhiteP	White, P.R.
+WhiteR	White, Roger
+WhiteW	White, Wade
+Whitehead	Whitehead, Charlotte
+WhiteheadJ	Whitehead, John C.
+Whitham	Whitham, Gerald Beresford
+Whitney	Whitney, D. R.
+Widenius	Widenius, Michael
+Widhalm	Widhalm, Peter
+Widmer	Widmer, Jean-Pierre
+WidmerP	Widmer, Paul
+Wie	Wie, B. W.
+Wiedemann	Wiedemann, R.
+Wiegand	Wiegand, R Paul
+Wieland	Wieland, B.
+Wiersma	Wiersma, Gerwin
+Wies	Wies, Kermit
+Wiget	Wiget, A.
+Wild	Wild, B.
+Wildhalm	Wildhalm, Peter
+Wildt	Wildt, Albert R.
+WileyP	Wiley, Peter C.
+Wilhelmsson	Wilhelmsson, Mats
+Wilke	Wilke, Urs
+Wilkie	Wilkie, David
+WillebeekLeMair	Willebeek-LeMair, Marc H.
+Willeke	Willeke, R.
+Willhalm	Willhalm, Thomas
+Williams	Williams, I.
+WilliamsC	Williams, Chad
+WilliamsH	Williams, H. C. W. L.
+WilliamsHQ	Williams, H.
+WilliamsM	Williams, Melonie B.
+WilliamsME	Williams, Michael E.
+WilliamsPW	Williams, Peter W.
+Williamson	Williamson, P.
+Willinger	Willinger, Walter
+Willis	Willis, Alexandra
+Willison	Willison, C.
+Willman	Willman, Paul
+Willumsen	Willumsen, Luis G.
+Wilmot	Wilmot, Chester G.
+Wilson	Wilson, Clarke
+WilsonAG	Wilson, A. G.
+WilsonC	Wilson, Christo
+WilsonCB	Wilson, C. B.
+WilsonDB	Wilson, David Bruce
+WilsonEO	Wilson, Edward O.
+WilsonG	Wilson, Gill
+WilsonHG	Wilson, Hoyt G.
+WilsonJP	Wilson, John P.
+WilsonK	Wilson, Kenneth
+WilsonNHM	Wilson, Nigel H. M.
+Wimmer	Wimmer, Rupert
+Winkelmans	Winkelmans, W.
+Winkler	Winkler, David A.
+Winn	Winn, Justin R.
+Winston	Winston, C.
+WinstonCB	Winston, C. B.
+WinstonGC	Winston, G. C.
+Winter	Winter, Stephan
+Winters	Winters, Philip L.
+Wirth	Wirth, R.
+Wismans	Wismans, L.
+Wisner	Wisner, B.
+Witlox	Witlox, Frank
+Witten	Witten, Ian H.
+Woehe	Wöhe, Günter
+Wokaun	Wokaun, Alexander
+Wolf	Wolf, Jean
+WolfDA	Wolf, Douglas A.
+WolfDE	Wolf, D. E.
+Wolfe	Wolfe, P.
+Wolff	Wolff, Sebastian
+Wolfram	Wolfram, S.
+Wolfson	Wolfson, Ouri
+WolfsonJ	Wolfson, Julian
+Wolshon	Wolshon, Brian
+Wong	Wong, Wei-Kang
+WongSK	Wong, S. K.
+WongSC	Wong, S.C.
+Wonka	Wonka, Peter
+Wood	Wood, Kevin R.
+WoodDE	Wood, D. E.
+WoodJEA	Wood, Jean E. A.
+Woodworth	Woodworth, Robert S.
+Wooldridge	Wooldridge, Michael
+Wootton	Wootton, H. W.
+Wright	Wright, William
+WrightCC	Wright, C. C.
+WrightFL	Wright, Frank Lloyd
+WrightMH	Wright, Margaret H.
+WrightPE	Wright, Paul E.
+Wu	Wu, Mei-Miau
+WuHH	Wu, H. H.
+WuJ	Wu, Jianjun
+WuJH	Wu, J. H.
+WuJun	Wu, Jun
+WuK	Wu, Ke-Feng
+WuN	Wu, N.
+WuQ	Wu, Q.
+WuX	Wu, Xian
+WuXinkai	Wu, Xinkai
+WuYJ	Wu, Yao-Jan
+WuZ	Wu, Zhijin
+Wuertz	Würtz, Christian
+Wuestenhagen	Wüstenhagen, Rolf
+Wunderlich	Wunderlich, Karl E.
+Wunsch	Wunsch, Christian D.
+Wytzisk	Wytzisk, A.
+
+% X %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Xenides	Xenides, D.
+Xia	Xia, Huadong
+Xiang	Xiang, Y.
+Xiao	Xiao, Yu
+Xiaodong	Xiaodong, Xie
+Xie	Xie, F.
+XieC	Xie, C.
+XieX	Xie, Xing
+XieXQ	Xie, Xiaoyan
+XieY	Xie, Yihui
+Xiong	Xiong, Hui
+Xu	Xu, Renting
+XuB	Xu, Bo
+XuM	Xu, Min
+XuX	Xu, X.
+XuY	Xu, Yanzhi
+
+% Y %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Yagar	Yagar, Sam
+Yagil	Yagil, Joseph
+Yai	Yai, Tetsuo
+Yalamanchili	Yalamanchili, Lalit
+Yamagata	Yamagata, Y.
+Yamamoto	Yamamoto, Toshiyuki
+Yamin	Yamin, F.
+Yamins	Yamins, Daniel
+Yan	Yan, Jia
+Yang	Yang, C.
+YangH	Yang, H.
+YangJ	Yang, Joucheng
+YangK	Yang, Kaidi
+YangM	Yang, Min
+YangQ	Yang, Q.
+YangW	Yang, Wenchen
+YangZ	Yang, Zhongzhen
+Yannis	Yannis, George
+Yano	Yano, Keiji
+Yasar	Yasar, Ansar-Ul-Haque
+Yathindra	Yathindra, Karun
+Yau	Yau, Y.
+Yavas	Yavas, Abdullah
+Yazar	Yazar, Tugrul
+Ye	Ye, Xin
+Yeates	Yeates, Maurice
+Yemeru	Yemeru, Edlam Abera
+Yen	Yen, Gary G.
+Yenerich	Yenerich, Jay Allen
+Yerra	Yerra, B. M.
+Yianilos	Yianilos, Peter N.
+Yih	Yih, Yuehwern
+Yin	Yin, Y.
+YinJ	Yin, Jingbo
+YinM	Yin, Mogeng
+Yitbarek	Yitbarek, Elias
+Yoo	Yoo Seung-Hoon
+Yoon	Yoon, C. N.
+YoonM	Yoon, M. J.
+YoonSY	Yoon, Seo Youn
+Yoshida	Yoshida, Takafumi
+Young	Young, Stanley E.
+YoungMJ	Young, Michael J.
+YoungW	Young, William
+Youssefzadeh	Youssefzadeh, Maria
+Yu	Yu, Jeong Whon
+YuB	Yu, Bin
+YuBQ	Yu, Biying
+YuL	Yu, L.
+YuK	Yu, Kiyun
+YuP	Yu, Philip S.
+YuYS	Yu, Yeon Seung
+Yuan	Yuan, Shuning
+YuanF	Yuan, Fang
+Yuen	Yuen, Belinda
+Yuhua	Yuhua, Luo
+Yukawa	Yukawa, Satoshi
+Yumiki	Yumiki, Kenji
+Yusuf	Yusuf, Arief Anshory
+
+% Z %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Zabalza	Zabalza, A.
+Zablit	Zablit, Robert
+Zachariadis	Zachariadis, Vassilis
+Zadeh	Zadeh, Lotfi Asker
+Zaengler	Zängler, Thomas W.
+Zajicek	Zajicek, Jürgen
+Zallinger	Zallinger, M.
+Zandbergen	Zandbergen, Paul A.
+Zang	Zang, Hui
+Zanlungo	Zanlungo, F.
+Zantema	Zantema, K.
+Zarembka	Zarembka, P.
+Zaroliagis	Zaroliagis, Christos D.
+Zbinden	Zbinden, R.
+Zebisch	Zebisch, K. D.
+Zegras	Zegras, Chris
+ZegrasPC	Zegras, P. Christopher
+Zeibig	Zeibig, Sten
+Zeigler	Zeigler, Donald J.
+Zeiler	Zeiler, Andrea
+Zeldes	Zeldes, Stephen P.
+Zelikovsky	Zelikovski, Alexander
+Zelinsky	Zelinsky, Wilbur
+Zell	Zell, Andreas
+Zeng	Zeng, Xiaogang
+ZengW	Zeng, Wei
+Zgaya	Zgaya, Hayfa
+Zhan	Zhan, F. Benjamin
+Zhang	Zhang, Junyi
+ZhangD	Zhang, D.
+ZhangG	Zhang, Ge
+ZhangH	Zhang, Hua
+ZhangHB	Zhang, Hong Bo
+ZhangJ	Zhang, Jun
+ZhangK	Zhang, Kuilin
+ZhangL	Zhang, Lei
+ZhangLl	Zhang, Lele
+ZhangLQ	Zhang, Li-Chun
+ZhangLQQ	Zhang, Lun
+ZhangM	Zhang, Michael
+ZhangW	Zhang, Wenwen
+ZhangY	Zhang, Yi
+ZhangYQ	Zhang, Y.
+ZhangZ	Zhang, Zhi-Li
+Zhao	Zhao, H.
+ZhaoBY	Zhao, Ben Y
+ZhaoF	Zhao, Fang
+ZhaoJ	Zhao, Jinhua
+ZhaoK	Zhao, Kangija
+ZhaoL	Zhao, Lin
+ZhaoLa	Zhao, Liang
+ZhaoY	Zhao, Yilin
+Zheng	Zheng, Yu
+ZhengAX	Zheng, Alice X.
+ZhengH	Zheng, Hong
+ZhengHQ	Zheng, Haitao
+ZhengJie	Zheng, Jie
+ZhengN	Zheng, Nan
+Zhongyi	Zhongyi, Xu
+Zhou	Zhou, Changqing
+ZhouX	Zhou, Xiaofang
+Zhu	Zhu, Wei
+ZhuS	Zhu, Shanjiang
+ZhuT	Zhu, Ting
+Zhuge	Zhuge, Chengxiang
+Ziegelmeyer	Ziegelmeyer, Anthony
+Ziemlicki	Ziemlicki, Cezary
+Ziemke	Ziemke, Dominik
+Ziems	Ziems, Sarah Ellie
+Zietz	Zietz, Emily N.
+Zilbershatz	Zilbershatz, Avishai
+Ziliak	Ziliak, Stephen T.
+Ziliaskopoulos	Ziliaskopoulos, Athanasios K.
+ZiliaskopoulosA	Ziliaskopoulos, A.
+Zilske	Zilske, Michael
+Zimmermann	Zimmermann, Andrea
+ZimmermannHJ	Zimmermann, Hans-Jürgen
+ZimmermannR	Zimmermann, Roger
+Zinsstag	Zinsstag, Jakob
+Zirz	Zirz, Kai Olaf
+Zito	Zito, Rocco
+Zmud	Zmud, Johanna
+Zoellig	Zöllig, Christof
+ZoelligRenner	Zöllig Renner, Christof
+Zolfaghari	Zolfaghari, A.
+Zomaya	Zomaya, Albert Y. H.
+Zondag	Zondag, Barry
+Zoob	Zoob, Ina
+Zschau	Zschau, J.
+Zucker	Zucker, B.
+Zuckerman	Zuckerman, Marvin
+Zuiker	Zuiker, Virginia Solis
+ZumBrunnen	ZumBrunnen, Craig
+Zumkeller	Zumkeller, Dirk
+Zuniga	Zúñiga, Mauricio
+Zurlinden	Zurlinden, H.
+Zwick	Zwick, Uri
+daSilva	da Silva, L. R.
+deBerg	de Berg, Mark
+deWitte	de Witte, Astrid
+vanBerkum	van Berkum, E.
+vanBuuren	van Buuren, Stef
+vanHoeve	van Hoeve, Willem-Jan
+vanOmmeren	van Ommeren, Jos
+vandenBrink	van den Brink, R.
+vanderHoorn	van der Hoorn, T.
+vanderHurk	'van der Hurk, E.'
+vonNeumann	von Neumann, John
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% - special chars: äöüèéàß
+% EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
