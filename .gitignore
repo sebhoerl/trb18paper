@@ -1,4 +1,13 @@
 tmp
 TRB.log
 TRB.synctex.gz
+TRB.aux
+TRB.dvi
+TRB.out
+TRB.pdf
+./_latexfiles/unsortbibs/example.fdb_latexmk
+./_latexfiles/unsortbibs/example.fls
+./_latexfiles/unsortbibs/example.log
+./_latexfiles/unsortbibs/example.pdf
+./_latexfiles/unsortbibs/example.synctex.gz
 
