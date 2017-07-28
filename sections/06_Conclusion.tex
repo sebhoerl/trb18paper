@@ -2,7 +2,7 @@
 \label{sec:Conclusion}
 
 The study shows that the right choice of dispatching algorithm for an AMoD system
-does not only have strong impact on the performance in terms of waiting times for
+does not only have strong impact on the performance in terms of wait time for
 the customer, but also that it bears a significant economic advantage for the
 operator. He is able to attract more customers through quicker pickups and
 lower prices than a competitor with only little investment.
@@ -13,32 +13,22 @@ able to process dispatching and rebalancing tasks for fleets of thousands of
 vehicles within minutes. It is perfectly feasible to control 100k vehicles in
 five minute updates using a standard laptop for the computational tasks.
 
-For the presented simulations, this still poses a burden, though, because there
+For the presented simulations, this still poses a burden, because there
 a speedup compared to reality of around one thousand times is desired to be able
-to run large numbers of simulations with different parameters. Hence, the algorithms
-could only be tested on a subsample of 1\% of the agent population that is available.
-In future studies effort will be put into overcoming these restriction, either
+to run large numbers of simulations. Hence, the algorithms
+are only tested on a subsample of 1\% of the agent population that is available.
+In future studies, effort will be put into overcoming this restriction, either
 by finding approximate formulations for the presented algorithms or pursuing research
 on completely new algorithms.
 
-Throughout the paper, a ``100\%'' demand scenario has been used, in which all
-trips that possibly could be undertaken by AV were converted to the automated
-mode. The MATSim framework, however, offers the possibility to explicitly
+Throughout the paper, a ``100\%'' demand scenario is used, in which all
+trips that possibly could be undertaken by AV are converted to the automated
+mode. MATSim offers the possibility to explicitly
 simulate attitudes toward new elements in the traffic system by defining utilities
 for using specific modes with distinct valuation of travel costs, travel times and
 distances. This way, by integrating the presented algorithms into the full
-MATSim loop as shown in \cite{horl_abmtrans17} the actual attractiveness of an
-AV service could be analyszed including the tradeoff that people make between
+MATSim loop, as shown in \cite{horl_abmtrans17}, the actual attractiveness of an
+AV service can be analyszed including the tradeoff that people make between
 paying for the service, spending time in the vehicle and having to wait for it.
-Naturally, not 100\% of possible trips would actually be performed by AV, but only
-a fraction. In such a scenario, also if maybe more remote areas would be included,
-completely different properties of an AV fleet control algorithm would be of
-interest, e.g. how well it is able to attract new customer groups in new regions
-by offering unproportinally low waiting times and make them stick to the service.
-
--> add comment on first runs with 10\% -> fleet size by far OVERESTIMATED!
--> additional demand: not just full car activity chains in area, but also just subtours
-
-
-
-[ TODO: OTHER LIMITATIONS ]
+Naturally, not 100\% of possible trips would be performed by AV then, but only
+a fraction. Future work will take these considerations into account.
