@@ -77,7 +77,8 @@ The objectives for a fleet management algorithm can therefore be defined as:
 
 \subsection{Selected Algorithms}
 
-In this work we analyze four different operating strategies from literature, which are briefly outlined below:
+In this work we analyze four different operating strategies from literature,
+which are briefly outlined below:
 
 \begin{enumerate}
 \item The single heuristic dispatcher is a strategy presented in \cite{bischoff2016simulation}. In every dispatching time step $\delta t_D$ If there are more available vehicles than requests, it iterates on the list of requests and assigns to each request the closest vehicle. If there are more open requests than available vehicles, the controller iterates on the available vehicles and assigns the closest open request to each vehicle. The assignments are binding, i.e. they are not reopened once concluded.
