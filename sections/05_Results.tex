@@ -1,18 +1,25 @@
 \section{Results}
 \label{sec:results}
 
-We test the four proposed dispatching strategies in the Zurich scenario with four
-runs per strategy. Each run simulates 20 iterations to allow the dispatchers to sense
-the traffic conditions in the network, i.e. to figure out what travel times on
-specific links are expected and how traffic jams can be avoided.
+We test the four proposed dispatching strategies in the Zurich scenario with ten
+runs per fleet size and strategy. Since the dispatchers rely on freeflow speeds in the network
+for their routing when the simulation starts, we let each run perform 20 iterations
+in which the dispatcher step by step senses the traffic conditions, e.g. how to
+avoid traffic jams at peak hours.
+
+[TODO REVIEW FROM HERE - results are NOT updated yet (Feedforward is still running with 10min period.. should be better)]
+
+The dispatching stages of all algorithms are called once every 60 seconds in
+simulated time, while the rebalancing periods for the feedforward and feedback
+dispatcher are 60 seconds and 20 minutes, respectively.
 
 For Zurich, the times with peak congestion and, hence, longest travel times are
 from 6:30am to 9:00am and from 4:30pm to 6:30pm. In figure \ref{fig:mean_peak_waiting_times}
-all trips by AV with departures times in these time windows are collected
-and the mean waiting time for vehicle is computed. As expected, the average
+all trips by AV with departure times in these time windows are collected
+and the mean waiting time is computed. As expected, the average
 waiting time is decreasing with larger fleet sizes and higher availabiltiy of
-vehicles. Almost over the whole range of flet sizes the feedback LP dispatcher
-performs best, while the load-balancing heuristic features the longest waiting
+vehicles. Almost over the whole range of fleet sizes the feedback algorithm
+performs best, while the load-balancing heuristic yields the longest waiting
 times.
 
 \begin{figure}
