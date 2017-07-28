@@ -1,0 +1,37 @@
+\section{Simulations}
+\label{sec:staticSimulations}
+
+The dispatching algorithms as presented before have been tested in the agent- and activity-based transport simulation framework MATSim. What has been used in this paper is the mobility simulation component of that package, where each agent
+has a daily plan consisting of activities and legs. Activities are performed for a certain duration at specific locations in the traffic network and have predefined end times. They are connected by legs, which are performed by specific means of transport. Dependent on the time of day, the mode, the route taken and other factors, travel times may vary. Most importantly, the network is capacitated such that congestion emerges if many agents use the same network links at the same time.
+
+Most important for the study at hand is the simulation of vehicles in an actual network. By keeping background traffic in the simulation, the AVs are constrained by the network conditions, most remarkably they suffer from longer travel times at peak hours due to congestion.
+
+The section is divided into two parts: First, we describe how the simulation scenario has been set up to account for a realistic travel demand for Zurich. Second, the simulation approach for automated vehicles is explained and third, the results for the different dispatching algorithms are presented.
+
+\subsection{Scenario Setup}
+\label{sec:simulations_scenario}
+
+For Switzerland the Microcensus on mobility and transport \cite{microcensus} is available, which features the daily travel patterns of 60,000 Swiss residents. In a previous study, it has been used to create a detailed agent population of Switzerland, which reproduces the demographic attributes and travel patterns in the country to great detail \cite{ivtbaseline}.
+
+Additional modifications have been applied to this population of around 8 million agents to make it suitable for the study at hand. First, a best-response routing of the travels of all agents has been performed to find all agents that interfere with the study area, which has been defined to the 12 districts of Zurich (Figure ref{fig:study_area_vnodes}).
+All agents which do not interact with that region (performing an activity within the area or crossing the area) have been deleted from the population as they do not contribute to the state of the traffic system in that area. Finally, a 1\% sample of the remaining agents has been created, which is the basis for our simulations to account for feasible computation times for the proposed dispatching
+algorithms.
+
+In order to define the travel demand for the fleet of automated vehicles, agents have been tagged as for whether they are viable for using an automated vehicle or not.
+While pedestrians and cyclists have not been simulated at all (since they do not contribute to congestion in the current version of the framework), agents that travel by car or public transit at least once during their daily plan are handled differently.
+
+Agents that travel at least once by private car during the simulation are tagged as an AV user \textit{only} if all of the legs in the agent's plan take place within the study area. This constraint makes sure that no unrealistic travel plans are generated, where an agent performs his first leg by AV although his private car is at home and then wants to depart at the next location with that car. Finally, the ``car'' legs of all viable have been converted to the ``av'' mode.
+All other legs are kept as before, i.e. short legs that were assigned the ``walk'' mode before are still performed in this mode.
+
+For agents that use public transit, the procedure is different. Here, any leg that is performed by the ``pt'' mode in the original population is converted to ``av'' if it lies within the study area of 15km. As for car users, connecting non-motorized legs are kept fixed.
+
+This way a demand for Zurich has been generated where each leg that possibly \textit{can} be performed using an AV \textit{is} using an AV. In that sense, we simulate a scenario where 100\% of the AV travel demand must be served by the dispatchers.
+
+To summarize, the 8,230,971 agents in the population have been decimated to 1,935,400 agents, which interfere with the study area. From this set of agents, a 1\% sample has is drawn, leading to 19,354 agents that mainly constitute background traffic. Among those are 970 agents that are viable for the AV service. The plans of these agents contain 4030 trips that are to be served by AVs. In reality, this service would hence need to serve 403,000 requests by 97,000 persons.
+
+\subsection{Simulation of automated vehicles}
+
+To simulate automated vehicles in the MATSim scenario, a framework extension by Hörl \cite{horl_abmtrans17} is used. There, AVs are individually simulated on the road network, contributing to and experiencing congestion. As soon as agents finish their activities the simulation is notified about an incoming request given that the agent wishes to use an AV for the following leg. In that case, the request with its properties (departure time, origin, destination) is passed on to the dispatcher. These dispatchers are based on different algorithms, as described before. However, the ``lifecycle'' of a request is always the same: First, an AV needs to drive to the location of the customer, pick him up, drive to the final location and finally drop the customer off. From the point a customer has
+been picked up, the process is predetermined, no changes to the route of the AV are made anymore. While an AV has been assigned to a customer for pickup the vehicle may be reassigned depending on the dispatching algorithm.
+
+It should be noted that AVs drive directly to the locations where agents end and start their activities. So far no mechanism is implemented that would allow them to meet at optimized locations (e.g. a high-capacity avenue instead of a small alley).
