@@ -85,13 +85,43 @@ The objectives for a fleet management algorithm can therefore be defined as:
 
 \subsection{Selected Algorithms}
 
-In this work we analyze four different operating strategies from literature, which are briefly outlined below:
+In this work we analyze four different operating strategies from literature,
+which are briefly outlined below:
 
-[TODO: I would do this more in detail! Why not explicitly state the LPs, at least for the last one, which is ``new''? I think if somebody reads this he cannot really figure out whats going on.]
+[TODO: I would do this more in detail! Why not explicitly state the LPs, at least
+for the last one, which is ``new''? I think if somebody reads this he cannot really figure out whats going on.]
 
 \begin{enumerate}
-\item The single heuristic dispatcher is a strategy presented in \cite{bischoff2016simulation}. In every dispatching time step $\delta t_D$ If there are more available vehicles than requests, it iterates on the list of requests and assigns to each request the closest vehicle. If there are more open requests than available vehicles, the controller iterates on the available vehicles and assigns the closest open request to each vehicle. The assignments are binding, i.e. they are not reopened once concluded.
-\item The global Euclidean bipartite matching dispatcher determines an optimal bipartite matching between all open requests and available vehicles in every dispatching time step $\delta t_D$. The used distance function is the Euclidean distance which allows to use fast algorithms, e.g. \cite{agarwal2004near}. In contrast to the previous strategy, the assignments can be changed until a vehicle actually reaches its target. If arrival probabilties for future time steps is taken into account, this strategy can be considered as the optimal dispatching strategy based on Euclidean distances.
-\item In \cite{pavone2011load} a feedforward strategy is presented on how to rebalance vehicles between different vertices in a directed graph $G = (V,E)$. For each vertex $i$ and time step $\delta_t$, the arrival rates $\lambda_i$ and transition probabilities $p_{ij}$ for any nodes $v_i, v_j \in V$  are used in a linear program to compute the optimal rebalancing flows $\alpha _{ij}$ in that time step assuming that the system is at equilibrium. To implement this strategy, we divided the city of Zurich into a set of areas. The nodes from \cite{pavone2011load} represent the centroids of these areas on which a complete directed graph called virtual network is placed, see figure \ref{fig:virtualNetwork}. Available cars are continuously rebalanced between the vertices of the virtual network according to the static rebalancing rates $\alpha_{ij}$. As the work does not detail the proposed dispatching algorithm for this strategy, we match cares using global Euclidean bipartite matching. Rebalancing vehicles cannot be dispatched until they reach their destination.
-\item The last implemented strategy is as well derived from \cite{pavone2011load}. Instead of a pure feedforward solution, here in every rebalancing timestep $\delta t_R$ for every area of the virtual network the avaialble cars and open requests are counted and fed into an integer linear program which calculates the number of cars $reb _{ij}$ to be sent from virtual vertex $i$ to virtual vertex $j$. As in the feedforward strategy, the matching of the cars is done via global Euclidean bipartite matching.
+\item The single heuristic dispatcher is a strategy presented in \cite{bischoff2016simulation}.
+In every dispatching time step $\delta t_D$ If there are more available vehicles than requests,
+it iterates on the list of requests and assigns to each request the closest vehicle. If there are
+ more open requests than available vehicles, the controller iterates on the available vehicles and
+ assigns the closest open request to each vehicle. The assignments are binding, i.e. they are not
+ reopened once concluded.
+\item The global Euclidean bipartite matching dispatcher determines an optimal bipartite matching
+between all open requests and available vehicles in every dispatching time step $\delta t_D$.
+The used distance function is the Euclidean distance which allows to use fast algorithms, e.g.
+\cite{agarwal2004near}. In contrast to the previous strategy, the assignments can be changed
+until a vehicle actually reaches its target. If arrival probabilties for future time steps is
+taken into account, this strategy can be considered as the optimal dispatching strategy based
+on Euclidean distances.
+\item In \cite{pavone2011load} a feedforward strategy is presented on how to rebalance
+vehicles between different vertices in a directed graph $G = (V,E)$. For each vertex $i$
+and time step $\delta_t$, the arrival rates $\lambda_i$ and transition probabilities $p_{ij}$
+for any nodes $v_i, v_j \in V$  are used in a linear program to compute the optimal
+rebalancing flows $\alpha _{ij}$ in that time step assuming that the system is at equilibrium.
+To implement this strategy, we divided the city of Zurich into a set of areas. The nodes
+from \cite{pavone2011load} represent the centroids of these areas on which a complete directed
+graph called virtual network is placed, see figure \ref{fig:virtualNetwork}. Available cars
+are continuously rebalanced between the vertices of the virtual network according to the
+static rebalancing rates $\alpha_{ij}$. As the work does not detail the proposed
+dispatching algorithm for this strategy, we match cares using global Euclidean
+bipartite matching. Rebalancing vehicles cannot be dispatched until they reach
+their destination.
+\item The last implemented strategy is as well derived from \cite{pavone2011load}.
+Instead of a pure feedforward solution, here in every rebalancing timestep $\delta t_R$
+for every area of the virtual network the avaialble cars and open requests are counted
+and fed into an integer linear program which calculates the number of cars $reb _{ij}$
+to be sent from virtual vertex $i$ to virtual vertex $j$. As in the feedforward
+strategy, the matching of the cars is done via global Euclidean bipartite matching.
 \end{enumerate}
