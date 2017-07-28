@@ -5,13 +5,12 @@ algorithms a novel scenario for the city of Zurich, Switzerland is set up
 for the MATSim transport simulation framework. The section is structured as follows:
 First, we give an overview about the used simulation components, second, we specify
 the scenario and finally, we provide fleet sizing results from the theoretical
-methodology presented in (cite Treleaven).
+methodology presented in \citep{spieser2014toward}.
 
 \subsection{MATSim and AMoD Simulation}
 
 MATSim (cite Horni) is an agent-based simulation framework that makes it possible
-to simulate large numbers of agents, which model a real population, in the same
-traffic environment. Similar to reality, each agent has a daily plan with activities
+to simulate large numbers of agents representing a real population in a traffic environment. Similar to reality, each agent has a daily plan with activities
 that he wants to perform for a certain duration and finish at a specific time of
 the day. Since these activities take place at different locations in the scenario,
 agents need to move from activity to activity. By default, MATSim allows the
@@ -23,11 +22,11 @@ activity locations. While MATSim provides more functionality, e.g. the replannin
 of agents plans to adapt to the traffic conditions that they perceive, only the
 network simulation is used in this research.
 
-An extension by Hörl (cite ABMTRANS) is used to add automated taxis to the set
+An extension developed by the authors of this paper is used to add automated taxis to the set
 of available travel modes. A virtual dispatcher, for which
 different algorithms are used in this study, is constantly giving them instructions
 where to go and what to do. The ``lifecycle'' of a request is always the same:
-First, whenever an agents wants to depart from his current activity location by
+First, whenever an agent wants to depart from his current activity location by
 AV, a request is issued to the dispatcher and saved. Then, an AV needs to be sent
 to the customer. The choice which vehicle to send and when is completely defined
 by the dispatching algorithm. Once the vehicle arrives at the customer's location
