@@ -27,11 +27,35 @@ Assuming that 5 minutes at peak times are an acceptable wait time, that delay is
 achieved with a fleet of 10,000 vehicles for the heuristic, but with only 8,700
 for the feedback dispatcher.
 
+\captionsetup[subfigure]{width=0.9\textwidth}
+
 \begin{figure}
-\includegraphics[width=1.0\textwidth]{figures/mean_peak_waiting_times.pdf}
-\caption{Average waiting time for an AV to arrive at peak times (solid) and over the entire day (dashed)}
-\label{fig:mean_peak_waiting_times}
+    \centering
+    \begin{subfigure}[t]{0.495\textwidth}
+        \includegraphics[width=1.0\textwidth]{figures/mean_peak_waiting_times.pdf}
+        \caption{Average waiting time for an AV to arrive at peak times (solid) and over the entire day (dashed)}
+        \label{fig:mean_peak_waiting_times}
+    \end{subfigure}\hfill
+    \begin{subfigure}[t]{0.495\textwidth}
+        \includegraphics[width=1.0\textwidth]{figures/availability.pdf}
+        \caption{Probability of at least one AV being available whenever a request comes in
+        TODO: Make same range a waiting time and same scaling}
+        \label{fig:performanceavailability}
+    \end{subfigure}
+    \caption{Fleet performance metrics for different l}
 \end{figure}
+
+
+
+
+
+
+
+%\begin{figure}
+%\includegraphics[width=1.0\textwidth]{figures/mean_peak_waiting_times.pdf}
+%\caption{Average waiting time for an AV to arrive at peak times (solid) and over the entire day (dashed)}
+%\label{fig:mean_peak_waiting_times}
+%\end{figure}
 
 [TODO: Updat empty rides!!!]
 
@@ -49,16 +73,23 @@ customer demand for shorter waiting times.
 [TODO: Do we need two plots here? Also a plot Total Distance <-> Relative Distance
 would be possible, where one can traverse the fleet size along the graph]
 
-\begin{figure}
-\includegraphics[width=1.0\textwidth]{figures/empty_rides.pdf}
-\caption{The fraction of distance that is driven by AVs without a passenger.}
-\label{fig:empty_rides}
-\end{figure}
+%\begin{figure}
+%\includegraphics[width=1.0\textwidth]{figures/empty_rides.pdf}
+%\caption{The fraction of distance that is driven by AVs without a passenger.}
+%\label{fig:empty_rides}
+%\end{figure}
+
+%\begin{figure}
+%\includegraphics[width=1.0\textwidth]{figures/total_distance.pdf}
+%\caption{The total distance that is driven by AVs, with and without passenger on-board.}
+%\label{fig:total_distance}
+%\end{figure}
 
 \begin{figure}
-\includegraphics[width=1.0\textwidth]{figures/total_distance.pdf}
-\caption{The total distance that is driven by AVs, with and without passenger on-board.}
-\label{fig:total_distance}
+\includegraphics[width=1.0\textwidth]{figures/distances.pdf}
+\caption{Distribution of distances for different fleet sizes. From left to right:
+Customer distance, empty pickup distance, empty rebalancing distance.}
+\label{fig:distances}
 \end{figure}
 
 Finally, the occupancy of the fleet is measured. For a fleet size of 6,000
@@ -119,6 +150,7 @@ of the operator is, the larger this margin becomes.
 
 \begin{figure}
 \includegraphics[width=1.0\textwidth]{figures/time_vs_price.pdf}
-\caption{Time vs. Price}
+\caption{Comparison plot of offered wait times and minimum service prices for the
+simulated fleet configurations}
 \label{fig:time_vs_price}
 \end{figure}
