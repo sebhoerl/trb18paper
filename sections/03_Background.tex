@@ -1,18 +1,17 @@
 \section{Control of an AMoD System}
 \label{sec:background}
 
-An AMoD service is can only be realized if it is attractive to customers. More
+An AMoD service can only be realized if it is attractive to customers. More
 specifically, it can only be maintained if a sufficient number of customers
-wants to use the service and the service is profitable for the operator.
+wants to use the service making it profitable for the operator.
 
-While a multitude of factors influence the attractiveness of the service (perhaps
+While a multitude of factors influences the attractiveness of the service (perhaps
 multimedia offers in the vehicle, the quality of Wifi, ...) the authors assume
 two key properties: The time that passes between a customer making a request
 and a vehicle arriving (i.e. the wait time) and the price that is charged to
 the customer. All else being equal, an operator that can offer the shortest wait
 times at the lowest price will attract more customers than his competitors. For
-now, it remains unknown how those two factors would be valued against each other
-by potential customers.
+now, the trade-off between wait time and costs from a customer's perspective is not further investigated. 
 
 We focus on two main ways for operators to influence the service level of their system:
 
@@ -25,8 +24,7 @@ regarded as a long-term investment that cannot be altered on a daily basis.
 \item The \textbf{fleet control} can be optimized. Since in an AMoD system it is
 asssumed that any vehicle can be tracked and controlled online, intelligent fleet
 control algorithms can be used to minimize the wait times, but also minimize the
-driven distance in order to reduce operational cost. Applying the proper algorithm is a much
-less costly intervention than increasing the fleet size with assumably smaller
+driven distance in order to reduce operational cost. Applying the proper algorithm is a far cheaper intervention than increasing the fleet size with assumably smaller
 effects, but may bring a competitive advantage on the market.
 \end{itemize}
 
@@ -35,14 +33,14 @@ of control algorithms for fleets of varying sizes.
 
 \subsection{Problem Statement}
 
-For the algorithmic improvement of the fleet management the authors distinguish
+For the algorithmic improvement of the fleet management, the authors distinguish
 between two stages:
 
 \begin{itemize}
-\item The \textbf{dispatching strategy} decides how to serve the demand, i.e.
-how to match the open customer requests, with the available vehicles. At any time the dispatcher can send tasks to pickup a specific customer to any vehicle that is not currently having a customer onboard (since we do not consider ride-sharing with multiple customers). Also a reassignment of a previously assigned
+\item The \textbf{dispatching strategy} decides on how to serve the demand, i.e.
+how to match the open customer requests with the available vehicles. At any time the dispatcher can send tasks to pickup a specific customer to any vehicle that is not currently having a customer on board (since we do not consider ride-sharing with multiple customers). Also a reassignment of a previously assigned
 vehicle to another request is possible.
-\item The \textbf{rebalancing strategy} decides where to send vehicles when they
+\item The \textbf{rebalancing strategy} decides on where to send vehicles when they
 are not in use and the demand allows for supplementary movements of the vehicles.
 The task of the rebalancer is to anticipate future requests and position vehicles
 such that they are able to optimally react to the upcoming demand.
@@ -58,9 +56,10 @@ by an intelligent dispatching algorithm.
 \item \textbf{Empty rebalancing mileage} is produced when an AV is sent
 to a different location where demand is expected. An ideal operator would
 exchange all the pickup mileage in the system against rebalancing mileage, i.e. the operator would always send empty vehicles before an actual request turns up.
-\item \textbf{Customer mileage} is produced with a customer on-board. This mileage does only depend on the routing of the cars. In any combination of fleet size and control algorithm, this mileage stays constant, because it is defined by the origin-destinaton relations of all customer trips.
+\item \textbf{Customer mileage} is produced with a customer on board. This mileage does only depend on the routing of the cars. In any combination of fleet size and control algorithm, this mileage stays constant, because it is defined by the origin-destinaton relations of all customer trips.
 \end{itemize}
 
+The maintenance mileage is not further considered in this paper and subject to future research.
 Assuming a common pricing scheme that defines a price per distance, the customer mileage
 is the only component that produces a benefit for the operator. All other mileage
 can directly be translated into costs and should therefore be minimized. For general
@@ -77,18 +76,20 @@ The objectives for a fleet management algorithm can therefore be defined as:
 
 \subsection{Selected Algorithms}
 
-In this work we analyze four different operating strategies from literature,
+In this work we analyze four different operating strategies from the literature,
 which are briefly outlined below:
 
 \begin{enumerate}
-\item The single heuristic dispatcher is a strategy presented in \cite{bischoff2016simulation}. In every dispatching time step $\delta t_D$ If there are more available vehicles than requests, it iterates on the list of requests and assigns to each request the closest vehicle. If there are more open requests than available vehicles, the controller iterates on the available vehicles and assigns the closest open request to each vehicle. The assignments are binding, i.e. they are not reopened once concluded.
+\item The single heuristic dispatcher is a strategy presented in \cite{bischoff2016simulation}. For every dispatching time step $\delta t_D$ , it is checked whether there are more available vehicles than requests. If this is the case, it iterates on the list of requests and assigns to each request the closest vehicle. If there are however more open requests than available vehicles, the controller iterates on the available vehicles and assigns the closest open request to each vehicle. The assignments are binding, i.e. they are not reopened once concluded.
 \item The global Euclidean bipartite matching dispatcher determines an optimal bipartite matching between all open requests and available vehicles in every dispatching time step $\delta t_D$. The used distance function is the Euclidean distance which allows to use fast algorithms, e.g. \cite{agarwal2004near}. In contrast to the previous strategy, the assignments can be changed until a vehicle actually reaches its target. For a given set of open requests and available vehicles, this strategy can be considered as the optimal dispatching strategy based on Euclidean distances.
 \item In \cite{pavone2011load} a feedforward strategy is presented on how to rebalance vehicles between different vertices in a directed graph $G = (V,E)$. For each vertex $i$ and time step $\delta_t$, the arrival rates $\lambda_i$ and transition probabilities $p_{ij}$ for any nodes $v_i, v_j \in V$  are computed from historical data. The linear program in equation \ref{eq:linearprogram} computes the optimal rebalancing flows $\alpha _{ij}$ for an equilibrium point of the underlying fludidic model with travel times $T_{i,j} \forall v_i, v_j \in V$.  
 \begin{align}
 &\textnormal{minimize}& &\sum_{i,j} T_{i,j} \alpha _{ij} & && && \nonumber \\
-&\textnormal{subject to}& &\sum_{i \neq j} \alpha _{ij} - \alpha _{ji} =-\lambda_i  + \sum_{i \neq j} \lambda_j p_{ji} & &\forall v__i \in V& \label{eq:linearprogram} \\
-&& &\alpha_{ij} \geq 0& & \forall v__i, v_j \in V& \nonumber
+&\textnormal{subject to}& 
+&\sum_{i \neq j} \alpha _{ij} - \alpha _{ji} =-\lambda_i  + \sum_{i \neq j} \lambda_j p_{ji} 
+& &\forall i \in V &\label{eq:linearprogram} \\
+&& &\alpha_{ij} \geq 0& & \forall i, j \in V& \nonumber
 \end{align}
 To implement this strategy, we divided the city of Zurich into a set of areas. The nodes from \cite{pavone2011load} represent the centroids of these areas on which a complete directed graph called virtual network is placed, see figure \ref{fig:study_area_vnodes}. Available cars are continuously rebalanced between the vertices of the virtual network according to the static rebalancing rates $\alpha_{ij}$. As the work does not detail the proposed dispatching algorithm for this strategy, we match cares using global Euclidean bipartite matching. Rebalancing vehicles cannot be dispatched until they reach their destination virtual node.
-\item The last implemented strategy is as well derived from \cite{pavone2011load}. Instead of a pure feedforward solution, here in every rebalancing timestep $\delta t_R$ for every area of the virtual network the avaialble cars and open requests are counted and fed into an integer linear program derived from equation \ref{eq:linearprogram} calculating the number of cars $reb _{ij}$ to be sent from virtual vertex $i$ to virtual vertex $j$. As in the feedforward strategy, the matching of the cars is done via global Euclidean bipartite matching.
+\item The last implemented strategy is as well derived from \cite{pavone2011load}. Instead of a pure feedforward solution, here  in every rebalancing timestep $\delta t_R$ for every area of the virtual network the available cars and open requests are counted and fed into an integer linear program derived from equation \ref{eq:linearprogram} calculating the number of cars $reb _{ij}$ to be sent from virtual vertex $i$ to virtual vertex $j$. As in the feedforward strategy, the matching of the cars is done via global Euclidean bipartite matching.
 \end{enumerate}

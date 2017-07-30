@@ -2,7 +2,7 @@
 \label{sec:results}
 
 We test the four proposed dispatching strategies in the Zurich scenario with ten
-runs per fleet size and strategy. Since the dispatchers rely on freeflow speeds in the network
+runs per fleet size and strategy. Since the dispatchers rely on free flow speeds in the network
 for their routing when the simulation starts, we let each run perform 20 iterations
 in which the dispatcher step by step senses the traffic conditions, e.g. how to
 avoid traffic jams at peak hours.
@@ -19,7 +19,7 @@ While the simple heuristic approach consistently yields the longest wait times
 for any fleet size, the feedback dispatcher performs best. The bipartite matching
 performs in between, since it is based on an optimal request assignment, but does
 not do any rebalancing. Surprisingly, the feedforward dispatcher performs similar
-to the bipartite matching algorithm. This means, that the expected demand that
+to the bipartite matching algorithm. This means that the expected demand that
 has been generated from the scenario data does not optimally predict the actual
 travel patterns in the simulation.
 
@@ -57,18 +57,17 @@ for the feedback dispatcher.
 %\label{fig:mean_peak_waiting_times}
 %\end{figure}
 
-[TODO: Updat empty rides!!!]
+[TODO: Update empty rides!!!]
 
-Figure \ref{fig:empty_rides} shows the percentage of fleet mileage that is driven
-without a customer, either for pickup or rebalancing purposes. Clearly, the LP
-algorithms, which both use rebalancing, have a higher share of empty mileage
-that the non-rebalancing approaches. The heuristic approach manages to keep the
-share lowest, since it mainly operates in a best-response state, where only the
-shortest pickup trips are chosen. Remarkably, the total driven distance for all
-dispatchers is very similar (Figure \ref{fig:total_distance}), which indicates
-that the surplus of empty distance for the intelligent dispatchers does not stem
-from inefficient movements, but rather effective movements towards the expected
-customer demand for shorter waiting times.
+%Figure \ref{fig:empty_rides} shows the percentage of fleet mileage that is driven
+%without a customer, either for pickup or rebalancing purposes. Clearly, the LP
+%algorithms, which both use rebalancing, have a higher share of empty mileage
+%compared to the non-rebalancing approaches. The heuristic approach manages to keep the
+%share lowest, since it mainly operates in a best-response state, where only the
+%shortest pickup trips are chosen. 
+
+Remarkably, the total distance driven for all vehicles is very similar among the dispatchers, as can be inferred from Figure \ref{fig:distances}). One can observe however that the load-balancing heuristic needs the least total distance to satisfy customer demand, since it mainly operates in a best-response state, where only the shortest pickup trips are chosen. It should further be pointed out that the total distance does not reduce substantially with an increasing fleet size (from [6kmin,6kmax] to [18kmin,18kmax]).  
+
 
 [TODO: Do we need two plots here? Also a plot Total Distance <-> Relative Distance
 would be possible, where one can traverse the fleet size along the graph]
@@ -95,16 +94,15 @@ Customer distance, empty pickup distance, empty rebalancing distance.}
 Finally, the occupancy of the fleet is measured. For a fleet size of 6,000
 vehicles, they are busy carrying a passenger for around 4.8h per day, while
 this value drops to 2.16h for the maximum fleet size of 140,000. In both cases,
-those numbers exceed the average 1.92h [TODO Cite, do we have this for switzerland???] of today's vehicle fleet.
+those numbers exceed the average 1.92h [TODO Cite, do we have this for switzerland?] of today's vehicle fleet.
 Comparing the heuristic and feedback dispatchers at a fleet size for five minute
 wait time, the vehicles in the latter one are occupied almost one hour more per day.
 
 \subsection{Cost Analysis}
 \label{sec:cost_analysis}
 
-Based on the cost calculator for fleets of automated vehicles by Bösch et al. \cite{cost_paper}
- the costs of operating the simulated
-AV services are computed. Specifically, by providing the calculator with key
+Based on the cost calculator for fleets of automated vehicles by Bösch et al. \cite{Bosch2016a}
+ the costs of operating the AV services are computed. Specifically, by providing the calculator with key
 figures of the operator (among them the occupancy, the share of empty rides, the
 average travel distance) the price that the operator would at least need to ask
 a customer per kilometer is computed. The calculation
@@ -123,17 +121,14 @@ in order to have a profit margin of at least 3\%.}
 \label{fig:passenger_price}
 \end{figure}
 
-Compared to the average price of a taxi operator in Zurich (6 CHF/km, [TODO Cite])
+Compared to the price of a taxi operator in Zurich (base price 8 CHF plus 5 CHF/km, \cite{StadtZurich2014})
 the computed prices are extremely low. Hence, an automated service would clearly
-push conventional taxi operators out of the market. While in the short term a
-private vehicle today is cheaper than the analysed AV services (0.17 CHF/km, [CITE])
-except for very large fleet sizes the service is cheaper in the long run (compared
-to 0.72 CHF/km overall costs of owning a private car). However, compared to
-(subsidized) prices for public transport (0.25 CHF/km), the services are more
+push conventional taxi operators out of the market. The variable costs of a today's private vehicle (0.26 CHF/km, \cite{TCS2016}) are lower than the calculated prices for the AV-services, independent of the algorithm. Considering the full costs of a private vehicle which amount to 0.7 CHF/km \cite{TCS2016} however, it can be concluded that AV-services are only more expensive for large fleet sizes. Nonetheless, compared to
+(subsidized) prices for mass transit (0.25 CHF/passenger kilometer, \cite{Bosch2016a}), the services are more
 expensive.
 
 Therefore, the proposed AV services are highly attractive to car users, but may
-not be able to compete with subsidized public transport. On the other hand, AVs
+not be able to compete with subsidized mass transit. On the other hand, AVs
 allow for more direct trips and thus for savings in travel time. Further studies
 may analyse how these affect the attractiveness of the AMoD services.
 
