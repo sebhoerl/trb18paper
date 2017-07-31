@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex example"] 1501270654 "example.aux" "example.bbl" "example" 1501507654
+["bibtex example"] 1501270654 "example.aux" "example.bbl" "example" 1501509622
   "../bibs/all-eng.bib" 1501229861 1660181 eb32b2f2025380f8ff78dbbdce061c5d ""
   "../styles/template_ivt-unsrt-eng.bst" 1501229783 27386 879026c5364832997315496c1dd08364 ""
-  "example.aux" 1501507654 419700 04fd1d1a21e93238d391f6d4936b3308 ""
+  "example.aux" 1501509010 419700 04fd1d1a21e93238d391f6d4936b3308 ""
   "example.bcf" 0 -1 0 ""
   (generated)
-  "example.bbl"
   "example.blg"
-["pdflatex"] 1501507653 "/home/clruch/Publications/trb18paper/_latexfiles/unsortbibs/example.tex" "example.pdf" "example" 1501507654
+  "example.bbl"
+["pdflatex"] 1501507653 "/home/clruch/Publications/trb18paper/_latexfiles/unsortbibs/example.tex" "example.pdf" "example" 1501509622
   "/etc/texmf/web2c/texmf.cnf" 1496691583 1101 af7716885e081ab43982cab7b4672c1a ""
   "/home/clruch/Publications/trb18paper/_latexfiles/unsortbibs/example.tex" 1501229783 4289 aeeb0f7391276f7c9e7f67f3a44ed210 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -82,10 +82,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1496691630 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1496691646 3853577 e241bc74f057985e23aa2debca3420c7 ""
-  "example.aux" 1501507654 419700 04fd1d1a21e93238d391f6d4936b3308 ""
+  "example.aux" 1501509010 419700 04fd1d1a21e93238d391f6d4936b3308 ""
   "example.bbl" 1501270654 1411754 4bae144aa3087df9bdb9502030fb5f8a "bibtex example"
   "example.tex" 1501229783 4289 aeeb0f7391276f7c9e7f67f3a44ed210 ""
   (generated)
   "example.aux"
-  "example.log"
   "example.pdf"
+  "example.log"
