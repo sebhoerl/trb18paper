@@ -15,16 +15,13 @@ according to \citep{spieser2014toward} is performed.
 
 MATSim \citep{Horni2015} is an agent-based transport simulation framework that makes it possible
 to simulate large numbers of agents representing a real population in a traffic environment. Similar to reality, each agent has a daily plan with activities
-inteded to be performend for a certain duration and finish at a specific time of
+that he wants to perform for a certain duration and finish at a specific time of
 the day. Since these activities take place at different locations in the scenario,
 agents need to move from activity to activity. By default, MATSim allows the
 simulation of car traffic, public transit and slow modes such as going by bike
-or walking. Road-based modes, such as private cars are simulated in a time-step
+or walking. Network-based modes, such as private cars are simulated in a time-step
 based manner in a network of queues with all participants at the same time. This
-
-way it is possible that congestion emerges and agents arrive late at their
-activity locations. While MATSim provides more functionality, e.g. replanning
-way it is possible that congestion emerges and that agents may arrive late at their
+way it is possible that congestion emerges and  that agents may arrive late at their
 activity locations. While MATSim provides more functionality, e.g. the replanning
 of agents plans to adapt to the traffic conditions that they perceive, only the
 network simulation is used in this research.
@@ -34,8 +31,8 @@ of available travel modes. A virtual dispatcher, for which
 different algorithms are used in this study, controls a fleet of AVs.
 Whenever an agent wants to depart from his current activity location by
 AV, a request is issued to the dispatcher and saved.  The choice which vehicle to send and when is completely defined
-by the dispatching algorithm. Once the vehicle arrives at the customer's location,
-the pickup is processed, the AV drives to the destiation and finally drops off the customer. Then,
+by the dispatching algorithm. Once the vehicle arrives at the customer's location
+he is picked up, the AV drives to the destination and finally drops him off. Then,
 the vehicle is available for dispatching again. Alternatively, vehicles can be
 rebalanced, which simply means that the dispatcher gives an AV the instruction
 to drive to a different location. All of this is performed in the MATSim traffic
@@ -44,14 +41,13 @@ simulation such that AVs suffer from congestion as any other vehicle.
 % Commented out to save words
 %It should be noted that AVs drive directly to the locations where agents finish and
 %start their activities. So far no mechanism is implemented that would allow them
-%to meet at optimized locations, e.g. a high-capacity avenue instead of a small
-%alley.
+%to meet at optimized locations (e.g. a high-capacity avenue instead of a small
+%alley).
 
 \subsection{Scenario Definition}
 
 For Switzerland the Microcensus on mobility and transport \cite{microcensus} is
-available, which reports the daily travel patterns of 60,000 survey respondents
-resident in the country.
+available, which features the daily travel patterns of 60,000 Swiss residents.
 It is the basis for a readily available agent population of
 Switzerland, which reproduces the demographic attributes and travel patterns
 in the country to great detail \cite{ivtbaseline}.
@@ -59,13 +55,13 @@ in the country to great detail \cite{ivtbaseline}.
 \begin{figure}[h]
 \begin{center}\includegraphics[width=1.0\textwidth]{figures/map.pdf}\end{center}
 \caption{The study area covering the 12 districts of Zurich and the nodes of the
-virtual network for the rebalancing algorithms. (Map: OpenStreetMap)}
+virtual network for the rebalancing algorithms.}
 \label{fig:study_area_vnodes}
 \end{figure}
 
 Additional modifications are applied to this population of around 8 million
 agents to make it suitable for the study at hand. First, a best-response routing
-of the trips of all agents is performed to find all agents that interfere
+of the travels of all agents is performed to find all agents that interfere
 with the study area, which has been defined to be the 12 districts of Zurich (Figure \ref{fig:study_area_vnodes}).
 All agents which do not interact with that region (i.e. do not perform an activity within
 the area and do not cross the area) are deleted from the population as they do
@@ -85,16 +81,20 @@ plans are generated, where an agent performs his first leg by AV although his
 private car is at home and then wants to depart at the next location with that
 car. Finally, the ``car'' legs of all viable agents are converted to the ``av'' mode.
 All other legs are kept as before, i.e. short legs that are assigned the ``walk''
-mode initially are still performed with this mode.
+mode initially are still performed in this mode.
 
 For agents that use public transit, the procedure is different. Here, any leg
 that is performed by the ``pt'' mode in the original population is converted to ``av''
 if it lies within the study area. As for car users, connecting non-motorized
-legs are kept fixed. Proceeding as outlined, a demand for Zurich is generated in which each leg that possibly
-\textit{can} be performed using an AV \textit{is} performed by AV.
+legs are kept fixed.
 
-To summarize, the 8,230,971 agents in the population are reduced to
-1,935,400 agents, which touch the study area. From this set of agents
+This way a demand for Zurich is generated where each leg that possibly
+\textit{can} be performed using an AV \textit{is} performed by AV. In that sense we
+simulate a scenario where 100\% of the AV travel demand must be served by the
+dispatchers.
+
+To summarize, the 8,230,971 agents in the population are decimated to
+1,935,400 agents, which interfere with the study area. From this set of agents
 a 1\% sample has is drawn, leading to 13,141 agents that mainly constitute
 background traffic for congestion. Among those are 970 agents that are viable for the AV
 service. The plans of these agents contain 2,096 trips that are to be served by
@@ -125,8 +125,8 @@ distance per vehicle in the timeslice. $\bar{d}_{OD,i}  + \bar{d}_{EMD,i}$
 represents the average distance that has to be driven per request. A total of
 $m$ vehicles at an average speed of $v$ are collectively able to reduce this
  added mileage at a rate of $m \cdot v$, this quantity has to be larger than the
- added unserved mileage per timestep. For the scenario herek the
- minimum fleet size computed with this measure are $4271$ vehicles, which
+ added unserved mileage per timestep. For the scenario of this work the
+ minimum fleet size compute with this measure are $4271$ vehicles, which
  can be seen as a non-tight lower bound. [TODO: The plots in report.html say
  2800? /sh]
 
@@ -137,17 +137,17 @@ not result in a significant decreaes in wait time. In \citep{zhang2016control}
  a method is presented of how an AMoD system can be cast in a Jackson network.
  For such networks, queuing theoretical results allow for the computation of
  performance measures such as vehicle wait times, queue lengths or
- availabilities at vertices. The quantity of interest is the availability
+ availabilities at vertices. The quantity of interets is the availability
  of a vehicle at a vertex, which is the probability that at least one idle
- vehicle is at that vertex. Computation of the mean availability of all
+ vehicles is at that vertex. Computation of the mean availability of all
  timesteps and vertices as a function of the fleet size for Zurich results
- in the curve shown in Figure \ref{fig:performanceavailability}. Note that these results
+ in the curve shown in \ref{fig:performanceavailability}. Note that these results
  are purely theoretical and can be derived solely from input data without performing simulations.
  Therefore they can serve as a measure of accuracy for the simulation results.
 
 For the peak case, the increase of the number of vehicles up to a fleet size of $15,000$ results
-in availability rising from $0$ to $~0.85$. The addition of another $15'000$ vehicles does only
+in a availability rising from $0$ to $~0.85$. The addition of another $15'000$ vehicles does only
 increase the availability by $~0.05$ to $~0.90$. This corresponds well to the wait times observed
- in simulation shown in Figure \ref{fig:mean_peak_waiting_times}. The simulated wait times
+ in simulation shown in figure \ref{fig:mean_peak_waiting_times}. The simulated wait times
  decrease significantly up to a fleet size of $15,000$ before saturating.
  [TODO: Reformulate this? Looking at the wait time plot I don't really see saturation... /sh]
