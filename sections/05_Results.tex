@@ -2,14 +2,14 @@
 \label{sec:results}
 
 We test the four proposed dispatching strategies in the Zurich scenario with ten
-runs per fleet size and strategy. Since the dispatchers rely on free flow speeds in the network
-for their routing when the simulation starts, we let each run perform 20 iterations
-in which the dispatcher step by step senses the traffic conditions, e.g. how to
-avoid traffic jams at peak hours.
-
+runs per fleet size and strategy.% Commented out to reduce works / sh
+%Since the dispatchers rely on free flow speeds in the network
+%for their routing when the simulation starts, we let each run perform 20 iterations
+%in which the dispatcher step by step senses the traffic conditions, e.g. how to
+%avoid traffic jams at peak hours.
 The dispatching stages of all algorithms are called once every 60 seconds in
 simulated time, while the rebalancing periods for the feedforward and feedback
-dispatcher are 10 minutes and 20 minutes, respectively. Those values have been
+dispatcher are five minutes and 20 minutes, respectively. Those values have been
 obtained from prior simulation runs.
 
 For Zurich, the times with peak congestion and, hence, longest travel times
@@ -18,10 +18,11 @@ shows the average customer wait time over the whole day and just for peak hours.
 While the simple heuristic approach consistently yields the longest wait times
 for any fleet size, the feedback dispatcher performs best. The bipartite matching
 performs in between, since it is based on an optimal request assignment, but does
-not do any rebalancing. Surprisingly, the feedforward dispatcher performs similar
-to the bipartite matching algorithm. This means that the expected demand that
-has been generated from the scenario data does not optimally predict the actual
-travel patterns in the simulation.
+not do any rebalancing. %Surprisingly, the feedforward dispatcher performs similar
+%to the bipartite matching algorithm. This means that the expected demand that
+%has been generated from the scenario data does not optimally predict the actual
+%travel patterns in the simulation.
+[TODO: waiting for final simulations for FF, they will look better! /sh]
 
 Assuming that 5 minutes at peak times are an acceptable wait time, that delay is
 achieved with a fleet of 10,000 vehicles for the heuristic, but with only 8,700
@@ -39,10 +40,10 @@ for the feedback dispatcher.
     \begin{subfigure}[t]{0.495\textwidth}
         \includegraphics[width=1.0\textwidth]{figures/availability.pdf}
         \caption{Probability of at least one AV being available whenever a request comes in
-        TODO: Make same range a waiting time and same scaling}
+        [TODO: Passt das scaling so? /sh]}
         \label{fig:performanceavailability}
     \end{subfigure}
-    \caption{Fleet performance metrics for different l}
+    \caption{Fleet performance metrics for different fleet sizes}
 \end{figure}
 
 
@@ -57,32 +58,15 @@ for the feedback dispatcher.
 %\label{fig:mean_peak_waiting_times}
 %\end{figure}
 
-[TODO: Update empty rides!!!]
-
-%Figure \ref{fig:empty_rides} shows the percentage of fleet mileage that is driven
-%without a customer, either for pickup or rebalancing purposes. Clearly, the LP
-%algorithms, which both use rebalancing, have a higher share of empty mileage
-%compared to the non-rebalancing approaches. The heuristic approach manages to keep the
-%share lowest, since it mainly operates in a best-response state, where only the
-%shortest pickup trips are chosen. 
-
-Remarkably, the total distance driven for all vehicles is very similar among the dispatchers, as can be inferred from Figure \ref{fig:distances}). One can observe however that the load-balancing heuristic needs the least total distance to satisfy customer demand, since it mainly operates in a best-response state, where only the shortest pickup trips are chosen. It should further be pointed out that the total distance does not reduce substantially with an increasing fleet size (from [6kmin,6kmax] to [18kmin,18kmax]).  
-
-
-[TODO: Do we need two plots here? Also a plot Total Distance <-> Relative Distance
-would be possible, where one can traverse the fleet size along the graph]
-
-%\begin{figure}
-%\includegraphics[width=1.0\textwidth]{figures/empty_rides.pdf}
-%\caption{The fraction of distance that is driven by AVs without a passenger.}
-%\label{fig:empty_rides}
-%\end{figure}
-
-%\begin{figure}
-%\includegraphics[width=1.0\textwidth]{figures/total_distance.pdf}
-%\caption{The total distance that is driven by AVs, with and without passenger on-board.}
-%\label{fig:total_distance}
-%\end{figure}
+Figure \ref{fig:distances} shows the distances that different service configurations
+produce. On the left side the customer distance is shown, which stays constant
+over all runs, while one can see that the pickup distance (middle) is decreasing
+with larger fleet sizes and thus higher availability of vehicles. For the dispatchers
+with rebalancing once can see that they exchange pickup mileage against rebalancing
+mileage (on the right), which makes it possible for them to offer shorter wait
+times. This comes with the price of a surplus in overall distance for which the
+operators needs to cover the costs. [TODO: Let's see the FF, maybe add a comment
+on that /sh]
 
 \begin{figure}
 \includegraphics[width=1.0\textwidth]{figures/distances.pdf}
@@ -92,33 +76,40 @@ Customer distance, empty pickup distance, empty rebalancing distance.}
 \end{figure}
 
 Finally, the occupancy of the fleet is measured. For a fleet size of 6,000
-vehicles, they are busy carrying a passenger for around 4.8h per day, while
-this value drops to 2.16h for the maximum fleet size of 140,000. In both cases,
-those numbers exceed the average 1.92h [TODO Cite, do we have this for switzerland?] of today's vehicle fleet.
-Comparing the heuristic and feedback dispatchers at a fleet size for five minute
-wait time, the vehicles in the latter one are occupied almost one hour more per day.
+vehicles, they are busy serving a passenger for around 4.8h per day, while
+this value drops to 2.16h for the maximum fleet size of 180,000. In both cases,
+those numbers exceed the average 1.92h [TODO: Do we have an exact value for Switzerland? /sh] of today's vehicle fleet.
 
-\subsection{Cost Analysis}
+\subsection{Financial Analysis}
 \label{sec:cost_analysis}
 
 Based on the cost calculator for fleets of automated vehicles by Bösch et al. \cite{Bosch2016a}
- the costs of operating the AV services are computed. Specifically, by providing the calculator with key
-figures of the operator (among them the occupancy, the share of empty rides, the
-average travel distance) the price that the operator would at least need to ask
-a customer per kilometer is computed. The calculation
-is based on a detailed analysis of running and fixed costs and includes a
-profit margin of 3\% for the operator. Figure~\ref{fig:passenger_price}
-shows the results from this analysis. Unsurprisingly, the price that needs to be
-charged from the customer increases with larger fleet sizes, while a clear difference
-between the algorithms can be observed. Clearly, the simple heuristic is the most
+ the costs of operating the AV services are computed from a number of key figures
+ such as the occupancy, share of empty rides, among others. In Figure~\ref{fig:passenger_price}
+ the resulting price is shown that the operators needs to ask his customers per
+ kilometer if a profit margin of at least 3\% is targeted. Unsurprisingly, the value
+  increases with larger fleet sizes, but a clear difference
+between the algorithms can be observed. The simple heuristic is the most
 costly operating scheme, while the feedback dispatcher can be operated with the
 lowest passenger prices.
 
+
+\captionsetup[subfigure]{width=0.9\textwidth}
+
 \begin{figure}
-\includegraphics[width=1.0\textwidth]{figures/01_passenger_price.pdf}
-\caption{The minimum customer prices that an AV operator needs to charge the customer
-in order to have a profit margin of at least 3\%.}
-\label{fig:passenger_price}
+    \centering
+    \begin{subfigure}[t]{0.495\textwidth}
+        \includegraphics[width=1.0\textwidth]{figures/01_passenger_price.pdf}
+        \caption{Minimum customer prices that an AV operator needs to charge with a profit margin of at least 3\%}
+        \label{fig:passenger_price}
+    \end{subfigure}\hfill
+    \begin{subfigure}[t]{0.495\textwidth}
+        \includegraphics[width=1.0\textwidth]{figures/time_vs_price.pdf}
+        \caption{Comparison plot of offered wait times and minimum service prices for the
+        simulated fleet configurations}
+        \label{fig:time_vs_price}
+    \end{subfigure}
+    \caption{Analysis of fleet configurations from the customer perspective}
 \end{figure}
 
 Compared to the price of a taxi operator in Zurich (base price 8 CHF plus 5 CHF/km, \cite{StadtZurich2014})
@@ -140,13 +131,6 @@ needs to charge is
 displayed in comparison to the wait time that this operator is offering.
 At a wait time of five minutes an operator would be able to offer a satisfactory service
 for around 0.45 CHF with the feedback dispatcher, while he would need to charge
-0.50 CHF with the simple load-balancing heuristic. 
+0.50 CHF with the simple load-balancing heuristic.
 
 %The better the level of service of the operator is, the larger this margin becomes.
-
-\begin{figure}
-\includegraphics[width=1.0\textwidth]{figures/time_vs_price.pdf}
-\caption{Comparison plot of offered wait times and minimum service prices for the
-simulated fleet configurations}
-\label{fig:time_vs_price}
-\end{figure}
