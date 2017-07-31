@@ -8,16 +8,14 @@ multimedia offers in the vehicle, the quality of Wifi, ...) the authors assume
 two key properties: The time that passes between a customer making a request
 and a vehicle arriving (i.e. the wait time) and the price that is charged to
 the customer. All else being equal, an operator that can offer the shortest wait
-times at the lowest price will attract more customers than his competitors. For now
-these properties are seen as decisive, but their compelx interplay cannot be
-elaborated further for the scope of the present work.
+times at the lowest price will attract more customers than his competitors.
 
 We focus on two main ways for operators to influence the service level of their system:
 
 \begin{itemize}
 \item The \textbf{fleet size} can be increased. In general, this should lead to
 a decrease of wait time, because the availability of vehicles improves. However,
-having a larger number of vehicles imposes more fixed costs that would need to be
+having a larger number of vehicles imposes higher fixed costs that would need to be
 balanced by higher demand. In general, adding more vehicles to the fleet can be
 regarded as a long-term investment that cannot be altered on a daily basis.
 \item The \textbf{fleet control} can be optimized. Since in an AMoD system it is
@@ -42,7 +40,7 @@ vehicle to another request is possible.
 \item The \textbf{rebalancing strategy} decides on where to send vehicles when they
 are not in use and the demand allows for supplementary movements of the vehicles.
 The task of the rebalancer is to anticipate future requests and position vehicles
-such that they are able to optimally react to the upcoming demand.
+such that they are able to optimally react to the expected future demand.
 \end{itemize}
 
 Hence, vehicles will produce three kinds of mileage:
@@ -84,17 +82,17 @@ which are briefly outlined below:
 For every dispatching time step $\delta t_D$ , it is checked whether there are more available vehicles than requests.
 If this is the case, it iterates on the list of requests and assigns to each request the closest vehicle. If there are more open
 requests than available vehicles, the controller iterates on the available vehicles and assigns the closest open request to each vehicle.
-The assignments are binding, i.e. they are not reopened once concluded.
+The assignments are binding, i.e. they are not reopened once established.
 \item The \textbf{Global Euclidean Bipartite Matching} (Hungarian algorithm) dispatcher determines an optimal bipartite
 matching between all open requests and available vehicles in every dispatching time step
-$\delta t_D$. The used distance function is the Euclidean distance which allows to use fast
+$\delta t_D$. The distance function used is the Euclidean distance which allows to use fast
 algorithms, e.g. \cite{agarwal2004near}. In contrast to the previous strategy, the
 assignments can be changed until a vehicle actually reaches its target.
 % REF? /sh:  For a given set of open requests and available vehicles, this strategy can be considered as the optimal dispatching strategy based on Euclidean distances.
 \item In \cite{pavone2011load} a feedforward strategy is presented on how to rebalance vehicles between different vertices
 in a directed graph $G = (V,E)$. For each vertex $i$ and time step $\delta_t$, the arrival rates $\lambda_i$ and transition probabilities $p_{ij}$ for
 any nodes $v_i, v_j \in V$  are computed from historical data. The linear program in equation \ref{eq:linearprogram}
-computes the optimal rebalancing flows $\alpha _{ij}$ for an equilibrium point of the underlying fludidic
+computes the optimal rebalancing flows $\alpha _{ij}$ for an equilibrium point of the underlying flow
 model with travel times $T_{i,j} \forall v_i, v_j \in V$.
 \begin{align}
 &\textnormal{minimize}& &\sum_{i,j} T_{i,j} \alpha _{ij} & && && \nonumber \\
@@ -108,15 +106,15 @@ The nodes from \cite{pavone2011load} represent the centroids of these areas on
 which a complete directed graph called virtual network is placed, see
 figure \ref{fig:study_area_vnodes}. Available cars are continuously rebalanced between
 the vertices of the virtual network according to the static rebalancing rates $\alpha_{ij}$.
-As the work does not detail the proposed dispatching algorithm for this strategy, we match
+As \cite{pavone2011load} does not detail the proposed dispatching algorithm for this strategy, we match
 cars using global Euclidean bipartite matching. Rebalancing vehicles cannot be dispatched
 until they reach their destination virtual node.
-\item The last implemented strategy is derived from \cite{pavone2011load}. Instead of a pure
+\item The last implemented strategy is a novel derivation from \cite{pavone2011load}. Instead of a pure
 feedforward solution, here in every rebalancing timestep $\delta t_R$
 for every area of the virtual network the avaialble cars and open requests are counted
 and fed into an integer linear program derived from equation \ref{eq:linearprogram}
 calculating the number of cars to be sent from virtual vertex $i$ to virtual vertex $j$.
 \end{enumerate}
 
-While the first algorithms only perform the dispatching task, the latter two
+While the first two algorithms only perform the dispatching task, the latter two
 are designed to rebalance the available fleet of AVs.
