@@ -18,11 +18,10 @@ shows the average customer wait time over the whole day and just for peak hours.
 While the simple heuristic approach consistently yields the longest wait times
 for any fleet size, the feedback dispatcher performs best. The bipartite matching
 performs in between, since it is based on an optimal request assignment, but does
-not do any rebalancing. %Surprisingly, the feedforward dispatcher performs similar
-%to the bipartite matching algorithm. This means that the expected demand that
-%has been generated from the scenario data does not optimally predict the actual
-%travel patterns in the simulation.
-[TODO: waiting for final simulations for FF, they will look better! /sh]
+not do any rebalancing. Since both algorithms rely on rebalancing, the two linear
+programs have very similar performance. The feedback algorithm seems to have a
+slight advantage, especially for average wait time over the whole day, because it
+is able to react to actuallly observed demand more precisely.
 
 Assuming that 5 minutes at peak times are an acceptable wait time, that delay is
 achieved with a fleet of 10,000 vehicles for the heuristic, but with only 8,700
@@ -60,13 +59,13 @@ for the feedback dispatcher.
 
 Figure \ref{fig:distances} shows the distances that different service configurations
 produce. On the left side the customer distance is shown, which stays constant
-over all runs, while one can see that the pickup distance (middle) is decreasing
+over all runs, while one can see that the pickup distance (middle, light) is decreasing
 with larger fleet sizes and thus higher availability of vehicles. For the dispatchers
-with rebalancing once can see that they exchange pickup mileage against rebalancing
-mileage (on the right), which makes it possible for them to offer shorter wait
-times. This comes with the price of a surplus in overall distance for which the
-operators needs to cover the costs. [TODO: Let's see the FF, maybe add a comment
-on that /sh]
+with rebalancing once can see that they add a surplus of mileage for rebalancing (right, dark)
+such that the overall driven distance is rather stabilized over different fleet sizes.
+This added mileage is used to provide the shorter travel times as presented above.
+One can see that with similar wait times the feedback dispatcher operates more economically
+by saving mileage compared to the feedforward algorithm.
 
 \begin{figure}
 \includegraphics[width=1.0\textwidth]{figures/distances.pdf}
@@ -82,6 +81,10 @@ those numbers exceed the average 1.92h [TODO: Do we have an exact value for Swit
 
 \subsection{Financial Analysis}
 \label{sec:cost_analysis}
+
+[TODO: REWORK FINANCIAL ANALYSIS AND ABSTRACT!!! -> Felix]
+
+
 
 Based on the cost calculator for fleets of automated vehicles by Bösch et al. \cite{Bosch2016a}
  the costs of operating the AV services are computed from a number of key figures
