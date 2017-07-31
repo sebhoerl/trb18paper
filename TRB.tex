@@ -191,16 +191,16 @@
 \newcommand{\mysecondauthorREF}{Ruch, C.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The author 3
-\newcommand{\mythirdauthor}{Kay W. Axhausen}
-\newcommand{\mythirdauthorREF}{Axhausen, K. W.}
+\newcommand{\mythirdauthor}{Felix Becker}
+\newcommand{\mythirdauthorREF}{Becker, F.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The author 4
-\newcommand{\myfourthauthor}{Emilio Frazzoli}
-\newcommand{\myfourthauthorREF}{Frazzoli, E.}
+\newcommand{\myfourthauthor}{Kay W. Axhausen}
+\newcommand{\myfourthauthorREF}{Axhausen, K. W.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The author 5
-\newcommand{\myfifthauthor}{}
-\newcommand{\myfifthauthorREF}{}
+\newcommand{\myfifthauthor}{Emilio Frazzoli}
+\newcommand{\myfifthauthorREF}{Frazzoli, E.}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The author 6
 \newcommand{\mysixthauthor}{}
@@ -258,13 +258,24 @@
 	{IVT}
 	{ETH Zürich}
 	{8093 Zürich, Switzerland}
-	{+41-44-633 39 43}
 	{}
-	{axhausen@ivt.baug.ethz.ch}
+	{}
+	{felix.becker@ivt.baug.ethz.ch}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The fourth address
 \newcommand{\myfourthaddress}{%
+    \createcontact{\mythirdauthor}%
+    {IVT}
+    {ETH Zürich}
+    {8093 Zürich, Switzerland}
+    {+41-44-633 39 43}
+    {}
+    {axhausen@ivt.baug.ethz.ch}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% The fifth address
+\newcommand{\myfifthaddress}{%
     \createcontact{\myfourthauthor}%
     {IDSC}
     {ETH Zürich}
@@ -272,10 +283,6 @@
     {+41 44 632 79 28}
     {}
     {emilio.frazzoli@idsc.mavt.ethz.ch}
-}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% The fifth address
-\newcommand{\myfifthaddress}{%
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% The sixth address
