@@ -124,11 +124,9 @@ is the average distance per trip and  $\bar{d}_{EMD,i}$ the earth mover's
 distance per vehicle in the timeslice. $\bar{d}_{OD,i}  + \bar{d}_{EMD,i}$
 represents the average distance that has to be driven per request. A total of
 $m$ vehicles at an average speed of $v$ are collectively able to reduce this
- added mileage at a rate of $m \cdot v$, this quantity has to be larger than the
- added unserved mileage per timestep. For the scenario herek the
- minimum fleet size computed with this measure are $4271$ vehicles, which
- can be seen as a non-tight lower bound. [TODO: The plots in report.html say
- 2800? /sh]
+ added mileage at a rate of $m \cdot v$. This quantity has to be larger than the
+ added unserved mileage per timestep. For the scenario here the
+ minimum fleet size computed with this measure are $1380$ vehicles.
 
 While the knowledge of the minimum fleet size is useful, it does not reveal
 the relation between service level and fleet size, especially to what number
@@ -148,6 +146,6 @@ not result in a significant decreaes in wait time. In \citep{zhang2016control}
 For the peak case, the increase of the number of vehicles up to a fleet size of $15,000$ results
 in availability rising from $0$ to $~0.85$. The addition of another $15'000$ vehicles does only
 increase the availability by $~0.05$ to $~0.90$. This corresponds well to the wait times observed
- in simulation shown in Figure \ref{fig:mean_peak_waiting_times}. The simulated wait times
- decrease significantly up to a fleet size of $15,000$ before saturating.
- [TODO: Reformulate this? Looking at the wait time plot I don't really see saturation... /sh]
+ in simulation shown in Figure \ref{fig:mean_peak_waiting_times}. The simulated wait times decrease
+ significantly up to a fleet size of $15,000$ and a further increase of the fleet size
+ improves the wait times only insignificantly.
