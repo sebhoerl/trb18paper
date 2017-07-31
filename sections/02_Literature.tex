@@ -1,4 +1,4 @@
-\section{Relared Research}
+\section{Related research}
 \label{subs:literatureResearch}
 
 Two-way mobility on demand systems, e.g. car sharing schemes like Mobility, in
@@ -7,34 +7,34 @@ of many cities. These schemes offer flexibility, competitive prices and good
 service levels. However, their popularity is heavily limited by the fact that
 the vehicle has to be dropped off at the origin of the journey. On the contrary,
 in one-way mobility on demand systems customers can travel with a vehicle (e.g.
-autonomous car or bike) from any origin to any destination in the city wich
+automated car or bike) from any origin to any destination in the city wich
 dramatically increases the flexiblity of these systems.
 
-The price for the increased flexibilty is system inbalance. Due to the
+The price for the increased flexibilty is system imbalance. Due to the
 spacio-temporal and in general unbalanced characteristics of travel demand,
 vehicles tend to accumulate at certain locations and get depleted at others.
-Furthermore system inbalance is not an exception but occurs for most demand
+Furthermore system imbalance is not an exception but occurs for most demand
 patterns. This can be seen for instance using queuing-theoretical arguments
 as shwon in \citep{zhang2016control}.
 
-System inbalance leads to drastically decreased service levels and must be
+System imbalance leads to drastically decreased service levels and must be
 countered with the targeted repositioning of vehicles from overfull to empty
-areas of the city. This repositioning of vehicles represents a significant
+areas of the city. This repositioning of vehicles represents a substantial
 contribution to the operational cost of operators and therefore various strategies
-have been tried to minimize the rebalancing effort. For intance in bike-sharing
-schemes trucks are used to move vehicles from full to empty stations, in
+have been tried to minimize the rebalancing effort. For instance in bike-sharing
+schemes, trucks are used to move vehicles from full to empty stations, in
 \citep{pfrommer2014dynamic} algorithms have been proposed to route these
 trucks at minimal cost. In \citep{ruch2014rule} price incentive controllers
 are proposed to encourage customers to travel to depleted stations at the end
 of their trip. Rebalancing was also researched for car sharing schemes, e.g.
 in \citep{smith2013rebalancing} a scheme is proposed to reposition the
 rebalancing drivers for one-way car sharing schemes in an optimal way. The
-decisive difference of autonomous mobility on demand systems to the previous two
+decisive difference of AMoD systems to the previous two
 cases is that the vehicles can reposition themselves without the use of transporting
 trucks or auxiliary drivers. Therefore rebalancing can be carried out more efficiently
 and with more degrees of freedom.
 
-Rebalancing of autonomous mobility on demand systems was first presented as a research
+Rebalancing of automated mobility on demand systems was first presented as a research
  problem in \citep{pavone2011load}. Optimal rebalancing flows for the vehicles are
  obtained by solving a linear program. In \citep{zhang2016control} the relation to
  queuing theoretical concepts was established. In \citep{treleaven2011asymptotically}
@@ -49,10 +49,10 @@ the main characteristics but do not allow the same level of detail as agent base
 traffic simulations like MATSim. For such simulation platforms various results
 exist which are presented in the following paragraphs. Most of them do not
 implement and compare the algorithms mentioned above which is an important
-contribution that we make in this work.
+contribution of this work.
 
 Spieser et al. \cite{spieser2014toward} present a systematic approach to the
-design of an autonomous mobility on demand system that is able to serve the entire
+design of an automated mobility on demand system that is able to serve the entire
 travel demand of Singapore with a fleet of automated shared vehicles. Analytic
 results are used to compute both the minimal number of vehicles needed to stabilize
 the number of open requests as well as the amount of vehicles that is needed to
@@ -67,69 +67,72 @@ elaborate on whether congestion effects have been taken into account.
 
 % ride-sharing ... rather take the older one
 Fagnant et al. \cite{fagnant2015dynamic} present a case study for Austin, Texas
-which focuses on the use of shared autonomous vehicles with ride-sharing capabilities,
+which focuses on the use of shared automated vehicles with ride-sharing capabilities,
 i.e. vehicles that can transport more than one customer under some circumstances.
 The scenario presented on vehicles with unit capacity yields that 10\% of today's
-vehicle fleet could serve the entire demand with average wait times of 4.49 min.
+vehicle fleet could serve the entire demand. % with average wait times of 4.49 min.
 
 % Reidesharing
-\cite{zachariah2014uncongested} present a case study for New Jersey also focused
-on the potential for ride-sharing. The trips generated by a population of $8,791,894$
-individuals in New Jersey are covered by walking and biking if the distance is
-less than a mile. All other trips are either served by the New Jersey train system,
-by autonomous taxis or both. The study concludes that the ride-sharing potential
-is large, especially during rush-hour and autonomous vehicles could significantly
+\cite{zachariah2014uncongested} present a case study for New Jersey which also focused
+on the potential of ride-sharing in combination with the local train system.
+The study concludes that the ride-sharing potential
+is large, especially during rush-hour and automated vehicles could significantly
 reduce congestion levels in the city. The required fleet size is not commented
 as well as the influence of the rebalancing and dispatching strategy for the fleet.
 
 In \cite{martinez2017assessing} the authors present a study on the effects of
-introducting autonomous taxis and autonomous shared taxis to the city of Lisbon,
+introducing automated taxis and automated shared taxis to the city of Lisbon,
 Portugal. The agent-based simulation includes 1.2 million trips and three scenarios:
 a baseline scenario showing the current situation and two scenarios where private car,
-taxi and bus trips are replaced by autonomous taxis and autonomous taxis and shared
-taxis respectively. The fleet size of autonomous (shared) taxis is set at $4.8\%$ of
+taxi and bus trips are replaced by automated taxis and automated taxis and shared
+taxis respectively. The fleet size of automated (shared) taxis is set at $4.8\%$ of
 the baseline vehicle fleet. In these scenarios about 50-70 \% of trips are serviced
-by the autonomous (shared) taxis which increases the vehicle occupancy
+by the automated (shared) taxis which increases the vehicle occupancy
 from $50 ~ \textnormal{mins}$ to $12.87 ~ h$ on average per day. The authors conclude
-a decrease in cost by $55 \%$ per kilometer, highly increased transportation
+a decrease in cost by $55 \%$, highly increased transportation
 accessibility in the city and carbon emission reductions of almost $40\%$. The
 simulation does not consider the changes on traffic density parameters resulting
 from self-driving vehicles. Furthermore the demand choice of the agents is static
 and according to preset parameters. Finally the fleet control (rebalancing and dispatching)
-for the (shared) autonomous taxis is implemented based on heuristics and a local
+for the (shared) automated taxis is implemented based on heuristics and a local
 gradient based optimization method.
 
-Boesch et al \cite{boesch2016autonomous} investigate a scenario of the greater
+Boesch et al. \cite{boesch2016autonomous} investigate a scenario of the greater
 Zurich region in Switzerland. They use a demand pattern for private vehicles
-generated with MATSim: $1.3$ million  private vehicle users out of a total of
-$2.1$ million agents generate $3.6$ million trips. This demand profile generated
-with the co-evolutionary algorithm inherent to MATSim is then post-processed
-in a static simulation where $1-10 \%$ of the car trips are served by $10-100 \%$
-of the total number of substituted users. The authors conclude that approximately
-$30 ~ \%$ of the substituted fleet can serve almost $100 \%$ of the substituted
-requests within less than $10 ~ \textnormal{mins}$ wait time. If this threshold
-wait time is surpassed, then the request is dropped. The limitations of the results
-are that no rebalancing or dispatching is taking place, furthermore network routing
- is not considered, travel times are based on Euclidean distance and a scaling factor.
-  The demand profile is static and does not vary depending on service times,
-  congestion rates and performance of the modes.
+generated with MATSim, which consists of 1.3 million private vehicle users.
+%$1.3$ million  private vehicle users out of a total of
+%$2.1$ million agents generate $3.6$ million trips. This demand profile generated
+%with the co-evolutionary algorithm inherent to MATSim is then post-processed
+%in a static simulation where $1-10 \%$ of the car trips are served by $10-100 \%$
+%of the total number of substituted users. The authors conclude that approximately
+They conclude that $30 ~ \%$ of the substituted fleet can serve almost $100 \%$ of the substituted
+requests within less than $10 ~ \textnormal{mins}$ wait time. The big limitation
+is that if the wait time is surpassed, a request is dropped. Furthermore, no rebalancing
+or dispatching is taking place, and the Eucledian distance in combination with a scaling factor is
+used instead of a network-based distance. % furthermore network routing
+% is not considered, travel times are based on Euclidean distance and a scaling factor.
+%  The demand profile is static and does not vary depending on service times,
+%  congestion rates and performance of the modes.
 
 In contrast to the study for Zurich presented above, a case study for Berlin
-presented in \cite{bischoff2016simulation} takes into account dynamic demand.
-It considers a city-wide replacement of private vehicles with autonomous taxis.
- The dispatching of the car works according to a policy that distinguishes
- between oversupply (more available vehicles than open requests) and undersupply
- and matches the closest vehicle to an appearing request, the next available
- vehicle to the closest request respectively. Using this strategy called single
- heuristic dispatcher in our work, the authors are able to serve $4.7$ million
- requests generated by $1.1$ million car users with a fleet of $100,000$ autonomous
- vehicles. The recorded average wait time for this case is about $2.5 \%$ minutes
- and the $95\%$ quantile approximately $8.5$ minutes. The resulting sharing factor
- is approximately $10$ to $12$. The study is one of the first large-scale dynamic
- simulations of a shared autonomous taxi system, however it does not consider
- different rebalancing and dispatching strategies and it does not rigorously
- evaluate the performance metrics of the autonomous vehicle fleet as we do in [XYZ].
-
+presented in \cite{bischoff2016simulation} simulates AVs reacting to dynamically changing requests.
+It considers a city-wide replacement of private vehicles with automated taxis, that
+are dispatched using a heuristic algorithm, which will be tested in the present work.
+ %The dispatching of the car works according to a policy that distinguishes
+ %between oversupply (more available vehicles than open requests) and undersupply
+ %and matches the closest vehicle to an appearing request, the next available
+ %vehicle to the closest request respectively. Using this strategy called single
+ %heuristic dispatcher in our work, the authors are able to serve $4.7$ million
+ %requests generated by $1.1$ million car users with a fleet of $100,000$ autonomous
+ %vehicles. The recorded average wait time for this case is about $2.5 \%$ minutes
+ %and the $95\%$ quantile approximately $8.5$ minutes.
+ The study concludes that 1.1 million former car users can be served by a fleet
+ of 100,000 automated vehicles.
+% The resulting sharing factor
+% is approximately $10$ to $12$.
+The study is one of the first large-scale dynamic
+ simulations of a shared automated taxi system, however it does not consider
+ different rebalancing and dispatching strategies.
 
 %======================== END of new part ============================================
 

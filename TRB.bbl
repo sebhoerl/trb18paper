@@ -1,0 +1,161 @@
+\begin{thebibliography}{29}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{}\fi
+
+\bibitem[{Ackerman(2017)}]{ackerman2017hail}
+Ackerman, E. (2017) Hail, robo-taxi![top tech 2017], \textit{IEEE Spectrum},
+  \textbf{54}~(1) 26--29.
+
+\bibitem[{Tientrakool et~al.(2011)Tientrakool, Ho and
+  Maxemchuk}]{Tientrakool2011}
+Tientrakool, P., Y.~C. Ho and N.~F. Maxemchuk (2011) {Highway Capacity Benefits
+  from Using Vehicle-to-Vehicle Communication and Sensors for Collision
+  Avoidance}, paper presented at the \textit{Vehicular Technology Conference
+  (VTC Fall), 2011 IEEE}.
+
+\bibitem[{Friedrich(2015)}]{Friedrich2015}
+Friedrich, B. (2015) \textit{{Verkehrliche Wirkung autonomer Fahrzeuge}},
+  331--350, Springer Berlin Heidelberg, Berlin, Heidelberg.
+
+\bibitem[{Truong et~al.(2017)Truong, {De Gruyter}, Currie and
+  Delbosc}]{Truong2017}
+Truong, L.~T., C.~{De Gruyter}, G.~Currie and A.~Delbosc (2017) {Estimating the
+  trip generation impacts of autonomous vehicles on car travel in Victoria,
+  Australia}, \textit{Transportation}.
+
+\bibitem[{Litman(2014)}]{Litman2014}
+Litman, T. (2014) {Autonomous Vehicle Implementation Predictions: Implications
+  for Transport Planning}, paper presented at the \textit{Transportation
+  Research Board Annual Meeting}, Washington DC.
+
+\bibitem[{Meyer et~al.(2017)Meyer, Becker, B{\"{o}}sch and
+  Axhausen}]{Meyer2017}
+Meyer, J., H.~Becker, P.~M. B{\"{o}}sch and K.~W. Axhausen (2017) {Autonomous
+  vehicles: The next jump in accessibilities?}, \textit{Research in
+  Transportation Economics}.
+
+\bibitem[{B{\"{o}}sch et~al.(2017)B{\"{o}}sch, Becker, Becker and
+  Axhausen}]{Bosch2016a}
+B{\"{o}}sch, P.~M., F.~Becker, H.~Becker and K.~W. Axhausen (2017) {Future Cost
+  Structures and Scenarios with Autonomous Vehicles}, \textit{Arbeitsberichte
+  Verkehrs- und Raumplanung}.
+
+\bibitem[{Horni et~al.(2016)Horni, Nagel and Axhausen}]{Horni2015}
+Horni, A., K.~Nagel and K.~W. Axhausen ({eds.}) (2016) \textit{{The Multi-Agent
+  Transport Simulation MATSim}}, Ubiquity, London.
+
+\bibitem[{Katzev(2003)}]{katzev2003car}
+Katzev, R. (2003) Car sharing: A new approach to urban transportation problems,
+  \textit{Analyses of Social Issues and Public Policy}, \textbf{3}~(1) 65--86.
+
+\bibitem[{Zhang and Pavone(2016)}]{zhang2016control}
+Zhang, R. and M.~Pavone (2016) Control of robotic mobility-on-demand systems: a
+  queueing-theoretical perspective, \textit{The International Journal of
+  Robotics Research}, \textbf{35}~(1-3) 186--203.
+
+\bibitem[{Pfrommer et~al.(2014)Pfrommer, Warrington, Schildbach and
+  Morari}]{pfrommer2014dynamic}
+Pfrommer, J., J.~Warrington, G.~Schildbach and M.~Morari (2014) Dynamic vehicle
+  redistribution and online price incentives in shared mobility systems,
+  \textit{IEEE Transactions on Intelligent Transportation Systems},
+  \textbf{15}~(4) 1567--1578.
+
+\bibitem[{Ruch et~al.(2014)Ruch, Warrington and Morari}]{ruch2014rule}
+Ruch, C., J.~Warrington and M.~Morari (2014) Rule-based price control for bike
+  sharing systems, paper presented at the \textit{Control Conference (ECC),
+  2014 European}, 708--713.
+
+\bibitem[{Smith et~al.(2013)Smith, Pavone, Schwager, Frazzoli and
+  Rus}]{smith2013rebalancing}
+Smith, S.~L., M.~Pavone, M.~Schwager, E.~Frazzoli and D.~Rus (2013) Rebalancing
+  the rebalancers: Optimally routing vehicles and drivers in mobility-on-demand
+  systems, paper presented at the \textit{American Control Conference (ACC),
+  2013}, 2362--2367.
+
+\bibitem[{Pavone et~al.(2011)Pavone, Smith and Rus}]{pavone2011load}
+Pavone, M., S.~L. Smith and E.~F.~D. Rus (2011) Load balancing for
+  mobility-on-demand systems.
+
+\bibitem[{Treleaven et~al.(2011)Treleaven, Pavone and
+  Frazzoli}]{treleaven2011asymptotically}
+Treleaven, K., M.~Pavone and E.~Frazzoli (2011) An asymptotically optimal
+  algorithm for pickup and delivery problems, paper presented at the
+  \textit{Decision and Control and European Control Conference (CDC-ECC), 2011
+  50th IEEE Conference on}, 584--590.
+
+\bibitem[{Zhang et~al.(2016)Zhang, Rossi and Pavone}]{zhang2016model}
+Zhang, R., F.~Rossi and M.~Pavone (2016) Model predictive control of autonomous
+  mobility-on-demand systems, paper presented at the \textit{Robotics and
+  Automation (ICRA), 2016 IEEE International Conference on}, 1382--1389.
+
+\bibitem[{Spieser et~al.(2014)Spieser, Treleaven, Zhang, Frazzoli, Morton and
+  Pavone}]{spieser2014toward}
+Spieser, K., K.~Treleaven, R.~Zhang, E.~Frazzoli, D.~Morton and M.~Pavone
+  (2014) Toward a systematic approach to the design and evaluation of automated
+  mobility-on-demand systems: A case study in singapore, in \textit{Road
+  Vehicle Automation}, 229--245, Springer.
+
+\bibitem[{Fagnant and Kockelman(2015)}]{fagnant2015dynamic}
+Fagnant, D.~J. and K.~M. Kockelman (2015) Dynamic ride-sharing and fleet sizing
+  for a system of shared autonomous vehicles in austin, texas,
+  \textit{Transportation, Under review}.
+
+\bibitem[{Zachariah et~al.(2014)Zachariah, Gao, Kornhauser and
+  Mufti}]{zachariah2014uncongested}
+Zachariah, J., J.~Gao, A.~Kornhauser and T.~Mufti (2014) Uncongested mobility
+  for all: A proposal for an area wide autonomous taxi system in new jersey,
+  paper presented at the \textit{Transportation Research Board 93rd Annual
+  Meeting}, no. 14-2373.
+
+\bibitem[{Martinez and Viegas(2017)}]{martinez2017assessing}
+Martinez, L.~M. and J.~M. Viegas (2017) Assessing the impacts of deploying a
+  shared self-driving urban mobility system: an agent-based model applied to
+  the city of lisbon, portugal, \textit{International Journal of Transportation
+  Science and Technology}.
+
+\bibitem[{Boesch et~al.(2016)Boesch, Ciari and Axhausen}]{boesch2016autonomous}
+Boesch, P.~M., F.~Ciari and K.~W. Axhausen (2016) Autonomous vehicle fleet
+  sizes required to serve different levels of demand, \textit{Transportation
+  Research Record: Journal of the Transportation Research Board}, ~(2542)
+  111--119.
+
+\bibitem[{Bischoff and Maciejewski(2016)}]{bischoff2016simulation}
+Bischoff, J. and M.~Maciejewski (2016) Simulation of city-wide replacement of
+  private cars with autonomous taxis in berlin, \textit{Procedia computer
+  science}, \textbf{83}, 237--244.
+
+\bibitem[{R{\"u}schendorf(1985)}]{ruschendorf1985wasserstein}
+R{\"u}schendorf, L. (1985) The wasserstein distance and approximation theorems,
+  \textit{Probability Theory and Related Fields}, \textbf{70}~(1) 117--129.
+
+\bibitem[{Agarwal and Varadarajan(2004)}]{agarwal2004near}
+Agarwal, P. and K.~Varadarajan (2004) A near-linear constant-factor
+  approximation for euclidean bipartite matching?, paper presented at the
+  \textit{Proceedings of the twentieth annual symposium on Computational
+  geometry}, 247--252.
+
+\bibitem[{{Federal Statistical Office}(2012)}]{microcensus}
+{Federal Statistical Office} (2012) Microcensus on mobility and transport 2010.
+
+\bibitem[{B{\"o}sch et~al.(2016)B{\"o}sch, M{\"u}ller and Ciari}]{ivtbaseline}
+B{\"o}sch, P.~M., K.~M{\"u}ller and F.~Ciari (2016) The ivt 2015 baseline
+  scenario, \textit{16th Swiss Transport Research Conference}.
+
+\bibitem[{{Stadt Z{\"{u}}rich}(2014)}]{StadtZurich2014}
+{Stadt Z{\"{u}}rich} (2014) {Taxitarif der Stadt Z{\"{u}}rich},
+  \urlprefix\url{https://www.stadt-zuerich.ch/content/dam/stzh/portal/Deutsch/Stadtrat
+  {\%}26 Stadtpraesident/Publikationen und
+  Broschueren/Stadtratsbeschluesse/2014/Sep/769{\_}Beilage{\_}Taxiverordnung.pdf}.
+
+\bibitem[{TCS(2016)}]{TCS2016}
+TCS (2016) {Kosten eines Musterautos}, Webpage (last accessed 08.11.2016),
+  \urlprefix\url{https://www.tcs.ch/de/auto-mobilitaet/autokosten/kosten-eines-musterautos.php}.
+
+\bibitem[{H{\"o}rl(2017)}]{horl_abmtrans17}
+H{\"o}rl, S. (2017) Agent-based simulation of autonomous taxi services with
+  dynamic demand responses, \textit{Procedia Computer Science}, \textbf{109},
+  899--904.
+
+\end{thebibliography}

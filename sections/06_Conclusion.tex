@@ -1,20 +1,22 @@
-\section{Discussion \& Conclusion}
+\section{Conclusion \& Outlook}
 \label{sec:Conclusion}
+
+[TODO: REWORK FINANCIAL ANALYSIS AND ABSTRACT!!! -> Felix | AND THE CONCLUSIONS]
 
 The study shows that the right choice of dispatching algorithm for an AMoD system
 does not only have strong impact on the performance in terms of wait time for
-the customer, but also that it bears a significant economic advantage for the
+the customer, but also that it bears a substantial economic advantage for the
 operator. Operators with intelligent redispatching and rebalancing algorithms are able to attract
 more customers through quicker pickups and lower prices than a competitor at small additional cost.
 
-In order to assess the significance for real fleets of (not neccessarily
+In order to assess the significance for real fleets of (not necessarily
 automated) taxis it needs to be noted that all of the presented algorithms are
 able to process dispatching and rebalancing tasks for fleets of thousands of
 vehicles within minutes. It is perfectly feasible to control 100k vehicles in
 five minute updates using a standard laptop for the computational tasks.
 
 For the presented simulations, this still poses a burden, because there
-a speedup compared to reality of around one thousand times is desired to be able
+a speedup compared to reality of hundreds of times is desired to be able
 to run large numbers of simulations. Hence, the algorithms
 are only tested on a subsample of 1\% of the agent population that is available.
 In future studies, effort will be put into overcoming this restriction, either
@@ -22,13 +24,15 @@ by finding approximate formulations for the presented algorithms or pursuing res
 on completely new algorithms.
 
 Throughout the paper, a ``100\%'' demand scenario is used, in which all
-trips that possibly could be undertaken by AV are converted to the automated
+trips that possibly could be undertaken by AVs are converted to the automated
 mode. MATSim offers the possibility to explicitly
 simulate attitudes toward new elements in the traffic system by defining utilities
 for using specific modes with distinct valuation of travel costs, travel times and
 distances. This way, by integrating the presented algorithms into the full
 MATSim loop, as shown in \cite{horl_abmtrans17}, the actual attractiveness of an
-AV service can be analyszed including the tradeoff that people make between
+AV service can be analysed including the tradeoff that people make between
 paying for the service, spending time in the vehicle and having to wait for it.
 Naturally, not 100\% of possible trips would be performed by AV then, but only
 a fraction. Future work will take these considerations into account.
+
+[TODO: Referenzen muessen noch aufgeraeumt werden. /sh]
