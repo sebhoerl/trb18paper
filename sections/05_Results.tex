@@ -82,20 +82,14 @@ those numbers exceed the average 1.92h [TODO: Do we have an exact value for Swit
 \subsection{Financial Analysis}
 \label{sec:cost_analysis}
 
-[TODO: REWORK FINANCIAL ANALYSIS AND ABSTRACT!!! -> Felix]
-
-
-
-Based on the cost calculator for fleets of automated vehicles by Bösch et al. \cite{Bosch2016a}
+Based on the cost calculator for fleets of automated vehicles by Bösch et al. \cite{Bosch2016a},
  the costs of operating the AV services are computed from a number of key figures
- such as the occupancy, share of empty rides, among others. In Figure~\ref{fig:passenger_price}
- the resulting price is shown that the operators needs to ask his customers per
- kilometer if a profit margin of at least 3\% is targeted. Unsurprisingly, the value
-  increases with larger fleet sizes, but a clear difference
-between the algorithms can be observed. The simple heuristic is the most
-costly operating scheme, while the feedback dispatcher can be operated with the
-lowest passenger prices.
-
+ such as the occupancy and share of empty rides. In Figure~\ref{fig:passenger_price}
+ the resulting price per (revenue) vehicle kilometer including a profit margin of 3\% is shown. One can observe that the 
+ price increases with the fleet size, which can be explained by lower occupancy rates. 
+ It should however also be pointed out that the required price is different among the algorithms. 
+ The heuristic operates at the lowest costs while LP Feedforward is most expensive throughout all fleet sizes.
+ 
 
 \captionsetup[subfigure]{width=0.9\textwidth}
 
@@ -103,7 +97,7 @@ lowest passenger prices.
     \centering
     \begin{subfigure}[t]{0.495\textwidth}
         \includegraphics[width=1.0\textwidth]{figures/01_passenger_price.pdf}
-        \caption{Minimum customer prices that an AV operator needs to charge with a profit margin of at least 3\%}
+        \caption{Minimum customer prices that an AV operator needs to charge with a profit margin of 3\%}
         \label{fig:passenger_price}
     \end{subfigure}\hfill
     \begin{subfigure}[t]{0.495\textwidth}
@@ -115,25 +109,23 @@ lowest passenger prices.
     \caption{Analysis of fleet configurations from the customer perspective}
 \end{figure}
 
+Nevertheless, the wait times decrease with an increasing fleet size. The trade-off between price per vehicle kilometer and wait times is therefore depicted in Figure \ref{fig:time_vs_price}. For lower wait times LP Feedback requires the least prices. Above 5 minutes however, Bipartite matching becomes more efficient in terms of costs per vehicle kilometer. 
+
+
 Compared to the price of a taxi operator in Zurich (base price 8 CHF plus 5 CHF/km, \cite{StadtZurich2014})
 the computed prices are extremely low. Hence, an automated service would clearly
-push conventional taxi operators out of the market. The variable costs of a today's private vehicle (0.26 CHF/km, \cite{TCS2016}) are lower than the calculated prices for the AV-services, independent of the algorithm. Considering the full costs of a private vehicle which amount to 0.7 CHF/km \cite{TCS2016} however, it can be concluded that AV-services are only more expensive for large fleet sizes. Nonetheless, compared to
-(subsidized) prices for mass transit (0.25 CHF/passenger kilometer, \cite{Bosch2016a}), the services are more
-expensive.
+push conventional taxi operators out of the market. The variable costs of a today's 
+private vehicle (0.26 CHF/km, \cite{TCS2016}) are lower than the calculated prices for the AV-services, 
+independent of the algorithm. Considering the full costs of a private vehicle which amount to 0.7 CHF/km \cite{TCS2016} however, it can be concluded that AV-services are only more expensive for fleet sizes of around 11500-12000 
+in Zurich, depending on the algorithm. If customers are further willing to spend on average four minutes 
+for an AV-taxi, the prices are similar to the full costs of a standard car.
+Nonetheless, compared to (subsidized) prices for mass transit (0.25 CHF/passenger kilometer, \cite{Bosch2016a}), the services are more expensive if they have the same occupation rate as today's private cars (~1.4 passengers \cite{Bosch2016a}).
 
-Therefore, the proposed AV services are highly attractive to car users, but may
+Therefore, the proposed AV services are highly attractive to car (and taxi) users, but may
 not be able to compete with subsidized mass transit. On the other hand, AVs
 allow for more direct trips and thus for savings in travel time. Further studies
 may analyse how these affect the attractiveness of the AMoD services.
 
-Looking at different choice alternatives for customers, two components are important
-that are weighed against each other: The expected wait time and the price. Figure
-\ref{fig:time_vs_price} combines the key results from our simulations. There,
-the price that a specific operator configuration (fleet size and dispatcher)
-needs to charge is
-displayed in comparison to the wait time that this operator is offering.
-At a wait time of five minutes an operator would be able to offer a satisfactory service
-for around 0.45 CHF with the feedback dispatcher, while he would need to charge
-0.50 CHF with the simple load-balancing heuristic.
+
 
 %The better the level of service of the operator is, the larger this margin becomes.
