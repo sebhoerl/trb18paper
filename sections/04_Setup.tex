@@ -15,16 +15,13 @@ according to \citep{spieser2014toward} is performed.
 
 MATSim \citep{Horni2015} is an agent-based transport simulation framework that makes it possible
 to simulate large numbers of agents representing a real population in a traffic environment. Similar to reality, each agent has a daily plan with activities
-inteded to be performend for a certain duration and finish at a specific time of
+inteded to be performend for a certain duration and to be finished at a specific time of
 the day. Since these activities take place at different locations in the scenario,
 agents need to move from activity to activity. By default, MATSim allows the
 simulation of car traffic, public transit and slow modes such as going by bike
 or walking. Road-based modes, such as private cars are simulated in a time-step
 based manner in a network of queues with all participants at the same time. This
-
 way it is possible that congestion emerges and agents arrive late at their
-activity locations. While MATSim provides more functionality, e.g. replanning
-way it is possible that congestion emerges and that agents may arrive late at their
 activity locations. While MATSim provides more functionality, e.g. the replanning
 of agents plans to adapt to the traffic conditions that they perceive, only the
 network simulation is used in this research.
@@ -35,9 +32,9 @@ different algorithms are used in this study, controls a fleet of AVs.
 Whenever an agent wants to depart from his current activity location by
 AV, a request is issued to the dispatcher and saved.  The choice which vehicle to send and when is completely defined
 by the dispatching algorithm. Once the vehicle arrives at the customer's location,
-the pickup is processed, the AV drives to the destiation and finally drops off the customer. Then,
+the pickup is processed, the AV drives to the destination and finally drops off the customer. Then,
 the vehicle is available for dispatching again. Alternatively, vehicles can be
-rebalanced, which simply means that the dispatcher gives an AV the instruction
+rebalanced, which means that the dispatcher gives an AV the instruction
 to drive to a different location. All of this is performed in the MATSim traffic
 simulation such that AVs suffer from congestion as any other vehicle.
 
@@ -98,7 +95,7 @@ To summarize, the 8,230,971 agents in the population are reduced to
 a 1\% sample has is drawn, leading to 13,141 agents that mainly constitute
 background traffic for congestion. Among those are 970 agents that are viable for the AV
 service. The plans of these agents contain 2,096 trips that are to be served by
-AVs. In reality, this scaled service would hence need to serve 209,000 requests by
+AVs. In reality, this scaled service would hence need to serve 209,600 requests by
 97,000 persons.
 
 \subsection{Theoretical Fleet Sizing}
@@ -116,7 +113,7 @@ properties influencing the relationship between fleet size and performance metri
 For this reason we implement theoretical results from \citep{spieser2014toward}
 for the case of Zurich. The authors present two methods for fleet size evaluation.
 The first method estimates the theoretical minimum fleet size to stabilize
-the system, i.e. ensure that the number of open requests stays bounded at
+the system, i.e. to ensure that the number of open requests stays bounded at
 all times. To do so, for every vertex $i$ and timestep $\delta_t$ the added
 unserved mileage per timestep is calculated as
 $\lambda_i \cdot ( \bar{d}_{OD,i}  + \bar{d}_{EMD,i})$ where $\bar{d}_{OD,i}$

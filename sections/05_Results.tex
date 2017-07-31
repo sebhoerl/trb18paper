@@ -2,28 +2,22 @@
 \label{sec:results}
 
 We test the four proposed dispatching strategies in the Zurich scenario with ten
-runs per fleet size and strategy.% Commented out to reduce works / sh
-%Since the dispatchers rely on free flow speeds in the network
-%for their routing when the simulation starts, we let each run perform 20 iterations
-%in which the dispatcher step by step senses the traffic conditions, e.g. how to
-%avoid traffic jams at peak hours.
-The dispatching stages of all algorithms are called once every 60 seconds in
+runs per fleet size and strategy. The dispatching stages of all algorithms are called once every 60 seconds in
 simulated time, while the rebalancing periods for the feedforward and feedback
 dispatcher are five minutes and 20 minutes, respectively. Those values have been
 obtained from prior simulation runs.
 
 For Zurich, the times with peak congestion and, hence, longest travel times
-are from 6:30pm to 9:00am and from 4:30pm to 6:30pm. Figure \ref{fig:mean_peak_waiting_times}
-shows the average customer wait time over the whole day and just for peak hours.
+are from 6:30 am to 9:00 am and from 4:30 pm to 6:30 pm. Figure \ref{fig:mean_peak_waiting_times}
+shows the average customer wait time over the whole day (dashed) and just for peak hours (solid).
 While the simple heuristic approach consistently yields the longest wait times
 for any fleet size, the feedback dispatcher performs best. The bipartite matching
 performs in between, since it is based on an optimal request assignment, but does
 not do any rebalancing. Since both algorithms rely on rebalancing, the two linear
 programs have very similar performance. The feedback algorithm seems to have a
 slight advantage, especially for average wait time over the whole day, because it
-is able to react to actuallly observed demand more precisely.
-
-Assuming that 5 minutes at peak times are an acceptable wait time, that value is
+is able to react to the observed demand more precisely. Assuming that 5 minutes at
+peak times are an acceptable wait time, that value is
 achieved with a fleet of 10,000 vehicles for the heuristic, but with only 8,700
 for the feedback dispatcher.
 
@@ -54,7 +48,7 @@ Figure \ref{fig:distances} shows the distances that different service configurat
 produce. On the left side the customer distance is shown, which stays constant
 over all runs, while one can see that the pickup distance (middle, light) is decreasing
 with larger fleet sizes and thus higher availability of vehicles. For the dispatchers
-with rebalancing once can see that they add a surplus of mileage for rebalancing (right, dark)
+with rebalancing one can see that they add a surplus of mileage for rebalancing (right, dark)
 such that the overall driven distance is rather stabilized over different fleet sizes.
 This added mileage is used to provide the shorter travel times as presented above.
 One can see that with similar wait times the feedback dispatcher operates more economically
@@ -69,7 +63,7 @@ Customer distance (dark), empty pickup distance (light), empty rebalancing dista
 
 Finally, the occupancy of the fleet is measured. For a fleet size of 6,000
 vehicles, they are busy serving a passenger for around 4.8h per day, while
-this value drops to 2.16h for the maximum fleet size of 18,000. In both cases,
+this value drops to 2.16h for the maximum simulated fleet size of 18,000. In both cases,
 those numbers exceed the average 1.32h in Switzerland \cite{Bosch2016a}.
 
 \subsection{Financial Analysis}
@@ -102,30 +96,36 @@ Based on the cost calculator for fleets of automated vehicles by Bösch et al. \
     \caption{Analysis of fleet configurations from the customer perspective}
 \end{figure}
 
-Nevertheless, the wait times decrease with an increasing fleet size. The trade-off between price per vehicle kilometer and wait times is therefore depicted in Figure \ref{fig:time_vs_price}. For lower wait times LP Feedback requires the least prices. Above 5 minutes however, Bipartite matching becomes more efficient in terms of costs per vehicle kilometer.
+Nevertheless, the wait times decrease with an increasing fleet size. The trade-off
+between price per vehicle kilometer and wait times in the peak hours is therefore depicted in
+Figure \ref{fig:time_vs_price}. For lower wait times LP Feedback requires the
+least prices. Above 5 minutes however, Bipartite matching becomes more efficient
+in terms of costs per vehicle kilometer.
 
 
 Compared to the price of a taxi operator in Zurich (base price 8 CHF plus 5 CHF/km, \cite{StadtZurich2014})
 the computed prices are extremely low. Hence, an automated service would clearly
 push conventional taxi operators out of the market. The variable costs of a today's
-private vehicle (0.26 CHF/km, \cite{TCS2016}) are lower than the calculated prices for the AV-services,
-independent of the algorithm. Considering the full costs of a private vehicle which amount to 0.7 CHF/km \cite{TCS2016} however, it can be concluded that AV-services are only more expensive for fleet sizes of around 11500-12000
+private vehicle (0.26 CHF/km, \cite{TCS2016}) are lower than the calculated prices for the AMoD services,
+independent of the algorithm. Considering the full costs of a private vehicle which amount to 0.7 CHF/km \cite{TCS2016} however, it can be concluded that AMoD services are only more expensive for fleet sizes of around 11,500-12,000
 in Zurich, depending on the algorithm. If customers are further willing to spend on average four minutes
-for an AV-taxi, the prices are similar to the full costs of a standard car.
-Nonetheless, compared to (subsidized) prices for mass transit (0.25 CHF/passenger kilometer, \cite{Bosch2016a}), the services are more expensive if they have the same occupation rate as today's private cars (\~1.4 passengers \cite{Bosch2016a}).
+during peak hours for an AV taxi, the prices are similar to the full costs of a standard car.
+Nonetheless, compared to (subsidized) prices for mass transit (0.25 CHF/passenger kilometer, \cite{Bosch2016a}), the services are more expensive if they have the same occupation rate as today's private cars (approx. 1.4 passengers \cite{Bosch2016a}).
 
-Therefore, the proposed AV services are highly attractive to car (and taxi) users, but may
+Therefore, the proposed AV services are cost-wise highly attractive for car (and taxi) users, but may
 not be able to compete with subsidized mass transit. On the other hand, AVs
-allow for more direct trips and thus for savings in travel time. Further studies
-may analyse how these affect the attractiveness of the AMoD services.
+allow for more direct trips and thus for savings in travel time. Ongoing studies analyse
+how these affect the attractiveness of AMoD services \cite{ Becker2017}. It is further expected
+that lower wait times will have a positive effect on the occupancy rates of a service
+and thus reduce the cost per vehicle kilometer.
 
-The expected wait time and the price of the service are the two decisive factors
-for customers deciding to use one or another operator, therefore it is important
-to compare these variables for different control methods. Figure \ref{fig:time_vs_price}
-shows the price that a specific operator configuration (fleet size and dispatcher)
-needs to charge to be profitable in comparison to the wait time that this operator is offering.
-At a wait time of five minutes an operator would be able to offer a satisfactory service for
-around 0.45 CHF with the feedback dispatcher, while he would need to charge 0.50 CHF
-with the simple load-balancing heuristic.
+%The expected wait time and the price of the service are the two decisive factors
+%for customers deciding to use one or another operator, therefore it is important
+%to compare these variables for different control methods. Figure \ref{fig:time_vs_price}
+%shows the price that a specific operator configuration (fleet size and dispatcher)
+%%needs to charge to be profitable in comparison to the wait time that this operator is offering.
+%At a wait time of five minutes an operator would be able to offer a satisfactory service for
+%around 0.45 CHF with the feedback dispatcher, while he would need to charge 0.50 CHF
+%with the simple load-balancing heuristic.
 
 %The better the level of service of the operator is, the larger this margin becomes.
