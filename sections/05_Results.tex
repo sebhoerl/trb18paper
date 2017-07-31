@@ -41,10 +41,7 @@ algorithms, which both use rebalancing, have a higher share of empty mileage
 that the non-rebalancing approaches. The heuristic approach manages to keep the
 share lowest, since it mainly operates in a best-response state, where only the
 shortest pickup trips are chosen. Remarkably, the total driven distance for all
-dispatchers is very similar (Figure \ref{fig:total_distance}), which indicates
-that the surplus of empty distance for the intelligent dispatchers does not stem
-from inefficient movements, but rather effective movements towards the expected
-customer demand for shorter waiting times.
+dispatchers is very similar (Figure \ref{fig:total_distance}), which indicates that the intelligent dispatchers correctly shift empty vehicles towards locations with customer demand. 
 
 [TODO: Do we need two plots here? Also a plot Total Distance <-> Relative Distance
 would be possible, where one can traverse the fleet size along the graph]
@@ -93,8 +90,7 @@ in order to have a profit margin of at least 3\%.}
 \end{figure}
 
 Compared to the average price of a taxi operator in Zurich (6 CHF/km, [TODO Cite])
-the computed prices are extremely low. Hence, an automated service would clearly
-push conventional taxi operators out of the market. While in the short term a
+the computed prices are extremely low. While in the short term a
 private vehicle today is cheaper than the analysed AV services (0.17 CHF/km, [CITE])
 except for very large fleet sizes the service is cheaper in the long run (compared
 to 0.72 CHF/km overall costs of owning a private car). However, compared to
@@ -106,15 +102,8 @@ not be able to compete with subsidized public transport. On the other hand, AVs
 allow for more direct trips and thus for savings in travel time. Further studies
 may analyse how these affect the attractiveness of the AMoD services.
 
-Looking at different choice alternatives for customers, two components are important
-that are weighed against each other: The expected wait time and the price. Figure
-\ref{fig:time_vs_price} combines the key results from our simulations. There,
-the price that a specific operator configuration (fleet size and dispatcher)
-needs to charge is
-displayed in comparison to the wait time that this operator is offering.
-At a wait time of five minutes an operator would be able to offer a satisfactory service
-for around 0.45 CHF with the feedback dispatcher, while he would need to charge
-0.50 CHF with the simple load-balancing heuristic. 
+The expected wait time and the price of the service are the two decisive factors for customers deciding to use one or another operator, therefore it is important to compare these variables for different control methods. Figure \ref{fig:time_vs_price} shows the price that a specific operator configuration (fleet size and dispatcher)
+needs to charge to be profitable in comparison to the wait time that this operator is offering. At a wait time of five minutes an operator would be able to offer a satisfactory service for around 0.45 CHF with the feedback dispatcher, while he would need to charge 0.50 CHF with the simple load-balancing heuristic. 
 
 %The better the level of service of the operator is, the larger this margin becomes.
 

@@ -10,15 +10,14 @@ methodology presented in \citep{spieser2014toward}.
 \subsection{MATSim and AMoD Simulation}
 
 MATSim (cite Horni) is an agent-based simulation framework that makes it possible
-to simulate large numbers of agents representing a real population in a traffic environment. Similar to reality, each agent has a daily plan with activities
-that he wants to perform for a certain duration and finish at a specific time of
+to simulate large numbers of agents representing a real population in a traffic environment. Similar to reality, each agent has a daily plan with activities inteded to be performend for a certain duration and finished at a specific time of
 the day. Since these activities take place at different locations in the scenario,
 agents need to move from activity to activity. By default, MATSim allows the
 simulation of car traffic, public transit and slow modes such as going by bike
 or walking. Network-based modes, such as private cars are simulated in a time-step
 based manner in a network of queues with all participants at the same time. This
 way it is possible that congestion emerges and agents arrive late at their
-activity locations. While MATSim provides more functionality, e.g. the replanning
+activity locations. While MATSim provides more functionality, e.g. replanning
 of agents plans to adapt to the traffic conditions that they perceive, only the
 network simulation is used in this research.
 
@@ -29,8 +28,7 @@ where to go and what to do. The ``lifecycle'' of a request is always the same:
 First, whenever an agent wants to depart from his current activity location by
 AV, a request is issued to the dispatcher and saved. Then, an AV needs to be sent
 to the customer. The choice which vehicle to send and when is completely defined
-by the dispatching algorithm. Once the vehicle arrives at the customer's location
-he is picked up, the AV drives to the destiation and finally drops him off. Then,
+by the dispatching algorithm. Once the vehicle arrives at the customer's location, the pickup is processed, the AV drives to the destiation and finally drops off the customer. Then,
 the vehicle is available for dispatching again. Alternatively, vehicles can be
 rebalanced, which simply means that the dispatcher gives an AV the instruction
 to drive to a different location. All of this is performed in the MATSim traffic
@@ -38,8 +36,8 @@ simulation such that AVs suffer from congestion as any other vehicle.
 
 It should be noted that AVs drive directly to the locations where agents finish and
 start their activities. So far no mechanism is implemented that would allow them
-to meet at optimized locations (e.g. a high-capacity avenue instead of a small
-alley).
+to meet at optimized locations, e.g. a high-capacity avenue instead of a small
+alley.
 
 \subsection{Scenario Definition}
 
@@ -65,7 +63,7 @@ the area or crossing the area) are deleted from the population as they do
 not contribute to the state of the traffic system in that area. Finally, a 1\%
 sample of the remaining agents is created, which is the basis for our
 simulations. The rather extensive downscaling becomes necessary for the computationally
-demanding algorithms, given that they need to be performed hundreds of times fater
+demanding algorithms, given that they need to be performed hundreds of times faster
 than reality to allow for multiple runs and iterations.
 
 In order to define the travel demand for the fleet of automated vehicles, agents
@@ -83,14 +81,10 @@ mode initially are still performed in this mode.
 For agents that use public transit, the procedure is different. Here, any leg
 that is performed by the ``pt'' mode in the original population is converted to ``av''
 if it lies within the study area. As for car users, connecting non-motorized
-legs are kept fixed.
+legs are kept fixed. Proceeding as outlined, a demand for Zurich is generated in which each leg that possibly
+\textit{can} be performed using an AV \textit{is} performed by AV.
 
-This way a demand for Zurich is generated where each leg that possibly
-\textit{can} be performed using an AV \textit{is} performed by AV. In that sense we
-simulate a scenario where 100\% of the AV travel demand must be served by the
-dispatchers.
-
-To summarize, the 8,230,971 agents in the population are decimated to
+To summarize, the 8,230,971 agents in the population are reduced to
 1,935,400 agents, which interfere with the study area. From this set of agents
 a 1\% sample has is drawn, leading to 13,141 agents that mainly constitute
 background traffic for congestion. Among those are 970 agents that are viable for the AV
@@ -132,7 +126,7 @@ not result in a significant increase in service level. In \citep{zhang2016contro
  a method is presented of how an AMoD system can be cast in a Jackson network.
  For such networks, queuing theoretical results allow the computation of
  performance measures such as vehicle wait times, queue lengths or
- availabilities at vertices. The quantity of interets is the availability
+ availabilities at vertices. The quantity of interest is the availability
  of a vehicle at a vertex, which is the probability that $1$ or more idle
  vehicles are at that vertex. Computation of the mean availability of all
  timesteps and vertices as a function of the fleet size for Zurich results
