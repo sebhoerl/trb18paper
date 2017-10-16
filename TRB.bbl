@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{30}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -40,7 +40,7 @@ Meyer, J., H.~Becker, P.~M. B{\"{o}}sch and K.~W. Axhausen (2017) {Autonomous
   Axhausen}]{Bosch2016a}
 B{\"{o}}sch, P.~M., F.~Becker, H.~Becker and K.~W. Axhausen (2017) {Future Cost
   Structures and Scenarios with Autonomous Vehicles}, \textit{Arbeitsberichte
-  Verkehrs- und Raumplanung}.
+  Verkehrs- und Raumplanung}, \textbf{1225}.
 
 \bibitem[{Horni et~al.(2016)Horni, Nagel and Axhausen}]{Horni2015}
 Horni, A., K.~Nagel and K.~W. Axhausen ({eds.}) (2016) \textit{{The Multi-Agent
@@ -97,10 +97,10 @@ Spieser, K., K.~Treleaven, R.~Zhang, E.~Frazzoli, D.~Morton and M.~Pavone
   mobility-on-demand systems: A case study in singapore, in \textit{Road
   Vehicle Automation}, 229--245, Springer.
 
-\bibitem[{Fagnant and Kockelman(2015)}]{fagnant2015dynamic}
-Fagnant, D.~J. and K.~M. Kockelman (2015) Dynamic ride-sharing and fleet sizing
+\bibitem[{Fagnant and Kockelman(2016)}]{fagnant2015dynamic}
+Fagnant, D.~J. and K.~M. Kockelman (2016) Dynamic ride-sharing and fleet sizing
   for a system of shared autonomous vehicles in austin, texas,
-  \textit{Transportation, Under review}.
+  \textit{Transportation}.
 
 \bibitem[{Zachariah et~al.(2014)Zachariah, Gao, Kornhauser and
   Mufti}]{zachariah2014uncongested}
@@ -132,9 +132,13 @@ R{\"u}schendorf, L. (1985) The wasserstein distance and approximation theorems,
 
 \bibitem[{Agarwal and Varadarajan(2004)}]{agarwal2004near}
 Agarwal, P. and K.~Varadarajan (2004) A near-linear constant-factor
-  approximation for euclidean bipartite matching?, paper presented at the
-  \textit{Proceedings of the twentieth annual symposium on Computational
-  geometry}, 247--252.
+  approximation for euclidean bipartite matching?, \textit{Proceedings of the
+  twentieth annual symposium on Computational geometry}, 247--252.
+
+\bibitem[{H{\"o}rl(2017)}]{horl_abmtrans17}
+H{\"o}rl, S. (2017) Agent-based simulation of autonomous taxi services with
+  dynamic demand responses, \textit{Procedia Computer Science}, \textbf{109},
+  899--904.
 
 \bibitem[{{Federal Statistical Office}(2012)}]{microcensus}
 {Federal Statistical Office} (2012) Microcensus on mobility and transport 2010.
@@ -153,9 +157,9 @@ B{\"o}sch, P.~M., K.~M{\"u}ller and F.~Ciari (2016) The ivt 2015 baseline
 TCS (2016) {Kosten eines Musterautos}, Webpage (last accessed 08.11.2016),
   \urlprefix\url{https://www.tcs.ch/de/auto-mobilitaet/autokosten/kosten-eines-musterautos.php}.
 
-\bibitem[{H{\"o}rl(2017)}]{horl_abmtrans17}
-H{\"o}rl, S. (2017) Agent-based simulation of autonomous taxi services with
-  dynamic demand responses, \textit{Procedia Computer Science}, \textbf{109},
-  899--904.
+\bibitem[{Becker and Axhausen(2017)}]{Becker2017}
+Becker, F. and K.~W. Axhausen (2017) {Predicting the use of automated vehicles.
+  [First results from the pilot survey]}, paper presented at the \textit{17th
+  Swiss Transport Research Conference}, Ascona.
 
 \end{thebibliography}

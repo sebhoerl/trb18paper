@@ -57,7 +57,7 @@ exchange all the pickup mileage in the system against rebalancing mileage, i.e. 
 control algorithm, this mileage stays constant, assuming that the origin-destination relations of the customers do not vary.
 \end{itemize}
 
-Mileage for maintenance and recharging is not further considered in this paper and subject to future research.
+Mileage for maintenance and recharging is not further considered in this paper and subject to future research. 
 Assuming a common pricing scheme that defines a price per distance, the customer mileage
 is the only component that produces a benefit for the operator. All other mileage
 can directly be translated into costs and should therefore be minimized. For general
@@ -71,6 +71,8 @@ The objectives for a fleet management algorithm can therefore be defined as:
 \item Minimize the total pickup distance given the non-optimal locations of the vehicles (dispatcher)
 \item Exchange as much pickup distance as possible for rebalancing distance (rebalancer)
 \end{enumerate}
+
+It is assumed that the operator does not know any demand patterns in advance. Furthermore, the analysis does not include ridesharing and its implications on fleet management algorithms.
 
 \subsection{Selected Algorithms}
 
@@ -112,7 +114,7 @@ until they reach their destination virtual node.
 \item The last implemented strategy is a novel derivation from \cite{pavone2011load}. Instead of a pure
 feedforward solution, here in every rebalancing timestep $\delta t_R$
 for every area of the virtual network the avaialble cars and open requests are counted
-and fed into an integer linear program derived from equation \ref{eq:linearprogram}
+and fed into a mixed integer linear program derived from equation \ref{eq:linearprogram}
 calculating the number of cars to be sent from virtual vertex $i$ to virtual vertex $j$.
 \end{enumerate}
 
