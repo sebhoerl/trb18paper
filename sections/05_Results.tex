@@ -22,9 +22,7 @@ achieved with a fleet of 10,000 vehicles for the heuristic, but with only 8,700
 for the feedback dispatcher.
 
 The measured wait times in Figure \ref{fig:mean_peak_waiting_times} can be compared
-with the theoretical fleet sizing in Figure \ref{fig:performanceavailability}: For the
-displayed fleet sizes a clear correspondance between wait time and the availability
-can be observed.
+with the vehicle availability in Figure \ref{fig:performanceavailability}. The two plots illustrate the theoretically confirmed correspondence \cite{zhang2016control} between vehicle availability of a closed Jackson network on a complete graph with the simulation's traffic data and the wait times. 
 
 \captionsetup[subfigure]{width=0.9\textwidth}
 
@@ -37,7 +35,7 @@ can be observed.
     \end{subfigure}\hfill
     \begin{subfigure}[t]{0.495\textwidth}
         \includegraphics[width=1.0\textwidth]{figures/availability.pdf}
-        \caption{Probability of at least one AV being available whenever a request comes in}
+        \caption{Vehicle availability of a closed Jackson network on a complete graph with the simulation's traffic data.}
         \label{fig:performanceavailability}
     \end{subfigure}
     \caption{Fleet performance metrics for different fleet sizes}
