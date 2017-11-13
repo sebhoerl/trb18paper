@@ -57,7 +57,7 @@ exchange all the pickup mileage in the system against rebalancing mileage, i.e. 
 control algorithm, this mileage stays constant, assuming that the origin-destination relations of the customers do not vary.
 \end{itemize}
 
-Mileage for maintenance and recharging is not further considered in this paper and subject to future research. 
+Mileage for maintenance and recharging is not further considered in this paper and subject to future research.
 Assuming a common pricing scheme that defines a price per distance, the customer mileage
 is the only component that produces a benefit for the operator. All other mileage
 can directly be translated into costs and should therefore be minimized. For general
@@ -93,7 +93,7 @@ assignments can be changed until a vehicle actually reaches its target.
 % REF? /sh:  For a given set of open requests and available vehicles, this strategy can be considered as the optimal dispatching strategy based on Euclidean distances.
 \item In \cite{pavone2011load} a feedforward strategy is presented on how to rebalance vehicles between different vertices
 in a directed graph $G = (V,E)$. For each vertex $i$ and time step $\delta_t$, the arrival rates $\lambda_i$ and transition probabilities $p_{ij}$ for
-any nodes $v_i, v_j \in V$  are computed from historical data. The linear program in equation \ref{eq:linearprogram}
+any nodes $v_i, v_j \in V$  are computed from historical dat. The linear program in equation \ref{eq:linearprogram}
 computes the optimal rebalancing flows $\alpha _{ij}$ for an equilibrium point of the underlying flow
 model with travel times $T_{i,j} \forall v_i, v_j \in V$.
 \begin{align}
@@ -110,7 +110,7 @@ figure \ref{fig:study_area_vnodes}. Available cars are continuously rebalanced b
 the vertices of the virtual network according to the static rebalancing rates $\alpha_{ij}$.
 As \cite{pavone2011load} does not detail the proposed dispatching algorithm for this strategy, we match
 cars using global Euclidean bipartite matching. Rebalancing vehicles cannot be dispatched
-until they reach their destination virtual node.
+until they reach a randomly assigned link attached to their destination virtual node.
 \item The last implemented strategy is a novel derivation from \cite{pavone2011load}. Instead of a pure
 feedforward solution, here in every rebalancing timestep $\delta t_R$
 for every area of the virtual network the avaialble cars and open requests are counted
